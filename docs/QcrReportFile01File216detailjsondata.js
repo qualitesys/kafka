@@ -263,14 +263,14 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN189600 the MagicNumber/String  'Attempt to retrieve value from future which hasn't successfully completed' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN190192 the MagicNumber/String  'Attempt to retrieve value from future which hasn't successfully completed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN190709 the MagicNumber/String  'Attempt to retrieve exception from future which hasn't failed' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN191301 the MagicNumber/String  'Attempt to retrieve exception from future which hasn't failed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -284,14 +284,14 @@ var maDataBlocs = {
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN191214 the MagicNumber/String  'The argument to complete can not be an instance of RuntimeException' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN191806 the MagicNumber/String  'The argument to complete can not be an instance of RuntimeException' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN191214 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.consumer.internals.RequestFuture.complete@POLYN191806 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -305,21 +305,21 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN191879 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN192471 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN191879 the MagicNumber/String  'The exception passed to raise must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN192471 the MagicNumber/String  'The exception passed to raise must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN191879 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN192471 the MagicNumber/String  'Invalid attempt to complete a request future which is already complete' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -347,14 +347,14 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN192620 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN193212 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN192620 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireSuccess@POLYN193212 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -368,14 +368,14 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN193025 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN193617 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN193025 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.internals.RequestFuture.fireFailure@POLYN193617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -410,42 +410,42 @@ var maDataBlocs = {
  , "c1" : "00239"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#239"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.consumer.internals.RequestFuture.voidSuccess@POLYN195609 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00239] In method org.apache.kafka.clients.consumer.internals.RequestFuture.voidSuccess@POLYN196201 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN189600"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN190192"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN190709"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN191301"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN192474"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN193066"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN189600 the MagicNumber/String 'Attempt to retrieve value from future which hasn't successfully completed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN190192 the MagicNumber/String 'Attempt to retrieve value from future which hasn't successfully completed' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN190709 the MagicNumber/String 'Attempt to retrieve exception from future which hasn't failed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN191301 the MagicNumber/String 'Attempt to retrieve exception from future which hasn't failed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

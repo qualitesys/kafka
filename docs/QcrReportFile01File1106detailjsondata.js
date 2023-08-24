@@ -245,14 +245,14 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.ExtendedAssignment@POLYN200771 the MagicNumber/String  'Revoked connector IDs may be empty but not null' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.ExtendedAssignment@POLYN201363 the MagicNumber/String  'Revoked connector IDs may be empty but not null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.ExtendedAssignment@POLYN200771 the MagicNumber/String  'Revoked task IDs may be empty but not null' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.ExtendedAssignment@POLYN201363 the MagicNumber/String  'Revoked task IDs may be empty but not null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -273,147 +273,147 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  'Assignment{' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  'Assignment{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  'error=' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  'error=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', leader='' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', leader='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', leaderUrl='' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', leaderUrl='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', connectorIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', connectorIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', taskIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', taskIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', revokedConnectorIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', revokedConnectorIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', revokedTaskIds=' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', revokedTaskIds=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  ', delay=' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  ', delay=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN203408 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toString@POLYN204000 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.revokedAsMap@POLYN204112 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.revokedAsMap@POLYN204704 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.revokedAsMap@POLYN204112 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.revokedAsMap@POLYN204704 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.revokedAsMap@POLYN204112 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.revokedAsMap@POLYN204704 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#195"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00195] For method toStruct list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.protocol.types.Struct&gt; taskAssignmentsN205710|java.util.Collection&lt;org.apache.kafka.common.protocol.types.Struct&gt; taskAssignmentsN205831"
+ , "c3" : "QC-JAV000007[00195] For method toStruct list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.protocol.types.Struct&gt; taskAssignmentsN206302|java.util.Collection&lt;org.apache.kafka.common.protocol.types.Struct&gt; taskAssignmentsN206423"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN205612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN206204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN205612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN206204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN205612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN206204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN205612 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.toStruct@POLYN206204 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -427,14 +427,14 @@ var maDataBlocs = {
  , "c1" : "00215"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.fromStruct@POLYN206760 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.fromStruct@POLYN207352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.fromStruct@POLYN206760 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.fromStruct@POLYN207352 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -448,14 +448,14 @@ var maDataBlocs = {
  , "c1" : "00231"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.taskAssignments@POLYN207632 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.taskAssignments@POLYN208224 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.taskAssignments@POLYN207632 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.taskAssignments@POLYN208224 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -469,7 +469,7 @@ var maDataBlocs = {
  , "c1" : "00242"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#242"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00242] For method extractConnectors list of called methods Object monObjet|java.lang.Object[] struct_getArrayN208686|java.util.Collection&lt;java.lang.String&gt; assignment_getStringN209168"
+ , "c3" : "QC-JAV000007[00242] For method extractConnectors list of called methods Object monObjet|java.lang.Object[] struct_getArrayN209278|java.util.Collection&lt;java.lang.String&gt; assignment_getStringN209760"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -539,7 +539,7 @@ var maDataBlocs = {
  , "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractConnectors@POLYN208423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractConnectors@POLYN209015 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -553,7 +553,7 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#263"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00263] For method extractTasks list of called methods Object monObjet|java.lang.Object[] struct_getArrayN209902|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; assignment_getStringN210384"
+ , "c3" : "QC-JAV000007[00263] For method extractTasks list of called methods Object monObjet|java.lang.Object[] struct_getArrayN210494|java.util.Collection&lt;org.apache.kafka.connect.util.ConnectorTaskId&gt; assignment_getStringN210976"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -623,35 +623,35 @@ var maDataBlocs = {
  , "c1" : "00267"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractTasks@POLYN209639 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractTasks@POLYN210231 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractConnectors@POLYN208423"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractConnectors@POLYN209015"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractTasks@POLYN209639"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractTasks@POLYN210231"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#246"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractConnectors@POLYN208423 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractConnectors@POLYN209015 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedAssignment.java.html#267"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractTasks@POLYN209639 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.connect.runtime.distributed.ExtendedAssignment.extractTasks@POLYN210231 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

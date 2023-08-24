@@ -149,7 +149,7 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.record.ControlRecordUtils.deserializeLeaderChangeMessage@POLYN159641 the MagicNumber/String  'Expected LEADER_CHANGE control record type(2), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.record.ControlRecordUtils.deserializeLeaderChangeMessage@POLYN160233 the MagicNumber/String  'Expected LEADER_CHANGE control record type(2), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -184,7 +184,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotHeaderRecord@POLYN160426 the MagicNumber/String  'Expected SNAPSHOT_HEADER control record type(3), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotHeaderRecord@POLYN161018 the MagicNumber/String  'Expected SNAPSHOT_HEADER control record type(3), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -219,7 +219,7 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ControlRecordUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotFooterRecord@POLYN161211 the MagicNumber/String  'Expected SNAPSHOT_FOOTER control record type(4), but found ' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.record.ControlRecordUtils.deserializedSnapshotFooterRecord@POLYN161803 the MagicNumber/String  'Expected SNAPSHOT_FOOTER control record type(4), but found ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

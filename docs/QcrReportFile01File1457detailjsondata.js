@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "4"
  , "c4" : "3"
- , "c5" : ["1" , "java.io.InputStream.skip@POLYN257536.remaining"]
+ , "c5" : ["1" , "java.io.InputStream.skip@POLYN258128.remaining"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -146,31 +146,31 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00177]"
- , "c3" : ["1" , "---java.io.InputStream.read@POLYN255230.dummymethode_00177" , "java.io.InputStream.read@POLYN255230.i"]
- , "c4" : "//QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN255230[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["1" , "---java.io.InputStream.read@POLYN255822.dummymethode_00177" , "java.io.InputStream.read@POLYN255822.i"]
+ , "c4" : "//QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN255822[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00188]"
- , "c3" : ["java.io.InputStream.read@POLYN255230.i" , "---java.io.InputStream.read@POLYN255230.dummymethode_00188" , "java.io.InputStream.read@POLYN255230.return"]
- , "c4" : "//QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN255230[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.InputStream.read@POLYN255822.i" , "---java.io.InputStream.read@POLYN255822.dummymethode_00188" , "java.io.InputStream.read@POLYN255822.return"]
+ , "c4" : "//QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN255822[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
  , "sourcenoligne" : "[00225]"
- , "c3" : ["java.io.InputStream.read@POLYN255230.return" , "---java.io.InputStream.read@POLYN255230" , "java.io.InputStream.skip@POLYN257536.nr"]
- , "c4" : "//QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN257536[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : ["java.io.InputStream.read@POLYN255822.return" , "---java.io.InputStream.read@POLYN255822" , "java.io.InputStream.skip@POLYN258128.nr"]
+ , "c4" : "//QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN258128[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "4"
  , "sourcenoligne" : "[00230]"
- , "c3" : ["java.io.InputStream.skip@POLYN257536.nr" , "---java.io.InputStream.skip@POLYN257536.dummymethode_00230" , "java.io.InputStream.skip@POLYN257536.remaining"]
+ , "c3" : ["java.io.InputStream.skip@POLYN258128.nr" , "---java.io.InputStream.skip@POLYN258128.dummymethode_00230" , "java.io.InputStream.skip@POLYN258128.remaining"]
  , "c4" : ""
  , "c5" : "none"
 }}
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method java.io.InputStream.read@POLYN252071 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method java.io.InputStream.read@POLYN252663 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -296,7 +296,7 @@ var maDataBlocs = {
  , "c1" : "00162"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#162"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00162] For method read list of called methods Object monObjet|int readN255878"
+ , "c3" : "QC-JAV000007[00162] For method read list of called methods Object monObjet|int readN256470"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -310,63 +310,63 @@ var maDataBlocs = {
  , "c1" : "00163"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method java.io.InputStream.read@POLYN255230 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method java.io.InputStream.read@POLYN255822 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -380,56 +380,56 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#211"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method skip list of called methods Object monObjet|int readN258127"
+ , "c3" : "QC-JAV000007[00211] For method skip list of called methods Object monObjet|int readN258719"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method java.io.InputStream.skip@POLYN257536 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method java.io.InputStream.skip@POLYN258128 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method java.io.InputStream.skip@POLYN257536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method java.io.InputStream.skip@POLYN258128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method java.io.InputStream.skip@POLYN257536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method java.io.InputStream.skip@POLYN258128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method java.io.InputStream.skip@POLYN257536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method java.io.InputStream.skip@POLYN258128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method java.io.InputStream.skip@POLYN257536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method java.io.InputStream.skip@POLYN258128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method java.io.InputStream.skip@POLYN257536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method java.io.InputStream.skip@POLYN258128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method java.io.InputStream.available@POLYN259418 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method java.io.InputStream.available@POLYN260010 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -457,14 +457,14 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method java.io.InputStream.reset@POLYN262540 the MagicNumber/String  'mark/reset not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method java.io.InputStream.reset@POLYN263132 the MagicNumber/String  'mark/reset not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method java.io.InputStream.markSupported@POLYN263168 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method java.io.InputStream.markSupported@POLYN263760 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -499,21 +499,21 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#225"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN257536[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN258128[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#188"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN255230[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN255822[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN255230[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[00177] In java.io.InputStream.read@POLYN255822[00177] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
 }} 
 ]
 , 

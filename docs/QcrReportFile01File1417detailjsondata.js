@@ -120,52 +120,52 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.raft.ReplicatedCounter.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438.reader" }
+{ "ligne" :  "R1:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030.reader" }
 ,
-{ "ligne" :  "R2:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916.reader" }
+{ "ligne" :  "R2:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508.reader" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209.newLeader" }
+{ "ligne" :  "R3:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801.newLeader" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 (R0 in line [00076],R1 in line [00076])" }
+{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438.dummymethode_00078" }
+{ "ligne" : "S0:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030.dummymethode_00078" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 (R0 in line [00139],R2 in line [00139])" }
+{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 (R0 in line [00139],R2 in line [00139])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916.dummymethode_00141" }
+{ "ligne" : "S1:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508.dummymethode_00141" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 (R0 in line [00169],R3 in line [00169])" }
+{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 (R0 in line [00169],R3 in line [00169])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 (R0 in line [00169],R3 in line [00169])" }
+{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 (R0 in line [00169],R3 in line [00169])" }
 ,
-{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209.dummymethode_00173" }
+{ "ligne" : "S2:org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801.dummymethode_00173" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 (R0 in line [00076],R1 in line [00076])" }
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 (R0 in line [00076],R1 in line [00076])" }
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 (R0 in line [00076],R1 in line [00076])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438.dummymethode_00078" }
+{ "ligne" : "S3:org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030.dummymethode_00078" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "4" , "pas" : [
-{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 (R0 in line [00139],R2 in line [00139])" }
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 (R0 in line [00139],R2 in line [00139])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 (R0 in line [00139],R2 in line [00139])" }
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 (R0 in line [00139],R2 in line [00139])" }
 ,
-{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916.dummymethode_00141" }
+{ "ligne" : "S4:org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508.dummymethode_00141" }
  ]
  } }
 ]
@@ -257,28 +257,28 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String  'Counter is not currently writable' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String  'Counter is not currently writable' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String  'Scheduled append of record {} with epoch {} at offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String  'Scheduled append of record {} with epoch {} at offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String  'Appending failed, transition to resigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String  'Appending failed, transition to resigned' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,63 +320,63 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  'Handle commit of batch with records {} at base offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  'Handle commit of batch with records {} at base offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  'Expected next committed value to be %d, but instead found %d on node %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  'Expected next committed value to be %d, but instead found %d on node %d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  'Counter incremented from {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  'Counter incremented from {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String  'Generating new snapshot with committed offset {} and epoch {} since the previoud snapshot includes {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String  'Generating new snapshot with committed offset {} and epoch {} since the previoud snapshot includes {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,42 +418,42 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String  'Loading snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String  'Loading snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String  'Expected the snapshot at %s to only contain one record %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String  'Expected the snapshot at %s to only contain one record %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String  'Setting value: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String  'Setting value: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String  'Finished loading snapshot. Set value: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String  'Finished loading snapshot. Set value: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -481,28 +481,28 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String  'Counter uncommitted value initialized to {} after claiming leadership in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String  'Counter uncommitted value initialized to {} after claiming leadership in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String  'Counter uncommitted value reset after resigning leadership' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String  'Counter uncommitted value reset after resigning leadership' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -516,210 +516,210 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438.reader"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030.reader"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916.reader"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508.reader"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209.newLeader"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801.newLeader"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String 'Counter is not currently writable' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String 'Counter is not currently writable' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#64"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00064] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String 'Scheduled append of record {} with epoch {} at offset {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00067] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String 'Scheduled append of record {} with epoch {} at offset {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN171569 the MagicNumber/String 'Appending failed, transition to resigned' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN172161 the MagicNumber/String 'Appending failed, transition to resigned' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#81"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 'Handle commit of batch with records {} at base offset {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 'Handle commit of batch with records {} at base offset {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#91"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 'Expected next committed value to be %d, but instead found %d on node %d' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 'Expected next committed value to be %d, but instead found %d on node %d' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#95"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#108"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 'Counter incremented from {} to {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 'Counter incremented from {} to {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#112"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN172438 the MagicNumber/String 'Generating new snapshot with committed offset {} and epoch {} since the previoud snapshot includes {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN173030 the MagicNumber/String 'Generating new snapshot with committed offset {} and epoch {} since the previoud snapshot includes {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#141"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String 'Loading snapshot {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00141] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String 'Loading snapshot {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#147"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String 'Expected the snapshot at %s to only contain one record %s' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00147] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String 'Expected the snapshot at %s to only contain one record %s' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String 'Setting value: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String 'Setting value: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#162"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN174916 the MagicNumber/String 'Finished loading snapshot. Set value: {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00162] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN175508 the MagicNumber/String 'Finished loading snapshot. Set value: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String 'Counter uncommitted value initialized to {} after claiming leadership in epoch {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String 'Counter uncommitted value initialized to {} after claiming leadership in epoch {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String 'Counter uncommitted value reset after resigning leadership' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String 'Counter uncommitted value reset after resigning leadership' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#180"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176209 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN176801 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

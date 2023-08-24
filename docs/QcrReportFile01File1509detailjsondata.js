@@ -225,14 +225,14 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN188980 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN189572 the MagicNumber/String  'Not processing {} because the event queue is closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN188980 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN189572 the MagicNumber/String  'Unexpected error handling {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,21 +281,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN188980"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN189572"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN188980 the MagicNumber/String 'Not processing {} because the event queue is closed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN189572 the MagicNumber/String 'Not processing {} because the event queue is closed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN188980 the MagicNumber/String 'Unexpected error handling {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.queue.EventQueue.FailureLoggingEvent.handleException@POLYN189572 the MagicNumber/String 'Unexpected error handling {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

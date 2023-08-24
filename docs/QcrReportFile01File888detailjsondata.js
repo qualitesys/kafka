@@ -386,7 +386,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedInt@POLYN225370 the MagicNumber/String  0xffffffffL should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedInt@POLYN225962 the MagicNumber/String  0xffffffffL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -407,7 +407,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedInt@POLYN225703 the MagicNumber/String  0xffffffffL should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedInt@POLYN226295 the MagicNumber/String  0xffffffffL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -449,21 +449,21 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226068 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226660 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226068 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226660 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226068 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226660 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -477,77 +477,77 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN226689 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedIntLE@POLYN227281 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -568,7 +568,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedInt@POLYN227601 the MagicNumber/String  0xffffffffL should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedInt@POLYN228193 the MagicNumber/String  0xffffffffL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -589,7 +589,7 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedInt@POLYN228008 the MagicNumber/String  0xffffffffL should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedInt@POLYN228600 the MagicNumber/String  0xffffffffL should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -610,21 +610,21 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN228371 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN228963 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN228371 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN228963 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN228371 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN228963 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -638,42 +638,42 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229014 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229606 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229014 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229606 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229014 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229606 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229014 the MagicNumber/String  16 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229606 the MagicNumber/String  16 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229014 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229606 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229014 the MagicNumber/String  24 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedIntLE@POLYN229606 the MagicNumber/String  24 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -701,49 +701,49 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN229991 the MagicNumber/String  28 should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN230583 the MagicNumber/String  28 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -757,7 +757,7 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#166"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00166] For method readUnsignedVarint list of called methods Object monObjet|byte in_readByteN231394"
+ , "c3" : "QC-JAV000007[00166] For method readUnsignedVarint list of called methods Object monObjet|byte in_readByteN231986"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -778,49 +778,49 @@ var maDataBlocs = {
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231093 the MagicNumber/String  28 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.utils.ByteUtils.readUnsignedVarint@POLYN231685 the MagicNumber/String  28 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -834,21 +834,21 @@ var maDataBlocs = {
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#189"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00189] For method readVarint list of called methods Object monObjet|int readUnsignedVarintN232261"
+ , "c3" : "QC-JAV000007[00189] For method readVarint list of called methods Object monObjet|int readUnsignedVarintN232853"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN232162 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN232754 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN232162 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN232754 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -862,21 +862,21 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#204"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method readVarint list of called methods Object monObjet|int readUnsignedVarintN232881"
+ , "c3" : "QC-JAV000007[00204] For method readVarint list of called methods Object monObjet|int readUnsignedVarintN233473"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN232770 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN233362 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN232770 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.utils.ByteUtils.readVarint@POLYN233362 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -890,7 +890,7 @@ var maDataBlocs = {
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#219"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00219] For method readVarlong list of called methods Object monObjet|byte in_readByteN233694"
+ , "c3" : "QC-JAV000007[00219] For method readVarlong list of called methods Object monObjet|byte in_readByteN234286"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -911,63 +911,63 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  63 should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  63 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233393 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN233985 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -995,63 +995,63 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  63 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  63 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN234588 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.common.utils.ByteUtils.readVarlong@POLYN235180 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1100,35 +1100,35 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236225 the MagicNumber/String  0xffffff80 should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236817 the MagicNumber/String  0xffffff80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236225 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236817 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236225 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236817 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236225 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236817 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236225 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN236817 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1149,35 +1149,35 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237007 the MagicNumber/String  0xffffff80 should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237599 the MagicNumber/String  0xffffff80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237007 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237599 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237007 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237599 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237007 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237599 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237007 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.utils.ByteUtils.writeUnsignedVarint@POLYN237599 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1191,14 +1191,14 @@ var maDataBlocs = {
  , "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN237807 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN238399 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN237807 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN238399 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1212,14 +1212,14 @@ var maDataBlocs = {
  , "c1" : "00331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN238299 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN238891 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN238299 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.common.utils.ByteUtils.writeVarint@POLYN238891 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1240,49 +1240,49 @@ var maDataBlocs = {
  , "c1" : "00343"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  63 should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  63 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  0xffffffffffffff80L should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  0xffffffffffffff80L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00346"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#346"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN238779 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00346] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239371 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1303,49 +1303,49 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  63 should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  63 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00361"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  0xffffffffffffff80L should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  0xffffffffffffff80L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00361"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  0x7f should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  0x7f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  0x80 should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  0x80 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00364"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN239671 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.common.utils.ByteUtils.writeVarlong@POLYN240263 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1387,35 +1387,35 @@ var maDataBlocs = {
  , "c1" : "00396"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#396"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00396] For method sizeOfUnsignedVarint list of called methods Object monObjet|int Integer_numberOfLeadingZerosN241306"
+ , "c3" : "QC-JAV000007[00396] For method sizeOfUnsignedVarint list of called methods Object monObjet|int Integer_numberOfLeadingZerosN241898"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241207 the MagicNumber/String  38 should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241799 the MagicNumber/String  38 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241207 the MagicNumber/String  0b10010010010010011 should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241799 the MagicNumber/String  0b10010010010010011 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00410"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241207 the MagicNumber/String  19 should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241799 the MagicNumber/String  19 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00411"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#411"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241207 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00411] In method org.apache.kafka.common.utils.ByteUtils.sizeOfUnsignedVarint@POLYN241799 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1429,14 +1429,14 @@ var maDataBlocs = {
  , "c1" : "00420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarint@POLYN241749 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarint@POLYN242341 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarint@POLYN241749 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarint@POLYN242341 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1450,49 +1450,49 @@ var maDataBlocs = {
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#429"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00429] For method sizeOfVarlong list of called methods Object monObjet|int Long_numberOfLeadingZerosN242393"
+ , "c3" : "QC-JAV000007[00429] For method sizeOfVarlong list of called methods Object monObjet|int Long_numberOfLeadingZerosN242985"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242123 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242715 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242123 the MagicNumber/String  63 should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242715 the MagicNumber/String  63 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242123 the MagicNumber/String  70 should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242715 the MagicNumber/String  70 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242123 the MagicNumber/String  0b10010010010010011 should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242715 the MagicNumber/String  0b10010010010010011 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242123 the MagicNumber/String  19 should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242715 the MagicNumber/String  19 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00438"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#438"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242123 the MagicNumber/String  6 should be converted to const"
+ , "c3" : "QC-JAV000010[00438] In method org.apache.kafka.common.utils.ByteUtils.sizeOfVarlong@POLYN242715 the MagicNumber/String  6 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1506,14 +1506,14 @@ var maDataBlocs = {
  , "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.common.utils.ByteUtils.illegalVarintException@POLYN242744 the MagicNumber/String  'Varint is too long, the most significant bit in the 5th byte is set, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.common.utils.ByteUtils.illegalVarintException@POLYN243336 the MagicNumber/String  'Varint is too long, the most significant bit in the 5th byte is set, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.common.utils.ByteUtils.illegalVarintException@POLYN242744 the MagicNumber/String  'converted value: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.common.utils.ByteUtils.illegalVarintException@POLYN243336 the MagicNumber/String  'converted value: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1527,14 +1527,14 @@ var maDataBlocs = {
  , "c1" : "00447"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#447"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.common.utils.ByteUtils.illegalVarlongException@POLYN242982 the MagicNumber/String  'Varlong is too long, most significant bit in the 10th byte is set, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00447] In method org.apache.kafka.common.utils.ByteUtils.illegalVarlongException@POLYN243574 the MagicNumber/String  'Varlong is too long, most significant bit in the 10th byte is set, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00448"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteUtils.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.common.utils.ByteUtils.illegalVarlongException@POLYN242982 the MagicNumber/String  'converted value: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.common.utils.ByteUtils.illegalVarlongException@POLYN243574 the MagicNumber/String  'converted value: ' should be converted to const"
 }} 
 ]
 , 

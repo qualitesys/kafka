@@ -1246,6 +1246,7 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback"} ,
    {"caller" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule"} ,
    {"caller" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback"} ,
+   {"caller" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback"} ,
    {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient"} ,
    {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient.OAuthBearerSaslClientFactory"} ,
    {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClientCallbackHandler"} ,
@@ -5875,14 +5876,6 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "org.apache.kafka.common.requests.ByteBufferChannel" , "callers" : [
    {"caller" : "org.apache.kafka.jmh.common.FetchRequestBenchmark"} ,
    {"caller" : "org.apache.kafka.jmh.common.FetchResponseBenchmark"} ,
-   ]},
-   { "undefinedclass" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback" , "callers" : [
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer"} ,
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer.OAuthBearerSaslServerFactory"} ,
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler"} ,
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler"} ,
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler.RefCountingVerificationKeyResolver"} ,
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler.VerificationKeyResolverKey"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.connect.connector.ConnectRecord" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.ConnectorConfig"} ,

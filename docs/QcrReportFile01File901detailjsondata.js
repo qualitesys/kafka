@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#124"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method addToListTail list of called methods Object monObjet|int head_prevN254739|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN254816|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN254948"
+ , "c3" : "QC-JAV000007[00124] For method addToListTail list of called methods Object monObjet|int head_prevN255331|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN255408|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN255540"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -447,63 +447,63 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#134"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00134] For method removeFromList list of called methods Object monObjet|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN255488|int element_prevN255705|int element_nextN255782|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN255859|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN255991"
+ , "c3" : "QC-JAV000007[00134] For method removeFromList list of called methods Object monObjet|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN256080|int element_prevN256297|int element_nextN256374|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN256451|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN256583"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeFromList@POLYN255337 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeFromList@POLYN255929 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.ImplicitLinkedHashCollectionIterator@POLYN256582 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.ImplicitLinkedHashCollectionIterator@POLYN257174 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.ImplicitLinkedHashCollectionIterator@POLYN256582 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.ImplicitLinkedHashCollectionIterator@POLYN257174 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.next@POLYN257443 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.next@POLYN258035 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.previous@POLYN258033 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.previous@POLYN258625 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.previousIndex@POLYN258781 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.previousIndex@POLYN259373 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.remove@POLYN258897 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.remove@POLYN259489 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.remove@POLYN258897 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionIterator.remove@POLYN259489 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -531,7 +531,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionListView.listIterator@POLYN259934 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollectionListView.listIterator@POLYN260526 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -559,7 +559,7 @@ var maDataBlocs = {
  , "c1" : "00301"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.iterator@POLYN261675 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.iterator@POLYN262267 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -587,7 +587,7 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN261961 the MagicNumber/String  0x7fffffff should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN262553 the MagicNumber/String  0x7fffffff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -608,35 +608,35 @@ var maDataBlocs = {
  , "c1" : "00324"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN262536 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN263128 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN262536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN263128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN262536 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN263128 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN262536 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN263128 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN262536 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.findIndexOfEqualElement@POLYN263128 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -650,21 +650,21 @@ var maDataBlocs = {
  , "c1" : "00348"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#348"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00348] For method find list of called methods Object monObjet|int findIndexOfEqualElementN263822"
+ , "c3" : "QC-JAV000007[00348] For method find list of called methods Object monObjet|int findIndexOfEqualElementN264414"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.find@POLYN263723 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.find@POLYN264315 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.find@POLYN263723 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.find@POLYN264315 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -685,14 +685,14 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.calculateCapacity@POLYN264685 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.calculateCapacity@POLYN265277 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.calculateCapacity@POLYN264685 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.calculateCapacity@POLYN265277 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -706,63 +706,63 @@ var maDataBlocs = {
  , "c1" : "00393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#393"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00393] For method add list of called methods Object monObjet|int addInternalN265830"
+ , "c3" : "QC-JAV000007[00393] For method add list of called methods Object monObjet|int addInternalN266422"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00394"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00407"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265173 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.add@POLYN265765 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -776,7 +776,7 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.mustAdd@POLYN266203 the MagicNumber/String  'Unable to add ' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.mustAdd@POLYN266795 the MagicNumber/String  'Unable to add ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -804,28 +804,28 @@ var maDataBlocs = {
  , "c1" : "00428"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN266656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN267248 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN266656 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN267248 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN266656 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN267248 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN266656 the MagicNumber/String  'Not enough hash table slots to add a new element.' should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.addInternal@POLYN267248 the MagicNumber/String  'Not enough hash table slots to add a new element.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -839,7 +839,7 @@ var maDataBlocs = {
  , "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#442"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00442] For method changeCapacity list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN268003|int addInternalN268257"
+ , "c3" : "QC-JAV000007[00442] For method changeCapacity list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN268595|int addInternalN268849"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -860,21 +860,21 @@ var maDataBlocs = {
  , "c1" : "00465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#465"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00465] For method remove list of called methods Object monObjet|int findElementToRemoveN268939"
+ , "c3" : "QC-JAV000007[00465] For method remove list of called methods Object monObjet|int findElementToRemoveN269531"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00468"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#468"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.remove@POLYN268840 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00468] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.remove@POLYN269432 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.remove@POLYN268840 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.remove@POLYN269432 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -902,42 +902,42 @@ var maDataBlocs = {
  , "c1" : "00488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN269481 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN270073 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN269481 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN270073 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00494"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#494"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN269481 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN270073 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00497"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#497"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN269481 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00497] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN270073 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00506"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#506"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN269481 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00506] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN270073 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN269481 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.removeElementAtSlot@POLYN270073 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -951,7 +951,7 @@ var maDataBlocs = {
  , "c1" : "00511"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#511"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00511] For method reseat list of called methods Object monObjet|int slotN270840|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN271604|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN271827"
+ , "c3" : "QC-JAV000007[00511] For method reseat list of called methods Object monObjet|int slotN271432|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN272196|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN272419"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -965,35 +965,35 @@ var maDataBlocs = {
  , "c1" : "00514"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN270659 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN271251 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00516"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#516"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN270659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00516] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN271251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00519"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#519"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN270659 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00519] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN271251 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00528"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#528"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN270659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.reseat@POLYN271251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollection@POLYN272218 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollection@POLYN272810 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1007,7 +1007,7 @@ var maDataBlocs = {
  , "c1" : "00557"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#557"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollection@POLYN272697 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00557] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.ImplicitLinkedHashCollection@POLYN273289 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1021,7 +1021,7 @@ var maDataBlocs = {
  , "c1" : "00575"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#575"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00575] For method moveToEnd list of called methods Object monObjet|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN273636|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN273788|int prevElement_nextN273940"
+ , "c3" : "QC-JAV000007[00575] For method moveToEnd list of called methods Object monObjet|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN274228|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN274380|int prevElement_nextN274532"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1035,14 +1035,14 @@ var maDataBlocs = {
  , "c1" : "00577"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.moveToEnd@POLYN273264 the MagicNumber/String  'Element ' should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.moveToEnd@POLYN273856 the MagicNumber/String  'Element ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00577"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#577"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.moveToEnd@POLYN273264 the MagicNumber/String  ' is not in the collection.' should be converted to const"
+ , "c3" : "QC-JAV000010[00577] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.moveToEnd@POLYN273856 the MagicNumber/String  ' is not in the collection.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1056,21 +1056,21 @@ var maDataBlocs = {
  , "c1" : "00592"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#592"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00592] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.clear@POLYN274374 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00592] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.clear@POLYN274966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00596"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#596"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.clear@POLYN274374 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00596] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.clear@POLYN274966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00600"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#600"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.clear@POLYN274374 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.clear@POLYN274966 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1084,14 +1084,14 @@ var maDataBlocs = {
  , "c1" : "00626"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#626"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00626] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.equals@POLYN275743 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00626] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.equals@POLYN276335 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00629"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.equals@POLYN275743 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.equals@POLYN276335 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1112,14 +1112,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN261961"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN262553"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#309"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN261961 the MagicNumber/String 0x7fffffff MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN262553 the MagicNumber/String 0x7fffffff MUST BE CONVERTED to const"
 }} 
 ]
 , 

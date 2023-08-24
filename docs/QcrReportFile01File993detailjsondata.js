@@ -148,35 +148,35 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN161762 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN162354 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN161762 the MagicNumber/String  'Failed to deserialize value for header '' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN162354 the MagicNumber/String  'Failed to deserialize value for header '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN161762 the MagicNumber/String  '' on topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN162354 the MagicNumber/String  '' on topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN161762 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN162354 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN161762 the MagicNumber/String  'Failed to deserialize value for header '{}' on topic '{}', so using byte array' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.toConnectHeader@POLYN162354 the MagicNumber/String  'Failed to deserialize value for header '{}' on topic '{}', so using byte array' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -190,14 +190,14 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN162922 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN163514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/SimpleHeaderConverter.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN162922 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.connect.storage.SimpleHeaderConverter.fromConnectHeader@POLYN163514 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

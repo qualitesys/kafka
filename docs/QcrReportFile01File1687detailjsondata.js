@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl internalProcessorContext_metricsN187021|java.lang.Long internalProcessorContext_processorMetadataForKeyN188050|long StreamsConfig_InternalConfig_getLongN188291"
+ , "c3" : "QC-JAV000007[00071] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl internalProcessorContext_metricsN187613|java.lang.Long internalProcessorContext_processorMetadataForKeyN188642|long StreamsConfig_InternalConfig_getLongN188883"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -239,14 +239,14 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.init@POLYN186618 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.init@POLYN187210 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.init@POLYN186618 the MagicNumber/String  1000L should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.init@POLYN187210 the MagicNumber/String  1000L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.maybeForwardUpdate@POLYN188862 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.maybeForwardUpdate@POLYN189454 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,7 +281,7 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.maybeForwardFinalResult@POLYN189587 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.maybeForwardFinalResult@POLYN190179 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -309,91 +309,91 @@ var maDataBlocs = {
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#142"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'Skipping record for expired window. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00142] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'Skipping record for expired window. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'topic=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'topic=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'partition=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'partition=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'offset=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'offset=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'timestamp=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'timestamp=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'window={} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'window={} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'expiration=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'expiration=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'streamTime=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'streamTime=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'Skipping record for expired window. Topic, partition, and offset not known. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'Skipping record for expired window. Topic, partition, and offset not known. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'timestamp=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'timestamp=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'window={} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'window={} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'expiration=[{}] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'expiration=[{}] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190297 the MagicNumber/String  'streamTime=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.logSkippedRecordForExpiredWindow@POLYN190889 the MagicNumber/String  'streamTime=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -414,21 +414,21 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00177] For method shouldEmitFinal list of called methods Object monObjet|long internalProcessorContext_currentSystemTimeMsN191881"
+ , "c3" : "QC-JAV000007[00177] For method shouldEmitFinal list of called methods Object monObjet|long internalProcessorContext_currentSystemTimeMsN192473"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.shouldEmitFinal@POLYN191637 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.shouldEmitFinal@POLYN192229 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.shouldEmitFinal@POLYN191637 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.shouldEmitFinal@POLYN192229 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -456,14 +456,14 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192264 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192856 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192264 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192856 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -491,21 +491,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192264"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192856"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#206"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192264 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192856 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/AbstractKStreamTimeWindowAggregateProcessor.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192264 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.streams.kstream.internals.AbstractKStreamTimeWindowAggregateProcessor.fetchAndEmit@POLYN192856 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -321,77 +321,77 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN186597 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.controller.QuorumControllerMetrics.QuorumControllerMetrics@POLYN187189 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -489,7 +489,7 @@ var maDataBlocs = {
  , "c1" : "00293"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumControllerMetrics.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN193892 the MagicNumber/String  'kafka.controller' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.controller.QuorumControllerMetrics.getMetricName@POLYN194484 the MagicNumber/String  'kafka.controller' should be converted to const"
 }} 
 ]
 , 

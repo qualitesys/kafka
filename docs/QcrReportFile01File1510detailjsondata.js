@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.queue.KafkaEventQueue.EventContext.run@POLYN203626 the MagicNumber/String  'Unexpected exception in handleException' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.queue.KafkaEventQueue.EventContext.run@POLYN204218 the MagicNumber/String  'Unexpected exception in handleException' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -250,7 +250,7 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.run@POLYN205304 the MagicNumber/String  'event handler thread exiting with exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.run@POLYN205896 the MagicNumber/String  'event handler thread exiting with exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -271,14 +271,14 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.remove@POLYN205604 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.remove@POLYN206196 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.remove@POLYN205604 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.remove@POLYN206196 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,56 +299,56 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206229 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.handleEvents@POLYN206821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -376,63 +376,63 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  'You must specify a deadline for deferred events.' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  'You must specify a deadline for deferred events.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209139 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.enqueue@POLYN209731 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -446,7 +446,7 @@ var maDataBlocs = {
  , "c1" : "00327"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.cancelDeferred@POLYN211814 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.queue.KafkaEventQueue.EventHandler.cancelDeferred@POLYN212406 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -460,21 +460,21 @@ var maDataBlocs = {
  , "c1" : "00366"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN212888 the MagicNumber/String  'EventHandler' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN213480 the MagicNumber/String  'EventHandler' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN212888 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN213480 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN212888 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN213480 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -488,14 +488,14 @@ var maDataBlocs = {
  , "c1" : "00374"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#374"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00374] For method enqueue list of called methods Object monObjet|java.lang.Exception eventHandler_enqueueN214086"
+ , "c3" : "QC-JAV000007[00374] For method enqueue list of called methods Object monObjet|java.lang.Exception eventHandler_enqueueN214678"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.queue.KafkaEventQueue.enqueue@POLYN213740 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.queue.KafkaEventQueue.enqueue@POLYN214332 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -523,133 +523,133 @@ var maDataBlocs = {
  , "c1" : "00393"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00394"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String  'beginShutdown must be called with a ' should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String  'beginShutdown must be called with a ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String  'non-negative timeout.' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String  'non-negative timeout.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String  '{}: Event queue is already shutting down.' should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String  '{}: Event queue is already shutting down.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String  '{}: shutting down event queue.' should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String  '{}: shutting down event queue.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.queue.KafkaEventQueue.close@POLYN215766 the MagicNumber/String  'KafkaEventQueue#close' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.queue.KafkaEventQueue.close@POLYN216358 the MagicNumber/String  'KafkaEventQueue#close' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.queue.KafkaEventQueue.close@POLYN215766 the MagicNumber/String  'closed event queue.' should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.queue.KafkaEventQueue.close@POLYN216358 the MagicNumber/String  'closed event queue.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.cancelDeferred@POLYN214333"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.cancelDeferred@POLYN214925"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.close@POLYN215766"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.queue.KafkaEventQueue.close@POLYN216358"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00394"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#394"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String 'beginShutdown must be called with a ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00394] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String 'beginShutdown must be called with a ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String 'non-negative timeout.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String 'non-negative timeout.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#400"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#401"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String '{}: Event queue is already shutting down.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String '{}: Event queue is already shutting down.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN214481 the MagicNumber/String '{}: shutting down event queue.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN215073 the MagicNumber/String '{}: shutting down event queue.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#422"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.queue.KafkaEventQueue.close@POLYN215766 the MagicNumber/String 'KafkaEventQueue#close' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00422] In the recursive method org.apache.kafka.queue.KafkaEventQueue.close@POLYN216358 the MagicNumber/String 'KafkaEventQueue#close' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/KafkaEventQueue.java.html#424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.queue.KafkaEventQueue.close@POLYN215766 the MagicNumber/String 'closed event queue.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.queue.KafkaEventQueue.close@POLYN216358 the MagicNumber/String 'closed event queue.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -91,35 +91,35 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.equals@POLYN166093 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.equals@POLYN166685 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.equals@POLYN166093 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.equals@POLYN166685 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN166646 the MagicNumber/String  'AlterConfigPolicy.RequestMetadata(resource=' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN167238 the MagicNumber/String  'AlterConfigPolicy.RequestMetadata(resource=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN166646 the MagicNumber/String  ', configs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN167238 the MagicNumber/String  ', configs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN166646 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN167238 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

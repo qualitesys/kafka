@@ -158,63 +158,63 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.TransactionListing.equals@POLYN156011 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.clients.admin.TransactionListing.equals@POLYN156603 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.TransactionListing.equals@POLYN156011 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.TransactionListing.equals@POLYN156603 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.TransactionListing.equals@POLYN156011 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.admin.TransactionListing.equals@POLYN156603 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN156823 the MagicNumber/String  'TransactionListing(' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN157415 the MagicNumber/String  'TransactionListing(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN156823 the MagicNumber/String  'transactionalId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN157415 the MagicNumber/String  'transactionalId='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN156823 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN157415 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN156823 the MagicNumber/String  ', producerId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN157415 the MagicNumber/String  ', producerId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN156823 the MagicNumber/String  ', transactionState=' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN157415 the MagicNumber/String  ', transactionState=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/TransactionListing.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN156823 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.TransactionListing.toString@POLYN157415 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

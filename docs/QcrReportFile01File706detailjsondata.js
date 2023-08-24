@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.Builder@POLYN201343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.Builder@POLYN201935 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -343,7 +343,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.Builder@POLYN202950 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.Builder@POLYN203542 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,168 +357,168 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#122"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00122] For method build list of called methods Object monObjet|org.apache.kafka.common.requests.OffsetFetchRequest data_groupIdN207680|org.apache.kafka.common.requests.OffsetFetchRequest data_topicsN207778"
+ , "c3" : "QC-JAV000007[00122] For method build list of called methods Object monObjet|org.apache.kafka.common.requests.OffsetFetchRequest data_groupIdN208272|org.apache.kafka.common.requests.OffsetFetchRequest data_topicsN208370"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'The broker only supports OffsetFetchRequest ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'The broker only supports OffsetFetchRequest ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'v' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'v' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  ', but we need v2 or newer to request all topic partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  ', but we need v2 or newer to request all topic partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'Broker does not support' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'Broker does not support' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  ' batching groups for fetch offset request on version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  ' batching groups for fetch offset request on version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'Broker unexpectedly ' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'Broker unexpectedly ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'doesn't support requireStable flag on version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'doesn't support requireStable flag on version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'Fallback the requireStable flag to false as broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'Fallback the requireStable flag to false as broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'only supports OffsetFetchRequest version {}. Need ' should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'only supports OffsetFetchRequest version {}. Need ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  'v7 or newer to enable this feature' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  'v7 or newer to enable this feature' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -532,7 +532,7 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.requests.OffsetFetchRequest.partitions@POLYN209325 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.requests.OffsetFetchRequest.partitions@POLYN209917 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -567,7 +567,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.requests.OffsetFetchRequest.groupIdsToPartitions@POLYN210232 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.common.requests.OffsetFetchRequest.groupIdsToPartitions@POLYN210824 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -595,28 +595,28 @@ var maDataBlocs = {
  , "c1" : "00272"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN212507 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN213099 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN212507 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN213099 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN212507 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN213099 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN212507 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN213099 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -644,210 +644,210 @@ var maDataBlocs = {
  , "c1" : "00323"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.common.requests.OffsetFetchRequest.isAllPartitionsForGroup@POLYN215451 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.common.requests.OffsetFetchRequest.isAllPartitionsForGroup@POLYN216043 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.groupId@POLYN209962"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.groupId@POLYN210554"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.groupIds@POLYN211860"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.groupIds@POLYN212452"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.Builder.toString@POLYN208838"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.Builder.toString@POLYN209430"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN214802"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.getErrorResponse@POLYN215394"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.requireStable@POLYN210068"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetFetchRequest.requireStable@POLYN210660"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#123"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 2 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 2 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#124"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'The broker only supports OffsetFetchRequest ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'The broker only supports OffsetFetchRequest ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String ', but we need v2 or newer to request all topic partitions.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String ', but we need v2 or newer to request all topic partitions.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#125"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'v' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'v' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'Broker does not support' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'Broker does not support' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#129"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String ' batching groups for fetch offset request on version ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String ' batching groups for fetch offset request on version ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 7 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 7 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#133"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'Broker unexpectedly ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'Broker unexpectedly ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'doesn't support requireStable flag on version ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'doesn't support requireStable flag on version ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#136"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'Fallback the requireStable flag to false as broker ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'Fallback the requireStable flag to false as broker ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'only supports OffsetFetchRequest version {}. Need ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'only supports OffsetFetchRequest version {}. Need ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 'v7 or newer to enable this feature' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 'v7 or newer to enable this feature' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#139"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 8 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 8 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00144] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#146"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#149"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00149] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#150"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00150] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#164"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00169"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#169"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetFetchRequest.java.html#170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205027 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.common.requests.OffsetFetchRequest.Builder.build@POLYN205619 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

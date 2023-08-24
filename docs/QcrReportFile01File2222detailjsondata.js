@@ -86,14 +86,14 @@ var maDataBlocs = {
  , "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN152143 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN152735 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/StopTaskRequest.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN152143 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.trogdor.rest.StopTaskRequest.StopTaskRequest@POLYN152735 the MagicNumber/String  '' should be converted to const"
 }} 
 ]
 , 

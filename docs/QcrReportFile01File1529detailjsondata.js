@@ -164,21 +164,21 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.name@POLYN163861 the MagicNumber/String  'find' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.name@POLYN164453 the MagicNumber/String  'find' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.description@POLYN163963 the MagicNumber/String  'Search for nodes in the directory hierarchy.' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.description@POLYN164555 the MagicNumber/String  'Search for nodes in the directory hierarchy.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.shellOnly@POLYN164065 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.shellOnly@POLYN164657 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -199,21 +199,21 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.addArguments@POLYN164159 the MagicNumber/String  'paths' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.addArguments@POLYN164751 the MagicNumber/String  'paths' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.addArguments@POLYN164159 the MagicNumber/String  '*' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.addArguments@POLYN164751 the MagicNumber/String  '*' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.addArguments@POLYN164159 the MagicNumber/String  'The paths to start at.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.addArguments@POLYN164751 the MagicNumber/String  'The paths to start at.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.createHandler@POLYN164407 the MagicNumber/String  'paths' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.createHandler@POLYN164999 the MagicNumber/String  'paths' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,7 +255,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.completeNext@POLYN164600 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.shell.FindCommandHandler.FindCommandType.completeNext@POLYN165192 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -283,14 +283,14 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.shell.FindCommandHandler.run@POLYN165193 the MagicNumber/String  'find: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.shell.FindCommandHandler.run@POLYN165785 the MagicNumber/String  'find: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.shell.FindCommandHandler.run@POLYN165193 the MagicNumber/String  ': no such file or directory.' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.shell.FindCommandHandler.run@POLYN165785 the MagicNumber/String  ': no such file or directory.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -304,7 +304,7 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#97"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method find list of called methods Object monObjet|boolean path_equalsN166468"
+ , "c3" : "QC-JAV000007[00097] For method find list of called methods Object monObjet|boolean path_equalsN167060"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -332,14 +332,14 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.shell.FindCommandHandler.find@POLYN165960 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.shell.FindCommandHandler.find@POLYN166552 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.FindCommandHandler.find@POLYN165960 the MagicNumber/String  '/' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.shell.FindCommandHandler.find@POLYN166552 the MagicNumber/String  '/' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,42 +353,42 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN166980 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN167572 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00118"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#118"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN166980 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00118] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN167572 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN166980 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN167572 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.FindCommandHandler.find@POLYN165960"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.FindCommandHandler.find@POLYN166552"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.shell.FindCommandHandler.find@POLYN165960 the MagicNumber/String '/' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.shell.FindCommandHandler.find@POLYN166552 the MagicNumber/String '/' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.shell.FindCommandHandler.find@POLYN165960 the MagicNumber/String '/' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.shell.FindCommandHandler.find@POLYN166552 the MagicNumber/String '/' MUST BE CONVERTED to const"
 }} 
 ]
 , 

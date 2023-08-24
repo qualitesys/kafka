@@ -207,28 +207,28 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN186661 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN187253 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN186661 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN187253 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN186661 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN187253 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN187292 the MagicNumber/String  'name should not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigEntry@POLYN187884 the MagicNumber/String  'name should not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -249,140 +249,140 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.ConfigEntry.equals@POLYN189662 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.clients.admin.ConfigEntry.equals@POLYN190254 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.ConfigEntry.equals@POLYN189662 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.clients.admin.ConfigEntry.equals@POLYN190254 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.ConfigEntry.equals@POLYN189662 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.clients.admin.ConfigEntry.equals@POLYN190254 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN190804 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN191396 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN190804 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN191396 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN190804 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN191396 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN190804 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN191396 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN190804 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN191396 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN190804 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.clients.admin.ConfigEntry.hashCode@POLYN191396 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  'ConfigEntry(' should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  'ConfigEntry(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#190"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  'name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  'name=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', value=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  'Redacted' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  'Redacted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', source=' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', source=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', isSensitive=' should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', isSensitive=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', isReadOnly=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', isReadOnly=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#195"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', synonyms=' should be converted to const"
+ , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', synonyms=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', type=' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', type=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ', documentation=' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ', documentation=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192264 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.clients.admin.ConfigEntry.toString@POLYN192856 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -403,56 +403,56 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#275"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.equals@POLYN194293 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00275] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.equals@POLYN194885 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.equals@POLYN194293 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.equals@POLYN194885 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.equals@POLYN194293 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.equals@POLYN194885 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195144 the MagicNumber/String  'ConfigSynonym(' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195736 the MagicNumber/String  'ConfigSynonym(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195144 the MagicNumber/String  'name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195736 the MagicNumber/String  'name=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195144 the MagicNumber/String  ', value=' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195736 the MagicNumber/String  ', value=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195144 the MagicNumber/String  ', source=' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195736 the MagicNumber/String  ', source=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/ConfigEntry.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195144 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.clients.admin.ConfigEntry.ConfigSynonym.toString@POLYN195736 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

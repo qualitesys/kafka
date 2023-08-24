@@ -175,63 +175,63 @@ var maDataBlocs = {
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.header.internals.RecordHeader.RecordHeader@POLYN158752 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.header.internals.RecordHeader.RecordHeader@POLYN159344 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.header.internals.RecordHeader.RecordHeader@POLYN159066 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.common.header.internals.RecordHeader.RecordHeader@POLYN159658 the MagicNumber/String  'Null header keys are not permitted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#43"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method key list of called methods Object monObjet|java.lang.String Utils_utf8N159500"
+ , "c3" : "QC-JAV000007[00043] For method key list of called methods Object monObjet|java.lang.String Utils_utf8N160092"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.header.internals.RecordHeader.key@POLYN159353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.header.internals.RecordHeader.key@POLYN159945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.header.internals.RecordHeader.key@POLYN159353 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.header.internals.RecordHeader.key@POLYN159945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method value list of called methods Object monObjet|byte[] Utils_toArrayN159905"
+ , "c3" : "QC-JAV000007[00051] For method value list of called methods Object monObjet|byte[] Utils_toArrayN160497"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.header.internals.RecordHeader.value@POLYN159712 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.header.internals.RecordHeader.value@POLYN160304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.header.internals.RecordHeader.value@POLYN159712 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.header.internals.RecordHeader.value@POLYN160304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.header.internals.RecordHeader.value@POLYN159712 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.header.internals.RecordHeader.value@POLYN160304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,63 +252,63 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160083 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160675 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160083 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160675 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160083 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.header.internals.RecordHeader.equals@POLYN160675 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN160747 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN161339 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.header.internals.RecordHeader.toString@POLYN161087 the MagicNumber/String  'RecordHeader(key = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.header.internals.RecordHeader.toString@POLYN161679 the MagicNumber/String  'RecordHeader(key = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.header.internals.RecordHeader.toString@POLYN161087 the MagicNumber/String  ', value = ' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.header.internals.RecordHeader.toString@POLYN161679 the MagicNumber/String  ', value = ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.header.internals.RecordHeader.toString@POLYN161087 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.header.internals.RecordHeader.toString@POLYN161679 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN160747"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN161339"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN160747 the MagicNumber/String 31 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.header.internals.RecordHeader.hashCode@POLYN161339 the MagicNumber/String 31 MUST BE CONVERTED to const"
 }} 
 ]
 , 

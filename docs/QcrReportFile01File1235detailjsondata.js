@@ -77,7 +77,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SimpleConfig.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.transforms.util.SimpleConfig.SimpleConfig@POLYN151771 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.connect.transforms.util.SimpleConfig.SimpleConfig@POLYN152363 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

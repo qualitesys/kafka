@@ -169,147 +169,147 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method setup list of called methods Object monObjet|KafkaApis createKafkaApisN198832|RequestChannel.Request buildAllTopicMetadataRequestN198898"
+ , "c3" : "QC-JAV000007[00128] For method setup list of called methods Object monObjet|KafkaApis createKafkaApisN199424|RequestChannel.Request buildAllTopicMetadataRequestN199490"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  'rack1' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  'rack1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  'topic-' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  'topic-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  5 should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN198935 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.initializeMetadataCache@POLYN199527 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -323,98 +323,98 @@ var maDataBlocs = {
  , "c1" : "00169"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#169"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.endpoints@POLYN200986 the MagicNumber/String  'host_' should be converted to const"
+ , "c3" : "QC-JAV000010[00169] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.endpoints@POLYN201578 the MagicNumber/String  'host_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.endpoints@POLYN200986 the MagicNumber/String  9092 should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.endpoints@POLYN201578 the MagicNumber/String  9092 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN201420 the MagicNumber/String  'zk' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN202012 the MagicNumber/String  'zk' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN201420 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN202012 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN201420 the MagicNumber/String  'clusterId' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN202012 the MagicNumber/String  'clusterId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN201420 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN202012 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#209"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method buildAllTopicMetadataRequest list of called methods Object monObjet|java.nio.ByteBuffer metadataRequest_serializeN203579"
+ , "c3" : "QC-JAV000007[00209] For method buildAllTopicMetadataRequest list of called methods Object monObjet|java.nio.ByteBuffer metadataRequest_serializeN204171"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  '1' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  '1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203192 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.buildAllTopicMetadataRequest@POLYN203784 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

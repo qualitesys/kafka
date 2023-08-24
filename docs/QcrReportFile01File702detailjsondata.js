@@ -166,28 +166,28 @@ var maDataBlocs = {
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167117 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167117 the MagicNumber/String  7 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167709 the MagicNumber/String  7 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167117 the MagicNumber/String  'The broker offset commit protocol version ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167709 the MagicNumber/String  'The broker offset commit protocol version ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167117 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.OffsetCommitRequest.Builder.build@POLYN167709 the MagicNumber/String  ' does not support usage of config group.instance.id.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method getErrorResponse list of called methods Object monObjet|java.util.List&lt;OffsetCommitResponseTopic&gt; getErrorResponseTopicsN169801"
+ , "c3" : "QC-JAV000007[00113] For method getErrorResponse list of called methods Object monObjet|java.util.List&lt;OffsetCommitResponseTopic&gt; getErrorResponseTopicsN170393"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,7 +243,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitRequest.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetCommitRequest.Builder.toString@POLYN167560"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.requests.OffsetCommitRequest.Builder.toString@POLYN168152"
 }} 
 ]
 , 

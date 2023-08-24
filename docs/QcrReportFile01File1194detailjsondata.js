@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSourceConnector.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.tools.VerifiableSourceConnector.taskConfigs@POLYN157447 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.tools.VerifiableSourceConnector.taskConfigs@POLYN158039 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

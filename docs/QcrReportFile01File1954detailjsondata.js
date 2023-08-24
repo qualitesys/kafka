@@ -633,14 +633,14 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.ClientState@POLYN227242 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.ClientState@POLYN227834 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.ClientState@POLYN227339 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.ClientState@POLYN227931 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -675,14 +675,14 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assignActiveToConsumer@POLYN230151 the MagicNumber/String  'added not assign active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assignActiveToConsumer@POLYN230743 the MagicNumber/String  'added not assign active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assignActiveToConsumer@POLYN230151 the MagicNumber/String  ' to this client state.' should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assignActiveToConsumer@POLYN230743 the MagicNumber/String  ' to this client state.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -703,7 +703,7 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#146"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00146] For method prevOwnedStandbyByConsumer list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; previousActiveTasks_consumerToTaskIdsN231812"
+ , "c3" : "QC-JAV000007[00146] For method prevOwnedStandbyByConsumer list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.util.Set&lt;org.apache.kafka.streams.processor.TaskId&gt;&gt; previousActiveTasks_consumerToTaskIdsN232404"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -738,14 +738,14 @@ var maDataBlocs = {
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignActive@POLYN233426 the MagicNumber/String  'Tried to unassign active task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignActive@POLYN234018 the MagicNumber/String  'Tried to unassign active task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignActive@POLYN233426 the MagicNumber/String  ', but it is not currently assigned: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignActive@POLYN234018 the MagicNumber/String  ', but it is not currently assigned: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -773,14 +773,14 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignStandby@POLYN234564 the MagicNumber/String  'Tried to unassign standby task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignStandby@POLYN235156 the MagicNumber/String  'Tried to unassign standby task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignStandby@POLYN234564 the MagicNumber/String  ', but it is not currently assigned: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.unassignStandby@POLYN235156 the MagicNumber/String  ', but it is not currently assigned: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -864,7 +864,7 @@ var maDataBlocs = {
  , "c1" : "00298"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializePrevTasks@POLYN238514 the MagicNumber/String  'Already added previous tasks to this client state.' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializePrevTasks@POLYN239106 the MagicNumber/String  'Already added previous tasks to this client state.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -920,70 +920,70 @@ var maDataBlocs = {
  , "c1" : "00323"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  'Already computed task lags for this client.' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  'Already computed task lags for this client.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  'Task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  'Task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  ' had endOffsetSum=' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  ' had endOffsetSum=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  ' smaller than offsetSum=' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  ' smaller than offsetSum=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  ' on member ' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  ' on member ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  '. This probably means the task is corrupted,' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  '. This probably means the task is corrupted,' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  ' which in turn indicates that it will need to restore from scratch if it gets assigned.' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  ' which in turn indicates that it will need to restore from scratch if it gets assigned.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  ' The assignor will de-prioritize returning this task to this member in the hopes that' should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  ' The assignor will de-prioritize returning this task to this member in the hopes that' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN239669 the MagicNumber/String  ' some other member may be able to re-use its state.' should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.computeTaskLags@POLYN240261 the MagicNumber/String  ' some other member may be able to re-use its state.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -997,14 +997,14 @@ var maDataBlocs = {
  , "c1" : "00357"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.lagFor@POLYN241576 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.lagFor@POLYN242168 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00358"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.lagFor@POLYN241576 the MagicNumber/String  'Tried to lookup lag for unknown task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.lagFor@POLYN242168 the MagicNumber/String  'Tried to lookup lag for unknown task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1018,7 +1018,7 @@ var maDataBlocs = {
  , "c1" : "00372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.prevTasksByLag@POLYN242072 the MagicNumber/String  'Skipping previous task {} since it's not part of the current assignment' should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.prevTasksByLag@POLYN242664 the MagicNumber/String  'Skipping previous task {} since it's not part of the current assignment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1046,133 +1046,133 @@ var maDataBlocs = {
  , "c1" : "00391"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN243542 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN244134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00392"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN243542 the MagicNumber/String  'Capacity of this ClientState must be greater than 0.' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN244134 the MagicNumber/String  'Capacity of this ClientState must be greater than 0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN243542 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN244134 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN243542 the MagicNumber/String  'Capacity of other ClientState must be greater than 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN244134 the MagicNumber/String  'Capacity of other ClientState must be greater than 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00403"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#403"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN243542 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00403] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN244134 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00405"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#405"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN243542 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00405] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.hasMoreAvailableCapacityThan@POLYN244134 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00416"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.currentAssignment@POLYN244595 the MagicNumber/String  '[activeTasks: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.currentAssignment@POLYN245187 the MagicNumber/String  '[activeTasks: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.currentAssignment@POLYN244595 the MagicNumber/String  ') standbyTasks: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.currentAssignment@POLYN245187 the MagicNumber/String  ') standbyTasks: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.currentAssignment@POLYN244595 the MagicNumber/String  ')]' should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.currentAssignment@POLYN245187 the MagicNumber/String  ')]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  '[activeTasks: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  '[activeTasks: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') standbyTasks: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') standbyTasks: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') prevActiveTasks: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') prevActiveTasks: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') prevStandbyTasks: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') prevStandbyTasks: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') changelogOffsetTotalsByTask: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') changelogOffsetTotalsByTask: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00427"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') taskLagTotals: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') taskLagTotals: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#428"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') clientTags: (' should be converted to const"
+ , "c3" : "QC-JAV000010[00428] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') clientTags: (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ') capacity: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ') capacity: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ' assigned: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ' assigned: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00431"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN244829 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.toString@POLYN245421 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1214,14 +1214,14 @@ var maDataBlocs = {
  , "c1" : "00446"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#446"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializePrevActiveTasksFromOwnedPartitions@POLYN245625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00446] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializePrevActiveTasksFromOwnedPartitions@POLYN246217 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00450"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializePrevActiveTasksFromOwnedPartitions@POLYN245625 the MagicNumber/String  'No task found for topic partition {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializePrevActiveTasksFromOwnedPartitions@POLYN246217 the MagicNumber/String  'No task found for topic partition {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1235,14 +1235,14 @@ var maDataBlocs = {
  , "c1" : "00458"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializeRemainingPrevTasksFromTaskOffsetSums@POLYN246536 the MagicNumber/String  'Tried to process tasks in offset sum map before processing tasks from ownedPartitions = {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00458] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializeRemainingPrevTasksFromTaskOffsetSums@POLYN247128 the MagicNumber/String  'Tried to process tasks in offset sum map before processing tasks from ownedPartitions = {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00459"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#459"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializeRemainingPrevTasksFromTaskOffsetSums@POLYN246536 the MagicNumber/String  'Must initialize prevActiveTasks from ownedPartitions before initializing remaining tasks.' should be converted to const"
+ , "c3" : "QC-JAV000010[00459] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.initializeRemainingPrevTasksFromTaskOffsetSums@POLYN247128 the MagicNumber/String  'Must initialize prevActiveTasks from ownedPartitions before initializing remaining tasks.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1256,14 +1256,14 @@ var maDataBlocs = {
  , "c1" : "00476"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assertNotAssigned@POLYN247607 the MagicNumber/String  'Tried to assign task ' should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assertNotAssigned@POLYN248199 the MagicNumber/String  'Tried to assign task ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00476"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ClientState.java.html#476"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assertNotAssigned@POLYN247607 the MagicNumber/String  ', but it is already assigned: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00476] In method org.apache.kafka.streams.processor.internals.assignment.ClientState.assertNotAssigned@POLYN248199 the MagicNumber/String  ', but it is already assigned: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
