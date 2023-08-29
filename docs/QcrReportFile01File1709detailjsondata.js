@@ -125,7 +125,7 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.enableSendingOldValues@POLYN174594 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.enableSendingOldValues@POLYN175794 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#86"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method process list of called methods Object monObjet|VA initializer_applyN177067|VA aggregator_applyN177466"
+ , "c3" : "QC-JAV000007[00086] For method process list of called methods Object monObjet|VA initializer_applyN178267|VA aggregator_applyN178666"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -167,49 +167,49 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  'Skipping record due to null key or value. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  'Skipping record due to null key or value. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  'topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  'topic=[{}] partition=[{}] offset=[{}]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  'Skipping record due to null key or value. Topic, partition, and offset not known.' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  'Skipping record due to null key or value. Topic, partition, and offset not known.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamAggregate.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN175799 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.streams.kstream.internals.KStreamAggregate.KStreamAggregateProcessor.process@POLYN176999 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

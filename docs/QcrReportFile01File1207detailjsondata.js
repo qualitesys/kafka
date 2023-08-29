@@ -99,7 +99,7 @@ var maDataBlocs = {
  , "c1" : "00024"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/SinkUtils.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.util.SinkUtils.consumerGroupId@POLYN150814 the MagicNumber/String  'connect-' should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.connect.util.SinkUtils.consumerGroupId@POLYN152014 the MagicNumber/String  'connect-' should be converted to const"
 }} 
 ]
 , 

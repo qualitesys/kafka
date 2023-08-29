@@ -267,7 +267,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.ProcessorContextImpl@POLYN202523 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.ProcessorContextImpl@POLYN203723 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,14 +281,14 @@ var maDataBlocs = {
  , "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToActive@POLYN203055 the MagicNumber/String  'Tried to transition processor context to active but the state manager's ' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToActive@POLYN204255 the MagicNumber/String  'Tried to transition processor context to active but the state manager's ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToActive@POLYN203055 the MagicNumber/String  'type was ' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToActive@POLYN204255 the MagicNumber/String  'type was ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -302,28 +302,28 @@ var maDataBlocs = {
  , "c1" : "00090"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN203668 the MagicNumber/String  'Tried to transition processor context to standby but the state manager's ' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN204868 the MagicNumber/String  'Tried to transition processor context to standby but the state manager's ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN203668 the MagicNumber/String  'type was ' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN204868 the MagicNumber/String  'type was ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN203668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN204868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN203668 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.transitionToStandby@POLYN204868 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -344,28 +344,28 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN205042 the MagicNumber/String  'logChange' should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN206242 the MagicNumber/String  'logChange' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN205042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN206242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN205042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN206242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN205042 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.logChange@POLYN206242 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -596,7 +596,7 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.commit@POLYN212936 the MagicNumber/String  'commit' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.commit@POLYN214136 the MagicNumber/String  'commit' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -610,70 +610,70 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method schedule list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN213356|long validateMillisecondDurationN213473"
+ , "c3" : "QC-JAV000007[00304] For method schedule list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN214556|long validateMillisecondDurationN214673"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00307"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN213116 the MagicNumber/String  'schedule' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN214316 the MagicNumber/String  'schedule' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN213116 the MagicNumber/String  'interval' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN214316 the MagicNumber/String  'interval' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN213116 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN214316 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN213116 the MagicNumber/String  'The minimum supported scheduling interval is 1 millisecond.' should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.schedule@POLYN214316 the MagicNumber/String  'The minimum supported scheduling interval is 1 millisecond.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.topic@POLYN213838 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.topic@POLYN215038 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.partition@POLYN214021 the MagicNumber/String  'partition' should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.partition@POLYN215221 the MagicNumber/String  'partition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.offset@POLYN214204 the MagicNumber/String  'offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.offset@POLYN215404 the MagicNumber/String  'offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.timestamp@POLYN214387 the MagicNumber/String  'timestamp' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.timestamp@POLYN215587 the MagicNumber/String  'timestamp' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.currentNode@POLYN214735 the MagicNumber/String  'currentNode' should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.currentNode@POLYN215935 the MagicNumber/String  'currentNode' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -687,14 +687,14 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.setRecordContext@POLYN214910 the MagicNumber/String  'setRecordContext' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.setRecordContext@POLYN216110 the MagicNumber/String  'setRecordContext' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00359"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.recordContext@POLYN215132 the MagicNumber/String  'recordContext' should be converted to const"
+ , "c3" : "QC-JAV000010[00359] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.recordContext@POLYN216332 the MagicNumber/String  'recordContext' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -708,14 +708,14 @@ var maDataBlocs = {
  , "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.throwUnsupportedOperationExceptionIfStandby@POLYN215293 the MagicNumber/String  'this should not happen: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.throwUnsupportedOperationExceptionIfStandby@POLYN216493 the MagicNumber/String  'this should not happen: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00366"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.throwUnsupportedOperationExceptionIfStandby@POLYN215293 the MagicNumber/String  '() is not supported in standby tasks.' should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.streams.processor.internals.ProcessorContextImpl.throwUnsupportedOperationExceptionIfStandby@POLYN216493 the MagicNumber/String  '() is not supported in standby tasks.' should be converted to const"
 }} 
 ]
 , 

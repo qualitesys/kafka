@@ -145,14 +145,14 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN173355 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN174555 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN173355 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.metrics.stats.TokenBucket.TokenBucket@POLYN174555 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.metrics.stats.TokenBucket.measure@POLYN173636 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.metrics.stats.TokenBucket.measure@POLYN174836 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -194,7 +194,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.TokenBucket.record@POLYN174212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.common.metrics.stats.TokenBucket.record@POLYN175412 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -222,35 +222,35 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN175635 the MagicNumber/String  'TokenBucket(' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN176835 the MagicNumber/String  'TokenBucket(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN175635 the MagicNumber/String  'unit=' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN176835 the MagicNumber/String  'unit=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN175635 the MagicNumber/String  ', tokens=' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN176835 the MagicNumber/String  ', tokens=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN175635 the MagicNumber/String  ', lastUpdateMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN176835 the MagicNumber/String  ', lastUpdateMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/TokenBucket.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN175635 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.metrics.stats.TokenBucket.toString@POLYN176835 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

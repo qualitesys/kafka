@@ -218,21 +218,21 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.RecordsSnapshotWriter@POLYN174364 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.RecordsSnapshotWriter@POLYN175564 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN175184 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN176384 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN175184 the MagicNumber/String  'Initializing writer with a non-empty snapshot: id = '%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.initializeSnapshotWithHeader@POLYN176384 the MagicNumber/String  'Initializing writer with a non-empty snapshot: id = '%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -246,7 +246,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogOffset@POLYN177607 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogOffset@POLYN178807 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN178007 the MagicNumber/String  'Append not supported. Snapshot is already frozen: id = '%s'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179207 the MagicNumber/String  'Append not supported. Snapshot is already frozen: id = '%s'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,84 +281,84 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN179138 ending with method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN178007"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN180338 ending with method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179207"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN179138"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN180338"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN178007"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179207"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.freeze@POLYN178707"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.freeze@POLYN179907"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN178007 ending with method org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN179138"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179207 ending with method org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN180338"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN178007"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179207"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN179138"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.snapshot.RecordsSnapshotWriter.appendBatches@POLYN180338"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.close@POLYN178993"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.close@POLYN180193"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.isFrozen@POLYN177895"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.isFrozen@POLYN179095"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogEpoch@POLYN177763"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.lastContainedLogEpoch@POLYN178963"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.snapshotId@POLYN177487"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.RecordsSnapshotWriter.snapshotId@POLYN178687"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotWriter.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN178007 the MagicNumber/String 'Append not supported. Snapshot is already frozen: id = '%s'.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.snapshot.RecordsSnapshotWriter.append@POLYN179207 the MagicNumber/String 'Append not supported. Snapshot is already frozen: id = '%s'.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

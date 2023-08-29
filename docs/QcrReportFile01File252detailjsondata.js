@@ -151,21 +151,21 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN160174 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN161374 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN160174 the MagicNumber/String  'Trying to get the sequence number for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN161374 the MagicNumber/String  'Trying to get the sequence number for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN160174 the MagicNumber/String  ', but the sequence number was never set for this partition.' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.get@POLYN161374 the MagicNumber/String  ', but the sequence number was never set for this partition.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedOffset@POLYN161007 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedOffset@POLYN162207 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,7 +207,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedSequence@POLYN161461 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.lastAckedSequence@POLYN162661 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -221,14 +221,14 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#72"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method startSequencesAtBeginning list of called methods Object monObjet|org.apache.kafka.common.utils.PrimitiveRef.IntRef PrimitiveRef_ofIntN162040|org.apache.kafka.clients.producer.internals.TxnPartitionEntry getN162138"
+ , "c3" : "QC-JAV000007[00072] For method startSequencesAtBeginning list of called methods Object monObjet|org.apache.kafka.common.utils.PrimitiveRef.IntRef PrimitiveRef_ofIntN163240|org.apache.kafka.clients.producer.internals.TxnPartitionEntry getN163338"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TxnPartitionMap.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN161907 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.clients.producer.internals.TxnPartitionMap.startSequencesAtBeginning@POLYN163107 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

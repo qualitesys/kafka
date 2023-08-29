@@ -877,21 +877,21 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method java.lang.String.String@POLYN806608 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method java.lang.String.String@POLYN807808 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00149"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#149"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00149] In method java.lang.String.String@POLYN806608 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00149] In method java.lang.String.String@POLYN807808 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method java.lang.String.String@POLYN806608 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method java.lang.String.String@POLYN807808 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -905,147 +905,147 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method java.lang.String.String@POLYN807158 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method java.lang.String.String@POLYN808358 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method java.lang.String.String@POLYN808188 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method java.lang.String.String@POLYN809388 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method java.lang.String.String@POLYN809077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method java.lang.String.String@POLYN810277 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method java.lang.String.String@POLYN809077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method java.lang.String.String@POLYN810277 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method java.lang.String.String@POLYN809077 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method java.lang.String.String@POLYN810277 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method java.lang.String.String@POLYN810666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method java.lang.String.String@POLYN811866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00268"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method java.lang.String.String@POLYN810666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method java.lang.String.String@POLYN811866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method java.lang.String.String@POLYN810666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method java.lang.String.String@POLYN811866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method java.lang.String.String@POLYN810666 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method java.lang.String.String@POLYN811866 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method java.lang.String.String@POLYN810666 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method java.lang.String.String@POLYN811866 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method java.lang.String.String@POLYN810666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method java.lang.String.String@POLYN811866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method java.lang.String.String@POLYN810666 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method java.lang.String.String@POLYN811866 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method java.lang.String.String@POLYN810666 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method java.lang.String.String@POLYN811866 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00349"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method java.lang.String.String@POLYN814151 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method java.lang.String.String@POLYN815351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#350"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00350] In method java.lang.String.String@POLYN814151 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00350] In method java.lang.String.String@POLYN815351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method java.lang.String.String@POLYN814151 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method java.lang.String.String@POLYN815351 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00354"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method java.lang.String.String@POLYN814151 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method java.lang.String.String@POLYN815351 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00355"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#355"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00355] In method java.lang.String.String@POLYN814151 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00355] In method java.lang.String.String@POLYN815351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00356"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#356"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00356] In method java.lang.String.String@POLYN814151 the MagicNumber/String  0xff should be converted to const"
+ , "c3" : "QC-JAV000010[00356] In method java.lang.String.String@POLYN815351 the MagicNumber/String  0xff should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00359"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#359"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00359] In method java.lang.String.String@POLYN814151 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00359] In method java.lang.String.String@POLYN815351 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#396"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00396] In method java.lang.String.String@POLYN816656 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00396] In method java.lang.String.String@POLYN817856 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1059,84 +1059,84 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method java.lang.String.checkBounds@POLYN817001 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method java.lang.String.checkBounds@POLYN818201 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00406"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#406"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00406] In method java.lang.String.checkBounds@POLYN817001 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00406] In method java.lang.String.checkBounds@POLYN818201 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00616"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#616"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00616] In method java.lang.String.String@POLYN818324 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00616] In method java.lang.String.String@POLYN819524 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01144"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01144] In method java.lang.String.String@POLYN818324 the MagicNumber/String  'charsetName' should be converted to const"
+ , "c3" : "QC-JAV000010[01144] In method java.lang.String.String@POLYN819524 the MagicNumber/String  'charsetName' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01420"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01420] In method java.lang.String.String@POLYN818324 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01420] In method java.lang.String.String@POLYN819524 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01458"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN819867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN821067 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01458"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN819867 the MagicNumber/String  'charset' should be converted to const"
+ , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN821067 the MagicNumber/String  'charset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01458"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN819867 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN821067 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01458"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1458"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN821215 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01458] In method java.lang.String.String@POLYN822415 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.String@POLYN822026 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.String@POLYN823226 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.String@POLYN822900 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.String@POLYN824100 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.String@POLYN823911 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.String@POLYN825111 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1157,7 +1157,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.isEmpty@POLYN826231 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.isEmpty@POLYN827431 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1171,7 +1171,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.charAt@POLYN827093 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.charAt@POLYN828293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1185,7 +1185,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointAt@POLYN828296 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointAt@POLYN829496 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1199,14 +1199,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointBefore@POLYN829632 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointBefore@POLYN830832 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointBefore@POLYN829632 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointBefore@POLYN830832 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1220,7 +1220,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointCount@POLYN830970 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.codePointCount@POLYN832170 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1234,7 +1234,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.offsetByCodePoints@POLYN832213 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.offsetByCodePoints@POLYN833413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1255,7 +1255,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.getChars@POLYN834079 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.getChars@POLYN835279 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1269,7 +1269,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.getBytes@POLYN836164 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.getBytes@POLYN837364 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1283,7 +1283,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.getBytes@POLYN837732 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.getBytes@POLYN838932 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1297,7 +1297,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.getBytes@POLYN838549 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.getBytes@POLYN839749 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1311,35 +1311,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN839783 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN840983 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN839783 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN840983 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN839783 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN840983 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN839783 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN840983 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN839783 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equals@POLYN840983 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1374,70 +1374,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN841768 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contentEquals@POLYN842968 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1451,35 +1451,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN844105 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN845305 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN844105 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN845305 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN844105 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN845305 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN844105 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN845305 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN844105 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.equalsIgnoreCase@POLYN845305 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1500,7 +1500,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.compareTo@POLYN846247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.compareTo@POLYN847447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1514,7 +1514,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method compare list of called methods Object monObjet|int s1_lengthN848692|int s2_lengthN848769|char s1_charAtN849125|char s2_charAtN849221|int Character_toUpperCaseN849385|int Character_toUpperCaseN849478|int Character_toLowerCaseN849642|int Character_toLowerCaseN849735"
+ , "c3" : "QC-JAV000007[00001] For method compare list of called methods Object monObjet|int s1_lengthN849892|int s2_lengthN849969|char s1_charAtN850325|char s2_charAtN850421|int Character_toUpperCaseN850585|int Character_toUpperCaseN850678|int Character_toLowerCaseN850842|int Character_toLowerCaseN850935"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1535,7 +1535,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.CaseInsensitiveComparator.compare@POLYN848568 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.CaseInsensitiveComparator.compare@POLYN849768 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1563,42 +1563,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN852163 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN853363 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN852163 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN853363 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN852163 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN853363 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN852163 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN853363 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN852163 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN853363 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN852163 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN853363 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1612,7 +1612,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method regionMatches list of called methods Object monObjet|int Character_toUpperCaseN856738|int Character_toUpperCaseN856834"
+ , "c3" : "QC-JAV000007[00001] For method regionMatches list of called methods Object monObjet|int Character_toUpperCaseN857938|int Character_toUpperCaseN858034"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1626,42 +1626,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN855419 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN856619 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN855419 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN856619 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN855419 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN856619 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN855419 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN856619 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN855419 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN856619 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN855419 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.regionMatches@POLYN856619 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1682,35 +1682,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN857799 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN858999 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN857799 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN858999 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN857799 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN858999 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN857799 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN858999 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN857799 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN858999 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1724,7 +1724,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN859167 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.startsWith@POLYN860367 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1745,21 +1745,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.hashCode@POLYN860467 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.hashCode@POLYN861667 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.hashCode@POLYN860467 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.hashCode@POLYN861667 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.hashCode@POLYN860467 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.hashCode@POLYN861667 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1773,7 +1773,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN862165 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863365 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1787,70 +1787,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method indexOf list of called methods Object monObjet|char[] Character_toCharsN865026"
+ , "c3" : "QC-JAV000007[00001] For method indexOf list of called methods Object monObjet|char[] Character_toCharsN866226"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN863953 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN865153 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1864,7 +1864,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN866594 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN867794 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1878,56 +1878,56 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method lastIndexOf list of called methods Object monObjet|char[] Character_toCharsN869220"
+ , "c3" : "QC-JAV000007[00001] For method lastIndexOf list of called methods Object monObjet|char[] Character_toCharsN870420"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN868203 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN869403 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1941,7 +1941,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN870386 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871586 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1969,63 +1969,63 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN871737 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.indexOf@POLYN872937 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2060,77 +2060,77 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN875674 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.lastIndexOf@POLYN876874 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2151,14 +2151,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.substring@POLYN879216 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.substring@POLYN880416 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.substring@POLYN879216 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.substring@POLYN880416 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2179,7 +2179,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method concat list of called methods Object monObjet|int str_lengthN881911"
+ , "c3" : "QC-JAV000007[00001] For method concat list of called methods Object monObjet|int str_lengthN883111"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2193,35 +2193,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN881812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN883012 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN881812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN883012 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN881812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN883012 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN881812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN883012 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN881812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.concat@POLYN883012 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2235,21 +2235,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.replace@POLYN883607 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.replace@POLYN884807 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.replace@POLYN883607 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.replace@POLYN884807 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.replace@POLYN883607 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.replace@POLYN884807 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2270,7 +2270,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.contains@POLYN886487 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.contains@POLYN887687 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2326,7 +2326,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.split@POLYN895213 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.split@POLYN896413 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2340,105 +2340,105 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method toLowerCase list of called methods Object monObjet|int codePointAtN897939|int Character_charCountN898156|int codePointAtN899729|int Character_charCountN899814|int Character_toLowerCaseN900234|int Character_toCharsN900792|char[] Character_toCharsN901006"
+ , "c3" : "QC-JAV000007[00001] For method toLowerCase list of called methods Object monObjet|int codePointAtN899139|int Character_charCountN899356|int codePointAtN900929|int Character_charCountN901014|int Character_toLowerCaseN901434|int Character_toCharsN901992|char[] Character_toCharsN902206"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  'tr' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  'tr' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  'az' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  'az' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  'lt' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  'lt' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  '\u03A3' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  '\u03A3' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN897247 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toLowerCase@POLYN898447 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2452,154 +2452,154 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method toUpperCase list of called methods Object monObjet|int codePointAtN905546|int Character_charCountN905631|int Character_toUpperCaseExN905805|int codePointAtN907430|int Character_charCountN907515|int Character_toUpperCaseExN907889|char[] Character_toUpperCaseCharArrayN908442|int Character_toCharsN908611|char[] Character_toCharsN908825"
+ , "c3" : "QC-JAV000007[00001] For method toUpperCase list of called methods Object monObjet|int codePointAtN906746|int Character_charCountN906831|int Character_toUpperCaseExN907005|int codePointAtN908630|int Character_charCountN908715|int Character_toUpperCaseExN909089|char[] Character_toUpperCaseCharArrayN909642|int Character_toCharsN909811|char[] Character_toCharsN910025"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  'tr' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  'tr' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  'az' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  'az' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  'lt' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  'lt' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN904807 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toUpperCase@POLYN906007 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN912260 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN913460 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN912260 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN913460 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN912260 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN913460 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN912260 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN913460 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN912260 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.trim@POLYN913460 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toCharArray@POLYN913682 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toCharArray@POLYN914882 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.toCharArray@POLYN913682 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.toCharArray@POLYN914882 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2627,14 +2627,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN916928 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN918128 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN916928 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN918128 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2669,7 +2669,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.copyValueOf@POLYN919278 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.copyValueOf@POLYN920478 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2683,14 +2683,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN919760 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN920960 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN919760 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN920960 the MagicNumber/String  'false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2704,14 +2704,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN920226 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN921426 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN920226 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN921426 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2725,7 +2725,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN920820 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN922020 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2739,7 +2739,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN921310 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.lang.String.valueOf@POLYN922510 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2760,28 +2760,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.indexOf@POLYN871061"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.indexOf@POLYN872261"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.lastIndexOf@POLYN874998"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.lastIndexOf@POLYN876198"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toLowerCase@POLYN903021"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toLowerCase@POLYN904221"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toUpperCase@POLYN910846"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toUpperCase@POLYN912046"
 }} 
 ]
 , 

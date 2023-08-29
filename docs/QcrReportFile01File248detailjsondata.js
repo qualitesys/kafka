@@ -145,14 +145,14 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN161199 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN162399 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN161199 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.partition@POLYN162399 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN161793|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN162180|int Utils_toPositiveN162369|int Utils_toPositiveN162962"
+ , "c3" : "QC-JAV000007[00046] For method nextPartition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN162993|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN163380|int Utils_toPositiveN163569|int Utils_toPositiveN164162"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -180,91 +180,91 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#52"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#54"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00057] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00058] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#60"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/StickyPartitionCache.java.html#66"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN161623 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.clients.producer.internals.StickyPartitionCache.nextPartition@POLYN162823 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

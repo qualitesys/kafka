@@ -125,7 +125,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.policyName@POLYN154360 the MagicNumber/String  'None' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.policyName@POLYN155560 the MagicNumber/String  'None' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.isAllowed@POLYN154462 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.isAllowed@POLYN155662 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -153,21 +153,21 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN154578 the MagicNumber/String  'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN155778 the MagicNumber/String  'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN154578"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN155778"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN154578 the MagicNumber/String 'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00045] In the recursive method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN155778 the MagicNumber/String 'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' MUST BE CONVERTED to const"
 }} 
 ]
 , 

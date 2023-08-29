@@ -333,14 +333,14 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextTransportLayer.ready@POLYN181859 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextTransportLayer.ready@POLYN183059 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#49"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method finishConnect list of called methods Object monObjet|boolean socketChannel_finishConnectN182050"
+ , "c3" : "QC-JAV000007[00049] For method finishConnect list of called methods Object monObjet|boolean socketChannel_finishConnectN183250"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -389,7 +389,7 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.network.PlaintextTransportLayer.hasPendingWrites@POLYN186269 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.network.PlaintextTransportLayer.hasPendingWrites@POLYN187469 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -410,14 +410,14 @@ var maDataBlocs = {
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.network.PlaintextTransportLayer.isMute@POLYN186971 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.common.network.PlaintextTransportLayer.isMute@POLYN188171 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.common.network.PlaintextTransportLayer.hasBytesBuffered@POLYN187209 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.common.network.PlaintextTransportLayer.hasBytesBuffered@POLYN188409 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -452,28 +452,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.close@POLYN182883"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.close@POLYN184083"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect@POLYN181961"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.finishConnect@POLYN183161"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.isConnected@POLYN182771"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.isConnected@POLYN183971"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.isOpen@POLYN182651"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.PlaintextTransportLayer.isOpen@POLYN183851"
 }} 
 ]
 , 

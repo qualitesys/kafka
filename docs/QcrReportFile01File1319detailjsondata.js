@@ -775,112 +775,112 @@ var maDataBlocs = {
  , "c1" : "00283"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#283"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method build list of called methods Object monObjet|java.lang.String String_formatN435352"
+ , "c3" : "QC-JAV000007[00283] For method build list of called methods Object monObjet|java.lang.String String_formatN436552"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'You must set a raft client.' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'You must set a raft client.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'You must specify an initial metadata.version using the kafka-storage tool.' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'You must specify an initial metadata.version using the kafka-storage tool.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'You must specify the quorum features' should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'You must specify the quorum features' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'Node%d_' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'Node%d_' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  '[Controller %d] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  '[Controller %d] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00298"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'org.apache.kafka.controller.MockControllerMetrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'org.apache.kafka.controller.MockControllerMetrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'QuorumController' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'QuorumController' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN434752 the MagicNumber/String  'event queue' should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.controller.QuorumController.Builder.build@POLYN435952 the MagicNumber/String  'event queue' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1041,49 +1041,49 @@ var maDataBlocs = {
  , "c1" : "00357"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN437029 the MagicNumber/String  'Invalid broker name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN438229 the MagicNumber/String  'Invalid broker name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00361"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN437029 the MagicNumber/String  'No broker with id ' should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN438229 the MagicNumber/String  'No broker with id ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00362"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN437029 the MagicNumber/String  ' found.' should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN438229 the MagicNumber/String  ' found.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00366"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN437029 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN438229 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN437029 the MagicNumber/String  'The topic '' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN438229 the MagicNumber/String  'The topic '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN437029 the MagicNumber/String  '' does not exist.' should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.controller.QuorumController.ConfigResourceExistenceChecker.accept@POLYN438229 the MagicNumber/String  '' does not exist.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00388"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.controller.QuorumController.newNotControllerException@POLYN438430 the MagicNumber/String  'No controller appears to be active.' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.controller.QuorumController.newNotControllerException@POLYN439630 the MagicNumber/String  'No controller appears to be active.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1097,7 +1097,7 @@ var maDataBlocs = {
  , "c1" : "00397"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.controller.QuorumController.exceptionToApparentController@POLYN438862 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.controller.QuorumController.exceptionToApparentController@POLYN440062 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1111,7 +1111,7 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN439254 the MagicNumber/String  'Processed {} in {} us' should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN440454 the MagicNumber/String  'Processed {} in {} us' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1139,28 +1139,28 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String  '{}: unable to start processing because of {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String  '{}: unable to start processing because of {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String  '{}: failed with {} in {} us' should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String  '{}: failed with {} in {} us' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String  '{}: failed with unknown server exception {} at epoch {} in {} us.  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String  '{}: failed with unknown server exception {} at epoch {} in {} us.  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#430"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String  'Renouncing leadership and reverting to the last committed offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00430] In method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String  'Renouncing leadership and reverting to the last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1174,7 +1174,7 @@ var maDataBlocs = {
  , "c1" : "00457"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#457"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN441969 the MagicNumber/String  'Executing {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00457] In method org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN443169 the MagicNumber/String  'Executing {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1202,105 +1202,105 @@ var maDataBlocs = {
  , "c1" : "00486"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#486"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00486] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00487"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#487"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'Snapshot generator already exists.' should be converted to const"
+ , "c3" : "QC-JAV000010[00487] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'Snapshot generator already exists.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#492"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'Cannot generate a snapshot at committed offset %d because it does not exists in the snapshot registry.' should be converted to const"
+ , "c3" : "QC-JAV000010[00492] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'Cannot generate a snapshot at committed offset %d because it does not exists in the snapshot registry.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'features' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'features' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'cluster' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'cluster' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'replication' should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'replication' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'configuration' should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'clientQuotas' should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'clientQuotas' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'producerIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'producerIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'acls' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'acls' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00517"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#517"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00520"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#520"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String  'Skipping generation of snapshot for committed offset {} and epoch {} since it already exists' should be converted to const"
+ , "c3" : "QC-JAV000010[00520] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String  'Skipping generation of snapshot for committed offset {} and epoch {} since it already exists' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00528"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#528"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00528] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00529"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#529"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417 the MagicNumber/String  'Cancelling snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00529] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617 the MagicNumber/String  'Cancelling snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00531"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1321,49 +1321,49 @@ var maDataBlocs = {
  , "c1" : "00548"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00549"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String  'No snapshot is in progress.' should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String  'No snapshot is in progress.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#556"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String  'Error while generating snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00556] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String  'Error while generating snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00558"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00562"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#562"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String  'Finished generating snapshot {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00562] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String  'Finished generating snapshot {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00564"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#564"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00575"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#575"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.snapshotLastOffsetFromLog@POLYN447456 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00575] In method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.snapshotLastOffsetFromLog@POLYN448656 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1377,14 +1377,14 @@ var maDataBlocs = {
  , "c1" : "00621"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.controller.QuorumController.ControllerReadEvent.toString@POLYN449541 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.controller.QuorumController.ControllerReadEvent.toString@POLYN450741 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#621"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.controller.QuorumController.ControllerReadEvent.toString@POLYN449541 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00621] In method org.apache.kafka.controller.QuorumController.ControllerReadEvent.toString@POLYN450741 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1398,77 +1398,77 @@ var maDataBlocs = {
  , "c1" : "00693"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#693"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.ControllerWriteEvent@POLYN451988 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00693] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.ControllerWriteEvent@POLYN453188 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00701"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#701"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00701] For method run list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;T&gt; op_generateRecordsAndResultN453104"
+ , "c3" : "QC-JAV000007[00701] For method run list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;T&gt; op_generateRecordsAndResultN454304"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00705"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#705"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00719"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#719"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00719] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00720"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  'Completing read-only operation {} immediately because ' should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  'Completing read-only operation {} immediately because ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00721"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#721"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  'the purgatory is empty.' should be converted to const"
+ , "c3" : "QC-JAV000010[00721] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  'the purgatory is empty.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00722"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00727"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#727"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  'Read-only operation {} will be completed when the log ' should be converted to const"
+ , "c3" : "QC-JAV000010[00727] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  'Read-only operation {} will be completed when the log ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00728"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#728"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  'reaches offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00728] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  'reaches offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00749"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#749"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00749] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  'Read-write operation {} will be completed when the log ' should be converted to const"
+ , "c3" : "QC-JAV000010[00749] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  'Read-write operation {} will be completed when the log ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00750"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#750"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00750] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN452509 the MagicNumber/String  'reaches offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00750] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.run@POLYN453709 the MagicNumber/String  'reaches offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1489,21 +1489,21 @@ var maDataBlocs = {
  , "c1" : "00770"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#770"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN455620 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00770] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN456820 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00781"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.toString@POLYN456160 the MagicNumber/String  '(' should be converted to const"
+ , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.toString@POLYN457360 the MagicNumber/String  '(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00781"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#781"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.toString@POLYN456160 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00781] In method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.toString@POLYN457360 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1531,63 +1531,63 @@ var maDataBlocs = {
  , "c1" : "00807"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  'handleCommit[baseOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  'handleCommit[baseOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00807"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#807"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00807] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00810"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#810"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00810] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00810] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00820"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#820"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00820] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  'Completing purgatory items up to offset {} and epoch {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00820] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  'Completing purgatory items up to offset {} and epoch {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00835"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#835"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00835] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  'Replaying commits from the active node up to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00835] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  'Replaying commits from the active node up to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00836"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#836"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00836] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  'offset {} and epoch {}: {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00836] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  'offset {} and epoch {}: {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00838"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#838"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00838] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00838] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00840"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#840"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00840] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  'Replaying commits from the active node up to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00840] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  'Replaying commits from the active node up to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00841"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#841"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00841] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN457519 the MagicNumber/String  'offset {} and epoch {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00841] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleCommit@POLYN458719 the MagicNumber/String  'offset {} and epoch {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1608,42 +1608,42 @@ var maDataBlocs = {
  , "c1" : "00862"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#862"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00862] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459912 the MagicNumber/String  'handleSnapshot[snapshotId=%s]' should be converted to const"
+ , "c3" : "QC-JAV000010[00862] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN461112 the MagicNumber/String  'handleSnapshot[snapshotId=%s]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00867"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#867"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00867] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459912 the MagicNumber/String  'Asked to load snapshot (%s) when it is the active controller (%d)' should be converted to const"
+ , "c3" : "QC-JAV000010[00867] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN461112 the MagicNumber/String  'Asked to load snapshot (%s) when it is the active controller (%d)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00873"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#873"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00873] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459912 the MagicNumber/String  'Starting to replay snapshot ({}), from last commit offset ({}) and epoch ({})' should be converted to const"
+ , "c3" : "QC-JAV000010[00873] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN461112 the MagicNumber/String  'Starting to replay snapshot ({}), from last commit offset ({}) and epoch ({})' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00886"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#886"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459912 the MagicNumber/String  'Replaying snapshot ({}) batch with last offset of {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00886] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN461112 the MagicNumber/String  'Replaying snapshot ({}) batch with last offset of {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00892"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#892"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00892] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459912 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00892] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN461112 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00896"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#896"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00896] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN459912 the MagicNumber/String  'Replaying snapshot ({}) batch with last offset of {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00896] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleSnapshot@POLYN461112 the MagicNumber/String  'Replaying snapshot ({}) batch with last offset of {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1657,7 +1657,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method handleLeaderChange list of called methods Object monObjet|int newLeader_epochN462531"
+ , "c3" : "QC-JAV000007[00921] For method handleLeaderChange list of called methods Object monObjet|int newLeader_epochN463731"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1671,168 +1671,168 @@ var maDataBlocs = {
  , "c1" : "00924"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'handleLeaderChange[' should be converted to const"
+ , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'handleLeaderChange[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00924"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#924"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00924] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00926"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#926"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00926] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00927"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#927"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Tried to claim controller epoch ' should be converted to const"
+ , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Tried to claim controller epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00928"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#928"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00928] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  ', but we never renounced controller epoch ' should be converted to const"
+ , "c3" : "QC-JAV000010[00928] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  ', but we never renounced controller epoch ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00933"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#933"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00933] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00933] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00947"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#947"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00947] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Cannot become leader without a KRaft supported version. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00947] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Cannot become leader without a KRaft supported version. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00948"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#948"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00948] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Got ' should be converted to const"
+ , "c3" : "QC-JAV000010[00948] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Got ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00957"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#957"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00957] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'bootstrapMetadata' should be converted to const"
+ , "c3" : "QC-JAV000010[00957] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'bootstrapMetadata' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#959"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00959] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Initializing metadata.version to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00959] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Initializing metadata.version to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00961"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#961"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Upgrading KRaft cluster and initializing metadata.version to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Upgrading KRaft cluster and initializing metadata.version to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00964"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#964"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00964] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00964] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00968"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#968"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00968] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00968] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00969"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#969"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Failed to bootstrap metadata.' should be converted to const"
+ , "c3" : "QC-JAV000010[00969] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Failed to bootstrap metadata.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00970"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#970"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00970] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'bootstrapMetadata[' should be converted to const"
+ , "c3" : "QC-JAV000010[00970] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'bootstrapMetadata[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00970"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#970"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00970] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00970] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00971"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#971"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00971] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Renouncing the leadership at oldEpoch {} since we could not bootstrap ' should be converted to const"
+ , "c3" : "QC-JAV000010[00971] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Renouncing the leadership at oldEpoch {} since we could not bootstrap ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00972"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'metadata. Reverting to last committed offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'metadata. Reverting to last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00983"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#983"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Becoming the active controller at epoch {}, committed offset {}, committed epoch {}, and metadata.version {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00983] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Becoming the active controller at epoch {}, committed offset {}, committed epoch {}, and metadata.version {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01000"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1000"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'handleRenounce[' should be converted to const"
+ , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'handleRenounce[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01000"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1000"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[01000] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1001"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01001] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'Renouncing the leadership at oldEpoch {} due to a metadata ' should be converted to const"
+ , "c3" : "QC-JAV000010[01001] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'Renouncing the leadership at oldEpoch {} due to a metadata ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01002"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1002"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN462343 the MagicNumber/String  'log event. Reverting to last committed offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01002] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.handleLeaderChange@POLYN463543 the MagicNumber/String  'log event. Reverting to last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01011"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1011"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01011] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN466119 the MagicNumber/String  'MetaLogManager.Listener' should be converted to const"
+ , "c3" : "QC-JAV000010[01011] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN467319 the MagicNumber/String  'MetaLogManager.Listener' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1860,70 +1860,70 @@ var maDataBlocs = {
  , "c1" : "01017"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1017"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.appendRaftEvent@POLYN466233 the MagicNumber/String  'Ignoring {} raft event from an old registration' should be converted to const"
+ , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.appendRaftEvent@POLYN467433 the MagicNumber/String  'Ignoring {} raft event from an old registration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01029"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1029"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01029] For method maybeCompleteAuthorizerInitialLoad list of called methods Object monObjet|java.util.OptionalLong raftClient_highWatermarkN466877"
+ , "c3" : "QC-JAV000007[01029] For method maybeCompleteAuthorizerInitialLoad list of called methods Object monObjet|java.util.OptionalLong raftClient_highWatermarkN468077"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01033"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1033"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01033] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01034"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1034"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: completing authorizer ' should be converted to const"
+ , "c3" : "QC-JAV000010[01034] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: completing authorizer ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01035"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1035"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  'initial load at last committed offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  'initial load at last committed offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01037"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1037"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01037] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01037] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1039"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: can't proceed because ' should be converted to const"
+ , "c3" : "QC-JAV000010[01039] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: can't proceed because ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1040"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01040] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  'lastCommittedOffset  = {}, but highWatermark = {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01040] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  'lastCommittedOffset  = {}, but highWatermark = {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01044"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1044"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01044] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: highWatermark not set.' should be converted to const"
+ , "c3" : "QC-JAV000010[01044] In method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String  'maybeCompleteAuthorizerInitialLoad: highWatermark not set.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01049"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1049"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01049] In method org.apache.kafka.controller.QuorumController.isActiveController@POLYN467639 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01049] In method org.apache.kafka.controller.QuorumController.isActiveController@POLYN468839 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1944,28 +1944,28 @@ var maDataBlocs = {
  , "c1" : "01081"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1081"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01081] In method org.apache.kafka.controller.QuorumController.renounce@POLYN468815 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01081] In method org.apache.kafka.controller.QuorumController.renounce@POLYN470015 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01082"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1082"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01082] In method org.apache.kafka.controller.QuorumController.renounce@POLYN468815 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01082] In method org.apache.kafka.controller.QuorumController.renounce@POLYN470015 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01086"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1086"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01086] In method org.apache.kafka.controller.QuorumController.renounce@POLYN468815 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01086] In method org.apache.kafka.controller.QuorumController.renounce@POLYN470015 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01096"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1096"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01096] In method org.apache.kafka.controller.QuorumController.renounce@POLYN468815 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01096] In method org.apache.kafka.controller.QuorumController.renounce@POLYN470015 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2049,56 +2049,56 @@ var maDataBlocs = {
  , "c1" : "01155"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN472323 the MagicNumber/String  'Scheduling write event for {} because scheduled ({}), checkIntervalNs ({}) and isImbalanced ({})' should be converted to const"
+ , "c3" : "QC-JAV000010[01155] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473523 the MagicNumber/String  'Scheduling write event for {} because scheduled ({}), checkIntervalNs ({}) and isImbalanced ({})' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01187"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN472323 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[01187] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473523 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String  'Scheduling write event for {} because maxIdleIntervalNs ({}) and metadataVersion ({})' should be converted to const"
+ , "c3" : "QC-JAV000010[01209] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String  'Scheduling write event for {} because maxIdleIntervalNs ({}) and metadataVersion ({})' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01220"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01220] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01220] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01221] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01221] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01227] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01227] In method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01232"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01232] In method org.apache.kafka.controller.QuorumController.cancelNextWriteNoOpRecord@POLYN475285 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01232] In method org.apache.kafka.controller.QuorumController.cancelNextWriteNoOpRecord@POLYN476485 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2126,21 +2126,21 @@ var maDataBlocs = {
  , "c1" : "01303"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01303] In method org.apache.kafka.controller.QuorumController.replay@POLYN475802 the MagicNumber/String  'Unhandled record type ' should be converted to const"
+ , "c3" : "QC-JAV000010[01303] In method org.apache.kafka.controller.QuorumController.replay@POLYN477002 the MagicNumber/String  'Unhandled record type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01307] In method org.apache.kafka.controller.QuorumController.replay@POLYN475802 the MagicNumber/String  'Error replaying record {} from snapshot {} at last offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01307] In method org.apache.kafka.controller.QuorumController.replay@POLYN477002 the MagicNumber/String  'Error replaying record {} from snapshot {} at last offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01310"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01310] In method org.apache.kafka.controller.QuorumController.replay@POLYN475802 the MagicNumber/String  'Error replaying record {} at last offset {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01310] In method org.apache.kafka.controller.QuorumController.replay@POLYN477002 the MagicNumber/String  'Error replaying record {} at last offset {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2154,49 +2154,49 @@ var maDataBlocs = {
  , "c1" : "01319"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01319] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01319] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01328"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01328] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950 the MagicNumber/String  'Generating a snapshot that includes (epoch={}, offset={}) after {} committed bytes since the last snapshot.' should be converted to const"
+ , "c3" : "QC-JAV000010[01328] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150 the MagicNumber/String  'Generating a snapshot that includes (epoch={}, offset={}) after {} committed bytes since the last snapshot.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01332"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01332] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01332] In method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01343"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01343] In method org.apache.kafka.controller.QuorumController.resetState@POLYN479699 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01343] In method org.apache.kafka.controller.QuorumController.resetState@POLYN480899 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.controller.QuorumController.resetState@POLYN479699 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.controller.QuorumController.resetState@POLYN480899 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.controller.QuorumController.resetState@POLYN479699 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.controller.QuorumController.resetState@POLYN480899 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01344"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.controller.QuorumController.resetState@POLYN479699 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01344] In method org.apache.kafka.controller.QuorumController.resetState@POLYN480899 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2224,21 +2224,21 @@ var maDataBlocs = {
  , "c1" : "01613"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1613"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01613] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01615"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1615"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01615] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01615] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01619"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01619] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319 the MagicNumber/String  'Creating new QuorumController with clusterId {}, authorizer {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[01619] In method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519 the MagicNumber/String  'Creating new QuorumController with clusterId {}, authorizer {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2266,7 +2266,7 @@ var maDataBlocs = {
  , "c1" : "01632"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1632"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01632] In method org.apache.kafka.controller.QuorumController.alterPartition@POLYN488845 the MagicNumber/String  'alterPartition' should be converted to const"
+ , "c3" : "QC-JAV000010[01632] In method org.apache.kafka.controller.QuorumController.alterPartition@POLYN490045 the MagicNumber/String  'alterPartition' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2294,7 +2294,7 @@ var maDataBlocs = {
  , "c1" : "01644"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1644"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01644] In method org.apache.kafka.controller.QuorumController.createTopics@POLYN489383 the MagicNumber/String  'createTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01644] In method org.apache.kafka.controller.QuorumController.createTopics@POLYN490583 the MagicNumber/String  'createTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2315,7 +2315,7 @@ var maDataBlocs = {
  , "c1" : "01653"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1653"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01653] In method org.apache.kafka.controller.QuorumController.unregisterBroker@POLYN489967 the MagicNumber/String  'unregisterBroker' should be converted to const"
+ , "c3" : "QC-JAV000010[01653] In method org.apache.kafka.controller.QuorumController.unregisterBroker@POLYN491167 the MagicNumber/String  'unregisterBroker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2343,7 +2343,7 @@ var maDataBlocs = {
  , "c1" : "01664"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.controller.QuorumController.findTopicIds@POLYN490358 the MagicNumber/String  'findTopicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[01664] In method org.apache.kafka.controller.QuorumController.findTopicIds@POLYN491558 the MagicNumber/String  'findTopicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2364,7 +2364,7 @@ var maDataBlocs = {
  , "c1" : "01672"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1672"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01672] In method org.apache.kafka.controller.QuorumController.findAllTopicIds@POLYN490917 the MagicNumber/String  'findAllTopicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[01672] In method org.apache.kafka.controller.QuorumController.findAllTopicIds@POLYN492117 the MagicNumber/String  'findAllTopicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2392,7 +2392,7 @@ var maDataBlocs = {
  , "c1" : "01683"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1683"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01683] In method org.apache.kafka.controller.QuorumController.findTopicNames@POLYN491283 the MagicNumber/String  'findTopicNames' should be converted to const"
+ , "c3" : "QC-JAV000010[01683] In method org.apache.kafka.controller.QuorumController.findTopicNames@POLYN492483 the MagicNumber/String  'findTopicNames' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2420,7 +2420,7 @@ var maDataBlocs = {
  , "c1" : "01694"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1694"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01694] In method org.apache.kafka.controller.QuorumController.deleteTopics@POLYN491842 the MagicNumber/String  'deleteTopics' should be converted to const"
+ , "c3" : "QC-JAV000010[01694] In method org.apache.kafka.controller.QuorumController.deleteTopics@POLYN493042 the MagicNumber/String  'deleteTopics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2441,7 +2441,7 @@ var maDataBlocs = {
  , "c1" : "01703"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1703"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.controller.QuorumController.describeConfigs@POLYN492437 the MagicNumber/String  'describeConfigs' should be converted to const"
+ , "c3" : "QC-JAV000010[01703] In method org.apache.kafka.controller.QuorumController.describeConfigs@POLYN493637 the MagicNumber/String  'describeConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2476,14 +2476,14 @@ var maDataBlocs = {
  , "c1" : "01714"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1714"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01714] In method org.apache.kafka.controller.QuorumController.electLeaders@POLYN492850 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01714] In method org.apache.kafka.controller.QuorumController.electLeaders@POLYN494050 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01717"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1717"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01717] In method org.apache.kafka.controller.QuorumController.electLeaders@POLYN492850 the MagicNumber/String  'electLeaders' should be converted to const"
+ , "c3" : "QC-JAV000010[01717] In method org.apache.kafka.controller.QuorumController.electLeaders@POLYN494050 the MagicNumber/String  'electLeaders' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2504,7 +2504,7 @@ var maDataBlocs = {
  , "c1" : "01725"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1725"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01725] In method org.apache.kafka.controller.QuorumController.finalizedFeatures@POLYN493432 the MagicNumber/String  'getFinalizedFeatures' should be converted to const"
+ , "c3" : "QC-JAV000010[01725] In method org.apache.kafka.controller.QuorumController.finalizedFeatures@POLYN494632 the MagicNumber/String  'getFinalizedFeatures' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2518,7 +2518,7 @@ var maDataBlocs = {
  , "c1" : "01730"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1730"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01730] For method incrementalAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN494400"
+ , "c3" : "QC-JAV000007[01730] For method incrementalAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN495600"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2539,14 +2539,14 @@ var maDataBlocs = {
  , "c1" : "01738"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1738"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01738] In method org.apache.kafka.controller.QuorumController.incrementalAlterConfigs@POLYN493777 the MagicNumber/String  'incrementalAlterConfigs' should be converted to const"
+ , "c3" : "QC-JAV000010[01738] In method org.apache.kafka.controller.QuorumController.incrementalAlterConfigs@POLYN494977 the MagicNumber/String  'incrementalAlterConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01740"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1740"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01740] In method org.apache.kafka.controller.QuorumController.incrementalAlterConfigs@POLYN493777 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01740] In method org.apache.kafka.controller.QuorumController.incrementalAlterConfigs@POLYN494977 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2574,7 +2574,7 @@ var maDataBlocs = {
  , "c1" : "01757"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1757"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01757] In method org.apache.kafka.controller.QuorumController.alterPartitionReassignments@POLYN494697 the MagicNumber/String  'alterPartitionReassignments' should be converted to const"
+ , "c3" : "QC-JAV000010[01757] In method org.apache.kafka.controller.QuorumController.alterPartitionReassignments@POLYN495897 the MagicNumber/String  'alterPartitionReassignments' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2609,21 +2609,21 @@ var maDataBlocs = {
  , "c1" : "01766"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1766"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01766] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN495213 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01766] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN496413 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01768"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1768"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01768] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN495213 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01768] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN496413 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01770"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1770"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01770] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN495213 the MagicNumber/String  'listPartitionReassignments' should be converted to const"
+ , "c3" : "QC-JAV000010[01770] In method org.apache.kafka.controller.QuorumController.listPartitionReassignments@POLYN496413 the MagicNumber/String  'listPartitionReassignments' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2637,7 +2637,7 @@ var maDataBlocs = {
  , "c1" : "01775"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1775"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01775] For method legacyAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_legacyAlterConfigsN496479"
+ , "c3" : "QC-JAV000007[01775] For method legacyAlterConfigs list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_legacyAlterConfigsN497679"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2658,14 +2658,14 @@ var maDataBlocs = {
  , "c1" : "01782"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1782"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01782] In method org.apache.kafka.controller.QuorumController.legacyAlterConfigs@POLYN495893 the MagicNumber/String  'legacyAlterConfigs' should be converted to const"
+ , "c3" : "QC-JAV000010[01782] In method org.apache.kafka.controller.QuorumController.legacyAlterConfigs@POLYN497093 the MagicNumber/String  'legacyAlterConfigs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01784"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.controller.QuorumController.legacyAlterConfigs@POLYN495893 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01784] In method org.apache.kafka.controller.QuorumController.legacyAlterConfigs@POLYN497093 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2679,7 +2679,7 @@ var maDataBlocs = {
  , "c1" : "01794"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1794"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01794] For method processBrokerHeartbeat list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;org.apache.kafka.metadata.BrokerHeartbeatReply&gt; replicationControl_processBrokerHeartbeatN497334"
+ , "c3" : "QC-JAV000007[01794] For method processBrokerHeartbeat list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;org.apache.kafka.metadata.BrokerHeartbeatReply&gt; replicationControl_processBrokerHeartbeatN498534"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2700,14 +2700,14 @@ var maDataBlocs = {
  , "c1" : "01798"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01798] In method org.apache.kafka.controller.QuorumController.processBrokerHeartbeat@POLYN496776 the MagicNumber/String  'processBrokerHeartbeat' should be converted to const"
+ , "c3" : "QC-JAV000010[01798] In method org.apache.kafka.controller.QuorumController.processBrokerHeartbeat@POLYN497976 the MagicNumber/String  'processBrokerHeartbeat' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01801"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1801"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01801] In method org.apache.kafka.controller.QuorumController.processBrokerHeartbeat@POLYN496776 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01801] In method org.apache.kafka.controller.QuorumController.processBrokerHeartbeat@POLYN497976 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2721,7 +2721,7 @@ var maDataBlocs = {
  , "c1" : "01823"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1823"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01823] For method registerBroker list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;org.apache.kafka.metadata.BrokerRegistrationReply&gt; clusterControl_registerBrokerN498174"
+ , "c3" : "QC-JAV000007[01823] For method registerBroker list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;org.apache.kafka.metadata.BrokerRegistrationReply&gt; clusterControl_registerBrokerN499374"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2735,14 +2735,14 @@ var maDataBlocs = {
  , "c1" : "01827"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1827"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01827] In method org.apache.kafka.controller.QuorumController.registerBroker@POLYN497888 the MagicNumber/String  'registerBroker' should be converted to const"
+ , "c3" : "QC-JAV000010[01827] In method org.apache.kafka.controller.QuorumController.registerBroker@POLYN499088 the MagicNumber/String  'registerBroker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01829"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1829"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01829] In method org.apache.kafka.controller.QuorumController.registerBroker@POLYN497888 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01829] In method org.apache.kafka.controller.QuorumController.registerBroker@POLYN499088 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2756,7 +2756,7 @@ var maDataBlocs = {
  , "c1" : "01837"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1837"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01837] For method alterClientQuotas list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.quota.ClientQuotaEntity,org.apache.kafka.common.requests.ApiError&gt;&gt; clientQuotaControlManager_alterClientQuotasN499052"
+ , "c3" : "QC-JAV000007[01837] For method alterClientQuotas list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.quota.ClientQuotaEntity,org.apache.kafka.common.requests.ApiError&gt;&gt; clientQuotaControlManager_alterClientQuotasN500252"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2777,7 +2777,7 @@ var maDataBlocs = {
  , "c1" : "01845"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1845"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01845] In method org.apache.kafka.controller.QuorumController.alterClientQuotas@POLYN498519 the MagicNumber/String  'alterClientQuotas' should be converted to const"
+ , "c3" : "QC-JAV000010[01845] In method org.apache.kafka.controller.QuorumController.alterClientQuotas@POLYN499719 the MagicNumber/String  'alterClientQuotas' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2805,7 +2805,7 @@ var maDataBlocs = {
  , "c1" : "01861"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1861"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.controller.QuorumController.allocateProducerIds@POLYN499325 the MagicNumber/String  'allocateProducerIds' should be converted to const"
+ , "c3" : "QC-JAV000010[01861] In method org.apache.kafka.controller.QuorumController.allocateProducerIds@POLYN500525 the MagicNumber/String  'allocateProducerIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2833,7 +2833,7 @@ var maDataBlocs = {
  , "c1" : "01873"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1873"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01873] In method org.apache.kafka.controller.QuorumController.updateFeatures@POLYN499922 the MagicNumber/String  'updateFeatures' should be converted to const"
+ , "c3" : "QC-JAV000010[01873] In method org.apache.kafka.controller.QuorumController.updateFeatures@POLYN501122 the MagicNumber/String  'updateFeatures' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2847,7 +2847,7 @@ var maDataBlocs = {
  , "c1" : "01896"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1896"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01896] For method createPartitions list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;java.util.List&lt;CreatePartitionsTopicResult&gt;&gt; replicationControl_createPartitionsN502318"
+ , "c3" : "QC-JAV000007[01896] For method createPartitions list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;java.util.List&lt;CreatePartitionsTopicResult&gt;&gt; replicationControl_createPartitionsN503518"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2868,35 +2868,35 @@ var maDataBlocs = {
  , "c1" : "01905"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1905"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01905] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN501796 the MagicNumber/String  'createPartitions' should be converted to const"
+ , "c3" : "QC-JAV000010[01905] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN502996 the MagicNumber/String  'createPartitions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01908"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1908"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01908] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN501796 the MagicNumber/String  'Validate-only CreatePartitions result(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01908] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN502996 the MagicNumber/String  'Validate-only CreatePartitions result(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01911"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1911"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01911] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN501796 the MagicNumber/String  'CreatePartitions result(s): {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01911] In method org.apache.kafka.controller.QuorumController.createPartitions@POLYN502996 the MagicNumber/String  'CreatePartitions result(s): {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01920"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1920"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01920] In method org.apache.kafka.controller.QuorumController.beginWritingSnapshot@POLYN502821 the MagicNumber/String  'beginWritingSnapshot' should be converted to const"
+ , "c3" : "QC-JAV000010[01920] In method org.apache.kafka.controller.QuorumController.beginWritingSnapshot@POLYN504021 the MagicNumber/String  'beginWritingSnapshot' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01921"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1921"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01921] In method org.apache.kafka.controller.QuorumController.beginWritingSnapshot@POLYN502821 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01921] In method org.apache.kafka.controller.QuorumController.beginWritingSnapshot@POLYN504021 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2917,7 +2917,7 @@ var maDataBlocs = {
  , "c1" : "01938"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1938"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01938] In method org.apache.kafka.controller.QuorumController.createAcls@POLYN503475 the MagicNumber/String  'createAcls' should be converted to const"
+ , "c3" : "QC-JAV000010[01938] In method org.apache.kafka.controller.QuorumController.createAcls@POLYN504675 the MagicNumber/String  'createAcls' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2938,7 +2938,7 @@ var maDataBlocs = {
  , "c1" : "01947"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1947"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01947] In method org.apache.kafka.controller.QuorumController.deleteAcls@POLYN503850 the MagicNumber/String  'deleteAcls' should be converted to const"
+ , "c3" : "QC-JAV000010[01947] In method org.apache.kafka.controller.QuorumController.deleteAcls@POLYN505050 the MagicNumber/String  'deleteAcls' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2952,525 +2952,525 @@ var maDataBlocs = {
  , "c1" : "01954"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1954"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01954] In method org.apache.kafka.controller.QuorumController.waitForReadyBrokers@POLYN504204 the MagicNumber/String  'waitForReadyBrokers' should be converted to const"
+ , "c3" : "QC-JAV000010[01954] In method org.apache.kafka.controller.QuorumController.waitForReadyBrokers@POLYN505404 the MagicNumber/String  'waitForReadyBrokers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01962"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1962"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01962] In method org.apache.kafka.controller.QuorumController.beginShutdown@POLYN504630 the MagicNumber/String  'QuorumController#beginShutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[01962] In method org.apache.kafka.controller.QuorumController.beginShutdown@POLYN505830 the MagicNumber/String  'QuorumController#beginShutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01991"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1991"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01991] In method org.apache.kafka.controller.QuorumController.pause@POLYN505291 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01991] In method org.apache.kafka.controller.QuorumController.pause@POLYN506491 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01992"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1992"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01992] In method org.apache.kafka.controller.QuorumController.pause@POLYN505291 the MagicNumber/String  'pause' should be converted to const"
+ , "c3" : "QC-JAV000010[01992] In method org.apache.kafka.controller.QuorumController.pause@POLYN506491 the MagicNumber/String  'pause' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01996"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1996"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01996] In method org.apache.kafka.controller.QuorumController.pause@POLYN505291 the MagicNumber/String  'Interrupted while waiting for unpause.' should be converted to const"
+ , "c3" : "QC-JAV000010[01996] In method org.apache.kafka.controller.QuorumController.pause@POLYN506491 the MagicNumber/String  'Interrupted while waiting for unpause.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.replay@POLYN475802"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.replay@POLYN477002"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.appendControlEvent@POLYN442879"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.appendControlEvent@POLYN444079"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN455620"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN456820"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN472323"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473523"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN441969"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN443169"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN466119"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN467319"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.beginShutdown@POLYN504630"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.beginShutdown@POLYN505830"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.close@POLYN505131"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.close@POLYN506331"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN439254"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN440454"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01319"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1319"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01319] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01319] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01328"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1328"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01328] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950 the MagicNumber/String 'Generating a snapshot that includes -epoch={}, offset={}- after {} committed bytes since the last snapshot.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01328] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150 the MagicNumber/String 'Generating a snapshot that includes -epoch={}, offset={}- after {} committed bytes since the last snapshot.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01332"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1332"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01332] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN478950 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01332] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480150 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00486"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#486"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00486] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00486] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00487"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'Snapshot generator already exists.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'Snapshot generator already exists.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00492] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'Cannot generate a snapshot at committed offset %d because it does not exists in the snapshot registry.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00492] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'Cannot generate a snapshot at committed offset %d because it does not exists in the snapshot registry.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'features' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'features' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#509"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'cluster' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'cluster' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#510"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00510] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'replication' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00510] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'replication' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'configuration' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'configuration' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#512"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'clientQuotas' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00512] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'clientQuotas' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#513"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'producerIds' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00513] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'producerIds' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'acls' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'acls' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00517"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#517"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00517] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00517] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00520"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#520"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00520] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN443415 the MagicNumber/String 'Skipping generation of snapshot for committed offset {} and epoch {} since it already exists' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00520] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444615 the MagicNumber/String 'Skipping generation of snapshot for committed offset {} and epoch {} since it already exists' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00413"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String '{}: unable to start processing because of {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String '{}: unable to start processing because of {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#425"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String '{}: failed with {} in {} us' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String '{}: failed with {} in {} us' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#429"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String '{}: failed with unknown server exception {} at epoch {} in {} us.  ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String '{}: failed with unknown server exception {} at epoch {} in {} us.  ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#430"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN439794 the MagicNumber/String 'Renouncing leadership and reverting to the last committed offset {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN440994 the MagicNumber/String 'Renouncing leadership and reverting to the last committed offset {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00528"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#528"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00528] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00528] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00529"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#529"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417 the MagicNumber/String 'Cancelling snapshot {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617 the MagicNumber/String 'Cancelling snapshot {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00531"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#531"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN445417 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446617 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01613"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1613"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01613] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01613] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01615"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1615"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01615] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01615] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01619"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01619] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN484319 the MagicNumber/String 'Creating new QuorumController with clusterId {}, authorizer {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01619] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485519 the MagicNumber/String 'Creating new QuorumController with clusterId {}, authorizer {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01303"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01303] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN475802 the MagicNumber/String 'Unhandled record type ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01303] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN477002 the MagicNumber/String 'Unhandled record type ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01307"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1307"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN475802 the MagicNumber/String 'Error replaying record {} from snapshot {} at last offset {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN477002 the MagicNumber/String 'Error replaying record {} from snapshot {} at last offset {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01310"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1310"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01310] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN475802 the MagicNumber/String 'Error replaying record {} at last offset {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01310] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN477002 the MagicNumber/String 'Error replaying record {} at last offset {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01209"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1209"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01209] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String 'Scheduling write event for {} because maxIdleIntervalNs -{}- and metadataVersion -{}-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01209] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String 'Scheduling write event for {} because maxIdleIntervalNs -{}- and metadataVersion -{}-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1216"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01216] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01216] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01220"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1220"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01220] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01220] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01221"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1221"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01221] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01221] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1227"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01227] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN474069 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01227] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475269 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00548"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#548"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00549"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#549"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String 'No snapshot is in progress.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String 'No snapshot is in progress.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00556"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#556"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00556] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String 'Error while generating snapshot {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00556] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String 'Error while generating snapshot {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00558"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#558"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00558] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00558] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00562"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#562"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00562] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String 'Finished generating snapshot {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00562] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String 'Finished generating snapshot {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00564"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#564"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN446305 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447505 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00770"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#770"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00770] In the recursive method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN455620 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00770] In the recursive method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN456820 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01155"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1155"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01155] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN472323 the MagicNumber/String 'Scheduling write event for {} because scheduled -{}-, checkIntervalNs -{}- and isImbalanced -{}-' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01155] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473523 the MagicNumber/String 'Scheduling write event for {} because scheduled -{}-, checkIntervalNs -{}- and isImbalanced -{}-' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01187"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1187"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01187] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN472323 the MagicNumber/String 10 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01187] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473523 the MagicNumber/String 10 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00457"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#457"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN441969 the MagicNumber/String 'Executing {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN443169 the MagicNumber/String 'Executing {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01011"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1011"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01011] In the recursive method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN466119 the MagicNumber/String 'MetaLogManager.Listener' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01011] In the recursive method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN467319 the MagicNumber/String 'MetaLogManager.Listener' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01962"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1962"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01962] In the recursive method org.apache.kafka.controller.QuorumController.beginShutdown@POLYN504630 the MagicNumber/String 'QuorumController#beginShutdown' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01962] In the recursive method org.apache.kafka.controller.QuorumController.beginShutdown@POLYN505830 the MagicNumber/String 'QuorumController#beginShutdown' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#404"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN439254 the MagicNumber/String 'Processed {} in {} us' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN440454 the MagicNumber/String 'Processed {} in {} us' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01033"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1033"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01033] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01033] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01034"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1034"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01034] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: completing authorizer ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01034] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: completing authorizer ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01035"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1035"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01035] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String 'initial load at last committed offset {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01035] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String 'initial load at last committed offset {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01037"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1037"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01037] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01037] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01039"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1039"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01039] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: can't proceed because ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01039] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: can't proceed because ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01040"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1040"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01040] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String 'lastCommittedOffset  = {}, but highWatermark = {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01040] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String 'lastCommittedOffset  = {}, but highWatermark = {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01044"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1044"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01044] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN466747 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: highWatermark not set.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01044] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN467947 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: highWatermark not set.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

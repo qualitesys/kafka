@@ -238,14 +238,14 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN166638 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN167838 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#41"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN166638 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00041] In method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN167838 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -273,21 +273,21 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.state.internals.WrappedStateStore.setFlushListener@POLYN167710 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.streams.state.internals.WrappedStateStore.setFlushListener@POLYN168910 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.WrappedStateStore.validateStoreOpen@POLYN168691 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.WrappedStateStore.validateStoreOpen@POLYN169891 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.WrappedStateStore.validateStoreOpen@POLYN168691 the MagicNumber/String  ' is currently closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.streams.state.internals.WrappedStateStore.validateStoreOpen@POLYN169891 the MagicNumber/String  ' is currently closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -336,77 +336,77 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.close@POLYN169073"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.close@POLYN170273"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.flush@POLYN168966"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.flush@POLYN170166"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.getPosition@POLYN170160"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.getPosition@POLYN171360"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.init@POLYN167255"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.init@POLYN168455"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.init@POLYN167456"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.init@POLYN168656"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.isOpen@POLYN168598"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.isOpen@POLYN169798"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN166638"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN167838"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.name@POLYN168358"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.name@POLYN169558"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.persistent@POLYN168478"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.WrappedStateStore.persistent@POLYN169678"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#37"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN166638 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00037] In the recursive method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN167838 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/WrappedStateStore.java.html#41"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN166638 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00041] In the recursive method org.apache.kafka.streams.state.internals.WrappedStateStore.isTimestamped@POLYN167838 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

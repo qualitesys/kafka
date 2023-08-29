@@ -193,7 +193,7 @@ var maDataBlocs = {
  , "c1" : "00043"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.configure@POLYN160620 the MagicNumber/String  'Using custom remote topic separator: '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.configure@POLYN161820 the MagicNumber/String  'Using custom remote topic separator: '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -214,21 +214,21 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.topicSource@POLYN161357 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.topicSource@POLYN162557 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.topicSource@POLYN161357 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.topicSource@POLYN162557 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.topicSource@POLYN161357 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.topicSource@POLYN162557 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,7 +242,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#65"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method upstreamTopic list of called methods Object monObjet|java.lang.String topicSourceN161849"
+ , "c3" : "QC-JAV000007[00065] For method upstreamTopic list of called methods Object monObjet|java.lang.String topicSourceN163049"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -256,28 +256,28 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.upstreamTopic@POLYN161750 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.upstreamTopic@POLYN162950 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.upstreamTopic@POLYN161750 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.upstreamTopic@POLYN162950 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.internalSuffix@POLYN162177 the MagicNumber/String  'internal' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.internalSuffix@POLYN163377 the MagicNumber/String  'internal' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.checkpointsTopicSuffix@POLYN162287 the MagicNumber/String  'checkpoints' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.checkpointsTopicSuffix@POLYN163487 the MagicNumber/String  'checkpoints' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -291,7 +291,7 @@ var maDataBlocs = {
  , "c1" : "00084"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/DefaultReplicationPolicy.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.offsetSyncsTopic@POLYN162445 the MagicNumber/String  'mm2-offset-syncs' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.connect.mirror.DefaultReplicationPolicy.offsetSyncsTopic@POLYN163645 the MagicNumber/String  'mm2-offset-syncs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

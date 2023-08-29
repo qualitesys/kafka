@@ -258,63 +258,63 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  'client-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  'client-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  'connect' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  'connect' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  'Connect group member created' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  'Connect group member created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String  'Failed to construct kafka consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String  'Failed to construct kafka consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN197004 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198204 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.ensureActive@POLYN197250 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.ensureActive@POLYN198450 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -328,21 +328,21 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN197364 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN198564 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN197364 the MagicNumber/String  'Timeout must not be negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN198564 the MagicNumber/String  'Timeout must not be negative' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.requestRejoin@POLYN198049 the MagicNumber/String  'connect worker requested rejoin' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.requestRejoin@POLYN199249 the MagicNumber/String  'connect worker requested rejoin' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -384,56 +384,56 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  'Stopping the Connect group member.' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  'Stopping the Connect group member.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  'coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  'coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  'consumer metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  'consumer metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  'consumer network client' should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  'consumer network client' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#238"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  'Failed to stop the Connect group member' should be converted to const"
+ , "c3" : "QC-JAV000010[00238] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  'Failed to stop the Connect group member' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String  'The Connect group member has stopped.' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String  'The Connect group member has stopped.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -447,182 +447,182 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN197364"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN198564"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.currentProtocolVersion@POLYN198703"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.currentProtocolVersion@POLYN199903"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.maybeLeaveGroup@POLYN198163"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.maybeLeaveGroup@POLYN199363"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.memberId@POLYN197951"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.memberId@POLYN199151"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.ownerUrl@POLYN198305"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.ownerUrl@POLYN199505"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.ownerUrl@POLYN198452"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.ownerUrl@POLYN199652"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.revokeAssignment@POLYN198801"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.revokeAssignment@POLYN200001"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String 'client-id' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String 'client-id' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#113"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String 'connect' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String 'connect' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#119"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String 100 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String 100 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#128"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String 'Connect group member created' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00153] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String 'Connect group member created' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#157"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#159"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN191599 the MagicNumber/String 'Failed to construct kafka consumer' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00159] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.WorkerGroupMember@POLYN192799 the MagicNumber/String 'Failed to construct kafka consumer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String 'Stopping the Connect group member.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String 'Stopping the Connect group member.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#232"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#233"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00233] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String 'coordinator' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00233] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String 'coordinator' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#234"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String 'consumer metrics' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String 'consumer metrics' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#235"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String 'consumer network client' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String 'consumer network client' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String 'Failed to stop the Connect group member' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String 'Failed to stop the Connect group member' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#240"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN198935 the MagicNumber/String 'The Connect group member has stopped.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.stop@POLYN200135 the MagicNumber/String 'The Connect group member has stopped.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#177"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN197364 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN198564 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/WorkerGroupMember.java.html#178"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN197364 the MagicNumber/String 'Timeout must not be negative' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.connect.runtime.distributed.WorkerGroupMember.poll@POLYN198564 the MagicNumber/String 'Timeout must not be negative' MUST BE CONVERTED to const"
 }} 
 ]
 , 

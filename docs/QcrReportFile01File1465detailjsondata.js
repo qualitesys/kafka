@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN212015.-1" , "java.io.PipedReader.read@POLYN214619.c"]
+ , "c5" : ["java.io.PipedReader.read@POLYN213215.-1" , "java.io.PipedReader.read@POLYN215819.c"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -181,7 +181,7 @@ var maDataBlocs = {
  , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN212015.ret" , "java.io.PipedReader.read@POLYN214619.c"]
+ , "c5" : ["java.io.PipedReader.read@POLYN213215.ret" , "java.io.PipedReader.read@POLYN215819.c"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN214619.rlen" , "java.io.PipedReader.read@POLYN214619.rlen"]
+ , "c5" : ["java.io.PipedReader.read@POLYN215819.rlen" , "java.io.PipedReader.read@POLYN215819.rlen"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -212,16 +212,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN212015.-1" , "---java.io.PipedReader.read@POLYN212015.dummymethode_00001" , "java.io.PipedReader.read@POLYN212015.return"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN212015[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : ["java.io.PipedReader.read@POLYN213215.-1" , "---java.io.PipedReader.read@POLYN213215.dummymethode_00001" , "java.io.PipedReader.read@POLYN213215.return"]
+ , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN213215[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN212015.return" , "---java.io.PipedReader.read@POLYN212015" , "java.io.PipedReader.read@POLYN214619.c"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN214619[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : ["java.io.PipedReader.read@POLYN213215.return" , "---java.io.PipedReader.read@POLYN213215" , "java.io.PipedReader.read@POLYN215819.c"]
+ , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN215819[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -260,16 +260,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN212015.ret" , "---java.io.PipedReader.read@POLYN212015.dummymethode_00001" , "java.io.PipedReader.read@POLYN212015.return"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN212015[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : ["java.io.PipedReader.read@POLYN213215.ret" , "---java.io.PipedReader.read@POLYN213215.dummymethode_00001" , "java.io.PipedReader.read@POLYN213215.return"]
+ , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN213215[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN212015.return" , "---java.io.PipedReader.read@POLYN212015" , "java.io.PipedReader.read@POLYN214619.c"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN214619[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : ["java.io.PipedReader.read@POLYN213215.return" , "---java.io.PipedReader.read@POLYN213215" , "java.io.PipedReader.read@POLYN215819.c"]
+ , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN215819[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -308,16 +308,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN214619.rlen" , "---java.io.PipedReader.read@POLYN214619.dummymethode_00001" , "java.io.PipedReader.read@POLYN214619.return"]
- , "c4" : "//QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN214619[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : ["java.io.PipedReader.read@POLYN215819.rlen" , "---java.io.PipedReader.read@POLYN215819.dummymethode_00001" , "java.io.PipedReader.read@POLYN215819.return"]
+ , "c4" : "//QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN215819[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00001]"
- , "c3" : ["1" , "---java.io.PipedReader.read@POLYN214619.dummymethode_00001" , "java.io.PipedReader.read@POLYN214619.rlen"]
- , "c4" : "//QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN214619[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : ["1" , "---java.io.PipedReader.read@POLYN215819.dummymethode_00001" , "java.io.PipedReader.read@POLYN215819.rlen"]
+ , "c4" : "//QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN215819[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -421,14 +421,14 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.initPipe@POLYN208135 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.initPipe@POLYN209335 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.initPipe@POLYN208135 the MagicNumber/String  'Pipe size &amp;lt;= 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.initPipe@POLYN209335 the MagicNumber/String  'Pipe size &amp;lt;= 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -470,77 +470,77 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  'Pipe not connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  'Pipe closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  'Pipe closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  'Read end dead' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  'Read end dead' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  'Pipe broken' should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  'Pipe broken' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN209287 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN210487 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -561,7 +561,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN210965 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receive@POLYN212165 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -575,7 +575,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receivedLast@POLYN211346 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.receivedLast@POLYN212546 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -596,98 +596,98 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  'Pipe not connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  'Pipe closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  'Pipe closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  'Write end dead' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  'Write end dead' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  'Pipe broken' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  'Pipe broken' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  1000 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  1000 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN212015 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN213215 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -708,126 +708,126 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method read list of called methods Object monObjet|int readN215968"
+ , "c3" : "QC-JAV000007[00001] For method read list of called methods Object monObjet|int readN217168"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  'Pipe not connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  'Pipe closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  'Pipe closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  'Write end dead' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  'Write end dead' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN214619 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.read@POLYN215819 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -841,84 +841,84 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  'Pipe not connected' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  'Pipe not connected' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  'Pipe closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  'Pipe closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  'Write end dead' should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  'Write end dead' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN217220 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.ready@POLYN218420 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.close@POLYN218107 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.close@POLYN219307 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.close@POLYN218107 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00001] In method java.io.PipedReader.close@POLYN219307 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN214619[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN215819[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN214619[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[00001] In java.io.PipedReader.read@POLYN215819[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
 }} 
 ]
 , 

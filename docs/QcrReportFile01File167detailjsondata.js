@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.apiName@POLYN169700 the MagicNumber/String  'fenceProducer' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.apiName@POLYN170900 the MagicNumber/String  'fenceProducer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,21 +203,21 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN169926 the MagicNumber/String  'Invalid group coordinator key ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN171126 the MagicNumber/String  'Invalid group coordinator key ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN169926 the MagicNumber/String  ' when building  InitProducerId  request' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN171126 the MagicNumber/String  ' when building  InitProducerId  request' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN169926 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.buildSingleRequest@POLYN171126 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,91 +252,91 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'InitProducerId request for transactionalId  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'InitProducerId request for transactionalId  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'failed due to cluster authorization failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'failed due to cluster authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'InitProducerId request for transactionalId  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'InitProducerId request for transactionalId  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'failed due to transactional ID authorization failure' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'failed due to transactional ID authorization failure' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'InitProducerId request for transactionalId  {}  failed because the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'InitProducerId request for transactionalId  {}  failed because the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'coordinator is still in the process of loading state. Will retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'coordinator is still in the process of loading state. Will retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'InitProducerId request for transactionalId  {}  returned error {}. Will attempt ' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'InitProducerId request for transactionalId  {}  returned error {}. Will attempt ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'to find the coordinator again and retry' should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'to find the coordinator again and retry' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'InitProducerId request for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'InitProducerId request for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  'transactionalId  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  'transactionalId  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/FenceProducersHandler.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN171649 the MagicNumber/String  '  failed due to unexpected error' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.clients.admin.internals.FenceProducersHandler.handleError@POLYN172849 the MagicNumber/String  '  failed due to unexpected error' should be converted to const"
 }} 
 ]
 , 

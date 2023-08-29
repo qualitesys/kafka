@@ -117,14 +117,14 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validatePartitions@POLYN172728 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validatePartitions@POLYN173928 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validatePartitions@POLYN172728 the MagicNumber/String  'Number of partitions must be positive, or -1 to use the broker's default' should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validatePartitions@POLYN173928 the MagicNumber/String  'Number of partitions must be positive, or -1 to use the broker's default' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -138,14 +138,14 @@ var maDataBlocs = {
  , "c1" : "00090"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validateReplicationFactor@POLYN173066 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validateReplicationFactor@POLYN174266 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validateReplicationFactor@POLYN173066 the MagicNumber/String  'Replication factor must be positive and not larger than the number of brokers in the Kafka cluster, or -1 to use the broker's default' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.connect.runtime.TopicCreationConfig.validateReplicationFactor@POLYN174266 the MagicNumber/String  'Replication factor must be positive and not larger than the number of brokers in the Kafka cluster, or -1 to use the broker's default' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -159,77 +159,77 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN173412 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN174612 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN173412 the MagicNumber/String  'Inclusion Topic Pattern for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN174612 the MagicNumber/String  'Inclusion Topic Pattern for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN173412 the MagicNumber/String  'Exclusion Topic Pattern for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN174612 the MagicNumber/String  'Exclusion Topic Pattern for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN173412 the MagicNumber/String  'Replication Factor for Topics in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN174612 the MagicNumber/String  'Replication Factor for Topics in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN173412 the MagicNumber/String  'Partition Count for Topics in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.runtime.TopicCreationConfig.configDef@POLYN174612 the MagicNumber/String  'Partition Count for Topics in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN175054 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN176254 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN175054 the MagicNumber/String  '.*' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN176254 the MagicNumber/String  '.*' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN175054 the MagicNumber/String  'Inclusion Topic Pattern for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN176254 the MagicNumber/String  'Inclusion Topic Pattern for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN175054 the MagicNumber/String  'Exclusion Topic Pattern for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN176254 the MagicNumber/String  'Exclusion Topic Pattern for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN175054 the MagicNumber/String  'Replication Factor for Topics in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN176254 the MagicNumber/String  'Replication Factor for Topics in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/TopicCreationConfig.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN175054 the MagicNumber/String  'Partition Count for Topics in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.runtime.TopicCreationConfig.defaultGroupConfigDef@POLYN176254 the MagicNumber/String  'Partition Count for Topics in ' should be converted to const"
 }} 
 ]
 , 

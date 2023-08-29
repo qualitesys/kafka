@@ -727,35 +727,35 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue.equals@POLYN285511 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue.equals@POLYN286711 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue.equals@POLYN285511 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue.equals@POLYN286711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue.equals@POLYN285511 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue.equals@POLYN286711 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.StreamsMetricsImpl@POLYN292135 the MagicNumber/String  'Metrics cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.StreamsMetricsImpl@POLYN293335 the MagicNumber/String  'Metrics cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.StreamsMetricsImpl@POLYN292135 the MagicNumber/String  'Built-in metrics version cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.StreamsMetricsImpl@POLYN293335 the MagicNumber/String  'Built-in metrics version cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -797,7 +797,7 @@ var maDataBlocs = {
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#238"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00238] For method clientLevelSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_getSensorN296354"
+ , "c3" : "QC-JAV000007[00238] For method clientLevelSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_getSensorN297554"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -811,7 +811,7 @@ var maDataBlocs = {
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#244"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN296037 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00244] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN297237 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -825,7 +825,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method threadLevelSensor list of called methods Object monObjet|java.lang.String threadSensorPrefixN296924"
+ , "c3" : "QC-JAV000007[00252] For method threadLevelSensor list of called methods Object monObjet|java.lang.String threadSensorPrefixN298124"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -874,7 +874,7 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method removeAllThreadLevelSensors list of called methods Object monObjet|java.lang.String threadSensorPrefixN298812"
+ , "c3" : "QC-JAV000007[00299] For method removeAllThreadLevelSensors list of called methods Object monObjet|java.lang.String threadSensorPrefixN300012"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -888,7 +888,7 @@ var maDataBlocs = {
  , "c1" : "00303"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelSensors@POLYN298709 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelSensors@POLYN299909 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -909,7 +909,7 @@ var maDataBlocs = {
  , "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN299261 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN300461 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -923,7 +923,7 @@ var maDataBlocs = {
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#318"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00318] For method taskLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; threadLevelTagMapN299963"
+ , "c3" : "QC-JAV000007[00318] For method taskLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; threadLevelTagMapN301163"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -937,7 +937,7 @@ var maDataBlocs = {
  , "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#324"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00324] For method nodeLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; taskLevelTagMapN300390"
+ , "c3" : "QC-JAV000007[00324] For method nodeLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; taskLevelTagMapN301590"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -951,7 +951,7 @@ var maDataBlocs = {
  , "c1" : "00332"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#332"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00332] For method topicLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; nodeLevelTagMapN300867"
+ , "c3" : "QC-JAV000007[00332] For method topicLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; nodeLevelTagMapN302067"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -965,14 +965,14 @@ var maDataBlocs = {
  , "c1" : "00341"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#341"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00341] For method storeLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; taskLevelTagMapN301338"
+ , "c3" : "QC-JAV000007[00341] For method storeLevelTagMap list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; taskLevelTagMapN302538"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#345"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.storeLevelTagMap@POLYN301138 the MagicNumber/String  '-' should be converted to const"
+ , "c3" : "QC-JAV000010[00345] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.storeLevelTagMap@POLYN302338 the MagicNumber/String  '-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -986,7 +986,7 @@ var maDataBlocs = {
  , "c1" : "00349"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#349"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00349] For method taskLevelSensor list of called methods Object monObjet|java.lang.String taskSensorPrefixN301863"
+ , "c3" : "QC-JAV000007[00349] For method taskLevelSensor list of called methods Object monObjet|java.lang.String taskSensorPrefixN303063"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1007,7 +1007,7 @@ var maDataBlocs = {
  , "c1" : "00360"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#360"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00360] For method removeAllTaskLevelSensors list of called methods Object monObjet|java.lang.String taskSensorPrefixN302277"
+ , "c3" : "QC-JAV000007[00360] For method removeAllTaskLevelSensors list of called methods Object monObjet|java.lang.String taskSensorPrefixN303477"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1021,7 +1021,7 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTaskLevelSensors@POLYN302146 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTaskLevelSensors@POLYN303346 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1042,7 +1042,7 @@ var maDataBlocs = {
  , "c1" : "00375"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#375"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00375] For method nodeLevelSensor list of called methods Object monObjet|java.lang.String nodeSensorPrefixN303267"
+ , "c3" : "QC-JAV000007[00375] For method nodeLevelSensor list of called methods Object monObjet|java.lang.String nodeSensorPrefixN304467"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1063,7 +1063,7 @@ var maDataBlocs = {
  , "c1" : "00387"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#387"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00387] For method removeAllNodeLevelSensors list of called methods Object monObjet|java.lang.String nodeSensorPrefixN303731"
+ , "c3" : "QC-JAV000007[00387] For method removeAllNodeLevelSensors list of called methods Object monObjet|java.lang.String nodeSensorPrefixN304931"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1077,7 +1077,7 @@ var maDataBlocs = {
  , "c1" : "00393"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllNodeLevelSensors@POLYN303572 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllNodeLevelSensors@POLYN304772 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1098,7 +1098,7 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#404"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00404] For method topicLevelSensor list of called methods Object monObjet|java.lang.String topicSensorPrefixN304821"
+ , "c3" : "QC-JAV000007[00404] For method topicLevelSensor list of called methods Object monObjet|java.lang.String topicSensorPrefixN306021"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1119,7 +1119,7 @@ var maDataBlocs = {
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#417"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00417] For method removeAllTopicLevelSensors list of called methods Object monObjet|java.lang.String topicSensorPrefixN305335"
+ , "c3" : "QC-JAV000007[00417] For method removeAllTopicLevelSensors list of called methods Object monObjet|java.lang.String topicSensorPrefixN306535"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1133,7 +1133,7 @@ var maDataBlocs = {
  , "c1" : "00424"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTopicLevelSensors@POLYN305148 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTopicLevelSensors@POLYN306348 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1154,7 +1154,7 @@ var maDataBlocs = {
  , "c1" : "00438"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#438"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00438] For method cacheLevelSensor list of called methods Object monObjet|java.lang.String cacheSensorPrefixN306469"
+ , "c3" : "QC-JAV000007[00438] For method cacheLevelSensor list of called methods Object monObjet|java.lang.String cacheSensorPrefixN307669"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1182,7 +1182,7 @@ var maDataBlocs = {
  , "c1" : "00460"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#460"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00460] For method removeAllCacheLevelSensors list of called methods Object monObjet|java.lang.String cacheSensorPrefixN307544"
+ , "c3" : "QC-JAV000007[00460] For method removeAllCacheLevelSensors list of called methods Object monObjet|java.lang.String cacheSensorPrefixN308744"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1196,7 +1196,7 @@ var maDataBlocs = {
  , "c1" : "00464"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllCacheLevelSensors@POLYN307385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllCacheLevelSensors@POLYN308585 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1217,7 +1217,7 @@ var maDataBlocs = {
  , "c1" : "00475"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#475"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00475] For method storeLevelSensor list of called methods Object monObjet|java.lang.String storeSensorPrefixN308575"
+ , "c3" : "QC-JAV000007[00475] For method storeLevelSensor list of called methods Object monObjet|java.lang.String storeSensorPrefixN309775"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1245,14 +1245,14 @@ var maDataBlocs = {
  , "c1" : "00518"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#518"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00518] For method removeAllStoreLevelSensors list of called methods Object monObjet|java.lang.String storeSensorPrefixN310611|boolean storeLevelSensors_removeN310769"
+ , "c3" : "QC-JAV000007[00518] For method removeAllStoreLevelSensors list of called methods Object monObjet|java.lang.String storeSensorPrefixN311811|boolean storeLevelSensors_removeN311969"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#523"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelSensors@POLYN310452 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00523] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelSensors@POLYN311652 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1266,14 +1266,14 @@ var maDataBlocs = {
  , "c1" : "00528"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#528"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00528] For method removeAllStoreLevelMetrics list of called methods Object monObjet|java.lang.String storeSensorPrefixN311210|boolean storeLevelMetrics_removeN311368"
+ , "c3" : "QC-JAV000007[00528] For method removeAllStoreLevelMetrics list of called methods Object monObjet|java.lang.String storeSensorPrefixN312410|boolean storeLevelMetrics_removeN312568"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelMetrics@POLYN311051 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelMetrics@POLYN312251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1308,63 +1308,63 @@ var maDataBlocs = {
  , "c1" : "00560"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#560"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00560] For method customizedTags list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; threadLevelTagMapN312943"
+ , "c3" : "QC-JAV000007[00560] For method customizedTags list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; threadLevelTagMapN314143"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00565"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#565"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  '-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00565] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  '-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00566"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#566"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00566] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00567"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00567"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#567"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00567] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00568"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#568"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  'Tags needs to be specified in key-value pairs' should be converted to const"
+ , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  'Tags needs to be specified in key-value pairs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00570"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00570"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#570"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00570] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00571"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN312712 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00571] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customizedTags@POLYN313912 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1378,7 +1378,7 @@ var maDataBlocs = {
  , "c1" : "00577"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#577"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00577] For method customInvocationRateAndCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN314094"
+ , "c3" : "QC-JAV000007[00577] For method customInvocationRateAndCountSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN315294"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1392,7 +1392,7 @@ var maDataBlocs = {
  , "c1" : "00596"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#596"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00596] For method addLatencyRateTotalSensor list of called methods Object monObjet|java.lang.String groupNameFromScopeN314925|java.util.Map&lt;java.lang.String,java.lang.String&gt; customizedTagsN315055|org.apache.kafka.common.metrics.Sensor customInvocationRateAndCountSensorN315214"
+ , "c3" : "QC-JAV000007[00596] For method addLatencyRateTotalSensor list of called methods Object monObjet|java.lang.String groupNameFromScopeN316125|java.util.Map&lt;java.lang.String,java.lang.String&gt; customizedTagsN316255|org.apache.kafka.common.metrics.Sensor customInvocationRateAndCountSensorN316414"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1406,7 +1406,7 @@ var maDataBlocs = {
  , "c1" : "00619"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#619"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00619] For method addRateTotalSensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; customizedTagsN316043"
+ , "c3" : "QC-JAV000007[00619] For method addRateTotalSensor list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; customizedTagsN317243"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1469,28 +1469,28 @@ var maDataBlocs = {
  , "c1" : "00697"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#697"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN318166 the MagicNumber/String  '-latency-avg' should be converted to const"
+ , "c3" : "QC-JAV000010[00697] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN319366 the MagicNumber/String  '-latency-avg' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN318166 the MagicNumber/String  ' operation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN319366 the MagicNumber/String  ' operation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00705"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#705"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN318166 the MagicNumber/String  '-latency-max' should be converted to const"
+ , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN319366 the MagicNumber/String  '-latency-max' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00707"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#707"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00707] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN318166 the MagicNumber/String  ' operation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00707] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addAvgAndMaxLatencyToSensor@POLYN319366 the MagicNumber/String  ' operation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1574,7 +1574,7 @@ var maDataBlocs = {
  , "c1" : "00803"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#803"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00803] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSumMetricToSensor@POLYN322265 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00803] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSumMetricToSensor@POLYN323465 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1644,7 +1644,7 @@ var maDataBlocs = {
  , "c1" : "00861"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#861"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00861] For method maybeMeasureLatency list of called methods Object monObjet|long time_nanosecondsN325372"
+ , "c3" : "QC-JAV000007[00861] For method maybeMeasureLatency list of called methods Object monObjet|long time_nanosecondsN326572"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1714,7 +1714,7 @@ var maDataBlocs = {
  , "c1" : "00891"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#891"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00891] For method getSensors list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_getSensorN326731"
+ , "c3" : "QC-JAV000007[00891] For method getSensors list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_getSensorN327931"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1728,7 +1728,7 @@ var maDataBlocs = {
  , "c1" : "00898"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#898"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00898] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN326345 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00898] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327545 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1749,14 +1749,14 @@ var maDataBlocs = {
  , "c1" : "00910"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#910"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00910] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN327268 the MagicNumber/String  'Sensor is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00910] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN328468 the MagicNumber/String  'Sensor is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#914"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN327268 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00914] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN328468 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1770,196 +1770,196 @@ var maDataBlocs = {
  , "c1" : "00927"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#927"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.groupNameFromScope@POLYN327987 the MagicNumber/String  'stream-' should be converted to const"
+ , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.groupNameFromScope@POLYN329187 the MagicNumber/String  'stream-' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00927"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#927"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.groupNameFromScope@POLYN327987 the MagicNumber/String  '-metrics' should be converted to const"
+ , "c3" : "QC-JAV000010[00927] In method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.groupNameFromScope@POLYN329187 the MagicNumber/String  '-metrics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelSensors@POLYN310452"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelSensors@POLYN311652"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelMetrics@POLYN311051"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelMetrics@POLYN312251"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelSensors@POLYN298709"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelSensors@POLYN299909"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTaskLevelSensors@POLYN302146"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTaskLevelSensors@POLYN303346"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllNodeLevelSensors@POLYN303572"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllNodeLevelSensors@POLYN304772"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTopicLevelSensors@POLYN305148"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTopicLevelSensors@POLYN306348"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllCacheLevelSensors@POLYN307385"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllCacheLevelSensors@POLYN308585"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customInvocationRateAndCountSensor@POLYN313802"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.customInvocationRateAndCountSensor@POLYN315002"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN296037"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN297237"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN299261"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN300461"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSensor@POLYN311980"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSensor@POLYN313180"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSensor@POLYN312202"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSensor@POLYN313402"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN326345"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327545"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN327268"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN328468"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00523"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#523"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelSensors@POLYN310452 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00523] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelSensors@POLYN311652 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#533"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelMetrics@POLYN311051 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllStoreLevelMetrics@POLYN312251 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelSensors@POLYN298709 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00303] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelSensors@POLYN299909 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00364"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#364"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00364] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTaskLevelSensors@POLYN302146 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00364] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTaskLevelSensors@POLYN303346 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#393"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllNodeLevelSensors@POLYN303572 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00393] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllNodeLevelSensors@POLYN304772 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#424"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTopicLevelSensors@POLYN305148 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllTopicLevelSensors@POLYN306348 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00464"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#464"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllCacheLevelSensors@POLYN307385 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00464] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllCacheLevelSensors@POLYN308585 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#244"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN296037 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN297237 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#312"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN299261 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN300461 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00898"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#898"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00898] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN326345 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00898] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327545 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00910"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#910"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00910] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN327268 the MagicNumber/String 'Sensor is null' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00910] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN328468 the MagicNumber/String 'Sensor is null' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00914"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#914"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00914] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN327268 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00914] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeSensor@POLYN328468 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

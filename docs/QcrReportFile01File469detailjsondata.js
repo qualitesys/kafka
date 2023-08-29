@@ -129,23 +129,23 @@ var maDataBlocs = {
 "data12a" : [
 { "ligne" :  "R0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.this" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922.key" }
+{ "ligne" :  "R1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122.key" }
 ]
 ,
 "data12b" : [
 { "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 (R0 in line [00235],R1 in line [00235])" }
+{ "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922.dummymethode_00237" }
+{ "ligne" : "S0:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122.dummymethode_00237" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 (R0 in line [00235],R1 in line [00235])" }
+{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 (R0 in line [00235],R1 in line [00235])" }
+{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 (R0 in line [00235],R1 in line [00235])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922.dummymethode_00237" }
+{ "ligne" : "S1:org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122.dummymethode_00237" }
  ]
  } }
 ]
@@ -223,7 +223,7 @@ var maDataBlocs = {
  , "c1" : "00122"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.StoredIntGauge.StoredIntGauge@POLYN191452 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.StoredIntGauge.StoredIntGauge@POLYN192652 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -272,21 +272,21 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138 the MagicNumber/String  '{}: created new gauge suite with maxEntries = {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338 the MagicNumber/String  '{}: created new gauge suite with maxEntries = {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -314,91 +314,91 @@ var maDataBlocs = {
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  '{}: Attempted to increment {}, but the GaugeSuite was closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  '{}: Attempted to increment {}, but the GaugeSuite was closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  '{}: Attempted to increment {}, but there are already {} entries.' should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  '{}: Attempted to increment {}, but there are already {} entries.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  '{}: Removing the metric {}, which has a value of 0.' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  '{}: Removing the metric {}, which has a value of 0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String  '{}: Adding a new metric {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String  '{}: Adding a new metric {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String  '{}: entering performPendingMetricsOperations' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String  '{}: entering performPendingMetricsOperations' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String  '{}: removing metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String  '{}: removing metric {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String  '{}: adding metric {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String  '{}: adding metric {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String  '{}: leaving performPendingMetricsOperations' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String  '{}: leaving performPendingMetricsOperations' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -419,7 +419,7 @@ var maDataBlocs = {
  , "c1" : "00235"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#235"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00235] For method decrement list of called methods Object monObjet|int gauge_decrementN197545"
+ , "c3" : "QC-JAV000007[00235] For method decrement list of called methods Object monObjet|int gauge_decrementN198745"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -433,35 +433,35 @@ var maDataBlocs = {
  , "c1" : "00237"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#237"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String  '{}: Attempted to decrement {}, but the gauge suite was closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00237] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String  '{}: Attempted to decrement {}, but the gauge suite was closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String  '{}: Attempted to decrement {}, but no such metric was registered.' should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String  '{}: Attempted to decrement {}, but no such metric was registered.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String  '{}: Removed a reference to {}.  {} reference(s) remaining.' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String  '{}: Removed a reference to {}.  {} reference(s) remaining.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -475,35 +475,35 @@ var maDataBlocs = {
  , "c1" : "00258"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String  '{}: gauge suite is already closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String  '{}: gauge suite is already closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String  '{}: closed {} metric(s).' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String  '{}: closed {} metric(s).' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,259 +524,259 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922.key"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122.key"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 ending with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 ending with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 ending with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 ending with method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#258"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String '{}: gauge suite is already closed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String '{}: gauge suite is already closed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#261"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String true MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#262"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#264"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#269"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN197918 the MagicNumber/String '{}: closed {} metric-s-.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00269] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.close@POLYN199118 the MagicNumber/String '{}: closed {} metric-s-.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#168"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String '{}: Attempted to increment {}, but the GaugeSuite was closed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String '{}: Attempted to increment {}, but the GaugeSuite was closed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00175"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#175"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#182"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String '{}: Attempted to increment {}, but there are already {} entries.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String '{}: Attempted to increment {}, but there are already {} entries.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00191"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#191"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String '{}: Removing the metric {}, which has a value of 0.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String '{}: Removing the metric {}, which has a value of 0.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#199"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN193224 the MagicNumber/String '{}: Adding a new metric {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.increment@POLYN194424 the MagicNumber/String '{}: Adding a new metric {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#213"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String '{}: entering performPendingMetricsOperations' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String '{}: entering performPendingMetricsOperations' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#215"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#217"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#219"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String '{}: removing metric {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String '{}: removing metric {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#224"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String '{}: adding metric {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String '{}: adding metric {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#229"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN195640 the MagicNumber/String '{}: leaving performPendingMetricsOperations' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.performPendingMetricsOperations@POLYN196840 the MagicNumber/String '{}: leaving performPendingMetricsOperations' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00237"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#237"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String '{}: Attempted to decrement {}, but the gauge suite was closed.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String '{}: Attempted to decrement {}, but the gauge suite was closed.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#242"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String '{}: Attempted to decrement {}, but no such metric was registered.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String '{}: Attempted to decrement {}, but no such metric was registered.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#247"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String '{}: Removed a reference to {}.  {} reference-s- remaining.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String '{}: Removed a reference to {}.  {} reference-s- remaining.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#249"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN196922 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.decrement@POLYN198122 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#156"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#160"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/internals/IntGaugeSuite.java.html#161"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN192138 the MagicNumber/String '{}: created new gauge suite with maxEntries = {}.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00161] In the recursive method org.apache.kafka.common.metrics.internals.IntGaugeSuite.IntGaugeSuite@POLYN193338 the MagicNumber/String '{}: created new gauge suite with maxEntries = {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

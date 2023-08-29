@@ -113,7 +113,7 @@ var maDataBlocs = {
  , "c1" : "00026"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00026] For method copySchemaBasics list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN155024"
+ , "c3" : "QC-JAV000007[00026] For method copySchemaBasics list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN156224"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -134,7 +134,7 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00036] For method copySchemaBasics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_parametersN155780"
+ , "c3" : "QC-JAV000007[00036] For method copySchemaBasics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_parametersN156980"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -155,7 +155,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN155341 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN156541 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

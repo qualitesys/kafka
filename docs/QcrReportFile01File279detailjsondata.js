@@ -277,42 +277,42 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN169562 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN170762 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN169562 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN170762 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN169562 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN170762 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN169562 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN170762 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN169562 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matches@POLYN170762 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matchesAtMostOne@POLYN170706 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.acl.AccessControlEntryFilter.matchesAtMostOne@POLYN171906 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -326,7 +326,7 @@ var maDataBlocs = {
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.acl.AccessControlEntryFilter.equals@POLYN171031 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.common.acl.AccessControlEntryFilter.equals@POLYN172231 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -347,70 +347,70 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.equals@POLYN171031"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.equals@POLYN172231"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.findIndefiniteField@POLYN170911"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.findIndefiniteField@POLYN172111"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.hashCode@POLYN171392"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.hashCode@POLYN172592"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.host@POLYN168857"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.host@POLYN170057"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.isUnknown@POLYN169406"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.isUnknown@POLYN170606"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.operation@POLYN168995"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.operation@POLYN170195"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.permissionType@POLYN169133"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.permissionType@POLYN170333"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.principal@POLYN168692"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.principal@POLYN169892"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.toString@POLYN169253"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.acl.AccessControlEntryFilter.toString@POLYN170453"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryFilter.java.html#134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.common.acl.AccessControlEntryFilter.equals@POLYN171031 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.common.acl.AccessControlEntryFilter.equals@POLYN172231 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

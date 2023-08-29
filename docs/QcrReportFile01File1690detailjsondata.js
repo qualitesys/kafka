@@ -221,7 +221,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.defaultBranch@POLYN174194 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.defaultBranch@POLYN175394 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -235,7 +235,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#79"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00079] For method createBranch list of called methods Object monObjet|java.lang.String getBranchChildNameN174736"
+ , "c3" : "QC-JAV000007[00079] For method createBranch list of called methods Object monObjet|java.lang.String getBranchChildNameN175936"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -256,7 +256,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.getBranchChildName@POLYN175878 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.getBranchChildName@POLYN177078 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -277,28 +277,28 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN176258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN177458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN176258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN177458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN176258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.process@POLYN177458 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/BranchedKStreamImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.branch@POLYN173482"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.BranchedKStreamImpl.branch@POLYN174682"
 }} 
 ]
 , 

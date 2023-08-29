@@ -158,70 +158,70 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN166872 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN168072 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN166872 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN168072 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN166872 the MagicNumber/String  'The query did not return exactly one partition result: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN168072 the MagicNumber/String  'The query did not return exactly one partition result: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN166872 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.streams.query.StateQueryResult.getOnlyPartitionResult@POLYN168072 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#99"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00099] For method getPosition list of called methods Object monObjet|org.apache.kafka.streams.query.Position Position_emptyPositionN168201"
+ , "c3" : "QC-JAV000007[00099] For method getPosition list of called methods Object monObjet|org.apache.kafka.streams.query.Position Position_emptyPositionN169401"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.query.StateQueryResult.getPosition@POLYN167974 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.query.StateQueryResult.getPosition@POLYN169174 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN168516 the MagicNumber/String  'StateQueryResult{' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN169716 the MagicNumber/String  'StateQueryResult{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00114"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#114"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN168516 the MagicNumber/String  'partitionResults=' should be converted to const"
+ , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN169716 the MagicNumber/String  'partitionResults=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN168516 the MagicNumber/String  ', globalResult=' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN169716 the MagicNumber/String  ', globalResult=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/StateQueryResult.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN168516 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.streams.query.StateQueryResult.toString@POLYN169716 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

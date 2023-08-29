@@ -183,14 +183,14 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.util.TopicCreation.newTopicCreation@POLYN174197 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.util.TopicCreation.newTopicCreation@POLYN175397 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/util/TopicCreation.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.util.TopicCreation.newTopicCreation@POLYN174197 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.util.TopicCreation.newTopicCreation@POLYN175397 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
