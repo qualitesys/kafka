@@ -174,14 +174,14 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.config.ConfigResource.ConfigResource@POLYN165287 the MagicNumber/String  'type should not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.config.ConfigResource.ConfigResource@POLYN165543 the MagicNumber/String  'type should not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.config.ConfigResource.ConfigResource@POLYN165287 the MagicNumber/String  'name should not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.config.ConfigResource.ConfigResource@POLYN165543 the MagicNumber/String  'name should not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -202,70 +202,70 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.config.ConfigResource.equals@POLYN166155 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.common.config.ConfigResource.equals@POLYN166411 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.config.ConfigResource.equals@POLYN166155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.common.config.ConfigResource.equals@POLYN166411 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.config.ConfigResource.equals@POLYN166155 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.config.ConfigResource.equals@POLYN166411 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#108"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method hashCode list of called methods Object monObjet|int type_hashCodeN166787"
+ , "c3" : "QC-JAV000007[00108] For method hashCode list of called methods Object monObjet|int type_hashCodeN167043"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.config.ConfigResource.hashCode@POLYN166710 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.common.config.ConfigResource.hashCode@POLYN166966 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.config.ConfigResource.toString@POLYN167007 the MagicNumber/String  'ConfigResource(type=' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.config.ConfigResource.toString@POLYN167263 the MagicNumber/String  'ConfigResource(type=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.config.ConfigResource.toString@POLYN167007 the MagicNumber/String  ', name='' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.config.ConfigResource.toString@POLYN167263 the MagicNumber/String  ', name='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.config.ConfigResource.toString@POLYN167007 the MagicNumber/String  '')' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.config.ConfigResource.toString@POLYN167263 the MagicNumber/String  '')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigResource.hashCode@POLYN166710"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigResource.hashCode@POLYN166966"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigResource.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.common.config.ConfigResource.hashCode@POLYN166710 the MagicNumber/String 31 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.common.config.ConfigResource.hashCode@POLYN166966 the MagicNumber/String 31 MUST BE CONVERTED to const"
 }} 
 ]
 , 

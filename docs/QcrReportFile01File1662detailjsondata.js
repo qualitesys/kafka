@@ -185,28 +185,28 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN198842 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN199098 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN198842 the MagicNumber/String  'Gap time cannot be zero or negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN199098 the MagicNumber/String  'Gap time cannot be zero or negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN198842 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN199098 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN198842 the MagicNumber/String  'Grace period must not be negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.kstream.SessionWindows.SessionWindows@POLYN199098 the MagicNumber/String  'Grace period must not be negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -227,28 +227,28 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method ofInactivityGapAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN201129|long validateMillisecondDurationN201246|java.lang.String prepareMillisCheckFailMsgPrefixN201361|long validateMillisecondDurationN201478"
+ , "c3" : "QC-JAV000007[00132] For method ofInactivityGapAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN201385|long validateMillisecondDurationN201502|java.lang.String prepareMillisCheckFailMsgPrefixN201617|long validateMillisecondDurationN201734"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN200994 the MagicNumber/String  'inactivityGap' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN201250 the MagicNumber/String  'inactivityGap' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00136"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN200994 the MagicNumber/String  'afterWindowEnd' should be converted to const"
+ , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN201250 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#139"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN200994 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00139] In method org.apache.kafka.streams.kstream.SessionWindows.ofInactivityGapAndGrace@POLYN201250 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,28 +262,28 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#151"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00151] For method with list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN202103|long validateMillisecondDurationN202220"
+ , "c3" : "QC-JAV000007[00151] For method with list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN202359|long validateMillisecondDurationN202476"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN201996 the MagicNumber/String  'inactivityGap' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN202252 the MagicNumber/String  'inactivityGap' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN201996 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN202252 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN201996 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.streams.kstream.SessionWindows.with@POLYN202252 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -297,28 +297,28 @@ var maDataBlocs = {
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#173"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method grace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN203360|long validateMillisecondDurationN203477"
+ , "c3" : "QC-JAV000007[00173] For method grace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN203616|long validateMillisecondDurationN203733"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN203106 the MagicNumber/String  'Cannot call grace() after setting grace value via ofInactivityGapAndGrace or ofInactivityGapWithNoGrace.' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN203362 the MagicNumber/String  'Cannot call grace() after setting grace value via ofInactivityGapAndGrace or ofInactivityGapWithNoGrace.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN203106 the MagicNumber/String  'afterWindowEnd' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN203362 the MagicNumber/String  'afterWindowEnd' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN203106 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.streams.kstream.SessionWindows.grace@POLYN203362 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -339,49 +339,49 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN203958 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN204214 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN203958 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN204214 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN203958 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.kstream.SessionWindows.equals@POLYN204214 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204701 the MagicNumber/String  'SessionWindows{' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204957 the MagicNumber/String  'SessionWindows{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204701 the MagicNumber/String  'gapMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204957 the MagicNumber/String  'gapMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204701 the MagicNumber/String  ', graceMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204957 the MagicNumber/String  ', graceMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204701 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.streams.kstream.SessionWindows.toString@POLYN204957 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

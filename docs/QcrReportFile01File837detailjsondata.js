@@ -170,7 +170,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.credentialToString@POLYN166410 the MagicNumber/String  '%s=%s,%s=%s,%s=%s,%s=%d' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.credentialToString@POLYN166666 the MagicNumber/String  '%s=%s,%s=%s,%s=%s,%s=%d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -184,21 +184,21 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#55"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method credentialFromString list of called methods Object monObjet|java.util.Properties toPropsN167096|int Integer_parseIntN168138"
+ , "c3" : "QC-JAV000007[00055] For method credentialFromString list of called methods Object monObjet|java.util.Properties toPropsN167352|int Integer_parseIntN168394"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.credentialFromString@POLYN166997 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.credentialFromString@POLYN167253 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.credentialFromString@POLYN166997 the MagicNumber/String  'Credentials not valid: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.credentialFromString@POLYN167253 the MagicNumber/String  'Credentials not valid: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#68"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00068] For method toProps list of called methods Object monObjet|java.lang.String[] str_splitN168572"
+ , "c3" : "QC-JAV000007[00068] For method toProps list of called methods Object monObjet|java.lang.String[] str_splitN168828"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -226,42 +226,42 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String  'Credentials not valid: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String  'Credentials not valid: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,49 +289,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#70"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String ',' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00070] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String ',' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String '=' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00072] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String '=' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#74"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String 'Credentials not valid: ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String 'Credentials not valid: ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String 0 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/scram/internals/ScramCredentialUtils.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168391 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.common.security.scram.internals.ScramCredentialUtils.toProps@POLYN168647 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 , 

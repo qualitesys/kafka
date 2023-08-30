@@ -449,21 +449,21 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.MirrorConnectorConfig@POLYN262870 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.MirrorConnectorConfig@POLYN263126 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.sourceConsumerConfig@POLYN264364 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.sourceConsumerConfig@POLYN264620 the MagicNumber/String  'false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.sourceConsumerConfig@POLYN264364 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.sourceConsumerConfig@POLYN264620 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -477,7 +477,7 @@ var maDataBlocs = {
  , "c1" : "00269"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#269"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00269] For method taskConfigForTopicPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN265399"
+ , "c3" : "QC-JAV000007[00269] For method taskConfigForTopicPartitions list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN265655"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -491,7 +491,7 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.taskConfigForTopicPartitions@POLYN265242 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.taskConfigForTopicPartitions@POLYN265498 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -505,91 +505,91 @@ var maDataBlocs = {
  , "c1" : "00278"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#278"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00278] For method taskConfigForConsumerGroups list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN265969"
+ , "c3" : "QC-JAV000007[00278] For method taskConfigForConsumerGroups list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; originalsStringsN266225"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.taskConfigForConsumerGroups@POLYN265812 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.taskConfigForConsumerGroups@POLYN266068 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.targetConsumerConfig@POLYN267611 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.targetConsumerConfig@POLYN267867 the MagicNumber/String  'false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.targetConsumerConfig@POLYN267611 the MagicNumber/String  'earliest' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.targetConsumerConfig@POLYN267867 the MagicNumber/String  'earliest' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.metricsReporters@POLYN269161 the MagicNumber/String  'kafka.connect.mirror' should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.metricsReporters@POLYN269417 the MagicNumber/String  'kafka.connect.mirror' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00345"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#345"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00345] For method offsetSyncsTopic list of called methods Object monObjet|boolean SOURCE_CLUSTER_ALIAS_DEFAULT_equalsN270173"
+ , "c3" : "QC-JAV000007[00345] For method offsetSyncsTopic list of called methods Object monObjet|boolean SOURCE_CLUSTER_ALIAS_DEFAULT_equalsN270429"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00391"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.emitHeartbeatsInterval@POLYN271596 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00391] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.emitHeartbeatsInterval@POLYN271852 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#400"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.emitCheckpointsInterval@POLYN271932 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00400] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.emitCheckpointsInterval@POLYN272188 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.refreshTopicsInterval@POLYN272268 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.refreshTopicsInterval@POLYN272524 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.refreshGroupsInterval@POLYN272604 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.refreshGroupsInterval@POLYN272860 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00427"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncTopicConfigsInterval@POLYN272940 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncTopicConfigsInterval@POLYN273196 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncTopicAclsInterval@POLYN273276 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncTopicAclsInterval@POLYN273532 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00477"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorConnectorConfig.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncGroupOffsetsInterval@POLYN274636 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.connect.mirror.MirrorConnectorConfig.syncGroupOffsetsInterval@POLYN274892 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

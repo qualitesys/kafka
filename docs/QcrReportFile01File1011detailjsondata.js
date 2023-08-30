@@ -109,7 +109,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.JsonSerializer@POLYN159570 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.json.JsonSerializer.JsonSerializer@POLYN159826 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -130,21 +130,21 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160435 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160179 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160435 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonSerializer.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160179 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.json.JsonSerializer.serialize@POLYN160435 the MagicNumber/String  'Error serializing JSON message' should be converted to const"
 }} 
 ]
 , 

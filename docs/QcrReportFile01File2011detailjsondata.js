@@ -182,21 +182,21 @@ var maDataBlocs = {
  , "c1" : "00074"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN183440 the MagicNumber/String  'topic cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN183696 the MagicNumber/String  'topic cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN183440 the MagicNumber/String  'key serde cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN183696 the MagicNumber/String  'key serde cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN183440 the MagicNumber/String  'value serde cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.state.StateSerdes.StateSerdes@POLYN183696 the MagicNumber/String  'value serde cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -224,35 +224,35 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186027 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186283 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186027 the MagicNumber/String  'unknown because key is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186283 the MagicNumber/String  'unknown because key is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186027 the MagicNumber/String  'A serializer (%s) is not compatible to the actual key type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186283 the MagicNumber/String  'A serializer (%s) is not compatible to the actual key type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186027 the MagicNumber/String  '(key type: %s). Change the default Serdes in StreamConfig or ' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186283 the MagicNumber/String  '(key type: %s). Change the default Serdes in StreamConfig or ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186027 the MagicNumber/String  'provide correct Serdes via method parameters.' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.streams.state.StateSerdes.rawKey@POLYN186283 the MagicNumber/String  'provide correct Serdes via method parameters.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,49 +266,49 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  'unknown because value is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  'unknown because value is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  'unknown because value is null' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  'unknown because value is null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  'A serializer (%s) is not compatible to the actual value type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  'A serializer (%s) is not compatible to the actual value type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  '(value type: %s). Change the default Serdes in StreamConfig or ' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  '(value type: %s). Change the default Serdes in StreamConfig or ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/StateSerdes.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN186877 the MagicNumber/String  'provide correct Serdes via method parameters.' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.StateSerdes.rawValue@POLYN187133 the MagicNumber/String  'provide correct Serdes via method parameters.' should be converted to const"
 }} 
 ]
 , 

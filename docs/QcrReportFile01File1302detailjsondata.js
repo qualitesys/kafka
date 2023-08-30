@@ -217,63 +217,63 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201271 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.hasNext@POLYN201527 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.next@POLYN202424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator.next@POLYN202680 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BrokersToIsrs.BrokersToIsrs@POLYN203066 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.controller.BrokersToIsrs.BrokersToIsrs@POLYN203322 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -287,42 +287,42 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#126"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00126] For method update list of called methods Object monObjet|int[] Replicas_copyWithN204250|int[] Replicas_cloneN204510|int[] Replicas_copyWithN204934|int[] Replicas_cloneN205194"
+ , "c3" : "QC-JAV000007[00126] For method update list of called methods Object monObjet|int[] Replicas_copyWithN204506|int[] Replicas_cloneN204766|int[] Replicas_copyWithN205190|int[] Replicas_cloneN205450"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN203767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204023 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN203767 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204023 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN203767 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204023 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN203767 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204023 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN203767 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.controller.BrokersToIsrs.update@POLYN204023 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -336,7 +336,7 @@ var maDataBlocs = {
  , "c1" : "00193"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.controller.BrokersToIsrs.removeTopicEntryForBroker@POLYN207476 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00193] In method org.apache.kafka.controller.BrokersToIsrs.removeTopicEntryForBroker@POLYN207732 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -350,56 +350,56 @@ var maDataBlocs = {
  , "c1" : "00206"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208088 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.controller.BrokersToIsrs.add@POLYN208344 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -413,70 +413,70 @@ var maDataBlocs = {
  , "c1" : "00225"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#225"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00225] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  'entry, so we can't change ' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  'entry, so we can't change ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  ' has no ' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  ' has no ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.controller.BrokersToIsrs.change@POLYN209871 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -490,126 +490,126 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  ' has no isrMembers ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  'entry, so we can't remove ' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  'entry, so we can't remove ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  ' has no ' should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  ' has no ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  'entry in isrMembers for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  'Broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  'Broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  ' has no ' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  ' has no ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  'entry in isrMembers for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  'entry in isrMembers for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#272"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00272] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211453 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.controller.BrokersToIsrs.remove@POLYN211709 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -623,14 +623,14 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.controller.BrokersToIsrs.iterator@POLYN213827 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.controller.BrokersToIsrs.iterator@POLYN214083 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithNoLeader@POLYN214304 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithNoLeader@POLYN214560 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -644,7 +644,7 @@ var maDataBlocs = {
  , "c1" : "00296"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.controller.BrokersToIsrs.partitionsLedByBroker@POLYN214440 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.controller.BrokersToIsrs.partitionsLedByBroker@POLYN214696 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -658,7 +658,7 @@ var maDataBlocs = {
  , "c1" : "00300"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithBrokerInIsr@POLYN214598 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.controller.BrokersToIsrs.partitionsWithBrokerInIsr@POLYN214854 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -672,7 +672,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.controller.BrokersToIsrs.hasLeaderships@POLYN214756 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.controller.BrokersToIsrs.hasLeaderships@POLYN215012 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

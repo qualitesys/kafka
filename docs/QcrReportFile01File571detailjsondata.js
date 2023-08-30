@@ -174,21 +174,21 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.PartialDefaultRecord.PartialDefaultRecord@POLYN159192 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.PartialDefaultRecord.PartialDefaultRecord@POLYN159448 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.PartialDefaultRecord.PartialDefaultRecord@POLYN159192 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.PartialDefaultRecord.PartialDefaultRecord@POLYN159448 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.PartialDefaultRecord.PartialDefaultRecord@POLYN159192 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.common.record.PartialDefaultRecord.PartialDefaultRecord@POLYN159448 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -202,56 +202,56 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.record.PartialDefaultRecord.hashCode@POLYN160149 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.record.PartialDefaultRecord.hashCode@POLYN160405 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.record.PartialDefaultRecord.hashCode@POLYN160149 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.record.PartialDefaultRecord.hashCode@POLYN160405 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.record.PartialDefaultRecord.toString@POLYN160524 the MagicNumber/String  'PartialDefaultRecord(offset=%d, timestamp=%d, key=%d bytes, value=%d bytes)' should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.common.record.PartialDefaultRecord.toString@POLYN160780 the MagicNumber/String  'PartialDefaultRecord(offset=%d, timestamp=%d, key=%d bytes, value=%d bytes)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.record.PartialDefaultRecord.hasKey@POLYN160877 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.record.PartialDefaultRecord.hasKey@POLYN161133 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.record.PartialDefaultRecord.key@POLYN161001 the MagicNumber/String  'key is skipped in PartialDefaultRecord' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.record.PartialDefaultRecord.key@POLYN161257 the MagicNumber/String  'key is skipped in PartialDefaultRecord' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.record.PartialDefaultRecord.hasValue@POLYN161241 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.record.PartialDefaultRecord.hasValue@POLYN161497 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.record.PartialDefaultRecord.value@POLYN161365 the MagicNumber/String  'value is skipped in PartialDefaultRecord' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.record.PartialDefaultRecord.value@POLYN161621 the MagicNumber/String  'value is skipped in PartialDefaultRecord' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/PartialDefaultRecord.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.record.PartialDefaultRecord.headers@POLYN161511 the MagicNumber/String  'headers is skipped in PartialDefaultRecord' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.common.record.PartialDefaultRecord.headers@POLYN161767 the MagicNumber/String  'headers is skipped in PartialDefaultRecord' should be converted to const"
 }} 
 ]
 , 

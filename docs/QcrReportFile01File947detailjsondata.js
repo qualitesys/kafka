@@ -467,56 +467,56 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.data.SchemaBuilder.SchemaBuilder@POLYN213978 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.data.SchemaBuilder.SchemaBuilder@POLYN214234 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.data.SchemaBuilder.SchemaBuilder@POLYN213978 the MagicNumber/String  'type cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.connect.data.SchemaBuilder.SchemaBuilder@POLYN214234 the MagicNumber/String  'type cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.data.SchemaBuilder.isOptional@POLYN214423 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.data.SchemaBuilder.isOptional@POLYN214679 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.data.SchemaBuilder.isOptional@POLYN214423 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.data.SchemaBuilder.isOptional@POLYN214679 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.data.SchemaBuilder.optional@POLYN214635 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.data.SchemaBuilder.optional@POLYN214891 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.data.SchemaBuilder.optional@POLYN214635 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.connect.data.SchemaBuilder.optional@POLYN214891 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.data.SchemaBuilder.required@POLYN214991 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.data.SchemaBuilder.required@POLYN215247 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.data.SchemaBuilder.required@POLYN214991 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.data.SchemaBuilder.required@POLYN215247 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -530,7 +530,7 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.data.SchemaBuilder.defaultValue@POLYN215498 the MagicNumber/String  'Invalid default value' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.data.SchemaBuilder.defaultValue@POLYN215754 the MagicNumber/String  'Invalid default value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -558,14 +558,14 @@ var maDataBlocs = {
  , "c1" : "00188"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.data.SchemaBuilder.parameters@POLYN217659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.data.SchemaBuilder.parameters@POLYN217915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.data.SchemaBuilder.parameters@POLYN217659 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.data.SchemaBuilder.parameters@POLYN217915 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -579,7 +579,7 @@ var maDataBlocs = {
  , "c1" : "00200"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#200"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.data.SchemaBuilder.parameter@POLYN217991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00200] In method org.apache.kafka.connect.data.SchemaBuilder.parameter@POLYN218247 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -600,7 +600,7 @@ var maDataBlocs = {
  , "c1" : "00216"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.data.SchemaBuilder.parameters@POLYN218517 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.data.SchemaBuilder.parameters@POLYN218773 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -621,63 +621,63 @@ var maDataBlocs = {
  , "c1" : "00321"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#321"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00321] For method field list of called methods Object monObjet|int fields_sizeN222198"
+ , "c3" : "QC-JAV000007[00321] For method field list of called methods Object monObjet|int fields_sizeN222454"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00323"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  'Cannot create fields on type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  'Cannot create fields on type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  'fieldName cannot be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  'fieldName cannot be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  'fieldSchema for field ' should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  'fieldSchema for field ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  ' cannot be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  ' cannot be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221565 the MagicNumber/String  'Cannot create field because of field name duplication ' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN221821 the MagicNumber/String  'Cannot create field because of field name duplication ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.data.SchemaBuilder.fields@POLYN222773 the MagicNumber/String  'Cannot list fields on non-struct type' should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.connect.data.SchemaBuilder.fields@POLYN223029 the MagicNumber/String  'Cannot list fields on non-struct type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -691,7 +691,7 @@ var maDataBlocs = {
  , "c1" : "00349"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN223078 the MagicNumber/String  'Cannot look up fields on non-struct type' should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.connect.data.SchemaBuilder.field@POLYN223334 the MagicNumber/String  'Cannot look up fields on non-struct type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -705,14 +705,14 @@ var maDataBlocs = {
  , "c1" : "00362"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.data.SchemaBuilder.array@POLYN223462 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.connect.data.SchemaBuilder.array@POLYN223718 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00363"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.data.SchemaBuilder.array@POLYN223462 the MagicNumber/String  'valueSchema cannot be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.data.SchemaBuilder.array@POLYN223718 the MagicNumber/String  'valueSchema cannot be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -726,28 +726,28 @@ var maDataBlocs = {
  , "c1" : "00375"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224258 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00376"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#376"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224002 the MagicNumber/String  'keySchema cannot be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00376] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224258 the MagicNumber/String  'keySchema cannot be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224258 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00378"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224002 the MagicNumber/String  'valueSchema cannot be null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.data.SchemaBuilder.map@POLYN224258 the MagicNumber/String  'valueSchema cannot be null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -768,28 +768,28 @@ var maDataBlocs = {
  , "c1" : "00422"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225705 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225705 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225705 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225705 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.data.SchemaBuilder.build@POLYN225961 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -803,21 +803,21 @@ var maDataBlocs = {
  , "c1" : "00436"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.data.SchemaBuilder.checkCanSet@POLYN226529 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.connect.data.SchemaBuilder.checkCanSet@POLYN226785 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.data.SchemaBuilder.checkCanSet@POLYN226529 the MagicNumber/String  'Invalid SchemaBuilder call: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.data.SchemaBuilder.checkCanSet@POLYN226785 the MagicNumber/String  'Invalid SchemaBuilder call: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00437"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.data.SchemaBuilder.checkCanSet@POLYN226529 the MagicNumber/String  ' has already been set.' should be converted to const"
+ , "c3" : "QC-JAV000010[00437] In method org.apache.kafka.connect.data.SchemaBuilder.checkCanSet@POLYN226785 the MagicNumber/String  ' has already been set.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -831,21 +831,21 @@ var maDataBlocs = {
  , "c1" : "00441"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#441"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.connect.data.SchemaBuilder.checkNotNull@POLYN226868 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00441] In method org.apache.kafka.connect.data.SchemaBuilder.checkNotNull@POLYN227124 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00442"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.data.SchemaBuilder.checkNotNull@POLYN226868 the MagicNumber/String  'Invalid SchemaBuilder call: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.data.SchemaBuilder.checkNotNull@POLYN227124 the MagicNumber/String  'Invalid SchemaBuilder call: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00442"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaBuilder.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.data.SchemaBuilder.checkNotNull@POLYN226868 the MagicNumber/String  ' must be specified to set ' should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.connect.data.SchemaBuilder.checkNotNull@POLYN227124 the MagicNumber/String  ' must be specified to set ' should be converted to const"
 }} 
 ]
 , 

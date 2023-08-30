@@ -95,14 +95,14 @@ var maDataBlocs = {
  , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.consumer.RetriableCommitFailedException.RetriableCommitFailedException@POLYN153324 the MagicNumber/String  'Offset commit failed with a retriable exception. You should retry committing ' should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.clients.consumer.RetriableCommitFailedException.RetriableCommitFailedException@POLYN153580 the MagicNumber/String  'Offset commit failed with a retriable exception. You should retry committing ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RetriableCommitFailedException.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.consumer.RetriableCommitFailedException.RetriableCommitFailedException@POLYN153324 the MagicNumber/String  'the latest consumed offsets.' should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.clients.consumer.RetriableCommitFailedException.RetriableCommitFailedException@POLYN153580 the MagicNumber/String  'the latest consumed offsets.' should be converted to const"
 }} 
 ]
 , 

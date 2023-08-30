@@ -85,7 +85,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/SnapshotPath.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.snapshot.SnapshotPath.toString@POLYN154646 the MagicNumber/String  'SnapshotPath(path=%s, snapshotId=%s, partial=%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.snapshot.SnapshotPath.toString@POLYN154902 the MagicNumber/String  'SnapshotPath(path=%s, snapshotId=%s, partial=%s)' should be converted to const"
 }} 
 ]
 , 

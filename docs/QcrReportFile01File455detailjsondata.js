@@ -265,21 +265,21 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.metrics.JmxReporter.JmxReporter@POLYN203444 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.metrics.JmxReporter.JmxReporter@POLYN203700 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.JmxReporter.JmxReporter@POLYN203755 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.JmxReporter.JmxReporter@POLYN204011 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.JmxReporter.JmxReporter@POLYN203755 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.JmxReporter.JmxReporter@POLYN204011 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -307,7 +307,7 @@ var maDataBlocs = {
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#107"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00107] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate&lt;java.lang.String&gt; JmxReporter_compilePredicateN204658"
+ , "c3" : "QC-JAV000007[00107] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate&lt;java.lang.String&gt; JmxReporter_compilePredicateN204914"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -349,7 +349,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#140"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00140] For method metricChange list of called methods Object monObjet|java.lang.String addAttributeN205892"
+ , "c3" : "QC-JAV000007[00140] For method metricChange list of called methods Object monObjet|java.lang.String addAttributeN206148"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -363,7 +363,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.metrics.JmxReporter.metricChange@POLYN205752 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.common.metrics.JmxReporter.metricChange@POLYN206008 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -377,7 +377,7 @@ var maDataBlocs = {
  , "c1" : "00150"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#150"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method metricRemoval list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN206344|java.lang.String getMBeanNameN206421|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN206531"
+ , "c3" : "QC-JAV000007[00150] For method metricRemoval list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN206600|java.lang.String getMBeanNameN206677|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN206787"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -398,7 +398,7 @@ var maDataBlocs = {
  , "c1" : "00155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.metrics.JmxReporter.metricRemoval@POLYN206204 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.common.metrics.JmxReporter.metricRemoval@POLYN206460 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,7 +412,7 @@ var maDataBlocs = {
  , "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#165"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00165] For method removeAttribute list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN207167"
+ , "c3" : "QC-JAV000007[00165] For method removeAttribute list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN207423"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -426,7 +426,7 @@ var maDataBlocs = {
  , "c1" : "00168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.metrics.JmxReporter.removeAttribute@POLYN207043 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.common.metrics.JmxReporter.removeAttribute@POLYN207299 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -447,7 +447,7 @@ var maDataBlocs = {
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.metrics.JmxReporter.addAttribute@POLYN207508 the MagicNumber/String  'Error creating mbean attribute for metricName :' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.metrics.JmxReporter.addAttribute@POLYN207764 the MagicNumber/String  'Error creating mbean attribute for metricName :' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -468,35 +468,35 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208554 the MagicNumber/String  ':type=' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208810 the MagicNumber/String  ':type=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208554 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208810 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208554 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208810 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00199"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208554 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208810 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208554 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.metrics.JmxReporter.getMBeanName@POLYN208810 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -524,7 +524,7 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.metrics.JmxReporter.unregister@POLYN209978 the MagicNumber/String  'Error unregistering mbean' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.metrics.JmxReporter.unregister@POLYN210234 the MagicNumber/String  'Error unregistering mbean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -545,7 +545,7 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.JmxReporter.reregister@POLYN210465 the MagicNumber/String  'Error registering mbean ' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.metrics.JmxReporter.reregister@POLYN210721 the MagicNumber/String  'Error registering mbean ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -566,7 +566,7 @@ var maDataBlocs = {
  , "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getAttribute@POLYN211663 the MagicNumber/String  'Could not find attribute ' should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getAttribute@POLYN211919 the MagicNumber/String  'Could not find attribute ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -587,7 +587,7 @@ var maDataBlocs = {
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getAttributes@POLYN212045 the MagicNumber/String  'Error getting JMX attribute '{}'' should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getAttributes@POLYN212301 the MagicNumber/String  'Error getting JMX attribute '{}'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -615,63 +615,63 @@ var maDataBlocs = {
  , "c1" : "00278"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN212825 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.getMBeanInfo@POLYN213081 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -685,7 +685,7 @@ var maDataBlocs = {
  , "c1" : "00295"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.invoke@POLYN213962 the MagicNumber/String  'Set not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.invoke@POLYN214218 the MagicNumber/String  'Set not allowed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -699,7 +699,7 @@ var maDataBlocs = {
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.setAttribute@POLYN214178 the MagicNumber/String  'Set not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.setAttribute@POLYN214434 the MagicNumber/String  'Set not allowed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -713,7 +713,7 @@ var maDataBlocs = {
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.setAttributes@POLYN214336 the MagicNumber/String  'Set not allowed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.common.metrics.JmxReporter.KafkaMbean.setAttributes@POLYN214592 the MagicNumber/String  'Set not allowed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -727,28 +727,28 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214513 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214769 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214513 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214769 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214513 the MagicNumber/String  'JMX filter for configuration' should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214769 the MagicNumber/String  'JMX filter for configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214513 the MagicNumber/String  '.(include/exclude) is not a valid regular expression' should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.common.metrics.JmxReporter.compilePredicate@POLYN214769 the MagicNumber/String  '.(include/exclude) is not a valid regular expression' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -776,7 +776,7 @@ var maDataBlocs = {
  , "c1" : "00343"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.metrics.JmxReporter.contextChange@POLYN216007 the MagicNumber/String  'JMX MetricsContext can only be updated before JMX metrics are created' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.metrics.JmxReporter.contextChange@POLYN216263 the MagicNumber/String  'JMX MetricsContext can only be updated before JMX metrics are created' should be converted to const"
 }} 
 ]
 , 

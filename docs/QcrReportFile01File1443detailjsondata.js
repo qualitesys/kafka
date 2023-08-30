@@ -170,35 +170,35 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN165390 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogOffset@POLYN165646 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#61"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method lastContainedLogTimestamp list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN166004"
+ , "c3" : "QC-JAV000007[00061] For method lastContainedLogTimestamp list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN166260"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN165630 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.snapshot.RecordsSnapshotReader.lastContainedLogTimestamp@POLYN165886 the MagicNumber/String  'nextBatch was present when last contained log timestamp was not present' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#78"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN166271"
+ , "c3" : "QC-JAV000007[00078] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN166527"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN166407 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.snapshot.RecordsSnapshotReader.next@POLYN166663 the MagicNumber/String  'Snapshot reader doesn't have any more elements' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00118"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/RecordsSnapshotReader.java.html#118"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00118] For method nextBatch list of called methods Object monObjet|org.apache.kafka.raft.Batch&lt;T&gt; iterator_nextN167637"
+ , "c3" : "QC-JAV000007[00118] For method nextBatch list of called methods Object monObjet|org.apache.kafka.raft.Batch&lt;T&gt; iterator_nextN167893"
 }} 
 ,
 { "ligne" : {"" : ""

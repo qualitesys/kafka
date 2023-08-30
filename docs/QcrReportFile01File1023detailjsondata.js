@@ -148,7 +148,7 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#45"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method configure list of called methods Object monObjet|java.util.regex.Pattern config_includePatternN163083|java.util.regex.Pattern config_excludePatternN163157"
+ , "c3" : "QC-JAV000007[00045] For method configure list of called methods Object monObjet|java.util.regex.Pattern config_includePatternN163339|java.util.regex.Pattern config_excludePatternN163413"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.included@POLYN163265 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.included@POLYN163521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.excluded@POLYN163478 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.excluded@POLYN163734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultGroupFilter.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.GroupFilterConfig.GroupFilterConfig@POLYN164505 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.mirror.DefaultGroupFilter.GroupFilterConfig.GroupFilterConfig@POLYN164761 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -196,7 +196,7 @@ var maDataBlocs = {
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.MetadataCache.MetadataCache@POLYN192247 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.MetadataCache.MetadataCache@POLYN192503 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -210,7 +210,7 @@ var maDataBlocs = {
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.MetadataCache.MetadataCache@POLYN192875 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.clients.MetadataCache.MetadataCache@POLYN193131 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -231,14 +231,14 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.MetadataCache.cluster@POLYN194792 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.clients.MetadataCache.cluster@POLYN195048 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.MetadataCache.cluster@POLYN194792 the MagicNumber/String  'Cached Cluster instance should not be null, but was.' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.clients.MetadataCache.cluster@POLYN195048 the MagicNumber/String  'Cached Cluster instance should not be null, but was.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -280,7 +280,7 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.MetadataCache.mergeWith@POLYN195597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.clients.MetadataCache.mergeWith@POLYN195853 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -301,84 +301,84 @@ var maDataBlocs = {
  , "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.clients.MetadataCache.bootstrap@POLYN200123 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.clients.MetadataCache.bootstrap@POLYN200379 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.clients.MetadataCache.bootstrap@POLYN200123 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.clients.MetadataCache.bootstrap@POLYN200379 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.clients.MetadataCache.bootstrap@POLYN200123 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.clients.MetadataCache.bootstrap@POLYN200379 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.MetadataCache.empty@POLYN201129 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.clients.MetadataCache.empty@POLYN201385 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.MetadataCache.empty@POLYN201129 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.clients.MetadataCache.empty@POLYN201385 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00227"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#227"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  'MetadataCache{' should be converted to const"
+ , "c3" : "QC-JAV000010[00227] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  'MetadataCache{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  'clusterId='' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  'clusterId='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  ', nodes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  ', nodes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  ', partitions=' should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  ', partitions=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  ', controller=' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  ', controller=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/MetadataCache.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201587 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.clients.MetadataCache.toString@POLYN201843 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

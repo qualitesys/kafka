@@ -95,49 +95,49 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.ExtendedWorkerState@POLYN155407 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.ExtendedWorkerState@POLYN155663 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156003 the MagicNumber/String  'WorkerState{' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156259 the MagicNumber/String  'WorkerState{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156003 the MagicNumber/String  'url='' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156259 the MagicNumber/String  'url='' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00043"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#43"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156003 the MagicNumber/String  '\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00043] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156259 the MagicNumber/String  '\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156003 the MagicNumber/String  ', offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156259 the MagicNumber/String  ', offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156003 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156259 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ExtendedWorkerState.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156003 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState.toString@POLYN156259 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

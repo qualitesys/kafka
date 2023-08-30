@@ -91,49 +91,49 @@ var maDataBlocs = {
  , "c1" : "00025"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#25"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00025] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00026"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#26"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00026] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#27"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#28"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  'Size of data received by Deserializer is not 8' should be converted to const"
+ , "c3" : "QC-JAV000010[00028] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  'Size of data received by Deserializer is not 8' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#31"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00031] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00033"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#33"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00033] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/DoubleDeserializer.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN153814 the MagicNumber/String  0xFF should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.serialization.DoubleDeserializer.deserialize@POLYN154070 the MagicNumber/String  0xFF should be converted to const"
 }} 
 ]
 , 

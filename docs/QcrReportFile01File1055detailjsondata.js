@@ -77,7 +77,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/LongConverter.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.converters.LongConverter.LongConverter@POLYN156181 the MagicNumber/String  'long' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.converters.LongConverter.LongConverter@POLYN156437 the MagicNumber/String  'long' should be converted to const"
 }} 
 ]
 , 

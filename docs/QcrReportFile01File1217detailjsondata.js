@@ -200,7 +200,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.transforms.HeaderFrom.apply@POLYN192472 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.connect.transforms.HeaderFrom.apply@POLYN192728 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -256,28 +256,28 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193012 the MagicNumber/String  'header ' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193268 the MagicNumber/String  'header ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193012 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193268 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193012 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193268 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193012 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00137] In method org.apache.kafka.connect.transforms.HeaderFrom.applyWithSchema@POLYN193268 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -298,7 +298,7 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.HeaderFrom.moveSchema@POLYN195045 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.transforms.HeaderFrom.moveSchema@POLYN195301 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -340,28 +340,28 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN195995 the MagicNumber/String  'header ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN196251 the MagicNumber/String  'header ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN195995 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN196251 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN195995 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN196251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN195995 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.transforms.HeaderFrom.applySchemaless@POLYN196251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -480,7 +480,7 @@ var maDataBlocs = {
  , "c1" : "00233"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.transforms.HeaderFrom.configure@POLYN199697 the MagicNumber/String  ''%s' config must have the same number of elements as '%s' config.' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.transforms.HeaderFrom.configure@POLYN199953 the MagicNumber/String  ''%s' config must have the same number of elements as '%s' config.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -148,7 +148,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method configure list of called methods Object monObjet|java.util.regex.Pattern config_includePatternN163083|java.util.regex.Pattern config_excludePatternN163157"
+ , "c3" : "QC-JAV000007[00044] For method configure list of called methods Object monObjet|java.util.regex.Pattern config_includePatternN163339|java.util.regex.Pattern config_excludePatternN163413"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -162,7 +162,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.included@POLYN163265 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.included@POLYN163521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -176,7 +176,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.excluded@POLYN163478 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.excluded@POLYN163734 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.TopicFilterConfig.TopicFilterConfig@POLYN164505 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.connect.mirror.DefaultTopicFilter.TopicFilterConfig.TopicFilterConfig@POLYN164761 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

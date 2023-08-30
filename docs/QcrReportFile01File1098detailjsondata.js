@@ -381,14 +381,14 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN215506 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN215762 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN215506 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.runtime.WorkerTask.WorkerTask@POLYN215762 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,14 +409,14 @@ var maDataBlocs = {
  , "c1" : "00108"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.WorkerTask.triggerStop@POLYN216875 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.connect.runtime.WorkerTask.triggerStop@POLYN217131 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.WorkerTask.cancel@POLYN217370 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.connect.runtime.WorkerTask.cancel@POLYN217626 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -430,14 +430,14 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.WorkerTask.awaitStop@POLYN217600 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.connect.runtime.WorkerTask.awaitStop@POLYN217856 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN218292 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception during shutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN218548 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception during shutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -451,21 +451,21 @@ var maDataBlocs = {
  , "c1" : "00192"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593 the MagicNumber/String  '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849 the MagicNumber/String  '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593 the MagicNumber/String  '{} After being scheduled for shutdown, task threw an uncaught exception.' should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849 the MagicNumber/String  '{} After being scheduled for shutdown, task threw an uncaught exception.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849 the MagicNumber/String  '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -514,14 +514,14 @@ var maDataBlocs = {
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN221830 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN222086 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN221830 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.connect.runtime.WorkerTask.awaitUnpause@POLYN222086 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -549,7 +549,7 @@ var maDataBlocs = {
  , "c1" : "00298"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerTask.recordActiveTopic@POLYN222613 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.runtime.WorkerTask.recordActiveTopic@POLYN222869 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -563,14 +563,14 @@ var maDataBlocs = {
  , "c1" : "00311"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN223118 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN223374 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN223118 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitSuccess@POLYN223374 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -584,7 +584,7 @@ var maDataBlocs = {
  , "c1" : "00321"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitFailure@POLYN223461 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.WorkerTask.recordCommitFailure@POLYN223717 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -612,21 +612,21 @@ var maDataBlocs = {
  , "c1" : "00364"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#364"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN224347 the MagicNumber/String  'commit-time' should be converted to const"
+ , "c3" : "QC-JAV000010[00364] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN224603 the MagicNumber/String  'commit-time' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN224347 the MagicNumber/String  'batch-size' should be converted to const"
+ , "c3" : "QC-JAV000010[00368] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN224603 the MagicNumber/String  'batch-size' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN224347 the MagicNumber/String  'offset-commit-completion' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.TaskMetricsGroup@POLYN224603 the MagicNumber/String  'offset-commit-completion' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -640,14 +640,14 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#379"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00379] For method addRatioMetric list of called methods Object monObjet|org.apache.kafka.common.MetricName metricGroup_metricNameN226987"
+ , "c3" : "QC-JAV000007[00379] For method addRatioMetric list of called methods Object monObjet|org.apache.kafka.common.MetricName metricGroup_metricNameN227243"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00381"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.addRatioMetric@POLYN226864 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.addRatioMetric@POLYN227120 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -661,14 +661,14 @@ var maDataBlocs = {
  , "c1" : "00392"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN227414 the MagicNumber/String  1.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN227670 the MagicNumber/String  1.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00394"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#394"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN227414 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup.recordCommit@POLYN227670 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -738,49 +738,49 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN218292"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN218548"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.recordBatch@POLYN223758"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.WorkerTask.recordBatch@POLYN224014"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#192"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593 the MagicNumber/String '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849 the MagicNumber/String '{} After being scheduled for shutdown, the orphan task threw an uncaught exception. A newer instance of this task might be already running' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#194"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593 the MagicNumber/String '{} After being scheduled for shutdown, task threw an uncaught exception.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849 the MagicNumber/String '{} After being scheduled for shutdown, task threw an uncaught exception.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218593 the MagicNumber/String '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doRun@POLYN218849 the MagicNumber/String '{} Task threw an uncaught and unrecoverable exception. Task is being killed and will not recover until manually restarted' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerTask.java.html#170"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN218292 the MagicNumber/String '{} Task threw an uncaught and unrecoverable exception during shutdown' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.connect.runtime.WorkerTask.doClose@POLYN218548 the MagicNumber/String '{} Task threw an uncaught and unrecoverable exception during shutdown' MUST BE CONVERTED to const"
 }} 
 ]
 , 

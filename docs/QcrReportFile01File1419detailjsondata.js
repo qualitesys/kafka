@@ -161,7 +161,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#56"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00056] For method findReadyVoter list of called methods Object monObjet|boolean connection_isReadyN178210"
+ , "c3" : "QC-JAV000007[00056] For method findReadyVoter list of called methods Object monObjet|boolean connection_isReadyN178466"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN177402 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.raft.RequestManager.findReadyVoter@POLYN177658 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -203,7 +203,7 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN178628 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.RequestManager.backoffBeforeAvailableVoter@POLYN178884 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,7 +238,7 @@ var maDataBlocs = {
  , "c1" : "00133"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.raft.RequestManager.ConnectionState.isBackingOff@POLYN181061 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.raft.RequestManager.ConnectionState.isBackingOff@POLYN181317 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.RequestManager.ConnectionState.hasInflightRequest@POLYN181340 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.RequestManager.ConnectionState.hasInflightRequest@POLYN181596 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,7 +266,7 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingRequestTimeMs@POLYN181619 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingRequestTimeMs@POLYN181875 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -280,7 +280,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingBackoffMs@POLYN181903 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.raft.RequestManager.ConnectionState.remainingBackoffMs@POLYN182159 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -315,49 +315,49 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  'ConnectionState(' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  'ConnectionState(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  'id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  'id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  ', state=' should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  ', state=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  ', lastSendTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  ', lastSendTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  ', lastFailTimeMs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  ', lastFailTimeMs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  ', inFlightCorrelationId=' should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  ', inFlightCorrelationId=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RequestManager.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN183794 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.raft.RequestManager.ConnectionState.toString@POLYN184050 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -231,7 +231,7 @@ var maDataBlocs = {
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeVersion@POLYN181112 the MagicNumber/String  'Buffer underflow while parsing consumer protocol's header' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeVersion@POLYN181368 the MagicNumber/String  'Buffer underflow while parsing consumer protocol's header' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -252,7 +252,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#71"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method serializeSubscription list of called methods Object monObjet|short checkSubscriptionVersionN181712"
+ , "c3" : "QC-JAV000007[00071] For method serializeSubscription list of called methods Object monObjet|short checkSubscriptionVersionN181968"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -266,28 +266,28 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -301,7 +301,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method deserializeSubscription list of called methods Object monObjet|short checkSubscriptionVersionN183559"
+ , "c3" : "QC-JAV000007[00096] For method deserializeSubscription list of called methods Object monObjet|short checkSubscriptionVersionN183815"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -315,21 +315,21 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN183435 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN183691 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN183435 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN183691 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN183435 the MagicNumber/String  'Buffer underflow while parsing consumer protocol's subscription' should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN183691 the MagicNumber/String  'Buffer underflow while parsing consumer protocol's subscription' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -357,7 +357,7 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#127"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00127] For method serializeAssignment list of called methods Object monObjet|short checkAssignmentVersionN185172"
+ , "c3" : "QC-JAV000007[00127] For method serializeAssignment list of called methods Object monObjet|short checkAssignmentVersionN185428"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -371,21 +371,21 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,7 +399,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#143"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method deserializeAssignment list of called methods Object monObjet|short checkAssignmentVersionN186406"
+ , "c3" : "QC-JAV000007[00143] For method deserializeAssignment list of called methods Object monObjet|short checkAssignmentVersionN186662"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -413,21 +413,21 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN186282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN186538 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN186282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN186538 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN186282 the MagicNumber/String  'Buffer underflow while parsing consumer protocol's assignment' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN186538 the MagicNumber/String  'Buffer underflow while parsing consumer protocol's assignment' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -448,7 +448,7 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.checkSubscriptionVersion@POLYN187676 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.checkSubscriptionVersion@POLYN187932 the MagicNumber/String  'Unsupported subscription version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -462,84 +462,84 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.checkAssignmentVersion@POLYN188054 the MagicNumber/String  'Unsupported assignment version: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.checkAssignmentVersion@POLYN188310 the MagicNumber/String  'Unsupported assignment version: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN187476"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeAssignment@POLYN187732"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN184671"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerProtocol.deserializeSubscription@POLYN184927"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#134"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185048 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeAssignment@POLYN185304 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00080] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#84"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerProtocol.java.html#86"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181588 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00086] In the recursive method org.apache.kafka.clients.consumer.internals.ConsumerProtocol.serializeSubscription@POLYN181844 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

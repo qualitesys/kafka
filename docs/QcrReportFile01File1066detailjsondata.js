@@ -234,42 +234,42 @@ var maDataBlocs = {
  , "c1" : "00178"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN256993 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN257249 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN256993 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN257249 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN256993 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN257249 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN256993 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN257249 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN256993 the MagicNumber/String  'transformation' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN257249 the MagicNumber/String  'transformation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN256993 the MagicNumber/String  'predicate' should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.connect.runtime.ConnectorConfig.configDef@POLYN257249 the MagicNumber/String  'predicate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -283,35 +283,35 @@ var maDataBlocs = {
  , "c1" : "00207"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261154 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261410 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261154 the MagicNumber/String  'Duplicate alias provided.' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261410 the MagicNumber/String  'Duplicate alias provided.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261154 the MagicNumber/String  'unique ' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261410 the MagicNumber/String  'unique ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261154 the MagicNumber/String  ' aliases' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.ConnectorConfig.aliasValidator@POLYN261410 the MagicNumber/String  ' aliases' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00234"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.ConnectorConfig.ConnectorConfig@POLYN262475 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.connect.runtime.ConnectorConfig.ConnectorConfig@POLYN262731 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,7 +325,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#252"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method errorToleranceType list of called methods Object monObjet|java.lang.String getStringN263401"
+ , "c3" : "QC-JAV000007[00252] For method errorToleranceType list of called methods Object monObjet|java.lang.String getStringN263657"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -479,98 +479,98 @@ var maDataBlocs = {
  , "c1" : "00312"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'Transformation' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'Transformation' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00314"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#314"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'rawtypes' should be converted to const"
+ , "c3" : "QC-JAV000010[00314] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'rawtypes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'The alias of a predicate used to determine whether to apply this transformation.' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'The alias of a predicate used to determine whether to apply this transformation.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00326"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#326"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00326] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'Whether the configured predicate should be negated.' should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'Whether the configured predicate should be negated.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'Transformer config {} is masked by implicit config of that name' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'Transformer config {} is masked by implicit config of that name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'Config '' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'Config '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  '' was provided ' should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  '' was provided ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00358"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'but there is no config '' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'but there is no config '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00358"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#358"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  '' defining a predicate to be negated.' should be converted to const"
+ , "c3" : "QC-JAV000010[00358] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  '' defining a predicate to be negated.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00363"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#363"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266725 the MagicNumber/String  'Predicate' should be converted to const"
+ , "c3" : "QC-JAV000010[00363] In method org.apache.kafka.connect.runtime.ConnectorConfig.enrich@POLYN266981 the MagicNumber/String  'Predicate' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -584,7 +584,7 @@ var maDataBlocs = {
  , "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00409] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN271468|org.apache.kafka.common.config.ConfigDef populateConfigDefN273818"
+ , "c3" : "QC-JAV000007[00409] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN271724|org.apache.kafka.common.config.ConfigDef populateConfigDefN274074"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -675,105 +675,105 @@ var maDataBlocs = {
  , "c1" : "00418"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  'Item in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  'Item in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  ' property is not of ' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  ' property is not of ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  'type String' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  'type String' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#423"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00424"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#424"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00424] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  'type' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  'type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  'valid configs for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  'valid configs for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00432"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#432"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  ' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00432] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  ' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  'Class for the '' should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  'Class for the '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  '' ' should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  '' ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00435"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#435"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  ' type for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00435] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  ' type for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271373 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.enrich@POLYN271629 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -794,14 +794,14 @@ var maDataBlocs = {
  , "c1" : "00451"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#451"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00451] For method populateConfigDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef initialConfigDefN274398"
+ , "c3" : "QC-JAV000007[00451] For method populateConfigDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef initialConfigDefN274654"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.populateConfigDef@POLYN274294 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.populateConfigDef@POLYN274550 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -822,77 +822,77 @@ var maDataBlocs = {
  , "c1" : "00488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00488] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN276999|org.apache.kafka.common.config.ConfigDef configN277868"
+ , "c3" : "QC-JAV000007[00488] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN277255|org.apache.kafka.common.config.ConfigDef configN278124"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#490"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  'Not a ' should be converted to const"
+ , "c3" : "QC-JAV000010[00490] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  'Not a ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#498"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00498] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00500"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#500"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  ' is abstract and cannot be created.' should be converted to const"
+ , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  ' is abstract and cannot be created.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  ' is abstract and cannot be created. Did you mean ' should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  ' is abstract and cannot be created. Did you mean ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  '?' should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  '?' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  'Error getting config definition from ' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  'Error getting config definition from ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#511"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00511] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#514"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
+ , "c3" : "QC-JAV000010[00514] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String  '%s.config() must return a ConfigDef that is not null.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -920,84 +920,84 @@ var maDataBlocs = {
  , "c1" : "00551"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#551"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.ClassRecommender.visible@POLYN279244 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.ClassRecommender.visible@POLYN279500 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#489"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00489] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00489] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00490"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#490"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String 'Not a ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00490] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String 'Not a ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00498] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String ', ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00498] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String ', ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00500"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#500"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00500] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String ' is abstract and cannot be created.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00500] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String ' is abstract and cannot be created.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String ' is abstract and cannot be created. Did you mean ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String ' is abstract and cannot be created. Did you mean ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#501"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String '?' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00501] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String '?' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String ': ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#508"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String 'Error getting config definition from ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String 'Error getting config definition from ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00511"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#511"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#514"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN275849 the MagicNumber/String '%s.config-- must return a ConfigDef that is not null.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00514] In the recursive method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.getConfigDefFromConfigProvidingClass@POLYN276105 the MagicNumber/String '%s.config-- must return a ConfigDef that is not null.' MUST BE CONVERTED to const"
 }} 
 ]
 , 
