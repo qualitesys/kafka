@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java 74 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java 76 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -290,7 +290,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
@@ -304,7 +304,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "7"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -768,6 +768,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN226893"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.equals@POLYN228189"
 }} 
 ,
@@ -853,6 +860,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#113"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.SubscriptionInfo@POLYN213437 the MagicNumber/String 11 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00344"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/SubscriptionInfo.java.html#344"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00344] In the recursive method org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo.decode@POLYN226893 the MagicNumber/String 'Unable to decode subscription data: used version: {}; latest supported version: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java 87 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java 65 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -144,35 +144,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "16"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -195,23 +172,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method retrieve list of called methods Object monObjet|java.lang.String formatAuthorizationHeaderN207089|java.lang.String formatRequestBodyN207199"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#160"
@@ -460,13 +423,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00275"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#275"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method copy list of called methods Object monObjet|int is_readN213947"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#275"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00275] The argument is is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -511,13 +467,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#283"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00283] For method parseAccessToken arguments String  responseBody"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#283"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method parseAccessToken list of called methods Object monObjet|int responseBody_lengthN214865|java.lang.String responseBody_substringN214942|java.lang.String String_formatN215059"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,13 +530,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#306"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00306] For method formatAuthorizationHeader arguments String  clientId|String  clientSecret"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#306"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00306] For method formatAuthorizationHeader list of called methods Object monObjet|java.lang.String sanitizeStringN215568|java.lang.String sanitizeStringN215677|java.lang.String String_formatN215789"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -661,13 +603,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#333"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00333] For method sanitizeString list of called methods Object monObjet|java.lang.String value_trimN217662"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00334"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#334"
  , "c2" : "MAJOR"
@@ -693,125 +628,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#343"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN217161 the MagicNumber/String  'The value for %s must not contain only whitespace' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'handleInput - starting post for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'POST' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'Accept' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#204"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00204] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'application/json' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#206"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00206] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'Cache-Control' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00211] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'no-cache' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00214"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#214"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00214] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'Content-Length' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#215"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#218"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00218] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00220"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#220"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#223"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00223] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#226"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00226] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'handleInput - preparing to connect to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#229"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00229] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#232"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00232] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String 'handleInput - preparing to write request body to {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

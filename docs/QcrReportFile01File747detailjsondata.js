@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java 17 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -87,13 +87,6 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "16"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -158,13 +151,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#49"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.security.JaasUtils.zkSecuritySysConfigString@POLYN160151 the MagicNumber/String  ']' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/JaasUtils.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method isZkSaslEnabled list of called methods Object monObjet|boolean Boolean_parseBooleanN160977"
 }} 
 ,
 { "ligne" : {"" : ""

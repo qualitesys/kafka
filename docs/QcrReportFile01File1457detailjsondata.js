@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.InputStream.java.html" 
- , "texte" : "File secujava/java.io.InputStream.java 35 rule violations " 
+ , "texte" : "File secujava/java.io.InputStream.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -128,9 +128,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1457Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1457&numSeq=1"
  , "c2" : "1"
- , "c3" : "4"
- , "c4" : "3"
- , "c5" : ["1" , "java.io.InputStream.skip@POLYN259584.remaining"]
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["1" , "java.io.InputStream.read@POLYN257278.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -157,22 +157,6 @@ var maDataBlocs = {
  , "c3" : ["java.io.InputStream.read@POLYN257278.i" , "---java.io.InputStream.read@POLYN257278.dummymethode_00188" , "java.io.InputStream.read@POLYN257278.return"]
  , "c4" : "//QC-JAVCWE099[00188] In java.io.InputStream.read@POLYN257278[00188] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
  , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00225]"
- , "c3" : ["java.io.InputStream.read@POLYN257278.return" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.skip@POLYN259584.nr"]
- , "c4" : "//QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN259584[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "4"
- , "sourcenoligne" : "[00230]"
- , "c3" : ["java.io.InputStream.skip@POLYN259584.nr" , "---java.io.InputStream.skip@POLYN259584.dummymethode_00230" , "java.io.InputStream.skip@POLYN259584.remaining"]
- , "c4" : ""
- , "c5" : "none"
 }}
 ,
 { "ligne" : { "" : ""
@@ -217,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE099"
  , "c3" : "Ressource injection"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -256,13 +240,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -290,13 +267,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#162"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00162] For method read arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/secujava/java.io.InputStream.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00162] For method read list of called methods Object monObjet|int readN257926"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,13 +344,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#211"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00211] For method skip arguments long  n"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/secujava/java.io.InputStream.java.html#211"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method skip list of called methods Object monObjet|int readN260175"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -493,13 +456,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#303"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000004[00303] Void method mark is empty or contains only a return. Interface segregation"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00225"
- , "c1link" : "./qc/secujava/java.io.InputStream.java.html#225"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00225] In java.io.InputStream.skip@POLYN259584[00225] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""

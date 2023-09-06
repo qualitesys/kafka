@@ -948,7 +948,7 @@ var maDataBlocs = {
  , "c1" : "00441"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#441"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00441] For method sendMetadataRequest list of called methods Object monObjet|org.apache.kafka.common.Node client_leastLoadedNodeN499699"
+ , "c3" : "QC-JAV000007[00441] For method sendMetadataRequest list of called methods Object monObjet|org.apache.kafka.trogdor.common.Node client_leastLoadedNodeN499699"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2012,7 +2012,7 @@ var maDataBlocs = {
  , "c1" : "01183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1183"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; metadata_topicIdsN536934|org.apache.kafka.common.Node selectReadReplicaN537732|int node_idN538591|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN538668|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN539036"
+ , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; metadata_topicIdsN536934|org.apache.kafka.trogdor.common.Node selectReadReplicaN537732|int node_idN538591|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN538668|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN539036"
 }} 
 ,
 { "ligne" : {"" : ""

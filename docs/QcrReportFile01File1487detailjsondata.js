@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Throwable.java.html" 
- , "texte" : "File secujava/java.lang.Throwable.java 93 rule violations " 
+ , "texte" : "File secujava/java.lang.Throwable.java 92 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -330,13 +330,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1018,13 +1011,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : java.lang.Throwable.addSuppressed@POLYN399877.exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printStackTrace@POLYN388874"
 }} 
 ]
 , 

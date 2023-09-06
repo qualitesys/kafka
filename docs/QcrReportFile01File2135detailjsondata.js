@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 159 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 152 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -309,7 +309,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "24"
+ , "c4" : "17"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1263,13 +1263,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.backwardFetch@POLYN277738"
 }} 
 ,
@@ -1278,6 +1271,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN262903"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN273722"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1306,69 +1306,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetchAll@POLYN280619"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#377"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00377] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00378] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String 'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00379"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#379"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00379] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String 'This may be due to range arguments set in the wrong order, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00380] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String 'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00381] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String 'Note that the built-in numerical serdes do not follow this for negative numbers' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00391"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#391"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00395"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#395"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00395] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN276501 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1432,6 +1369,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#107"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.getWrappedStore@POLYN262903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#330"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00330] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN273722 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00334"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#334"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00334] In the recursive method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.fetch@POLYN273722 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.ServerSocket.java.html" 
- , "texte" : "File secujava/java.net.ServerSocket.java 129 rule violations " 
+ , "texte" : "File secujava/java.net.ServerSocket.java 116 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -459,7 +459,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00220]"
- , "c3" : ["java.net.ServerSocket.ServerSocket@POLYN320129.backlog" , "---java.net.ServerSocket.bind@POLYN324594" , "java.net.ServerSocket.ServerSocket@POLYN320129.cibledummy_00220"]
+ , "c3" : ["java.net.ServerSocket.ServerSocket@POLYN320129.backlog" , "---java.net.ServerSocket.bind@POLYN323755" , "java.net.ServerSocket.ServerSocket@POLYN320129.cibledummy_00220"]
  , "c4" : "//QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN320129[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
@@ -498,9 +498,9 @@ var maDataBlocs = {
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00356]"
- , "c3" : ["java.net.ServerSocket.getImpl@POLYN321212.return" , "---java.net.ServerSocket.getImpl@POLYN321212" , "java.net.ServerSocket.bind@POLYN324594.cibledummy_00356"]
- , "c4" : "//QC-JAVCWZ099[00356] In java.net.ServerSocket.bind@POLYN324594[00356] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
+ , "sourcenoligne" : "[00355]"
+ , "c3" : ["java.net.ServerSocket.getImpl@POLYN321212.return" , "---java.net.ServerSocket.getImpl@POLYN321212" , "java.net.ServerSocket.bind@POLYN324594.cibledummy_00355"]
+ , "c4" : "//QC-JAVCWZ099[00355] In java.net.ServerSocket.bind@POLYN324594[00355] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -646,9 +646,9 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:java.net.ServerSocket.closeLock" }
+{ "ligne" :  "R0:java.net.ServerSocket.this" }
 ,
-{ "ligne" :  "R1:java.net.ServerSocket.this" }
+{ "ligne" :  "R1:java.net.ServerSocket.closeLock" }
 ,
 { "ligne" :  "R2:java.net.ServerSocket.setSocketFactory@POLYN338407.fac" }
 ]
@@ -692,14 +692,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "25"
+ , "c4" : "13"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1394,7 +1394,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.bind@POLYN324594"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getSoTimeout@POLYN334294"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1402,13 +1402,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.close@POLYN331971"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getSoTimeout@POLYN334294"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1461,97 +1454,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00339] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#341"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00341] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 'Already bound' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#342"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00342] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00343"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#343"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00343] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#345"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00345] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 'Unsupported address type' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00348] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 'Unresolved address' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00349] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00350] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String 50 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00353] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00357"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00357] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00359"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#359"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00359] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#362"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00362] In the recursive method java.net.ServerSocket.bind@POLYN324594 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00542] In the recursive method java.net.ServerSocket.close@POLYN331971 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00621"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#621"
  , "c2" : "BLOCKER"
@@ -1563,6 +1465,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#627"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00627] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN334294 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00542"
+ , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00542] In the recursive method java.net.ServerSocket.close@POLYN331971 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

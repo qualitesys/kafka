@@ -2435,7 +2435,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method close list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN571768|long validateMillisecondDurationN571893|boolean time_millisecondsN572165|boolean closeN572247|org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult adminClient_removeMembersFromConsumerGroupN573166"
+ , "c3" : "QC-JAV000007[00001] For method close list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN571768|long validateMillisecondDurationN571893|boolean closeN572247|org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult adminClient_removeMembersFromConsumerGroupN573166"
 }} 
 ,
 { "ligne" : {"" : ""

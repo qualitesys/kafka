@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java 32 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java 41 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -198,12 +198,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -218,6 +241,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -248,6 +278,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#48"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00048] The argument acl is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00100] For method kafkaPrincipal list of called methods Object monObjet|int principal_indexOfN179044|java.lang.String principal_substringN179370|java.lang.String principal_substringN179490"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -332,6 +369,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#162"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00162] For method compareTo arguments StandardAcl  other"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#162"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00162] For method compareTo list of called methods Object monObjet|int resourceType_compareToN181834|int other_resourceName_compareToN182026|int patternType_compareToN182218|int operation_compareToN182410|int principal_compareToN182602|int host_compareToN182794|int permissionType_compareToN182986"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -444,6 +488,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#190"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00190] In method org.apache.kafka.metadata.authorizer.StandardAcl.toString@POLYN183113 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#165"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00167"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#167"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00171"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#173"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAcl.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.metadata.authorizer.StandardAcl.compareTo@POLYN181707 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

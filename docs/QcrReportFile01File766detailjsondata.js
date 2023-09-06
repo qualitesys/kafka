@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java 34 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -164,13 +164,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -198,13 +191,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method acquireLoginManager arguments JaasContext  jaasContext|String  saslMechanism|Class&lt;?  extends Login &gt;  defaultLoginClass|Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/LoginManager.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method acquireLoginManager list of called methods Object monObjet|boolean OAuthBearerLoginModule_OAUTHBEARER_MECHANISM_equalsN194979|org.apache.kafka.common.config.types.Password jaasContext_dynamicJaasConfigN195452"
 }} 
 ,
 { "ligne" : {"" : ""

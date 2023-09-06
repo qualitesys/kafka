@@ -368,7 +368,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN205275 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
 ,
-{ "ligne" : "S0:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN154934" }
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.get@POLYN163661" }
  ]
  } }
 ,
@@ -377,7 +377,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN205275 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN154934" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.get@POLYN163661" }
  ]
  } }
 ,
@@ -395,7 +395,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S3:org.apache.kafka.streams.state.internals.NamedCache.put@POLYN205275 (R0 in line [00157],R1 in line [00157],R2 in line [00157])" }
 ,
-{ "ligne" : "S3:org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier.get@POLYN154934" }
+{ "ligne" : "S3:org.apache.kafka.streams.state.internals.RocksDbWindowBytesStoreSupplier.get@POLYN163661" }
  ]
  } }
 ]

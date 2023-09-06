@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java 62 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java 83 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -272,17 +272,24 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAVCWE476"
- , "c3" : "Null pointer reference"
- , "c4" : "3"
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c2" : "QC-JAVCWE476"
+ , "c3" : "Null pointer reference"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -766,8 +773,155 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN219296"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215286 ending with method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215286"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 ending with method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215286"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215286"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215286 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00217"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#217"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00217] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#219"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String 'Invalid value: null used for required field: \'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00220"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#220"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00220] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String '\', schema type: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00225"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#225"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00225] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00228"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00228] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00234"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#234"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00234] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String 'Invalid Java object for schema' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00235"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#235"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String ' \'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00236"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#236"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00236] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String '\'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String ' with type ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00238"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#238"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String ': ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String ' for field: \'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String '\'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00249"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/ConnectSchema.java.html#249"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00249] In the recursive method org.apache.kafka.connect.data.ConnectSchema.validateValue@POLYN215488 the MagicNumber/String 'Struct schemas do not match.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

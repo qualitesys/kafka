@@ -214,9 +214,9 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171435.status" }
 ,
-{ "ligne" :  "R3:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN172502.status" }
+{ "ligne" :  "R3:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959.status" }
 ,
-{ "ligne" :  "R4:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959.status" }
+{ "ligne" :  "R4:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN172502.status" }
 ]
 ,
 "data12b" : [
@@ -225,16 +225,27 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171435 (R0 in line [00063],R2 in line [00063])" }
 ,
-{ "ligne" : "S0:java.util.HashMap.remove@POLYN661426" }
+{ "ligne" : "S0:java.util.HashMap.remove@POLYN643941" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN172502 (R0 in line [00084],R3 in line [00084])" }
+{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN171814 (R0 in line [00071],R1 in line [00071])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959 (R0 in line [00076],R4 in line [00076])" }
+{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171435 (R0 in line [00063],R2 in line [00063])" }
+,
+{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959 (R0 in line [00076],R3 in line [00076])" }
 ,
 { "ligne" : "S1:org.apache.kafka.connect.util.Table.remove@POLYN160219" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN172502 (R0 in line [00084],R4 in line [00084])" }
+,
+{ "ligne" : "S2:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959 (R0 in line [00076],R3 in line [00076])" }
+,
+{ "ligne" : "S2:org.apache.kafka.connect.util.Table.remove@POLYN160219" }
  ]
  } }
 ]
@@ -571,14 +582,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN172502.status"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959.status"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959.status"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.connect.storage.MemoryStatusBackingStore.putSafe@POLYN172502.status"
 }} 
 ]
 , 

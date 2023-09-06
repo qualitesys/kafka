@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java 56 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java 51 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -207,44 +207,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.metrics@POLYN212470.errorHandlingMetrics" }
-,
-{ "ligne" :  "R2:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.reporters@POLYN213099.reporters" }
-,
-{ "ligne" :  "R3:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.sourceRecord@POLYN213352.preTransformRecord" }
-,
-{ "ligne" :  "R4:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.consumerRecord@POLYN213581.consumedMessage" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -266,13 +234,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -299,13 +260,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; context_reportN205256"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#109"
  , "c2" : "MAJOR"
@@ -324,13 +278,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00114] For method executeFailed arguments Stage  stage|Class&lt;? &gt;  executingClass|SourceRecord  sourceRecord|Throwable  error"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method executeFailed list of called methods Object monObjet|java.util.concurrent.Future&lt;java.lang.Void&gt; context_reportN206129"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -653,27 +600,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#335"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00335] Lock statement on synchronized method close"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN211652"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN211652 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00271"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/RetryWithToleranceOperator.java.html#271"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.backoff@POLYN211652 the MagicNumber/String 'Sleeping for {} millis' MUST BE CONVERTED to const"
 }} 
 ]
 , 

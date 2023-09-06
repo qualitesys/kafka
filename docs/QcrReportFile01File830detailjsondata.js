@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java 39 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -179,13 +179,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -194,13 +187,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#72"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00072] For method evaluateResponse arguments byte[]  responseBytes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method evaluateResponse list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; extractTokensN184216"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -285,13 +271,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#117"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00117] For method extractTokens arguments String  string"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#117"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00117] For method extractTokens list of called methods Object monObjet|int string_indexOfN186392"
 }} 
 ,
 { "ligne" : {"" : ""

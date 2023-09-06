@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java 28 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java 27 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -226,7 +226,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -417,13 +417,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN191648"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN192757"
 }} 
 ,
@@ -431,14 +424,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.raise@POLYN194522"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#74"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN191648 the MagicNumber/String 'Attempt to retrieve value from future which hasn't successfully completed' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN191648"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -446,6 +432,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#111"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.exception@POLYN192757 the MagicNumber/String 'Attempt to retrieve exception from future which hasn't failed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/RequestFuture.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.clients.consumer.internals.RequestFuture.value@POLYN191648 the MagicNumber/String 'Attempt to retrieve value from future which hasn't successfully completed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

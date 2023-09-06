@@ -165,6 +165,21 @@ var maDataBlocs = {
  , "secu3" : "Ok"
  , "secu4" : "Ok"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1470Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1470&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.Writer.append@POLYN205074.'null'" , "java.io.Writer.write@POLYN202828.cibledummy_00157"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
@@ -183,6 +198,54 @@ var maDataBlocs = {
  , "sourcenoligne" : "[00192]"
  , "c3" : ["java.io.Writer.write@POLYN203421.cbuf" , "---java.io.Writer.write@POLYN202587" , "java.io.Writer.write@POLYN202587.cbuf"]
  , "c4" : "//QC-JAVCWZ099[00192] In java.io.Writer.write@POLYN203421[00192] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00225]"
+ , "c3" : ["java.io.Writer.append@POLYN205074.'null'" , "---java.io.Writer.write@POLYN202828" , "java.io.Writer.write@POLYN202828.str"]
+ , "c4" : "//QC-JAVCWZ099[00225] In java.io.Writer.append@POLYN205074[00225] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00157]"
+ , "c3" : ["java.io.Writer.write@POLYN202828.str" , "---java.io.Writer.write@POLYN201528" , "java.io.Writer.write@POLYN202828.cibledummy_00157"]
+ , "c4" : "//QC-JAVCWZ099[00157] In java.io.Writer.write@POLYN202828[00157] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,

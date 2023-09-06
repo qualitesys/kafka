@@ -855,7 +855,7 @@ var maDataBlocs = {
  , "c1" : "00480"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00480] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN257421|org.apache.kafka.streams.state.internals.BufferValue getBufferedN257793|byte[] buffered_priorValueN258074"
+ , "c3" : "QC-JAV000007[00480] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN257421|Change&lt;byte[]&gt; valueSerde_serializePartsN257650|org.apache.kafka.streams.state.internals.BufferValue getBufferedN257793|byte[] buffered_priorValueN258074"
 }} 
 ,
 { "ligne" : {"" : ""

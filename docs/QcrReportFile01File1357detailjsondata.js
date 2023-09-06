@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java 41 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java 42 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -178,6 +178,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -333,6 +340,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#160"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00160] For method resolveEffectiveTopicConfigs arguments Map&lt;String ,?  extends Object &gt;  staticNodeConfig|Map&lt;String ,?  extends Object &gt;  dynamicClusterConfigs|Map&lt;String ,?  extends Object &gt;  dynamicNodeConfigs|Map&lt;String ,?  extends Object &gt;  dynamicTopicConfigs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/KafkaConfigSchema.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00160] For method resolveEffectiveTopicConfigs list of called methods Object monObjet|org.apache.kafka.clients.admin.ConfigEntry resolveEffectiveTopicConfigN200487"
 }} 
 ,
 { "ligne" : {"" : ""

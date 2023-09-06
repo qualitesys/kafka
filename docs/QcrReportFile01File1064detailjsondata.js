@@ -486,7 +486,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN238106"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN237922"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -500,7 +500,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN237922"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN238106"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -508,13 +508,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.tags@POLYN238870"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#288"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN238106 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -529,6 +522,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#98"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.connect.runtime.ConnectMetrics.ConnectMetrics@POLYN228758 the MagicNumber/String 'Registering Connect metrics with JMX for worker '{}'' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00288"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectMetrics.java.html#288"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.connect.runtime.ConnectMetrics.MetricGroup.metricName@POLYN238106 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ]
 , 

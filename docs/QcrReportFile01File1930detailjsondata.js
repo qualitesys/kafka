@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 293 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 299 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -517,7 +517,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "93"
+ , "c4" : "98"
 }}
 ,
 { "ligne" : { "" : ""
@@ -531,7 +531,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "15"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -694,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00323"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#323"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00323] For method create list of called methods Object monObjet|java.lang.String String_formatN350882|org.slf4j.Logger logContext_loggerN351107|org.slf4j.Logger config_getClientTagsN351485|org.slf4j.Logger config_getRestoreConsumerConfigsN351677|org.slf4j.Logger config_getStringN353298|org.slf4j.Logger config_getMainConsumerConfigsN353444"
+ , "c3" : "QC-JAV000007[00323] For method create list of called methods Object monObjet|java.lang.String String_formatN350882|org.slf4j.Logger logContext_loggerN351107|java.util.Map&lt;java.lang.String,java.lang.String&gt; config_getClientTagsN351485|org.apache.kafka.streams.processor.internals.StreamThread config_getRestoreConsumerConfigsN351677|Consumer&lt;byte[],byte[]&gt; clientSupplier_getRestoreConsumerN351858|org.apache.kafka.streams.processor.internals.StreamThread config_getStringN353298|org.apache.kafka.streams.processor.internals.StreamThread config_getMainConsumerConfigsN353444|Consumer&lt;byte[],byte[]&gt; clientSupplier_getConsumerN354081"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1177,7 +1177,7 @@ var maDataBlocs = {
  , "c1" : "00731"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#731"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00731] For method runOnce list of called methods Object monObjet|long pollPhaseN368330|long advanceNowAndComputeLatencyN369651|int taskManager_punctuateN370307|long advanceNowAndComputeLatencyN370443|int maybeCommitN370938"
+ , "c3" : "QC-JAV000007[00731] For method runOnce list of called methods Object monObjet|long pollPhaseN368330|long advanceNowAndComputeLatencyN369651|long advanceNowAndComputeLatencyN370443|int maybeCommitN370938"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1940,6 +1940,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.create@POLYN350238"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.isRunning@POLYN347110"
 }} 
 ,
@@ -2578,6 +2585,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#245"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.streams.processor.internals.StreamThread.setState@POLYN345325 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00338"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#338"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00338] In the recursive method org.apache.kafka.streams.processor.internals.StreamThread.create@POLYN350238 the MagicNumber/String '-StreamThread-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00340"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#340"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00340] In the recursive method org.apache.kafka.streams.processor.internals.StreamThread.create@POLYN350238 the MagicNumber/String 'stream-thread [%s] ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00350] In the recursive method org.apache.kafka.streams.processor.internals.StreamThread.create@POLYN350238 the MagicNumber/String 'Creating restore consumer client' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00401"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#401"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00401] In the recursive method org.apache.kafka.streams.processor.internals.StreamThread.create@POLYN350238 the MagicNumber/String 'Creating consumer client' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#409"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.streams.processor.internals.StreamThread.create@POLYN350238 the MagicNumber/String 'none' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

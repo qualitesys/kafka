@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/Replicas.java 62 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/Replicas.java 65 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -173,6 +173,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -268,6 +275,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#82"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00082] For method validate list of called methods Object monObjet|int[] cloneN193424"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#83"
  , "c2" : "MAJOR"
@@ -328,6 +342,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method validateIsr arguments int[]  replicas|int[]  isr"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#104"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00104] For method validateIsr list of called methods Object monObjet|int[] cloneN194739|int[] cloneN194904"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -461,6 +482,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method contains arguments List&lt;Integer &gt;  a|int[]  b"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/Replicas.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method contains list of called methods Object monObjet|java.util.List&lt;java.lang.Integer&gt; Replicas_toListN197193"
 }} 
 ,
 { "ligne" : {"" : ""

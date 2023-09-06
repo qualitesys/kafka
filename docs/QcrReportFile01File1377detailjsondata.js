@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java 33 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java 43 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -135,7 +135,23 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -148,6 +164,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -170,6 +193,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -185,6 +215,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#66"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.metadata.util.SnapshotFileReader.SnapshotFileReader@POLYN180738 the MagicNumber/String  'snapshotReaderQueue_' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00070] For method startup list of called methods Object monObjet|org.apache.kafka.common.record.FileRecords FileRecords_openN181624"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -234,6 +271,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#119"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00119] For method handleControlBatch arguments FileChannelRecordBatch  batch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#119"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00119] For method handleControlBatch list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.common.record.Record&gt; batch_iteratorN183392"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -402,6 +446,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#197"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.metadata.util.SnapshotFileReader.close@POLYN186911 the MagicNumber/String  'closing' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.util.SnapshotFileReader.close@POLYN186911"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN183262"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.util.SnapshotFileReader.handleMetadataBatch@POLYN184696"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#197"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.metadata.util.SnapshotFileReader.close@POLYN186911 the MagicNumber/String 'closing' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN183262 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN183262 the MagicNumber/String 'Ignoring control record with type {} at offset {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.metadata.util.SnapshotFileReader.handleControlBatch@POLYN183262 the MagicNumber/String 'unable to read control record at offset {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/util/SnapshotFileReader.java.html#152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.metadata.util.SnapshotFileReader.handleMetadataBatch@POLYN184696 the MagicNumber/String 'unable to read metadata record at offset {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

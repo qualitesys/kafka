@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java 35 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -183,13 +183,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -247,13 +240,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#70"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00070] For method read arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN168472"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,13 +310,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#89"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00089] For method sizeOf arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN169865"
 }} 
 ,
 { "ligne" : {"" : ""

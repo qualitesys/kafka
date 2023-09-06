@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java 40 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java 57 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -216,12 +216,73 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.metadata.authorizer.StandardAuthorizer.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894.configs" }
+,
+{ "ligne" :  "R2:org.apache.kafka.metadata.authorizer.StandardAuthorizer.setAclMutator@POLYN181117.aclMutator" }
+]
+,
+"data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 (R0 in line [00159],R1 in line [00159])" }
+,
+{ "ligne" : "S0:org.apache.kafka.metadata.authorizer.StandardAuthorizer.getConfiguredSuperUsers@POLYN186152" }
+,
+{ "ligne" : "S0:java.util.Map.get@POLYN439139" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:org.apache.kafka.metadata.authorizer.StandardAuthorizer.setAclMutator@POLYN181117 (R0 in line [00067],R2 in line [00067])" }
+,
+{ "ligne" : "S1:org.apache.kafka.metadata.authorizer.StandardAuthorizerData.copyWithNewAclMutator@POLYN241621" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 (R0 in line [00159],R1 in line [00159])" }
+,
+{ "ligne" : "S2:org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 (R0 in line [00159],R1 in line [00159])" }
+,
+{ "ligne" : "S2:org.apache.kafka.metadata.authorizer.StandardAuthorizer.getConfiguredSuperUsers@POLYN186152" }
+,
+{ "ligne" : "S2:java.util.Map.get@POLYN439139" }
+ ]
+ } }
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -243,6 +304,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "11"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -395,6 +463,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#129"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00129] For method authorize list of called methods Object monObjet|AuthorizationResult curData_authorizeN184178"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#131"
  , "c2" : "CRITICAL"
@@ -446,6 +521,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00159] For method configure list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; getConfiguredSuperUsersN185041|AuthorizationResult getDefaultResultN185129"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#159"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00159] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -483,6 +565,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#181"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00181] For method getConfiguredSuperUsers arguments Map&lt;String ,? &gt;  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#181"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00181] For method getConfiguredSuperUsers list of called methods Object monObjet|java.lang.String value_trimN186794"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -532,6 +621,104 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#198"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.metadata.authorizer.StandardAuthorizer.getDefaultResult@POLYN187106 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.metadata.authorizer.StandardAuthorizer.this"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894.configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.metadata.authorizer.StandardAuthorizer.setAclMutator@POLYN181117.aclMutator"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.loadSnapshot@POLYN182626"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.aclCount@POLYN184575"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.acls@POLYN184414"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.addAcl@POLYN182278"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.defaultResult@POLYN186025"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.authorizer.StandardAuthorizer.removeAcl@POLYN182473"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#164"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 the MagicNumber/String 'node.id' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#166"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00169"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAuthorizer.java.html#169"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.metadata.authorizer.StandardAuthorizer.configure@POLYN184894 the MagicNumber/String 'set super.users={}, default result={}' MUST BE CONVERTED to const"
 }} 
 ]
 , 
