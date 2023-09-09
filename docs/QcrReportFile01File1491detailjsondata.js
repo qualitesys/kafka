@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.ServerSocket.java.html" 
- , "texte" : "File secujava/java.net.ServerSocket.java 116 rule violations " 
+ , "texte" : "File secujava/java.net.ServerSocket.java 90 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -317,69 +317,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1491Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=1"
  , "c2" : "1"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.net.ServerSocket.accept@POLYN329104.(SocketImpl)null" , "java.net.ServerSocket.implAccept@POLYN330050.cibledummy_00501"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1491Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=2"
- , "c2" : "2"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["50" , "java.net.ServerSocket.ServerSocket@POLYN320129.cibledummy_00220"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1491Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=3"
- , "c2" : "3"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.net.ServerSocket.getImpl@POLYN321212.return" , "java.net.ServerSocket.getImpl@POLYN321212.return"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1491Seq4.html#seq4"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=4"
- , "c2" : "4"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["0" , "java.net.ServerSocket.getReceiveBufferSize@POLYN340988.return"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ko"
- , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1491Seq5.html#seq5"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1491&numSeq=5"
- , "c2" : "5"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["true" , "java.net.ServerSocket.isClosed@POLYN333081.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -394,62 +334,6 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00468]"
- , "c3" : ["java.net.ServerSocket.accept@POLYN329104.(SocketImpl)null" , "---java.net.ServerSocket.accept@POLYN329104.dummymethode_00468" , "java.net.ServerSocket.accept@POLYN329104.s"]
- , "c4" : "//QC-JAVCWZ099[00468] In java.net.ServerSocket.accept@POLYN329104[00468] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00470]"
- , "c3" : ["java.net.ServerSocket.accept@POLYN329104.s" , "---java.net.ServerSocket.accept@POLYN329104.dummymethode_00470" , "java.net.ServerSocket.accept@POLYN329104.return"]
- , "c4" : "//QC-JAVCWZ099[00470] In java.net.ServerSocket.accept@POLYN329104[00470] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00501]"
- , "c3" : ["java.net.ServerSocket.accept@POLYN329104.return" , "---java.net.ServerSocket.accept@POLYN329104" , "java.net.ServerSocket.implAccept@POLYN330050.cibledummy_00501"]
- , "c4" : "//QC-JAVCWZ099[00501] In java.net.ServerSocket.implAccept@POLYN330050[00501] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
  , "sourcenoligne" : "[00218]"
  , "c3" : ["50" , "---java.net.ServerSocket.ServerSocket@POLYN320129.dummymethode_00218" , "java.net.ServerSocket.ServerSocket@POLYN320129.backlog"]
  , "c4" : "//QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN320129[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
@@ -459,152 +343,8 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00220]"
- , "c3" : ["java.net.ServerSocket.ServerSocket@POLYN320129.backlog" , "---java.net.ServerSocket.bind@POLYN323755" , "java.net.ServerSocket.ServerSocket@POLYN320129.cibledummy_00220"]
+ , "c3" : ["java.net.ServerSocket.ServerSocket@POLYN320129.backlog" , "---java.net.ServerSocket.ServerSocket@POLYN320129.dummymethode_00220" , "java.net.ServerSocket.ServerSocket@POLYN320129.cibledummy_00220"]
  , "c4" : "//QC-JAVCWE099[00220] In java.net.ServerSocket.ServerSocket@POLYN320129[00220] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00355]"
- , "c3" : ["java.net.ServerSocket.getImpl@POLYN321212.return" , "---java.net.ServerSocket.getImpl@POLYN321212" , "java.net.ServerSocket.bind@POLYN324594.cibledummy_00355"]
- , "c4" : "//QC-JAVCWZ099[00355] In java.net.ServerSocket.bind@POLYN324594[00355] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00241]"
- , "c3" : ["java.net.ServerSocket.impl" , "---java.net.ServerSocket.getImpl@POLYN321212.dummymethode_00241" , "java.net.ServerSocket.getImpl@POLYN321212.return"]
- , "c4" : "//QC-JAVCWZ099[00241] In java.net.ServerSocket.getImpl@POLYN321212[00241] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "4" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00812]"
- , "c3" : ["0" , "---java.net.ServerSocket.getReceiveBufferSize@POLYN340988.dummymethode_00812" , "java.net.ServerSocket.getReceiveBufferSize@POLYN340988.result"]
- , "c4" : "//QC-JAVCWE099[00812] In java.net.ServerSocket.getReceiveBufferSize@POLYN340988[00812] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00817]"
- , "c3" : ["java.net.ServerSocket.getReceiveBufferSize@POLYN340988.result" , "---java.net.ServerSocket.getReceiveBufferSize@POLYN340988.dummymethode_00817" , "java.net.ServerSocket.getReceiveBufferSize@POLYN340988.return"]
- , "c4" : "//QC-JAVCWE099[00817] In java.net.ServerSocket.getReceiveBufferSize@POLYN340988[00817] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ko"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ko"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "5" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00542]"
- , "c3" : ["true" , "---java.net.ServerSocket.close@POLYN331971.dummymethode_00542" , "java.net.ServerSocket.closed"]
- , "c4" : "//QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN331971[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00585]"
- , "c3" : ["java.net.ServerSocket.closed" , "---java.net.ServerSocket.isClosed@POLYN333081.dummymethode_00585" , "java.net.ServerSocket.isClosed@POLYN333081.return"]
- , "c4" : "//QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN333081[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
  , "c5" : "input"
 }}
 ,
@@ -645,33 +385,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:java.net.ServerSocket.this" }
-,
-{ "ligne" :  "R1:java.net.ServerSocket.closeLock" }
-,
-{ "ligne" :  "R2:java.net.ServerSocket.setSocketFactory@POLYN338407.fac" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE099"
  , "c3" : "Ressource injection"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -686,20 +405,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000005"
  , "c3" : "Empty method"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1360,188 +1065,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#218"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVCWE099[00218] In java.net.ServerSocket.ServerSocket@POLYN320129[00218] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00817"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#817"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00817] In java.net.ServerSocket.getReceiveBufferSize@POLYN340988[00817] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00812"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#812"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00812] In java.net.ServerSocket.getReceiveBufferSize@POLYN340988[00812] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00585"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00585] In java.net.ServerSocket.isClosed@POLYN333081[00585] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00542] In java.net.ServerSocket.close@POLYN331971[00542] source or target data Sockettainted (java.net.ServerSocket) RiskOnInput / RiskOnOutput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getSoTimeout@POLYN334294"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.close@POLYN331971"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.implAccept@POLYN330050 ending with method java.net.ServerSocket.accept@POLYN329104"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.implAccept@POLYN330050"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.accept@POLYN329104"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.accept@POLYN329104 ending with method java.net.ServerSocket.implAccept@POLYN330050"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.accept@POLYN329104"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.implAccept@POLYN330050"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.getReuseAddress@POLYN336510"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00621"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#621"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00621] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN334294 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00627"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#627"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00627] In the recursive method java.net.ServerSocket.getSoTimeout@POLYN334294 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00542] In the recursive method java.net.ServerSocket.close@POLYN331971 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00490"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#490"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00490] In the recursive method java.net.ServerSocket.implAccept@POLYN330050 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00492"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#492"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00492] In the recursive method java.net.ServerSocket.implAccept@POLYN330050 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#498"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00498] In the recursive method java.net.ServerSocket.implAccept@POLYN330050 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#504"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00504] In the recursive method java.net.ServerSocket.implAccept@POLYN330050 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method java.net.ServerSocket.implAccept@POLYN330050 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00514"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#514"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00514] In the recursive method java.net.ServerSocket.implAccept@POLYN330050 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00465"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#465"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00465] In the recursive method java.net.ServerSocket.accept@POLYN329104 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00467"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#467"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00467] In the recursive method java.net.ServerSocket.accept@POLYN329104 the MagicNumber/String 'Socket is not bound yet' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00468"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#468"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00468] In the recursive method java.net.ServerSocket.accept@POLYN329104 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00684"
- , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#684"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00684] In the recursive method java.net.ServerSocket.getReuseAddress@POLYN336510 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
 }} 
 ]
 , 

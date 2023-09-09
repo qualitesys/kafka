@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 51 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java 47 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -180,13 +180,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
  ] 
 ,
 "data13b" : [
@@ -209,13 +202,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#80"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00080] For method createAcls arguments List&lt;AclBinding &gt;  acls"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method createAcls list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAcl StandardAcl_fromAclBindingN195694"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,13 +275,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#103"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00103] For method newAclId list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN196602"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#111"
  , "c2" : "MINOR"
@@ -363,13 +342,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#161"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00161] For method deleteAclsForFilter arguments AclBindingFilter  filter|Set&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method deleteAclsForFilter list of called methods Object monObjet|org.apache.kafka.server.authorizer.AclDeleteResult acl_toBindingN199719"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -447,13 +419,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#186"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00186] For method replay arguments AccessControlEntryRecord  record|Optional&lt;OffsetAndEpoch &gt;  snapshotId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/AclControlManager.java.html#186"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00186] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAclWithId StandardAclWithId_fromRecordN200782"
 }} 
 ,
 { "ligne" : {"" : ""

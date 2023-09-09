@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java 21 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java 19 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -102,13 +102,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -131,13 +124,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#89"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00089] For method process arguments Record&lt;K ,Change&lt;V1 &gt; &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method process list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; valueGetter_getN183219|VR joiner_applyN183775|VR joiner_applyN184052"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -222,13 +208,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#155"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00155] For method get arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableKTableInnerJoin.java.html#155"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00155] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; valueGetter1_getN185467|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; valueGetter2_getN185755"
 }} 
 ,
 { "ligne" : {"" : ""

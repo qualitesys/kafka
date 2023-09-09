@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java 23 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -119,13 +119,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -235,24 +228,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00063"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#63"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00063] For method toBytes list of called methods Object monObjet|byte[] foreignKeySerializer_serializeN171823|byte[] primaryKeySerializer_serializeN171952"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#82"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00082] For method fromBytes arguments Bytes  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method fromBytes list of called methods Object monObjet|byte[] data_getN172678"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -281,13 +260,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#97"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00097] For method prefixBytes arguments KO  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/CombinedKeySchema.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method prefixBytes list of called methods Object monObjet|byte[] foreignKeySerializer_serializeN173881"
 }} 
 ]
 , 

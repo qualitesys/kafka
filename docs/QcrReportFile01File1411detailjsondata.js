@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 43 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftConfig.java 42 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -221,13 +221,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -306,13 +299,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#209"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00209] For method parseVoterConnections arguments List&lt;String &gt;  voterEntries"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftConfig.java.html#209"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method parseVoterConnections list of called methods Object monObjet|java.lang.String[] voterMapEntry_splitN195198|java.lang.Integer parseVoterIdN195499|java.lang.String Utils_getHostN195618|java.lang.Integer Utils_getPortN195986"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java 61 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java 57 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -99,35 +99,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -149,13 +126,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -259,13 +229,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#251"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00251] For method next list of called methods Object monObjet|int unfenced_nextN233550"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#253"
  , "c2" : "MAJOR"
@@ -333,13 +296,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#341"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00341] For method place arguments int  replicationFactor"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#341"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00341] For method place list of called methods Object monObjet|int rack_nextUnfencedN238160|int rack_nextN239280"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -571,20 +527,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#440"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.metadata.placement.StripedReplicaPlacer.place@POLYN241144 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack.next@POLYN233451"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/placement/StripedReplicaPlacer.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack.next@POLYN233451 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

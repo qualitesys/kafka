@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedOutputStream.java.html" 
- , "texte" : "File secujava/java.io.BufferedOutputStream.java 11 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedOutputStream.java 13 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -97,9 +97,70 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1450Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1450&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.BufferedOutputStream.write@POLYN171864.count" , "java.io.BufferedOutputStream.write@POLYN171864.count"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00128]"
+ , "c3" : ["java.io.BufferedOutputStream.write@POLYN171864.count" , "---java.io.BufferedOutputStream.write@POLYN171864.dummymethode_00128" , "java.io.BufferedOutputStream.write@POLYN171864.cibledummy_00128"]
+ , "c4" : "//QC-JAVCWE099[00128] In java.io.BufferedOutputStream.write@POLYN171864[00128] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00129]"
+ , "c3" : ["len" , "---java.io.BufferedOutputStream.write@POLYN171864.dummymethode_00129" , "java.io.BufferedOutputStream.write@POLYN171864.count"]
+ , "c4" : "//QC-JAVCWE099[00129] In java.io.BufferedOutputStream.write@POLYN171864[00129] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -109,6 +170,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE099"
+ , "c3" : "Ressource injection"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -207,6 +275,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#139"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00139] Lock statement on synchronized method flush"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00129] In java.io.BufferedOutputStream.write@POLYN171864[00129] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/secujava/java.io.BufferedOutputStream.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE099[00128] In java.io.BufferedOutputStream.write@POLYN171864[00128] target data PATHtainted (java.io.BufferedOutputStream.write) RiskOnOutput"
 }} 
 ]
 , 

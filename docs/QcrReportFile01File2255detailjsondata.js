@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java 28 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java 26 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -219,13 +219,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -304,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#196"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00196] For method newTaskWorker arguments String  id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#207"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00207] For method materializeTopics list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; expandTopicNameN203091|java.lang.String[] topicName_splitN203664"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,13 +395,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#237"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00237] For method expandTopicName arguments String  topicName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ConsumeBenchSpec.java.html#237"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00237] For method expandTopicName list of called methods Object monObjet|java.util.HashSet&lt;java.lang.String&gt; StringExpander_expandN204654"
 }} 
 ,
 { "ligne" : {"" : ""

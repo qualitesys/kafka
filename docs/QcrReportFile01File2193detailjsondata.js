@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java 228 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java 226 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -239,13 +239,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "15"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -275,13 +268,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#111"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00111] For method target arguments String  host|int  port"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#111"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00111] For method target list of called methods Object monObjet|java.lang.String String_formatN245252"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -688,13 +674,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#223"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00223] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00223"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorClient.java.html#223"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00223] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.rest.UptimeResponse client_uptimeN258139|org.apache.kafka.trogdor.rest.CoordinatorStatusResponse client_statusN259166|org.apache.kafka.trogdor.rest.TasksResponse client_tasksN263513"
 }} 
 ,
 { "ligne" : {"" : ""

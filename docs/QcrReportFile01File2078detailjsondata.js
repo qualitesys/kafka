@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java 46 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java 44 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -154,13 +154,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -174,13 +167,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00044] For method range arguments Bytes  from|Bytes  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method range list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN178989|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN179084"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -244,13 +230,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00060] For method reverseRange arguments Bytes  from|Bytes  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method reverseRange list of called methods Object monObjet|TreeMap&lt;Bytes,byte[]&gt; toTreeMapN180088|java.util.Iterator&lt;org.apache.kafka.common.utils.Bytes&gt; getIteratorN180183"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java 39 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -143,35 +143,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -433,48 +410,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#209"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.controller.BootstrapMetadata.write@POLYN190512 the MagicNumber/String  '. File already already exists.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.BootstrapMetadata.load@POLYN187793"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#160"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00160] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN187793 the MagicNumber/String 'Missing bootstrap file, this appears to be a KRaft cluster older than 3.3. Setting metadata.version to {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN187793 the MagicNumber/String 'Could not set fallback bootstrap metadata with non-KRaft metadata version of %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN187793 the MagicNumber/String 'Failed to load snapshot' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN187793 the MagicNumber/String ', but none was found' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BootstrapMetadata.java.html#194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00194] In the recursive method org.apache.kafka.controller.BootstrapMetadata.load@POLYN187793 the MagicNumber/String 'Expected a metadata.version to exist in the snapshot ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

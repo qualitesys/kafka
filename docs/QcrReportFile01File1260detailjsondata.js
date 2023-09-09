@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java 34 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -136,13 +136,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -231,13 +224,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method generateWriteJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN170538"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#79"
  , "c2" : "MAJOR"
@@ -305,13 +291,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#94"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.message.MetadataJsonConvertersGenerator.generateWriteJson@POLYN169918 the MagicNumber/String  '}%n' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MetadataJsonConvertersGenerator.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method generateReadJson list of called methods Object monObjet|java.lang.String MessageGenerator_capitalizeFirstN172204"
 }} 
 ,
 { "ligne" : {"" : ""

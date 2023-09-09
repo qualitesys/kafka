@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java 51 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java 44 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -170,15 +170,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -188,24 +179,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -227,13 +204,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
 }}
  ] 
 ,
@@ -271,13 +241,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method replay arguments RegisterBrokerRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration BrokerRegistration_fromRecordN177922"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -374,13 +337,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#94"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN179287"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00094"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#94"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00094] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -402,13 +358,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN179785"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#102"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00102] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -425,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#110"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00110] For method replay arguments BrokerRegistrationChangeRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration getBrokerOrThrowN180283|org.apache.kafka.metadata.BrokerRegistration curRegistration_cloneWithN181159"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -572,27 +514,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#110"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00110] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ClusterDelta.broker@POLYN176987"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN176987 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ClusterDelta.java.html#54"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00054] In the recursive method org.apache.kafka.image.ClusterDelta.broker@POLYN176987 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

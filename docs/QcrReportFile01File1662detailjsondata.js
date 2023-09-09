@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java 32 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java 29 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -171,13 +171,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -224,13 +217,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method ofInactivityGapAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN201385|long validateMillisecondDurationN201502|java.lang.String prepareMillisCheckFailMsgPrefixN201617|long validateMillisecondDurationN201734"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#133"
  , "c2" : "MAJOR"
@@ -259,13 +245,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#151"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00151] For method with list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN202359|long validateMillisecondDurationN202476"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#152"
  , "c2" : "MAJOR"
@@ -291,13 +270,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#173"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00173] For method grace arguments Duration  afterWindowEnd"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SessionWindows.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method grace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN203616|long validateMillisecondDurationN203733"
 }} 
 ,
 { "ligne" : {"" : ""

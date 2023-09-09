@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java 20 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -103,23 +103,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method init list of called methods Object monObjet|java.nio.ByteBuffer createBatchN174209|java.nio.ByteBuffer createBatchN174700"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#85"
@@ -209,13 +195,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#123"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00123] For method createBatch arguments int  batchSize"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/record/BaseRecordBatchBenchmark.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method createBatch list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecordsBuilder MemoryRecords_builderN176382"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java 24 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -85,23 +85,9 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "19"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00073] For method setUp list of called methods Object monObjet|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN174955|org.apache.kafka.common.Uuid Uuid_randomUuidN175032"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#84"
@@ -240,13 +226,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#102"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark.setUp@POLYN174592 the MagicNumber/String  200 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetchsession/FetchSessionBenchmark.java.html#111"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00111] For method incrementalFetchSessionBuild list of called methods Object monObjet|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN177571|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN177709"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java 21 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -138,13 +138,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
-}}
  ] 
 ,
 "data13b" : [
@@ -153,13 +146,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#51"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00051] For method get arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method get list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN181358"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -205,13 +191,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method range list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN182867"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#76"
  , "c2" : "MAJOR"
@@ -223,13 +202,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#87"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00087] For method reverseRange arguments K  from|K  to"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method reverseRange list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN184063"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -247,13 +219,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method all list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN186563"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#132"
  , "c2" : "MAJOR"
@@ -261,24 +226,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method reverseAll list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN187665"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#150"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.reverseAll@POLYN186901 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method approximateNumEntries list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN188106|long store_approximateNumEntriesN188394"
 }} 
 ,
 { "ligne" : {"" : ""

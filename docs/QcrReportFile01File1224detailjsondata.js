@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java 33 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -161,13 +161,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -204,13 +197,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#65"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00065] For method apply arguments R  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00065"
- , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/SetSchemaMetadata.java.html#65"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00065] For method apply list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.connect.source.SourceRecord&gt; schema_typeN182407"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java 107 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java 97 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -316,13 +316,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "15"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "10"
-}}
  ] 
 ,
 "data13b" : [
@@ -383,13 +376,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#202"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.InternalProcessorContext ProcessorContextUtils_asInternalProcessorContextN244495|java.lang.String ProcessorContextUtils_changelogForN244588"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#209"
  , "c2" : "MINOR"
@@ -397,24 +383,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#209"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.InternalProcessorContext ProcessorContextUtils_asInternalProcessorContextN244926|java.lang.String ProcessorContextUtils_changelogForN245019"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00215] For method init arguments StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00215"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#215"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00215] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl context_metricsN245399|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferSizeSensorN245473|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_suppressionBufferCountSensorN245632"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -471,13 +443,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00281] For method logValue arguments Bytes  key|BufferKey  bufferKey|BufferValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#281"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00281] For method logValue list of called methods Object monObjet|java.nio.ByteBuffer value_serializeN247783"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -562,13 +527,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00314] For method restoreBatch arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#314"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00314] For method restoreBatch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN249353|long computeRecordSizeN249907|boolean sortedMap_isEmptyN250128|boolean index_containsKeyN250529|boolean index_containsKeyN251971"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -700,13 +658,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00396"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00396] For method evictWhile list of called methods Object monObjet|long computeRecordSizeN254827"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00396"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#396"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00396] The argument predicate is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -810,13 +761,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00450"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#450"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00450] For method priorValueForBuffered list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN255732|byte[] internalPriorValueForBufferedN256008"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00469"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#469"
  , "c2" : "MINOR"
@@ -849,13 +793,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00480] For method put arguments long  time|Record&lt;K ,Change&lt;V &gt; &gt;  record|ProcessorRecordContext  recordContext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#480"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00480] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_wrapN257421|Change&lt;byte[]&gt; valueSerde_serializePartsN257650|org.apache.kafka.streams.state.internals.BufferValue getBufferedN257793|byte[] buffered_priorValueN258074"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -915,13 +852,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#513"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00513] For method cleanPut list of called methods Object monObjet|long computeRecordSizeN259585"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00519"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#519"
  , "c2" : "MAJOR"
@@ -947,13 +877,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00549] For method computeRecordSize arguments Bytes  key|BufferValue  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryTimeOrderedKeyValueBuffer.java.html#549"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00549] For method computeRecordSize list of called methods Object monObjet|long value_residentMemorySizeEstimateN260838"
 }} 
 ,
 { "ligne" : {"" : ""

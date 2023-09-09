@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java 18 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java 17 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -151,13 +151,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -180,13 +173,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#63"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.image.FeaturesDelta.replay@POLYN166693 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/FeaturesDelta.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method apply list of called methods Object monObjet|org.apache.kafka.image.FeaturesImage image_metadataVersionN169134"
 }} 
 ,
 { "ligne" : {"" : ""

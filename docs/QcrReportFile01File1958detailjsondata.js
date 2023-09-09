@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java 28 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java 26 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -119,13 +119,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -183,13 +176,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method readTaskIdFrom arguments DataInputStream  in|int  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method readTaskIdFrom list of called methods Object monObjet|int in_readIntN170204|int in_readIntN170286|int in_readIntN170475|java.lang.String namedTopologyBuilder_toStringN170889"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -267,13 +253,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html#89"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00089] For method readTaskIdFrom arguments ByteBuffer  buf|int  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/ConsumerProtocolUtils.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method readTaskIdFrom list of called methods Object monObjet|java.lang.String namedTopologyBuilder_toStringN173052"
 }} 
 ,
 { "ligne" : {"" : ""

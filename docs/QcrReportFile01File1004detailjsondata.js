@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html" 
- , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java 9 rule violations " 
+ , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java 6 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -108,30 +108,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -145,13 +122,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -160,13 +130,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#60"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00060] For method start arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method start list of called methods Object monObjet|java.lang.String parsedConfig_getStringN166372|java.util.List&lt;java.lang.String&gt; parsedConfig_getListN166489|java.lang.Integer parsedConfig_getIntN166846"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -202,20 +165,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#81"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN167127 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN167127"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN167127 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 
