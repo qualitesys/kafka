@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java 14 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -156,6 +156,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -178,6 +185,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#47"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00047] For method cacheKey arguments Bytes  key|long  segmentId"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00047] For method cacheKey list of called methods Object monObjet|byte[] key_getN162918"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -227,6 +241,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#72"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00072] For method compareSegmentedKeys arguments Bytes  cacheKey|Bytes  storeKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/SegmentedCacheFunction.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00072] For method compareSegmentedKeys list of called methods Object monObjet|long segmentIdN164288|int Long_compareN164522|byte[] cacheKey_getN164724|byte[] storeKey_getN164812"
 }} 
 ,
 { "ligne" : {"" : ""

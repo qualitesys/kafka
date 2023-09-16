@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java 14 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -156,6 +156,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -164,6 +171,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method startOn arguments Instant  start"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/UnlimitedWindows.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method startOn list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN168707|long ApiUtils_validateMillisecondInstantN168824"
 }} 
 ,
 { "ligne" : {"" : ""

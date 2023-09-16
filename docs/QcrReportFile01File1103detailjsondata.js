@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java 35 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -307,6 +307,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -423,6 +430,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#574"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00574] For method topicSettings list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN262959"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00577"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#577"
  , "c2" : "MAJOR"
@@ -448,6 +462,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#581"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00581] In method org.apache.kafka.connect.runtime.distributed.DistributedConfig.topicSettings@POLYN262823 the MagicNumber/String  'Ignoring '{}cleanup.policy={}' setting, since compaction is always used' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedConfig.java.html#606"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00606] For method ensureVerificationAlgorithmsIncludeSignatureAlgorithm list of called methods Object monObjet|java.lang.String getStringN264554|java.util.List&lt;java.lang.String&gt; getListN264663"
 }} 
 ,
 { "ligne" : {"" : ""

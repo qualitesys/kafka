@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java 57 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java 62 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -84,6 +84,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
+}}
  ] 
 ,
 "data13b" : [
@@ -144,6 +151,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00067"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#67"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00067] For method configure list of called methods Object monObjet|boolean upgradeFromV0N187691"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#71"
  , "c2" : "MINOR"
@@ -190,6 +204,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00103] For method serialize arguments String  ignored|SubscriptionWrapper&lt;K &gt;  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#103"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00103] For method serialize list of called methods Object monObjet|byte data_getVersionN189441"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -267,6 +288,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method serializeCommon arguments SubscriptionWrapper&lt;K &gt;  data|byte  version|int  extraLength"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method serializeCommon list of called methods Object monObjet|byte[] serializePrimaryKeyN190486|java.nio.ByteBuffer data_getHashN191456"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -356,6 +384,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00159] For method serializeV1 list of called methods Object monObjet|java.nio.ByteBuffer serializeCommonN192303"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00159"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#159"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00159] The argument data is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -386,6 +421,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#188"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00188] For method deserialize arguments String  ignored|byte[]  data"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionWrapperSerde.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00188] For method deserialize list of called methods Object monObjet|java.lang.Long buf_getLongN194661|java.lang.Long buf_getLongN194766"
 }} 
 ,
 { "ligne" : {"" : ""

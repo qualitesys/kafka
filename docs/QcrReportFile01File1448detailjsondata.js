@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java 30 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java 39 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -134,12 +134,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -154,6 +177,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "9"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -229,6 +259,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#71"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00071] For method createTempFile list of called methods Object monObjet|java.nio.file.Path snapshotDirN174216"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#77"
  , "c2" : "MAJOR"
@@ -247,6 +284,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00086] For method parse arguments Path  path"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00086"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#86"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00086] For method parse list of called methods Object monObjet|java.lang.String filename_toStringN175215|long Long_parseLongN175851|int Integer_parseIntN176010"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,6 +364,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#115"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00115] For method deleteIfExists list of called methods Object monObjet|java.nio.file.Path snapshotPathN176619|java.nio.file.Path deleteRenameN176729"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#121"
  , "c2" : "MAJOR"
@@ -355,6 +406,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#135"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00135] For method markForDelete list of called methods Object monObjet|java.nio.file.Path snapshotPathN177678|java.nio.file.Path deleteRenameN177788"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00139"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#139"
  , "c2" : "MAJOR"
@@ -366,6 +424,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#143"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.snapshot.Snapshots.markForDelete@POLYN177558 the MagicNumber/String  'Error renaming snapshot file from %s to %s.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN176495"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN176495 the MagicNumber/String 'Deleted snapshot files for snapshot {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN176495 the MagicNumber/String 'Did not delete snapshot files for snapshot {} since they did not exist.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN176495 the MagicNumber/String 'Error deleting snapshot files {} and {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/Snapshots.java.html#128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.snapshot.Snapshots.deleteIfExists@POLYN176495 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

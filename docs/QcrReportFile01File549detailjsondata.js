@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -167,6 +167,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -213,6 +220,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00081"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#81"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00081] For method estimateSizeInBytes list of called methods Object monObjet|int DefaultRecordBatch_sizeInBytesN176627"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#85"
  , "c2" : "MAJOR"
@@ -224,6 +238,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#95"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00095] For method estimateSizeInBytes arguments byte  magic|CompressionType  compressionType|Iterable&lt;SimpleRecord &gt;  records"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractRecords.java.html#95"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00095] For method estimateSizeInBytes list of called methods Object monObjet|int DefaultRecordBatch_sizeInBytesN177405"
 }} 
 ,
 { "ligne" : {"" : ""

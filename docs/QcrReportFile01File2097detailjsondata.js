@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java 90 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java 94 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -89,6 +89,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "31"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -339,10 +346,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#166"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00166] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN222431|java.lang.Long buffer_getLongN222554"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#173"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00173] For method from arguments Bytes  bytesKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00173] For method from list of called methods Object monObjet|byte[] bytesKey_getN222858|org.apache.kafka.streams.kstream.Window extractWindowN222940"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -577,6 +598,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#305"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00305] For method extractWindow list of called methods Object monObjet|java.lang.Long buffer_getLongN230608|java.lang.Long buffer_getLongN230739"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#308"
  , "c2" : "MAJOR"
@@ -609,6 +637,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#318"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00318] For method from arguments Bytes  bytesKey"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00318"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PrefixedSessionKeySchemas.java.html#318"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00318] For method from list of called methods Object monObjet|byte[] bytesKey_getN231569|org.apache.kafka.streams.kstream.Window extractWindowN231651"
 }} 
 ,
 { "ligne" : {"" : ""

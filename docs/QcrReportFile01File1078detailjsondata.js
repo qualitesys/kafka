@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java 44 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java 46 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -226,6 +226,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -234,6 +241,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#117"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00117] For method get arguments String  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#127"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00127] For method configDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef.Range ConfigDef_Range_atLeastN207542"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -325,6 +339,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00219] For method enrich arguments ConfigDef  baseConfigDef|Map&lt;String ,String &gt;  props|AbstractConfig  defaultGroupConfig"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/SourceConnectorConfig.java.html#219"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00219] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN211375|java.lang.Short defaultGroupConfig_getShortN211941|java.lang.Integer defaultGroupConfig_getIntN212059"
 }} 
 ,
 { "ligne" : {"" : ""

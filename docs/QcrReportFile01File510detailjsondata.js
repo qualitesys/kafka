@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java 53 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java 66 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -243,12 +243,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "7"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "9"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -270,6 +293,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "12"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
 }}
  ] 
 ,
@@ -459,6 +489,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#300"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00300] For method createClientCallbackHandler list of called methods Object monObjet|java.lang.Class&lt;? extends AuthenticateCallbackHandler&gt; clientCallbackHandlerClassN232879"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#300"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00300] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -482,6 +519,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#309"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00309] For method createServerCallbackHandlers arguments Map&lt;String ,? &gt;  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00309"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#309"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00309] For method createServerCallbackHandlers list of called methods Object monObjet|java.lang.String ListenerName_saslMechanismPrefixN233356"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -543,6 +587,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#330"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00330] For method createConnectionsMaxReauthMsMap list of called methods Object monObjet|java.lang.String ListenerName_saslMechanismPrefixN234762"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00330"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#330"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00330] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -597,6 +648,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00363"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#363"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00363] For method maybeAddNativeGssapiCredentials list of called methods Object monObjet|boolean Boolean_getBooleanN236126|java.lang.String SaslClientAuthenticator_firstPrincipalN236367|java.lang.String kerberosName_serviceNameN236755|java.lang.String kerberosName_hostNameN236837"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00366"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#366"
  , "c2" : "CRITICAL"
@@ -643,6 +701,69 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#402"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00402] For method subject arguments String  saslMechanism"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SaslChannelBuilder.buildChannel@POLYN227943"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN236031"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00237"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#237"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.buildChannel@POLYN227943 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00239"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#239"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.buildChannel@POLYN227943 the MagicNumber/String 'Failed to create channel due to ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00375"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#375"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00375] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN236031 the MagicNumber/String 'Principal has name with unexpected format ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00384"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#384"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00384] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN236031 the MagicNumber/String '1.2.840.113554.1.2.2' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00385"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#385"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00385] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN236031 the MagicNumber/String '@' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00389"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00389] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN236031 the MagicNumber/String 'Configured native GSSAPI private credentials for {}@{}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00391"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/SaslChannelBuilder.java.html#391"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00391] In the recursive method org.apache.kafka.common.network.SaslChannelBuilder.maybeAddNativeGssapiCredentials@POLYN236031 the MagicNumber/String 'Cannot add private credential to subject; clients authentication may fail' MUST BE CONVERTED to const"
 }} 
 ]
 , 

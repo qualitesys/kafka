@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java 2 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -97,14 +97,35 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#38"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00038] For method taskTopicPartitions list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; getListN159968"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#40"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.mirror.MirrorTaskConfig.taskTopicPartitions@POLYN159870 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorTaskConfig.java.html#48"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00048] For method taskConsumerGroups list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; getListN160482"
 }} 
 ,
 { "ligne" : {"" : ""

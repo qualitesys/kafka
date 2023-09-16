@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java 35 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -155,9 +155,23 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#128"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00128] For method setup list of called methods Object monObjet|KafkaApis createKafkaApisN200880|RequestChannel.Request buildAllTopicMetadataRequestN200946"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#138"
@@ -345,6 +359,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#198"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.jmh.metadata.MetadataRequestBenchmark.createKafkaApis@POLYN203468 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00209"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/metadata/MetadataRequestBenchmark.java.html#209"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00209] For method buildAllTopicMetadataRequest list of called methods Object monObjet|java.nio.ByteBuffer metadataRequest_serializeN205627"
 }} 
 ,
 { "ligne" : {"" : ""

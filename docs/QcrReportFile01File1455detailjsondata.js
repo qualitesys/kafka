@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.FileOutputStream.java.html" 
- , "texte" : "File secujava/java.io.FileOutputStream.java 31 rule violations " 
+ , "texte" : "File secujava/java.io.FileOutputStream.java 35 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -207,7 +207,31 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:java.io.FileOutputStream.closeLock" }
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAVCWE481"
@@ -453,6 +477,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#397"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00397] In method java.io.FileOutputStream.finalize@POLYN247106 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.FileOutputStream.close@POLYN244440"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00313] In the recursive method java.io.FileOutputStream.close@POLYN244440 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00316"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#316"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00316] In the recursive method java.io.FileOutputStream.close@POLYN244440 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/secujava/java.io.FileOutputStream.java.html#335"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00335] In the recursive method java.io.FileOutputStream.close@POLYN244440 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

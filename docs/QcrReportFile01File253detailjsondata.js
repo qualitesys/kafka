@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/Cluster.java 55 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/Cluster.java 56 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -365,6 +365,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "13"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -576,6 +583,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#253"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00253] For method nodeIfOnline arguments TopicPartition  partition|int  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00253"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/Cluster.java.html#253"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00253] For method nodeIfOnline list of called methods Object monObjet|org.apache.kafka.common.Node nodeByIdN231155"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java 165 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java 168 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -225,6 +225,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -657,6 +664,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00197"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#197"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00197] For method generateEnumValues list of called methods Object monObjet|java.lang.String apiData_nameN221233"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#200"
  , "c2" : "MAJOR"
@@ -843,6 +857,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#252"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.message.ApiMessageTypeGenerator.generateEnumConstructor@POLYN223309 the MagicNumber/String  '}%n' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00255"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#255"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00255] For method generateFromApiKey list of called methods Object monObjet|java.lang.String apiData_nameN224722"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1053,6 +1074,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#324"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00324] For method generateHeaderVersion arguments String  type"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00324"
+ , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/ApiMessageTypeGenerator.java.html#324"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00324] For method generateHeaderVersion list of called methods Object monObjet|java.lang.String apiData_nameN228982"
 }} 
 ,
 { "ligne" : {"" : ""

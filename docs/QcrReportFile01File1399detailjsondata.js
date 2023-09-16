@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 393 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java 523 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -990,6 +990,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -999,10 +1008,31 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "70"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "52"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1031,6 +1061,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "94"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "38"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1274,6 +1311,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00458"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#458"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00458] For method onBecomeCandidate list of called methods Object monObjet|org.apache.kafka.raft.CandidateState quorum_candidateStateOrThrowN552411"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00466"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#466"
  , "c2" : "MINOR"
@@ -1348,6 +1392,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#538"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00538] For method handleVoteRequest arguments RaftRequest.Inbound  requestMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00538"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#538"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00538] For method handleVoteRequest list of called methods Object monObjet|java.util.Optional&lt;Errors&gt; validateVoterOnlyRequestN556692|boolean quorum_canGrantVoteN557256"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1432,6 +1483,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#584"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00584] For method handleVoteResponse arguments RaftResponse.Inbound  responseMetadata|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00584"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#584"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00584] For method handleVoteResponse list of called methods Object monObjet|java.util.OptionalInt optionalLeaderIdN559012|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN559218|org.apache.kafka.raft.CandidateState quorum_candidateStateOrThrowN559848"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1554,6 +1612,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00654"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#654"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00654] For method strictExponentialElectionBackoffMs list of called methods Object monObjet|int raftConfig_electionBackoffMaxMsN561892"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00655"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#655"
  , "c2" : "MAJOR"
@@ -1610,6 +1675,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00683"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#683"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00683] For method handleBeginQuorumEpochRequest list of called methods Object monObjet|java.util.Optional&lt;Errors&gt; validateVoterOnlyRequestN563916"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00684"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#684"
  , "c2" : "CRITICAL"
@@ -1635,6 +1707,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#713"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00713] For method handleBeginQuorumEpochResponse arguments RaftResponse.Inbound  responseMetadata|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00713"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#713"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00713] For method handleBeginQuorumEpochResponse list of called methods Object monObjet|java.util.OptionalInt optionalLeaderIdN565425|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN565631"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1701,6 +1780,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00772"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#772"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00772] For method handleEndQuorumEpochRequest list of called methods Object monObjet|java.util.Optional&lt;Errors&gt; validateVoterOnlyRequestN568205|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN568686|long endEpochElectionBackoffN568952"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00773"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#773"
  , "c2" : "CRITICAL"
@@ -1745,6 +1831,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00813"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#813"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00813] For method endEpochElectionBackoff list of called methods Object monObjet|int preferredSuccessors_indexOfN569470"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00813"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#813"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00813] The argument preferredSuccessors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1768,6 +1861,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#826"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00826] For method handleEndQuorumEpochResponse arguments RaftResponse.Inbound  responseMetadata|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00826"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#826"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00826] For method handleEndQuorumEpochResponse list of called methods Object monObjet|java.util.OptionalInt optionalLeaderIdN570770|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN570976|org.apache.kafka.raft.ResignedState quorum_resignedStateOrThrowN571331"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1873,6 +1973,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#930"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00930] For method handleFetchRequest arguments RaftRequest.Inbound  requestMetadata|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00930"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#930"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00930] For method handleFetchRequest list of called methods Object monObjet|FetchResponseData tryCompleteFetchRequestN575789"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2041,6 +2148,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1040"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01040] For method handleFetchResponse arguments RaftResponse.Inbound  responseMetadata|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01040"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1040"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01040] For method handleFetchResponse list of called methods Object monObjet|java.util.OptionalInt optionalLeaderIdN581376|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN581698|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN581977|boolean log_truncateToEndOffsetN582844|org.apache.kafka.common.record.Records FetchResponse_recordsOrFailN584319"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2233,6 +2347,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01147"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1147"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01147] For method appendAsLeader list of called methods Object monObjet|org.apache.kafka.raft.LogAppendInfo log_appendAsLeaderN585775"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01152"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1152"
  , "c2" : "MAJOR"
@@ -2272,6 +2393,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1197"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01197] For method handleFetchSnapshotRequest arguments RaftRequest.Inbound  requestMetadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01197"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1197"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01197] For method handleFetchSnapshotRequest list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotRequestData.PartitionSnapshot&gt; FetchSnapshotRequest_forTopicPartitionN588856|java.util.Optional&lt;Errors&gt; validateLeaderOnlyRequestN589708|FetchSnapshotResponseData log_readSnapshotN590356|long snapshot_sizeInBytesN590848|FetchSnapshotResponseData snapshot_sliceN591885"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2356,6 +2484,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1297"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01297] For method handleFetchSnapshotResponse arguments RaftResponse.Inbound  responseMetadata|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01297"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1297"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01297] For method handleFetchSnapshotResponse list of called methods Object monObjet|java.util.Optional&lt;FetchSnapshotResponseData.PartitionSnapshot&gt; FetchSnapshotResponse_forTopicPartitionN593385|java.util.OptionalInt optionalLeaderIdN593809|java.util.Optional&lt;java.lang.Boolean&gt; maybeHandleCommonResponseN594131|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN594410"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2676,6 +2811,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01540"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1540"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01540] For method handleResponse list of called methods Object monObjet|boolean handleFetchResponseN603700|boolean handleVoteResponseN603856|boolean handleBeginQuorumEpochResponseN604012|boolean handleEndQuorumEpochResponseN604168|boolean handleFetchSnapshotResponseN604324|org.apache.kafka.raft.RequestManager.ConnectionState requestManager_getOrCreateN604560"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01540"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1540"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01540] The argument response is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2725,6 +2867,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01616"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1616"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01616] For method handleRequest list of called methods Object monObjet|java.util.concurrent.CompletableFuture&lt;FetchResponseData&gt; handleFetchRequestN607102|org.apache.kafka.common.protocol.ApiMessage RaftUtil_errorResponseN608503"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01616"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1616"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01616] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2758,6 +2907,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01663"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1663"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01663] For method handleInboundMessage list of called methods Object monObjet|org.apache.kafka.raft.RequestManager.ConnectionState requestManager_getOrCreateN609619"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01664"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1664"
  , "c2" : "MAJOR"
@@ -2783,6 +2939,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1685"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01685] For method maybeSendRequest arguments long  currentTimeMs|int  destinationId|Supplier&lt;ApiMessage &gt;  requestSupplier"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01685"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1685"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01685] For method maybeSendRequest list of called methods Object monObjet|org.apache.kafka.raft.RequestManager.ConnectionState requestManager_getOrCreateN610370|long connection_remainingBackoffMsN610554|int channel_newCorrelationIdN610891|org.apache.kafka.common.protocol.ApiMessage RaftUtil_errorResponseN611610"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2835,6 +2998,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01746"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1746"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01746] For method maybeSendRequests list of called methods Object monObjet|long maybeSendRequestN612951"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01782"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1782"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01782] For method buildFetchRequest list of called methods Object monObjet|FetchRequestData RaftUtil_singletonFetchRequestN613931"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01796"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1796"
  , "c2" : "MINOR"
@@ -2842,10 +3019,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01796"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1796"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01796] For method maybeSendAnyVoterFetch list of called methods Object monObjet|java.util.OptionalInt requestManager_findReadyVoterN614633"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01809"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1809"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01809] For method buildFetchSnapshotRequest arguments OffsetAndEpoch  snapshotId|long  snapshotSize"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01809"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1809"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01809] For method buildFetchSnapshotRequest list of called methods Object monObjet|FetchSnapshotRequestData FetchSnapshotRequest_singletonN615314"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2975,6 +3166,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01903"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1903"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01903] For method pollResigned list of called methods Object monObjet|org.apache.kafka.raft.ResignedState quorum_resignedStateOrThrowN619603|long maybeSendRequestsN619680|long shutdown_remainingTimeMsN620085|long state_remainingElectionTimeMsN620385"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01913"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1913"
  , "c2" : "MAJOR"
@@ -2993,6 +3191,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1927"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01927] For method pollLeader arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01927"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1927"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01927] For method pollLeader list of called methods Object monObjet|long maybeAppendBatchesN621070|long maybeSendRequestsN621180"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3031,6 +3236,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01965"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1965"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01965] For method pollCandidate list of called methods Object monObjet|org.apache.kafka.raft.CandidateState quorum_candidateStateOrThrowN621867|long maybeSendVoteRequestsN622104|int binaryExponentialElectionBackoffMsN622819|long maybeSendVoteRequestsN623167"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01969"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1969"
  , "c2" : "MAJOR"
@@ -3066,10 +3278,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01996"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1996"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[01996] For method pollFollower list of called methods Object monObjet|org.apache.kafka.raft.FollowerState quorum_followerStateOrThrowN623488"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02005"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2005"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02005] For method pollFollowerAsVoter arguments FollowerState  state|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02005"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2005"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02005] For method pollFollowerAsVoter list of called methods Object monObjet|long maybeSendFetchOrFetchSnapshotN624401"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3117,6 +3343,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02022"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2022"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02022] For method pollFollowerAsObserver list of called methods Object monObjet|org.apache.kafka.raft.RequestManager.ConnectionState requestManager_getOrCreateN624954|long maybeSendAnyVoterFetchN625155|long maybeSendAnyVoterFetchN625380|long maybeSendFetchOrFetchSnapshotN625484"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02022"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2022"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02022] The argument state is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3131,6 +3364,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02045"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2045"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02045] For method maybeSendFetchOrFetchSnapshot list of called methods Object monObjet|long snapshot_sizeInBytesN626076"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02045"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2045"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02045] The argument state is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3140,6 +3380,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2060"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02060] For method pollVoted arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02060"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2060"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02060] For method pollVoted list of called methods Object monObjet|org.apache.kafka.raft.VotedState quorum_votedStateOrThrowN626596"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3161,6 +3408,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2076"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02076] For method pollUnattached arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02076"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2076"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02076] For method pollUnattached list of called methods Object monObjet|org.apache.kafka.raft.UnattachedState quorum_unattachedStateOrThrowN627241"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3196,6 +3450,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2099"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02099] For method pollUnattachedAsObserver arguments UnattachedState  state|long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02099"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2099"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02099] For method pollUnattachedAsObserver list of called methods Object monObjet|long maybeSendAnyVoterFetchN628274"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3245,6 +3506,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2139"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02139] For method processRegistration arguments Registration&lt;T &gt;  registration"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02139"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2139"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02139] For method processRegistration list of called methods Object monObjet|Listener&lt;T&gt; registration_listenerN630115|org.apache.kafka.raft.KafkaRaftClient.Registration.Ops registration_opsN630200"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3374,6 +3642,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02229"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2229"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02229] For method poll list of called methods Object monObjet|long pollCurrentStateN633994|long snapshotCleaner_maybeCleanN634082|org.apache.kafka.raft.RaftMessage messageQueue_pollN634367"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02248"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2248"
  , "c2" : "MAJOR"
@@ -3416,6 +3691,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02263"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2263"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02263] For method append list of called methods Object monObjet|org.apache.kafka.raft.internals.BatchAccumulator&lt;T&gt; leaderState_accumulatorN635657|boolean accumulator_isEmptyN635734|long accumulator_appendAtomicN635893|long accumulator_appendN636027"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02265"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2265"
  , "c2" : "MAJOR"
@@ -3441,6 +3723,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2298"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02298] For method resign arguments int  epoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02298"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2298"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02298] For method resign list of called methods Object monObjet|int leaderAndEpoch_epochN637327"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3619,6 +3908,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "02481"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2481"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02481] For method nextExpectedOffset list of called methods Object monObjet|java.util.OptionalLong lastSent_lastOffsetN643833"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "02482"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2482"
  , "c2" : "MAJOR"
@@ -3775,6 +4071,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02593"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2593"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[02593] For method onClose list of called methods Object monObjet|java.util.OptionalLong reader_lastOffsetN648234"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02593"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2593"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02593] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3791,6 +4094,650 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2601"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02601] In method org.apache.kafka.raft.KafkaRaftClient.ListenerContext.onClose@POLYN648118 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.raft.KafkaRaftClient.pollListeners@POLYN629453 ending with method org.apache.kafka.raft.KafkaRaftClient.poll@POLYN633703"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.raft.KafkaRaftClient.pollListeners@POLYN629453"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.raft.KafkaRaftClient.poll@POLYN633703"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.maybeAppendBatches@POLYN618334"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.pollCandidate@POLYN621768"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.pollVoted@POLYN626497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.pollUnattachedAsVoter@POLYN627557"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.poll@POLYN633703"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.tryCompleteFetchRequest@POLYN577728"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.appendAsFollower@POLYN585068"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.onBecomeLeader@POLYN550766"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.raft.KafkaRaftClient.poll@POLYN633703 ending with method org.apache.kafka.raft.KafkaRaftClient.pollListeners@POLYN629453"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.raft.KafkaRaftClient.poll@POLYN633703"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.raft.KafkaRaftClient.pollListeners@POLYN629453"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.initialize@POLYN548817"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN585676"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.RaftMetadataLogCleanerManager.RaftMetadataLogCleanerManager@POLYN632234"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.KafkaRaftClient.leaderAndEpoch@POLYN550257"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02124"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02124] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollListeners@POLYN629453 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02126"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02126] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollListeners@POLYN629453 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02248"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02248] In the recursive method org.apache.kafka.raft.KafkaRaftClient.poll@POLYN633703 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01883"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1883"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01883] In the recursive method org.apache.kafka.raft.KafkaRaftClient.maybeAppendBatches@POLYN618334 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01969"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1969"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01969] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollCandidate@POLYN621768 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01979"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1979"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01979] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollCandidate@POLYN621768 the MagicNumber/String 'Re-elect as candidate after election backoff has completed' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01981"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1981"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01981] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollCandidate@POLYN621768 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01986"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1986"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01986] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollCandidate@POLYN621768 the MagicNumber/String 'Election has timed out, backing off for {}ms before becoming a candidate again' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02064"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2064"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02064] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollVoted@POLYN626497 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02070"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2070"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02070] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollVoted@POLYN626497 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02087"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02087] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollUnattachedAsVoter@POLYN627557 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "02093"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#2093"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[02093] In the recursive method org.apache.kafka.raft.KafkaRaftClient.pollUnattachedAsVoter@POLYN627557 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01025"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1025"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01025] In the recursive method org.apache.kafka.raft.KafkaRaftClient.tryCompleteFetchRequest@POLYN577728 the MagicNumber/String 'Caught unexpected error in fetch completion of request {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01051"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1051"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01051] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01054"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1054"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01054] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01057"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01057] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01057"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1057"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01057] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01073"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1073"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01073] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01080"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1080"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01080] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 'The leader requested truncation to offset ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01081"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1081"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01081] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String ', which is below the current high watermark' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01082"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1082"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01082] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String ' ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01087"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1087"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01087] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 'Truncated to offset {} from Fetch response from leader {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01088"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1088"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01088] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01089"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1089"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01089] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01092"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1092"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01092] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01094"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1094"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01094] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 'The leader sent a snapshot id with a valid end offset {} but with an invalid epoch {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01098"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01098] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01099"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1099"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01099] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01101"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01101] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 'The leader sent a snapshot id with a valid epoch {} but with an invalid end offset {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01105"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01105] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01119"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01119] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01123] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01129"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1129"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01129] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchResponse@POLYN580213 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01139"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01139] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsFollower@POLYN585068 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01142"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1142"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01142] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsFollower@POLYN585068 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01144"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1144"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01144] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsFollower@POLYN585068 the MagicNumber/String 'Follower end offset updated to {} after append' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00596"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#596"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00600"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00600] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00600"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00600] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00612"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#612"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00612] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String 'Ignoring vote response {} since we already became leader for epoch {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00626"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#626"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00626] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String 'Insufficient remaining votes to become leader -rejected by {}-. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00627"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#627"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00627] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String 'We will backoff before retrying election again' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00636"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#636"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00636] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String 'Ignoring vote response {} since we are no longer a candidate in epoch {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00639"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#639"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00639] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleVoteResponse@POLYN557963 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01307"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1307"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01307"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1307"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01307"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1307"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01308"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1308"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01308] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01314"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1314"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01314] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01333"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1333"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01333] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01334"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1334"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01334] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01340"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1340"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01340] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 'Leader doesn't know about snapshot id {}, returned error {} and snapshot id {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01347"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1347"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01347] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01360"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1360"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01360] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 'Received unexpected fetch snapshot response: %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01367"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1367"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01367] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 'Received fetch snapshot response with an invalid id. Expected %s; Received %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01376"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1376"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01376] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 'Received fetch snapshot response with an invalid position. Expected %d; Received %d' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01389"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1389"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01389] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 'Received unexpected fetch snapshot response: %s' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01403"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1403"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01403] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String 'Full log truncation expected but didn't happen. Snapshot of %s, log end offset %s, last fetched %d' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01413"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1413"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01413] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotResponse@POLYN592558 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00368"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#368"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00368] In the recursive method org.apache.kafka.raft.KafkaRaftClient.initialize@POLYN548817 the MagicNumber/String 'Voter cannot initialize as a Leader' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01152"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1152"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01152] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN585676 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01154"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1154"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01154] In the recursive method org.apache.kafka.raft.KafkaRaftClient.appendAsLeader@POLYN585676 the MagicNumber/String 'Leader appended records at base offset {}, new end offset is {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01206"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01206] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01206"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01206] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01206"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1206"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01206] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01215"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01215] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01216"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01216] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01216"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01216] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01253"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1253"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01253] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01264"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/KafkaRaftClient.java.html#1264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01264] In the recursive method org.apache.kafka.raft.KafkaRaftClient.handleFetchSnapshotRequest@POLYN588062 the MagicNumber/String 'Trying to fetch a snapshot with size -%d- and a position -%d- larger than %d' MUST BE CONVERTED to const"
 }} 
 ]
 , 

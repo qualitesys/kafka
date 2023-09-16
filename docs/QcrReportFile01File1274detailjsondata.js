@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java 22 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -103,9 +103,23 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "18"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00080"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#80"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00080] For method setup list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords MemoryRecords_withRecordsN177221|org.apache.kafka.common.Uuid Uuid_randomUuidN178708|org.apache.kafka.common.requests.FetchResponse FetchResponse_ofN179811"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#90"
@@ -247,6 +261,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#110"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00110] For method testConstructFetchResponse list of called methods Object monObjet|org.apache.kafka.common.requests.FetchResponse FetchResponse_ofN180146"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#111"
  , "c2" : "MAJOR"
@@ -258,6 +279,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#111"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.jmh.common.FetchResponseBenchmark.testConstructFetchResponse@POLYN180069 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchResponseBenchmark.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00121] For method testSerializeFetchResponse list of called methods Object monObjet|org.apache.kafka.common.network.Send fetchResponse_toSendN180739"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java 96 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java 100 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,6 +190,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -289,6 +296,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#240"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00240] For method get arguments String  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#252"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00252] For method errorToleranceType list of called methods Object monObjet|java.lang.String getStringN263657"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -546,6 +560,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00409] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN271724|org.apache.kafka.common.config.ConfigDef populateConfigDefN274074"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00409"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00409] The argument newDef is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -747,6 +768,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00451"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#451"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00451] For method populateConfigDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef initialConfigDefN274654"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#461"
  , "c2" : "MAJOR"
@@ -765,6 +793,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00488] For method getConfigDefFromConfigProvidingClass arguments String  key|Class&lt;? &gt;  cls"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00488"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00488] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN277255|org.apache.kafka.common.config.ConfigDef configN278124"
 }} 
 ,
 { "ligne" : {"" : ""

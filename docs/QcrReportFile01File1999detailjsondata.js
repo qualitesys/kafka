@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java 19 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java 21 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -153,6 +153,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -161,6 +168,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#54"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00054] For method buildFromEndpoint arguments String  endPoint"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00054"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#54"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00054] For method buildFromEndpoint list of called methods Object monObjet|java.lang.String getHostN166712|java.lang.Integer getPortN166805"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -238,6 +252,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#83"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.streams.state.HostInfo.equals@POLYN167473 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00091"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/HostInfo.java.html#91"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00091] For method hashCode list of called methods Object monObjet|int host_hashCodeN168149"
 }} 
 ,
 { "ligne" : {"" : ""

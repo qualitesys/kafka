@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.Writer.java.html" 
- , "texte" : "File secujava/java.io.Writer.java 28 rule violations " 
+ , "texte" : "File secujava/java.io.Writer.java 26 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["writeBuffer" , "java.io.Writer.write@POLYN203421.cibledummy_00191"]
+ , "c5" : ["java.io.Writer.writeBuffer" , "java.io.Writer.write@POLYN202587.cbuf"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -173,16 +173,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00187]"
- , "c3" : ["writeBuffer" , "---java.io.Writer.write@POLYN203421.dummymethode_00187" , "java.io.Writer.write@POLYN203421.cbuf"]
- , "c4" : "//QC-JAVCWE099[00187] In java.io.Writer.write@POLYN203421[00187] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c3" : ["java.io.Writer.writeBuffer" , "---java.io.Writer.write@POLYN203421.dummymethode_00187" , "java.io.Writer.write@POLYN203421.cbuf"]
+ , "c4" : "//QC-JAVCWZ099[00187] In java.io.Writer.write@POLYN203421[00187] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00191]"
- , "c3" : ["java.io.Writer.write@POLYN203421.cbuf" , "---java.io.Writer.write@POLYN203421.dummymethode_00191" , "java.io.Writer.write@POLYN203421.cibledummy_00191"]
- , "c4" : "//QC-JAVCWE099[00191] In java.io.Writer.write@POLYN203421[00191] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "sourcenoligne" : "[00192]"
+ , "c3" : ["java.io.Writer.write@POLYN203421.cbuf" , "---java.io.Writer.write@POLYN202587" , "java.io.Writer.write@POLYN202587.cbuf"]
+ , "c4" : "//QC-JAVCWZ099[00192] In java.io.Writer.write@POLYN203421[00192] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
@@ -224,13 +224,6 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE099"
- , "c3" : "Ressource injection"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -441,20 +434,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.Writer.java.html#292"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00292] For method append arguments char  c"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00191] In java.io.Writer.write@POLYN203421[00191] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00187"
- , "c1link" : "./qc/secujava/java.io.Writer.java.html#187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00187] In java.io.Writer.write@POLYN203421[00187] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
 }} 
 ]
 , 

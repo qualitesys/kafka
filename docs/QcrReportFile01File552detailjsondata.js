@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java 19 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -139,6 +139,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -152,6 +159,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00042] For method updateEstimation arguments String  topic|CompressionType  type|float  observedRatio"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00042"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#42"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00042] For method updateEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN166717"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -178,6 +192,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00058] For method estimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN167659"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#58"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00058] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -187,6 +208,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00066] For method resetEstimation arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#66"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00066] For method resetEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN167950"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,6 +241,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00085] For method setEstimation list of called methods Object monObjet|float[] getAndCreateEstimationIfAbsentN168669"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#85"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00085] The argument type is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -229,6 +264,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00092] For method getAndCreateEstimationIfAbsent arguments String  topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00092"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/CompressionRatioEstimator.java.html#92"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00092] For method getAndCreateEstimationIfAbsent list of called methods Object monObjet|float[] initialCompressionRatioN169154"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java 8 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -76,6 +76,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -84,6 +91,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method expand arguments String  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/StringExpander.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00034] For method expand list of called methods Object monObjet|int Integer_parseIntN159511|int Integer_parseIntN159607"
 }} 
 ,
 { "ligne" : {"" : ""

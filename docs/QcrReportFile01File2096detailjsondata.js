@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java 19 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -108,6 +108,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -179,6 +186,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#62"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00062] For method serialize arguments Position  position"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/PositionSerde.java.html#62"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00062] For method serialize list of called methods Object monObjet|byte[] topic_getBytesN170153|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN170506|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN171582"
 }} 
 ,
 { "ligne" : {"" : ""

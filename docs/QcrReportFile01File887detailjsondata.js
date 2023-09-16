@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java 25 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java 27 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -128,6 +128,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -185,6 +192,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00100] For method unmapJava7Or8 arguments MethodHandles.Lookup  lookup"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00100] For method unmapJava7Or8 list of called methods Object monObjet|java.lang.Class&lt;?&gt; Class_forNameN174809|java.lang.reflect.Method directBufferClass_getMethodN174907"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -248,6 +262,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00125] For method unmapJava9 arguments MethodHandles.Lookup  lookup"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ByteBufferUnmapper.java.html#125"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00125] For method unmapJava9 list of called methods Object monObjet|java.lang.Class&lt;?&gt; Class_forNameN176494|java.lang.reflect.Field unsafeClass_getDeclaredFieldN176801"
 }} 
 ,
 { "ligne" : {"" : ""

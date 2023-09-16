@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java 57 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -165,6 +165,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "7"
+}}
  ] 
 ,
 "data13b" : [
@@ -173,6 +180,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method findSessions arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00046] For method findSessions list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN187337"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -232,6 +246,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#74"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00074] For method backwardFindSessions list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN188637"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#81"
  , "c2" : "MAJOR"
@@ -288,6 +309,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#100"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00100] For method findSessions list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN189870"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#107"
  , "c2" : "MAJOR"
@@ -337,6 +365,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#127"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00127] For method backwardFindSessions list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN191125"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#134"
  , "c2" : "MAJOR"
@@ -383,6 +418,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#154"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00154] For method fetchSession arguments K  key|long  earliestSessionEndTime|long  latestSessionStartTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00154"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#154"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00154] For method fetchSession list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN192389"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -439,6 +481,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#173"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00173] For method fetch arguments K  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#173"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00173] For method fetch list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN193343"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -502,6 +551,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#195"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00195] For method backwardFetch arguments K  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00195"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlySessionStore.java.html#195"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00195] For method backwardFetch list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.streams.state.StoreBuilder&lt;?&gt;&gt; storeProvider_storesN194587"
 }} 
 ,
 { "ligne" : {"" : ""

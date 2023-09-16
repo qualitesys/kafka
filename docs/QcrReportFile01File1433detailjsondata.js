@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java 61 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java 112 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -153,12 +153,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "48"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -602,6 +625,363 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#181"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00181] For method maybeUpdateElectionLatency arguments long  currentTimeMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.KafkaRaftMetrics.updateAppendRecords@POLYN193453"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.KafkaRaftMetrics.updateFetchedRecords@POLYN193587"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00060] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String '-metrics' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00065"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#65"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00065] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00066"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#66"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00066] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 0L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The current state of this member; possible values are leader, candidate, voted, follower, unattached' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'current-state' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'leader' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#73"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'candidate' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00075] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'voted' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00077"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#77"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00077] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'follower' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00079"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#79"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'unattached' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00082"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#82"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00082] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#84"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The current quorum leader's id; -1 indicates unknown' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00084"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#84"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00084] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'current-leader' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00085"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#85"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#87"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The current voted leader's id; -1 indicates not voted for anyone' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00087"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#87"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'current-vote' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00094] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The current quorum epoch.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00098"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#98"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'current-epoch' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The high watermark maintained on this member; -1 if it is unknown' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'high-watermark' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 1L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The current raft log end offset.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#104"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'log-end-offset' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The current raft log end epoch.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'log-end-epoch' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The number of voter connections recognized at this member.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#110"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'number-unknown-voter-connections' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00113"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#113"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'commit-latency' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'commit-latency-avg' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The average time in milliseconds to commit an entry in the raft log.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#116"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'commit-latency-max' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00117"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#117"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The maximum time in milliseconds to commit an entry in the raft log.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'election-latency' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'election-latency-avg' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The average time in milliseconds to elect a new leader.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00122"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#122"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'election-latency-max' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The maximum time in milliseconds to elect a new leader.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00125"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#125"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'fetch-records' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#126"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'fetch-records-rate' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The average number of records fetched from the leader of the raft quorum.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00130"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#130"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'append-records' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00131] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'append-records-rate' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#132"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00132] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The average number of records appended per sec as the leader of the raft quorum.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00135"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#135"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00135] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'poll-idle-ratio' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00136] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'poll-idle-ratio-avg' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00138"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/KafkaRaftMetrics.java.html#138"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.raft.internals.KafkaRaftMetrics.KafkaRaftMetrics@POLYN185807 the MagicNumber/String 'The average fraction of time the client's poll-- is idle as opposed to waiting for the user code to process records.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

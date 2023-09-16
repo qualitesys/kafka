@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html" 
- , "texte" : "File log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java 64 rule violations " 
+ , "texte" : "File log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java 68 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -531,12 +531,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -551,6 +574,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "26"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -714,6 +744,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#272"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00272] For method setSslEngineFactoryClass arguments String  sslEngineFactoryClass"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#277"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00277] For method activateOptions list of called methods Object monObjet|Producer&lt;byte[],byte[]&gt; getKafkaProducerN210681"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -943,6 +980,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00349"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#349"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00349] For method append list of called methods Object monObjet|java.lang.String subAppendN211241"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00349"
+ , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#349"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00349] The argument event is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1001,6 +1045,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#379"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.requiresLayout@POLYN212666 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.log4jappender.KafkaLog4jAppender.close@POLYN212414"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00372"
+ , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#372"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00372] In the recursive method org.apache.kafka.log4jappender.KafkaLog4jAppender.close@POLYN212414 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java 29 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -99,12 +99,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -126,6 +149,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -273,6 +303,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#97"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00097] For method find list of called methods Object monObjet|boolean path_equalsN168516"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#97"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00097] The argument writer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -331,6 +368,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#119"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.shell.FindCommandHandler.equals@POLYN169028 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.FindCommandHandler.find@POLYN168008"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.shell.FindCommandHandler.find@POLYN168008 the MagicNumber/String '/' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/FindCommandHandler.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.shell.FindCommandHandler.find@POLYN168008 the MagicNumber/String '/' MUST BE CONVERTED to const"
 }} 
 ]
 , 

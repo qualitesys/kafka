@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Long.java.html" 
- , "texte" : "File secujava/java.lang.Long.java 229 rule violations " 
+ , "texte" : "File secujava/java.lang.Long.java 252 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -414,12 +414,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "12"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -441,6 +464,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "30"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -817,6 +847,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00400"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#400"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00400] For method parseLong list of called methods Object monObjet|int s_lengthN429935|char s_charAtN430221|int Character_digitN431027"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00403"
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#403"
  , "c2" : "MAJOR"
@@ -1003,6 +1040,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#623"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00623] For method decode arguments String  nm"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#623"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00623] For method decode list of called methods Object monObjet|char nm_charAtN438611"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1213,6 +1257,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#875"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00875] For method getLong arguments String  nm|long  val"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00875"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#875"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00875] For method getLong list of called methods Object monObjet|java.lang.Long Long_getLongN446974"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2046,6 +2097,146 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Long.java.html#1194"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01194] In method java.lang.Long.reverseBytes@POLYN462928 the MagicNumber/String  48 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.bitCount@POLYN457741"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.byteValue@POLYN441863"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.doubleValue@POLYN442791"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.floatValue@POLYN442606"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.hashCode@POLYN443671"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.intValue@POLYN442233"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.longValue@POLYN442421"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Long.shortValue@POLYN442048"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01097"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01097] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 0x5555555555555555L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01097"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1097"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01097] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01098"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01098] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 0x3333333333333333L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01098"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01098] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 0x3333333333333333L MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01098"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1098"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01098] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01099"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1099"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01099] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 0x0f0f0f0f0f0f0f0fL MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01099"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1099"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01099] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 4 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01100"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01100] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 8 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01101"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01101] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 16 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01102"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01102] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 32 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01103"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#1103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01103] In the recursive method java.lang.Long.bitCount@POLYN457741 the MagicNumber/String 0x7f MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00780"
+ , "c1link" : "./qc/secujava/java.lang.Long.java.html#780"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00780] In the recursive method java.lang.Long.hashCode@POLYN443671 the MagicNumber/String 32 MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -125,6 +125,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -140,6 +147,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#47"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00047] For method handle arguments Callback[]  callbacks"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00047"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#47"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00047] For method handle list of called methods Object monObjet|boolean authenticateN162500"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -189,6 +203,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#61"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00061] For method authenticate arguments String  username|char[]  password"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainServerCallbackHandler.java.html#61"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00061] For method authenticate list of called methods Object monObjet|java.lang.String JaasContext_configEntryOptionN163006"
 }} 
 ,
 { "ligne" : {"" : ""

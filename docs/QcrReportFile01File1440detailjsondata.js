@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java 23 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java 24 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -174,6 +174,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -329,6 +336,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#174"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00174] For method create arguments Path  logDir|OffsetAndEpoch  snapshotId|Optional&lt;ReplicatedLog &gt;  replicatedLog"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/snapshot/FileRawSnapshotWriter.java.html#174"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00174] For method create list of called methods Object monObjet|java.nio.file.Path Snapshots_createTempFileN175813"
 }} 
 ,
 { "ligne" : {"" : ""

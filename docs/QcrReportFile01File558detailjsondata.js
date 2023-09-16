@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 95 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 107 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -486,12 +486,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -520,6 +543,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "22"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -637,6 +667,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00279"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#279"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00279] For method compressedIterator list of called methods Object monObjet|java.io.DataInputStream recordInputStreamN273452"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#311"
  , "c2" : "MAJOR"
@@ -704,6 +741,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#375"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00375] For method setMaxTimestamp arguments TimestampType  timestampType|long  maxTimestamp"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00375"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#375"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00375] For method setMaxTimestamp list of called methods Object monObjet|byte computeAttributesN277752|long computeChecksumN278162"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -830,6 +874,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#463"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00463] For method writeHeader arguments ByteBuffer  buffer|long  baseOffset|int  lastOffsetDelta|int  sizeInBytes|byte  magic|CompressionType  compressionType|TimestampType  timestampType|long  baseTimestamp|long  maxTimestamp|long  producerId|short  epoch|int  sequence|boolean  isTransactional|boolean  isControlBatch|boolean  isDeleteHorizonSet|int  partitionLeaderEpoch|int  numRecords"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00463"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#463"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00463] For method writeHeader list of called methods Object monObjet|byte computeAttributesN282586|long Crc32C_computeN284241"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -968,6 +1019,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00513] For method sizeInBytes list of called methods Object monObjet|int record_timestampN286163|int record_timestampN286240|int DefaultRecord_sizeInBytesN286336"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00513"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00513] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1005,6 +1063,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00532] For method sizeInBytes arguments Iterable&lt;SimpleRecord &gt;  records"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00532"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00532] For method sizeInBytes list of called methods Object monObjet|int record_timestampN287289|int record_timestampN287366|int DefaultRecord_sizeInBytesN287462"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1187,6 +1252,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#676"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00676] For method toMemoryRecordBatch arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.attributes@POLYN279052"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN272123"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN272581"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN271957"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00252"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#252"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.hasDeleteHorizonMs@POLYN272123 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isControlBatch@POLYN272581 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.common.record.DefaultRecordBatch.isTransactional@POLYN271957 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

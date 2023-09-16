@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java 55 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java 56 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -114,6 +114,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -270,6 +277,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#219"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00219] For method assertWindowSettings arguments WindowBytesStoreSupplier  supplier|JoinWindows  joinWindows"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00219"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamImplJoin.java.html#219"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00219] For method assertWindowSettings list of called methods Object monObjet|long supplier_retentionPeriodN225382"
 }} 
 ,
 { "ligne" : {"" : ""

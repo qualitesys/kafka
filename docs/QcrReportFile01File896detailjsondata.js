@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java 4 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -89,6 +89,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -98,9 +107,23 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
  , "c4" : "2"
 }}
  ] 
@@ -114,10 +137,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#56"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00056] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN166801"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00070] For method compute arguments ByteBuffer  buffer|int  offset|int  size"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00070] For method compute list of called methods Object monObjet|java.util.zip.Checksum createN167395"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -132,6 +169,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#70"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00070] Public method compute is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Crc32C.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.Crc32C.Java9ChecksumFactory.create@POLYN168375"
 }} 
 ]
 , 

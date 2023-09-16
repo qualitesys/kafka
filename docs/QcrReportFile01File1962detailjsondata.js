@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java 76 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java 79 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -181,6 +181,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -280,6 +287,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00129] For method assignStandbyReplicaTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTasks|AssignmentConfigs  configs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00129"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#129"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00129] For method assignStandbyReplicaTasks list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor StandbyTaskAssignorFactory_createN194320"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -530,6 +544,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00188] For method shouldMoveATask list of called methods Object monObjet|double sourceClientState_assignedTaskLoadN197144"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#188"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00188] The argument sourceClientState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -588,6 +609,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00210] For method assignStatelessActiveTasks arguments TreeMap&lt;UUID ,ClientState &gt;  clientStates|Iterable&lt;TaskId &gt;  statelessTasks"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00210"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/HighAvailabilityTaskAssignor.java.html#210"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00210] For method assignStatelessActiveTasks list of called methods Object monObjet|java.util.UUID statelessActiveTaskClientsByTaskLoad_pollN198545"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java 6 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -81,11 +81,34 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -145,6 +168,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#73"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00073] The argument code is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.rest.RestExceptionMapper.toResponse@POLYN164431"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#36"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00036] In the recursive method org.apache.kafka.trogdor.rest.RestExceptionMapper.toResponse@POLYN164431 the MagicNumber/String 'Uncaught exception in REST call: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00038"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/RestExceptionMapper.java.html#38"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00038] In the recursive method org.apache.kafka.trogdor.rest.RestExceptionMapper.toResponse@POLYN164431 the MagicNumber/String 'Uncaught exception in REST call: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

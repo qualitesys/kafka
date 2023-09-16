@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java 2 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -85,6 +85,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -93,6 +100,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00034] For method hitRatioSensor arguments StreamsMetricsImpl  streamsMetrics|String  threadId|String  taskName|String  storeName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/metrics/NamedCacheMetrics.java.html#34"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00034] For method hitRatioSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor streamsMetrics_cacheLevelSensorN157564"
 }} 
 ,
 { "ligne" : {"" : ""

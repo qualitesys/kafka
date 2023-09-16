@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java 53 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java 56 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -161,6 +161,15 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -174,6 +183,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -195,6 +211,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -260,6 +283,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#127"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00127] For method latestUsableVersion arguments ApiKeys  apiKey|short  oldestAllowedVersion|short  latestAllowedVersion"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#127"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00127] For method latestUsableVersion list of called methods Object monObjet|java.util.Optional&lt;ApiVersion&gt; ApiVersionsResponse_intersectN195264"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -419,6 +449,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00192] For method apiVersionToText list of called methods Object monObjet|short Utils_minN200300"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#192"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00192] The argument apiVersion is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -568,6 +605,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#232"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00232] Public method allSupportedApiVersions is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NodeApiVersions.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.NodeApiVersions.create@POLYN192977"
 }} 
 ]
 , 

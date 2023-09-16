@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java 34 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -177,6 +177,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -185,6 +192,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method requestTimeout arguments long  requestTimeoutMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00069"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#69"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00069] For method listLoggers list of called methods Object monObjet|java.util.Enumeration&lt;Logger&gt; currentLoggersN185871|Logger rootLoggerN186317"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -206,6 +220,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#94"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00094] For method getLogger arguments String  namedLogger"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#94"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00094] For method getLogger list of called methods Object monObjet|Logger rootLoggerN187311|java.util.Enumeration&lt;Logger&gt; currentLoggersN187420"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -262,6 +283,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method setLevel arguments String  namedLogger|Map&lt;String ,String &gt;  levelMap"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method setLevel list of called methods Object monObjet|Logger lookupLoggerN189779|java.util.Enumeration&lt;Logger&gt; currentLoggersN189888"
 }} 
 ,
 { "ligne" : {"" : ""

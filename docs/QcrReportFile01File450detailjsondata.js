@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java 40 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -99,12 +99,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "15"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -415,6 +438,132 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#166"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.toString@POLYN177521 the MagicNumber/String  ' buffers}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN174865"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN173065"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN174865 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN174865 the MagicNumber/String 'Reclaimed buffer of size {} and identity {} that was not properly release--ed. This is a bug.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00108"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#108"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN174865 the MagicNumber/String 'interrupted' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00112"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#112"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.GarbageCollectionListener.run@POLYN174865 the MagicNumber/String 'GC listener shutting down' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00068"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#68"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String ' was never allocated by this pool' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String 'returned buffer ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String ' but recorded as ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String ' has capacity ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00074"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#74"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String 'buffer ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#76"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00076] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReleased@POLYN173745 the MagicNumber/String 'released buffer of size {} and identity {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00056] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN173065 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#59"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN173065 the MagicNumber/String ' already registered as in use?!' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00059"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#59"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00059] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN173065 the MagicNumber/String 'allocated buffer identity ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/GarbageCollectedMemoryPool.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00061] In the recursive method org.apache.kafka.common.memory.GarbageCollectedMemoryPool.bufferToBeReturned@POLYN173065 the MagicNumber/String 'allocated buffer of size {} and identity {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

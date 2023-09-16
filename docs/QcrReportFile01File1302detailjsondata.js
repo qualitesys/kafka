@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 67 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java 68 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -189,6 +189,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -274,6 +281,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#126"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00126] For method update arguments Uuid  topicId|int  partitionId|int[]  prevIsr|int[]  nextIsr|int  prevLeader|int  nextLeader"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00126"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/BrokersToIsrs.java.html#126"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00126] For method update list of called methods Object monObjet|int[] Replicas_copyWithN204506|int[] Replicas_cloneN204766|int[] Replicas_copyWithN205190|int[] Replicas_cloneN205450"
 }} 
 ,
 { "ligne" : {"" : ""

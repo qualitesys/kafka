@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java 11 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java 12 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -102,6 +102,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -138,6 +145,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00055"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamSinkNode.java.html#55"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00055] For method writeToTopology list of called methods Object monObjet|org.apache.kafka.common.serialization.Serde&lt;K&gt; producedInternal_keySerdeN163794|org.apache.kafka.common.serialization.Serde&lt;V&gt; producedInternal_valueSerdeN164007|java.lang.String[] parentNodeNamesN164205|org.apache.kafka.streams.processor.StreamPartitioner&lt;? super K,? super V&gt; producedInternal_streamPartitionerN164725"
 }} 
 ,
 { "ligne" : {"" : ""

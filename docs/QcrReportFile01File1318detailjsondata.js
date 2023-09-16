@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java 14 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -110,6 +110,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -118,6 +125,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method generateNextProducerId arguments int  brokerId|long  brokerEpoch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ProducerIdControlManager.java.html#46"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00046] For method generateNextProducerId list of called methods Object monObjet|long block_nextBlockFirstIdN165769"
 }} 
 ,
 { "ligne" : {"" : ""

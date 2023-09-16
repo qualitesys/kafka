@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java 8 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -88,9 +88,23 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00041"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#41"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00041] For method nextBatch list of called methods Object monObjet|java.lang.Integer nextBatchSizeN163763"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/ByteBufferLogInputStream.java.html#45"

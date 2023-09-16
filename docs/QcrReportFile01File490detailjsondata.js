@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -147,6 +147,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -162,6 +169,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method writeTo arguments TransferableChannel  channel"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ByteBufferSend.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00057] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN160509"
 }} 
 ,
 { "ligne" : {"" : ""

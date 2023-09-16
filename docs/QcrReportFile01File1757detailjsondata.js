@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java 2 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -95,6 +95,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -103,6 +110,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#51"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00051] For method apply arguments K  key|V  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00051"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/PrintForeachAction.java.html#51"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00051] For method apply list of called methods Object monObjet|java.lang.String String_formatN161496"
 }} 
 ,
 { "ligne" : {"" : ""

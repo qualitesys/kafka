@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/org.springframework.http.ResponseEntity.java.html" 
- , "texte" : "File secujava/org.springframework.http.ResponseEntity.java 44 rule violations " 
+ , "texte" : "File secujava/org.springframework.http.ResponseEntity.java 75 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -214,9 +214,662 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["org.springframework.http.ResponseEntity.accepted@POLYN251307.HttpStatus.ACCEPTED" , "org.springframework.http.ResponseEntity.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["org.springframework.http.ResponseEntity.badRequest@POLYN251778.HttpStatus.BAD_REQUEST" , "org.springframework.http.ResponseEntity.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq3.html#seq3"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=3"
+ , "c2" : "3"
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["org.springframework.http.ResponseEntity.noContent@POLYN251550.HttpStatus.NO_CONTENT" , "org.springframework.http.ResponseEntity.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq4.html#seq4"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=4"
+ , "c2" : "4"
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["org.springframework.http.ResponseEntity.notFound@POLYN252021.HttpStatus.NOT_FOUND" , "org.springframework.http.ResponseEntity.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq5.html#seq5"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=5"
+ , "c2" : "5"
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "org.springframework.http.ResponseEntity.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq6.html#seq6"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=6"
+ , "c2" : "6"
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq7.html#seq7"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=7"
+ , "c2" : "7"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq8.html#seq8"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=8"
+ , "c2" : "8"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1507Seq9.html#seq9"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1507&numSeq=9"
+ , "c2" : "9"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00273]"
+ , "c3" : ["org.springframework.http.ResponseEntity.accepted@POLYN251307.HttpStatus.ACCEPTED" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.status@POLYN249104.status"]
+ , "c4" : "//QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN251307[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.ok@POLYN249709.return"]
+ , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.status" , "---org.springframework.http.ResponseEntity.status@POLYN249104.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00240]"
+ , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN249709.return" , "---org.springframework.http.ResponseEntity.ok@POLYN249709" , "org.springframework.http.ResponseEntity.return"]
+ , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00291]"
+ , "c3" : ["org.springframework.http.ResponseEntity.badRequest@POLYN251778.HttpStatus.BAD_REQUEST" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.status@POLYN249104.status"]
+ , "c4" : "//QC-JAVCWE080[00291] In org.springframework.http.ResponseEntity.badRequest@POLYN251778[00291] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.ok@POLYN249709.return"]
+ , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.status" , "---org.springframework.http.ResponseEntity.status@POLYN249104.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00240]"
+ , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN249709.return" , "---org.springframework.http.ResponseEntity.ok@POLYN249709" , "org.springframework.http.ResponseEntity.return"]
+ , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "3" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00282]"
+ , "c3" : ["org.springframework.http.ResponseEntity.noContent@POLYN251550.HttpStatus.NO_CONTENT" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.status@POLYN249104.status"]
+ , "c4" : "//QC-JAVCWE080[00282] In org.springframework.http.ResponseEntity.noContent@POLYN251550[00282] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.ok@POLYN249709.return"]
+ , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.status" , "---org.springframework.http.ResponseEntity.status@POLYN249104.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00240]"
+ , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN249709.return" , "---org.springframework.http.ResponseEntity.ok@POLYN249709" , "org.springframework.http.ResponseEntity.return"]
+ , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00300]"
+ , "c3" : ["org.springframework.http.ResponseEntity.notFound@POLYN252021.HttpStatus.NOT_FOUND" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.status@POLYN249104.status"]
+ , "c4" : "//QC-JAVCWE080[00300] In org.springframework.http.ResponseEntity.notFound@POLYN252021[00300] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.ok@POLYN249709.return"]
+ , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.status" , "---org.springframework.http.ResponseEntity.status@POLYN249104.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00240]"
+ , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN249709.return" , "---org.springframework.http.ResponseEntity.ok@POLYN249709" , "org.springframework.http.ResponseEntity.return"]
+ , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "5" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.ok@POLYN249709.return"]
+ , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.status" , "---org.springframework.http.ResponseEntity.status@POLYN249104.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00310]"
+ , "c3" : ["org.springframework.http.ResponseEntity.unprocessableEntity@POLYN252255.HttpStatus.UNPROCESSABLE_ENTITY" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.status@POLYN249104.status"]
+ , "c4" : "//QC-JAVCWE080[00310] In org.springframework.http.ResponseEntity.unprocessableEntity@POLYN252255[00310] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00240]"
+ , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN249709.return" , "---org.springframework.http.ResponseEntity.ok@POLYN249709" , "org.springframework.http.ResponseEntity.return"]
+ , "c4" : "//QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "6" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00273]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.return" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.accepted@POLYN251307.return"]
+ , "c4" : "//QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN251307[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00230]"
+ , "c3" : ["org.springframework.http.ResponseEntity.ok@POLYN249709.HttpStatus.OK" , "---org.springframework.http.ResponseEntity.status@POLYN249104" , "org.springframework.http.ResponseEntity.status@POLYN249104.status"]
+ , "c4" : "//QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00211]"
+ , "c3" : ["org.springframework.http.ResponseEntity.status@POLYN249104.status" , "---org.springframework.http.ResponseEntity.status@POLYN249104.dummymethode_00211" , "org.springframework.http.ResponseEntity.status@POLYN249104.return"]
+ , "c4" : "//QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "7" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00508]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "---org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836.dummymethode_00508" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836.return"]
+ , "c4" : "//QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00578]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.body" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "8" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00508]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "---org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836.dummymethode_00508" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836.return"]
+ , "c4" : "//QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00578]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.headers" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "9" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00508]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this" , "---org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836.dummymethode_00508" , "org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836.return"]
+ , "c4" : "//QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00578]"
+ , "c3" : ["org.springframework.http.ResponseEntity.DefaultBuilder.this.statusCode" , "---org.springframework.http.ResponseEntity.DefaultBuilder.dummymethode_00578" , "org.springframework.http.ResponseEntity.DefaultBuilder.this"]
+ , "c4" : "//QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -225,12 +878,35 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE080"
+ , "c3" : "Basic XSS HTML Tag in Web page"
+ , "c4" : "29"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -555,6 +1231,223 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#573"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00573] In method org.springframework.http.ResponseEntity.DefaultBuilder the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN251307[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00291"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#291"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00291] In org.springframework.http.ResponseEntity.badRequest@POLYN251778[00291] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00282"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#282"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00282] In org.springframework.http.ResponseEntity.noContent@POLYN251550[00282] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#300"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00300] In org.springframework.http.ResponseEntity.notFound@POLYN252021[00300] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00240"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#240"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00240] In org.springframework.http.ResponseEntity[00240] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00310] In org.springframework.http.ResponseEntity.unprocessableEntity@POLYN252255[00310] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00211"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#211"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00211] In org.springframework.http.ResponseEntity.status@POLYN249104[00211] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00230"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#230"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00230] In org.springframework.http.ResponseEntity.ok@POLYN249709[00230] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00273"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00273] In org.springframework.http.ResponseEntity.accepted@POLYN251307[00273] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00578"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00578"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00578"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00578] In org.springframework.http.ResponseEntity.DefaultBuilder[00578] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00508"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#508"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE080[00508] In org.springframework.http.ResponseEntity.DefaultBuilder.allow@POLYN257836[00508] source data Http/HTML tainted (org.springframework.http.ResponseEntity) RiskOnInput"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.springframework.http.ResponseEntity.getStatusCode@POLYN246289"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.springframework.http.ResponseEntity.getStatusCodeValue@POLYN246697"
 }} 
 ]
 , 

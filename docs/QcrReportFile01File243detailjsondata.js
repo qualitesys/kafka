@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java 33 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -171,12 +171,54 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.clients.producer.internals.ProducerMetadata.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN172929.topic" }
+,
+{ "ligne" :  "R2:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN172929.nowMs" }
+,
+{ "ligne" :  "R3:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN174972.lastVersion" }
+,
+{ "ligne" :  "R4:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN174972.timeoutMs" }
+,
+{ "ligne" :  "R5:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.requestVersion" }
+,
+{ "ligne" :  "R6:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.response" }
+,
+{ "ligne" :  "R7:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.isPartialUpdate" }
+,
+{ "ligne" :  "R8:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.nowMs" }
+,
+{ "ligne" :  "R9:org.apache.kafka.clients.producer.internals.ProducerMetadata.fatalError@POLYN176361.fatalException" }
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -431,6 +473,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#154"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00154] Lock statement on synchronized method close"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00100"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#100"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00103"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#103"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079 the MagicNumber/String 'Removing unused topic {} from the metadata list, expiryMs {} now {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/ProducerMetadata.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.clients.producer.internals.ProducerMetadata.retainTopic@POLYN174079 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

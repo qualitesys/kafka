@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java 35 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -208,6 +208,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "5"
+}}
  ] 
 ,
 "data13b" : [
@@ -254,6 +261,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#123"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00123] For method ofTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN210420|long validateMillisecondDurationN210537|java.lang.String prepareMillisCheckFailMsgPrefixN210652|long validateMillisecondDurationN210769"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#124"
  , "c2" : "MAJOR"
@@ -286,6 +300,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#160"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00160] For method of arguments Duration  timeDifference"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00160] For method of list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN212313|long validateMillisecondDurationN212430"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,6 +345,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00176"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#176"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00176] For method before list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN213320|long validateMillisecondDurationN213437"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#177"
  , "c2" : "MAJOR"
@@ -335,6 +363,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#192"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00192] For method after arguments Duration  timeDifference"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00192"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#192"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00192] For method after list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN214216|long validateMillisecondDurationN214333"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -363,6 +398,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#227"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00227] For method grace arguments Duration  afterWindowEnd"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00227"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/JoinWindows.java.html#227"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00227] For method grace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN215728|long validateMillisecondDurationN215845"
 }} 
 ,
 { "ligne" : {"" : ""

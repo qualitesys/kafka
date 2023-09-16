@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java 26 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java 29 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -111,6 +111,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
+}}
  ] 
 ,
 "data13b" : [
@@ -126,6 +133,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#47"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.streams.kstream.internals.KTableTransformValues.KTableTransformValues@POLYN182283 the MagicNumber/String  'transformerSupplier' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00057] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier&lt;K,V&gt; parent_valueGetterSupplierN183534"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -208,6 +222,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#116"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00116] For method process list of called methods Object monObjet|VR valueTransformer_transformN186136"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00116"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#116"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00116] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -259,6 +280,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#155"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00155] For method get arguments K  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00155"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableTransformValues.java.html#155"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00155] For method get list of called methods Object monObjet|org.apache.kafka.streams.state.ValueAndTimestamp&lt;V&gt; parentGetter_getN188762|org.apache.kafka.streams.processor.internals.ProcessorRecordContext internalProcessorContext_recordContextN188863"
 }} 
 ,
 { "ligne" : {"" : ""

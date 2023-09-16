@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java 70 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java 74 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -246,6 +246,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -297,6 +304,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#107"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00107] For method reconfigure list of called methods Object monObjet|java.util.function.Predicate&lt;java.lang.String&gt; JmxReporter_compilePredicateN204914"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#108"
  , "c2" : "INFO"
@@ -332,6 +346,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00140"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#140"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00140] For method metricChange list of called methods Object monObjet|java.lang.String addAttributeN206148"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#141"
  , "c2" : "INFO"
@@ -350,6 +371,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method metricRemoval arguments KafkaMetric  metric"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00150"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#150"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00150] For method metricRemoval list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN206600|java.lang.String getMBeanNameN206677|org.apache.kafka.common.metrics.JmxReporter.KafkaMbean removeAttributeN206787"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -378,6 +406,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#165"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00165] For method removeAttribute arguments KafkaMetric  metric|String  mBeanName"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00165"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/JmxReporter.java.html#165"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00165] For method removeAttribute list of called methods Object monObjet|org.apache.kafka.common.MetricName metric_metricNameN207423"
 }} 
 ,
 { "ligne" : {"" : ""

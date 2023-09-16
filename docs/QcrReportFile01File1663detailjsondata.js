@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java 21 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -162,6 +162,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -208,6 +215,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#121"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00121] For method ofTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN196141|long validateMillisecondDurationN196258|java.lang.String prepareMillisCheckFailMsgPrefixN196373|long validateMillisecondDurationN196490"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#122"
  , "c2" : "MAJOR"
@@ -226,6 +240,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00142] For method withTimeDifferenceAndGrace arguments Duration  timeDifference|Duration  grace"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00142"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/SlidingWindows.java.html#142"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00142] For method withTimeDifferenceAndGrace list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN197389|long validateMillisecondDurationN197506|java.lang.String prepareMillisCheckFailMsgPrefixN197621|long validateMillisecondDurationN197738"
 }} 
 ,
 { "ligne" : {"" : ""

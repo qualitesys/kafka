@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java 58 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java 59 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -134,6 +134,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -458,6 +465,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#179"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00179] For method apply arguments String[]  params"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00179"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosRule.java.html#179"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00179] For method apply list of called methods Object monObjet|java.lang.String replaceParametersN188954|java.lang.String replaceSubstitutionN189361|java.lang.String result_toLowerCaseN189912|java.lang.String result_toUpperCaseN190108"
 }} 
 ,
 { "ligne" : {"" : ""

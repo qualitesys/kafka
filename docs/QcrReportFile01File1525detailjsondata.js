@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CommandUtils.java 38 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/CommandUtils.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -119,6 +119,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -162,6 +169,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#72"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00072] For method splitPath arguments String  path"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00072"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#72"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00072] For method splitPath list of called methods Object monObjet|java.lang.String[] path_splitN177314"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -225,6 +239,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method completePath arguments MetadataNodeManager  nodeManager|String  pathPrefix|List&lt;Candidate &gt;  candidates"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00104"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/CommandUtils.java.html#104"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00104] For method completePath list of called methods Object monObjet|boolean pathPrefix_startsWithN179031|java.util.List&lt;java.lang.String&gt; stripDotPathComponentsN179260|boolean pathPrefix_endsWithN179456|org.apache.kafka.shell.MetadataNode directory_childN179823|java.lang.String pathPrefix_substringN180866"
 }} 
 ,
 { "ligne" : {"" : ""

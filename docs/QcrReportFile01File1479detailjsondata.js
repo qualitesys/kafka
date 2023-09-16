@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Float.java.html" 
- , "texte" : "File secujava/java.lang.Float.java 24 rule violations " 
+ , "texte" : "File secujava/java.lang.Float.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -288,12 +288,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -308,6 +324,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "13"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -324,6 +347,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#276"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00276] For method toHexString arguments float  f"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00276] For method toHexString list of called methods Object monObjet|java.lang.String Double_toHexStringN373936"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -397,6 +427,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00712"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#712"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00712] For method floatToIntBits list of called methods Object monObjet|int floatToRawIntBitsN387804"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00718"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#718"
  , "c2" : "MAJOR"
@@ -446,6 +483,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00875"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#875"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00875] For method compare list of called methods Object monObjet|int Float_floatToIntBitsN393611|int Float_floatToIntBitsN393707"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00877"
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#877"
  , "c2" : "MAJOR"
@@ -478,6 +522,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Float.java.html#887"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00887] In method java.lang.Float.compare@POLYN393296 the MagicNumber/String  1 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.byteValue@POLYN383137"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.doubleValue@POLYN384547"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.intValue@POLYN383750"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.longValue@POLYN384046"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Float.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Float.shortValue@POLYN383451"
 }} 
 ]
 , 

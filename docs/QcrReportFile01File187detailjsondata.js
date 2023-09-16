@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java 155 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java 195 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -648,6 +648,261 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:org.apache.kafka.clients.consumer.MockConsumer.this" }
+,
+{ "ligne" :  "R1:org.apache.kafka.clients.consumer.MockConsumer.pollTasks" }
+,
+{ "ligne" :  "R2:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240247.topics" }
+,
+{ "ligne" :  "R3:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN242075.topics" }
+,
+{ "ligne" :  "R4:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN242075.listener" }
+,
+{ "ligne" :  "R5:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN241889.pattern" }
+,
+{ "ligne" :  "R6:org.apache.kafka.clients.consumer.MockConsumer.setException@POLYN247924.exception" }
+,
+{ "ligne" :  "R7:org.apache.kafka.clients.consumer.MockConsumer.setPollException@POLYN248055.exception" }
+,
+{ "ligne" :  "R8:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249280.callback" }
+,
+{ "ligne" :  "R9:org.apache.kafka.clients.consumer.MockConsumer.close@POLYN257594.timeout" }
+,
+{ "ligne" :  "R10:org.apache.kafka.clients.consumer.MockConsumer.rebalance@POLYN239845.newAssignment" }
+,
+{ "ligne" :  "R11:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240454.pattern" }
+,
+{ "ligne" :  "R12:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240454.listener" }
+,
+{ "ligne" :  "R13:org.apache.kafka.clients.consumer.MockConsumer.assign@POLYN242453.partitions" }
+,
+{ "ligne" :  "R14:org.apache.kafka.clients.consumer.MockConsumer.addRecord@POLYN246973.record" }
+,
+{ "ligne" :  "R15:org.apache.kafka.clients.consumer.MockConsumer.setOffsetsException@POLYN248187.exception" }
+,
+{ "ligne" :  "R16:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333.offsets" }
+,
+{ "ligne" :  "R17:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333.callback" }
+,
+{ "ligne" :  "R18:org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN248949.offsets" }
+,
+{ "ligne" :  "R19:org.apache.kafka.clients.consumer.MockConsumer.seek@POLYN250054.partition" }
+,
+{ "ligne" :  "R20:org.apache.kafka.clients.consumer.MockConsumer.seek@POLYN250054.offset" }
+,
+{ "ligne" :  "R21:org.apache.kafka.clients.consumer.MockConsumer.seekToBeginning@POLYN252752.partitions" }
+,
+{ "ligne" :  "R22:org.apache.kafka.clients.consumer.MockConsumer.updateBeginningOffsets@POLYN252986.newOffsets" }
+,
+{ "ligne" :  "R23:org.apache.kafka.clients.consumer.MockConsumer.seekToEnd@POLYN253176.partitions" }
+,
+{ "ligne" :  "R24:org.apache.kafka.clients.consumer.MockConsumer.updateEndOffsets@POLYN253410.newOffsets" }
+,
+{ "ligne" :  "R25:org.apache.kafka.clients.consumer.MockConsumer.updatePartitions@POLYN254291.topic" }
+,
+{ "ligne" :  "R26:org.apache.kafka.clients.consumer.MockConsumer.updatePartitions@POLYN254291.partitions" }
+,
+{ "ligne" :  "R27:org.apache.kafka.clients.consumer.MockConsumer.pause@POLYN254566.partitions" }
+,
+{ "ligne" :  "R28:org.apache.kafka.clients.consumer.MockConsumer.resume@POLYN254888.partitions" }
+,
+{ "ligne" :  "R29:org.apache.kafka.clients.consumer.MockConsumer.schedulePollTask@POLYN258147.task" }
+]
+,
+"data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243048 (R0 in line [00163])" }
+,
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 (R0 in line [00168],R1 in line [00175])" }
+,
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240247 (R0 in line [00108],R2 in line [00108])" }
+,
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN242075 (R0 in line [00141],R3 in line [00141],R4 in line [00141])" }
+,
+{ "ligne" : "S1:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN241889 (R0 in line [00136],R5 in line [00136])" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN242075 (R0 in line [00141],R3 in line [00141],R4 in line [00141])" }
+,
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "3" , "pas" : [
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.MockConsumer.setException@POLYN247924 (R0 in line [00241],R6 in line [00241])" }
+,
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.MockConsumer.setPollException@POLYN248055 (R0 in line [00245],R7 in line [00245])" }
+,
+{ "ligne" : "S3:org.apache.kafka.clients.consumer.MockConsumer.setPollException@POLYN248055.dummymethode_00246" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "4" , "pas" : [
+{ "ligne" : "S4:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249155 (R0 in line [00269])" }
+,
+{ "ligne" : "S4:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249280 (R0 in line [00274],R8 in line [00274])" }
+,
+{ "ligne" : "S4:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "5" , "pas" : [
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.MockConsumer.close@POLYN257432" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.MockConsumer.close@POLYN257594 (R0 in line [00455],R9 in line [00455])" }
+,
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.MockConsumer.close@POLYN257594.dummymethode_00456" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "6" , "pas" : [
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.MockConsumer.rebalance@POLYN239845 (R0 in line [00096],R10 in line [00096])" }
+,
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromSubscribed@POLYN329835" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "7" , "pas" : [
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240454 (R0 in line [00113],R11 in line [00113],R12 in line [00113])" }
+,
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "8" , "pas" : [
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.MockConsumer.assign@POLYN242453 (R0 in line [00148],R13 in line [00148])" }
+,
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "9" , "pas" : [
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.MockConsumer.addRecord@POLYN246973 (R0 in line [00227],R14 in line [00227])" }
+,
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "10" , "pas" : [
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.MockConsumer.setOffsetsException@POLYN248187 (R0 in line [00249],R15 in line [00249])" }
+,
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.MockConsumer.setOffsetsException@POLYN248187.dummymethode_00250" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "11" , "pas" : [
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333 (R0 in line [00254],R16 in line [00254],R17 in line [00254])" }
+,
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "12" , "pas" : [
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN248949 (R0 in line [00264],R18 in line [00264])" }
+,
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN248949.dummymethode_00265" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "13" , "pas" : [
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.MockConsumer.seek@POLYN250054 (R0 in line [00295],R19 in line [00295],R20 in line [00295])" }
+,
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "14" , "pas" : [
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.MockConsumer.seekToBeginning@POLYN252752 (R0 in line [00352],R21 in line [00352])" }
+,
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "15" , "pas" : [
+{ "ligne" : "S15:org.apache.kafka.clients.consumer.MockConsumer.updateBeginningOffsets@POLYN252986 (R0 in line [00357],R22 in line [00357])" }
+,
+{ "ligne" : "S15:org.apache.kafka.clients.consumer.MockConsumer.updateBeginningOffsets@POLYN252986.dummymethode_00358" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "16" , "pas" : [
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.MockConsumer.seekToEnd@POLYN253176 (R0 in line [00362],R23 in line [00362])" }
+,
+{ "ligne" : "S16:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "17" , "pas" : [
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.MockConsumer.updateEndOffsets@POLYN253410 (R0 in line [00367],R24 in line [00367])" }
+,
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.MockConsumer.updateEndOffsets@POLYN253410.dummymethode_00368" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "18" , "pas" : [
+{ "ligne" : "S18:org.apache.kafka.clients.consumer.MockConsumer.updatePartitions@POLYN254291 (R0 in line [00389],R25 in line [00389],R26 in line [00389])" }
+,
+{ "ligne" : "S18:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "19" , "pas" : [
+{ "ligne" : "S19:org.apache.kafka.clients.consumer.MockConsumer.pause@POLYN254566 (R0 in line [00395],R27 in line [00395])" }
+,
+{ "ligne" : "S19:org.apache.kafka.clients.consumer.internals.SubscriptionState.pause@POLYN351680" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "20" , "pas" : [
+{ "ligne" : "S20:org.apache.kafka.clients.consumer.MockConsumer.resume@POLYN254888 (R0 in line [00403],R28 in line [00403])" }
+,
+{ "ligne" : "S20:org.apache.kafka.clients.consumer.internals.SubscriptionState.resume@POLYN351831" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "21" , "pas" : [
+{ "ligne" : "S21:org.apache.kafka.clients.consumer.MockConsumer.schedulePollTask@POLYN258147 (R0 in line [00473],R29 in line [00473],R1 in line [00474])" }
+,
+{ "ligne" : "S21:org.apache.kafka.clients.consumer.MockConsumer.schedulePollTask@POLYN258147.dummymethode_00475" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "22" , "pas" : [
+{ "ligne" : "S22:org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243048 (R0 in line [00163])" }
+,
+{ "ligne" : "S22:org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 (R0 in line [00168],R1 in line [00175])" }
+,
+{ "ligne" : "S22:org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 (R0 in line [00168],R1 in line [00175])" }
+,
+{ "ligne" : "S22:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "23" , "pas" : [
+{ "ligne" : "S23:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249155 (R0 in line [00269])" }
+,
+{ "ligne" : "S23:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249280 (R0 in line [00274],R8 in line [00274])" }
+,
+{ "ligne" : "S23:org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249280 (R0 in line [00274],R8 in line [00274])" }
+,
+{ "ligne" : "S23:org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669" }
+ ]
+ } }
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -657,10 +912,31 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "30"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -689,6 +965,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "47"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1660,6 +1943,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00503"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#503"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00503] For method resetOffsetPosition list of called methods Object monObjet|org.apache.kafka.clients.consumer.OffsetResetStrategy subscriptions_resetStrategyN259541"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#508"
  , "c2" : "MAJOR"
@@ -1783,6 +2073,279 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#576"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.clients.consumer.MockConsumer.resetShouldRebalance@POLYN262544 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.clients.consumer.MockConsumer.this"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.clients.consumer.MockConsumer.pollTasks"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240247.topics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN242075.topics"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN242075.listener"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R5 : org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN241889.pattern"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : org.apache.kafka.clients.consumer.MockConsumer.setException@POLYN247924.exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : org.apache.kafka.clients.consumer.MockConsumer.setPollException@POLYN248055.exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249280.callback"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : org.apache.kafka.clients.consumer.MockConsumer.close@POLYN257594.timeout"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : org.apache.kafka.clients.consumer.MockConsumer.rebalance@POLYN239845.newAssignment"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240454.pattern"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : org.apache.kafka.clients.consumer.MockConsumer.subscribe@POLYN240454.listener"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : org.apache.kafka.clients.consumer.MockConsumer.assign@POLYN242453.partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : org.apache.kafka.clients.consumer.MockConsumer.addRecord@POLYN246973.record"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : org.apache.kafka.clients.consumer.MockConsumer.setOffsetsException@POLYN248187.exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333.offsets"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333.callback"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN248949.offsets"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : org.apache.kafka.clients.consumer.MockConsumer.seek@POLYN250054.partition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : org.apache.kafka.clients.consumer.MockConsumer.seek@POLYN250054.offset"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : org.apache.kafka.clients.consumer.MockConsumer.seekToBeginning@POLYN252752.partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : org.apache.kafka.clients.consumer.MockConsumer.updateBeginningOffsets@POLYN252986.newOffsets"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : org.apache.kafka.clients.consumer.MockConsumer.seekToEnd@POLYN253176.partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : org.apache.kafka.clients.consumer.MockConsumer.updateEndOffsets@POLYN253410.newOffsets"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : org.apache.kafka.clients.consumer.MockConsumer.updatePartitions@POLYN254291.topic"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : org.apache.kafka.clients.consumer.MockConsumer.updatePartitions@POLYN254291.partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : org.apache.kafka.clients.consumer.MockConsumer.pause@POLYN254566.partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : org.apache.kafka.clients.consumer.MockConsumer.resume@POLYN254888.partitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R29 : org.apache.kafka.clients.consumer.MockConsumer.schedulePollTask@POLYN258147.task"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249280"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN249844"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00177"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#177"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00182"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#182"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00186"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#186"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00188"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#188"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00207"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#207"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00207] In the recursive method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00215"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#215"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00215] In the recursive method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 , 

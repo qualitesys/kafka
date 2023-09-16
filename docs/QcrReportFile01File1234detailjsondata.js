@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java 6 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -92,6 +92,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -100,6 +107,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00026] For method copySchemaBasics arguments Schema  source"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#26"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00026] For method copySchemaBasics list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN156480"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -114,6 +128,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00036] For method copySchemaBasics arguments Schema  source|SchemaBuilder  builder"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#36"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00036] For method copySchemaBasics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; source_parametersN157236"
 }} 
 ,
 { "ligne" : {"" : ""

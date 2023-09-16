@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java 157 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java 167 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -445,6 +445,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "21"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "10"
+}}
  ] 
 ,
 "data13b" : [
@@ -523,6 +530,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#164"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00164] For method writeTo arguments DataOutputStream  out|int  offsetDelta|long  timestampDelta|ByteBuffer  key|ByteBuffer  value|Header[]  headers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00164"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#164"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00164] For method writeTo list of called methods Object monObjet|int sizeOfBodyInBytesN240502|int header_keyN242361|byte[] Utils_utf8N242575|byte[] header_valueN242849"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -801,6 +815,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#276"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00276] For method readFrom list of called methods Object monObjet|int ByteUtils_readVarintN246549|int ByteUtils_sizeOfVarintN246878"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#276"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00276] The argument input is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -817,6 +838,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#289"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00289] For method readFrom arguments ByteBuffer  buffer|long  baseOffset|long  baseTimestamp|int  baseSequence|Long  logAppendTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#289"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00289] For method readFrom list of called methods Object monObjet|int ByteUtils_readVarintN247372|int ByteUtils_sizeOfVarintN247729"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -950,6 +978,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#363"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00363] For method readPartiallyFrom arguments DataInput  input|byte[]  skipArray|long  baseOffset|long  baseTimestamp|int  baseSequence|Long  logAppendTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00363"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#363"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00363] For method readPartiallyFrom list of called methods Object monObjet|int ByteUtils_readVarintN251506|int ByteUtils_sizeOfVarintN251602"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1165,6 +1200,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00458"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#458"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00458] For method skipLengthDelimitedField list of called methods Object monObjet|int ByteUtils_readVarintN257359"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00458"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#458"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00458] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1312,6 +1354,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00518"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#518"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00518] For method readHeaders list of called methods Object monObjet|int ByteUtils_readVarintN259799|int ByteUtils_readVarintN260368|int buffer_sliceN260534"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00518"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#518"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00518] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1373,10 +1422,24 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00543"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#543"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00543] For method sizeInBytes list of called methods Object monObjet|int sizeOfBodyInBytesN261163"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00552"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#552"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00552] For method sizeInBytes arguments int  offsetDelta|long  timestampDelta|int  keySize|int  valueSize|Header[]  headers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00552"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#552"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00552] For method sizeInBytes list of called methods Object monObjet|int sizeOfBodyInBytesN261619"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1422,6 +1485,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00571"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#571"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00571] For method sizeOfBodyInBytes list of called methods Object monObjet|int ByteUtils_sizeOfVarintN262781|int ByteUtils_sizeOfVarlongN262874|int sizeOfN262967"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00576"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#576"
  , "c2" : "MAJOR"
@@ -1433,6 +1503,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#583"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00583] For method sizeOf arguments int  keySize|int  valueSize|Header[]  headers"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00583"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecord.java.html#583"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00583] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfVarintN263437|int ByteUtils_sizeOfVarintN263665|int ByteUtils_sizeOfVarintN263911|int header_keyN264089|int Utils_utf8LengthN264297|int ByteUtils_sizeOfVarintN264390|int header_valueN264514|int ByteUtils_sizeOfVarintN264734"
 }} 
 ,
 { "ligne" : {"" : ""

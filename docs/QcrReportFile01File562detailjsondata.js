@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 92 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/FileRecords.java 103 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -351,12 +351,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -385,6 +401,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "23"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "10"
 }}
  ] 
 ,
@@ -460,6 +483,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00158"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#158"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00158] For method availableBytes list of called methods Object monObjet|int sizeInBytesN245984"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#162"
  , "c2" : "MAJOR"
@@ -532,6 +562,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#183"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00183] For method append list of called methods Object monObjet|int records_writeFullyToN247658"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00183"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#183"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00183] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -593,6 +630,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#264"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00264] For method truncateTo list of called methods Object monObjet|int sizeInBytesN250282"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#266"
  , "c2" : "MAJOR"
@@ -642,6 +686,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00277"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#277"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00277] For method downConvert list of called methods Object monObjet|org.apache.kafka.common.record.ConvertedRecords&lt;org.apache.kafka.common.record.MemoryRecords&gt; RecordsUtil_downConvertN251185"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#279"
  , "c2" : "MAJOR"
@@ -653,6 +704,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#294"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00294] For method writeTo arguments TransferableChannel  destChannel|long  offset|int  length"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00294"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#294"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00294] For method writeTo list of called methods Object monObjet|int sizeInBytesN251935"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -677,6 +735,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00315"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#315"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00315] For method searchForOffsetWithSize list of called methods Object monObjet|long batch_lastOffsetN253070"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#321"
  , "c2" : "MAJOR"
@@ -688,6 +753,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#335"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00335] For method searchForTimestamp arguments long  targetTimestamp|int  startingPosition|long  startingOffset"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00335"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#335"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00335] For method searchForTimestamp list of called methods Object monObjet|long record_timestampN254159"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -709,6 +781,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#355"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00355] For method largestTimestampAfter arguments int  startingPosition"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00355"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#355"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00355] For method largestTimestampAfter list of called methods Object monObjet|long batch_maxTimestampN255107|long batch_lastOffsetN255306|int batch_partitionLeaderEpochN255380"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -779,6 +858,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#423"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00423] For method open arguments File  file|boolean  mutable|boolean  fileAlreadyExists|int  initFileSize|boolean  preallocate"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00423"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#423"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00423] For method open list of called methods Object monObjet|java.nio.channels.FileChannel openChannelN257891"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -915,6 +1001,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00504"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#504"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00504] For method hashCode list of called methods Object monObjet|int Long_hashCodeN261518"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00506"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#506"
  , "c2" : "MAJOR"
@@ -1031,6 +1124,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#553"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00553] In method org.apache.kafka.common.record.FileRecords.TimestampAndOffset.toString@POLYN263432 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/FileRecords.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.record.FileRecords.close@POLYN248028"
 }} 
 ]
 , 

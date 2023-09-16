@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java 19 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -128,6 +128,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "4"
+}}
  ] 
 ,
 "data13b" : [
@@ -136,6 +143,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method deserializeV0 arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Bytes  key|byte[]  previousBufferedValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#57"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00057] For method deserializeV0 list of called methods Object monObjet|java.lang.Long timeAndValue_getLongN174291"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -164,6 +178,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method deserializeV1 arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Bytes  key|byte[]  previousBufferedValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00088] For method deserializeV1 list of called methods Object monObjet|java.lang.Long timeAndValue_getLongN175672|org.apache.kafka.streams.state.internals.ContextualRecord ContextualRecord_deserializeN175985"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -246,6 +267,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00141"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#141"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00141] For method deserializeV2 list of called methods Object monObjet|org.apache.kafka.streams.state.internals.ContextualRecord ContextualRecord_deserializeN178147|byte[] Utils_getNullableSizePrefixedArrayN178433|java.lang.Long valueAndTime_getLongN178534"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#141"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00141] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -255,6 +283,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#152"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00152] For method deserializeV3 arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record|Bytes  key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00152"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedKeyValueBufferChangelogDeserializationHelper.java.html#152"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00152] For method deserializeV3 list of called methods Object monObjet|org.apache.kafka.streams.state.internals.BufferValue BufferValue_deserializeN179209|java.lang.Long valueAndTime_getLongN179310"
 }} 
 ,
 { "ligne" : {"" : ""

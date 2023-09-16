@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java 33 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java 35 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -189,6 +189,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -197,6 +204,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#70"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00070] For method deserialize arguments ByteBuffer  buffer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00070"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#70"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00070] For method deserialize list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext ProcessorRecordContext_deserializeN173492|byte[] getNullableSizePrefixedArrayN173599|byte[] getNullableArrayN173952|byte[] getNullableSizePrefixedArrayN174076"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -211,6 +225,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method serialize arguments int  endPadding"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00088"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/BufferValue.java.html#88"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00088] For method serialize list of called methods Object monObjet|byte[] recordContext_serializeN174919"
 }} 
 ,
 { "ligne" : {"" : ""

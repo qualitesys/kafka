@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java 37 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java 39 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -153,6 +153,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -319,6 +326,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00110"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#110"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00110] For method stats list of called methods Object monObjet|double frequency_centerValueN191110"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#115"
  , "c2" : "MAJOR"
@@ -330,6 +344,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method frequency arguments MetricConfig  config|long  now|double  centerValue"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00132"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequencies.java.html#132"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00132] For method frequency list of called methods Object monObjet|int binScheme_toBinN192473|float[] sample_histogram_countsN192725"
 }} 
 ,
 { "ligne" : {"" : ""
