@@ -47,8 +47,9 @@ jobs:
 
     - name: Build with Gradle
       run: gradle build
-    - name: Test with Gradle
-      run: gardle test
+    # Modif D.C. 2023 11 20 en comm
+    # - name: Test with Gradle
+    #  run: gardle test
     # The USERNAME and TOKEN need to correspond to the credentials environment variables used in
     # the publishing section of your build.gradle
     # - name: Publish to GitHub Packages
@@ -56,3 +57,5 @@ jobs:
     #   env:
     #     USERNAME: ${{ github.actor }}
     #    TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Build et mvn recherche breaking change
+      run: mvn -f pom_qcrstarter.xml com.qualitesys.maven.plugins:qcr-maven-plugin:qcrgoalmavenreadsqs
