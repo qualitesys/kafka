@@ -58,4 +58,4 @@ jobs:
     #     USERNAME: ${{ github.actor }}
     #    TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Build et mvn recherche breaking change
-      run: mvn -f pom_qcrstarter.xml com.qualitesys.maven.plugins:qcr-maven-plugin:qcrgoalmavenreadsqs
+      run: mvn -f pom_qcrstarter.xml -Drat.skip=true com.qualitesys.maven.plugins:qcr-maven-plugin:qcrgoalmavenreadsqs
