@@ -7394,7 +7394,5 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "java.io.ObjectInputStream.PeekInputStream"} ,
    {"caller" : "java.io.ObjectInputStream.ValidationList"} ,
    {"caller" : "java.io.ObjectInputStream.ValidationList.Callback"} ,
-   ]
-   }
 ]
 } ;
