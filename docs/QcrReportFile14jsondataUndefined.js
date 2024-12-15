@@ -892,20 +892,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "java.io.ObjectOutputStream.PutFieldImpl"} ,
    {"caller" : "java.io.ObjectOutputStream.ReplaceTable"} ,
    ]},
-   { "undefinedclass" : "java.lang.constant.ClassDesc" , "callers" : [
-   {"caller" : "java.lang.Class"} ,
-   {"caller" : "java.lang.Class.AnnotationData"} ,
-   {"caller" : "java.lang.Class.Atomic"} ,
-   {"caller" : "java.lang.Class.EnclosingMethodInfo"} ,
-   {"caller" : "java.lang.Class.ReflectionData"} ,
-   ]},
-   { "undefinedclass" : "java.lang.constant.Constable" , "callers" : [
-   {"caller" : "java.lang.Class"} ,
-   {"caller" : "java.lang.Class.AnnotationData"} ,
-   {"caller" : "java.lang.Class.Atomic"} ,
-   {"caller" : "java.lang.Class.EnclosingMethodInfo"} ,
-   {"caller" : "java.lang.Class.ReflectionData"} ,
-   ]},
    { "undefinedclass" : "java.lang.invoke.MethodHandles.constant" , "callers" : [
    {"caller" : "org.apache.kafka.common.utils.ByteBufferUnmapper"} ,
    ]},
@@ -924,21 +910,7 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "java.lang.invoke.MethodType.methodType" , "callers" : [
    {"caller" : "org.apache.kafka.common.utils.ByteBufferUnmapper"} ,
    ]},
-   { "undefinedclass" : "java.lang.invoke.TypeDescriptor" , "callers" : [
-   {"caller" : "java.lang.Class"} ,
-   {"caller" : "java.lang.Class.AnnotationData"} ,
-   {"caller" : "java.lang.Class.Atomic"} ,
-   {"caller" : "java.lang.Class.EnclosingMethodInfo"} ,
-   {"caller" : "java.lang.Class.ReflectionData"} ,
-   ]},
    { "undefinedclass" : "java.lang.reflect.AccessFlag" , "callers" : [
-   {"caller" : "java.lang.Class"} ,
-   {"caller" : "java.lang.Class.AnnotationData"} ,
-   {"caller" : "java.lang.Class.Atomic"} ,
-   {"caller" : "java.lang.Class.EnclosingMethodInfo"} ,
-   {"caller" : "java.lang.Class.ReflectionData"} ,
-   ]},
-   { "undefinedclass" : "java.lang.reflect.RecordComponent" , "callers" : [
    {"caller" : "java.lang.Class"} ,
    {"caller" : "java.lang.Class.AnnotationData"} ,
    {"caller" : "java.lang.Class.Atomic"} ,
@@ -961,9 +933,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.DualColumnFamilyAccessor"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFIterator"} ,
    {"caller" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator"} ,
-   ]},
-   { "undefinedclass" : "java.util.Base64.Encoder" , "callers" : [
-   {"caller" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler"} ,
    ]},
    { "undefinedclass" : "java.util.Collections.emptyList" , "callers" : [
    {"caller" : "org.apache.kafka.common.metrics.Metrics"} ,
