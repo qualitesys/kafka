@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 107 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 108 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -549,7 +549,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -1182,6 +1182,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#588"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00588] In method org.apache.kafka.common.record.DefaultRecordBatch.RecordIterator.RecordIterator@POLYN289223 the MagicNumber/String  ' batch' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00598"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#598"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00598] For method next list of called methods Object monObjet|org.apache.kafka.common.record.Record readNextN290390"
 }} 
 ,
 { "ligne" : {"" : ""

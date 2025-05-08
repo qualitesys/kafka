@@ -258,7 +258,7 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#113"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords readFileRecordsN187221"
+ , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|java.nio.ByteBuffer bufferSupplier_getN186948|org.apache.kafka.common.record.MemoryRecords readFileRecordsN187221|java.nio.ByteBuffer bufferSupplier_getN187494"
 }} 
 ,
 { "ligne" : {"" : ""

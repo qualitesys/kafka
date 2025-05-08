@@ -253,7 +253,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#70"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN168472"
+ , "c3" : "QC-JAV000007[00070] For method read list of called methods Object monObjet|int ByteUtils_readUnsignedVarintN168472|java.lang.Object type_readN169448"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -330,7 +330,7 @@ var maDataBlocs = {
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/CompactArrayOf.java.html#89"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN169865"
+ , "c3" : "QC-JAV000007[00089] For method sizeOf list of called methods Object monObjet|int ByteUtils_sizeOfUnsignedVarintN169865|int type_sizeOfN170064"
 }} 
 ,
 { "ligne" : {"" : ""

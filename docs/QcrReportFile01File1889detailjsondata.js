@@ -761,7 +761,7 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#304"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method validateCleanupPolicyForWindowedChangelogs list of called methods Object monObjet|java.lang.String topicConfig_nameN293850|java.lang.String getBrokerSideConfigValueN293932|long Long_parseLongN294173|long Long_parseLongN294517|java.lang.String getBrokerSideConfigValueN295026"
+ , "c3" : "QC-JAV000007[00304] For method validateCleanupPolicyForWindowedChangelogs list of called methods Object monObjet|java.lang.String topicConfig_nameN293850|java.lang.String getBrokerSideConfigValueN293932|long Long_parseLongN294173|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicConfig_getPropertiesN294394|long Long_parseLongN294517|java.lang.String getBrokerSideConfigValueN295026"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1027,7 +1027,7 @@ var maDataBlocs = {
  , "c1" : "00386"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#386"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method makeReady list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; validateTopicsN298831|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN300242|java.util.Set&lt;java.lang.String&gt; time_millisecondsN302571|java.lang.String String_formatN302724"
+ , "c3" : "QC-JAV000007[00386] For method makeReady list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; validateTopicsN298831|java.util.Map&lt;java.lang.String,java.lang.String&gt; internalTopicConfig_getPropertiesN299588|org.apache.kafka.clients.admin.CreateTopicsResult adminClient_createTopicsN300242|java.util.Set&lt;java.lang.String&gt; time_millisecondsN302571|java.lang.String String_formatN302724"
 }} 
 ,
 { "ligne" : {"" : ""

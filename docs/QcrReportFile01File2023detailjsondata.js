@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java 65 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java 66 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -308,7 +308,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -461,6 +461,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#105"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00105] For method remove list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getIndexKeyValueN197836"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#109"
  , "c2" : "MAJOR"
@@ -583,7 +590,7 @@ var maDataBlocs = {
  , "c1" : "00167"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#167"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00167] For method put list of called methods Object monObjet|long segments_segmentIdN200789"
+ , "c3" : "QC-JAV000007[00167] For method put list of called methods Object monObjet|long segments_segmentIdN200789|KeyValue&lt;Bytes,byte[]&gt; getIndexKeyValueN201531"
 }} 
 ,
 { "ligne" : {"" : ""

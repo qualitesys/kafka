@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/RecordsSend.java.html#46"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method writeTo list of called methods Object monObjet|boolean channel_hasPendingWritesN163588"
+ , "c3" : "QC-JAV000007[00046] For method writeTo list of called methods Object monObjet|long writeToN163237|boolean channel_hasPendingWritesN163588"
 }} 
 ,
 { "ligne" : {"" : ""

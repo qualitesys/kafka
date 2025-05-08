@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2302 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2305 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -795,7 +795,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "34"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -11504,6 +11504,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "04467"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4467"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04467] For method toString list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN1668693"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "04473"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4473"
  , "c2" : "MAJOR"
@@ -11581,6 +11588,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "04493"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4493"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04493] For method removeAll list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN1670146"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "04494"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4494"
  , "c2" : "MAJOR"
@@ -11606,6 +11620,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4505"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04505] For method retainAll arguments Collection&lt;? &gt;  c"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04505"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4505"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04505] For method retainAll list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN1670825"
 }} 
 ,
 { "ligne" : {"" : ""

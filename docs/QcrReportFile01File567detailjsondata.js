@@ -713,7 +713,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MemoryRecords.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method filterTo list of called methods Object monObjet|int batch_sizeInBytesN278983|byte batch_magicN279138|org.apache.kafka.common.record.MemoryRecords.BatchFilterResult filterBatchN279327|byte batch_magicN279822|org.apache.kafka.common.record.MemoryRecordsBuilder buildRetainedRecordsIntoN280685|org.apache.kafka.common.record.MemoryRecords builder_buildN280839|int records_sizeInBytesN280916|org.apache.kafka.common.record.MemoryRecordsBuilder.RecordsInfo builder_infoN281350|java.nio.ByteBuffer bufferOutputStream_bufferN282575"
+ , "c3" : "QC-JAV000007[00161] For method filterTo list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords.RecordFilter.BatchRetentionResult filter_checkBatchRetentionN278742|int batch_sizeInBytesN278983|byte batch_magicN279138|org.apache.kafka.common.record.MemoryRecords.BatchFilterResult filterBatchN279327|byte batch_magicN279822|org.apache.kafka.common.record.MemoryRecordsBuilder buildRetainedRecordsIntoN280685|org.apache.kafka.common.record.MemoryRecords builder_buildN280839|int records_sizeInBytesN280916|org.apache.kafka.common.record.MemoryRecordsBuilder.RecordsInfo builder_infoN281350|java.nio.ByteBuffer bufferOutputStream_bufferN282575"
 }} 
 ,
 { "ligne" : {"" : ""

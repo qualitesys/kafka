@@ -547,7 +547,7 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#159"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method projectPrimitive list of called methods Object monObjet|byte numberRecord_byteValueN193749|short numberRecord_shortValueN193872"
+ , "c3" : "QC-JAV000007[00159] For method projectPrimitive list of called methods Object monObjet|byte numberRecord_byteValueN193749|short numberRecord_shortValueN193872|int numberRecord_intValueN193995|long numberRecord_longValueN194118|float numberRecord_floatValueN194241|double numberRecord_doubleValueN194364"
 }} 
 ,
 { "ligne" : {"" : ""

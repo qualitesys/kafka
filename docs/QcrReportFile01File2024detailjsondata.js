@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java 67 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java 69 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -247,6 +247,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -318,6 +325,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#65"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.hasNext@POLYN176870 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00076"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#76"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00076] For method next list of called methods Object monObjet|int compareN178404"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -409,6 +423,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#136"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00136] In method org.apache.kafka.streams.state.internals.AbstractMergedSortedCacheStoreIterator.nextCacheValue@POLYN180180 the MagicNumber/String  'Next record key is not the peeked key value; this should not happen' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00143"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractMergedSortedCacheStoreIterator.java.html#143"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00143] For method peekNextKey list of called methods Object monObjet|int compareN181527"
 }} 
 ,
 { "ligne" : {"" : ""
