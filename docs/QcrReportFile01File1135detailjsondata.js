@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java 43 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java 42 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -183,7 +183,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -200,13 +200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00165] For method isConcrete arguments Class&lt;? &gt;  klass"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/PluginUtils.java.html#165"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00165] For method isConcrete list of called methods Object monObjet|int klass_getModifiersN201499"
 }} 
 ,
 { "ligne" : {"" : ""

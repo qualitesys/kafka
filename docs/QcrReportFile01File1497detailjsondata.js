@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.Hashtable.java.html" 
- , "texte" : "File secujava/java.util.Hashtable.java 343 rule violations " 
+ , "texte" : "File secujava/java.util.Hashtable.java 320 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -450,71 +450,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:java.util.Hashtable.this" }
-,
-{ "ligne" :  "R1:java.util.Hashtable.putAll@POLYN440632.t" }
-,
-{ "ligne" :  "R2:java.util.Hashtable.forEach@POLYN456172.action" }
-,
-{ "ligne" :  "R3:java.util.Hashtable.replaceAll@POLYN457082.function" }
-]
-,
-"data12b" : [
-{ "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:java.util.Hashtable.putAll@POLYN440632 (R0 in line [00536],R1 in line [00536])" }
-,
-{ "ligne" : "S0:java.util.Hashtable.put@POLYN437164 (R0 in line [00471])" }
-,
-{ "ligne" : "S0:java.util.Hashtable.put@POLYN437164.dummymethode_00478" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:java.util.Hashtable.forEach@POLYN456172 (R0 in line [00888],R2 in line [00888])" }
-,
-{ "ligne" : "S1:java.util.Hashtable.forEach@POLYN456172.dummymethode_00889" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:java.util.Hashtable.replaceAll@POLYN457082 (R0 in line [00908],R3 in line [00908])" }
-,
-{ "ligne" : "S2:java.util.Hashtable.replaceAll@POLYN457082.dummymethode_00909" }
- ]
- } }
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE833"
- , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "7"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "22"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -536,13 +477,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "35"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -760,13 +694,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00349"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#349"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00349] For method containsKey list of called methods Object monObjet|int key_hashCodeN431080"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#349"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00349] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -811,13 +738,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#377"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00377] For method get arguments Object  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#377"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00377] For method get list of called methods Object monObjet|int key_hashCodeN432549"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1054,13 +974,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00504"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#504"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00504] For method remove list of called methods Object monObjet|int key_hashCodeN439029"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#504"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00504] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1171,13 +1084,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00559"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#559"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00559] For method clone list of called methods Object monObjet|java.util.Hashtable&lt;?,?&gt; cloneHashtableN441782"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00564"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#564"
  , "c2" : "MAJOR"
@@ -1238,13 +1144,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#593"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00593] Lock statement on synchronized method toString"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00593"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#593"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00593] For method toString list of called methods Object monObjet|int sizeN443407"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1416,13 +1315,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00714"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#714"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00714] For method contains list of called methods Object monObjet|int key_hashCodeN449356"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00721"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#721"
  , "c2" : "MAJOR"
@@ -1455,13 +1347,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#729"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00729] For method remove arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00729"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#729"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00729] For method remove list of called methods Object monObjet|int key_hashCodeN450226"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1630,13 +1515,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#851"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00851] Lock statement on synchronized method hashCode"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00851"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#851"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00851] For method hashCode list of called methods Object monObjet|int entry_hashCodeN455569"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1847,13 +1725,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#952"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00952] For method remove arguments Object  key|Object  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00952"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#952"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00952] For method remove list of called methods Object monObjet|int key_hashCodeN459801"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2459,13 +2330,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01267"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1267"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01267] For method readHashtable list of called methods Object monObjet|java.io.ObjectInputStream.GetField s_readFieldsN476125|int s_readIntN476718|int s_readIntN476795"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01314"
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1314"
  , "c2" : "MAJOR"
@@ -2862,97 +2726,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1527"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01527] In method java.util.Hashtable.Enumerator.remove@POLYN487542 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : java.util.Hashtable.this"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : java.util.Hashtable.putAll@POLYN440632.t"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : java.util.Hashtable.forEach@POLYN456172.action"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : java.util.Hashtable.replaceAll@POLYN457082.function"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.util.Hashtable.hashCode@POLYN454659"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.util.Hashtable.get@POLYN432362"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00862"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#862"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00862] In the recursive method java.util.Hashtable.hashCode@POLYN454659 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00863"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#863"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00863] In the recursive method java.util.Hashtable.hashCode@POLYN454659 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00863"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#863"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00863] In the recursive method java.util.Hashtable.hashCode@POLYN454659 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00869"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#869"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00869] In the recursive method java.util.Hashtable.hashCode@POLYN454659 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00380"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00380] In the recursive method java.util.Hashtable.get@POLYN432362 the MagicNumber/String 0x7FFFFFFF MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00381"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#381"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00381] In the recursive method java.util.Hashtable.get@POLYN432362 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/secujava/java.util.Hashtable.java.html#386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00386] In the recursive method java.util.Hashtable.get@POLYN432362 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

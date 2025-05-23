@@ -476,28 +476,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN180379"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN176987"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN176987"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN180379 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN180379 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN180379"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -582,6 +568,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#101"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleTopicError@POLYN176987 the MagicNumber/String 'Failed to fetch metadata for partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00172"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#172"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN180379 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00175"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/PartitionLeaderStrategy.java.html#175"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.clients.admin.internals.PartitionLeaderStrategy.handleResponse@POLYN180379 the MagicNumber/String 'Metadata request for {} returned no error, but the leader is unknown. Will retry' MUST BE CONVERTED to const"
 }} 
 ]
 , 

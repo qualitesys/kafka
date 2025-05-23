@@ -319,7 +319,7 @@ var maDataBlocs = {
  , "c1" : "00161"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#161"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method populateContextHeaders list of called methods Object monObjet|org.apache.kafka.common.header.Headers producerRecord_headersN198162|byte[] stacktraceN199982"
+ , "c3" : "QC-JAV000007[00161] For method populateContextHeaders list of called methods Object monObjet|byte[] stacktraceN199982"
 }} 
 ,
 { "ligne" : {"" : ""

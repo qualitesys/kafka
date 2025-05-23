@@ -648,6 +648,8 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.CoordinatorResponseHandler.onSuccess@POLYN442137" }
+,
 { "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN438624" }
 ,
 { "ligne" : "S2:org.apache.kafka.clients.consumer.internals.AbstractCoordinator.HeartbeatResponseHandler.handle@POLYN438624" }
@@ -916,7 +918,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00240] For method ensureCoordinatorReady list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; lookupCoordinatorN399533|RuntimeException future_exceptionN400189"
+ , "c3" : "QC-JAV000007[00240] For method ensureCoordinatorReady list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.lang.Void&gt; lookupCoordinatorN399533"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1196,7 +1198,7 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#413"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method joinGroupIfNeeded list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; initiateJoinGroupN405799|java.lang.String String_formatN406909|RuntimeException future_exceptionN407233|java.lang.String String_formatN407414"
+ , "c3" : "QC-JAV000007[00413] For method joinGroupIfNeeded list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;java.nio.ByteBuffer&gt; initiateJoinGroupN405799|java.lang.String String_formatN406909|java.lang.String String_formatN407414"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 955 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 954 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -2579,7 +2579,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "50"
+ , "c4" : "49"
 }}
  ] 
 ,
@@ -2861,7 +2861,7 @@ var maDataBlocs = {
  , "c1" : "00739"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#739"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00739] For method resolveProxyClass list of called methods Object monObjet|ClassLoader latestUserDefinedLoaderN810114|java.lang.Class&lt;?&gt; Class_forNameN810620|ClassLoader cl_getClassLoaderN811168"
+ , "c3" : "QC-JAV000007[00739] For method resolveProxyClass list of called methods Object monObjet|ClassLoader latestUserDefinedLoaderN810114"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3792,7 +3792,7 @@ var maDataBlocs = {
  , "c1" : "01883"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1883"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01883] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN852010|int bin_readIntN852100|java.lang.Class&lt;?&gt; cl_getComponentTypeN852561|int handles_assignN852756|java.lang.Object readObject0N855673"
+ , "c3" : "QC-JAV000007[01883] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN852010|int bin_readIntN852100|int handles_assignN852756|java.lang.Object readObject0N855673"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4345,7 +4345,7 @@ var maDataBlocs = {
  , "c1" : "02222"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2222"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02222] For method defaultReadFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN868821|java.lang.Object readObject0N869436"
+ , "c3" : "QC-JAV000007[02222] For method defaultReadFields list of called methods Object monObjet|java.lang.Object readObject0N869436"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4702,7 +4702,7 @@ var maDataBlocs = {
  , "c1" : "02401"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2401"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02401] For method readFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN877105|java.lang.Object readObject0N877493"
+ , "c3" : "QC-JAV000007[02401] For method readFields list of called methods Object monObjet|java.lang.Object readObject0N877493"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4738,13 +4738,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2424"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02424] For method getFieldOffset arguments String  name|Class&lt;? &gt;  type"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02424"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2424"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02424] For method getFieldOffset list of called methods Object monObjet|java.lang.reflect.Field desc_getFieldN878212"
 }} 
 ,
 { "ligne" : {"" : ""

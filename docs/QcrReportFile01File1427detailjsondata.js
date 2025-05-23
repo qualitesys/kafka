@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java 54 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java 48 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -252,28 +252,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -295,13 +279,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
 }}
  ] 
 ,
@@ -419,13 +396,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method maybeAllocateBatch list of called methods Object monObjet|java.util.OptionalInt currentBatch_bytesNeededN230060"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#186"
  , "c2" : "MAJOR"
@@ -444,13 +414,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#195"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00195] In method org.apache.kafka.raft.internals.BatchAccumulator.maybeAllocateBatch@POLYN229722 the MagicNumber/String  'The total record(s) size of %d exceeds the maximum allowed batch size of %d' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00209"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#209"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00209] For method completeCurrentBatch list of called methods Object monObjet|org.apache.kafka.common.record.MemoryRecords currentBatch_buildN230724"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -538,13 +501,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#348"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00348] For method startNewBatch list of called methods Object monObjet|java.nio.ByteBuffer memoryPool_tryAllocateN234625"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00350"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#350"
  , "c2" : "MAJOR"
@@ -608,13 +564,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00466"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#466"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00466] For method close list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.raft.internals.BatchAccumulator.CompletedBatch&lt;T&gt;&gt; drainN238287"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00483"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#483"
  , "c2" : "CRITICAL"
@@ -668,20 +617,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#545"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.raft.internals.BatchAccumulator.SimpleTimer.remainingMs@POLYN240965 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BatchAccumulator.CompletedBatch.appendTimestamp@POLYN240417"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/BatchAccumulator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.internals.BatchAccumulator.CompletedBatch.sizeInBytes@POLYN240199"
 }} 
 ]
 , 

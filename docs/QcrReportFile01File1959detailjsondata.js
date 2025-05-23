@@ -188,7 +188,7 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#44"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method enforce list of called methods Object monObjet|java.lang.String String_formatN177347|java.util.Collection&lt;V&gt; repartitionTopicConfigs_valuesN177760|int validateAndGetNumOfPartitionsN178235|int getMaxPartitionsN178361|int getSamePartitionsN178468"
+ , "c3" : "QC-JAV000007[00044] For method enforce list of called methods Object monObjet|java.lang.String String_formatN177347|int validateAndGetNumOfPartitionsN178235|int getMaxPartitionsN178361|int getSamePartitionsN178468"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -225,7 +225,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -361,13 +361,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00087] For method consumerMetrics arguments Consumer&lt;byte[] ,byte[] &gt;  mainConsumer|Consumer&lt;byte[] ,byte[] &gt;  restoreConsumer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method consumerMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; mainConsumer_metricsN189386|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; restoreConsumer_metricsN189511"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -704,6 +697,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.recordSizeInBytes@POLYN195031"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ClientUtils.consumerMetrics@POLYN189110"
 }} 
 ,
 { "ligne" : {"" : ""

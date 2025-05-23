@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 131 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 130 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -425,7 +425,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1107,13 +1107,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#654"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.UnsentRequests.requestCount@POLYN281493 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00657"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#657"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00657] For method requestCount list of called methods Object monObjet|int requests_sizeN282041"
 }} 
 ,
 { "ligne" : {"" : ""

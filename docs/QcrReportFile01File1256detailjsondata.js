@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 647 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 646 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -583,7 +583,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -2881,7 +2881,7 @@ var maDataBlocs = {
  , "c1" : "00870"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#870"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN475928|java.lang.String String_formatN476064|java.lang.String String_formatN476253|java.lang.String String_formatN476439|java.lang.Class&lt;?&gt; arrayType_elementTypeN478093|java.lang.String String_formatN478170"
+ , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN475928|java.lang.String String_formatN476064|java.lang.String String_formatN476253|java.lang.String String_formatN476439|java.lang.String String_formatN478170"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3379,13 +3379,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1109"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01109] For method generateVariableLengthFieldSize arguments FieldSpec  field|Versions  possibleVersions|boolean  tagged"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01109"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1109"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01109] For method generateVariableLengthFieldSize list of called methods Object monObjet|java.lang.Class&lt;?&gt; arrayType_elementTypeN490774"
 }} 
 ,
 { "ligne" : {"" : ""

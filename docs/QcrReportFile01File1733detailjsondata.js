@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java 30 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java 28 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -129,13 +129,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -261,13 +254,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#108"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00108] For method process list of called methods Object monObjet|VIn computeOldValueN179915"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#108"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00108] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -319,13 +305,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#132"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.streams.kstream.internals.KTableFilter.KTableFilterProcessor.computeOldValue@POLYN180788 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableFilter.java.html#139"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00139] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier&lt;K,V&gt; parent_valueGetterSupplierN181678"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -226,7 +226,7 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#75"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00075] For method fetchSessions list of called methods Object monObjet|java.util.List&lt;S&gt; segments_segmentsN179985|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstSessionKeySchema_fromN180709"
+ , "c3" : "QC-JAV000007[00075] For method fetchSessions list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstSessionKeySchema_fromN180709"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -331,7 +331,7 @@ var maDataBlocs = {
  , "c1" : "00121"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedSessionSegmentedBytesStore.java.html#121"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method getWriteBatches list of called methods Object monObjet|long SessionKeySchema_extractEndTimestampN182697|long SessionKeySchema_extractEndTimestampN183190|long segments_segmentIdN183311"
+ , "c3" : "QC-JAV000007[00121] For method getWriteBatches list of called methods Object monObjet|long SessionKeySchema_extractEndTimestampN182697|long SessionKeySchema_extractEndTimestampN183190"
 }} 
 ,
 { "ligne" : {"" : ""

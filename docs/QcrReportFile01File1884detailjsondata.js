@@ -498,7 +498,7 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#240"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN226638|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN226835|org.apache.kafka.clients.consumer.ConsumerRecords&lt;K,V&gt; globalConsumer_pollN227252|long maybeUpdateDeadlineOrThrowN227414|long getGlobalConsumerOffsetN228110"
+ , "c3" : "QC-JAV000007[00240] For method restoreState list of called methods Object monObjet|long getGlobalConsumerOffsetN226638|org.apache.kafka.streams.processor.internals.RecordBatchingStateRestoreCallback StateRestoreCallbackAdapter_adaptN226835|long maybeUpdateDeadlineOrThrowN227414|long getGlobalConsumerOffsetN228110"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -827,13 +827,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN218251"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN231591"
 }} 
 ,
@@ -841,14 +834,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN230531"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN218251"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN218251 the MagicNumber/String 'dummy' MUST BE CONVERTED to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.flush@POLYN230531"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -905,6 +898,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#398"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.close@POLYN231591 the MagicNumber/String 'Exceptions caught during close of 1 or more global state globalStores\n' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStateManagerImpl.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl.GlobalStateManagerImpl@POLYN218251 the MagicNumber/String 'dummy' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

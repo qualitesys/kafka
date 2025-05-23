@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java 58 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java 42 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -81,35 +81,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -124,13 +101,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -189,13 +159,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#66"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00066] For method serialize arguments String  topic|SubscriptionResponseWrapper&lt;V &gt;  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method serialize list of called methods Object monObjet|FV data_getForeignValueN175163|long[] data_getOriginalValueHashN175542"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -346,13 +309,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method deserialize list of called methods Object monObjet|java.lang.Long buf_getLongN178357|java.lang.Long buf_getLongN178462"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#119"
  , "c2" : "MAJOR"
@@ -441,104 +397,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#143"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00143] In method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#119"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 0x7F MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 0x80 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 0x80 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#125"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00125] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#128"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00128] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#130"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 2 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#134"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00134] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#137"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00137] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#140"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00140] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/foreignkeyjoin/SubscriptionResponseWrapperSerde.java.html#143"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00143] In the recursive method org.apache.kafka.streams.kstream.internals.foreignkeyjoin.SubscriptionResponseWrapperSerde.SubscriptionResponseWrapperDeserializer.deserialize@POLYN177434 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

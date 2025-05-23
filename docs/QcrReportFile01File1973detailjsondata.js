@@ -1840,6 +1840,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327801"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.clientLevelSensor@POLYN297493"
 }} 
 ,
@@ -1862,13 +1869,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.addSensor@POLYN313658"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327801"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1928,6 +1928,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00898"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#898"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00898] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327801 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00244"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#244"
  , "c2" : "BLOCKER"
@@ -1939,13 +1946,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#312"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00312] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.removeAllThreadLevelMetrics@POLYN300717 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00898"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/metrics/StreamsMetricsImpl.java.html#898"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00898] In the recursive method org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.getSensors@POLYN327801 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

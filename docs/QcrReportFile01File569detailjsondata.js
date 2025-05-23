@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java 23 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -177,7 +177,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -194,13 +194,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#73"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.record.MultiRecordsSend.completed@POLYN168768 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/MultiRecordsSend.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method numResidentSends list of called methods Object monObjet|int sendQueue_sizeN169120"
 }} 
 ,
 { "ligne" : {"" : ""

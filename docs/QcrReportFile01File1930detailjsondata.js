@@ -1177,7 +1177,7 @@ var maDataBlocs = {
  , "c1" : "00731"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#731"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00731] For method runOnce list of called methods Object monObjet|long pollPhaseN368330|long advanceNowAndComputeLatencyN369651|int taskManager_punctuateN370307|long advanceNowAndComputeLatencyN370443|int maybeCommitN370938"
+ , "c3" : "QC-JAV000007[00731] For method runOnce list of called methods Object monObjet|long pollPhaseN368330|boolean taskManager_processN369528|long advanceNowAndComputeLatencyN369651|int taskManager_punctuateN370307|long advanceNowAndComputeLatencyN370443|int maybeCommitN370938"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1429,7 +1429,7 @@ var maDataBlocs = {
  , "c1" : "00902"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#902"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00902] For method pollPhase list of called methods Object monObjet|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376169|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376341|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376565|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376729|long advanceNowAndComputeLatencyN377088|int records_countN377162"
+ , "c3" : "QC-JAV000007[00902] For method pollPhase list of called methods Object monObjet|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376169|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376341|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376565|ConsumerRecords&lt;byte[],byte[]&gt; pollRequestsN376729|long advanceNowAndComputeLatencyN377088"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1898,6 +1898,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.addToResetList@POLYN382395"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.runOnce@POLYN368116"
 }} 
 ,
@@ -1955,13 +1962,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.activeTaskMap@POLYN390177"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamThread.addToResetList@POLYN382395"
 }} 
 ,
 { "ligne" : {"" : ""

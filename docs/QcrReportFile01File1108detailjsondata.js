@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java 295 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java 300 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -264,6 +264,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999995"
+ , "c3" : "Recursivity with depth over 1 between method xx and method yy"
+ , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "88"
@@ -280,7 +287,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -499,7 +506,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method performTaskAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.ClusterAssignment assignmentN311957|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN312877|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN313082|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN313762|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN314712|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; computeDeletedN314859|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN315324|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; performTaskRevocationN316248|int toExplicitlyRevoke_sizeN316967|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks computePreviousAssignmentN318427|java.util.Set&lt;K&gt; memberAssignments_keySetN318632"
+ , "c3" : "QC-JAV000007[00001] For method performTaskAssignment list of called methods Object monObjet|org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.ClusterAssignment assignmentN311957|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN312877|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks diffN313082|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN313762|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN314712|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; computeDeletedN314859|java.util.List&lt;org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.WorkerLoad&gt; workerAssignmentN315324|java.util.Map&lt;java.lang.String,org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks&gt; performTaskRevocationN316248|org.apache.kafka.connect.runtime.distributed.WorkerCoordinator.ConnectorsAndTasks computePreviousAssignmentN318427"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1045,7 +1052,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method performTaskRevocation list of called methods Object monObjet|int existingWorkers_sizeN332736|int completeWorkerAssignment_sizeN332813|int existing_connectorsSizeN335220|int existing_connectorsSizeN335333|int existing_tasksSizeN336096|int existing_tasksSizeN336326"
+ , "c3" : "QC-JAV000007[00001] For method performTaskRevocation list of called methods Object monObjet|int existing_connectorsSizeN335220|int existing_connectorsSizeN335333|int existing_tasksSizeN336096|int existing_tasksSizeN336326"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1696,6 +1703,34 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 ending with method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.assignConnectors@POLYN342184"
 }} 
 ,
@@ -1737,15 +1772,22 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 ending with method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1788,6 +1830,139 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.performTaskAssignment@POLYN308974 the MagicNumber/String 'Performing task assignment during generation: {} with memberId: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String ',' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Assigning connector id {} to member {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Assigning lost tasks to {} candidate workers: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Assigning task id {} to member {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Delayed rebalance expired. Reassigning lost tasks' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Delayed rebalance in progress. Task reassignment is postponed. New computed rebalance delay: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Found the following connectors and tasks missing from previous assignments: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'No single candidate worker was found to assign lost tasks. Treating lost tasks as new tasks' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'No worker seems to have departed the group during the rebalance. The ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Resetting rebalance delay to the max: {}. scheduledRebalance: {} now: {} diff scheduledRebalance - now: {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Will reassign missing tasks as new tasks' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'missing assignments that the leader is detecting are probably due to some ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'workers failing to receive the new assignments in the previous rebalance. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 'Resetting delay from previous value: {} to 0' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2229,139 +2404,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#852"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00852] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.performAssignment@POLYN305686 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String ',' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Assigning connector id {} to member {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Assigning lost tasks to {} candidate workers: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Assigning task id {} to member {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Delayed rebalance expired. Reassigning lost tasks' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Delayed rebalance in progress. Task reassignment is postponed. New computed rebalance delay: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Found the following connectors and tasks missing from previous assignments: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'No single candidate worker was found to assign lost tasks. Treating lost tasks as new tasks' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'No worker seems to have departed the group during the rebalance. The ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Resetting rebalance delay to the max: {}. scheduledRebalance: {} now: {} diff scheduledRebalance - now: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'Will reassign missing tasks as new tasks' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'missing assignments that the leader is detecting are probably due to some ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 'workers failing to receive the new assignments in the previous rebalance. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.handleLostAssignments@POLYN326170 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 'Resetting delay from previous value: {} to 0' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/IncrementalCooperativeAssignor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor.resetDelay@POLYN330478 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

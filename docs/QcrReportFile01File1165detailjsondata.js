@@ -1912,14 +1912,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN244352"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN244352"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1941,34 +1941,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#421"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.updateConnectorTasks@POLYN250653 the MagicNumber/String 'Skipping update of connector {} since it is not running' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String 'Herder stopping' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String 30 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String 'Herder stopped' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2081,6 +2053,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#354"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.restartConnectorAndTasks@POLYN244352 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String 'Herder stopping' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String 30 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00124"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#124"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.connect.runtime.standalone.StandaloneHerder.stop@POLYN233515 the MagicNumber/String 'Herder stopped' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

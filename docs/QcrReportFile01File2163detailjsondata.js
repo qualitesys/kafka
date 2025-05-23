@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 204 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 203 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -338,7 +338,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -352,7 +352,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1677,6 +1677,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN431142"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.commit@POLYN428427"
 }} 
 ,
@@ -1702,31 +1709,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.backwardFetch@POLYN458866"
+ , "c1" : "00685"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#685"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00685] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN431142 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.fetch@POLYN458424"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.backwardFetchAll@POLYN459650"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade.fetchAll@POLYN459308"
+ , "c1" : "00696"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#696"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00696] In the recursive method org.apache.kafka.streams.TopologyTestDriver.captureOutputsAndReEnqueueInternalResults@POLYN431142 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

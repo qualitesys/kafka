@@ -241,7 +241,7 @@ var maDataBlocs = {
  , "c1" : "00081"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGrouper.java.html#81"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN170316|int partitions_sizeN170679"
+ , "c3" : "QC-JAV000007[00081] For method maxNumPartitions list of called methods Object monObjet|int metadata_partitionsForTopicN170316"
 }} 
 ,
 { "ligne" : {"" : ""

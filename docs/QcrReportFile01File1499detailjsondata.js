@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2305 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2255 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -711,41 +711,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1509859.r" }
-,
-{ "ligne" :  "R1:java.util.concurrent.ConcurrentHashMap.computeIfAbsent@POLYN1509859.f" }
-,
-{ "ligne" :  "R2:java.util.concurrent.ConcurrentHashMap.compute@POLYN1521524.r" }
-,
-{ "ligne" :  "R3:java.util.concurrent.ConcurrentHashMap.compute@POLYN1521524.f" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "10"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "3"
 }}
 ,
@@ -789,13 +759,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "100"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1011,13 +974,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00700"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#700"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00700] For method comparableClassFor list of called methods Object monObjet|java.lang.Class&lt;?&gt; x_getClassN1459577|java.lang.reflect.Type[] c_getGenericInterfacesN1459740"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00703"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#703"
  , "c2" : "MAJOR"
@@ -1193,13 +1149,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00903"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#903"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00903] For method size list of called methods Object monObjet|long sumCountN1467862"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00905"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#905"
  , "c2" : "MAJOR"
@@ -1225,13 +1174,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#928"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00928] For method get arguments Object  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00928"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#928"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00928] For method get list of called methods Object monObjet|int spreadN1469066|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; e_findN1470076"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1396,13 +1338,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00971"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#971"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00971] For method containsValue list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1472232"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00975"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#975"
  , "c2" : "MAJOR"
@@ -1498,13 +1433,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1004"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01004] For method putVal arguments K  key|V  value|boolean  onlyIfAbsent"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01004"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1004"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01004] For method putVal list of called methods Object monObjet|int spreadN1473610|Node&lt;K,V&gt;[] initTableN1474184|Node&lt;K,V&gt;[] helpTransferN1474899"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1860,13 +1788,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01099"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1099"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01099] For method replaceNode list of called methods Object monObjet|int spreadN1478996|Node&lt;K,V&gt;[] helpTransferN1479863|java.util.concurrent.ConcurrentHashMap.TreeNode&lt;K,V&gt; r_findTreeNodeN1482325"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01099"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1099"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01099] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2201,13 +2122,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01173"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01173] For method clear list of called methods Object monObjet|Node&lt;K,V&gt;[] helpTransferN1484427"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01179"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1179"
  , "c2" : "MAJOR"
@@ -2397,13 +2311,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01280"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1280"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01280] For method hashCode list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1489596"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01283"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1283"
  , "c2" : "MAJOR"
@@ -2443,13 +2350,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1285"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01285] In method java.util.concurrent.ConcurrentHashMap.hashCode@POLYN1488934 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01302"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1302"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01302] For method toString list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1490960|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1491690"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2569,13 +2469,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1334"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01334] For method equals arguments Object  o"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01334"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1334"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01334] For method equals list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1493269"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2716,13 +2609,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1380"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01380] For method writeObject arguments java.io.ObjectOutputStream  s"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01380"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1380"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01380] For method writeObject list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1497298"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2870,13 +2756,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1422"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01422] For method readObject arguments java.io.ObjectInputStream  s"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01422"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1422"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01422] For method readObject list of called methods Object monObjet|int tableSizeForN1499707"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3426,13 +3305,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01585"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1585"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01585] For method forEach list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1507392"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01588"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1588"
  , "c2" : "MAJOR"
@@ -3479,13 +3351,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1596"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01596] For method replaceAll arguments BiFunction&lt;? super K ,? super V ,?  extends V &gt;  function"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01596"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1596"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01596] For method replaceAll list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1508395"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3591,13 +3456,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1637"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01637] For method computeIfAbsent arguments K  key|Function&lt;? super K ,?  extends V &gt;  mappingFunction"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01637"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1637"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01637] For method computeIfAbsent list of called methods Object monObjet|int spreadN1510188|Node&lt;K,V&gt;[] initTableN1510821|Node&lt;K,V&gt;[] helpTransferN1512294"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4063,13 +3921,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01738"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1738"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01738] For method computeIfPresent list of called methods Object monObjet|int spreadN1516501|Node&lt;K,V&gt;[] initTableN1517193|Node&lt;K,V&gt;[] helpTransferN1517620|java.util.concurrent.ConcurrentHashMap.TreeNode&lt;K,V&gt; r_findTreeNodeN1519926"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01746"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1746"
  , "c2" : "MAJOR"
@@ -4375,13 +4226,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1828"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01828] For method compute arguments K  key|BiFunction&lt;? super K ,? super V ,?  extends V &gt;  remappingFunction"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01828"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1828"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01828] For method compute list of called methods Object monObjet|int spreadN1521875|Node&lt;K,V&gt;[] initTableN1522567|Node&lt;K,V&gt;[] helpTransferN1524138"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4896,13 +4740,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01954"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1954"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01954] For method merge list of called methods Object monObjet|int spreadN1529594|Node&lt;K,V&gt;[] initTableN1530286|Node&lt;K,V&gt;[] helpTransferN1531129"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01962"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1962"
  , "c2" : "MAJOR"
@@ -5358,13 +5195,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02100"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02100] For method mappingCount list of called methods Object monObjet|long sumCountN1537490"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02102"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2102"
  , "c2" : "MAJOR"
@@ -5736,13 +5566,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02250"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2250"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02250] For method addCount list of called methods Object monObjet|long sumCountN1546085|int resizeStampN1546679|long sumCountN1547759"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02252"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2252"
  , "c2" : "MAJOR"
@@ -5932,13 +5755,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02291"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2291"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02291] For method helpTransfer list of called methods Object monObjet|int resizeStampN1548522"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02294"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2294"
  , "c2" : "MAJOR"
@@ -5999,13 +5815,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2316"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02316] For method tryPresize arguments int  size"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02316"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2316"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02316] For method tryPresize list of called methods Object monObjet|int resizeStampN1551504"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7423,13 +7232,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02673"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2673"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02673] For method findTreeNode list of called methods Object monObjet|java.lang.Class&lt;?&gt; comparableClassForN1574539|int compareComparablesN1574663|java.util.concurrent.ConcurrentHashMap.TreeNode&lt;K,V&gt; pr_findTreeNodeN1574981"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02677"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2677"
  , "c2" : "MAJOR"
@@ -7994,13 +7796,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2863"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02863] For method putTreeVal arguments int  h|K  k|V  v"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02863"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2863"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02863] For method putTreeVal list of called methods Object monObjet|java.lang.Class&lt;?&gt; comparableClassForN1585454|int compareComparablesN1585578|java.util.concurrent.ConcurrentHashMap.TreeNode&lt;K,V&gt; ch_findTreeNodeN1586081|java.util.concurrent.ConcurrentHashMap.TreeNode&lt;K,V&gt; ch_findTreeNodeN1586374|int tieBreakOrderN1586573"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -10076,13 +9871,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03630"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3630"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03630] For method batchFor list of called methods Object monObjet|long sumCountN1631290"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03632"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3632"
  , "c2" : "MAJOR"
@@ -11413,13 +11201,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04404"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4404"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04404] For method toArray list of called methods Object monObjet|long map_mappingCountN1664605"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04410"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4410"
  , "c2" : "MAJOR"
@@ -11504,13 +11285,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04467"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4467"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04467] For method toString list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN1668693"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04473"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4473"
  , "c2" : "MAJOR"
@@ -11588,13 +11362,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04493"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4493"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04493] For method removeAll list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN1670146"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04494"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4494"
  , "c2" : "MAJOR"
@@ -11620,13 +11387,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4505"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04505] For method retainAll arguments Collection&lt;? &gt;  c"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04505"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4505"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04505] For method retainAll list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN1670825"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11798,13 +11558,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04629"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4629"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04629] For method spliterator list of called methods Object monObjet|long m_sumCountN1676333"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04633"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4633"
  , "c2" : "MAJOR"
@@ -11844,13 +11597,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4637"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04637] For method forEach arguments Consumer&lt;? super K &gt;  action"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04637"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4637"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04637] For method forEach list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1677593"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -11910,13 +11656,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04661"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4661"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04661] For method remove list of called methods Object monObjet|java.util.Iterator&lt;V&gt; iteratorN1678687"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04662"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4662"
  , "c2" : "MAJOR"
@@ -11973,13 +11712,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04687"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4687"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04687] For method spliterator list of called methods Object monObjet|long m_sumCountN1680210"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04691"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4691"
  , "c2" : "MAJOR"
@@ -12019,13 +11751,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4695"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04695] For method forEach arguments Consumer&lt;? super V &gt;  action"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04695"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4695"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04695] For method forEach list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1681470"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -12218,13 +11943,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04756"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4756"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04756] For method hashCode list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1685990|int p_hashCodeN1686105"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04759"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4759"
  , "c2" : "MAJOR"
@@ -12281,13 +11999,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "04775"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4775"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04775] For method spliterator list of called methods Object monObjet|long m_sumCountN1687003"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "04779"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4779"
  , "c2" : "MAJOR"
@@ -12327,13 +12038,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4783"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04783] For method forEach arguments Consumer&lt;? super Map.Entry&lt;K ,V &gt; &gt;  action"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04783"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4783"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04783] For method forEach list of called methods Object monObjet|java.util.concurrent.ConcurrentHashMap.Node&lt;K,V&gt; it_advanceN1688330"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -16849,97 +16553,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6262"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[06262] In method java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToIntTask.compute@POLYN1800309 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.util.concurrent.ConcurrentHashMap.spread@POLYN1458055"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.util.concurrent.ConcurrentHashMap.mappingCount@POLYN1537413"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00681"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00681] In the recursive method java.util.concurrent.ConcurrentHashMap.spread@POLYN1458055 the MagicNumber/String 16 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02102"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02102] In the recursive method java.util.concurrent.ConcurrentHashMap.mappingCount@POLYN1537413 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02102"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#2102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[02102] In the recursive method java.util.concurrent.ConcurrentHashMap.mappingCount@POLYN1537413 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01597"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1597"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01597] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01599"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1599"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01599] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01600"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1600"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01600] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01601"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01601] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01605"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1605"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01605] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01607"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1607"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01607] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01608"
- , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#1608"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01608] In the recursive method java.util.concurrent.ConcurrentHashMap.replaceAll@POLYN1507593 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

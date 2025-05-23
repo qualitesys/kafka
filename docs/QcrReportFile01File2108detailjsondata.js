@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java 162 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java 174 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -371,17 +371,184 @@ var maDataBlocs = {
 ]
 ,
 "data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 (R0 in line [00505])" }
+,
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 (R1 in line [00541])" }
+,
+{ "ligne" : "S0:org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229.dummymethode_00542" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.RocksDBStore.putIfAbsent@POLYN268720 (R0 in line [00315])" }
+,
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242 (R0 in line [00305],R2 in line [00305],R3 in line [00305])" }
+,
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242.dummymethode_00307" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 (R1 in line [00541])" }
+,
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 (R1 in line [00541])" }
+,
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 (R0 in line [00505])" }
+,
+{ "ligne" : "S2:org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961.dummymethode_00507" }
+ ]
+ } }
 ]
 ,
 "data12c" : [
+{ "sequence " : {
+     "noseq" : "1" ,
+     "lignes" : [ 
+{ "ligne" : { 
+    "pas" : "1"
+ ,  "c1" : "R0"
+ ,  "c2" : "R1"
+ ,  "c3" : ""
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "2"
+ ,  "c1" : "1"
+ ,  "c2" : ""
+ ,  "c3" : "S0 org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961/line[00505]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "3"
+ ,  "c1" : ""
+ ,  "c2" : "2"
+ ,  "c3" : "S0 org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229/line[00541]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "4"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S0 org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229.dummymethode_00542"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "5"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : ""
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "6"
+ ,  "c1" : "1"
+ ,  "c2" : ""
+ ,  "c3" : "S1 org.apache.kafka.streams.state.internals.RocksDBStore.putIfAbsent@POLYN268720/line[00315]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "7"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S1 org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242/line[00305]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "8"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S1 org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242/line[00305]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "9"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S1 org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242/line[00305]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "10"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S1 org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242.dummymethode_00307"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "11"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : ""
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "12"
+ ,  "c1" : ""
+ ,  "c2" : "1"
+ ,  "c3" : "S2 org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229/line[00541]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "13"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S2 org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229/line[00541]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "14"
+ ,  "c1" : "2"
+ ,  "c2" : ""
+ ,  "c3" : "S2 org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961/line[00505]"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "15"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : "S2 org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961.dummymethode_00507"
+  } //  fin detail ligne
+} // fin ligne
+,
+{ "ligne" : { 
+    "pas" : "16"
+ ,  "c1" : ""
+ ,  "c2" : ""
+ ,  "c3" : ""
+  } //  fin detail ligne
+} // fin ligne
+  ] // fin lignes
+ }} // fin sequence
 ]
 , 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999995"
  , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
+ , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -402,7 +569,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1348,6 +1515,41 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.streams.state.internals.RocksDBStore.this"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.streams.state.internals.RocksDBStore.openIterators"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242.key"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242.value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Potential deadlock between R0 and R1"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229"
 }} 
@@ -1355,8 +1557,57 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 ending with method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 ending with method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBStore.write@POLYN276771"
 }} 
 ,
 { "ligne" : {"" : ""

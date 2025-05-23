@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java 7 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -140,30 +140,9 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN166216"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method next list of called methods Object monObjet|long batch_lastOffsetN166744"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#64"
@@ -183,13 +162,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#114"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.raft.internals.RecordsBatchReader.ensureOpen@POLYN168007 the MagicNumber/String  'Records batch reader was closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00118"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsBatchReader.java.html#118"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00118] For method nextBatch list of called methods Object monObjet|org.apache.kafka.raft.Batch&lt;T&gt; iterator_nextN168390|long batch_lastOffsetN168553"
 }} 
 ,
 { "ligne" : {"" : ""

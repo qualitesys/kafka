@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java 17 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -111,13 +111,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -161,13 +154,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#81"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00081] For method process arguments Record&lt;KIn ,Change&lt;VIn &gt; &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KTableAggregate.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method process list of called methods Object monObjet|VA initializer_applyN174796"
 }} 
 ,
 { "ligne" : {"" : ""

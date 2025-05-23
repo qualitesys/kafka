@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 63 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 62 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,7 +190,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -375,13 +375,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00188] For method configKeysForEntityType arguments Map&lt;String ,String &gt;  entity|Map&lt;String ,ConfigDef.ConfigKey &gt;  output"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#188"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method configKeysForEntityType list of called methods Object monObjet|boolean entity_containsKeyN216461|boolean entity_containsKeyN216565|boolean entity_containsKeyN216669"
 }} 
 ,
 { "ligne" : {"" : ""

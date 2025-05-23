@@ -244,7 +244,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -286,7 +286,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -569,13 +569,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#259"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00259] For method removeTask arguments TaskId  taskId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#259"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method removeTask list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.common.TopicPartition&gt; task_changelogPartitionsN239807"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -947,6 +940,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.maybeCheckpointUpdatingTasks@POLYN242116"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/DefaultStateUpdater.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.DefaultStateUpdater.StateUpdaterThread.clear@POLYN237582"
 }} 
 ,
 { "ligne" : {"" : ""

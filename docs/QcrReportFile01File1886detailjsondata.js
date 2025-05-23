@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java 84 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java 81 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -204,7 +204,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "28"
+ , "c4" : "27"
 }}
 ,
 { "ligne" : { "" : ""
@@ -218,7 +218,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "8"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -239,7 +239,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -354,13 +354,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#250"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00250] For method initialize list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; stateMaintainer_initializeN220558"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#259"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00259] For method pollAndUpdate list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerRecords&lt;K,V&gt; globalConsumer_pollN221168"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -598,13 +591,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN221716"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.GlobalStreamThread.closeStateConsumer@POLYN226872"
 }} 
 ,
@@ -697,13 +683,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#420"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00420] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.initialize@POLYN224867 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalStreamThread.java.html#277"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.processor.internals.GlobalStreamThread.StateConsumer.close@POLYN221716 the MagicNumber/String 'Failed to close global consumer due to the following error:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 406 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 403 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -577,7 +577,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "53"
+ , "c4" : "52"
 }}
 ,
 { "ligne" : { "" : ""
@@ -591,7 +591,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "17"
+ , "c4" : "16"
 }}
 ,
 { "ligne" : { "" : ""
@@ -626,7 +626,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "10"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -1405,7 +1405,7 @@ var maDataBlocs = {
  , "c1" : "00701"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#701"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00701] For method run list of called methods Object monObjet|org.apache.kafka.controller.ControllerResult&lt;T&gt; op_generateRecordsAndResultN454560"
+ , "c3" : "QC-JAV000007[00701] For method run list of called methods Object monObjet|java.util.OptionalLong purgatory_highestPendingOffsetN454797"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1861,13 +1861,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1017"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01017] In method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.appendRaftEvent@POLYN467689 the MagicNumber/String  'Ignoring {} raft event from an old registration' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01029"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1029"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01029] For method maybeCompleteAuthorizerInitialLoad list of called methods Object monObjet|java.util.OptionalLong raftClient_highWatermarkN468333"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3050,13 +3043,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN457076"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473779"
 }} 
 ,
@@ -3373,13 +3359,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#564"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00770"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#770"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00770] In the recursive method org.apache.kafka.controller.QuorumController.ControllerWriteEvent.complete@POLYN457076 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

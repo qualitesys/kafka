@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java 107 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java 94 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -273,16 +273,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "20"
+ , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -317,7 +310,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -446,13 +439,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;? ,? &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorRecordContext context_recordContextN238126|org.apache.kafka.streams.processor.internals.ProcessorRecordContext context_recordContextN239054"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -857,50 +843,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127 ending with method org.apache.kafka.streams.state.internals.CachingKeyValueStore.get@POLYN243342"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.CachingKeyValueStore.get@POLYN243342"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.CachingKeyValueStore.get@POLYN243342 ending with method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.CachingKeyValueStore.get@POLYN243342"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CachingKeyValueStore.range@POLYN245247"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CachingKeyValueStore.flush@POLYN250090"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -914,7 +858,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CachingKeyValueStore.flush@POLYN250090"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CachingKeyValueStore.range@POLYN245247"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -932,45 +876,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#366"
+ , "c1" : "00426"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#426"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00366] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00367"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#367"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00367] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00370"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#370"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00370] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00372"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#372"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00372] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00373"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00373] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.getInternal@POLYN244127 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.get@POLYN243342 the MagicNumber/String 'key cannot be null' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00426] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.all@POLYN247467 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1013,13 +922,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#400"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00400] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.range@POLYN245247 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00426"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#426"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00426] In the recursive method org.apache.kafka.streams.state.internals.CachingKeyValueStore.all@POLYN247467 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

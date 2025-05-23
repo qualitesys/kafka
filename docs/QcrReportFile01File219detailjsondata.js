@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 384 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 387 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -792,8 +792,6 @@ var maDataBlocs = {
 { "ligne" :  "R30:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN347026.partitions" }
 ,
 { "ligne" :  "R31:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestOffsetReset@POLYN347026.offsetResetStrategy" }
-,
-{ "ligne" :  "R32:org.apache.kafka.clients.consumer.internals.SubscriptionState.movePartitionToEnd@POLYN352385.tp" }
 ]
 ,
 "data12b" : [
@@ -808,7 +806,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S0:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S0:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -816,8 +814,6 @@ var maDataBlocs = {
 { "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902 (R0 in line [00390],R3 in line [00390],R4 in line [00390],R5 in line [00390])" }
 ,
 { "ligne" : "S1:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN334157" }
-,
-{ "ligne" : "S1:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
  ]
  } }
 ,
@@ -828,7 +824,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S2:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S2:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -853,7 +849,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S5:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S5:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S5:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -862,7 +858,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S6:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S6:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -871,7 +867,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S7:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S7:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -880,7 +876,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S8:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S8:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S8:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -889,7 +885,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S9:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S9:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S9:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -898,7 +894,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S10:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S10:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -907,7 +903,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S11:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S11:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -916,7 +912,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S12:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S12:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -925,7 +921,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S13:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S13:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -934,7 +930,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790" }
 ,
-{ "ligne" : "S14:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S14:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedState@POLYN333790.dummymethode_00371" }
  ]
  } }
 ,
@@ -942,8 +938,6 @@ var maDataBlocs = {
 { "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.requestFailed@POLYN351977 (R0 in line [00745],R28 in line [00745],R29 in line [00745])" }
 ,
 { "ligne" : "S15:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN334157" }
-,
-{ "ligne" : "S15:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
  ]
  } }
 ,
@@ -955,20 +949,11 @@ var maDataBlocs = {
  } }
 ,
 { "sequence" : { "noseq" : "17" , "pas" : [
-{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.movePartitionToEnd@POLYN352385 (R0 in line [00755],R32 in line [00755])" }
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902 (R0 in line [00390],R3 in line [00390],R4 in line [00390],R5 in line [00390])" }
 ,
-{ "ligne" : "S17:org.apache.kafka.common.internals.PartitionStates.moveToEnd@POLYN181363" }
- ]
- } }
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902 (R0 in line [00390],R3 in line [00390],R4 in line [00390],R5 in line [00390])" }
 ,
-{ "sequence" : { "noseq" : "18" , "pas" : [
-{ "ligne" : "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902 (R0 in line [00390],R3 in line [00390],R4 in line [00390],R5 in line [00390])" }
-,
-{ "ligne" : "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902 (R0 in line [00390],R3 in line [00390],R4 in line [00390],R5 in line [00390])" }
-,
-{ "ligne" : "S18:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN334157" }
-,
-{ "ligne" : "S18:org.apache.kafka.common.internals.PartitionStates.stateValue@POLYN183565" }
+{ "ligne" : "S17:org.apache.kafka.clients.consumer.internals.SubscriptionState.assignedStateOrNull@POLYN334157" }
  ]
  } }
 ]
@@ -988,7 +973,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE833"
  , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "33"
+ , "c4" : "32"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1002,7 +987,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "19"
+ , "c4" : "21"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1016,7 +1001,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3586,22 +3571,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R32 : org.apache.kafka.clients.consumer.internals.SubscriptionState.movePartitionToEnd@POLYN352385.tp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeCompleteValidation@POLYN338762"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3615,7 +3586,28 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.maybeSeekUnvalidated@POLYN334902"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN348330"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.isAssigned@POLYN350740"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.SubscriptionState.movePartitionToEnd@POLYN352385"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3703,6 +3695,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00224"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#224"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN327533 the MagicNumber/String false MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00233] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN327533 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#392"
  , "c2" : "BLOCKER"
@@ -3738,17 +3744,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#224"
+ , "c1" : "00674"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#674"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00224] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN327533 the MagicNumber/String false MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00674] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN348330 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00233"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#233"
+ , "c1" : "00677"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#677"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00233] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.assignFromUser@POLYN327533 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00677] In the recursive method org.apache.kafka.clients.consumer.internals.SubscriptionState.hasAllFetchPositions@POLYN348330 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

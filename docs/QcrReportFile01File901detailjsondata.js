@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java 104 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java 94 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -333,35 +333,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -383,13 +360,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "29"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "8"
 }}
  ] 
 ,
@@ -425,13 +395,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method addToListTail list of called methods Object monObjet|int head_prevN256787|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN256864|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN256996"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#124"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00124] The argument head is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -441,13 +404,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#134"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00134] For method removeFromList arguments Element  head|Element[]  elements|int  elementIdx"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00134"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#134"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00134] For method removeFromList list of called methods Object monObjet|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN257536|int element_prevN257753|int element_nextN257830|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN257907|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN258039"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -647,13 +603,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#348"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00348] For method find list of called methods Object monObjet|int findIndexOfEqualElementN265870"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#351"
  , "c2" : "MAJOR"
@@ -700,13 +649,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#393"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00393] For method add arguments E  newElement"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00393"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#393"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00393] For method add list of called methods Object monObjet|int addInternalN267878"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -836,13 +778,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#442"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00442] For method changeCapacity list of called methods Object monObjet|java.util.Iterator&lt;E&gt; iteratorN270051|int addInternalN270305"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00447"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#447"
  , "c2" : "MAJOR"
@@ -854,13 +789,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#465"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00465] For method remove arguments Object  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00465"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#465"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00465] For method remove list of called methods Object monObjet|int findElementToRemoveN270987"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -948,13 +876,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#511"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00511] For method reseat list of called methods Object monObjet|int slotN272888|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN273652|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN273875"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#515"
  , "c2" : "MAJOR"
@@ -1015,13 +936,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#575"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00575] For method moveToEnd arguments E  element"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00575"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#575"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00575] For method moveToEnd list of called methods Object monObjet|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN275684|org.apache.kafka.common.utils.ImplicitLinkedHashCollection.Element indexToElementN275836|int prevElement_nextN275988"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1106,20 +1020,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#686"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00686] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN264009"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#309"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.common.utils.ImplicitLinkedHashCollection.slot@POLYN264009 the MagicNumber/String 0x7fffffff MUST BE CONVERTED to const"
 }} 
 ]
 , 

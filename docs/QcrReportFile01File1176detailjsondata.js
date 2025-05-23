@@ -225,7 +225,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171435 (R0 in line [00063],R2 in line [00063])" }
 ,
-{ "ligne" : "S0:java.util.HashMap.remove@POLYN661426" }
+{ "ligne" : "S0:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171435.dummymethode_00065" }
  ]
  } }
 ,
@@ -234,7 +234,7 @@ var maDataBlocs = {
 ,
 { "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959 (R0 in line [00076],R4 in line [00076])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.connect.util.Table.remove@POLYN160219" }
+{ "ligne" : "S1:org.apache.kafka.connect.storage.MemoryStatusBackingStore.put@POLYN171959.dummymethode_00078" }
  ]
  } }
 ]

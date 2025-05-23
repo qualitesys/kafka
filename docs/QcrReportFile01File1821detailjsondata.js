@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java 27 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -90,28 +90,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -126,13 +110,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
 }}
  ] 
 ,
@@ -149,13 +126,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#55"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessorSupplier@POLYN188134 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00064] For method view list of called methods Object monObjet|org.apache.kafka.streams.kstream.internals.KTableValueGetterSupplier&lt;K,V&gt; parentKTable_valueGetterSupplierN189048|org.apache.kafka.streams.kstream.internals.KTableValueGetter&lt;K,V&gt; parentValueGetterSupplier_getN189355|java.lang.String[] parentValueGetterSupplier_storeNamesN190565"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -210,13 +180,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00142"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#142"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00142] For method init list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor ProcessorNodeMetrics_suppressionEmitSensorN193155"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#142"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00142] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -240,13 +203,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#163"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00163] For method buffer arguments Record&lt;K ,Change&lt;V &gt; &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00163] For method buffer list of called methods Object monObjet|long bufferTimeDefinition_timeN194199"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -317,13 +273,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#216"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.shouldForward@POLYN196597 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/suppress/KTableSuppressProcessorSupplier.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.kstream.internals.suppress.KTableSuppressProcessorSupplier.KTableSuppressProcessor.KTableSuppressProcessor@POLYN192022"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 158 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 157 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -771,13 +771,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#484"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00484] For method responseDataToLogString arguments Set&lt;TopicPartition &gt;  topicPartitions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#484"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00484] For method responseDataToLogString list of called methods Object monObjet|int sessionPartitions_sizeN270744"
 }} 
 ,
 { "ligne" : {"" : ""

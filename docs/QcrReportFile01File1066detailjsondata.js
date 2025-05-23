@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java 100 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java 99 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -195,7 +195,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "4"
+ , "c4" : "3"
 }}
  ] 
 ,
@@ -561,7 +561,7 @@ var maDataBlocs = {
  , "c1" : "00409"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#409"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00409] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN271724|org.apache.kafka.common.config.ConfigDef populateConfigDefN274074"
+ , "c3" : "QC-JAV000007[00409] For method enrich list of called methods Object monObjet|java.lang.Object ConfigDef_parseTypeN271724"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -768,13 +768,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00451"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#451"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00451] For method populateConfigDef list of called methods Object monObjet|org.apache.kafka.common.config.ConfigDef initialConfigDefN274654"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#461"
  , "c2" : "MAJOR"
@@ -799,7 +792,7 @@ var maDataBlocs = {
  , "c1" : "00488"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#488"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00488] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN277255|org.apache.kafka.common.config.ConfigDef configN278124"
+ , "c3" : "QC-JAV000007[00488] For method getConfigDefFromConfigProvidingClass list of called methods Object monObjet|boolean Utils_isBlankN277255|boolean configN278124"
 }} 
 ,
 { "ligne" : {"" : ""

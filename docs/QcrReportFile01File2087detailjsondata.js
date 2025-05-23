@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java 65 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -261,35 +261,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -305,13 +282,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "16"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
@@ -320,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#114"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00114] For method init arguments ProcessorContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN230245|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_restoreSensorN230527"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,13 +316,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#130"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00130] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN231191|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_restoreSensorN231473"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#130"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00130] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -379,13 +335,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method registerMetrics list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_putSensorN232142|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_fetchSensorN232333|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_flushSensorN232524|org.apache.kafka.common.metrics.Sensor StateStoreMetrics_e2ELatencySensorN232715"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#156"
  , "c2" : "MINOR"
@@ -393,24 +342,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00156] For method initStoreSerde list of called methods Object monObjet|java.lang.String nameN232994|java.lang.String ProcessorContextUtils_changelogForN233068"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#165"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00165] For method initStoreSerde arguments StateStoreContext  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#165"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00165] For method initStoreSerde list of called methods Object monObjet|java.lang.String nameN233615|java.lang.String ProcessorContextUtils_changelogForN233689"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -754,20 +689,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#494"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.streams.state.internals.MeteredWindowStore.maybeRecordE2ELatency@POLYN248220 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.MeteredWindowStore.maybeRecordE2ELatency@POLYN248220"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00494"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MeteredWindowStore.java.html#494"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00494] In the recursive method org.apache.kafka.streams.state.internals.MeteredWindowStore.maybeRecordE2ELatency@POLYN248220 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -646,7 +646,7 @@ var maDataBlocs = {
  , "c1" : "00378"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractWorkerSourceTask.java.html#378"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00378] For method sendRecords list of called methods Object monObjet|int toSend_sizeN277077|ProducerRecord&lt;byte[],byte[]&gt; convertTransformedRecordN277607|java.util.Optional&lt;SubmittedRecords.SubmittedRecord&gt; prepareToSendRecordN278190"
+ , "c3" : "QC-JAV000007[00378] For method sendRecords list of called methods Object monObjet|ProducerRecord&lt;byte[],byte[]&gt; convertTransformedRecordN277607|java.util.Optional&lt;SubmittedRecords.SubmittedRecord&gt; prepareToSendRecordN278190"
 }} 
 ,
 { "ligne" : {"" : ""

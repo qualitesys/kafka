@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java 175 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java 174 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -125,13 +125,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -582,13 +575,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#305"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00305] Lock statement on synchronized method totalReceived"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/RoundTripWorker.java.html#309"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00309] For method log list of called methods Object monObjet|int pending_sizeN236004"
 }} 
 ,
 { "ligne" : {"" : ""

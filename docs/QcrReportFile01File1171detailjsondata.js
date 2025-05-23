@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 344 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 342 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -496,7 +496,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "13"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -625,13 +625,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#321"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00321] For method setUpdateListener arguments ConfigBackingStore.UpdateListener  listener"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#326"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00326] For method start list of called methods Object monObjet|int configLog_partitionCountN375707"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1402,13 +1395,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#753"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00753] For method onCompletion arguments Throwable  error|ConsumerRecord&lt;String ,byte[] &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00753"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#753"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00753] For method onCompletion list of called methods Object monObjet|long record_offsetN398493"
 }} 
 ,
 { "ligne" : {"" : ""

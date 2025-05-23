@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedCogroupedKStreamImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedCogroupedKStreamImpl.java 34 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedCogroupedKStreamImpl.java 33 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -136,13 +136,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -263,13 +256,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedCogroupedKStreamImpl.java.html#101"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00101] For method materialize arguments MaterializedInternal&lt;K ,V ,WindowStore&lt;Bytes ,byte[] &gt; &gt;  materialized"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/SlidingWindowedCogroupedKStreamImpl.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method materialize list of called methods Object monObjet|org.apache.kafka.streams.state.WindowBytesStoreSupplier Stores_inMemoryWindowStoreN183014|org.apache.kafka.streams.state.WindowBytesStoreSupplier Stores_persistentTimestampedWindowStoreN183342"
 }} 
 ,
 { "ligne" : {"" : ""

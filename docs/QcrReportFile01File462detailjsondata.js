@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 158 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java 167 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -424,9 +424,9 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.common.metrics.Metrics.this" }
+{ "ligne" :  "R0:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714.sensor" }
 ,
-{ "ligne" :  "R1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714.sensor" }
+{ "ligne" :  "R1:org.apache.kafka.common.metrics.Metrics.this" }
 ,
 { "ligne" :  "R2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN313647.reporter" }
 ,
@@ -434,6 +434,39 @@ var maDataBlocs = {
 ]
 ,
 "data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:org.apache.kafka.common.metrics.Metrics.ExpireSensorTask.run@POLYN315879" }
+,
+{ "ligne" : "S0:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 (R0 in line [00449],R1 in line [00450])" }
+,
+{ "ligne" : "S0:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714.dummymethode_00448" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.ExpireSensorTask.run@POLYN315879" }
+,
+{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 (R0 in line [00449],R1 in line [00450])" }
+,
+{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 (R0 in line [00449],R1 in line [00450])" }
+,
+{ "ligne" : "S1:org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714.dummymethode_00448" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "2" , "pas" : [
+{ "ligne" : "S2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN313647 (R1 in line [00576],R2 in line [00576])" }
+,
+{ "ligne" : "S2:org.apache.kafka.common.metrics.Metrics.addReporter@POLYN313647.dummymethode_00577" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "3" , "pas" : [
+{ "ligne" : "S3:org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN314003 (R1 in line [00584],R3 in line [00584])" }
+,
+{ "ligne" : "S3:org.apache.kafka.common.metrics.JmxReporter.close@POLYN209993" }
+ ]
+ } }
 ]
 ,
 "data12c" : [
@@ -442,9 +475,16 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "18"
+ , "c4" : "22"
 }}
 ,
 { "ligne" : { "" : ""
@@ -458,7 +498,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1439,8 +1479,50 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714.sensor"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.common.metrics.Metrics.this"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.common.metrics.Metrics.addReporter@POLYN313647.reporter"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : org.apache.kafka.common.metrics.Metrics.removeReporter@POLYN314003.reporter"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.registerMetric@POLYN314409"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1461,14 +1543,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.registerMetric@POLYN314409"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1479,38 +1554,52 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00412"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#412"
+ , "c1" : "00560"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#560"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#413"
+ , "c1" : "00565"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#565"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00565] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863 the MagicNumber/String 'Error when removing metric from ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00415"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#415"
+ , "c1" : "00568"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#568"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00415] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00568] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863 the MagicNumber/String 'Removed metric named {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#421"
+ , "c1" : "00447"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#447"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String 'Added sensor with name {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00447] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#243"
+ , "c1" : "00448"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#448"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.common.metrics.Metrics.metricName@POLYN297237 the MagicNumber/String '' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00448] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00454"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#454"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00454] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 the MagicNumber/String 'Removed sensor with name {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00462"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#462"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00462] In the recursive method org.apache.kafka.common.metrics.Metrics.removeSensor@POLYN307714 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1542,24 +1631,38 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#560"
+ , "c1" : "00243"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#243"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00560] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.common.metrics.Metrics.metricName@POLYN297237 the MagicNumber/String '' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00565"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#565"
+ , "c1" : "00412"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#412"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00565] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863 the MagicNumber/String 'Error when removing metric from ' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00412] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00568"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#568"
+ , "c1" : "00413"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#413"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00568] In the recursive method org.apache.kafka.common.metrics.Metrics.removeMetric@POLYN312863 the MagicNumber/String 'Removed metric named {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00415"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#415"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00415] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00421"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Metrics.java.html#421"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00421] In the recursive method org.apache.kafka.common.metrics.Metrics.sensor@POLYN305616 the MagicNumber/String 'Added sensor with name {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

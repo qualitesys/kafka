@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java 9 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -147,13 +147,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -183,13 +176,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#62"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00062] For method init arguments InternalProcessorContext&lt;KIn ,VIn &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/SourceNode.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method init list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor ProcessorNodeMetrics_processAtSourceSensorN166194"
 }} 
 ,
 { "ligne" : {"" : ""

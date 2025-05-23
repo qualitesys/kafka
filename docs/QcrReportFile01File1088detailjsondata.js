@@ -2785,6 +2785,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.start@POLYN431284"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.stopConnector@POLYN441918"
 }} 
 ,
@@ -2800,6 +2807,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.initConfigTransformer@POLYN430322"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2834,13 +2848,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.isTopicCreationEnabled@POLYN476027"
 }} 
 ,
@@ -2849,13 +2856,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.setTargetState@POLYN476318"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.Worker.start@POLYN431284"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3069,6 +3069,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00203"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#203"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN431284 the MagicNumber/String 'Worker starting' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00213"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#213"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN431284 the MagicNumber/String 'Worker started' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00423"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#423"
  , "c2" : "BLOCKER"
@@ -3150,6 +3164,55 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#183"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00183] In the recursive method org.apache.kafka.connect.runtime.Worker.initConfigTransformer@POLYN430322 the MagicNumber/String '.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00712"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00712] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Fencing out {} task producers for source connector {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00723"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00723] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'connector-worker-adminclient-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00733"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#733"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00733] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00740"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#740"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00740] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00741"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#741"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00741] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Finished fencing out {} task producers for source connector {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00742"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00742] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Zombie fencing admin for connector ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00745"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#745"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00745] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Zombie fencing admin for connector ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3251,55 +3314,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00712"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#712"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00712] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Fencing out {} task producers for source connector {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00723"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#723"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00723] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'connector-worker-adminclient-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00733"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#733"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00733] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00740"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#740"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00740] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00741"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#741"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00741] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Finished fencing out {} task producers for source connector {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00742"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#742"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00742] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Zombie fencing admin for connector ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00745"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#745"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00745] In the recursive method org.apache.kafka.connect.runtime.Worker.fenceZombies@POLYN455366 the MagicNumber/String 'Zombie fencing admin for connector ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01136"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1136"
  , "c2" : "BLOCKER"
@@ -3311,20 +3325,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#1139"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01139] In the recursive method org.apache.kafka.connect.runtime.Worker.setTargetState@POLYN476318 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN431284 the MagicNumber/String 'Worker starting' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Worker.java.html#213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.connect.runtime.Worker.start@POLYN431284 the MagicNumber/String 'Worker started' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

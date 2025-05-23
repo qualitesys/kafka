@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 531 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 525 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -5313,7 +5313,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "20"
+ , "c4" : "14"
 }}
  ] 
 ,
@@ -6168,13 +6168,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01244"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1244"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01244] For method writeProxyDesc list of called methods Object monObjet|Class&lt;?&gt;[] cl_getInterfacesN600610"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01244"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1244"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01244] The argument desc is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6700,13 +6693,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01519"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1519"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01519] For method defaultWriteFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN615016"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01519"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1519"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01519] The argument desc is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6910,13 +6896,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01659"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1659"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01659] For method write list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN621476"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01659"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1659"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01659] The argument out is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6954,13 +6933,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1685"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01685] In method java.io.ObjectOutputStream.PutFieldImpl.write@POLYN620590 the MagicNumber/String  'cannot write unshared object' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01694"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1694"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01694] For method writeFields list of called methods Object monObjet|java.lang.reflect.Field[] desc_getFieldsN622390"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7024,13 +6996,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1723"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01723] For method getFieldOffset arguments String  name|Class&lt;? &gt;  type"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01723"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1723"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01723] For method getFieldOffset list of called methods Object monObjet|java.lang.reflect.Field desc_getFieldN623805"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8340,13 +8305,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2457"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02457] In method java.io.ObjectOutputStream.DebugTraceInfoStack.push@POLYN659180 the MagicNumber/String  '\t- ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02463"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#2463"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02463] For method toString list of called methods Object monObjet|int stack_sizeN659632"
 }} 
 ,
 { "ligne" : {"" : ""

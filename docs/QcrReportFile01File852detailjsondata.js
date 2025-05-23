@@ -424,28 +424,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169545"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169545 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#52"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169545 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169545"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -460,6 +446,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#117"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169545 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00052] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.credential@POLYN169545 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 88 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 87 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -270,7 +270,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "8"
+ , "c4" : "7"
 }}
  ] 
 ,
@@ -287,13 +287,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method assign arguments Map&lt;UUID ,ClientState &gt;  clients|Set&lt;TaskId &gt;  allTaskIds|Set&lt;TaskId &gt;  statefulTaskIds|AssignmentConfigs  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method assign list of called methods Object monObjet|int allTaskIds_sizeN200304"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -405,7 +398,7 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#92"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN201696|int allTaskIds_sizeN201809"
+ , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN201696"
 }} 
 ,
 { "ligne" : {"" : ""

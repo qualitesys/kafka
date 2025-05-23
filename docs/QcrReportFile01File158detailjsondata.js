@@ -394,21 +394,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN181164"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.handleError@POLYN184445"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.handleError@POLYN184445"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN181164 the MagicNumber/String 1 MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN181164"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -458,6 +451,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#199"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.handleError@POLYN184445 the MagicNumber/String ' to unexpected error {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00101"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AlterConsumerGroupOffsetsHandler.java.html#101"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.clients.admin.internals.AlterConsumerGroupOffsetsHandler.buildBatchedRequest@POLYN181164 the MagicNumber/String 1 MUST BE CONVERTED to const"
 }} 
 ]
 , 

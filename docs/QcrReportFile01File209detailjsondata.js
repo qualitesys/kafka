@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 564 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java 403 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -441,24 +441,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.clients.consumer.internals.Fetcher.this" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "126"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -471,13 +454,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "14"
 }}
 ,
 { "ligne" : { "" : ""
@@ -509,13 +485,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "21"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -536,13 +505,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#248"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[00248] Lock statement on synchronized method sendFetches"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#248"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00248] For method sendFetches list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; prepareFetchRequestsN489932|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; client_sendN491392"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -765,13 +727,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#377"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00377] For method getTopicMetadata list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.ClientResponse&gt; sendMetadataRequestN496849|org.apache.kafka.common.Cluster response_buildClusterN497373|java.util.Set&lt;java.lang.String&gt; cluster_unauthorizedTopicsN497471|java.util.Map&lt;java.lang.String,Errors&gt; response_errorsN497778"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00377"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#377"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00377] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -945,13 +900,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00441"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#441"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00441] For method sendMetadataRequest list of called methods Object monObjet|org.apache.kafka.common.Node client_leastLoadedNodeN499699"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#443"
  , "c2" : "MAJOR"
@@ -963,13 +911,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#449"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00449] For method offsetResetStrategyTimestamp arguments TopicPartition  partition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00449"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#449"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00449] For method offsetResetStrategyTimestamp list of called methods Object monObjet|org.apache.kafka.clients.consumer.OffsetResetStrategy subscriptions_resetStrategyN500060"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -991,13 +932,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#465"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.clients.consumer.internals.Fetcher.timestampToOffsetResetStrategy@POLYN500375 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00474"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#474"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00474] For method resetOffsetsIfNeeded list of called methods Object monObjet|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscriptions_partitionsNeedingResetN501147|java.lang.Long offsetResetStrategyTimestampN501536"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1089,13 +1023,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#542"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00542] For method fetchOffsetsByTimes arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|Timer  timer|boolean  requireTimestamps"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#542"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00542] For method fetchOffsetsByTimes list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetsRequestsN504627"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1311,13 +1238,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#699"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00699] For method fetchRecords list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition subscriptions_positionN511765|java.util.List&lt;org.apache.kafka.clients.consumer.ConsumerRecord&lt;K,V&gt;&gt; completedFetch_fetchRecordsN512193|java.lang.Long subscriptions_partitionLagN513114|java.lang.Long subscriptions_partitionLeadN513409"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00699"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#699"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00699] The argument completedFetch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1428,13 +1348,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00768"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#768"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00768] For method resetOffsetsAsync list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetRequestN515668"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00772"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#772"
  , "c2" : "MAJOR"
@@ -1542,13 +1455,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00805"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#805"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00805] For method hasUsableOffsetForLeaderEpochVersion list of called methods Object monObjet|ApiVersion nodeApiVersions_apiVersionN517472"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00805"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#805"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00805] The argument nodeApiVersions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1572,13 +1478,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#819"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00819] For method validateOffsetsAsync arguments Map&lt;TopicPartition ,FetchPosition &gt;  partitionsToValidate"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00819"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#819"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00819] For method validateOffsetsAsync list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.internals.SubscriptionState.FetchPosition&gt;&gt; regroupFetchPositionsByLeaderN518107|org.apache.kafka.clients.NodeApiVersions apiVersions_getN518527|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;T2&gt; offsetsForLeaderEpochClient_sendAsyncRequestN519351|java.util.Optional&lt;org.apache.kafka.clients.consumer.internals.SubscriptionState.LogTruncation&gt; subscriptions_maybeCompleteValidationN520316"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1645,13 +1544,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00917"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#917"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00917] For method sendListOffsetsRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,ListOffsetsPartition&gt;&gt; groupListOffsetRequestsN522916|org.apache.kafka.clients.consumer.internals.RequestFuture&lt;org.apache.kafka.clients.consumer.internals.Fetcher.ListOffsetResult&gt; sendListOffsetRequestN523728"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00930"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#930"
  , "c2" : "MAJOR"
@@ -1698,13 +1590,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#965"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00965] For method groupListOffsetRequests arguments Map&lt;TopicPartition ,Long &gt;  timestampsToSearch|Set&lt;TopicPartition &gt;  partitionsToRetry"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00965"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#965"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00965] For method groupListOffsetRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,java.util.Map&lt;org.apache.kafka.common.TopicPartition,ListOffsetsPartition&gt;&gt; metadata_currentLeaderN525847"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1988,13 +1873,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01148"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01148] For method selectReadReplica list of called methods Object monObjet|java.util.Optional&lt;java.lang.Integer&gt; subscriptions_preferredReadReplicaN534896"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01155"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1155"
  , "c2" : "MAJOR"
@@ -2006,13 +1884,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1156"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01156] In method org.apache.kafka.clients.consumer.internals.Fetcher.selectReadReplica@POLYN534726 the MagicNumber/String  ' using the leader instead.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01183"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1183"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01183] For method prepareFetchRequests list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.Node,FetchSessionHandler.FetchRequestData&gt; metadata_topicIdsN536934|org.apache.kafka.common.Node selectReadReplicaN537732|int node_idN538591|org.apache.kafka.clients.FetchSessionHandler sessionHandlerN538668|org.apache.kafka.clients.FetchSessionHandler.Builder handler_newBuilderN539036"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2697,13 +2568,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01485"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1485"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01485] For method throttleTimeSensor list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor metrics_sensorN554665"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01485"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1485"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01485] The argument metrics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2825,13 +2689,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1571"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.clients.consumer.internals.Fetcher.CompletedFetch.maybeCloseRecordStream@POLYN558502 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01575"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1575"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01575] For method nextFetchedRecord list of called methods Object monObjet|long currentBatch_nextOffsetN559164|int currentBatch_partitionLeaderEpochN559394|long currentBatch_producerIdN559891|long currentBatch_nextOffsetN560421|org.apache.kafka.common.utils.CloseableIterator&lt;org.apache.kafka.common.record.Record&gt; currentBatch_streamingIteratorN560515|org.apache.kafka.common.record.Record record_offsetN560988"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3096,13 +2953,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01744"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1744"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01744] For method record list of called methods Object monObjet|java.lang.String partition_topicN566341"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01744"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1744"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01744] The argument partition is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3292,13 +3142,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01854"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1854"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01854] For method maybeUpdateAssignment list of called methods Object monObjet|int subscription_assignmentIdN573871|java.util.Set&lt;org.apache.kafka.common.TopicPartition&gt; subscription_assignedPartitionsN574050|org.apache.kafka.common.MetricName partitionPreferredReadReplicaMetricNameN574801"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01854"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1854"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01854] The argument subscription is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3346,13 +3189,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01882"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1882"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01882] For method recordPartitionLead list of called methods Object monObjet|java.lang.String partitionLeadMetricNameN575507|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicPartitionTagsN575811"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01887"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1887"
  , "c2" : "MAJOR"
@@ -3364,13 +3200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1899"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01899] For method recordPartitionLag arguments TopicPartition  tp|long  lag"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01899"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1899"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01899] For method recordPartitionLag list of called methods Object monObjet|java.lang.String partitionLagMetricNameN576818|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicPartitionTagsN577122"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3413,13 +3242,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1923"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01923] For method partitionPreferredReadReplicaMetricName arguments TopicPartition  tp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01923"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1923"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01923] For method partitionPreferredReadReplicaMetricName list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; topicPartitionTagsN578346"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3490,986 +3312,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1943"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01943] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN549283"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.FetchResponseMetricAggregator.record@POLYN566012"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN573776"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN525236"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN527418"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN522025"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01267"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01267] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01273"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1273"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01273] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Ignoring fetched records for partition {} since it no longer has valid position' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01278"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1278"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01278] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01279"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01279] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Discarding stale fetch response for partition {} since its offset {} does not match ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01280"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1280"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01280] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'the expected offset {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01281"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1281"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01281] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01284"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1284"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01284] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Preparing to read {} bytes of data for partition {} with offset {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01289"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01289] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01290"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1290"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01290] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 3 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01293] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'There are some messages at [Partition=Offset]: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01294"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1294"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01294] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String ' whose size is larger than the fetch size ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01295"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1295"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01295] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String ' and hence cannot be returned. Please considering upgrading your broker to 0.10.1.0 or ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01296"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01296] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'newer to avoid this issue. Alternately, increase the fetch size on the client -using ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01297"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1297"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01297] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01301"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1301"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01301] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String '=' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01301"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1301"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01301] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Failed to make progress reading messages at ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01302"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1302"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01302] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String '. Received a non-empty fetch response from the server, but no ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01303"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01303] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'complete records were found.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01307"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1307"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01308"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1308"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01308] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Updating high watermark for partition {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01312"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1312"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01312] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1313"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01313] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Updating log start offset for partition {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01317"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1317"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01317] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01318"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1318"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01318] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Updating last stable offset for partition {} to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01325"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1325"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01325] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Updating preferred read replica for partition {} to {}, set to expire at {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01331"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1331"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01331] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01337"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01337] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Error in fetch for partition {}: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01340"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1340"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01340] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Received unknown topic or partition error in fetch for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01343"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1343"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01343] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Received unknown topic ID error in fetch for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01346"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01346] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Received inconsistent topic ID error in fetch for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01353"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01353] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1354"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01354] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Discarding stale fetch response for partition {} since the fetched offset {} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01355"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1355"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01355] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'does not match the current offset {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01360"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1360"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01360] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Unset the preferred read replica {} for partition {} since we got {} when fetching {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01365"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1365"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01365] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Not authorized to read from partition {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01368"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1368"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01368] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Received unknown leader epoch error in fetch for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01370"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1370"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01370] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Unknown server error while fetching offset {} for topic-partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01373"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1373"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01373] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Encountered corrupt message when fetching offset ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01375"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01375] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String ' for topic-partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01378"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1378"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01378] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 'Unexpected error code ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01380"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1380"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01380] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String ' while fetching at offset ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01382"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1382"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01382] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String ' from topic-partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01385"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1385"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01385] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01386"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01386] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01386"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1386"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01386] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.initializeCompletedFetch@POLYN541521 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01398"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01398] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN549283 the MagicNumber/String ' is out of range for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01398"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01398] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN549283 the MagicNumber/String 'Fetch position ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01400"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1400"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01400] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN549283 the MagicNumber/String '{}, resetting offset' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01403"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01403] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleOffsetOutOfRange@POLYN549283 the MagicNumber/String '{}, raising error to the application since no reset policy is configured' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01751"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1751"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01751] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchResponseMetricAggregator.record@POLYN566012 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00651"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#651"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00651] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00652"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#652"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00652] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00654"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00654] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00666"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#666"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00666] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00678"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#678"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00678] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913 the MagicNumber/String 'Skipping fetching records for assigned partition {} because it is paused' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00680"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#680"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00680] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.collectFetch@POLYN508913 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00702"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#702"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00702] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Not returning fetched records for partition {} since it is no longer assigned' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00707"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#707"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00707] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Not returning fetched records for assigned partition {} since it is no longer fetchable' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00711"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#711"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00711] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00712"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#712"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00712] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Missing position for fetchable partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00718"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00718] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Returning {} fetched records at offset {} for assigned partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00721"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#721"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00721] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00728"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#728"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00728] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Updating fetch position from {} to {} for partition {} and returning {} records from  poll-- ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00731"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#731"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00731] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00735"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#735"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00735] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00739"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#739"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00739] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00747"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#747"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00747] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Ignoring fetched records for {} at offset {} since the current position is {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00752"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#752"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00752] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.fetchRecords@POLYN511206 the MagicNumber/String 'Draining fetched records for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01871"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1871"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01871] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN573776 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01872"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01872] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN573776 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01872"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1872"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01872] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.FetchManagerMetrics.maybeUpdateAssignment@POLYN573776 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01193"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01193] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01194"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1194"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01194] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String 'Missing position for fetchable partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01199"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01199] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String 'Requesting metadata update for partition {} since the position {} is missing the current leader node' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1211"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01211] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String 'Skipping fetch for partition {} because node {} is awaiting reconnect backoff' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01213"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01213] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String 'Skipping fetch for partition {} because previous request to {} has not been processed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1217"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01217] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01220"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1220"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01220] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01232"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1232"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01232] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.prepareFetchRequests@POLYN536568 the MagicNumber/String 'Added {} fetch request for partition {} at position {} to node {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String 12 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String 'Sending {} {} to broker {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00287"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#287"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00287] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#288"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00288] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String 'Unable to find FetchSessionHandler for node {}. Ignoring fetch response.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String 'Response for missing full request partition: partition={}; metadata={}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00314"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#314"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00314] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String 'Response for missing session request partition: partition={}; metadata={}; toSend={}; toForget={}; toReplace={}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00324] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String 'Fetch {} at offset {} for partition {} returned fetch data {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00347"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#347"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00347] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendFetches@POLYN489739 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00975"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#975"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00975] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN525236 the MagicNumber/String 'Leader for partition {} is unknown for fetching offset {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00986"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#986"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00986] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.groupListOffsetRequests@POLYN525236 the MagicNumber/String 'Leader {} for partition {} is unavailable for fetching offset until reconnect backoff expires' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1013"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01013] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN527418 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01016"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1016"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01016] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN527418 the MagicNumber/String 'Sending ListOffsetRequest {} to broker {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01022"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1022"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01022] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.sendListOffsetRequest@POLYN527418 the MagicNumber/String 'Received ListOffsetResponse {} from broker {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00403"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#403"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00403] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String 'Topic metadata fetch included errors: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#410"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String '' is invalid' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#410"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00416"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#416"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00416] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00418"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#418"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String 'Unexpected error fetching metadata for topic ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00434"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#434"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00434] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.getTopicMetadata@POLYN496516 the MagicNumber/String 'Timeout expired while fetching topic metadata' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1053"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01053] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01054"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1054"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01054] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Unexpected partitionData response of length ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01058"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1058"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01058] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1060"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01060] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Handling v0 ListOffsetResponse response for {}. Fetched offset {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01063"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1063"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01063] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1068"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01068] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Handling ListOffsetResponse response for {}. Fetched offset {}, timestamp {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01084"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1084"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01084] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Cannot search by timestamp for partition {} because the message format version ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1085"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01085] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'is before 0.10.0' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01094"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1094"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01094] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Attempt to fetch offsets for partition {} failed due to {}, retrying.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01099"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1099"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01099] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Received unknown topic or partition error in ListOffset request for partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01106] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.handleListOffsetResponse@POLYN528964 the MagicNumber/String 'Attempt to fetch offsets for partition {} failed due to unexpected exception: {}, retrying.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00904"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#904"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00904] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN522025 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00905"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#905"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00905] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.maybeSetOffsetForLeaderException@POLYN522025 the MagicNumber/String 'Discarding error in OffsetsForLeaderEpoch because another error is pending' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01422"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1422"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01422] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01422"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1422"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01422] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01423"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01423] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01423"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01423] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01425"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01425] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01425"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01425] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01426"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1426"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01426] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01426"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1426"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01426] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01429"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01429] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01430"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01430] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01434"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1434"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01434] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String 'Error deserializing key/value for partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01435"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1435"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01435] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String ' at offset ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01435"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Fetcher.java.html#1435"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01435] In the recursive method org.apache.kafka.clients.consumer.internals.Fetcher.parseRecord@POLYN550116 the MagicNumber/String '. If needed, please seek past the record to continue consumption.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

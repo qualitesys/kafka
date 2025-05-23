@@ -324,7 +324,7 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "1" , "pas" : [
 { "ligne" : "S1:org.apache.kafka.streams.state.internals.ThreadCache.close@POLYN210988 (R0 in line [00254],R2 in line [00254])" }
 ,
-{ "ligne" : "S1:org.apache.kafka.common.utils.CircularIterator.remove@POLYN168068" }
+{ "ligne" : "S1:org.apache.kafka.streams.state.internals.NamedCache.close@POLYN213890" }
  ]
  } }
 ,

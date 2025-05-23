@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 296 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java 298 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -389,7 +389,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "7"
+ , "c4" : "9"
 }}
  ] 
 ,
@@ -420,6 +420,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#160"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00160] For method maybeRemoveFromInflightBatches arguments ProducerBatch  batch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00160"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#160"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00160] For method maybeRemoveFromInflightBatches list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions inFlightBatches_getN313180"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -511,6 +518,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00212] For method addToInflightBatches arguments List&lt;ProducerBatch &gt;  batches"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00212"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#212"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00212] For method addToInflightBatches list of called methods Object monObjet|org.apache.kafka.clients.NodeApiVersions inFlightBatches_getN315864"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2015,6 +2029,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.run@POLYN316824"
 }} 
 ,
@@ -2030,13 +2051,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.maybeSendAndPollTransactionalRequest@POLYN324707"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2156,6 +2170,48 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#414"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00414] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProducerData@POLYN320227 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00821"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#821"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00821] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00823"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#823"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00823] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00833"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#833"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00833] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00834"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#834"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00834] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00847"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#847"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00847] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00850"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#850"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00850] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String 'Sent produce request to {}: {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2422,48 +2478,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#487"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00487] In the recursive method org.apache.kafka.clients.producer.internals.Sender.maybeSendAndPollTransactionalRequest@POLYN324707 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00821"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#821"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00821] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00823"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#823"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00823] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00833"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#833"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00833] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00834"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#834"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00834] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00847"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#847"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00847] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00850"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/Sender.java.html#850"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00850] In the recursive method org.apache.kafka.clients.producer.internals.Sender.sendProduceRequest@POLYN343036 the MagicNumber/String 'Sent produce request to {}: {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

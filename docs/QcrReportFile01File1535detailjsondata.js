@@ -385,7 +385,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method printTargets list of called methods Object monObjet|int targetFiles_sizeN199423|boolean targetFiles_isEmptyN199590"
+ , "c3" : "QC-JAV000007[00132] For method printTargets list of called methods Object monObjet|boolean targetFiles_isEmptyN199590"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -875,14 +875,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.LsCommandHandler.printTargets@POLYN199080"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.LsCommandHandler.run@POLYN196935"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.LsCommandHandler.run@POLYN196935"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.shell.LsCommandHandler.printTargets@POLYN199080"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.shell.LsCommandHandler.run@POLYN196935 the MagicNumber/String ': no such file or directory.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00121"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#121"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.shell.LsCommandHandler.run@POLYN196935 the MagicNumber/String 'ls: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.shell.LsCommandHandler.run@POLYN196935 the MagicNumber/String 'LS : targetFiles = {}, targetDirectories = {}, screenWidth = {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -939,27 +960,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#148"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.shell.LsCommandHandler.printTargets@POLYN199080 the MagicNumber/String 'LS : targetDirectory name = {}, children = {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.shell.LsCommandHandler.run@POLYN196935 the MagicNumber/String ': no such file or directory.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.shell.LsCommandHandler.run@POLYN196935 the MagicNumber/String 'ls: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.shell.LsCommandHandler.run@POLYN196935 the MagicNumber/String 'LS : targetFiles = {}, targetDirectories = {}, screenWidth = {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java 66 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java 53 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -252,35 +252,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -303,23 +280,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "11"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "8"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method all list of called methods Object monObjet|java.util.List&lt;S&gt; segments_allSegmentsN195649"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#78"
@@ -381,13 +344,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#87"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.all@POLYN195546 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method backwardAll list of called methods Object monObjet|java.util.List&lt;S&gt; segments_allSegmentsN196477"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -461,13 +417,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method remove list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getIndexKeyValueN197836"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#109"
  , "c2" : "MAJOR"
@@ -496,13 +445,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method putIndex list of called methods Object monObjet|long segments_segmentIdN198548"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#125"
  , "c2" : "MAJOR"
@@ -521,13 +463,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#137"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00137] For method getIndex arguments Bytes  indexKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#137"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00137] For method getIndex list of called methods Object monObjet|long segments_segmentIdN199309"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -559,13 +494,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method removeIndex list of called methods Object monObjet|long segments_segmentIdN200066"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#154"
  , "c2" : "MAJOR"
@@ -584,13 +512,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#167"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00167] For method put arguments Bytes  rawBaseKey|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#167"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00167] For method put list of called methods Object monObjet|long segments_segmentIdN200789|KeyValue&lt;Bytes,byte[]&gt; getIndexKeyValueN201531"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -640,13 +561,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#208"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00208] For method init arguments ProcessorContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#208"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00208] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl ProcessorContextUtils_getMetricsImplN202561|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN202858|org.apache.kafka.streams.query.Position StoreQueryUtils_readPositionFromCheckpointN203378|boolean StreamsConfig_InternalConfig_getBooleanN203759"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -738,41 +652,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#291"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00291] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.init@POLYN203911"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.put@POLYN200436"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.put@POLYN200436 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.put@POLYN200436 the MagicNumber/String 1.0d MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/AbstractDualSchemaRocksDBSegmentedBytesStore.java.html#176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.state.internals.AbstractDualSchemaRocksDBSegmentedBytesStore.put@POLYN200436 the MagicNumber/String 'Skipping record for expired segment.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java 314 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java 320 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -599,7 +599,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "90"
+ , "c4" : "95"
 }}
 ,
 { "ligne" : { "" : ""
@@ -613,7 +613,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "19"
+ , "c4" : "20"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2036,7 +2036,7 @@ var maDataBlocs = {
  , "c1" : "01268"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1268"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01268] For method createQueue list of called methods Object monObjet|java.lang.String topology_sourceN366798|org.apache.kafka.streams.processor.TimestampExtractor source_getTimestampExtractorN367116"
+ , "c3" : "QC-JAV000007[01268] For method createQueue list of called methods Object monObjet|java.lang.String topology_sourceN366798"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2170,6 +2170,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN348243"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN366666"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2716,6 +2723,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#858"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00858] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.punctuate@POLYN348243 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01270"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1270"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01270] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN366666 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01272"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01272] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN366666 the MagicNumber/String 'Topic is unknown to the topology. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01273"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1273"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01273] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN366666 the MagicNumber/String 'This may happen if different KafkaStreams instances of the same application execute different Topologies. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01274"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1274"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01274] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN366666 the MagicNumber/String 'Note that Topologies are only identical if all operators are added in the same order.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01279"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamTask.java.html#1279"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[01279] In the recursive method org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator.createQueue@POLYN366666 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

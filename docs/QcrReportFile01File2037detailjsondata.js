@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java 106 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java 86 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -234,35 +234,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "18"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -341,7 +318,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_keyN232632|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN232774|org.apache.kafka.streams.processor.internals.ProcessorRecordContext context_recordContextN233510|org.apache.kafka.streams.processor.internals.ProcessorRecordContext context_recordContextN234398"
+ , "c3" : "QC-JAV000007[00096] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_keyN232632|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN232774|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; context_recordContextN234398"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -888,146 +865,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#507"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00507] For method segmentUpperRangeFixedSize arguments Bytes  key|long  segmentEndTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#259"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00259] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#259"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00259] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00259"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#259"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00259] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#277"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00277] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00281"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#281"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00281] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.backwardFindSessions@POLYN241531 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00230"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#230"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00230] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#237"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00237] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00251"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#251"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00251] In the recursive method org.apache.kafka.streams.state.internals.CachingSessionStore.findSessions@POLYN239525 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

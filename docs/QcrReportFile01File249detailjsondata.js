@@ -3801,6 +3801,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482"
 }} 
 ,
@@ -3816,13 +3823,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN413178"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4190,6 +4190,41 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String 'sendOffsetsToTransaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00309"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#309"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String 'Cannot send offsets if a transaction is not in progress ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String '-currentState= ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00310"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00313"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#313"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String 'Begin adding offsets {} for consumer group {} to transaction' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00775"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#775"
  , "c2" : "BLOCKER"
@@ -4292,41 +4327,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1041"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01041] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN413178 the MagicNumber/String 'Invalid coordinator type: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String 'sendOffsetsToTransaction' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00309"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#309"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00309] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String 'Cannot send offsets if a transaction is not in progress ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String '-currentState= ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00310"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00310] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#313"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String 'Begin adding offsets {} for consumer group {} to transaction' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

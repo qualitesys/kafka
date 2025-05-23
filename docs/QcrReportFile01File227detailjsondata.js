@@ -260,7 +260,7 @@ var maDataBlocs = {
  , "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/ProducerConfig.java.html#501"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00501] For method postProcessAndValidateIdempotenceConfigs list of called methods Object monObjet|java.lang.String parseAcksN248603|short Short_parseShortN249644|boolean originalConfigs_containsKeyN250983"
+ , "c3" : "QC-JAV000007[00501] For method postProcessAndValidateIdempotenceConfigs list of called methods Object monObjet|java.lang.String parseAcksN248603|short Short_parseShortN249644"
 }} 
 ,
 { "ligne" : {"" : ""

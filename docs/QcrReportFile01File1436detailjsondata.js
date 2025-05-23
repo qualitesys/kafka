@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java 29 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -181,23 +181,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00066"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#66"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00066] For method hasNext list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.raft.Batch&lt;T&gt;&gt; nextBatchN185005"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#79"
@@ -255,31 +241,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#113"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00113] For method createMemoryRecords list of called methods Object monObjet|java.nio.ByteBuffer bufferSupplier_getN186948|org.apache.kafka.common.record.MemoryRecords readFileRecordsN187221|java.nio.ByteBuffer bufferSupplier_getN187494"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#140"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00140] For method nextBatches list of called methods Object monObjet|int records_sizeInBytesN188008|org.apache.kafka.common.record.MemoryRecords createMemoryRecordsN188446"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#150"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.raft.internals.RecordsIterator.nextBatches@POLYN187931 the MagicNumber/String  'Unexpected Records type %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#159"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method nextBatch list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.common.record.MutableRecordBatch&gt; nextBatchesN189008|org.apache.kafka.raft.Batch&lt;T&gt; nextBatches_nextN189149"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,13 +259,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#182"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00182] For method readBatch arguments DefaultRecordBatch  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#182"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00182] For method readBatch list of called methods Object monObjet|java.lang.Integer batch_countOrNullN190377"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -343,13 +301,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method readRecord arguments Readable  input"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/internals/RecordsIterator.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method readRecord list of called methods Object monObjet|long input_readVarlongN191682|int input_readVarintN191939|int input_readVarintN192196|int input_readVarintN192519"
 }} 
 ,
 { "ligne" : {"" : ""

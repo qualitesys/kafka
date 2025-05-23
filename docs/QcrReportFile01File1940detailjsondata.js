@@ -561,13 +561,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutor.commitOffsetsOrTransaction@POLYN207169"
 }} 
 ,
@@ -575,63 +568,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskExecutor.punctuate@POLYN212486"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Successfully processed task {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Could not complete processing records for %s due to the following exception; will move to next task and retry later' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00119"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#119"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Failed to process stream task {} since it got migrated to another thread already. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Will trigger a new rebalance and close all tasks as zombies together.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Failed to process stream task %s due to the following error:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Failed to process stream task %s due to the following error:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -695,6 +639,62 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#239"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.commitOffsetsOrTransaction@POLYN207169 the MagicNumber/String 'Error encountered committing offsets via consumer' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00095"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#95"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00105"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#105"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Successfully processed task {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00114] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Could not complete processing records for %s due to the following exception; will move to next task and retry later' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00119"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#119"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00119] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Failed to process stream task {} since it got migrated to another thread already. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00120"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#120"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Will trigger a new rebalance and close all tasks as zombies together.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00123"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#123"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Failed to process stream task %s due to the following error:' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskExecutor.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.streams.processor.internals.TaskExecutor.processTask@POLYN203123 the MagicNumber/String 'Failed to process stream task %s due to the following error:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

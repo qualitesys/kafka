@@ -293,7 +293,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/TaskMovement.java.html#77"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method assignActiveTaskMovements list of called methods Object monObjet|int taskMovements_sizeN201064|boolean tryToSwapStandbyAndActiveOnCaughtUpClientN201223"
+ , "c3" : "QC-JAV000007[00077] For method assignActiveTaskMovements list of called methods Object monObjet|boolean tryToSwapStandbyAndActiveOnCaughtUpClientN201223"
 }} 
 ,
 { "ligne" : {"" : ""

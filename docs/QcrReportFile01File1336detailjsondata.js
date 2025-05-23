@@ -143,13 +143,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -160,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -330,14 +323,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationsDelta.apply@POLYN169063"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationsDelta.replay@POLYN167804"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#85"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.image.ConfigurationsDelta.apply@POLYN169063 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c1" : "00001"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.image.ConfigurationsDelta.replay@POLYN168462"
 }} 
 ]
 , 

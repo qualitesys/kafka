@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java 26 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -109,13 +109,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -194,13 +187,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method writeToTopology arguments InternalTopologyBuilder  topologyBuilder"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/StreamStreamJoinNode.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method writeToTopology list of called methods Object monObjet|java.lang.String thisWindowedStreamProcessorParameters_processorNameN189634|java.lang.String otherWindowedStreamProcessorParameters_processorNameN189716"
 }} 
 ,
 { "ligne" : {"" : ""

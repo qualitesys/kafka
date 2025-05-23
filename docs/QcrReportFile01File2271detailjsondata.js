@@ -580,6 +580,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN223902"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986"
 }} 
 ,
@@ -588,13 +595,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.sendMessage@POLYN226947"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN223902"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -616,41 +616,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.workload.ProduceBenchWorker.stop@POLYN231713"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#272"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#276"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String 'Beginning transaction.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#280"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00280] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String 'Committing transaction.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#285"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String 'Aborting transaction.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -707,6 +672,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#268"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.call@POLYN223902 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00272"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#272"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00272] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00276"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#276"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00276] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String 'Beginning transaction.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00280"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#280"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00280] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String 'Committing transaction.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00285"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#285"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00285] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String 'Aborting transaction.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00289"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.trogdor.workload.ProduceBenchWorker.SendRecords.takeTransactionAction@POLYN225986 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

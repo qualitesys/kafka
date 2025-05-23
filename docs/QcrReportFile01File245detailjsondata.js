@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 242 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 241 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -536,7 +536,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1091,7 +1091,7 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; bigBatch_splitN347944|int dq_sizeN348050|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN348148"
+ , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; bigBatch_splitN347944|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN348148"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1134,13 +1134,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#503"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00503] For method insertInSequenceOrder arguments Deque&lt;ProducerBatch &gt;  deque|ProducerBatch  batch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00503"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#503"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00503] For method insertInSequenceOrder list of called methods Object monObjet|int orderedBatches_sizeN350463"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1287,7 +1280,7 @@ var maDataBlocs = {
  , "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#601"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN354439|int part_partitionN354784|long batch_waitedTimeMsN355315|int batch_attemptsN355408|int deque_sizeN355550|long batchReadyN356531"
+ , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN354439|int part_partitionN354784|long batch_waitedTimeMsN355315|int batch_attemptsN355408|long batchReadyN356531"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java 43 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java 42 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -424,13 +424,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#203"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.futureOrThrow@POLYN189815 the MagicNumber/String  'Attempt to complete with unknown broker id: ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AllBrokersStrategy.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture.completeExceptionally@POLYN189080"
 }} 
 ,
 { "ligne" : {"" : ""

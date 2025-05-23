@@ -160,7 +160,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractPartitionAssignor.java.html#51"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method assign list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment metadata_partitionCountForTopicN174354|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment assignN174804"
+ , "c3" : "QC-JAV000007[00051] For method assign list of called methods Object monObjet|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.GroupAssignment metadata_partitionCountForTopicN174354|java.util.Map&lt;java.lang.String,java.util.List&lt;org.apache.kafka.common.TopicPartition&gt;&gt; assignN174804"
 }} 
 ,
 { "ligne" : {"" : ""

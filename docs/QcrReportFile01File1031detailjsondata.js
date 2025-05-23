@@ -604,6 +604,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMaker.main@POLYN216256"
 }} 
 ,
@@ -625,13 +632,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMaker.ShutdownHook.run@POLYN215788"
 }} 
 ,
@@ -647,6 +647,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorMaker.configureConnector@POLYN211905"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'Kafka MirrorMaker instance created' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'NOTUSED' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'No source-&amp;gt;target replication flows.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'Targeting clusters {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00305"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -843,41 +878,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00001] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.start@POLYN210002 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'Kafka MirrorMaker instance created' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'NOTUSED' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'No source-&amp;gt;target replication flows.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String 'Targeting clusters {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00305"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorMaker.java.html#305"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00305] In the recursive method org.apache.kafka.connect.mirror.MirrorMaker.MirrorMaker@POLYN207625 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

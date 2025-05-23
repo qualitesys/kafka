@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#53"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00053] For method partition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN163160|int partitions_sizeN163256|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN163442|int Utils_toPositiveN163616"
+ , "c3" : "QC-JAV000007[00053] For method partition list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN163160|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_availablePartitionsForTopicN163442|int Utils_toPositiveN163616"
 }} 
 ,
 { "ligne" : {"" : ""

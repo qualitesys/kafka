@@ -831,13 +831,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN222272"
 }} 
 ,
@@ -852,7 +845,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN218213"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -866,35 +859,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN218213"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.common.WorkerUtils.perSecToPerPeriod@POLYN219149"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String '' exists, but has ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00265"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#265"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String ' partitions, while requested ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#266"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String ' number of partitions is ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1024,6 +996,41 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String '' exists, but has ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00264"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#264"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00265"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#265"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00265] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String ' partitions, while requested ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00266"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#266"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00266] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.verifyTopics@POLYN227992 the MagicNumber/String ' number of partitions is ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN221223 the MagicNumber/String 'Failed to create or verify topics {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#67"
  , "c2" : "BLOCKER"
@@ -1035,13 +1042,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#68"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.abort@POLYN218213 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/common/WorkerUtils.java.html#139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.trogdor.common.WorkerUtils.createTopics@POLYN221223 the MagicNumber/String 'Failed to create or verify topics {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

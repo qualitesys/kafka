@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java 65 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java 62 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -239,13 +239,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "20"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -278,13 +271,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method unmap list of called methods Object monObjet|java.util.OptionalInt lookupScope_destinationBrokerIdN234747"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#133"
  , "c2" : "MINOR"
@@ -303,13 +289,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#140"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00140] For method keyToBrokerId arguments K  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00140"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#140"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00140] For method keyToBrokerId list of called methods Object monObjet|java.util.Optional&lt;K&gt; fulfillmentMap_getKeyN235623"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -387,13 +366,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#206"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00206] For method onResponse arguments long  currentTimeMs|RequestSpec&lt;K &gt;  spec|AbstractResponse  response|Node  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00206"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminApiDriver.java.html#206"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00206] For method onResponse list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AdminApiHandler.ApiResult&lt;K,V&gt; handler_handleResponseN238744"
 }} 
 ,
 { "ligne" : {"" : ""

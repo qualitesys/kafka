@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java 83 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java 82 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -248,7 +248,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -307,13 +307,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method producerSendFailed arguments boolean  synchronous|ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|SourceRecord  preTransformRecord|Exception  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method producerSendFailed list of called methods Object monObjet|java.lang.String producerRecord_topicN193646"
 }} 
 ,
 { "ligne" : {"" : ""

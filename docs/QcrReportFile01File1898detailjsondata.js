@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java 76 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java 48 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -188,15 +188,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -206,23 +197,9 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "25"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "3"
 }}
 ,
@@ -576,202 +553,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#185"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00185] Public method punctuate is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN186164"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00127"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#127"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00127] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN186164 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00130"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#130"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00130] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN186164 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00139"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#139"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00139] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN186164 the MagicNumber/String 'failed to close processor %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00142"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#142"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00142] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.close@POLYN186164 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020 the MagicNumber/String 'The processor is not closed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#106"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00106] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00110] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020 the MagicNumber/String 'failed to initialize processor %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.init@POLYN185020 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#156"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00156] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00158"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#158"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00158] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'neither the processor nor the fixed key processor were set.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'unknown because key is null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00168] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#169"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'unknown because value is null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#169"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00169] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#170"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00170] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'ClassCastException invoking processor: %s. Do the Processor's ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'input types match the deserialized types? Check the Serde setup and change the default Serdes in ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'StreamConfig or provide correct Serdes via method parameters. Make sure the Processor can accept ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'the deserialized input of type key: %s, and value: %s.%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00174"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00174] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'Note that although incorrect Serdes are a common cause of error, the cast exception might have ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#175"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00175] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'another cause -in user code, for example-. For example, if a processor wires in a store, but casts ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00176"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#176"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00176] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'the generics incorrectly, a class cast exception could be raised during processing, but the ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorNode.java.html#177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorNode.process@POLYN187129 the MagicNumber/String 'cause would not be wrong Serdes.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

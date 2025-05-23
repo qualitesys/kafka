@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java 177 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java 178 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -614,7 +614,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "13"
 }}
  ] 
 ,
@@ -840,7 +840,7 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#302"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00302] For method connectorStatus list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN311980|java.util.Map&lt;java.lang.String,java.lang.String&gt; rawConfigN312914"
+ , "c3" : "QC-JAV000007[00302] For method connectorStatus list of called methods Object monObjet|java.lang.Object statusBackingStore_getN311710|java.util.Collection&lt;org.apache.kafka.connect.runtime.TaskStatus&gt; statusBackingStore_getAllN311980|java.util.Map&lt;java.lang.String,java.lang.String&gt; rawConfigN312914"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -883,6 +883,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#345"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00345] For method taskStatus arguments ConnectorTaskId  id"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00345"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#345"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00345] For method taskStatus list of called methods Object monObjet|java.lang.Object statusBackingStore_getN314255"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -987,7 +994,7 @@ var maDataBlocs = {
  , "c1" : "00388"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/AbstractHerder.java.html#388"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00388] For method buildRestartPlan list of called methods Object monObjet|java.lang.String request_connectorNameN316560|boolean request_shouldRestartConnectorN316870|boolean request_shouldRestartTaskN317461|java.util.Map&lt;java.lang.String,java.lang.String&gt; rawConfigN317987"
+ , "c3" : "QC-JAV000007[00388] For method buildRestartPlan list of called methods Object monObjet|java.lang.String request_connectorNameN316560|java.lang.Object statusBackingStore_getN316637|boolean request_shouldRestartConnectorN316870|boolean request_shouldRestartTaskN317461|java.util.Map&lt;java.lang.String,java.lang.String&gt; rawConfigN317987"
 }} 
 ,
 { "ligne" : {"" : ""
