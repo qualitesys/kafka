@@ -423,7 +423,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method login list of called methods Object monObjet|LoginContext loginContextFactory_createLoginContextN222249|org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredential expiringCredentialN222593|long currentMsN223170"
+ , "c3" : "QC-JAV000007[00202] For method login list of called methods Object monObjet|LoginContext loginContextFactory_createLoginContextN222249|long currentMsN223170"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -703,7 +703,7 @@ var maDataBlocs = {
  , "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#362"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00362] For method reLogin list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN230302|java.lang.String principalLogTextN230442|org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredential expiringCredentialN230655|org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredential expiringCredentialN231959"
+ , "c3" : "QC-JAV000007[00362] For method reLogin list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN230302|java.lang.String principalLogTextN230442"
 }} 
 ,
 { "ligne" : {"" : ""
