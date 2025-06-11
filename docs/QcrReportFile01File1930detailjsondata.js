@@ -1492,7 +1492,7 @@ var maDataBlocs = {
  , "c1" : "00977"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#977"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00977] For method resetOffsets list of called methods Object monObjet|OffsetResetStrategy topologyMetadata_offsetResetStrategyN379827"
+ , "c3" : "QC-JAV000007[00977] For method resetOffsets list of called methods Object monObjet|org.apache.kafka.clients.consumer.OffsetResetStrategy topologyMetadata_offsetResetStrategyN379827"
 }} 
 ,
 { "ligne" : {"" : ""

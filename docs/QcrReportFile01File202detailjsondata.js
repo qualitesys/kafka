@@ -2469,7 +2469,7 @@ var maDataBlocs = {
  , "c1" : "01420"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerCoordinator.java.html#1420"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01420] For method handle list of called methods Object monObjet|Errors response_groupLevelErrorN447939|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.requests.OffsetFetchResponse.PartitionData&gt; response_partitionDataMapN449114"
+ , "c3" : "QC-JAV000007[01420] For method handle list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_groupLevelErrorN447939|java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.common.requests.OffsetFetchResponse.PartitionData&gt; response_partitionDataMapN449114"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -1187,7 +1187,7 @@ var maDataBlocs = {
  , "c1" : "00548"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSinkTask.java.html#548"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00548] For method convertHeadersFor list of called methods Object monObjet|org.apache.kafka.connect.header.Headers record_topicN319529|org.apache.kafka.connect.data.SchemaAndValue headerConverter_toConnectHeaderN319720"
+ , "c3" : "QC-JAV000007[00548] For method convertHeadersFor list of called methods Object monObjet|org.apache.kafka.common.header.Headers record_topicN319529|org.apache.kafka.connect.data.SchemaAndValue headerConverter_toConnectHeaderN319720"
 }} 
 ,
 { "ligne" : {"" : ""

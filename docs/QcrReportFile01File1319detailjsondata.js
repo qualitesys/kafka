@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 403 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 402 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -626,7 +626,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "9"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -1651,13 +1651,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#921"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00921] For method handleLeaderChange arguments LeaderAndEpoch  newLeader"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00921"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#921"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method handleLeaderChange list of called methods Object monObjet|int newLeader_epochN463987"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -259,7 +259,7 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#85"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method makeHeader list of called methods Object monObjet|ApiKeys apiKeyN166924"
+ , "c3" : "QC-JAV000007[00085] For method makeHeader list of called methods Object monObjet|org.apache.kafka.common.protocol.ApiKeys apiKeyN166924"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -279,7 +279,7 @@ var maDataBlocs = {
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#59"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque&lt;NetworkClient.InFlightRequest&gt; requests_getN181300"
+ , "c3" : "QC-JAV000007[00059] For method requestQueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.NetworkClient.InFlightRequest&gt; requests_getN181300"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -412,7 +412,7 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/InFlightRequests.java.html#148"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_getN184893|Iterable&lt;NetworkClient.InFlightRequest&gt; requests_removeN185168"
+ , "c3" : "QC-JAV000007[00148] For method clearAll list of called methods Object monObjet|Iterable&lt;org.apache.kafka.clients.NetworkClient.InFlightRequest&gt; requests_getN184893|Iterable&lt;org.apache.kafka.clients.NetworkClient.InFlightRequest&gt; requests_removeN185168"
 }} 
 ,
 { "ligne" : {"" : ""

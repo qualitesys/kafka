@@ -261,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/RemoveMembersFromConsumerGroupHandler.java.html#88"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method handleResponse list of called methods Object monObjet|Errors response_topLevelErrorN174352"
+ , "c3" : "QC-JAV000007[00088] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_topLevelErrorN174352"
 }} 
 ,
 { "ligne" : {"" : ""

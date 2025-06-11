@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 103 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 105 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -470,7 +470,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "5"
 }}
  ] 
 ,
@@ -885,7 +885,7 @@ var maDataBlocs = {
  , "c1" : "00266"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#266"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00266] For method retainLatest list of called methods Object monObjet|org.apache.kafka.connect.header.Headers header_keyN230854"
+ , "c3" : "QC-JAV000007[00266] For method retainLatest list of called methods Object monObjet|org.apache.kafka.common.header.Headers header_keyN230854"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -947,6 +947,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#300"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00300] For method apply list of called methods Object monObjet|org.apache.kafka.common.header.Header transform_applyN232573"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00300"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#300"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00300] The argument transform is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -977,6 +984,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#320"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00320] For method apply arguments HeaderTransform  transform"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00320"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#320"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00320] For method apply list of called methods Object monObjet|org.apache.kafka.common.header.Header transform_applyN233330"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1116,7 +1130,7 @@ var maDataBlocs = {
  , "c1" : "00399"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#399"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00399] For method checkSchemaMatches list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN236324|org.apache.kafka.connect.data.Schema schema_schemaN236470|java.lang.Object schemaAndValue_valueN236547"
+ , "c3" : "QC-JAV000007[00399] For method checkSchemaMatches list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN236324|java.lang.Object schemaAndValue_valueN236547"
 }} 
 ,
 { "ligne" : {"" : ""

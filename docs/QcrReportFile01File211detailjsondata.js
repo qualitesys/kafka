@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java 27 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java 28 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -352,6 +352,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#127"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00127] For method pollTimeoutExpired arguments long  now"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/Heartbeat.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.Heartbeat.update@POLYN168145"
 }} 
 ,
 { "ligne" : {"" : ""

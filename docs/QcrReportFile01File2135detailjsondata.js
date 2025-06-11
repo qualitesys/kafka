@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 130 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 133 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -351,7 +351,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "12"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1078,6 +1078,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00595"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#595"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00595] For method hasNext list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes current_peekNextKeyN288180"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00604"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#604"
  , "c2" : "MAJOR"
@@ -1201,6 +1208,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#629"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.hasNext@POLYN287847 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00641"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#641"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00641] For method peekNext list of called methods Object monObjet|org.apache.kafka.streams.KeyValue&lt;org.apache.kafka.common.utils.Bytes,org.apache.kafka.streams.state.internals.LRUCacheEntry&gt; current_peekNextN289938"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00653"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#653"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00653] For method next list of called methods Object monObjet|org.apache.kafka.streams.KeyValue&lt;org.apache.kafka.common.utils.Bytes,org.apache.kafka.streams.state.internals.LRUCacheEntry&gt; current_nextN290493"
 }} 
 ,
 { "ligne" : {"" : ""

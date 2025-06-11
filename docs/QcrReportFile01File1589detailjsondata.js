@@ -1112,7 +1112,7 @@ var maDataBlocs = {
  , "c1" : "00522"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#522"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00522] For method getActionForThrowable list of called methods Object monObjet|org.apache.kafka.streams.errors.StreamsUncaughtExceptionHandler.StreamThreadExceptionResponse streamsUncaughtExceptionHandler_handleN526235"
+ , "c3" : "QC-JAV000007[00522] For method getActionForThrowable list of called methods Object monObjet|StreamThreadExceptionResponse streamsUncaughtExceptionHandler_handleN526235"
 }} 
 ,
 { "ligne" : {"" : ""

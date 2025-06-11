@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#69"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method listLoggers list of called methods Object monObjet|java.util.Enumeration&lt;Logger&gt; currentLoggersN185871|Logger rootLoggerN186317"
+ , "c3" : "QC-JAV000007[00069] For method listLoggers list of called methods Object monObjet|java.util.Enumeration&lt;org.slf4j.Logger&gt; currentLoggersN185871|org.slf4j.Logger rootLoggerN186317"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -226,7 +226,7 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#94"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00094] For method getLogger list of called methods Object monObjet|Logger rootLoggerN187311|java.util.Enumeration&lt;Logger&gt; currentLoggersN187420"
+ , "c3" : "QC-JAV000007[00094] For method getLogger list of called methods Object monObjet|org.slf4j.Logger rootLoggerN187311|java.util.Enumeration&lt;org.slf4j.Logger&gt; currentLoggersN187420"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,7 +289,7 @@ var maDataBlocs = {
  , "c1" : "00132"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/LoggingResource.java.html#132"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method setLevel list of called methods Object monObjet|Logger lookupLoggerN189779|java.util.Enumeration&lt;Logger&gt; currentLoggersN189888"
+ , "c3" : "QC-JAV000007[00132] For method setLevel list of called methods Object monObjet|org.slf4j.Logger lookupLoggerN189779|java.util.Enumeration&lt;org.slf4j.Logger&gt; currentLoggersN189888"
 }} 
 ,
 { "ligne" : {"" : ""

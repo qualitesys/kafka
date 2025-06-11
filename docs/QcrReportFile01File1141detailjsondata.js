@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java 159 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java 160 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -258,7 +258,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "5"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -281,7 +281,7 @@ var maDataBlocs = {
  , "c1" : "00114"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#114"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method createConnectors list of called methods Object monObjet|Connector createConnectorN232397|Connector createConnectorN233000"
+ , "c3" : "QC-JAV000007[00114] For method createConnectors list of called methods Object monObjet|org.apache.kafka.connect.connector.Connector createConnectorN232397|org.apache.kafka.connect.connector.Connector createConnectorN233000"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -814,6 +814,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#429"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00429] For method findConnector arguments String  protocol"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00429"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/RestServer.java.html#429"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00429] For method findConnector list of called methods Object monObjet|java.lang.String connector_getNameN249195"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -6646,7 +6646,7 @@ var maDataBlocs = {
  , "c1" : "04488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4488"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04488] For method listTransactions list of called methods Object monObjet|AllBrokersStrategy.AllBrokersFuture&lt;java.util.Collection&lt;org.apache.kafka.clients.admin.TransactionListing&gt;&gt; ListTransactionsHandler_newFutureN1211966"
+ , "c3" : "QC-JAV000007[04488] For method listTransactions list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture&lt;java.util.Collection&lt;org.apache.kafka.clients.admin.TransactionListing&gt;&gt; ListTransactionsHandler_newFutureN1211966"
 }} 
 ,
 { "ligne" : {"" : ""

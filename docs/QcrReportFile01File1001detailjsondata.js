@@ -229,7 +229,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/PropertyFileLoginModule.java.html#91"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method login list of called methods Object monObjet|Callback[] configureCallbacksN176588"
+ , "c3" : "QC-JAV000007[00091] For method login list of called methods Object monObjet|java.io.ObjectInputStream.ValidationList.Callback[] configureCallbacksN176588"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -550,7 +550,7 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#236"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00236] For method convertRecord list of called methods Object monObjet|java.lang.String formatRemoteTopicN210009|org.apache.kafka.connect.header.Headers convertHeadersN210117"
+ , "c3" : "QC-JAV000007[00236] For method convertRecord list of called methods Object monObjet|java.lang.String formatRemoteTopicN210009|org.apache.kafka.common.header.Headers convertHeadersN210117"
 }} 
 ,
 { "ligne" : {"" : ""

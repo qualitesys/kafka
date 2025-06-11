@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectOutputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectOutputStream.java 525 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectOutputStream.java 523 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -5313,7 +5313,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "14"
+ , "c4" : "12"
 }}
  ] 
 ,
@@ -5879,13 +5879,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01023"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1023"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01023] For method writeTypeString list of called methods Object monObjet|int handles_lookupN590568"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01027"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1027"
  , "c2" : "MAJOR"
@@ -6128,13 +6121,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1220"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01220] For method writeClassDesc arguments ObjectStreamClass  desc|boolean  unshared"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01220"
- , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#1220"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01220] For method writeClassDesc list of called methods Object monObjet|int handles_lookupN599519"
 }} 
 ,
 { "ligne" : {"" : ""

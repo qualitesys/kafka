@@ -694,7 +694,7 @@ var maDataBlocs = {
  , "c1" : "00299"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#299"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00299] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN258391"
+ , "c3" : "QC-JAV000007[00299] For method syncTopicConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.Config&gt; describeTopicConfigsN258391"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -722,7 +722,7 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceConnector.java.html#354"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00354] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.Config&gt; describeTopicConfigsN262532|java.lang.String formatRemoteTopicN262781|java.util.Map&lt;java.lang.String,java.lang.String&gt; configToMapN263022"
+ , "c3" : "QC-JAV000007[00354] For method createNewTopics list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.Config&gt; describeTopicConfigsN262532|java.lang.String formatRemoteTopicN262781|java.util.Map&lt;java.lang.String,java.lang.String&gt; configToMapN263022"
 }} 
 ,
 { "ligne" : {"" : ""

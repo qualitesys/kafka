@@ -772,7 +772,7 @@ var maDataBlocs = {
  , "c1" : "00504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#504"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00504] For method receiveToken list of called methods Object monObjet|Errors response_errorN278715|java.lang.String response_errorMessageN278942|long response_sessionLifetimeMsN279182"
+ , "c3" : "QC-JAV000007[00504] For method receiveToken list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_errorN278715|java.lang.String response_errorMessageN278942|long response_sessionLifetimeMsN279182"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -961,7 +961,7 @@ var maDataBlocs = {
  , "c1" : "00600"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#600"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00600] For method handleSaslHandshakeResponse list of called methods Object monObjet|Errors response_errorN283102"
+ , "c3" : "QC-JAV000007[00600] For method handleSaslHandshakeResponse list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_errorN283102"
 }} 
 ,
 { "ligne" : {"" : ""

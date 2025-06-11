@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java 98 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java 97 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -137,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "3"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -476,13 +476,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#332"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.trogdor.workload.ProduceBenchWorker.StatusUpdater.run@POLYN228582 the MagicNumber/String  'StatusUpdater' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/ProduceBenchWorker.java.html#336"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00336] For method update list of called methods Object monObjet|org.apache.kafka.trogdor.workload.Histogram.Summary histogram_summarizeN228962"
 }} 
 ,
 { "ligne" : {"" : ""

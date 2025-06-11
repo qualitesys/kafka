@@ -843,7 +843,7 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#208"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00208] For method partitionMetadataIfCurrent list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; cache_partitionMetadataN261673"
+ , "c3" : "QC-JAV000007[00208] For method partitionMetadataIfCurrent list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata&gt; cache_partitionMetadataN261673"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -878,7 +878,7 @@ var maDataBlocs = {
  , "c1" : "00227"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/Metadata.java.html#227"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional&lt;MetadataResponse.PartitionMetadata&gt; partitionMetadataIfCurrentN262415"
+ , "c3" : "QC-JAV000007[00227] For method currentLeader list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.common.requests.MetadataResponse.PartitionMetadata&gt; partitionMetadataIfCurrentN262415"
 }} 
 ,
 { "ligne" : {"" : ""

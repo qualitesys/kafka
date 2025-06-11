@@ -1945,7 +1945,7 @@ var maDataBlocs = {
  , "c1" : "00921"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|Errors validateAlterPartitionDataN553924|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN555179|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN555529"
+ , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors validateAlterPartitionDataN553924|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN555179|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN555529"
 }} 
 ,
 { "ligne" : {"" : ""

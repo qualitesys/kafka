@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 954 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 953 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -754,7 +754,7 @@ var maDataBlocs = {
  , "c2" : "9"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["null" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
+ , "c5" : ["null" , "java.io.ObjectInputStream.readEnum@POLYN856109.cibledummy_01977"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -769,7 +769,7 @@ var maDataBlocs = {
  , "c2" : "10"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readEnum@POLYN856109.en" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
+ , "c5" : ["java.io.ObjectInputStream.readEnum@POLYN856109.en" , "java.io.ObjectInputStream.readEnum@POLYN856109.cibledummy_01977"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -1540,9 +1540,9 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[01983]"
- , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN856109.result" , "---java.io.ObjectInputStream.readEnum@POLYN856109.dummymethode_01983" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
- , "c4" : "//QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN856109[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "sourcenoligne" : "[01977]"
+ , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN856109.result" , "---java.io.ObjectInputStream.readEnum@POLYN856109.dummymethode_01977" , "java.io.ObjectInputStream.readEnum@POLYN856109.cibledummy_01977"]
+ , "c4" : "//QC-JAVCWE099[01977] In java.io.ObjectInputStream.readEnum@POLYN856109[01977] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -1588,9 +1588,9 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[01983]"
- , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN856109.result" , "---java.io.ObjectInputStream.readEnum@POLYN856109.dummymethode_01983" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
- , "c4" : "//QC-JAVCWZ099[01983] In java.io.ObjectInputStream.readEnum@POLYN856109[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "sourcenoligne" : "[01977]"
+ , "c3" : ["java.io.ObjectInputStream.readEnum@POLYN856109.result" , "---java.io.ObjectInputStream.readEnum@POLYN856109.dummymethode_01977" , "java.io.ObjectInputStream.readEnum@POLYN856109.cibledummy_01977"]
+ , "c4" : "//QC-JAVCWZ099[01977] In java.io.ObjectInputStream.readEnum@POLYN856109[01977] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -2579,7 +2579,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "49"
+ , "c4" : "48"
 }}
  ] 
 ,
@@ -2708,13 +2708,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#524"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00524] In method java.io.ObjectInputStream.readUnshared@POLYN801185 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#542"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00542] For method defaultReadObject list of called methods Object monObjet|ClassNotFoundException handles_lookupExceptionN803364"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3484,7 +3477,7 @@ var maDataBlocs = {
  , "c1" : "01642"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1642"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01642] For method readHandle list of called methods Object monObjet|int bin_readIntN842067|java.lang.Object handles_lookupObjectN842587"
+ , "c3" : "QC-JAV000007[01642] For method readHandle list of called methods Object monObjet|int bin_readIntN842067"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7394,10 +7387,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01983"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1983"
+ , "c1" : "01977"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1977"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[01983] In java.io.ObjectInputStream.readEnum@POLYN856109[01983] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c3" : "QC-JAVCWE099[01977] In java.io.ObjectInputStream.readEnum@POLYN856109[01977] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -7489,13 +7482,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.HandleTable.markException@POLYN933752"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -8320,6 +8306,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.HandleTable.markException@POLYN933752"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.readChar@POLYN904982 ending with method java.io.ObjectInputStream.readChar@POLYN818563"
 }} 
@@ -8808,27 +8801,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03670"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3670"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03670] In the recursive method java.io.ObjectInputStream.HandleTable.markException@POLYN933752 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03672"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3672"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03672] In the recursive method java.io.ObjectInputStream.HandleTable.markException@POLYN933752 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03675"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3675"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03675] In the recursive method java.io.ObjectInputStream.HandleTable.markException@POLYN933752 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02266"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2266"
  , "c2" : "BLOCKER"
@@ -9176,6 +9148,27 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3130"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[03130] In the recursive method java.io.ObjectInputStream.BlockDataInputStream.readUnsignedShort@POLYN906294 the MagicNumber/String 2 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03670"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3670"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03670] In the recursive method java.io.ObjectInputStream.HandleTable.markException@POLYN933752 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03672"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3672"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03672] In the recursive method java.io.ObjectInputStream.HandleTable.markException@POLYN933752 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "03675"
+ , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3675"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[03675] In the recursive method java.io.ObjectInputStream.HandleTable.markException@POLYN933752 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

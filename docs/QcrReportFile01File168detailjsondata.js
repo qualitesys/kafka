@@ -284,7 +284,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/ListConsumerGroupOffsetsHandler.java.html#98"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method handleResponse list of called methods Object monObjet|Errors response_groupLevelErrorN177644"
+ , "c3" : "QC-JAV000007[00098] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_groupLevelErrorN177644"
 }} 
 ,
 { "ligne" : {"" : ""

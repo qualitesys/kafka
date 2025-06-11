@@ -1572,7 +1572,7 @@ var maDataBlocs = {
  , "c1" : "00788"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/Selector.java.html#788"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00788] For method maybeCloseOldestConnection list of called methods Object monObjet|Map.Entry&lt;java.lang.String,java.lang.Long&gt; idleExpiryManager_pollExpiredConnectionN439611"
+ , "c3" : "QC-JAV000007[00788] For method maybeCloseOldestConnection list of called methods Object monObjet|java.util.Map.Entry&lt;java.lang.String,java.lang.Long&gt; idleExpiryManager_pollExpiredConnectionN439611"
 }} 
 ,
 { "ligne" : {"" : ""

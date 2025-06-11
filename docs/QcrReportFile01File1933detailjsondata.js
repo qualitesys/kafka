@@ -579,7 +579,7 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#202"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method configure list of called methods Object monObjet|java.lang.String assignorConfiguration_logPrefixN379957|int assignorConfiguration_configuredMetadataVersionN380174|org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer assignorConfiguration_referenceContainerN380275|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentConfigs assignorConfiguration_assignmentConfigsN381189|java.lang.String assignorConfiguration_userEndPointN381336|org.apache.kafka.streams.processor.internals.InternalTopicManager assignorConfiguration_internalTopicManagerN381410|org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer assignorConfiguration_copartitionedTopicsEnforcerN381484|RebalanceProtocol assignorConfiguration_rebalanceProtocolN381558|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentListener assignorConfiguration_assignmentListenerN381700"
+ , "c3" : "QC-JAV000007[00202] For method configure list of called methods Object monObjet|java.lang.String assignorConfiguration_logPrefixN379957|int assignorConfiguration_configuredMetadataVersionN380174|org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer assignorConfiguration_referenceContainerN380275|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentConfigs assignorConfiguration_assignmentConfigsN381189|java.lang.String assignorConfiguration_userEndPointN381336|org.apache.kafka.streams.processor.internals.InternalTopicManager assignorConfiguration_internalTopicManagerN381410|org.apache.kafka.streams.processor.internals.assignment.CopartitionedTopicsEnforcer assignorConfiguration_copartitionedTopicsEnforcerN381484|org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.RebalanceProtocol assignorConfiguration_rebalanceProtocolN381558|org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentListener assignorConfiguration_assignmentListenerN381700"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -670,7 +670,7 @@ var maDataBlocs = {
  , "c1" : "00310"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamsPartitionAssignor.java.html#310"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00310] For method assign list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN385951|int info_versionN386072|int updateMinReceivedVersionN386324|int updateMinSupportedVersionN386431|java.util.UUID info_processIdN387067"
+ , "c3" : "QC-JAV000007[00310] For method assign list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.consumer.ConsumerPartitionAssignor.Subscription&gt; groupSubscription_groupSubscriptionN385034|org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo SubscriptionInfo_decodeN385951|int info_versionN386072|int updateMinReceivedVersionN386324|int updateMinSupportedVersionN386431|java.util.UUID info_processIdN387067"
 }} 
 ,
 { "ligne" : {"" : ""

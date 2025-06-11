@@ -912,7 +912,7 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/NetworkClient.java.html#469"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method doSend list of called methods Object monObjet|java.lang.String clientRequest_destinationN351156|AbstractRequest.Builder&lt;?&gt; clientRequest_requestBuilderN351532"
+ , "c3" : "QC-JAV000007[00469] For method doSend list of called methods Object monObjet|java.lang.String clientRequest_destinationN351156|org.apache.kafka.common.requests.AbstractRequest.Builder&lt;?&gt; clientRequest_requestBuilderN351532"
 }} 
 ,
 { "ligne" : {"" : ""

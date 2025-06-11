@@ -3206,7 +3206,7 @@ var maDataBlocs = {
  , "c1" : "01276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1276"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01276] For method handleResponse list of called methods Object monObjet|Errors initProducerIdResponse_errorN422796"
+ , "c3" : "QC-JAV000007[01276] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors initProducerIdResponse_errorN422796"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3451,7 +3451,7 @@ var maDataBlocs = {
  , "c1" : "01508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1508"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01508] For method handleResponse list of called methods Object monObjet|Errors endTxnResponse_errorN433450"
+ , "c3" : "QC-JAV000007[01508] For method handleResponse list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors endTxnResponse_errorN433450"
 }} 
 ,
 { "ligne" : {"" : ""

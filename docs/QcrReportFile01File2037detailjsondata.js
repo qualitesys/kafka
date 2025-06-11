@@ -318,7 +318,7 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#96"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_keyN232632|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN232774|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; context_recordContextN234398"
+ , "c3" : "QC-JAV000007[00096] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_keyN232632|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN232774|byte[] entry_newValueN232954|byte[] context_recordContextN234398"
 }} 
 ,
 { "ligne" : {"" : ""

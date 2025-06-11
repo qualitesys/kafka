@@ -1754,7 +1754,7 @@ var maDataBlocs = {
  , "c1" : "00683"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#683"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00683] For method processTargetStateChanges list of called methods Object monObjet|TargetState configState_targetStateN550536"
+ , "c3" : "QC-JAV000007[00683] For method processTargetStateChanges list of called methods Object monObjet|org.apache.kafka.connect.runtime.TargetState configState_targetStateN550536"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2881,7 +2881,7 @@ var maDataBlocs = {
  , "c1" : "01154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1154"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01154] For method fenceZombieSourceTasks list of called methods Object monObjet|org.apache.kafka.connect.errors.ConnectException ConnectUtils_maybeWrapN575697"
+ , "c3" : "QC-JAV000007[01154] For method fenceZombieSourceTasks list of called methods Object monObjet|java.net.ConnectException ConnectUtils_maybeWrapN575697"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4274,7 +4274,7 @@ var maDataBlocs = {
  , "c1" : "01776"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/DistributedHerder.java.html#1776"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01776] For method startConnector list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN603386|TargetState configState_targetStateN603607"
+ , "c3" : "QC-JAV000007[01776] For method startConnector list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; configState_connectorConfigN603386|org.apache.kafka.connect.runtime.TargetState configState_targetStateN603607"
 }} 
 ,
 { "ligne" : {"" : ""

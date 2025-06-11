@@ -1464,7 +1464,7 @@ var maDataBlocs = {
  , "c1" : "00585"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#585"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00585] For method handle list of called methods Object monObjet|Errors joinResponse_errorN411212"
+ , "c3" : "QC-JAV000007[00585] For method handle list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors joinResponse_errorN411212"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1737,7 +1737,7 @@ var maDataBlocs = {
  , "c1" : "00763"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#763"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00763] For method handle list of called methods Object monObjet|Errors syncResponse_errorN420405"
+ , "c3" : "QC-JAV000007[00763] For method handle list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors syncResponse_errorN420405"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2458,7 +2458,7 @@ var maDataBlocs = {
  , "c1" : "01139"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1139"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01139] For method handle list of called methods Object monObjet|java.util.List&lt;MemberResponse&gt; leaveResponse_memberResponsesN436720|Errors leaveResponse_errorN437055"
+ , "c3" : "QC-JAV000007[01139] For method handle list of called methods Object monObjet|java.util.List&lt;MemberResponse&gt; leaveResponse_memberResponsesN436720|org.apache.kafka.common.protocol.Errors leaveResponse_errorN437055"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2549,7 +2549,7 @@ var maDataBlocs = {
  , "c1" : "01177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#1177"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01177] For method handle list of called methods Object monObjet|Errors heartbeatResponse_errorN438864"
+ , "c3" : "QC-JAV000007[01177] For method handle list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors heartbeatResponse_errorN438864"
 }} 
 ,
 { "ligne" : {"" : ""
