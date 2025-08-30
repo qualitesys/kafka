@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 157 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java 147 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "31"
+ , "c4" : "23"
 }}
 ,
 { "ligne" : { "" : ""
@@ -187,7 +187,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1071,20 +1071,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN272361"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN276482"
 }} 
 ,
@@ -1092,7 +1078,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.newBuilder@POLYN263732"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN272361"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1100,6 +1086,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.FetchSessionHandler.newBuilder@POLYN264073"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00602"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#602"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00602] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN276482 the MagicNumber/String 'Error sending fetch request {} to node {}:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1254,69 +1247,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#588"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00588] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleResponse@POLYN272361 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#270"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00270] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String 'Built full fetch {} for node {} with {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00278"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#278"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00278] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#300"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00300] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00324"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#324"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00324] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00351"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#351"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00351] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String 'Built incremental fetch {} for node {}. Added {}, altered {}, removed {}, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00352"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#352"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00352] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String 'replaced {} out of {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#360"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00360] In the recursive method org.apache.kafka.clients.FetchSessionHandler.Builder.build@POLYN258052 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00602"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/FetchSessionHandler.java.html#602"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00602] In the recursive method org.apache.kafka.clients.FetchSessionHandler.handleError@POLYN276482 the MagicNumber/String 'Error sending fetch request {} to node {}:' MUST BE CONVERTED to const"
 }} 
 ]
 , 

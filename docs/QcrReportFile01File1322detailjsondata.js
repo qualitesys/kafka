@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 574 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 505 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -508,7 +508,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "88"
+ , "c4" : "26"
 }}
 ,
 { "ligne" : { "" : ""
@@ -522,7 +522,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "11"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3891,27 +3891,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN579024"
 }} 
 ,
@@ -3926,20 +3905,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295"
 }} 
 ,
@@ -3947,273 +3912,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515886"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00571] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String '' already exists.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00571"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#571"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00571] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String 'Topic '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00578"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00578] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00604"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#604"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00607"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#607"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00607] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00612"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#612"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00612] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String ': ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00613"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00613] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String ' -' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00613"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00613] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00614"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#614"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00614] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String ', ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00619"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#619"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00619] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String ': ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00620"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#620"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00620] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String 'SUCCESS' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00621"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#621"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00621] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String ', ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String 'Validate-only CreateTopics result-s-: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00627"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#627"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00627] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createTopics@POLYN527266 the MagicNumber/String 'CreateTopics result-s-: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01694"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1694"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01694] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01695"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1695"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01695] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01695"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1695"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01695] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01705"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1705"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01705] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String 'Unable to alter partition reassignment for ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01706"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01706] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String ' because ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01706"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1706"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01706] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01707"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1707"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01707] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String ' error: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01707"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1707"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01707] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String 'of an ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01718"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1718"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01718] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartitionReassignments@POLYN591856 the MagicNumber/String 'Successfully altered {} out of {} partition reassignment-s-.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00936"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#936"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00936] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00937"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#937"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00937] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00938"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#938"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00938] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00944"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#944"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00944] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'Rejecting AlterPartition request for unknown topic ID {} or name {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00990"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#990"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00990] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'Node {} has altered ISR for {}-{} to {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01007"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1007"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01007] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01008"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1008"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01008] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'AlterPartition request from node {} for {}-{} completed ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01009"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1009"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01009] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'the ongoing partition reassignment and triggered a ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01010"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1010"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01010] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'leadership change. Returning {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01016"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1016"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01016] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01017"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1017"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01017] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01018"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1018"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01018] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'AlterPartition request from node {} for {}-{} completed ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01019"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1019"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01019] In the recursive method org.apache.kafka.controller.ReplicationControlManager.alterPartition@POLYN551549 the MagicNumber/String 'the ongoing partition reassignment.' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4228,6 +3927,76 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#877"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00877] In the recursive method org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN548807 the MagicNumber/String 'Unexpected deleteTopics error for {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00423"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#423"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00423] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00424"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#424"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String 'Tried to create partition ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ', but no topic with that ID was found.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00425"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#425"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ':' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00429"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#429"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String '-' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00430"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#430"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ' with topic ID ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00431"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#431"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00432"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#432"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String 'Created partition {} and {}.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00434"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#434"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00434] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00439"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#439"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4326,258 +4095,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#511"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String 'Replayed partition change {} for topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01646"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1646"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01646] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01647"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1647"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01647] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String 'Topic ID ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01648"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1648"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01648] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String ' existed in isrMembers, but not in the topics map.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01651"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1651"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01651] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01652"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1652"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01652] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String 'Partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01653"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1653"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01653] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String ' existed in isrMembers, but not in the partitions map.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01674"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1674"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01674] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01679"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1679"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01679] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01681"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1681"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01681] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String ', ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01683"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1683"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01683] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String '{}: changing partition-s-: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01685"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1685"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01685] In the recursive method org.apache.kafka.controller.ReplicationControlManager.generateLeaderAndIsrUpdates@POLYN588361 the MagicNumber/String '{}: changing {} partition-s-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00423"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00423] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00424"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#424"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String 'Tried to create partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ', but no topic with that ID was found.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00430"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ' with topic ID ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#432"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String 'Created partition {} and {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00434"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#434"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00434] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01427"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1427"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01427] In the recursive method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01430"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01430] In the recursive method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01435"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1435"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01435] In the recursive method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01436"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1436"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01436] In the recursive method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354 the MagicNumber/String 'Skipping unknown imbalanced topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01441"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1441"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01441] In the recursive method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01442"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1442"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01442] In the recursive method org.apache.kafka.controller.ReplicationControlManager.maybeBalancePartitionLeaders@POLYN577354 the MagicNumber/String 'Skipping unknown imbalanced partition {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515886 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00410"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#410"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00410] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515886 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00418"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#418"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00418] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN515886 the MagicNumber/String 'Created topic {} with topic ID {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00518"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#518"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00518] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00519"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#519"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00519] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538 the MagicNumber/String 'Can't find topic with ID ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00520"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#520"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00520] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538 the MagicNumber/String ' to remove.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00526"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#526"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00526] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00557"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00557] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN524538 the MagicNumber/String 'Removed topic {} with ID {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

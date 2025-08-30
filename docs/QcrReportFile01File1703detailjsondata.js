@@ -217,9 +217,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder.addStateStore@POLYN247896.builder" }
 ]
 ,
 "data12b" : [

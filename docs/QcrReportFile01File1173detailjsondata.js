@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java 237 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java 222 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -414,24 +414,6 @@ var maDataBlocs = {
 ]
 ,
 "data12b" : [
-{ "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.read@POLYN302829" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.read@POLYN302829" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.readConnectorStatus@POLYN298192 (R0 in line [00563])" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.readConnectorStatus@POLYN298192 (R0 in line [00563])" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN285394 (R0 in line [00353],R1 in line [00353])" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN286708 (R0 in line [00374],R2 in line [00374])" }
-,
-{ "ligne" : "S0:org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN286708 (R0 in line [00374],R2 in line [00374])" }
-,
-{ "ligne" : "S0:java.io.File.delete@POLYN607400" }
- ]
- } }
 ]
 ,
 "data12c" : [
@@ -440,16 +422,9 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE833"
- , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "59"
+ , "c4" : "50"
 }}
 ,
 { "ligne" : { "" : ""
@@ -463,7 +438,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "11"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1654,34 +1629,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : org.apache.kafka.connect.storage.KafkaStatusBackingStore.this"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN285394.connector"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN286708.id"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.read@POLYN302829"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.readConnectorStatus@POLYN298192"
 }} 
@@ -1690,7 +1637,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN286708"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1711,21 +1665,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.parseTaskStatus@POLYN291891"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1739,21 +1679,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN287865"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00650"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#650"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00650] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.read@POLYN302829 the MagicNumber/String 'Discarding record with invalid key {}' MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.storage.KafkaStatusBackingStore.read@POLYN302829"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1792,10 +1718,122 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00376"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#376"
+ , "c1" : "00572"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#572"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00376] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.remove@POLYN286708 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00572] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00573"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00573] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Discarding record with invalid task status key {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00577"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#577"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00577] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00578"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00578] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Removing task status for {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00584"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#584"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00584] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00585"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#585"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00585] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Failed to parse task status with key {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00590"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#590"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00590] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Received task {} status update {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00597"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#597"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00597] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String ':' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00600"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#600"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00600] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00606"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#606"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00606] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key containing empty topic {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00613"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#613"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00613] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00619"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00619] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key containing empty connector {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00623"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#623"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00623] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00624"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#624"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Removing status for topic {} and connector {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00630"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#630"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00630] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00631"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#631"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00631] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Failed to parse topic status with key {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00635"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#635"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00635] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Received topic status update {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1897,55 +1935,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00572"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#572"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00572] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00573"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00573] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Discarding record with invalid task status key {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00577"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#577"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00577] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00578"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00578] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Removing task status for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00584"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#584"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00584] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00585"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#585"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00585] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Failed to parse task status with key {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00590"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#590"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00590] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTaskStatus@POLYN299328 the MagicNumber/String 'Received task {} status update {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#460"
  , "c2" : "BLOCKER"
@@ -1978,76 +1967,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#472"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00472] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.parseTaskStatus@POLYN291891 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00597"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#597"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00597] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00600"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#600"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00600] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00606"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#606"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00606] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key containing empty topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00613"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#613"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00613] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00619"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#619"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00619] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Discarding record with invalid topic status key containing empty connector {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00623"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#623"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00623] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00624"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#624"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00624] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Removing status for topic {} and connector {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00630"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00630] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00631"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#631"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00631] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Failed to parse topic status with key {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00635"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#635"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00635] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.readTopicStatus@POLYN300581 the MagicNumber/String 'Received topic status update {}' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2107,59 +2026,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#164"
+ , "c1" : "00650"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#650"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#164"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00164] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00165"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#165"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00165] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910 the MagicNumber/String 'Must specify topic for connector status.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00172"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#172"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00172] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#178"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910 the MagicNumber/String 'false' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#189"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00189] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.configure@POLYN274910 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN287865 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaStatusBackingStore.java.html#397"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00397] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.get@POLYN287865 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[00650] In the recursive method org.apache.kafka.connect.storage.KafkaStatusBackingStore.read@POLYN302829 the MagicNumber/String 'Discarding record with invalid key {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

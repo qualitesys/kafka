@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java 130 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java 112 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -175,7 +175,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "54"
+ , "c4" : "37"
 }}
 ,
 { "ligne" : { "" : ""
@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -741,13 +741,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#206"
  , "c2" : "BLOCKER"
@@ -1004,125 +997,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#271"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00271] In the recursive method org.apache.kafka.trogdor.agent.Agent.main@POLYN201828 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#167"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00167] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00171"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#171"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00171] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String 'Unable to create the task controller.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00173] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00177"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#177"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00177] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String 'This task is not configured to run on this node.  It runs on node-s-: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#178"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String ', ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00178"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#178"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00178] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String ', whereas this node is ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00180"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#180"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00180] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00182"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#182"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00182] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String 'createWorker failed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#188"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00188] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00190"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#190"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00190] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String 'Waiting for completion of task:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00192"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#192"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00192] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String 'Task succeeded with status ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00195"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#195"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00195] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String 'Task failed with status ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00199"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#199"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00199] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String ' and error ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/Agent.java.html#200"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00200] In the recursive method org.apache.kafka.trogdor.agent.Agent.exec@POLYN199410 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

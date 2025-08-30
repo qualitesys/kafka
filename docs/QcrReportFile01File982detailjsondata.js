@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java 4 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -81,23 +81,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -133,13 +117,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#71"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00071] For method canDefineTransactionBoundaries arguments Map&lt;String ,String &gt;  connectorConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceConnector.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.source.SourceConnector.context@POLYN164948"
 }} 
 ]
 , 

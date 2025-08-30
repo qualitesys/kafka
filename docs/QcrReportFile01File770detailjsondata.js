@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java 170 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java 142 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -306,15 +306,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -324,24 +315,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "26"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1366,202 +1343,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#640"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00640] Public method authenticationOrReauthenticationText is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00493"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#493"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00493] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00494"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#494"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00494] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#504"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00504] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String ' during SASL handshake.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String 'Unexpected Kafka request of type ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#511"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String 'Handling Kafka request {} during {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00515"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#515"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00515] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#529"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String '%02x' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00530"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#530"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00530] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String 20 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00533"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#533"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00533] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String 'Received client packet of length {} starting with bytes 0x{}, process as GSSAPI packet' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00536"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#536"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00536] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String 'First client packet is not a SASL mechanism request, using default mechanism GSSAPI' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00539"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#539"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00539] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String 'Exception handling first SASL packet from client, GSSAPI is not supported by server' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleKafkaRequest@POLYN288774 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00419"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#419"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00419] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#432"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String ' during SASL authentication.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#432"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String 'Unexpected Kafka request of type ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String ' is not supported for apiKey ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String 'Version ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00447"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#447"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00447] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00456"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#456"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00456] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#457"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String 0L MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#479"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String 'Authentication failed during ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00481"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#481"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.handleSaslToken@POLYN284164 the MagicNumber/String ' due to invalid credentials with SASL mechanism ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

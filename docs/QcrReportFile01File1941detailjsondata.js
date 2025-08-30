@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java 326 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java 298 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -612,7 +612,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "68"
+ , "c4" : "49"
 }}
 ,
 { "ligne" : { "" : ""
@@ -626,7 +626,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "15"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2378,7 +2378,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN401050"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2392,70 +2392,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN383487"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleRevocation@POLYN370944"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN356621"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN376925"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN401050"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN377903"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN400650"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.producerClientIds@POLYN406223"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.producerMetrics@POLYN406101"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2469,7 +2406,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.totalProducerBlockedTime@POLYN353359"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2480,87 +2417,17 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00905"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#905"
+ , "c1" : "01166"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00905] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01166] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN401050 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00908"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#908"
+ , "c1" : "01173"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1173"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00908] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00923"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#923"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00923] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00925"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#925"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00925] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while post-committing task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00932"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#932"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00932] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00937"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#937"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00937] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00948"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#948"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00948] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while committing tasks during shutdown' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00949"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#949"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00949] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00962"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#962"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00962] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while clean-closing task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00964"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#964"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00964] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00967"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#967"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00967] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while clean-closing task ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00968"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#968"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00968] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+ , "c3" : "QC-JAV999993[01173] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN401050 the MagicNumber/String 'Caught the following exception while closing tasks from a removed topology:' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2610,20 +2477,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#427"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00427] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCloseAndRecycle@POLYN363576 the MagicNumber/String 'Failed to recycle task %s cleanly. Attempting to close remaining tasks before re-throwing:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00793"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#793"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00793] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN383487 the MagicNumber/String 'Error flushing caches of dirty task {} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00799"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#799"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00799] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeTaskDirty@POLYN383487 the MagicNumber/String 'Error suspending dirty task {} ' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2739,139 +2592,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00185"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#185"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00185] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244 the MagicNumber/String 'Some additional tasks were found corrupted while trying to commit, these will be added to the ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00198"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#198"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00198] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244 the MagicNumber/String 'tasks to clean and revive: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244 the MagicNumber/String 'Hit TimeoutException when committing all non-corrupted tasks, these will be closed and revived' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00205"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#205"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00205] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleCorruption@POLYN354244 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00227] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN356621 the MagicNumber/String 'Error flushing cache for corrupted task {} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN356621 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN356621 the MagicNumber/String 'Error suspending corrupted task {} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#252"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN356621 the MagicNumber/String 'Expected the current consumer assignment {} to contain the input partitions {}. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.closeDirtyAndRevive@POLYN356621 the MagicNumber/String 'Will proceed to recover.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00647"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#647"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00647] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleLostAll@POLYN376925 the MagicNumber/String 'Closing lost active tasks as zombies.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01166"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01166] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN401050 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1173"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01173] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.maybeCloseTasksFromRemovedTopologies@POLYN401050 the MagicNumber/String 'Caught the following exception while closing tasks from a removed topology:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00677"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#677"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00677] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN377903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00679"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#679"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00679] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN377903 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00682"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#682"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00682] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN377903 the MagicNumber/String 'Skipping to encode apparently stateless -or non-logged- offset sum for task {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00693"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#693"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00693] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.getTaskOffsetSums@POLYN377903 the MagicNumber/String 'Exception caught while trying to read checkpoint for task %s:' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#1143"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01143] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.handleTopologyUpdates@POLYN400650 the MagicNumber/String 'Proactively unsubscribing from all topics due to empty topology' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00760"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#760"
  , "c2" : "BLOCKER"
@@ -2904,6 +2624,90 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#778"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00778] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.sumOfChangelogOffsets@POLYN382334 the MagicNumber/String 'Sum of changelog offsets for task {} overflowed, pinning to Long.MAX_VALUE' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00905"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#905"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00905] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00908"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#908"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00908] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00923"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#923"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00923] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String true MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00925"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#925"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00925] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while post-committing task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00932"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#932"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00932] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00937"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#937"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00937] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00948"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#948"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00948] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while committing tasks during shutdown' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00949"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#949"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00949] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00962"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#962"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00962] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while clean-closing task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00964"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#964"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00964] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00967"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#967"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00967] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String 'Exception caught while clean-closing task ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00968"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/TaskManager.java.html#968"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00968] In the recursive method org.apache.kafka.streams.processor.internals.TaskManager.tryCloseCleanActiveTasks@POLYN387903 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

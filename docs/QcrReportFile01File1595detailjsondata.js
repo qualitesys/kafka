@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 138 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java 116 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -356,7 +356,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "19"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -370,7 +370,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "5"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1198,98 +1198,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN466324"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN458572"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN459364"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN460198"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01349"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1349"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01349] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String 'Unexpected user-specified %s config: %s found. %sUser setting -%s- will be ignored and the Streams default setting -%s- will be used ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01350"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01350] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String ' is set to ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01350"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01350] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String '. Hence, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01357"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01357] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01357"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1357"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01357] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01364"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1364"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01364] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String 'consumer' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01370"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1370"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01370] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String 'producer' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01375] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String '&amp;lt;appId&amp;gt;-&amp;lt;generatedSuffix&amp;gt;' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01375"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1375"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01375] In the recursive method org.apache.kafka.streams.StreamsConfig.checkIfUnexpectedUserSpecifiedConsumerConfig@POLYN469813 the MagicNumber/String 'producer' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1297,69 +1206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1280"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01280] In the recursive method org.apache.kafka.streams.StreamsConfig.postProcessParsedConfig@POLYN466324 the MagicNumber/String 'Using {} default value of {} as exactly once is enabled.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1092"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01092] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN458572 the MagicNumber/String ''. Please specify a true/false value.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1092"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01092] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN458572 the MagicNumber/String '- on internal configuration '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1092"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01092] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getBoolean@POLYN458572 the MagicNumber/String 'Invalid value -' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01104] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN459364 the MagicNumber/String ''. Please specify a numeric value.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01104] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN459364 the MagicNumber/String '- on internal configuration '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01104] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getLong@POLYN459364 the MagicNumber/String 'Invalid value -' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01114] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN460198 the MagicNumber/String ''. Please specify a String value.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01114] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN460198 the MagicNumber/String '- on internal configuration '' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01114"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/StreamsConfig.java.html#1114"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01114] In the recursive method org.apache.kafka.streams.StreamsConfig.InternalConfig.getString@POLYN460198 the MagicNumber/String 'Invalid value -' MUST BE CONVERTED to const"
 }} 
 ]
 , 

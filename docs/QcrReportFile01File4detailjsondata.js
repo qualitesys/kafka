@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClientRequest.java 11 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClientRequest.java 10 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -152,23 +152,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -260,13 +244,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#85"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000007[00085] For method makeHeader list of called methods Object monObjet|org.apache.kafka.common.protocol.ApiKeys apiKeyN166924"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientRequest.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClientRequest.apiKey@POLYN166719"
 }} 
 ]
 , 

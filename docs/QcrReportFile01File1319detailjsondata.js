@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 402 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 352 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -577,7 +577,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "52"
+ , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -591,7 +591,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "16"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2973,28 +2973,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480406"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.createSnapshotGenerator@POLYN444871"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.handleEventException@POLYN441250"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446873"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3008,98 +2987,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.replay@POLYN477258"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475525"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.appendControlEvent@POLYN444335"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473779"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN443425"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN467575"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.beginShutdown@POLYN506086"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.close@POLYN506587"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN440710"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01319"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1319"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01319] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480406 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01328"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1328"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01328] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480406 the MagicNumber/String 'Generating a snapshot that includes -epoch={}, offset={}- after {} committed bytes since the last snapshot.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01332"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01332] In the recursive method org.apache.kafka.controller.QuorumController.maybeGenerateSnapshot@POLYN480406 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3187,55 +3075,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#413"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00413] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN441250 the MagicNumber/String '{}: unable to start processing because of {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN441250 the MagicNumber/String '{}: failed with {} in {} us' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN441250 the MagicNumber/String '{}: failed with unknown server exception {} at epoch {} in {} us.  ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00430"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.controller.QuorumController.handleEventException@POLYN441250 the MagicNumber/String 'Renouncing leadership and reverting to the last committed offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00528"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#528"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00528] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446873 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00529"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#529"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00529] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446873 the MagicNumber/String 'Cancelling snapshot {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00531"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#531"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00531] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.cancel@POLYN446873 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01613"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1613"
  , "c2" : "BLOCKER"
@@ -3254,195 +3093,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1619"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[01619] In the recursive method org.apache.kafka.controller.QuorumController.QuorumController@POLYN485775 the MagicNumber/String 'Creating new QuorumController with clusterId {}, authorizer {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01303"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1303"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01303] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN477258 the MagicNumber/String 'Unhandled record type ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01307"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1307"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01307] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN477258 the MagicNumber/String 'Error replaying record {} from snapshot {} at last offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01310"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1310"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01310] In the recursive method org.apache.kafka.controller.QuorumController.replay@POLYN477258 the MagicNumber/String 'Error replaying record {} at last offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01209"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1209"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01209] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475525 the MagicNumber/String 'Scheduling write event for {} because maxIdleIntervalNs -{}- and metadataVersion -{}-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01216"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1216"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01216] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475525 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01220"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1220"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01220] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475525 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01221] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475525 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01227"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1227"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01227] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextWriteNoOpRecord@POLYN475525 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00548"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#548"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00548] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String 'No snapshot is in progress.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00556"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#556"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00556] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String 'Error while generating snapshot {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00558"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#558"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00558] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00562"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#562"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00562] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String 'Finished generating snapshot {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#564"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager.run@POLYN447761 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01155"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01155] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473779 the MagicNumber/String 'Scheduling write event for {} because scheduled -{}-, checkIntervalNs -{}- and isImbalanced -{}-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01187"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01187] In the recursive method org.apache.kafka.controller.QuorumController.maybeScheduleNextBalancePartitionLeaders@POLYN473779 the MagicNumber/String 10 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00457"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#457"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00457] In the recursive method org.apache.kafka.controller.QuorumController.ControlEvent.run@POLYN443425 the MagicNumber/String 'Executing {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01011"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1011"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01011] In the recursive method org.apache.kafka.controller.QuorumController.QuorumMetaLogListener.beginShutdown@POLYN467575 the MagicNumber/String 'MetaLogManager.Listener' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01962"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1962"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01962] In the recursive method org.apache.kafka.controller.QuorumController.beginShutdown@POLYN506086 the MagicNumber/String 'QuorumController#beginShutdown' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00404"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#404"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00404] In the recursive method org.apache.kafka.controller.QuorumController.handleEventEnd@POLYN440710 the MagicNumber/String 'Processed {} in {} us' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01033"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1033"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01033] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01034"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1034"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01034] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: completing authorizer ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01035"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1035"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01035] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String 'initial load at last committed offset {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01037"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1037"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01037] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01039"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1039"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01039] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: can't proceed because ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01040"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1040"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01040] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String 'lastCommittedOffset  = {}, but highWatermark = {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01044"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#1044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01044] In the recursive method org.apache.kafka.controller.QuorumController.maybeCompleteAuthorizerInitialLoad@POLYN468203 the MagicNumber/String 'maybeCompleteAuthorizerInitialLoad: highWatermark not set.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

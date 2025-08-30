@@ -172,25 +172,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.clients.producer.internals.ProducerMetadata.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN172929.topic" }
-,
-{ "ligne" :  "R2:org.apache.kafka.clients.producer.internals.ProducerMetadata.add@POLYN172929.nowMs" }
-,
-{ "ligne" :  "R3:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN174972.lastVersion" }
-,
-{ "ligne" :  "R4:org.apache.kafka.clients.producer.internals.ProducerMetadata.awaitUpdate@POLYN174972.timeoutMs" }
-,
-{ "ligne" :  "R5:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.requestVersion" }
-,
-{ "ligne" :  "R6:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.response" }
-,
-{ "ligne" :  "R7:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.isPartialUpdate" }
-,
-{ "ligne" :  "R8:org.apache.kafka.clients.producer.internals.ProducerMetadata.update@POLYN175748.nowMs" }
-,
-{ "ligne" :  "R9:org.apache.kafka.clients.producer.internals.ProducerMetadata.fatalError@POLYN176361.fatalException" }
 ]
 ,
 "data12b" : [

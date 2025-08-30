@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 191 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 178 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -189,35 +189,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "12"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1494,97 +1471,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#578"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.PemParser.pemEntries@POLYN272514 the MagicNumber/String  ' entries in PEM file' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#245"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00245] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#247"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00250"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#250"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00250] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#260"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#260"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00264"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#264"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00264] In the recursive method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createSSLContext@POLYN253699 the MagicNumber/String 'Created SSL context with keystore {}, truststore {}, provider {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

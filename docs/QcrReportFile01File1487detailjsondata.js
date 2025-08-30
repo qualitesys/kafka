@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Throwable.java.html" 
- , "texte" : "File secujava/java.lang.Throwable.java 108 rule violations " 
+ , "texte" : "File secujava/java.lang.Throwable.java 104 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -289,42 +289,15 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:java.lang.Throwable.this" }
-,
-{ "ligne" :  "R1:java.lang.Throwable.writeObject@POLYN397822.s" }
-,
-{ "ligne" :  "R2:java.lang.Throwable.addSuppressed@POLYN399877.exception" }
 ]
 ,
 "data12b" : [
-{ "sequence" : { "noseq" : "0" , "pas" : [
-{ "ligne" : "S0:java.lang.Throwable.writeObject@POLYN397822 (R0 in line [01002],R1 in line [01002])" }
-,
-{ "ligne" : "S0:java.lang.Throwable.getOurStackTrace@POLYN391841 (R0 in line [00834])" }
-,
-{ "ligne" : "S0:java.lang.Throwable.getOurStackTrace@POLYN391841.dummymethode_00839" }
- ]
- } }
-,
-{ "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:java.lang.Throwable.addSuppressed@POLYN399877 (R0 in line [01070],R2 in line [01070])" }
-,
-{ "ligne" : "S1:java.lang.Throwable.addSuppressed@POLYN399877.dummymethode_01074" }
- ]
- } }
 ]
 ,
 "data12c" : [
 ]
 , 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAVCWE833"
- , "c3" : "Potential deadlock between at least two ressources"
- , "c4" : "3"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
@@ -343,7 +316,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1009,36 +982,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : java.lang.Throwable.this"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : java.lang.Throwable.writeObject@POLYN397822.s"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : java.lang.Throwable.addSuppressed@POLYN399877.exception"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printEnclosedStackTrace@POLYN386306"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printStackTrace@POLYN388874"
 }} 
 ,
 { "ligne" : {"" : ""

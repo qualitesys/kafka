@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java 361 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java 349 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -220,7 +220,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "74"
+ , "c4" : "64"
 }}
 ,
 { "ligne" : { "" : ""
@@ -234,7 +234,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "9"
+ , "c4" : "7"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2217,13 +2217,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613"
 }} 
 ,
@@ -2252,13 +2245,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#1"
- , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364"
 }} 
 ,
@@ -2266,7 +2252,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2274,34 +2260,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutException@POLYN317105"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00601"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00601] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String 'Starting to setup internal topics {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00622"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#622"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00622] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String 'Going to create internal topics: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00627"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#627"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00627] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String 'created' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00630"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#630"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00630] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String 'Completed setup of internal topics {}.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2620,6 +2578,69 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00563"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String ' does not contain all the topics ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00563"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'The topics map ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00564"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#564"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String ' trying to validate.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00573"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#573"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00573] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Found undefined number of partitions for topic {}' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00574] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String ' number of partitions not defined' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00574"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#574"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00574] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Topic ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00578"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#578"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00578] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Existing internal topic %s has invalid partitions: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00579"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#579"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00579] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'expected: %d; actual: %d. ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00580"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#580"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00580] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Use 'kafka.tools.StreamsResetter' tool to clean up invalid topics before processing.' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#515"
  , "c2" : "BLOCKER"
@@ -2687,111 +2708,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#549"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999993[00549] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String 'Error message was: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00563"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#563"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String ' does not contain all the topics ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00563"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#563"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00563] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'The topics map ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#564"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00564] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String ' trying to validate.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00573"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#573"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00573] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Found undefined number of partitions for topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#574"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00574] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String ' number of partitions not defined' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00574"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#574"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00574] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Topic ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00578"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#578"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00578] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Existing internal topic %s has invalid partitions: ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00579"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#579"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00579] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'expected: %d; actual: %d. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00580"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#580"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00580] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String 'Use 'kafka.tools.StreamsResetter' tool to clean up invalid topics before processing.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String 'Starting to validate internal topics {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#196"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00196] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String 'Could not validate internal topics within %d milliseconds. ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00197"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#197"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00197] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String 'This can happen if the Kafka cluster is temporarily not available.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#201"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00201] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String 100 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00208] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String 'validated' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#212"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00212] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String 'Completed validation of internal topics {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

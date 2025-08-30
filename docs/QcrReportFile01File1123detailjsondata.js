@@ -208,15 +208,6 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.metrics@POLYN212470.errorHandlingMetrics" }
-,
-{ "ligne" :  "R2:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.reporters@POLYN213099.reporters" }
-,
-{ "ligne" :  "R3:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.sourceRecord@POLYN213352.preTransformRecord" }
-,
-{ "ligne" :  "R4:org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator.consumerRecord@POLYN213581.consumedMessage" }
 ]
 ,
 "data12b" : [

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java 92 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java 82 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -202,7 +202,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -216,7 +216,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -806,14 +806,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN186826"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.toByteBuffer@POLYN192962"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -821,69 +814,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.toVersionPrefixedByteBuffer@POLYN193621"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.MessageUtil.toByteBuffer@POLYN192962"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#87"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00087] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN186826 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#88"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00088] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToShort@POLYN186826 the MagicNumber/String ' does not fit in a 16-bit signed integer.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00068"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#68"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00068] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962 the MagicNumber/String 256 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#71"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00071] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962 the MagicNumber/String 128 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#73"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00073] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#74"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00074] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#78"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00078] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962 the MagicNumber/String ': value ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/MessageUtil.java.html#79"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00079] In the recursive method org.apache.kafka.common.protocol.MessageUtil.jsonNodeToByte@POLYN185962 the MagicNumber/String ' does not fit in an 8-bit signed integer.' MUST BE CONVERTED to const"
 }} 
 ,
 { "ligne" : {"" : ""

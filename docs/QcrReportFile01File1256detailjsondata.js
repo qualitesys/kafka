@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 646 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 615 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -513,42 +513,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "23"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "37"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -4891,223 +4861,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1622"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01622] In method org.apache.kafka.message.MessageDataGenerator.fieldFlexibleVersions@POLYN517933 the MagicNumber/String  'message as a whole, which are ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 ending with method org.apache.kafka.message.MessageDataGenerator.generateSubclasses@POLYN432996"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.message.MessageDataGenerator.generateSubclasses@POLYN432996"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.message.MessageDataGenerator.generateSubclasses@POLYN432996 ending with method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.message.MessageDataGenerator.generateSubclasses@POLYN432996"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.message.MessageDataGenerator.outputName@POLYN425727"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#81"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00081] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#85"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00085] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String 'Cannot set mapKey on top level fields.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String 'apiKey' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String 1 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#97"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00097] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String 'lowestSupportedVersion' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#99"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00099] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#100"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00100] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String 'highestSupportedVersion' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00103"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#103"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00103] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00105] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00108"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00108] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00109"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#109"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00109] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00111"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00111] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#112"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00112] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00113"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#113"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00113] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#126"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00126] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00138"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#138"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00138] In the recursive method org.apache.kafka.message.MessageDataGenerator.generateClass@POLYN427207 the MagicNumber/String '}%n' MUST BE CONVERTED to const"
 }} 
 ]
 , 
