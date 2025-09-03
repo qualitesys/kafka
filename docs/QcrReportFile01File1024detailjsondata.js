@@ -109,8 +109,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -197,14 +197,14 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00051] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00051] Valued method close is empty or contains only a return. Interface segregation for TopicFilter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultTopicFilter.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00051] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00051] In the class DefaultTopicFilter which implements the interface(s) TopicFilter, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTopicFilter"
 }} 
 ]
 , 

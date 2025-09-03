@@ -82,8 +82,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -114,14 +114,14 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#34"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00034] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00034] Valued method configure is empty or contains only a return. Interface segregation for ProductionExceptionHandler"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00034"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/errors/DefaultProductionExceptionHandler.java.html#34"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00034] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00034] In the class DefaultProductionExceptionHandler which implements the interface(s) ProductionExceptionHandler, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedProductionExceptionHandler"
 }} 
 ]
 , 

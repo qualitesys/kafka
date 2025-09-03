@@ -127,15 +127,15 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -250,28 +250,28 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00093] Void method authenticate is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00093] Valued method authenticate is empty or contains only a return. Interface segregation for Authenticator"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#93"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00093] Void method authenticate is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00093] In the class PlaintextAuthenticator which implements the interface(s) Authenticator, the method authenticate is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedAuthenticator"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00079] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00079] Valued method close is empty or contains only a return. Interface segregation for ChannelBuilder"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextChannelBuilder.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00079] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00079] In the class PlaintextChannelBuilder which implements the interface(s) ChannelBuilder, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedChannelBuilder"
 }} 
 ,
 { "ligne" : {"" : ""

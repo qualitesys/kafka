@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java 63 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -208,6 +208,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
@@ -635,6 +642,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#290"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.mirror.MirrorSourceTask.PartitionState.update@POLYN212124 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorSourceTask.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00107] Valued method commit is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""

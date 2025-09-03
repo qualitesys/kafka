@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java 0 rule violation " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -186,6 +186,31 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00127] The interface UpdateListener does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ConfigBackingStore.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00030] The interface ConfigBackingStore does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
 ]
 , 
 "data15" : {

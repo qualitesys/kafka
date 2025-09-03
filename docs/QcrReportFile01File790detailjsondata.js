@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java 73 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java 75 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -192,9 +192,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "16"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -610,6 +624,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#241"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00241] For method getMechanismNames arguments Map&lt;String ,? &gt;  props"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00216] Valued method handleCallbackError is empty or contains only a return. Interface segregation for SaslServer"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00216"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslServer.java.html#216"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00216] In the class OAuthBearerSaslServer which implements the interface(s) SaslServer, the method handleCallbackError is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSaslServer"
 }} 
 ,
 { "ligne" : {"" : ""

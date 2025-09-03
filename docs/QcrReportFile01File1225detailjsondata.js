@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java 53 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java 54 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,8 +190,15 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
  , "c4" : "1"
 }}
 ,
@@ -225,6 +232,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00107] The interface TimestampTranslator does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#286"
@@ -586,14 +600,14 @@ var maDataBlocs = {
  , "c1" : "00325"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#325"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00325] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00325] Valued method close is empty or contains only a return. Interface segregation for Transformation<R>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampConverter.java.html#325"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00325] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00325] In the class TimestampConverter which implements the interface(s) Transformation<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
 }} 
 ]
 , 

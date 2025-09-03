@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java 11 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -119,6 +119,20 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -188,6 +202,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#84"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.common.utils.AbstractIterator.maybeComputeNext@POLYN160222 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00060] Valued method remove is empty or contains only a return. Interface segregation for Iterator<T>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00060"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AbstractIterator.java.html#60"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00060] In the class AbstractIterator which implements the interface(s) Iterator<T>, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedIterator<T>"
 }} 
 ]
 , 

@@ -196,16 +196,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "3"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "5"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "5"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -291,42 +291,42 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00110] Void method handleFailedRequest is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00110] Valued method handleFailedRequest is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00110] Void method handleFailedRequest is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00110] In the class AdminMetadataUpdater which implements the interface(s) MetadataUpdater, the method handleFailedRequest is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00115] Void method handleSuccessfulResponse is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00115] Valued method handleSuccessfulResponse is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00115] Void method handleSuccessfulResponse is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00115] In the class AdminMetadataUpdater which implements the interface(s) MetadataUpdater, the method handleSuccessfulResponse is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00120] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00120] Valued method close is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/internals/AdminMetadataManager.java.html#120"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00120] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00120] In the class AdminMetadataUpdater which implements the interface(s) MetadataUpdater, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""

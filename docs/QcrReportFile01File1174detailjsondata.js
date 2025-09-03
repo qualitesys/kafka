@@ -217,8 +217,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "6"
 }}
 ,
@@ -550,84 +550,84 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00047] Void method start is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00047] Valued method start is empty or contains only a return. Interface segregation for ConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#47"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00047] Void method start is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00047] In the class MemoryConfigBackingStore which implements the interface(s) ConfigBackingStore, the method start is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00051] Void method stop is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00051] Valued method stop is empty or contains only a return. Interface segregation for ConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00051] Void method stop is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00051] In the class MemoryConfigBackingStore which implements the interface(s) ConfigBackingStore, the method stop is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00137] Void method refresh is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00137] Valued method refresh is empty or contains only a return. Interface segregation for ConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00137] Void method refresh is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00137] In the class MemoryConfigBackingStore which implements the interface(s) ConfigBackingStore, the method refresh is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00153] Void method putSessionKey is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00153] Valued method putSessionKey is empty or contains only a return. Interface segregation for ConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#153"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00153] Void method putSessionKey is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00153] In the class MemoryConfigBackingStore which implements the interface(s) ConfigBackingStore, the method putSessionKey is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00158] Void method putRestartRequest is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00158] Valued method putRestartRequest is empty or contains only a return. Interface segregation for ConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#158"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00158] Void method putRestartRequest is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00158] In the class MemoryConfigBackingStore which implements the interface(s) ConfigBackingStore, the method putRestartRequest is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00163] Void method putTaskCountRecord is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00163] Valued method putTaskCountRecord is empty or contains only a return. Interface segregation for ConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryConfigBackingStore.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00163] Void method putTaskCountRecord is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00163] In the class MemoryConfigBackingStore which implements the interface(s) ConfigBackingStore, the method putTaskCountRecord is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ]
 , 

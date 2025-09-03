@@ -72,8 +72,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -237,14 +237,14 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00092] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00092] Valued method close is empty or contains only a return. Interface segregation for Processor<String,String,String,String>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountProcessorDemo.java.html#92"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00092] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00092] In the class WordCountProcessor which implements the interface(s) Processor<String,String,String,String>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedProcessor<String,String,String,String>"
 }} 
 ,
 { "ligne" : {"" : ""

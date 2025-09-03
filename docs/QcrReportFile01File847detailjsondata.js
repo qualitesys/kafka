@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 178 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 179 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,6 +190,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -925,6 +932,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#322"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.createTruststore@POLYN258130 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00325"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#325"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00325] The interface SecurityStore does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

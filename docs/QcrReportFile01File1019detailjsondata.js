@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java 3 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -154,6 +154,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -181,6 +188,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#86"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00086] The argument topic is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00024"
+ , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/ReplicationPolicy.java.html#24"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00024] The interface ReplicationPolicy does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

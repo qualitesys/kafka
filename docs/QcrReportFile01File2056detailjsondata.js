@@ -285,16 +285,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "2"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -723,28 +723,28 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00271] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00271] Valued method close is empty or contains only a return. Interface segregation for KeyValueIterator<Bytes,byte[]>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00271] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00271] In the class InMemoryKeyValueIterator which implements the interface(s) KeyValueIterator<Bytes,byte[]>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueIterator<Bytes,byte[]>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00238] Void method flush is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00238] Valued method flush is empty or contains only a return. Interface segregation for KeyValueStore<Bytes,byte[]>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00238] Void method flush is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00238] In the class InMemoryKeyValueStore which implements the interface(s) KeyValueStore<Bytes,byte[]>, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<Bytes,byte[]>"
 }} 
 ,
 { "ligne" : {"" : ""

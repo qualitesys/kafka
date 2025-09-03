@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java 1 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -74,6 +74,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -87,6 +94,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#27"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00027] In method org.apache.kafka.connect.runtime.ConnectorStatus.ConnectorStatus@POLYN161597 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorStatus.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00030] The interface Listener does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java 0 rule violation " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -60,6 +60,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00109"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ConnectedStoreProvider.java.html#109"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00109] The interface ConnectedStoreProvider does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
 ]
 , 
 "data15" : {

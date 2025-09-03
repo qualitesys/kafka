@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 459 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 461 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -624,6 +624,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "6"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1585,6 +1592,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#795"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00795] In method org.apache.kafka.common.config.ConfigDef.convertToStringMapWithPasswordValues@POLYN491532 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00832"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#832"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00832] The interface Recommender does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00855"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#855"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00855] The interface Validator does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java 13 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -110,6 +110,20 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -214,6 +228,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#79"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.runtime.PredicatedTransformation.toString@POLYN163044 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00048] Valued method configure is empty or contains only a return. Interface segregation for Transformation<R>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00048"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#48"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00048] In the class PredicatedTransformation which implements the interface(s) Transformation<R>, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
 }} 
 ]
 , 

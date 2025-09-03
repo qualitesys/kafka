@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java 99 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java 100 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -163,6 +163,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -891,6 +898,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#551"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00551] In method org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin.ClassRecommender.visible@POLYN279500 the MagicNumber/String  true should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00445"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ConnectorConfig.java.html#445"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00445] Valued method validateProps is empty or contains only a return."
 }} 
 ]
 , 

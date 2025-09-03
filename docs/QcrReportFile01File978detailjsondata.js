@@ -154,8 +154,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "3"
 }}
 ,
@@ -235,42 +235,42 @@ var maDataBlocs = {
  , "c1" : "00110"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00110] Void method flush is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00110] Valued method flush is empty or contains only a return. Interface segregation for Task"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#110"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00110] Void method flush is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00110] In the class SinkTask which implements the interface(s) Task, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00144] Void method onPartitionsAssigned is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00144] Valued method onPartitionsAssigned is empty or contains only a return. Interface segregation for Task"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#144"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00144] Void method onPartitionsAssigned is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00144] In the class SinkTask which implements the interface(s) Task, the method onPartitionsAssigned is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00163] Void method onPartitionsRevoked is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00163] Valued method onPartitionsRevoked is empty or contains only a return. Interface segregation for Task"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/sink/SinkTask.java.html#163"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00163] Void method onPartitionsRevoked is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00163] In the class SinkTask which implements the interface(s) Task, the method onPartitionsRevoked is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
 }} 
 ]
 , 

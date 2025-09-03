@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java 16 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -236,6 +236,20 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -361,6 +375,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#153"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter.currentStreamTimeMs@POLYN172223 the MagicNumber/String  'StateStores can't access stream time.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00107] Valued method commit is empty or contains only a return. Interface segregation for ProcessorContext"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00107"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StoreToProcessorContextAdapter.java.html#107"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00107] In the class StoreToProcessorContextAdapter which implements the interface(s) ProcessorContext, the method commit is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedProcessorContext"
 }} 
 ]
 , 

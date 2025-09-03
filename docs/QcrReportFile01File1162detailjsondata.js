@@ -91,8 +91,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -116,14 +116,14 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#39"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00039] Void method requestTimeout is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00039] Valued method requestTimeout is empty or contains only a return. Interface segregation for ConnectResource"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/rest/resources/RootResource.java.html#39"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00039] Void method requestTimeout is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00039] In the class RootResource which implements the interface(s) ConnectResource, the method requestTimeout is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConnectResource"
 }} 
 ]
 , 

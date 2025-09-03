@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html" 
- , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java 9 rule violations " 
+ , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java 10 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -120,6 +120,13 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "1"
@@ -202,6 +209,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#81"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.connect.file.FileStreamSourceConnector.taskConfigs@POLYN167127 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00090"
+ , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceConnector.java.html#90"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00090] Valued method stop is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""

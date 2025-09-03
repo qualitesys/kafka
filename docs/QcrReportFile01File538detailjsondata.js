@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java 53 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java 55 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -181,6 +181,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
@@ -566,6 +573,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#233"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00233] For method visit arguments Type  field"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00232"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#232"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00232] Valued method visit is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00233"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Schema.java.html#233"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00233] Valued method visit is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""

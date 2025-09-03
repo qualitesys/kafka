@@ -414,16 +414,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "2"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "18"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "18"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1587,28 +1587,28 @@ var maDataBlocs = {
  , "c1" : "00487"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00487] Void method onSessionKeyUpdate is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00487] Valued method onSessionKeyUpdate is empty or contains only a return. Interface segregation for ConfigBackingStore.UpdateListener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00487"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#487"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00487] Void method onSessionKeyUpdate is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00487] In the class ConfigUpdateListener which implements the interface(s) ConfigBackingStore.UpdateListener, the method onSessionKeyUpdate is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore.UpdateListener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00492] Void method onRestartRequest is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00492] Valued method onRestartRequest is empty or contains only a return. Interface segregation for ConfigBackingStore.UpdateListener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00492"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/standalone/StandaloneHerder.java.html#492"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00492] Void method onRestartRequest is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00492] In the class ConfigUpdateListener which implements the interface(s) ConfigBackingStore.UpdateListener, the method onRestartRequest is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore.UpdateListener"
 }} 
 ,
 { "ligne" : {"" : ""

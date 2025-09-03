@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java 81 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java 84 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -276,6 +276,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE572"
  , "c3" : "Call to Thread run() instead of start()"
  , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -722,6 +729,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00365"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#365"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00365] Valued method initialize is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00389"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#389"
  , "c2" : "MINOR"
@@ -880,6 +894,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#517"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00517] In method org.apache.kafka.connect.runtime.ExactlyOnceWorkerSourceTask.TransactionMetricsGroup.commitTransaction@POLYN226689 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00136] Valued method beginSendIteration is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00141"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/ExactlyOnceWorkerSourceTask.java.html#141"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00141] Valued method prepareToPollTask is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/org.springframework.http.ResponseEntity.java.html" 
- , "texte" : "File secujava/org.springframework.http.ResponseEntity.java 44 rule violations " 
+ , "texte" : "File secujava/org.springframework.http.ResponseEntity.java 46 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -227,6 +227,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -401,6 +408,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#263"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00263] For method created arguments URI  location"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00319"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#319"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00319] The interface HeadersBuilder does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00443"
+ , "c1link" : "./qc/secujava/org.springframework.http.ResponseEntity.java.html#443"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00443] The interface BodyBuilder does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java 6 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -65,6 +65,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -120,6 +127,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#83"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata.toString@POLYN168694 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00036"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/AlterConfigPolicy.java.html#36"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00036] The interface AlterConfigPolicy does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

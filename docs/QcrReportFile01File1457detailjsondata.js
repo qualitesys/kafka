@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.InputStream.java.html" 
- , "texte" : "File secujava/java.io.InputStream.java 32 rule violations " 
+ , "texte" : "File secujava/java.io.InputStream.java 34 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -140,14 +140,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
- , "c4" : "2"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "2"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -387,28 +387,42 @@ var maDataBlocs = {
  , "c1" : "00275"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00275] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00275] Valued method close is empty or contains only a return. Interface segregation for Closeable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00275"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#275"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00275] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00275] In the class InputStream which implements the interface(s) Closeable, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00303] Void method mark is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00303] Valued method mark is empty or contains only a return. Interface segregation for Closeable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#303"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00303] Void method mark is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00303] In the class InputStream which implements the interface(s) Closeable, the method mark is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/secujava/java.io.InputStream.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00350] Valued method reset is empty or contains only a return. Interface segregation for Closeable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00350"
+ , "c1link" : "./qc/secujava/java.io.InputStream.java.html#350"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00350] In the class InputStream which implements the interface(s) Closeable, the method reset is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseable"
 }} 
 ]
 , 

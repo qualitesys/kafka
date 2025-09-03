@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/EventQueue.java 12 rule violations " 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/queue/EventQueue.java 14 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -172,15 +172,22 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
  , "c4" : "2"
 }}
 ,
@@ -214,6 +221,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00029"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#29"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00029] The interface Event does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#56"
@@ -267,14 +281,21 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00115] Void method run is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00115] Valued method run is empty or contains only a return. Interface segregation for Event"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00115] Void method run is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00115] In the class VoidEvent which implements the interface(s) Event, the method run is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedEvent"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/queue/EventQueue.java.html#28"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00028] The interface EventQueue does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

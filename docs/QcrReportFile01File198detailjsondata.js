@@ -686,16 +686,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "87"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "87"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3371,14 +3371,14 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00230] Void method onLeavePrepare is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00230] Valued method onLeavePrepare is empty or contains only a return. Interface segregation for Closeable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00230"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/AbstractCoordinator.java.html#230"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00230] Void method onLeavePrepare is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00230] In the class AbstractCoordinator which implements the interface(s) Closeable, the method onLeavePrepare is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseable"
 }} 
 ,
 { "ligne" : {"" : ""

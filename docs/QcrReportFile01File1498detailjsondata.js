@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.Map.java.html" 
- , "texte" : "File secujava/java.util.Map.java 6 rule violations " 
+ , "texte" : "File secujava/java.util.Map.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -280,6 +280,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -288,6 +295,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00373"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#373"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00373] The interface Entry does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00616"
  , "c1link" : "./qc/secujava/java.util.Map.java.html#616"
@@ -328,6 +342,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.Map.java.html#1168"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01168] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00127"
+ , "c1link" : "./qc/secujava/java.util.Map.java.html#127"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00127] The interface Map does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

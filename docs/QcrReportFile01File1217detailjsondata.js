@@ -154,8 +154,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -487,14 +487,14 @@ var maDataBlocs = {
  , "c1" : "00223"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00223] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00223] Valued method close is empty or contains only a return. Interface segregation for Transformation<R>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/HeaderFrom.java.html#223"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00223] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00223] In the class HeaderFrom which implements the interface(s) Transformation<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
 }} 
 ]
 , 

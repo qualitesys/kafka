@@ -82,8 +82,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -114,28 +114,28 @@ var maDataBlocs = {
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00027] Void method onPartitionsAssigned is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00027] Valued method onPartitionsAssigned is empty or contains only a return. Interface segregation for ConsumerRebalanceListener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00027"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#27"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00027] Void method onPartitionsAssigned is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00027] In the class NoOpConsumerRebalanceListener which implements the interface(s) ConsumerRebalanceListener, the method onPartitionsAssigned is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConsumerRebalanceListener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#30"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00030] Void method onPartitionsRevoked is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00030] Valued method onPartitionsRevoked is empty or contains only a return. Interface segregation for ConsumerRebalanceListener"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/NoOpConsumerRebalanceListener.java.html#30"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00030] Void method onPartitionsRevoked is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00030] In the class NoOpConsumerRebalanceListener which implements the interface(s) ConsumerRebalanceListener, the method onPartitionsRevoked is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConsumerRebalanceListener"
 }} 
 ]
 , 

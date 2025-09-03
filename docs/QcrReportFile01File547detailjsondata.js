@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 81 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java 83 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -410,14 +410,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -811,14 +811,14 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00414] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00414] Valued method close is empty or contains only a return. Interface segregation for CloseableIterator<Record>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00414] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00414] In the class DeepRecordsIterator which implements the interface(s) CloseableIterator<Record>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseableIterator<Record>"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1001,6 +1001,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#543"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.common.record.AbstractLegacyRecordBatch.ByteBufferLegacyRecordBatch.hashCode@POLYN242085 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00502"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#502"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00502] Valued method setPartitionLeaderEpoch is empty or contains only a return. Interface segregation for MutableRecordBatch"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00502"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#502"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00502] In the class ByteBufferLegacyRecordBatch which implements the interface(s) MutableRecordBatch, the method setPartitionLeaderEpoch is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMutableRecordBatch"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java 1 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -74,6 +74,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -87,6 +94,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#23"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.security.authenticator.DefaultLogin.serviceName@POLYN152348 the MagicNumber/String  'kafka' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/DefaultLogin.java.html#27"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00027] Valued method close is empty or contains only a return."
 }} 
 ]
 , 

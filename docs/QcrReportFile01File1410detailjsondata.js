@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftClient.java 0 rule violation " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/RaftClient.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -151,6 +151,31 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "2"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00032"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#32"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00032] The interface Listener does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00030"
+ , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/RaftClient.java.html#30"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00030] The interface RaftClient does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
 ]
 , 
 "data15" : {

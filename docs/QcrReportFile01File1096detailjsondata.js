@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java 54 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -208,6 +208,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "4"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
@@ -600,6 +607,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#321"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.connect.runtime.WorkerSourceTask.toString@POLYN199613 the MagicNumber/String  '}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00097] Valued method prepareToInitializeTask is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00102"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#102"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00102] Valued method prepareToEnterSendLoop is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00131"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#131"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00131] Valued method recordDispatched is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00136"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/WorkerSourceTask.java.html#136"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00136] Valued method batchDispatched is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java 7 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -110,6 +110,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -179,6 +186,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#83"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00083] For method commitRecord arguments SourceRecord  record|RecordMetadata  metadata"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00050"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#50"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00050] Valued method commit is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00083"
+ , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorHeartbeatTask.java.html#83"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00083] Valued method commitRecord is empty or contains only a return."
 }} 
 ]
 , 

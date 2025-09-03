@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java 19 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -131,6 +131,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -301,6 +308,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#56"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00056] Public method handleMetadataVersionChange is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00056] Valued method handleMetadataVersionChange is empty or contains only a return."
 }} 
 ]
 , 

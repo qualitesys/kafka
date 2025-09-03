@@ -172,8 +172,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -477,14 +477,14 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00166] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00166] Valued method close is empty or contains only a return. Interface segregation for Transformation<R>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/MaskField.java.html#166"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00166] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00166] In the class MaskField which implements the interface(s) Transformation<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
 }} 
 ]
 , 

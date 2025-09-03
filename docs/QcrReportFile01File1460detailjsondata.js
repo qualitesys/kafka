@@ -2544,16 +2544,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "3"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "28"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "28"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -5628,42 +5628,42 @@ var maDataBlocs = {
  , "c1" : "00371"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00371] Void method writeObjectOverride is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00371] Valued method writeObjectOverride is empty or contains only a return. Interface segregation for ObjectOutput,ObjectStreamConstants"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00371"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#371"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00371] Void method writeObjectOverride is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00371] In the class ObjectOutputStream which implements the interface(s) ObjectOutput,ObjectStreamConstants, the method writeObjectOverride is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedObjectOutput,ObjectStreamConstants"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00522"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00522] Void method annotateClass is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00522] Valued method annotateClass is empty or contains only a return. Interface segregation for ObjectOutput,ObjectStreamConstants"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00522"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#522"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00522] Void method annotateClass is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00522] In the class ObjectOutputStream which implements the interface(s) ObjectOutput,ObjectStreamConstants, the method annotateClass is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedObjectOutput,ObjectStreamConstants"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00546"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00546] Void method annotateProxyClass is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00546] Valued method annotateProxyClass is empty or contains only a return. Interface segregation for ObjectOutput,ObjectStreamConstants"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00546"
  , "c1link" : "./qc/secujava/java.io.ObjectOutputStream.java.html#546"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00546] Void method annotateProxyClass is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00546] In the class ObjectOutputStream which implements the interface(s) ObjectOutput,ObjectStreamConstants, the method annotateProxyClass is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedObjectOutput,ObjectStreamConstants"
 }} 
 ,
 { "ligne" : {"" : ""

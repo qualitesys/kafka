@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Time.java 1 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Time.java 2 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -118,6 +118,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -131,6 +138,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#85"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00085] The argument timeout is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00028"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Time.java.html#28"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00028] The interface Time does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

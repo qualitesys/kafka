@@ -334,8 +334,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -975,14 +975,14 @@ var maDataBlocs = {
  , "c1" : "00858"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00858] Void method setPerformancePreferences is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00858] Valued method setPerformancePreferences is empty or contains only a return. Interface segregation for java.io.Closeable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00858"
  , "c1link" : "./qc/secujava/java.net.ServerSocket.java.html#858"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00858] Void method setPerformancePreferences is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00858] In the class ServerSocket which implements the interface(s) java.io.Closeable, the method setPerformancePreferences is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedjava.io.Closeable"
 }} 
 ]
 , 

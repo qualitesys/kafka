@@ -109,8 +109,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -183,28 +183,28 @@ var maDataBlocs = {
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#41"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00041] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00041] Valued method configure is empty or contains only a return. Interface segregation for Partitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#41"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00041] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00041] In the class DefaultPartitioner which implements the interface(s) Partitioner, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPartitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00076] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00076] Valued method close is empty or contains only a return. Interface segregation for Partitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/DefaultPartitioner.java.html#76"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00076] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00076] In the class DefaultPartitioner which implements the interface(s) Partitioner, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPartitioner"
 }} 
 ]
 , 

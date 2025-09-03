@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java 59 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java 63 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -255,9 +255,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -666,6 +680,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#336"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.streams.processor.internals.StandbyTask.toString@POLYN203689 the MagicNumber/String  '\t' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00115] Valued method completeRestoration is empty or contains only a return. Interface segregation for Task"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00115"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#115"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00115] In the class StandbyTask which implements the interface(s) Task, the method completeRestoration is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00302] Valued method addRecords is empty or contains only a return. Interface segregation for Task"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00302"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StandbyTask.java.html#302"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00302] In the class StandbyTask which implements the interface(s) Task, the method addRecords is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
 }} 
 ,
 { "ligne" : {"" : ""

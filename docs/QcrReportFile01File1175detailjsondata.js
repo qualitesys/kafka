@@ -127,8 +127,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -257,28 +257,28 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00051] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00051] Valued method configure is empty or contains only a return. Interface segregation for OffsetBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#51"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00051] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00051] In the class MemoryOffsetBackingStore which implements the interface(s) OffsetBackingStore, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedOffsetBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00102] Void method save is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00102] Valued method save is empty or contains only a return. Interface segregation for OffsetBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryOffsetBackingStore.java.html#102"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00102] Void method save is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00102] In the class MemoryOffsetBackingStore which implements the interface(s) OffsetBackingStore, the method save is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedOffsetBackingStore"
 }} 
 ]
 , 

@@ -91,8 +91,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -151,14 +151,14 @@ var maDataBlocs = {
  , "c1" : "00028"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00028] Void method run is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00028] Valued method run is empty or contains only a return. Interface segregation for Commands.Handler"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00028"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/NoOpCommandHandler.java.html#28"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00028] Void method run is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00028] In the class NoOpCommandHandler which implements the interface(s) Commands.Handler, the method run is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCommands.Handler"
 }} 
 ]
 , 

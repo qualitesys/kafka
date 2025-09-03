@@ -100,8 +100,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -181,28 +181,28 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00040] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00040] Valued method configure is empty or contains only a return. Interface segregation for Partitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#40"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00040] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00040] In the class RoundRobinPartitioner which implements the interface(s) Partitioner, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPartitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00072] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00072] Valued method close is empty or contains only a return. Interface segregation for Partitioner"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RoundRobinPartitioner.java.html#72"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00072] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00072] In the class RoundRobinPartitioner which implements the interface(s) Partitioner, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPartitioner"
 }} 
 ]
 , 

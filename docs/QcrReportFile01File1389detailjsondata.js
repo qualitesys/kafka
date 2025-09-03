@@ -145,8 +145,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -198,14 +198,14 @@ var maDataBlocs = {
  , "c1" : "00046"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00046] Void method mergeFrom is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00046] Valued method mergeFrom is empty or contains only a return. Interface segregation for Delta"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/TimelineObject.java.html#46"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00046] Void method mergeFrom is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00046] In the class ObjectContainer which implements the interface(s) Delta, the method mergeFrom is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedDelta"
 }} 
 ,
 { "ligne" : {"" : ""

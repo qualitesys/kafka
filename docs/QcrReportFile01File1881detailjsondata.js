@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java 17 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -145,6 +145,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -292,6 +299,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#156"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00156] For method registerCacheFlushListener arguments String  namespace|DirtyEntryFlushListener  listener"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00114"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/GlobalProcessorContextImpl.java.html#114"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00114] Valued method commit is empty or contains only a return."
 }} 
 ]
 , 

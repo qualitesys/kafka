@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentMap.java 6 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentMap.java 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -155,6 +155,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -203,6 +210,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#496"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00496] The argument remappingFunction is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00063"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentMap.java.html#63"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00063] The interface ConcurrentMap does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

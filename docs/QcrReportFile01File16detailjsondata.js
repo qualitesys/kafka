@@ -154,8 +154,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "4"
 }}
 ,
@@ -235,56 +235,56 @@ var maDataBlocs = {
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00069] Void method handleServerDisconnect is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00069] Valued method handleServerDisconnect is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#69"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00069] Void method handleServerDisconnect is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00069] In the class ManualMetadataUpdater which implements the interface(s) MetadataUpdater, the method handleServerDisconnect is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00075] Void method handleFailedRequest is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00075] Valued method handleFailedRequest is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#75"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00075] Void method handleFailedRequest is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00075] In the class ManualMetadataUpdater which implements the interface(s) MetadataUpdater, the method handleFailedRequest is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00080] Void method handleSuccessfulResponse is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00080] Valued method handleSuccessfulResponse is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#80"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00080] Void method handleSuccessfulResponse is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00080] In the class ManualMetadataUpdater which implements the interface(s) MetadataUpdater, the method handleSuccessfulResponse is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00085] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00085] Valued method close is empty or contains only a return. Interface segregation for MetadataUpdater"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ManualMetadataUpdater.java.html#85"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00085] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00085] In the class ManualMetadataUpdater which implements the interface(s) MetadataUpdater, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMetadataUpdater"
 }} 
 ]
 , 

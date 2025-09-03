@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html" 
- , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 189 rule violations " 
+ , "texte" : "File streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java 191 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -336,9 +336,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "4"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1538,6 +1552,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1171"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01171] For method waitObject arguments Object  obj|Supplier&lt;Boolean &gt;  condition|long  timeoutMs"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01171"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[01171] Valued method waitObject is empty or contains only a return. Interface segregation for Time"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01171"
+ , "c1link" : "./qc/streams/test-utils/src/main/java/org/apache/kafka/streams/TopologyTestDriver.java.html#1171"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[01171] In the class MockTime which implements the interface(s) Time, the method waitObject is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTime"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -316,16 +316,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "4"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -600,14 +600,14 @@ var maDataBlocs = {
  , "c1" : "00268"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#268"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00268] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00268] Valued method close is empty or contains only a return. Interface segregation for EpochState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00268"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/CandidateState.java.html#268"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00268] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00268] In the class CandidateState which implements the interface(s) EpochState, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedEpochState"
 }} 
 ,
 { "ligne" : {"" : ""

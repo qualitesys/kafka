@@ -181,8 +181,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -339,14 +339,14 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00127] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00127] Valued method close is empty or contains only a return. Interface segregation for EpochState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/VotedState.java.html#127"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00127] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00127] In the class VotedState which implements the interface(s) EpochState, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedEpochState"
 }} 
 ,
 { "ligne" : {"" : ""

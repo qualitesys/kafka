@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/feature/Features.java 14 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/feature/Features.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -161,6 +161,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -223,6 +230,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#88"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.feature.Features.toString@POLYN175924 the MagicNumber/String  ', ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00106"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/feature/Features.java.html#106"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00106] The interface MapToBaseVersionRangeConverter does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

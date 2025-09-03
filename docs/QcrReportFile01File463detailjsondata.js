@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsContext.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/MetricsContext.java 0 rule violation " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/MetricsContext.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -60,6 +60,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00046"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/MetricsContext.java.html#46"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00046] The interface MetricsContext does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
 ]
 , 
 "data15" : {

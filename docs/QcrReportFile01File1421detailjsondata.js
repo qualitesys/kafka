@@ -163,8 +163,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -279,14 +279,14 @@ var maDataBlocs = {
  , "c1" : "00115"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00115] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00115] Valued method close is empty or contains only a return. Interface segregation for EpochState"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/UnattachedState.java.html#115"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00115] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00115] In the class UnattachedState which implements the interface(s) EpochState, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedEpochState"
 }} 
 ]
 , 

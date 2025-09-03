@@ -181,16 +181,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "1"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "9"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -472,14 +472,14 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00151] Void method dispose is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00151] Valued method dispose is empty or contains only a return. Interface segregation for SaslClient"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerSaslClient.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00151] Void method dispose is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00151] In the class OAuthBearerSaslClient which implements the interface(s) SaslClient, the method dispose is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSaslClient"
 }} 
 ,
 { "ligne" : {"" : ""

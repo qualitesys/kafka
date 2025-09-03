@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Object.java.html" 
- , "texte" : "File secujava/java.lang.Object.java 13 rule violations " 
+ , "texte" : "File secujava/java.lang.Object.java 14 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -163,6 +163,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -267,6 +274,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Object.java.html#501"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00501] In method java.lang.Object.wait@POLYN313121 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00551"
+ , "c1link" : "./qc/secujava/java.lang.Object.java.html#551"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00551] Valued method finalize is empty or contains only a return."
 }} 
 ]
 , 

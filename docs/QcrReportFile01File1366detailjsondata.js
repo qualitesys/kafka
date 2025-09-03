@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java 2 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -137,6 +137,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -157,6 +164,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#141"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00141] The argument filters is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/ClusterMetadataAuthorizer.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00045] The interface ClusterMetadataAuthorizer does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

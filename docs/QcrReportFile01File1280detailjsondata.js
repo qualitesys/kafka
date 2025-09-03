@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java 106 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java 107 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -90,6 +90,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -867,6 +874,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#393"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00393] For method processPartitionData arguments TopicPartition  topicPartition|long  fetchOffset|FetchResponseData.PartitionData  partitionData"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00383"
+ , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/fetcher/ReplicaFetcherThreadBenchmark.java.html#383"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00383] Valued method truncate is empty or contains only a return."
 }} 
 ]
 , 

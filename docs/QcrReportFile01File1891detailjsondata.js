@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 531 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 535 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -758,9 +758,23 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -3615,6 +3629,20 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "01742"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[01742] Valued method addPredecessor is empty or contains only a return. Interface segregation for TopologyDescription.Source"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01742"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1742"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[01742] In the class Source which implements the interface(s) TopologyDescription.Source, the method addPredecessor is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTopologyDescription.Source"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "01794"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1794"
  , "c2" : "MAJOR"
@@ -3780,6 +3808,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1874"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01874] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.Sink.equals@POLYN573238 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01854"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1854"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[01854] Valued method addSuccessor is empty or contains only a return. Interface segregation for TopologyDescription.Sink"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01854"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1854"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[01854] In the class Sink which implements the interface(s) TopologyDescription.Sink, the method addSuccessor is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTopologyDescription.Sink"
 }} 
 ,
 { "ligne" : {"" : ""

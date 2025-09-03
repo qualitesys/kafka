@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html" 
- , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2255 rule violations " 
+ , "texte" : "File secujava/java.util.concurrent.ConcurrentHashMap.java 2276 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -712,6 +712,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "21"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -9409,6 +9416,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "03289"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3289"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[03289] Valued method stack is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "03388"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#3388"
  , "c2" : "MAJOR"
@@ -12356,6 +12370,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "04805"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4805"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[04805] Valued method stack is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "04908"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#4908"
  , "c2" : "MAJOR"
@@ -13903,6 +13924,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05318"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5318"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05318] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05377"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5377"
  , "c2" : "MAJOR"
@@ -14071,6 +14099,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05366"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5366"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05366] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05425"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5425"
  , "c2" : "MAJOR"
@@ -14229,6 +14264,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5446"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[05446] In method java.util.concurrent.ConcurrentHashMap.ReduceEntriesTask.compute@POLYN1735320 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05414"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5414"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05414] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -14435,6 +14477,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05461"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5461"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05461] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05529"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5529"
  , "c2" : "MAJOR"
@@ -14635,6 +14684,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5554"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[05554] In method java.util.concurrent.ConcurrentHashMap.MapReduceValuesTask.compute@POLYN1744182 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05515"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5515"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05515] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -14841,6 +14897,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05569"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5569"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05569] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05637"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5637"
  , "c2" : "MAJOR"
@@ -15044,6 +15107,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05623"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5623"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05623] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05693"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5693"
  , "c2" : "MAJOR"
@@ -15167,6 +15237,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5712"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[05712] In method java.util.concurrent.ConcurrentHashMap.MapReduceKeysToDoubleTask.compute@POLYN1757935 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05678"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5678"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05678] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -15296,6 +15373,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05728"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5728"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05728] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05793"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5793"
  , "c2" : "MAJOR"
@@ -15419,6 +15503,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5812"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[05812] In method java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToDoubleTask.compute@POLYN1765615 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05778"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5778"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05778] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -15548,6 +15639,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05828"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5828"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05828] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05893"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5893"
  , "c2" : "MAJOR"
@@ -15671,6 +15769,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5912"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[05912] In method java.util.concurrent.ConcurrentHashMap.MapReduceKeysToLongTask.compute@POLYN1773344 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05878"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5878"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05878] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -15800,6 +15905,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "05928"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5928"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05928] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "05993"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5993"
  , "c2" : "MAJOR"
@@ -15923,6 +16035,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6012"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[06012] In method java.util.concurrent.ConcurrentHashMap.MapReduceEntriesToLongTask.compute@POLYN1781024 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "05978"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#5978"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[05978] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -16052,6 +16171,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "06028"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6028"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[06028] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "06093"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6093"
  , "c2" : "MAJOR"
@@ -16175,6 +16301,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6112"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[06112] In method java.util.concurrent.ConcurrentHashMap.MapReduceKeysToIntTask.compute@POLYN1788753 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06078"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6078"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[06078] Valued method rights is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""
@@ -16304,6 +16437,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "06128"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6128"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[06128] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "06193"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6193"
  , "c2" : "MAJOR"
@@ -16430,6 +16570,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "06178"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6178"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[06178] Valued method rights is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "06243"
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6243"
  , "c2" : "MAJOR"
@@ -16553,6 +16700,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6262"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[06262] In method java.util.concurrent.ConcurrentHashMap.MapReduceMappingsToIntTask.compute@POLYN1800309 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "06228"
+ , "c1link" : "./qc/secujava/java.util.concurrent.ConcurrentHashMap.java.html#6228"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[06228] Valued method rights is empty or contains only a return."
 }} 
 ]
 , 

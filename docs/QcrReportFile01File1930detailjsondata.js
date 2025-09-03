@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 213 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java 214 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -521,6 +521,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -571,6 +578,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00174"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#174"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00174] The interface StateListener does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StreamThread.java.html#190"

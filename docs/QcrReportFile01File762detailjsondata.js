@@ -109,8 +109,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -253,28 +253,28 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00088] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00088] Valued method configure is empty or contains only a return. Interface segregation for AuthenticateCallbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#88"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00088] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00088] In the class DefaultLoginCallbackHandler which implements the interface(s) AuthenticateCallbackHandler, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedAuthenticateCallbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00111] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00111] Valued method close is empty or contains only a return. Interface segregation for AuthenticateCallbackHandler"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/AbstractLogin.java.html#111"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00111] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00111] In the class DefaultLoginCallbackHandler which implements the interface(s) AuthenticateCallbackHandler, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedAuthenticateCallbackHandler"
 }} 
 ]
 , 

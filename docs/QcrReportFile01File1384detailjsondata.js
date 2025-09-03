@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java 88 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java 89 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -164,6 +164,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -193,6 +200,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00097"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#97"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00097] The interface ElementWithStartEpoch does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/timeline/SnapshottableHashTable.java.html#112"

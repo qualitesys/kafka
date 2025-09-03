@@ -127,8 +127,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -481,14 +481,14 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00154] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00154] Valued method close is empty or contains only a return. Interface segregation for KeyValueIterator<Bytes,byte[]>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryNavigableLRUCache.java.html#154"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00154] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00154] In the class CacheIterator which implements the interface(s) KeyValueIterator<Bytes,byte[]>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueIterator<Bytes,byte[]>"
 }} 
 ]
 , 

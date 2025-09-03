@@ -109,8 +109,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -197,14 +197,14 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00053] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00053] Valued method close is empty or contains only a return. Interface segregation for Predicate<R>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/HasHeaderKey.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00053] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00053] In the class HasHeaderKey which implements the interface(s) Predicate<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate<R>"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 47 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/MetadataNode.java 48 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -55,6 +55,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -412,6 +419,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method setContents arguments String  contents"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNode.java.html#26"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00026] The interface MetadataNode does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

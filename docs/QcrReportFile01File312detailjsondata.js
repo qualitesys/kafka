@@ -118,16 +118,16 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
- , "c4" : "2"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -269,28 +269,28 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00042] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00042] Valued method configure is empty or contains only a return. Interface segregation for ConfigProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#42"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00042] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00042] In the class FileConfigProvider which implements the interface(s) ConfigProvider, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00107] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00107] Valued method close is empty or contains only a return. Interface segregation for ConfigProvider"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/provider/FileConfigProvider.java.html#107"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00107] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00107] In the class FileConfigProvider which implements the interface(s) ConfigProvider, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigProvider"
 }} 
 ,
 { "ligne" : {"" : ""

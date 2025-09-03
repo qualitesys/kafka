@@ -91,8 +91,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -158,28 +158,28 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00055] Void method addArguments is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00055] Valued method addArguments is empty or contains only a return. Interface segregation for Commands.Type"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#55"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00055] Void method addArguments is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00055] In the class ExitCommandType which implements the interface(s) Commands.Type, the method addArguments is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCommands.Type"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00065] Void method completeNext is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00065] Valued method completeNext is empty or contains only a return. Interface segregation for Commands.Type"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/ExitCommandHandler.java.html#65"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00065] Void method completeNext is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00065] In the class ExitCommandType which implements the interface(s) Commands.Type, the method completeNext is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCommands.Type"
 }} 
 ,
 { "ligne" : {"" : ""

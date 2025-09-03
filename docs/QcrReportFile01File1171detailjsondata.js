@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 314 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java 316 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -445,9 +445,23 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "65"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2172,6 +2186,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#1139"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01139] In method org.apache.kafka.connect.storage.KafkaConfigBackingStore.className@POLYN417509 the MagicNumber/String  'null' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#497"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00497] Valued method removeTaskConfigs is empty or contains only a return. Interface segregation for ConfigBackingStore"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00497"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaConfigBackingStore.java.html#497"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00497] In the class KafkaConfigBackingStore which implements the interface(s) ConfigBackingStore, the method removeTaskConfigs is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConfigBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""

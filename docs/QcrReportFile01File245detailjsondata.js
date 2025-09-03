@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 233 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 234 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -481,6 +481,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1995,6 +2002,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1109"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.RecordAccumulator.PartitionerConfig.PartitionerConfig@POLYN372824 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01139"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[01139] The interface AppendCallbacks does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

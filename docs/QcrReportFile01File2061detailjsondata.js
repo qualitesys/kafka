@@ -316,8 +316,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -1328,14 +1328,14 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00395] Void method flush is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00395] Valued method flush is empty or contains only a return. Interface segregation for WindowStore<Bytes,byte[]>"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00395"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#395"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00395] Void method flush is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00395] In the class InMemoryWindowStore which implements the interface(s) WindowStore<Bytes,byte[]>, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedWindowStore<Bytes,byte[]>"
 }} 
 ]
 , 

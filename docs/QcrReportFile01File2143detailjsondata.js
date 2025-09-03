@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java 11 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java 13 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -128,6 +128,20 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -232,6 +246,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java.html#68"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.streams.state.internals.TimestampedSegment.equals@POLYN160883 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00045] Valued method deleteRange is empty or contains only a return. Interface segregation for Comparable<TimestampedSegment>,Segment"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00045"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java.html#45"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00045] In the class TimestampedSegment which implements the interface(s) Comparable<TimestampedSegment>,Segment, the method deleteRange is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedComparable<TimestampedSegment>,Segment"
 }} 
 ]
 , 

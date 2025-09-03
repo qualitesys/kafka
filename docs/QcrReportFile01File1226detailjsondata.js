@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html" 
- , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java 6 rule violations " 
+ , "texte" : "File connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java 7 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -92,6 +92,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -114,6 +121,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00049"
+ , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#49"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00049] The interface ConfigName does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/TimestampRouter.java.html#58"

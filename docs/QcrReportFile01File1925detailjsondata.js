@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java 3 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -145,6 +145,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -179,6 +186,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#49"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.streams.processor.internals.StateUpdater.ExceptionAndTasks.equals@POLYN179926 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00027"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateUpdater.java.html#27"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00027] The interface StateUpdater does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

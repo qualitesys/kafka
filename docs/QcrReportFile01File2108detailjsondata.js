@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java 131 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java 132 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -375,6 +375,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -1159,6 +1166,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#545"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 the MagicNumber/String  'Closing {} open iterators for store {}' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00552"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#552"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00552] The interface RocksDBAccessor does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

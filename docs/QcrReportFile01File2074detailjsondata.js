@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java 23 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -145,6 +145,20 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -327,6 +341,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#156"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.internals.ListValueStore.ValueListIterator.makeNext@POLYN181606 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00094] Valued method putAll is empty or contains only a return. Interface segregation for KeyValueStore<Bytes,byte[]>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00094"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00094] In the class ListValueStore which implements the interface(s) KeyValueStore<Bytes,byte[]>, the method putAll is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<Bytes,byte[]>"
 }} 
 ]
 , 

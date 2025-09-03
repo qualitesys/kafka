@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Task.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/connector/Task.java 0 rule violation " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/connector/Task.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -78,6 +78,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00034"
+ , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/connector/Task.java.html#34"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00034] The interface Task does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
 ]
 , 
 "data15" : {

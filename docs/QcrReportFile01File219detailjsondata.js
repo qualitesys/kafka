@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 377 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java 378 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -926,6 +926,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "17"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2958,6 +2965,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#988"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00988] In method org.apache.kafka.clients.consumer.internals.SubscriptionState.TopicPartitionState.lastStableOffset@POLYN361687 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "01000"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/SubscriptionState.java.html#1000"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[01000] The interface FetchState does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

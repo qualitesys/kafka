@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedWriter.java.html" 
- , "texte" : "File secujava/java.io.BufferedWriter.java 28 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedWriter.java 29 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -154,6 +154,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -378,6 +385,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#268"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00268] In method java.io.BufferedWriter.close@POLYN197502 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00071"
+ , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#71"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00071] Valued method nChars is empty or contains only a return."
 }} 
 ]
 , 

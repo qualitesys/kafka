@@ -127,8 +127,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -173,28 +173,28 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00116] Void method commit is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00116] Valued method commit is empty or contains only a return. Interface segregation for Task"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#116"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00116] Void method commit is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00116] In the class SourceTask which implements the interface(s) Task, the method commit is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00151] Void method commitRecord is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00151] Valued method commitRecord is empty or contains only a return. Interface segregation for Task"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceTask.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00151] Void method commitRecord is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00151] In the class SourceTask which implements the interface(s) Task, the method commitRecord is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTask"
 }} 
 ]
 , 

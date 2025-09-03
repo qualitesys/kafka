@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java 5 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java 6 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -334,6 +334,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -389,6 +396,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#307"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.connect.runtime.Herder.Created.equals@POLYN220183 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00057"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/Herder.java.html#57"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00057] The interface Herder does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

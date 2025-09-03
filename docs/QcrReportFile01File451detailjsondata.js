@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java 0 rule violation " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java 1 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -96,6 +96,24 @@ var maDataBlocs = {
 ]
 , 
 "data14" : [
+]
+, 
+"data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+ ] 
+,
+"data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00026"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/memory/MemoryPool.java.html#26"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00026] The interface MemoryPool does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
 ]
 , 
 "data15" : {

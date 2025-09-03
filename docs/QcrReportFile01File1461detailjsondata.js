@@ -109,8 +109,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
 }}
 ,
@@ -204,28 +204,28 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00138] Void method flush is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00138] Valued method flush is empty or contains only a return. Interface segregation for Closeable,Flushable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#138"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00138] Void method flush is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00138] In the class OutputStream which implements the interface(s) Closeable,Flushable, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseable,Flushable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00151] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00151] Valued method close is empty or contains only a return. Interface segregation for Closeable,Flushable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/secujava/java.io.OutputStream.java.html#151"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00151] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00151] In the class OutputStream which implements the interface(s) Closeable,Flushable, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseable,Flushable"
 }} 
 ]
 , 

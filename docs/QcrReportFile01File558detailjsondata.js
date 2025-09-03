@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 100 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 102 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -487,6 +487,20 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -1173,6 +1187,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#614"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00614] For method readNext arguments long  baseOffset|long  baseTimestamp|int  baseSequence|Long  logAppendTime"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00619"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00619] Valued method remove is empty or contains only a return. Interface segregation for CloseableIterator<Record>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00619"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#619"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00619] In the class RecordIterator which implements the interface(s) CloseableIterator<Record>, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseableIterator<Record>"
 }} 
 ,
 { "ligne" : {"" : ""

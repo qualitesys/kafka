@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedReader.java.html" 
- , "texte" : "File secujava/java.io.BufferedReader.java 84 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedReader.java 85 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -199,6 +199,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -822,6 +829,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#591"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00591] In method java.io.BufferedReader.lines@POLYN258983 the MagicNumber/String  false should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00075"
+ , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#75"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00075] Valued method nChars is empty or contains only a return."
 }} 
 ]
 , 

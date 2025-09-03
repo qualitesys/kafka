@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 405 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java 408 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -602,9 +602,30 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "95"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -859,6 +880,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#387"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.streams.KafkaStreams.validateIsRunningOrRebalancing@POLYN520055 the MagicNumber/String  '.' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00395"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#395"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00395] The interface StateListener does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1356,6 +1384,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#735"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.streams.KafkaStreams.DelegatingStateRestoreListener.onRestoreEnd@POLYN534277 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00695"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00695] Valued method throwOnFatalException is empty or contains only a return. Interface segregation for StateRestoreListener"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00695"
+ , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/KafkaStreams.java.html#695"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00695] In the class DelegatingStateRestoreListener which implements the interface(s) StateRestoreListener, the method throwOnFatalException is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedStateRestoreListener"
 }} 
 ,
 { "ligne" : {"" : ""

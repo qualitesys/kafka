@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html" 
- , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java 17 rule violations " 
+ , "texte" : "File storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -144,6 +144,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -291,6 +298,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#147"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.floorEntry@POLYN179859 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00162"
+ , "c1link" : "./qc/storage/src/main/java/org/apache/kafka/server/log/remote/metadata/storage/RemoteLogLeaderEpochState.java.html#162"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00162] The interface Action does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

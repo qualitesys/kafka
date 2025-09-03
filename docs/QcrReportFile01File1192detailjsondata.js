@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java 4 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java 5 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -110,6 +110,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
  , "c3" : "Instance is created within a loop, huge performance impact"
@@ -158,6 +165,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#53"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.connect.tools.VerifiableSinkConnector.taskConfigs@POLYN159495 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00062"
+ , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/VerifiableSinkConnector.java.html#62"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00062] Valued method stop is empty or contains only a return."
 }} 
 ]
 , 

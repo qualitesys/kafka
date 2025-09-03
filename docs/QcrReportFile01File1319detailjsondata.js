@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 352 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/QuorumController.java 353 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -578,6 +578,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "15"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1392,6 +1399,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#637"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00637] The argument deadlineNs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00649"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/QuorumController.java.html#649"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00649] The interface ControllerWriteOperation does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

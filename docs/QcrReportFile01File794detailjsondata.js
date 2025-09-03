@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java 79 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java 81 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -191,6 +191,13 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -253,6 +260,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#45"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00045] The argument expiringCredentialRefreshingLogin is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00052"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#52"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00052] Valued method refresherThreadStarted is empty or contains only a return."
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00056"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#56"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00056] Valued method refresherThreadDone is empty or contains only a return."
 }} 
 ,
 { "ligne" : {"" : ""

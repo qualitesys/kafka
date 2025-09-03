@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java 94 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java 99 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -335,6 +335,27 @@ var maDataBlocs = {
 , 
 "data13a" : [
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -364,6 +385,13 @@ var maDataBlocs = {
  ] 
 ,
 "data13b" : [
+{ "ligne" : {"" : ""
+ , "c1" : "00058"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#58"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00058] The interface Element does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
+}} 
+,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#102"
@@ -474,6 +502,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#231"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00231] For method add arguments E  e"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00226] Valued method set is empty or contains only a return. Interface segregation for ListIterator<E>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00226"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#226"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00226] In the class ImplicitLinkedHashCollectionIterator which implements the interface(s) ListIterator<E>, the method set is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedListIterator<E>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00231] Valued method add is empty or contains only a return. Interface segregation for ListIterator<E>"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00231] In the class ImplicitLinkedHashCollectionIterator which implements the interface(s) ListIterator<E>, the method add is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedListIterator<E>"
 }} 
 ,
 { "ligne" : {"" : ""

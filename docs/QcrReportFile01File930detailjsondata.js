@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java 13 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java 14 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -64,6 +64,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -176,6 +183,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#132"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata.toString@POLYN180298 the MagicNumber/String  ')' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00037"
+ , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/server/policy/CreateTopicPolicy.java.html#37"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00037] The interface CreateTopicPolicy does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

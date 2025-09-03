@@ -136,8 +136,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "3"
 }}
 ,
@@ -231,42 +231,42 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00045] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00045] Valued method configure is empty or contains only a return. Interface segregation for Converter,HeaderConverter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00045] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00045] In the class ByteArrayConverter which implements the interface(s) Converter,HeaderConverter, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConverter,HeaderConverter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00049] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00049] Valued method configure is empty or contains only a return. Interface segregation for Converter,HeaderConverter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00049] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00049] In the class ByteArrayConverter which implements the interface(s) Converter,HeaderConverter, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConverter,HeaderConverter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00079] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00079] Valued method close is empty or contains only a return. Interface segregation for Converter,HeaderConverter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/converters/ByteArrayConverter.java.html#79"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00079] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00079] In the class ByteArrayConverter which implements the interface(s) Converter,HeaderConverter, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConverter,HeaderConverter"
 }} 
 ]
 , 

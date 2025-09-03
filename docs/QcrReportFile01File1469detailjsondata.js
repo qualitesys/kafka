@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.Reader.java.html" 
- , "texte" : "File secujava/java.io.Reader.java 28 rule violations " 
+ , "texte" : "File secujava/java.io.Reader.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -163,6 +163,20 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000004"
+ , "c3" : "You must segregate your interface"
+ , "c4" : "2"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -387,6 +401,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#249"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00249] In method java.io.Reader.reset@POLYN198468 the MagicNumber/String  'reset() not supported' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00231] Valued method mark is empty or contains only a return. Interface segregation for Readable,Closeable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00231"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#231"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00231] In the class Reader which implements the interface(s) Readable,Closeable, the method mark is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedReadable,Closeable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000004[00248] Valued method reset is empty or contains only a return. Interface segregation for Readable,Closeable"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00248"
+ , "c1link" : "./qc/secujava/java.io.Reader.java.html#248"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDL[00248] In the class Reader which implements the interface(s) Readable,Closeable, the method reset is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedReadable,Closeable"
 }} 
 ]
 , 

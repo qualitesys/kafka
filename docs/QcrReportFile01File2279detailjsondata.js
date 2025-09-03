@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java 106 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java 107 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -112,6 +112,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "33"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -310,6 +317,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#134"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.trogdor.workload.SustainedConnectionWorker.start@POLYN228360 the MagicNumber/String  0 should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00139"
+ , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/SustainedConnectionWorker.java.html#139"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00139] The interface SustainedConnection does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ,
 { "ligne" : {"" : ""

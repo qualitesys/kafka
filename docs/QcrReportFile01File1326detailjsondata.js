@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 21 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -140,6 +140,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "5"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV000005"
+ , "c3" : "Empty method"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -324,6 +331,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#69"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00069] Public method replay is dealing with none of the public properties of the class. Risk of useless strong coupling"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00061"
+ , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#61"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV000005[00061] Valued method handleMetadataVersionChange is empty or contains only a return."
 }} 
 ]
 , 

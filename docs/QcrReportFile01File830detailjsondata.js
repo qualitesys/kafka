@@ -154,8 +154,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -452,14 +452,14 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00176] Void method dispose is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00176] Valued method dispose is empty or contains only a return. Interface segregation for SaslServer"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/plain/internals/PlainSaslServer.java.html#176"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00176] Void method dispose is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00176] In the class PlainSaslServer which implements the interface(s) SaslServer, the method dispose is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSaslServer"
 }} 
 ]
 , 

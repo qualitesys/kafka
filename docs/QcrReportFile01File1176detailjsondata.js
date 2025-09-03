@@ -255,8 +255,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "4"
 }}
 ,
@@ -490,56 +490,56 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00048] Void method configure is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00048] Valued method configure is empty or contains only a return. Interface segregation for StatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00048] Void method configure is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00048] In the class MemoryStatusBackingStore which implements the interface(s) StatusBackingStore, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedStatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00053] Void method start is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00053] Valued method start is empty or contains only a return. Interface segregation for StatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#53"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00053] Void method start is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00053] In the class MemoryStatusBackingStore which implements the interface(s) StatusBackingStore, the method start is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedStatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00058] Void method stop is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00058] Valued method stop is empty or contains only a return. Interface segregation for StatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#58"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00058] Void method stop is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00058] In the class MemoryStatusBackingStore which implements the interface(s) StatusBackingStore, the method stop is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedStatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00137] Void method flush is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00137] Valued method flush is empty or contains only a return. Interface segregation for StatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00137"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/MemoryStatusBackingStore.java.html#137"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00137] Void method flush is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00137] In the class MemoryStatusBackingStore which implements the interface(s) StatusBackingStore, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedStatusBackingStore"
 }} 
 ,
 { "ligne" : {"" : ""

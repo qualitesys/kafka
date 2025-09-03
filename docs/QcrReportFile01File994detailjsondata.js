@@ -145,8 +145,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "1"
 }}
 ,
@@ -268,14 +268,14 @@ var maDataBlocs = {
  , "c1" : "00106"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[00106] Void method close is empty or contains only a return."
+ , "c3" : "QC-JAV000004[00106] Valued method close is empty or contains only a return. Interface segregation for Converter,HeaderConverter"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/StringConverter.java.html#106"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00106] Void method close is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[00106] In the class StringConverter which implements the interface(s) Converter,HeaderConverter, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedConverter,HeaderConverter"
 }} 
 ]
 , 

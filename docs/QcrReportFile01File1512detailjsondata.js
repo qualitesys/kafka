@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html" 
- , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java 21 rule violations " 
+ , "texte" : "File server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -81,6 +81,13 @@ var maDataBlocs = {
 ]
 , 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVSOLIDI"
+ , "c3" : "The class does not respect the SOLID principle Interface Segregation"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
@@ -270,6 +277,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#172"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.server.common.CheckpointFile.CheckpointReadBuffer.buildMalformedLineException@POLYN185106 the MagicNumber/String  'Malformed line in checkpoint file [%s]: %s' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00181"
+ , "c1link" : "./qc/server-common/src/main/java/org/apache/kafka/server/common/CheckpointFile.java.html#181"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVSOLIDI[00181] The interface EntryFormatter does not respect the SOLID Interface Segregation principle. Must contain only one method declaration"
 }} 
 ]
 , 

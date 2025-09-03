@@ -523,8 +523,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV000005"
- , "c3" : "Empty method"
+ , "c2" : "QC-JAVSOLIDL"
+ , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "3"
 }}
 ,
@@ -6351,42 +6351,42 @@ var maDataBlocs = {
  , "c1" : "01772"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[01772] Void method afterNodeAccess is empty or contains only a return."
+ , "c3" : "QC-JAV000004[01772] Valued method afterNodeAccess is empty or contains only a return. Interface segregation for Map<K,V>,Cloneable,Serializable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01772"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1772"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[01772] Void method afterNodeAccess is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[01772] In the class HashMap which implements the interface(s) Map<K,V>,Cloneable,Serializable, the method afterNodeAccess is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMap<K,V>,Cloneable,Serializable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01773"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[01773] Void method afterNodeInsertion is empty or contains only a return."
+ , "c3" : "QC-JAV000004[01773] Valued method afterNodeInsertion is empty or contains only a return. Interface segregation for Map<K,V>,Cloneable,Serializable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01773"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1773"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[01773] Void method afterNodeInsertion is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[01773] In the class HashMap which implements the interface(s) Map<K,V>,Cloneable,Serializable, the method afterNodeInsertion is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMap<K,V>,Cloneable,Serializable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01774"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000005[01774] Void method afterNodeRemoval is empty or contains only a return."
+ , "c3" : "QC-JAV000004[01774] Valued method afterNodeRemoval is empty or contains only a return. Interface segregation for Map<K,V>,Cloneable,Serializable"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01774"
  , "c1link" : "./qc/secujava/java.util.HashMap.java.html#1774"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[01774] Void method afterNodeRemoval is empty or contains only a return. Interface segregation"
+ , "c3" : "QC-JAVSOLIDL[01774] In the class HashMap which implements the interface(s) Map<K,V>,Cloneable,Serializable, the method afterNodeRemoval is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedMap<K,V>,Cloneable,Serializable"
 }} 
 ]
 , 
