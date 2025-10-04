@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java 17 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -109,13 +109,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -159,13 +152,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00088] For method assign arguments Map&lt;String ,Integer &gt;  partitionsPerTopic|Map&lt;String ,Subscription &gt;  subscriptions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/RangeAssignor.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method assign list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; AbstractPartitionAssignor_partitionsN184544"
 }} 
 ,
 { "ligne" : {"" : ""

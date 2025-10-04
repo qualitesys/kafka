@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java 70 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java 67 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -192,13 +192,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -240,13 +233,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#168"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00168] For method configure arguments WorkerConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#168"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00168] For method configure list of called methods Object monObjet|java.lang.String ConnectUtils_lookupKafkaClusterIdN230469|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_originalsN230602|org.apache.kafka.clients.admin.NewTopic newTopicDescriptionN232861|KafkaBasedLog&lt;byte[],byte[]&gt; createKafkaBasedLogN232978"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -313,13 +299,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#217"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00217] For method createKafkaBasedLog list of called methods Object monObjet|java.util.function.Consumer&lt;org.apache.kafka.connect.util.TopicAdmin&gt; initializeN233638"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00225"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#225"
  , "c2" : "MINOR"
@@ -338,13 +317,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#237"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00237] For method initialize arguments String  topic|NewTopic  topicDescription"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00237"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/KafkaOffsetBackingStore.java.html#237"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00237] For method initialize list of called methods Object monObjet|java.util.function.Consumer&lt;org.apache.kafka.connect.util.TopicAdmin&gt; admin_createTopicsN234922"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java 24 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java 23 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -181,13 +181,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -196,13 +189,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#61"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00061] For method build arguments short  version"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00061"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/LeaderAndIsrRequest.java.html#61"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00061] For method build list of called methods Object monObjet|java.util.Map&lt;java.lang.String,LeaderAndIsrTopicState&gt; groupByTopicN185905"
 }} 
 ,
 { "ligne" : {"" : ""

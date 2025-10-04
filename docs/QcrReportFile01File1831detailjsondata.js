@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java 5 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -93,13 +93,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -108,13 +101,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method extract arguments ConsumerRecord&lt;Object ,Object &gt;  record|long  partitionTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/ExtractRecordMetadataTimestamp.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method extract list of called methods Object monObjet|long record_timestampN165796"
 }} 
 ,
 { "ligne" : {"" : ""

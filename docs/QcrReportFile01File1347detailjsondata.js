@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 46 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -239,13 +239,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
-}}
  ] 
 ,
 "data13b" : [
@@ -287,13 +280,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method replay list of called methods Object monObjet|org.apache.kafka.image.TopicDelta getOrCreateTopicDeltaN188069"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#83"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00083] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -308,13 +294,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#88"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00088] For method replay list of called methods Object monObjet|org.apache.kafka.image.TopicDelta getOrCreateTopicDeltaN188311"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00088"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#88"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00088] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -324,13 +303,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#93"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00093] For method replay arguments RemoveTopicRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#93"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00093] For method replay list of called methods Object monObjet|java.lang.String image_getTopicN189120|java.lang.String topicImage_nameN189448"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,13 +345,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#121"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00121] For method handleMetadataVersionChange arguments MetadataVersion  newVersion"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method apply list of called methods Object monObjet|org.apache.kafka.image.TopicImage delta_applyN191260"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -439,13 +404,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method topicWasDeleted list of called methods Object monObjet|boolean image_getTopicN192560"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#163"
  , "c2" : "MAJOR"
@@ -464,13 +422,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#184"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00184] For method localChanges arguments int  brokerId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/TopicsDelta.java.html#184"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method localChanges list of called methods Object monObjet|org.apache.kafka.image.LocalReplicaChanges delta_localChangesN193803"
 }} 
 ,
 { "ligne" : {"" : ""

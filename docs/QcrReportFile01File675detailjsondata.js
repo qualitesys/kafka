@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java 57 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java 55 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -289,13 +289,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -365,13 +358,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#163"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00163] For method sizeOf arguments short  version|Iterator&lt;Map.Entry&lt;TopicIdPartition ,FetchResponseData.PartitionData &gt; &gt;  partIterator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00163"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#163"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00163] For method sizeOf list of called methods Object monObjet|FetchResponseData toMessageN211080"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -638,13 +624,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#249"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00249] For method toMessage arguments Errors  error|int  throttleTimeMs|int  sessionId|Iterator&lt;Map.Entry&lt;TopicIdPartition ,FetchResponseData.PartitionData &gt; &gt;  partIterator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00249"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/FetchResponse.java.html#249"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00249] For method toMessage list of called methods Object monObjet|boolean topicResponseList_isEmptyN216139"
 }} 
 ,
 { "ligne" : {"" : ""

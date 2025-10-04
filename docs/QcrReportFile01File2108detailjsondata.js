@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java 132 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java 125 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -360,20 +360,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.RocksDBStore.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242.key" }
-,
-{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242.value" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -390,13 +376,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -408,13 +387,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "29"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -445,13 +417,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method init arguments StateStoreContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method init list of called methods Object monObjet|org.apache.kafka.streams.query.Position StoreQueryUtils_readPositionFromCheckpointN261369|boolean StreamsConfig_InternalConfig_getBooleanN261758"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -564,13 +529,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#242"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.state.internals.RocksDBStore.maybeSetUpStatistics@POLYN265140 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#253"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00253] For method addValueProvidersToMetricsRecorder list of called methods Object monObjet|TableFormatConfig userSpecifiedOptions_tableFormatConfigN265835"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -704,13 +662,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#315"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00315] For method putIfAbsent arguments Bytes  key|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00315"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#315"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00315] For method putIfAbsent list of called methods Object monObjet|byte[] getN268962"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -919,13 +870,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00413"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#413"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00413] For method range list of called methods Object monObjet|KeyValueIterator&lt;Bytes,byte[]&gt; dbAccessor_rangeN273997"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00413"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#413"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00413] The argument from is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -998,13 +942,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#442"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00442] For method all arguments boolean  forward"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00442"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#442"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00442] For method all list of called methods Object monObjet|KeyValueIterator&lt;Bytes,byte[]&gt; dbAccessor_allN274806"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1274,13 +1211,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00680"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#680"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00680] For method prefixScan list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes Bytes_incrementN284140"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00688"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#688"
  , "c2" : "MAJOR"
@@ -1341,13 +1271,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#743"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.streams.state.internals.RocksDBStore.restoreBatch@POLYN285795 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.state.internals.RocksDBStore.write@POLYN276771"
 }} 
 ]
 , 

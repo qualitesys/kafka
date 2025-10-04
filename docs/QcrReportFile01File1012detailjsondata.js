@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html" 
- , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java 14 rule violations " 
+ , "texte" : "File connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java 11 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -245,13 +245,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -277,31 +270,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct headerStructN180754"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#112"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN181533"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00120] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct HEADER_SCHEMA_readN182160|org.apache.kafka.connect.mirror.Checkpoint header_getShortN182256|org.apache.kafka.common.protocol.types.Struct valueSchema_readN182440|java.lang.Long valueStruct_getLongN182536|java.lang.Long valueStruct_getLongN182632|java.lang.String valueStruct_getStringN182728|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN182824|java.lang.String keyStruct_getStringN182979|java.lang.String keyStruct_getStringN183075|java.lang.Integer keyStruct_getIntN183171"
 }} 
 ,
 { "ligne" : {"" : ""

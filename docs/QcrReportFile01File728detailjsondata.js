@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java 26 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -145,13 +145,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -272,13 +265,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#173"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00173] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00173"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/TxnOffsetCommitRequest.java.html#173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00173] For method getErrorResponse list of called methods Object monObjet|java.util.List&lt;TxnOffsetCommitResponseTopic&gt; getErrorResponseTopicsN189761"
 }} 
 ,
 { "ligne" : {"" : ""

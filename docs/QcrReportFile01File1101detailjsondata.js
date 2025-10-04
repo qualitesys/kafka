@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java 40 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -135,13 +135,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -171,13 +164,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#160"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00160] For method deserializeMetadata arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method deserializeMetadata list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN222299|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState header_getShortN222395|org.apache.kafka.common.protocol.types.Struct CONFIG_STATE_V0_readN222554|java.lang.Long struct_getLongN222650|java.lang.String struct_getStringN222746"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -213,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#213"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00213] For method deserializeAssignment arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#213"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method deserializeAssignment list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct CONNECT_PROTOCOL_HEADER_SCHEMA_readN225352|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment header_getShortN225448|org.apache.kafka.common.protocol.types.Struct ASSIGNMENT_V0_readN225607|java.lang.Short struct_getShortN225703|java.lang.String struct_getStringN225799|java.lang.String struct_getStringN225895|java.lang.Long struct_getLongN225991|org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment assignment_getStringN226490"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -395,13 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#383"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00383] In method org.apache.kafka.connect.runtime.distributed.ConnectProtocol.Assignment.toString@POLYN231164 the MagicNumber/String  '}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/distributed/ConnectProtocol.java.html#386"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method asMap list of called methods Object monObjet|java.lang.String taskId_connectorN232265"
 }} 
 ,
 { "ligne" : {"" : ""

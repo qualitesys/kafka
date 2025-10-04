@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java 20 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -155,13 +155,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -217,13 +210,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00059] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN167082"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00059"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#59"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00059] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -240,13 +226,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00070] For method changelogFor arguments StateStoreContext  context|String  storeName|Boolean  newChangelogTopic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextUtils.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method changelogFor list of called methods Object monObjet|java.lang.String getPrefixN167864"
 }} 
 ,
 { "ligne" : {"" : ""

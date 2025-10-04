@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java 86 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java 78 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -255,13 +255,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "19"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "8"
-}}
  ] 
 ,
 "data13b" : [
@@ -289,13 +282,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method initInternal list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN232082"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#85"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00085] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -312,13 +298,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#96"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00096] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;? ,? &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_keyN232632|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; SessionKeySchema_fromN232774|byte[] entry_newValueN232954|byte[] context_recordContextN234398"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,13 +378,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00144"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#144"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00144] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes SessionKeySchema_toBinaryN235337"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#151"
  , "c2" : "MAJOR"
@@ -431,13 +403,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#168"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00168] For method findSessions arguments Bytes  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00168"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#168"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00168] For method findSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN237393"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -469,13 +434,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#194"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method backwardFindSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN238965"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00200"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#200"
  , "c2" : "MAJOR"
@@ -501,13 +459,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#226"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00226] For method findSessions arguments Bytes  keyFrom|Bytes  keyTo|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#226"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00226] For method findSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN240971"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -581,13 +532,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00255"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#255"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00255] For method backwardFindSessions list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN242977"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#259"
  , "c2" : "MAJOR"
@@ -655,13 +599,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#285"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00285] For method fetchSession arguments Bytes  key|long  earliestSessionEndTime|long  latestSessionStartTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00285"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingSessionStore.java.html#285"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00285] For method fetchSession list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes SessionKeySchema_toBinaryN244021|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN244166"
 }} 
 ,
 { "ligne" : {"" : ""

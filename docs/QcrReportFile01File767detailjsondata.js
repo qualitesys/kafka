@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java 118 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java 106 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -315,28 +315,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -350,13 +334,6 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE484"
  , "c3" : "Omitted Break Statement in Switch"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -379,13 +356,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "14"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "8"
 }}
 ,
 { "ligne" : { "" : ""
@@ -468,13 +438,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#238"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00238] For method authenticate list of called methods Object monObjet|byte[] receiveTokenN269164|byte[] receiveTokenN269748"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#276"
  , "c2" : "CRITICAL"
@@ -552,13 +515,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#326"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00326] For method sendHandshakeRequest list of called methods Object monObjet|org.apache.kafka.common.requests.SaslHandshakeRequest createSaslHandshakeRequestN270195"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#332"
  , "c2" : "MAJOR"
@@ -577,13 +533,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#336"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00336] For method reauthenticate arguments ReauthenticationContext  reauthenticationContext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#336"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00336] For method reauthenticate list of called methods Object monObjet|org.apache.kafka.common.requests.ApiVersionsResponse previousSaslClientAuthenticator_reauthInfo_apiVersionsResponseN270868|org.apache.kafka.common.network.NetworkReceive reauthenticationContext_networkReceiveN271118"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -619,13 +568,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#392"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00392] For method setSaslAuthenticateAndHandshakeVersions arguments ApiVersionsResponse  apiVersionsResponse"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00392"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#392"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00392] For method setSaslAuthenticateAndHandshakeVersions list of called methods Object monObjet|ApiVersion apiVersionsResponse_apiVersionN272922|ApiVersion apiVersionsResponse_apiVersionN273302"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -685,13 +627,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#431"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00431] For method sendSaslClientToken list of called methods Object monObjet|byte[] createSaslTokenN274999|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN275377|org.apache.kafka.common.network.Send request_toSendN275766"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#434"
  , "c2" : "MAJOR"
@@ -717,13 +652,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#452"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00452] For method send arguments Send  send"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00462"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#462"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00462] For method flushNetOutBufferAndUpdateInterestOps list of called methods Object monObjet|boolean flushNetOutBufferN276475"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -766,13 +694,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#500"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00500] In method org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.close@POLYN278153 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00504"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#504"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00504] For method receiveToken list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_errorN278715|java.lang.String response_errorMessageN278942|long response_sessionLifetimeMsN279182"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -955,13 +876,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#600"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00600] For method handleSaslHandshakeResponse arguments SaslHandshakeResponse  response"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00600"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#600"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00600] For method handleSaslHandshakeResponse list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors response_errorN283102"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1193,34 +1107,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#676"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00676] Public method pollResponseReceivedDuringReauthentication is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.setSaslState@POLYN273650"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#406"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00406] In the recursive method org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.setSaslState@POLYN273650 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00409"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#409"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00409] In the recursive method org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.setSaslState@POLYN273650 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00411"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslClientAuthenticator.java.html#411"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00411] In the recursive method org.apache.kafka.common.security.authenticator.SaslClientAuthenticator.setSaslState@POLYN273650 the MagicNumber/String 'Set SASL client state to {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html" 
- , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java 115 rule violations " 
+ , "texte" : "File connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java 113 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -256,13 +256,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -334,13 +327,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#313"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00313] For method toConnectData arguments String  topic|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#313"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00313] For method toConnectData list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Schema asConnectSchemaN298248"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -474,13 +460,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#428"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00428] For method asConnectSchema arguments JsonNode  jsonSchema"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00428"
- , "c1link" : "./qc/connect/json/src/main/java/org/apache/kafka/connect/json/JsonConverter.java.html#428"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00428] For method asConnectSchema list of called methods Object monObjet|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_boolN304423|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int8N304554|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int16N304685|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int32N304816|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_int64N304947|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float32N305078|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_float64N305209|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_bytesN305340|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_stringN305471|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_arrayN305879|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_mapN306530|org.apache.kafka.connect.data.SchemaBuilder SchemaBuilder_structN306764|org.apache.kafka.connect.data.Schema builder_buildN310225"
 }} 
 ,
 { "ligne" : {"" : ""

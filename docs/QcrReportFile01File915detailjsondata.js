@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Shell.java 39 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Shell.java 36 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -176,13 +176,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -198,13 +191,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#75"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.utils.Shell.run@POLYN190519 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#80"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00080] For method runCommand list of called methods Object monObjet|org.apache.kafka.common.utils.KafkaThread KafkaThread_nonDaemonN191830"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -322,13 +308,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#211"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method parseExecResult list of called methods Object monObjet|int reader_readN195990"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#211"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00211] The argument reader is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -380,13 +359,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#222"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.Shell.ShellCommandExecutor.output@POLYN196274 the MagicNumber/String  '' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00232"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Shell.java.html#232"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00232] For method toString list of called methods Object monObjet|java.lang.String[] execStringN196807"
 }} 
 ,
 { "ligne" : {"" : ""

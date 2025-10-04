@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html" 
- , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java 19 rule violations " 
+ , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -100,13 +100,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -207,13 +200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#87"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00087] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/wordcount/WordCountDemo.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method main list of called methods Object monObjet|java.util.Properties getStreamsConfigN174063"
 }} 
 ,
 { "ligne" : {"" : ""

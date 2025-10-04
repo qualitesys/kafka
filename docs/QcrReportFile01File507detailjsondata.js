@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java 17 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -296,13 +296,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -318,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#45"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.common.network.PlaintextTransportLayer.ready@POLYN183315 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00049"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/PlaintextTransportLayer.java.html#49"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00049] For method finishConnect list of called methods Object monObjet|boolean socketChannel_finishConnectN183506"
 }} 
 ,
 { "ligne" : {"" : ""

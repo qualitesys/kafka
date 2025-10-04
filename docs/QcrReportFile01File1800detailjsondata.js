@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java 34 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -270,23 +270,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method parentNodeNames list of called methods Object monObjet|java.lang.String parentNode_nodeNameN166277"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#48"
@@ -376,13 +362,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#126"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00126] For method setHasWrittenToTopology arguments boolean  hasWrittenToTopology"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00131"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/graph/GraphNode.java.html#131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00131] For method toString list of called methods Object monObjet|java.lang.String[] parentNodeNamesN168836"
 }} 
 ,
 { "ligne" : {"" : ""

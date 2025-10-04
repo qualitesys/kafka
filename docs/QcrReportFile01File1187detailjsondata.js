@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java 10 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java 6 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -90,15 +90,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -108,23 +99,9 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -141,13 +118,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -156,13 +126,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#42"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00042] For method start arguments Map&lt;String ,String &gt;  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00042"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#42"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00042] For method start list of called methods Object monObjet|long Long_parseLongN160225"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -198,27 +161,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#70"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00070] Valued method stop is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.tools.MockSourceTask.start@POLYN159571"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00050"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#50"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00050] In the recursive method org.apache.kafka.connect.tools.MockSourceTask.start@POLYN159571 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00053"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/tools/MockSourceTask.java.html#53"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00053] In the recursive method org.apache.kafka.connect.tools.MockSourceTask.start@POLYN159571 the MagicNumber/String 'Started MockSourceTask at {} with failure scheduled in {} ms' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 60 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java 59 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -162,13 +162,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -261,13 +254,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00121] For method alterClientQuotaEntity arguments ClientQuotaEntity  entity|Map&lt;String ,Double &gt;  newQuotaConfigs|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ClientQuotaEntity ,ApiError &gt;  outputResults"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ClientQuotaControlManager.java.html#121"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00121] For method alterClientQuotaEntity list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateEntityN212918|org.apache.kafka.common.requests.ApiError configKeysForEntityTypeN213356|org.apache.kafka.common.requests.ApiError validateQuotaKeyValueN215241"
 }} 
 ,
 { "ligne" : {"" : ""

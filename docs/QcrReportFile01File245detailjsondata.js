@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 234 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java 207 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -458,29 +458,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359.dq" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -495,13 +478,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "21"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -537,13 +513,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "30"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "11"
 }}
 ,
 { "ligne" : { "" : ""
@@ -822,13 +791,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00337"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#337"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00337] For method appendNewBatch list of called methods Object monObjet|org.apache.kafka.clients.producer.internals.RecordAccumulator.RecordAppendResult tryAppendN341413"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#339"
  , "c2" : "CRITICAL"
@@ -903,13 +865,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#383"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00383] For method tryAppend arguments long  timestamp|byte[]  key|byte[]  value|Header[]  headers|Callback  callback|Deque&lt;ProducerBatch &gt;  deque|long  nowMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00383"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#383"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00383] For method tryAppend list of called methods Object monObjet|int last_estimatedSizeInBytesN344054|org.apache.kafka.clients.producer.internals.FutureRecordMetadata last_tryAppendN344131|int last_estimatedSizeInBytesN344481"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1062,13 +1017,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#454"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00454] For method reenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN347140"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00454"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#454"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00454] The argument batch is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1092,13 +1040,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00469] For method splitAndReenqueue arguments ProducerBatch  bigBatch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00469"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#469"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00469] For method splitAndReenqueue list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; bigBatch_splitN347944|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getOrCreateDequeN348148"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1286,13 +1227,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#601"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00601] For method partitionReady list of called methods Object monObjet|org.apache.kafka.common.Node cluster_leaderForN354439|int part_partitionN354784|long batch_waitedTimeMsN355315|int batch_attemptsN355408|long batchReadyN356531"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00601"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#601"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00601] The argument cluster is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1459,13 +1393,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00712"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#712"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00712] For method ready list of called methods Object monObjet|long partitionReadyN358430"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00719"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#719"
  , "c2" : "MAJOR"
@@ -1505,13 +1432,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#740"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00740] For method shouldStopDrainBatchesForPartition arguments ProducerBatch  first|TopicPartition  tp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00740"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#740"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00740] For method shouldStopDrainBatchesForPartition list of called methods Object monObjet|org.apache.kafka.common.utils.ProducerIdAndEpoch transactionManager_producerIdAndEpochN359644|int transactionManager_firstInFlightSequenceN360203"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1582,13 +1502,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#778"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00778] For method drainBatchesForOneNode arguments Cluster  cluster|Node  node|int  maxSize|long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00778"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#778"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00778] For method drainBatchesForOneNode list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForNodeN360801|int getDrainIndexN361024|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN361875|int first_attemptsN362265"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1762,13 +1675,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00880"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#880"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00880] For method drain list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; drainBatchesForOneNodeN365617"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00880"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#880"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00880] The argument nodes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1893,13 +1799,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1038"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01038] For method abortBatches list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN370275"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1040"
  , "c2" : "MAJOR"
@@ -1918,13 +1817,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1053"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01053] For method abortUndrainedBatches arguments RuntimeException  reason"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01053"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1053"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01053] For method abortUndrainedBatches list of called methods Object monObjet|java.util.Deque&lt;org.apache.kafka.clients.producer.internals.ProducerBatch&gt; getDequeN370896"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2079,118 +1971,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#405"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00405] Public method resetNextBatchExpiryTime is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#252"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00252] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#256"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00256] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#279"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00279] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String 'Partition {} for topic {} switched by a concurrent append, retrying' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00284"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#284"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00284] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00293"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#293"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00293] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#296"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00296] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00299"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#299"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00299] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String 'Allocating a new {} byte message buffer for topic {} partition {} with remaining timeout {}ms' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#306"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00306] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String 'Partition {} for topic {} switched by a concurrent append, retrying' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/RecordAccumulator.java.html#313"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00313] In the recursive method org.apache.kafka.clients.producer.internals.RecordAccumulator.append@POLYN336359 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

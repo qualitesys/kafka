@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 83 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java 74 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -207,35 +207,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -264,13 +241,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "18"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "7"
 }}
  ] 
 ,
@@ -332,13 +302,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method assignStandby list of called methods Object monObjet|java.util.Set&lt;java.util.UUID&gt; findClientsWithoutAssignedTaskN201128"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#77"
  , "c2" : "MAJOR"
@@ -392,13 +355,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#87"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.assignStandby@POLYN200766 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#92"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method assignActive list of called methods Object monObjet|int sumCapacityN201696"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -472,13 +428,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00137"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#137"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00137] For method allocateTaskWithClientCandidates list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState findClientN204339"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#147"
  , "c2" : "MINOR"
@@ -511,13 +460,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#164"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00164] For method findClient arguments TaskId  taskId|Set&lt;UUID &gt;  clientsWithin"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#164"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00164] For method findClient list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState findClientsWithPreviousAssignedTaskN206113|org.apache.kafka.streams.processor.internals.assignment.ClientState findLeastLoadedClientWithPreviousStandByTaskN206470"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -633,13 +575,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method leastLoaded list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState findLeastLoadedN208690"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#219"
  , "c2" : "MAJOR"
@@ -665,13 +600,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#226"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00226] For method findLeastLoaded arguments TaskId  taskId|Set&lt;UUID &gt;  clientIds|boolean  checkTaskPairs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00226"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#226"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00226] For method findLeastLoaded list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.assignment.ClientState clients_getN209339"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -735,13 +663,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#263"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00263] For method sumCapacity arguments Collection&lt;ClientState &gt;  values"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#263"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00263] For method sumCapacity list of called methods Object monObjet|int client_capacityN211147"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -840,20 +761,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#321"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.TaskPairs.Pair.equals@POLYN213243 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN207363"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/StickyTaskAssignor.java.html#202"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00202] In the recursive method org.apache.kafka.streams.processor.internals.assignment.StickyTaskAssignor.findClientsWithPreviousAssignedTask@POLYN207363 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

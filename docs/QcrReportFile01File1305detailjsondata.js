@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 94 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java 91 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -234,13 +234,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "21"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -347,13 +340,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#184"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00184] For method incrementalAlterConfigResource arguments ConfigResource  configResource|Map&lt;String ,Entry&lt;OpType ,String &gt; &gt;  keysToOps|boolean  newlyCreatedResource|List&lt;ApiMessageAndVersion &gt;  outputRecords|Map&lt;ConfigResource ,ApiError &gt;  outputResults"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00184"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#184"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00184] For method incrementalAlterConfigResource list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; getPartsN243233|org.apache.kafka.common.requests.ApiError validateAlterConfigN244581"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -583,13 +569,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00304"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#304"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method legacyAlterConfigResource list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError validateAlterConfigN250187"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#304"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00304] The argument configResource is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -655,13 +634,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#344"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00344] For method getParts arguments String  value|String  key|ConfigResource  configResource"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00344"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ConfigurationControlManager.java.html#344"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00344] For method getParts list of called methods Object monObjet|java.lang.String configSchema_getDefaultN250886|java.lang.String[] value_splitN251249"
 }} 
 ,
 { "ligne" : {"" : ""

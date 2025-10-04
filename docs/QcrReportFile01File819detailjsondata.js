@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java 46 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java 35 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -117,34 +117,11 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -159,13 +136,6 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
  , "c4" : "1"
 }}
  ] 
@@ -349,13 +319,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#325"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00325] For method maybeExpediteRefresh list of called methods Object monObjet|int keyId_lengthN218953|java.lang.String keyId_substringN219030|java.lang.String String_formatN219150"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00325"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#325"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00325] The argument keyId is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -421,76 +384,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#356"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00356] In method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00336] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00337"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00337] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String '%s -trimmed to first %s characters out of %s total-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00338"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#338"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00338] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String 'Key ID {} was too long to cache' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#339"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00339] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#346"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00346] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String 'For key ID {}, nextCheckTime: {}, currTime: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00348"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#348"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00348] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#353"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00353] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00354"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#354"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00354] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00356"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/RefreshingHttpsJwks.java.html#356"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00356] In the recursive method org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks.maybeExpediteRefresh@POLYN218763 the MagicNumber/String false MUST BE CONVERTED to const"
 }} 
 ]
 , 

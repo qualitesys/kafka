@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java 77 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java 75 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -503,13 +503,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -588,13 +581,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#209"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00209] For method state arguments ChannelState  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00217"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#217"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00217] For method finishConnect list of called methods Object monObjet|java.nio.channels.SocketChannel transportLayer_socketChannelN267594|boolean transportLayer_finishConnectN267821"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -770,13 +756,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#394"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00394] In method org.apache.kafka.common.network.KafkaChannel.maybeCompleteSend@POLYN273767 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00397"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/KafkaChannel.java.html#397"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00397] For method read list of called methods Object monObjet|long receiveN274555"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 105 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java 97 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -414,35 +414,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -464,13 +441,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "30"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
 }}
  ] 
 ,
@@ -756,13 +726,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00188"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#188"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00188] For method addDecimal list of called methods Object monObjet|org.apache.kafka.connect.data.Schema Decimal_schemaN227003"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#189"
  , "c2" : "MAJOR"
@@ -882,13 +845,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00266"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#266"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00266] For method retainLatest list of called methods Object monObjet|org.apache.kafka.common.header.Headers header_keyN230854"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#271"
  , "c2" : "MAJOR"
@@ -947,13 +903,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#300"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00300] For method apply list of called methods Object monObjet|org.apache.kafka.common.header.Header transform_applyN232573"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00300"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#300"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00300] The argument transform is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -984,13 +933,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#320"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00320] For method apply arguments HeaderTransform  transform"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00320"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#320"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00320] For method apply list of called methods Object monObjet|org.apache.kafka.common.header.Header transform_applyN233330"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1127,13 +1069,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00399"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#399"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00399] For method checkSchemaMatches list of called methods Object monObjet|org.apache.kafka.connect.data.Schema schemaAndValue_schemaN236324|java.lang.Object schemaAndValue_valueN236547"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00400"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#400"
  , "c2" : "MAJOR"
@@ -1187,27 +1122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#488"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00488] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.header.ConnectHeaders.add@POLYN221286"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#92"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00092] In the recursive method org.apache.kafka.connect.header.ConnectHeaders.add@POLYN221286 the MagicNumber/String 'Unable to add a null header.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/header/ConnectHeaders.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.connect.header.ConnectHeaders.add@POLYN221286 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

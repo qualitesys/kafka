@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java 10 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -127,13 +127,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -177,13 +170,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#88"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000001[00088] Avoid declaring class instance within loop, performance impact"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00106"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AddPartitionsToTxnRequest.java.html#106"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00106] For method partitions list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; Builder_getPartitionsN172042"
 }} 
 ,
 { "ligne" : {"" : ""

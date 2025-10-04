@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java 42 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java 40 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -262,13 +262,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "16"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -357,13 +350,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00125"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#125"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00125] For method createApiVersionsResponse list of called methods Object monObjet|ApiVersionCollection intersectForwardableApisN194648|ApiVersionCollection filterApisN194816"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#135"
  , "c2" : "MAJOR"
@@ -403,13 +389,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#200"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00200] For method intersectForwardableApis arguments ApiMessageType.ListenerType  listenerType|RecordVersion  minRecordVersion|Map&lt;ApiKeys ,ApiVersion &gt;  activeControllerApiVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ApiVersionsResponse.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method intersectForwardableApis list of called methods Object monObjet|ApiVersion toApiVersionN197140|java.util.Optional&lt;ApiVersion&gt; intersectN197424"
 }} 
 ,
 { "ligne" : {"" : ""

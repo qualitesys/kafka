@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java 31 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java 28 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,23 +190,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method residentMemorySizeEstimate list of called methods Object monObjet|byte[] header_valueN182159"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#79"
@@ -226,13 +212,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#89"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.streams.processor.internals.ProcessorRecordContext.residentMemorySizeEstimate@POLYN181481 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00096"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#96"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00096] For method serialize list of called methods Object monObjet|byte[] topic_getBytesN182480"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -289,13 +268,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#152"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00152] For method deserialize arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorRecordContext.java.html#152"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00152] For method deserialize list of called methods Object monObjet|java.lang.Long buffer_getLongN185792|java.lang.Long buffer_getLongN185874|byte[] getNullableSizePrefixedArrayN187029"
 }} 
 ,
 { "ligne" : {"" : ""

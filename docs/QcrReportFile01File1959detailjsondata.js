@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java 32 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java 30 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -144,13 +144,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -159,13 +152,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#44"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00044] For method enforce arguments Set&lt;String &gt;  copartitionGroup|Map&lt;String ,InternalTopicConfig &gt;  allRepartitionTopicsNumPartitions|Cluster  metadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00044"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#44"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00044] For method enforce list of called methods Object monObjet|java.lang.String String_formatN177347|int validateAndGetNumOfPartitionsN178235|int getMaxPartitionsN178361|int getSamePartitionsN178468"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -334,13 +320,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#169"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00169] For method getMaxPartitions arguments Map&lt;Object ,InternalTopicConfig &gt;  repartitionTopicsInCopartitionGroup"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00169"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/assignment/CopartitionedTopicsEnforcer.java.html#169"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00169] For method getMaxPartitions list of called methods Object monObjet|java.util.Optional&lt;java.lang.Integer&gt; config_numberOfPartitionsN182258"
 }} 
 ,
 { "ligne" : {"" : ""

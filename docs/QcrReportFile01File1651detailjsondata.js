@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Named.java 31 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/kstream/Named.java 30 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -129,13 +129,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -256,13 +249,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#74"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00074] For method containsValidPattern arguments String  topic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00074"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/Named.java.html#74"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00074] For method containsValidPattern list of called methods Object monObjet|char topic_charAtN165103"
 }} 
 ,
 { "ligne" : {"" : ""

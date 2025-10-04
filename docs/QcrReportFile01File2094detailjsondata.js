@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java 11 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -92,13 +92,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -107,13 +100,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#32"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00032] For method upperRange arguments Bytes  key|byte[]  maxSuffix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00032"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#32"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00032] For method upperRange list of called methods Object monObjet|byte[] key_getN159797"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -163,13 +149,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#64"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00064] For method lowerRange arguments Bytes  key|byte[]  minSuffix"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00064"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/OrderedBytes.java.html#64"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00064] For method lowerRange list of called methods Object monObjet|byte[] key_getN161378"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 118 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java 113 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -178,13 +178,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
@@ -280,13 +273,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00229"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#229"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00229] For method findNodeNames list of called methods Object monObjet|java.util.TreeSet&lt;java.lang.String&gt; controller_targetNodesN272470"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00241"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#241"
  , "c2" : "MAJOR"
@@ -319,13 +305,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#267"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00267] In method org.apache.kafka.trogdor.coordinator.TaskManager.ManagedTask.taskState@POLYN273701 the MagicNumber/String  'unreachable' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00270"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#270"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00270] For method getCombinedStatus list of called methods Object monObjet|JsonNode state_statusN275366"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -396,13 +375,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#329"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.trogdor.coordinator.TaskManager.CreateTask.CreateTask@POLYN277285 the MagicNumber/String  'startMs' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00334"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#334"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00334] For method call list of called methods Object monObjet|java.lang.Void time_millisecondsN279639|java.lang.Void task_startDelayMsN280199"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -585,13 +557,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#423"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00423] In method org.apache.kafka.trogdor.coordinator.TaskManager.stopTask@POLYN282969 the MagicNumber/String  'stopTask(id={}) error' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#439"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00439] For method call list of called methods Object monObjet|java.lang.Void time_millisecondsN284463|java.lang.Void task_activeWorkerIdsN284855|java.lang.Void time_millisecondsN285325"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -837,13 +802,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#586"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00586] For method handleWorkerCompletion arguments ManagedTask  task|String  nodeName|WorkerDone  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00586"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/TaskManager.java.html#586"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00586] For method handleWorkerCompletion list of called methods Object monObjet|java.util.TreeMap&lt;java.lang.String,java.lang.Long&gt; task_activeWorkerIdsN291869"
 }} 
 ,
 { "ligne" : {"" : ""

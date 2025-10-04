@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java 18 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java 16 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -138,13 +138,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -163,13 +156,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method key list of called methods Object monObjet|java.lang.String Utils_utf8N161548"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#44"
  , "c2" : "MAJOR"
@@ -181,13 +167,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#46"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.header.internals.RecordHeader.key@POLYN161401 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/header/internals/RecordHeader.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method value list of called methods Object monObjet|byte[] Utils_toArrayN161953"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java 288 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java 273 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -890,15 +890,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -912,13 +903,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "49"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "10"
 }}
 ,
 { "ligne" : { "" : ""
@@ -947,13 +931,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "85"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
 }}
  ] 
 ,
@@ -1372,13 +1349,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#208"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00208] For method get list of called methods Object monObjet|java.lang.Object schema_getN250505"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#210"
  , "c2" : "MAJOR"
@@ -1631,13 +1601,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#332"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00332] For method getBytes list of called methods Object monObjet|java.lang.Object getN255490"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#339"
  , "c2" : "MINOR"
@@ -1645,24 +1608,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00339"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#339"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00339] For method getBytes list of called methods Object monObjet|java.lang.Object getN255858"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00346"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#346"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00346] For method getByteArray arguments String  name"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00346"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#346"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00346] For method getByteArray list of called methods Object monObjet|java.lang.Object getN256232"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2303,13 +2252,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00600"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#600"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00600] For method equals list of called methods Object monObjet|java.lang.Object other_getN270196"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00605"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#605"
  , "c2" : "MAJOR"
@@ -2902,76 +2844,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#478"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00478] Public method instance is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN257824"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN258430"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN258632"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN258228"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN258834"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN259036"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN260180"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN260382"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.set@POLYN260584"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/protocol/types/Struct.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.protocol.types.Struct.setIfExists@POLYN261358"
 }} 
 ]
 , 

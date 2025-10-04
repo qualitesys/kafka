@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html" 
- , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java 43 rule violations " 
+ , "texte" : "File streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java 42 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -96,13 +96,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -280,13 +273,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#175"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00175] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00175"
- , "c1link" : "./qc/streams/examples/src/main/java/org/apache/kafka/streams/examples/pageview/PageViewTypedDemo.java.html#175"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00175] For method main list of called methods Object monObjet|java.lang.String key_keyN206890|java.lang.String key_keyN207053"
 }} 
 ,
 { "ligne" : {"" : ""

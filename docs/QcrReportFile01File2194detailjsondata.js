@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java 29 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java 27 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -143,15 +143,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -168,13 +159,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -186,13 +170,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -230,13 +207,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#110"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00110] For method tasks arguments List&lt;String &gt;  taskId|long  firstStartMs|long  lastStartMs|long  firstEndMs|long  lastEndMs|String  state"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method tasks list of called methods Object monObjet|boolean state_equalsN180589"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -391,13 +361,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#71"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00071] Public method setCoordinator is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/coordinator/CoordinatorRestResource.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.coordinator.CoordinatorRestResource.setCoordinator@POLYN178344"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java 62 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -225,15 +225,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -243,24 +234,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -283,13 +260,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -298,13 +268,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#86"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00086] For method start arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method start list of called methods Object monObjet|java.lang.String config_sourceClusterAliasN205401|java.lang.String config_targetClusterAliasN205475|java.util.Set&lt;java.lang.String&gt; config_taskConsumerGroupsN205549|org.apache.kafka.clients.admin.AdminClient AdminClient_createN206085|org.apache.kafka.clients.admin.AdminClient AdminClient_createN206198"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -445,13 +408,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#189"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00189] For method checkpoint arguments String  group|TopicPartition  topicPartition|OffsetAndMetadata  offsetAndMetadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00189"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#189"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00189] For method checkpoint list of called methods Object monObjet|long offsetAndMetadata_offsetN211443|java.util.OptionalLong offsetSyncStore_translateDownstreamN211520"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -711,20 +667,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#111"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00111] Valued method commit is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN209194"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00166"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorCheckpointTask.java.html#166"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00166] In the recursive method org.apache.kafka.connect.mirror.MirrorCheckpointTask.sourceRecordsForGroup@POLYN209194 the MagicNumber/String 'Error querying offsets for consumer group {} on cluster {}.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

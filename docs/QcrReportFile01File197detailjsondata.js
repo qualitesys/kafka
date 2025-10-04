@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java 25 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -136,13 +136,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -151,13 +144,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00204] For method onAssignment arguments Assignment  assignment|ConsumerGroupMetadata  metadata"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00204"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#204"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00204] For method onAssignment list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; assignment_partitionsN228479"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -205,13 +191,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method memberData list of called methods Object monObjet|java.nio.ByteBuffer subscription_userDataN229095"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#218"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00218] The argument subscription is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -249,13 +228,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00245] For method deserializeTopicPartitionAssignment arguments ByteBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00245"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/StickyAssignor.java.html#245"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00245] For method deserializeTopicPartitionAssignment list of called methods Object monObjet|org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.MemberData assignment_getStringN231962|boolean struct_hasFieldN232405"
 }} 
 ,
 { "ligne" : {"" : ""

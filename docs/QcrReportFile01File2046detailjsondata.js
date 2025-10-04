@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java 16 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java 15 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -138,13 +138,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -237,13 +230,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#150"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.streams.state.internals.CompositeReadOnlyKeyValueStore.reverseAll@POLYN186901 the MagicNumber/String  'State store is not available anymore and may have been migrated to another instance; please re-discover its location from the state metadata.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CompositeReadOnlyKeyValueStore.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method approximateNumEntries list of called methods Object monObjet|long store_approximateNumEntriesN188394"
 }} 
 ,
 { "ligne" : {"" : ""

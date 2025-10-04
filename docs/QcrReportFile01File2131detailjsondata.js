@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java 68 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java 66 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -144,13 +144,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -264,13 +257,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#151"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00151] For method isPermitted arguments Position  position|PositionBound  positionBound|int  partition"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00151"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#151"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00151] For method isPermitted list of called methods Object monObjet|org.apache.kafka.streams.query.Position positionBound_positionN222624|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; bound_getPartitionPositionsN222840|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN222978"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,13 +537,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00366] For method positionToTopicPartitionMap arguments Position  position"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/StoreQueryUtils.java.html#366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00366] For method positionToTopicPartitionMap list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; position_getTopicsN234315|java.util.Map&lt;java.lang.Integer,java.lang.Long&gt; position_getPartitionPositionsN234511"
 }} 
 ,
 { "ligne" : {"" : ""

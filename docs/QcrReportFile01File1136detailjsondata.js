@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java 86 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java 80 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -286,13 +286,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
-}}
  ] 
 ,
 "data13b" : [
@@ -416,13 +409,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method withClassLoader list of called methods Object monObjet|ClassLoader compareAndSwapLoadersN230011"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#186"
  , "c2" : "MINOR"
@@ -434,13 +420,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#191"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00191] For method newConnector arguments String  connectorClassOrAlias"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#191"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00191] For method newConnector list of called methods Object monObjet|java.lang.Class&lt;? extends Connector&gt; connectorClassN231748"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -544,13 +523,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method newConverter list of called methods Object monObjet|boolean WorkerConfig_KEY_CONVERTER_CLASS_CONFIG_equalsN235817|org.apache.kafka.connect.storage.Converter config_originalsWithPrefixN236039|ClassLoader compareAndSwapLoadersN236471"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#252"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00252] The argument config is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -640,13 +612,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00313"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#313"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00313] For method newInternalConverter list of called methods Object monObjet|ClassLoader compareAndSwapLoadersN237732"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#318"
  , "c2" : "MAJOR"
@@ -658,13 +623,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#342"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00342] For method newHeaderConverter arguments AbstractConfig  config|String  classPropertyName|ClassLoaderUsage  classLoaderUsage"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#342"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00342] For method newHeaderConverter list of called methods Object monObjet|org.apache.kafka.connect.storage.HeaderConverter config_originalsWithPrefixN240058|ClassLoader compareAndSwapLoadersN240471"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -742,13 +700,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#394"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00394] For method newConfigProvider arguments AbstractConfig  config|String  providerPrefix|ClassLoaderUsage  classLoaderUsage"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00394"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#394"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00394] For method newConfigProvider list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; config_originalsStringsN241110|org.apache.kafka.common.config.provider.ConfigProvider config_originalsWithPrefixN242543|ClassLoader compareAndSwapLoadersN242670"
 }} 
 ,
 { "ligne" : {"" : ""

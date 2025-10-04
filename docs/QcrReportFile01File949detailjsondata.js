@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 65 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java 59 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -302,13 +302,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "18"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
-}}
  ] 
 ,
 "data13b" : [
@@ -331,13 +324,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#73"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00073] For method get arguments String  fieldName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00073] For method get list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN203812"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -373,13 +359,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#98"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00098] For method getWithoutDefault arguments String  fieldName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method getWithoutDefault list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN204891"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -446,13 +425,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00164"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#164"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00164] For method getBytes list of called methods Object monObjet|java.lang.Object getCheckTypeN207409"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00190"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#190"
  , "c2" : "MINOR"
@@ -464,13 +436,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#201"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00201] For method put arguments String  fieldName|Object  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00201"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#201"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00201] For method put list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN209156"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -492,13 +457,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#215"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.connect.data.Struct.put@POLYN209551 the MagicNumber/String  'field cannot be null.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00227"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#227"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00227] For method validate list of called methods Object monObjet|org.apache.kafka.connect.data.Schema field_schemaN210397"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -590,13 +548,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#260"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00260] For method getCheckType arguments String  fieldName|Schema.Type  type"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Struct.java.html#260"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00260] For method getCheckType list of called methods Object monObjet|org.apache.kafka.connect.data.Field lookupFieldN212201"
 }} 
 ,
 { "ligne" : {"" : ""

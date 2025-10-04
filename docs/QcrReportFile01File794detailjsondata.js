@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java 81 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java 77 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -233,13 +233,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -274,13 +267,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#56"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00056] Valued method refresherThreadDone is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00071"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#71"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00071] For method run list of called methods Object monObjet|java.lang.Long Long_valueOfN217378"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,13 +403,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#202"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method login list of called methods Object monObjet|LoginContext loginContextFactory_createLoginContextN222249|long currentMsN223170"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00205"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#205"
  , "c2" : "MAJOR"
@@ -519,13 +498,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#272"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00272] For method refreshMs arguments long  relativeToMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00272"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#272"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00272] For method refreshMs list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN225857|double expiringCredentialRefreshConfig_loginRefreshWindowFactorN227936|short expiringCredentialRefreshConfig_loginRefreshMinPeriodSecondsN228193|short expiringCredentialRefreshConfig_loginRefreshBufferSecondsN228270"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -694,13 +666,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#353"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin.refreshMs@POLYN225043 the MagicNumber/String  'than the minimum refresh interval ({} seconds from now).' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/expiring/ExpiringCredentialRefreshingLogin.java.html#362"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00362] For method reLogin list of called methods Object monObjet|boolean isLogoutRequiredBeforeLoggingBackInN230302|java.lang.String principalLogTextN230442"
 }} 
 ,
 { "ligne" : {"" : ""

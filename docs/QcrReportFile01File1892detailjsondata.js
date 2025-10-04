@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 74 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java 72 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -215,13 +215,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -579,13 +572,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#256"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00256] For method nextRecord list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.StampedRecord queue_pollN212732"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00256"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#256"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00256] The argument info is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -630,13 +616,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00296] For method addRawRecords arguments TopicPartition  partition|Iterable&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  rawRecords"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/PartitionGroup.java.html#296"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00296] For method addRawRecords list of called methods Object monObjet|int recordQueue_sizeN214174|int recordQueue_addRawRecordsN214256"
 }} 
 ,
 { "ligne" : {"" : ""

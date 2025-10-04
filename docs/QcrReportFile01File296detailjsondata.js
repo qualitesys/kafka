@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 461 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java 442 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -602,28 +602,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
  , "c3" : "High risk of strong class coupling"
  , "c4" : "32"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -638,13 +622,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "27"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -673,13 +650,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "63"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "10"
 }}
  ] 
 ,
@@ -1051,13 +1021,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00473"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#473"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00473] For method parse list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; undefinedDependentConfigsN474480"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#473"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00473] The argument props is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1081,13 +1044,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#487"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00487] For method parseValue arguments ConfigKey  key|Object  value|boolean  isSet"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00487"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#487"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00487] For method parseValue list of called methods Object monObjet|java.lang.Object parseTypeN475547"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1140,13 +1096,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00514"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#514"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00514] For method validateAll list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; undefinedDependentConfigsN477160|java.util.Map&lt;java.lang.String,java.lang.Object&gt; parseForValidateN477699"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00522"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#522"
  , "c2" : "MAJOR"
@@ -1175,24 +1124,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00533"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#533"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00533] For method parseForValidate list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; getConfigsWithNoParentN478245"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#543"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00543] For method validate arguments Map&lt;String ,Object &gt;  parsed|Map&lt;String ,ConfigValue &gt;  configValues"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#543"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00543] For method validate list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; getConfigsWithNoParentN478785"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1522,13 +1457,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#782"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00782] For method convertToStringMapWithPasswordValues arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00782"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#782"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00782] For method convertToStringMapWithPasswordValues list of called methods Object monObjet|java.lang.String convertToStringN492235|java.lang.String convertToStringN492397|java.lang.String convertToStringN492513"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2192,13 +2120,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01200"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01200] For method getConfigValue list of called methods Object monObjet|java.lang.String convertToStringN509945|java.lang.String niceMemoryUnitsN510330|java.lang.String niceTimeUnitsN510582"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01200"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1200"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01200] The argument key is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2759,13 +2680,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1302"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01302] For method toHtmlTable list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; sortedConfigsN515870"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01302"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1302"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01302] The argument dynamicUpdateModes is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3151,13 +3065,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01438"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1438"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01438] For method compare list of called methods Object monObjet|int Integer_compareN524050"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01438"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1438"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01438] The argument k1 is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3391,13 +3298,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1574"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01574] For method toHtml arguments int  headerDepth|Function&lt;String ,String &gt;  idGenerator|Map&lt;String ,String &gt;  dynamicUpdateModes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01574"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1574"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01574] For method toHtml list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.config.ConfigDef.ConfigKey&gt; sortedConfigsN531094"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3846,69 +3746,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1460"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[01460] Public method embed is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.validate@POLYN482625"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.parseForValidate@POLYN480527"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.ConfigDef.define@POLYN470816"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00621"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#621"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00621] In the recursive method org.apache.kafka.common.config.ConfigDef.validate@POLYN482625 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00588"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#588"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00588] In the recursive method org.apache.kafka.common.config.ConfigDef.parseForValidate@POLYN480527 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.common.config.ConfigDef.parseForValidate@POLYN480527 the MagicNumber/String 'Missing required configuration \'' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.common.config.ConfigDef.parseForValidate@POLYN480527 the MagicNumber/String '\' which has no default value.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00601"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#601"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00601] In the recursive method org.apache.kafka.common.config.ConfigDef.parseForValidate@POLYN480527 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00398"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/ConfigDef.java.html#398"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00398] In the recursive method org.apache.kafka.common.config.ConfigDef.define@POLYN470816 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

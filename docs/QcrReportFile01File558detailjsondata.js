@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 102 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java 97 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -535,13 +535,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "22"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
@@ -658,13 +651,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#279"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00279] For method compressedIterator list of called methods Object monObjet|java.io.DataInputStream recordInputStreamN273452"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#311"
  , "c2" : "MAJOR"
@@ -732,13 +718,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#375"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00375] For method setMaxTimestamp arguments TimestampType  timestampType|long  maxTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00375"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#375"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00375] For method setMaxTimestamp list of called methods Object monObjet|byte computeAttributesN277752|long computeChecksumN278162"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -865,13 +844,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#463"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00463] For method writeHeader arguments ByteBuffer  buffer|long  baseOffset|int  lastOffsetDelta|int  sizeInBytes|byte  magic|CompressionType  compressionType|TimestampType  timestampType|long  baseTimestamp|long  maxTimestamp|long  producerId|short  epoch|int  sequence|boolean  isTransactional|boolean  isControlBatch|boolean  isDeleteHorizonSet|int  partitionLeaderEpoch|int  numRecords"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00463"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#463"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00463] For method writeHeader list of called methods Object monObjet|byte computeAttributesN282586|long Crc32C_computeN284241"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1010,13 +982,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00513] For method sizeInBytes list of called methods Object monObjet|int record_timestampN286163|int record_timestampN286240|int DefaultRecord_sizeInBytesN286336"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00513"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#513"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00513] The argument records is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1054,13 +1019,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00532] For method sizeInBytes arguments Iterable&lt;SimpleRecord &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00532"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#532"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00532] For method sizeInBytes list of called methods Object monObjet|int record_timestampN287289|int record_timestampN287366|int DefaultRecord_sizeInBytesN287462"
 }} 
 ,
 { "ligne" : {"" : ""

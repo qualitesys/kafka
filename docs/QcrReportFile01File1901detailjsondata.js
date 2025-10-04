@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java 192 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java 157 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -360,35 +360,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "25"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "11"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -410,13 +387,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "22"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "6"
 }}
  ] 
 ,
@@ -767,13 +737,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00317"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#317"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00317] For method registerStore list of called methods Object monObjet|java.lang.String store_nameN256277|boolean isLoggingEnabledN257130"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00317"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#317"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00317] The argument store is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -937,13 +900,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#426"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00426] For method restore arguments StateStoreMetadata  storeMetadata|List&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  restoreRecords"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00426"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#426"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00426] For method restore list of called methods Object monObjet|org.apache.kafka.streams.processor.ProcessorContext adaptN260862"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1227,13 +1183,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00572"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#572"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00572] For method recycle list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.TopicPartition&gt; getAllChangelogTopicPartitionsN266737"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00573"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#573"
  , "c2" : "MAJOR"
@@ -1245,13 +1194,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#579"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00579] For method transitionTaskType arguments TaskType  newType|LogContext  logContext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00579"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#579"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00579] For method transitionTaskType list of called methods Object monObjet|org.slf4j.Logger logContext_loggerN267243"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1285,13 +1227,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00593"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#593"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00593] For method updateChangelogOffsets list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.ProcessorStateManager.StateStoreMetadata findStoreN267826"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00593"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#593"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00593] The argument writtenOffsets is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1315,13 +1250,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#600"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00600] In method org.apache.kafka.streams.processor.internals.ProcessorStateManager.updateChangelogOffsets@POLYN267544 the MagicNumber/String  'State store {} updated to written offset {} at changelog {}' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00607"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#607"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00607] For method checkpoint list of called methods Object monObjet|long checkpointableOffsetFromChangelogOffsetN269198"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1560,209 +1488,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#698"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00698] For method changelogFor arguments String  storeName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.ProcessorStateManager@POLYN249712"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerGlobalStateStores@POLYN251641"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00203"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00203] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.ProcessorStateManager@POLYN249712 the MagicNumber/String 'Created state store manager for task {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00235"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#235"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00235] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'Loaded offsets from the checkpoint file: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00239"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#239"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00239] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'Tried to initialize store offsets for corrupted store {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'Should not initialize offsets for a corrupted task' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00244"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#244"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'State store {} is not logged and hence would not be restored' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00246"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#246"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00246] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'Initializing to the starting offset for changelog {} of in-memory state store {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00248"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#248"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00248] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#253"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00253] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'State store {} initialized from checkpoint with offset {} at changelog {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#260"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00260] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'State store {} did not find checkpoint offsets while stores are not empty, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00261"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#261"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00261] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'since under EOS it has the risk of getting uncommitted data in stores we have to ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#262"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00262] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'treat it as a task corruption error and wipe out the local state of task {} ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00263"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#263"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00263] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'before re-bootstrapping' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00267"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#267"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00267] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'State store {} did not find checkpoint offset, hence would ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00268"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#268"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00268] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'default to the starting offset at changelog {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'Skipping re-initialization of offset from checkpoint for recycled store {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#280"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00280] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String 'Some loaded checkpoint offsets cannot find their corresponding state stores: {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#290"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00290] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.initializeStoreOffsetsFromCheckpoint@POLYN252175 the MagicNumber/String '%sError loading and deleting checkpoint file when creating the state manager' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00219"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#219"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00219] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerGlobalStateStores@POLYN251641 the MagicNumber/String 'Register global stores {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00326"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#326"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00326] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118 the MagicNumber/String '%sIllegal store name: %s, which collides with the pre-defined ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00327"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#327"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00327] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118 the MagicNumber/String 'checkpoint file name' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00332"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#332"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00332] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118 the MagicNumber/String '%sStore %s has already been registered.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00336"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#336"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00336] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118 the MagicNumber/String 'The registered state restore callback is also implementing the state restore listener interface, ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00337"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#337"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00337] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118 the MagicNumber/String 'which is not expected and would be ignored' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00355"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorStateManager.java.html#355"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00355] In the recursive method org.apache.kafka.streams.processor.internals.ProcessorStateManager.registerStore@POLYN256118 the MagicNumber/String 'Registered state store {} to its state manager' MUST BE CONVERTED to const"
 }} 
 ]
 , 

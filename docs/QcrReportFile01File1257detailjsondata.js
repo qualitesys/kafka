@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageGenerator.java 102 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageGenerator.java 100 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -178,13 +178,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -284,13 +277,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method processDirectories arguments String  packageName|String  outputDir|String  inputDir|List&lt;String &gt;  typeClassGeneratorTypes|List&lt;String &gt;  messageClassGeneratorTypes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method processDirectories list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.message.TypeClassGenerator&gt; createTypeClassGeneratorsN206830"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -515,13 +501,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#296"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00296] For method toSnakeCase arguments String  string"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageGenerator.java.html#296"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00296] For method toSnakeCase list of called methods Object monObjet|char string_charAtN211227"
 }} 
 ,
 { "ligne" : {"" : ""

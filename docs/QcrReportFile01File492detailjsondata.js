@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java 46 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java 44 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -137,13 +137,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -253,13 +246,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00112"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#112"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00112] For method create list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; channelBuilderConfigsN195553"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#115"
  , "c2" : "CRITICAL"
@@ -348,13 +334,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#200"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00200] For method channelBuilderConfigs arguments AbstractConfig  config|ListenerName  listenerName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/ChannelBuilders.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method channelBuilderConfigs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; config_valuesWithPrefixOverrideN199620"
 }} 
 ,
 { "ligne" : {"" : ""

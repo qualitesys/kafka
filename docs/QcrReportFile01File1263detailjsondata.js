@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 122 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java 119 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -162,13 +162,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -177,13 +170,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#82"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00082] For method generateSchemas arguments MessageSpec  message"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN215521|java.util.Iterator&lt;org.apache.kafka.message.StructSpec&gt; structRegistry_commonStructsN215633"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -205,13 +191,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#97"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00097] For method generateSchemas arguments String  className|StructSpec  struct|Versions  parentVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method generateSchemas list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN216320|short versions_lowestN217642"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -877,13 +856,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#345"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00345] For method writeSchema arguments String  className|CodeBuffer  buffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00345"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/SchemaGenerator.java.html#345"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00345] For method writeSchema list of called methods Object monObjet|short versions_lowestN231196|short versions_lowestN232675"
 }} 
 ,
 { "ligne" : {"" : ""

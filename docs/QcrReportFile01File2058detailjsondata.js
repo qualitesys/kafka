@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java 98 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java 96 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -303,13 +303,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "15"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -318,13 +311,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#99"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00099] For method init arguments ProcessorContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00099"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#99"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00099] For method init list of called methods Object monObjet|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN234951|boolean StreamsConfig_InternalConfig_getBooleanN235313"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -794,13 +780,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#396"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00396] For method registerNewIterator arguments Bytes  keyFrom|Bytes  keyTo|long  latestSessionStartTime|Iterator&lt;Entry&lt;Long ,ConcurrentNavigableMap&lt;Bytes ,ConcurrentNavigableMap&lt;Long ,byte[] &gt; &gt; &gt; &gt;  endTimeIterator|boolean  forward"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00453"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#453"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00453] For method hasNext list of called methods Object monObjet|KeyValue&lt;Windowed&lt;Bytes&gt;,byte[]&gt; getNextN250499"
 }} 
 ,
 { "ligne" : {"" : ""

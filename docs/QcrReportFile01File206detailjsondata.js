@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 115 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java 110 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -369,15 +369,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -391,13 +382,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "11"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -419,13 +403,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "29"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -456,13 +433,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#124"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00124] For method send arguments Node  node|AbstractRequest.Builder&lt;? &gt;  requestBuilder|int  requestTimeoutMs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#124"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00124] For method send list of called methods Object monObjet|org.apache.kafka.clients.ClientRequest client_newClientRequestN262077"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -767,13 +737,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00421"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#421"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00421] For method checkDisconnects list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.ClientRequest&gt; unsent_removeN272418|org.apache.kafka.common.errors.AuthenticationException client_authenticationExceptionN272684"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00430"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#430"
  , "c2" : "MAJOR"
@@ -886,13 +849,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00463"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#463"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00463] For method failExpiredRequests list of called methods Object monObjet|java.util.Collection&lt;org.apache.kafka.clients.ClientRequest&gt; unsent_removeExpiredRequestsN274057"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00467"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#467"
  , "c2" : "MAJOR"
@@ -946,13 +902,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#486"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00486] For method trySend arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#486"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00486] For method trySend list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.clients.ClientRequest&gt; unsent_requestIteratorN275334"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1233,13 +1182,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#717"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00717] In method org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.UnsentRequests.requestIterator@POLYN284640 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/internals/ConsumerNetworkClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient.UnsentRequests.put@POLYN281084"
 }} 
 ]
 , 

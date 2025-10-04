@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java 142 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java 133 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -341,13 +341,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "17"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "9"
-}}
  ] 
 ,
 "data13b" : [
@@ -445,13 +438,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#194"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00194] For method createSaslServer list of called methods Object monObjet|SaslServer createSaslKerberosServerN274325"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00194"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#194"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00194] The argument mechanism is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -489,13 +475,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#213"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00213] For method createSaslKerberosServer arguments AuthenticateCallbackHandler  saslServerCallbackHandler|Map&lt;String ,? &gt;  configs|Subject  subject"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#213"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method createSaslKerberosServer list of called methods Object monObjet|java.lang.String SaslClientAuthenticator_firstPrincipalN275379|java.lang.String kerberosName_serviceNameN275767|java.lang.String kerberosName_hostNameN275849"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -562,13 +541,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00301"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#301"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00301] For method principal list of called methods Object monObjet|org.apache.kafka.common.security.auth.KafkaPrincipal principalBuilder_buildN279676"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#308"
  , "c2" : "MAJOR"
@@ -594,13 +566,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#337"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00337] For method reauthenticate arguments ReauthenticationContext  reauthenticationContext"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00337"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#337"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00337] For method reauthenticate list of called methods Object monObjet|org.apache.kafka.common.network.NetworkReceive reauthenticationContext_networkReceiveN281026"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -688,13 +653,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#386"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method flushNetOutBufferAndUpdateInterestOps list of called methods Object monObjet|boolean flushNetOutBufferN283196"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00390"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#390"
  , "c2" : "MAJOR"
@@ -706,13 +664,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#411"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00411] For method handleSaslToken arguments byte[]  clientToken"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00411"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#411"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00411] For method handleSaslToken list of called methods Object monObjet|org.apache.kafka.common.network.ByteBufferSend ByteBufferSend_sizePrefixedN284768|org.apache.kafka.common.requests.RequestHeader RequestHeader_parseN285065|org.apache.kafka.common.protocol.ApiKeys header_apiKeyN285161|short header_apiVersionN285238|org.apache.kafka.common.requests.RequestAndSize requestContext_parseRequestN285594"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -914,13 +865,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00551"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#551"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00551] For method handleHandshakeRequest list of called methods Object monObjet|short context_header_apiVersionN292223"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00551"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#551"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00551] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1014,13 +958,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#594"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00594] For method buildResponseOnAuthenticateFailure arguments RequestContext  context|AbstractResponse  response"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00594"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#594"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00594] For method buildResponseOnAuthenticateFailure list of called methods Object monObjet|org.apache.kafka.common.network.Send context_buildResponseSendN294835"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1189,13 +1126,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#666"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.common.security.authenticator.SaslServerAuthenticator.ReauthInfo.saslMechanismUnchanged@POLYN297226 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00669"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/authenticator/SaslServerAuthenticator.java.html#669"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00669] For method calcCompletionTimesAndReturnSessionLifetimeMs list of called methods Object monObjet|long time_nanosecondsN297935|long zeroIfNegativeN298508|long zeroIfNegativeN298633|long zeroIfNegativeN298741"
 }} 
 ,
 { "ligne" : {"" : ""

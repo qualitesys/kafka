@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html" 
- , "texte" : "File core/src/main/scala/kafka/tools/StreamsResetter.java 186 rule violations " 
+ , "texte" : "File core/src/main/scala/kafka/tools/StreamsResetter.java 192 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -285,6 +285,13 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "22"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "6"
 }}
  ] 
 ,
@@ -976,6 +983,13 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
+ , "c1" : "00437"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#437"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00437] For method maybeReset list of called methods Object monObjet|long Utils_getDateTimeN292594|Map&lt;TopicPartition,Long&gt; getTopicPartitionOffsetFromResetPlanN293363"
+}} 
+,
+{ "ligne" : {"" : ""
  , "c1" : "00438"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#438"
  , "c2" : "CRITICAL"
@@ -1041,6 +1055,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00475"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#475"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00475] For method resetOffsetsFromResetPlan list of called methods Object monObjet|Map&lt;TopicPartition,Long&gt; checkOffsetRangeN294555"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00475"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#475"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00475] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1050,6 +1071,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#489"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00489] For method getTopicPartitionOffsetFromResetPlan arguments String  resetPlanPath"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00489"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#489"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00489] For method getTopicPartitionOffsetFromResetPlan list of called methods Object monObjet|String Utils_readFileAsStringN295041"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1118,6 +1146,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00528"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#528"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00528] For method shiftOffsetsBy list of called methods Object monObjet|Map&lt;TopicPartition,Long&gt; checkOffsetRangeN298200"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00528"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#528"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00528] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1139,6 +1174,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00550"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#550"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00550] For method resetOffsetsTo list of called methods Object monObjet|Map&lt;TopicPartition,Long&gt; checkOffsetRangeN299394"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00550"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#550"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00550] The argument client is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1155,6 +1197,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#570"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00570] For method parseResetPlan arguments String  resetPlanCsv"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00570"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#570"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00570] For method parseResetPlan list of called methods Object monObjet|int Integer_parseIntN300782|long Long_parseLongN300914"
 }} 
 ,
 { "ligne" : {"" : ""

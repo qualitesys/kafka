@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java 39 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java 37 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -280,13 +280,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -375,13 +368,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00101] For method init list of called methods Object monObjet|boolean StreamsConfig_InternalConfig_getBooleanN184103"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#101"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00101] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -461,13 +447,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#160"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00160] For method putIfAbsent arguments Bytes  key|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00160"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/MemoryLRUCache.java.html#160"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00160] For method putIfAbsent list of called methods Object monObjet|byte[] getN186307"
 }} 
 ,
 { "ligne" : {"" : ""

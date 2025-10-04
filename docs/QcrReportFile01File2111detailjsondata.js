@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java 22 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java 18 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -136,13 +136,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
  ] 
 ,
 "data13b" : [
@@ -151,13 +144,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#45"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00045] For method getBaseKey arguments Bytes  indexKey"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#45"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00045] For method getBaseKey list of called methods Object monObjet|byte[] KeyFirstWindowKeySchema_extractStoreKeyBytesN173473|long KeyFirstWindowKeySchema_extractStoreTimestampN173594|int KeyFirstWindowKeySchema_extractStoreSequenceN173715"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -182,13 +168,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00062"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#62"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00062] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN174575"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#67"
  , "c2" : "MINOR"
@@ -200,13 +179,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#72"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00072] For method getIndexKeyValue arguments Bytes  baseKey|byte[]  baseValue"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00072"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#72"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00072] For method getIndexKeyValue list of called methods Object monObjet|byte[] TimeFirstWindowKeySchema_extractStoreKeyBytesN175262|long TimeFirstWindowKeySchema_extractStoreTimestampN175383|int TimeFirstWindowKeySchema_extractStoreSequenceN175504"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -228,13 +200,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#81"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00081] For method getWriteBatches arguments Collection&lt;ConsumerRecord&lt;byte[] ,byte[] &gt; &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBTimeOrderedWindowSegmentedBytesStore.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method getWriteBatches list of called methods Object monObjet|long WindowKeySchema_extractStoreTimestampN176160|long WindowKeySchema_extractStoreTimestampN176653"
 }} 
 ,
 { "ligne" : {"" : ""

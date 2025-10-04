@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 505 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java 457 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -494,35 +494,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "26"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "45"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
 }}
 ,
 { "ligne" : { "" : ""
@@ -551,13 +528,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "53"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "18"
 }}
  ] 
 ,
@@ -630,13 +600,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#202"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00202] For method setFeatureControl arguments FeatureControlManager  featureControl"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00207"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#207"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00207] For method build list of called methods Object monObjet|org.apache.kafka.timeline.SnapshotRegistry configurationControl_snapshotRegistryN509148"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -789,13 +752,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00404"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#404"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00404] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN516222"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00404"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#404"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00404] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -913,13 +869,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00459"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#459"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00459] For method updateReassigningTopicsIfNeeded list of called methods Object monObjet|int[] Replicas_copyWithoutN521230"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00469"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#469"
  , "c2" : "MAJOR"
@@ -931,13 +880,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#477"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00477] For method replay arguments PartitionChangeRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00477"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#477"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00477] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.PartitionRegistration prevPartitionInfo_mergeN522483"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1055,13 +997,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#515"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00515] For method replay list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN525139"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00515"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#515"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00515] The argument record is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1120,13 +1055,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00560] For method createTopics arguments CreateTopicsRequestData  request|Set&lt;String &gt;  describable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#560"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00560] For method createTopics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,java.util.Map&lt;java.lang.String,java.util.Map.Entry&lt;OpType,java.lang.String&gt;&gt;&gt; computeConfigChangesN528357|org.apache.kafka.controller.ControllerResult&lt;java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt;&gt; configurationControl_incrementalAlterConfigsN528545"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1274,13 +1202,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#632"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00632] For method createTopic arguments CreatableTopic  topic|List&lt;ApiMessageAndVersion &gt;  records|Map&lt;String ,CreatableTopicResult &gt;  successes|boolean  authorizedToReturnConfigs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00632"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#632"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00632] For method createTopic list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; translateCreationConfigsN532526|org.apache.kafka.common.requests.ApiError maybeCheckCreateTopicPolicyN538333|org.apache.kafka.common.Uuid Uuid_randomUuidN538696|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.ConfigEntry&gt; configurationControl_computeEffectiveTopicConfigsN539133"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1629,13 +1550,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00775"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#775"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00775] For method validateNewTopicNames list of called methods Object monObjet|java.lang.String Topic_unifyCollisionCharsN542843"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00775"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#775"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00775] The argument topicErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1942,13 +1856,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00921"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#921"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00921] For method alterPartition list of called methods Object monObjet|org.apache.kafka.common.protocol.Errors validateAlterPartitionDataN553924|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN555179|org.apache.kafka.controller.ControllerResult&lt;AlterPartitionResponseData&gt; partition_mergeN555529"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00922"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#922"
  , "c2" : "CRITICAL"
@@ -2208,13 +2115,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01054"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1054"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01054] For method validateAlterPartitionData list of called methods Object monObjet|int[] Replicas_toArrayN559651|java.util.List&lt;org.apache.kafka.controller.ReplicationControlManager.IneligibleReplica&gt; ineligibleReplicasForIsrN561430"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01056"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1056"
  , "c2" : "CRITICAL"
@@ -2380,13 +2280,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1141"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01141] For method ineligibleReplicasForIsr arguments int[]  replicas"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01141"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1141"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01141] For method ineligibleReplicasForIsr list of called methods Object monObjet|org.apache.kafka.metadata.BrokerRegistration clusterControl_registrationN562340"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2588,13 +2481,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01251"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1251"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01251] For method electLeaders list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError electLeaderN568919|org.apache.kafka.common.requests.ApiError electLeaderN569904"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01251"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1251"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01251] The argument request is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2691,13 +2577,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01307"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1307"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01307] For method electLeader list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; builder_buildN572792"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01308"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1308"
  , "c2" : "CRITICAL"
@@ -2761,13 +2640,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01351"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1351"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01351] For method processBrokerHeartbeat list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager clusterControl_heartbeatManagerN573704|org.apache.kafka.controller.BrokerControlStates heartbeatManager_calculateNextBrokerStateN573781"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01352"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1352"
  , "c2" : "CRITICAL"
@@ -2807,13 +2679,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1395"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.controller.ReplicationControlManager.unregisterBroker@POLYN575526 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01398"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1398"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01398] For method maybeFenceOneStaleBroker list of called methods Object monObjet|org.apache.kafka.controller.BrokerHeartbeatManager clusterControl_heartbeatManagerN576442"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3580,13 +3445,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01723"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1723"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01723] For method alterPartitionReassignment list of called methods Object monObjet|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; cancelPartitionReassignmentN595423|java.util.Optional&lt;org.apache.kafka.server.common.ApiMessageAndVersion&gt; changePartitionReassignmentN595571"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01724"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1724"
  , "c2" : "CRITICAL"
@@ -3750,13 +3608,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01808"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1808"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01808] For method changePartitionReassignment list of called methods Object monObjet|java.util.List&lt;java.lang.Integer&gt; Replicas_toListN598443"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01808"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1808"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01808] The argument tp is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3820,13 +3671,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01855"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1855"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01855] For method listReassigningTopic list of called methods Object monObjet|java.util.Optional&lt;OngoingPartitionReassignment&gt; getOngoingPartitionReassignmentN601187"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01855"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1855"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01855] The argument response is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3885,216 +3729,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1931"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01931] In method org.apache.kafka.controller.ReplicationControlManager.IneligibleReplica.toString@POLYN604520 the MagicNumber/String  ')' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN579024"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN548807"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01472"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#1472"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01472] In the recursive method org.apache.kafka.controller.ReplicationControlManager.createPartitions@POLYN579024 the MagicNumber/String 'Unexpected createPartitions error for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00877"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#877"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00877] In the recursive method org.apache.kafka.controller.ReplicationControlManager.deleteTopics@POLYN548807 the MagicNumber/String 'Unexpected deleteTopics error for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00423"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#423"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00423] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00424"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#424"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00424] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String 'Tried to create partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ', but no topic with that ID was found.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00425"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#425"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00425] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00429"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#429"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00429] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00430"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#430"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00430] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String ' with topic ID ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00431"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#431"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00431] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00432"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#432"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00432] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String 'Created partition {} and {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00434"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#434"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00434] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00439"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#439"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00439] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN517295 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#479"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#480"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00480] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String 'Tried to create partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00481"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#481"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String ', but no topic with that ID was found.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00481"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#481"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00481] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00484"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#484"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00484] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#485"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00485] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String 'Tried to create partition ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#486"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00486] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String ', but no partition with that id was found.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00486"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#486"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00486] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String ':' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00495"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00495] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String ' with topic ID ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00495"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#495"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00495] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String '-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#508"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00508"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#508"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00508] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#509"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00509] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String 'Replayed partition assignment change {} for topic {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00511"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/ReplicationControlManager.java.html#511"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00511] In the recursive method org.apache.kafka.controller.ReplicationControlManager.replay@POLYN521586 the MagicNumber/String 'Replayed partition change {} for topic {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

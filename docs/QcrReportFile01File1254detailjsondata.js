@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java 166 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java 162 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -188,13 +188,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "10"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
  ] 
 ,
 "data13b" : [
@@ -217,13 +210,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#46"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00046] For method generateAndWrite arguments MessageSpec  message|BufferedWriter  writer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00046"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#46"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00046] For method generateAndWrite list of called methods Object monObjet|java.util.Iterator&lt;org.apache.kafka.message.StructRegistry.StructInfo&gt; structRegistry_structsN240905"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,13 +280,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#83"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00083] For method generateRead arguments String  className|StructSpec  struct|Versions  parentVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method generateRead list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN243430|java.lang.String String_formatN243640"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -913,13 +892,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00280"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#280"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00280] For method generateWrite list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN257443"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00281"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#281"
  , "c2" : "CRITICAL"
@@ -1197,13 +1169,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#386"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00386] For method generateVariableLengthTargetToJson arguments Target  target|Versions  versions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00386"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/JsonConverterGenerator.java.html#386"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00386] For method generateVariableLengthTargetToJson list of called methods Object monObjet|org.apache.kafka.message.FieldType arrayType_elementTypeN266804|java.lang.String String_formatN266881"
 }} 
 ,
 { "ligne" : {"" : ""

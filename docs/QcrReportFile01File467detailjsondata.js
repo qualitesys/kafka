@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java 68 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java 56 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -233,23 +233,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000003"
@@ -258,24 +242,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -297,13 +267,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "10"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -456,13 +419,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00253"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#253"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00253] For method checkQuotas list of called methods Object monObjet|org.apache.kafka.common.metrics.MetricConfig config_quotaN225855|double metric_measurableValueN226005"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#255"
  , "c2" : "MAJOR"
@@ -530,13 +486,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#290"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00290] For method add arguments CompoundStat  stat|MetricConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00290"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#290"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00290] For method add list of called methods Object monObjet|java.lang.Object metricLockN227712|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN228220"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -631,13 +580,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00328"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#328"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00328] For method add list of called methods Object monObjet|org.apache.kafka.common.metrics.KafkaMetric registry_registerMetricN230048"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#330"
  , "c2" : "MAJOR"
@@ -726,69 +668,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#224"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00224] Public method record is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN224533 ending with method org.apache.kafka.common.metrics.Sensor.record@POLYN224249"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN224533"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.Sensor.record@POLYN224249"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.common.metrics.Sensor.record@POLYN224249 ending with method org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN224533"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.common.metrics.Sensor.record@POLYN224249"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.common.metrics.Sensor.recordInternal@POLYN224533"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.Sensor.checkForest@POLYN221753"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#157"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN221753 the MagicNumber/String ' is its own parent.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00157"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/Sensor.java.html#157"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00157] In the recursive method org.apache.kafka.common.metrics.Sensor.checkForest@POLYN221753 the MagicNumber/String 'Circular dependency in sensors: ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java 29 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -170,35 +170,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -220,13 +197,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "11"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -278,13 +248,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#60"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00060] For method updateCache arguments DelegationToken  token|Map&lt;String ,ScramCredential &gt;  scramCredentialMap"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method updateCache list of called methods Object monObjet|java.lang.String token_hmacAsBase64StringN170609"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -411,27 +374,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#117"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00115] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/token/delegation/internals/DelegationTokenCache.java.html#117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.common.security.token.delegation.internals.DelegationTokenCache.updateCredentials@POLYN172799 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

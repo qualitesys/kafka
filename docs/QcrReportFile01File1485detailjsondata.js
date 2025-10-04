@@ -1514,7 +1514,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method compare list of called methods Object monObjet|int s1_lengthN850148|int s2_lengthN850225|char s1_charAtN850581|char s2_charAtN850677|int Character_toUpperCaseN850841|int Character_toUpperCaseN850934|int Character_toLowerCaseN851098|int Character_toLowerCaseN851191"
+ , "c3" : "QC-JAV000007[00001] For method compare list of called methods Object monObjet|int Character_toUpperCaseN850841|int Character_toUpperCaseN850934|int Character_toLowerCaseN851098|int Character_toLowerCaseN851191"
 }} 
 ,
 { "ligne" : {"" : ""

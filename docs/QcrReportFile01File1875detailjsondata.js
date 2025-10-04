@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 61 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java 58 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -232,13 +232,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "16"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -364,13 +357,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00097] For method adminClientMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; adminClient_metricsN190059"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00097"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#97"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00097] The argument adminClient is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -380,13 +366,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#102"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00102] For method producerMetrics arguments Collection&lt;StreamsProducer &gt;  producers"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method producerMetrics list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.MetricName,? extends Metric&gt; producer_metricsN190611"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -527,13 +506,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00170] For method extractThreadId arguments String  fullThreadName"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00170"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ClientUtils.java.html#170"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00170] For method extractThreadId list of called methods Object monObjet|int fullThreadName_indexOfN193992"
 }} 
 ,
 { "ligne" : {"" : ""

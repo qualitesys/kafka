@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java 65 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java 62 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -141,13 +141,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
 }}
  ] 
 ,
@@ -300,13 +293,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method getName list of called methods Object monObjet|java.lang.String r_applyN181562"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#85"
  , "c2" : "MAJOR"
@@ -414,13 +400,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#129"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00129] For method apply list of called methods Object monObjet|java.lang.String distinguishedName_replaceAllN183853|java.lang.String result_toLowerCaseN184159|java.lang.String result_toUpperCaseN184355"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#129"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00129] The argument distinguishedName is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -451,13 +430,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#154"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00154] For method escapeLiteralBackReferences arguments String  unescaped|int  numCapturingGroups"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00154"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslPrincipalMapper.java.html#154"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00154] For method escapeLiteralBackReferences list of called methods Object monObjet|int Integer_parseIntN185147|java.lang.String sb_toStringN186099"
 }} 
 ,
 { "ligne" : {"" : ""

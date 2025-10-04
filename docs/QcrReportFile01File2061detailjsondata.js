@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java 141 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java 138 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -341,13 +341,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "18"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -356,13 +349,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#105"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00105] For method init arguments ProcessorContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method init list of called methods Object monObjet|org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl ProcessorContextUtils_getMetricsImplN249676|org.apache.kafka.common.metrics.Sensor TaskMetrics_droppedRecordsSensorN249973|boolean StreamsConfig_InternalConfig_getBooleanN250191"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1031,13 +1017,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00509"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#509"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00509] For method hasNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getNextN268128"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00510"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#510"
  , "c2" : "MAJOR"
@@ -1189,13 +1168,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#554"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.streams.state.internals.InMemoryWindowStore.InMemoryWindowStoreIteratorWrapper.close@POLYN269630 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00560"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryWindowStore.java.html#560"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00560] For method getNext list of called methods Object monObjet|Iterator&lt;Map.Entry&lt;Bytes,byte[]&gt;&gt; setRecordIteratorN270055"
 }} 
 ,
 { "ligne" : {"" : ""

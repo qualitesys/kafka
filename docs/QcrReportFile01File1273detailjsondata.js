@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html" 
- , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java 24 rule violations " 
+ , "texte" : "File jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java 21 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -130,23 +130,9 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "17"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method setup list of called methods Object monObjet|org.apache.kafka.common.Uuid Uuid_randomUuidN176691"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#80"
@@ -292,20 +278,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#114"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00114] In method org.apache.kafka.jmh.common.FetchRequestBenchmark.testFetchRequestForReplica@POLYN178953 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method testSerializeFetchRequestForConsumer list of called methods Object monObjet|org.apache.kafka.common.network.Send consumerRequest_toSendN179494"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00128"
- , "c1link" : "./qc/jmh-benchmarks/src/main/java/org/apache/kafka/jmh/common/FetchRequestBenchmark.java.html#128"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method testSerializeFetchRequestForReplica list of called methods Object monObjet|org.apache.kafka.common.network.Send replicaRequest_toSendN179928"
 }} 
 ]
 , 

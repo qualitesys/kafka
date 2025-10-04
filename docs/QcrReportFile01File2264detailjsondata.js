@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java 36 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java 35 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -130,13 +130,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -213,13 +206,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#148"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00148] For method summarize arguments float[]  percentiles"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#148"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00148] For method summarize list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.trogdor.workload.Histogram.PercentileSummary&gt; summarizePercentilesN183865"
 }} 
 ,
 { "ligne" : {"" : ""

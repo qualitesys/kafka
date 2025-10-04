@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 535 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java 518 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -728,26 +728,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.setStreamsConfig@POLYN498171.applicationConfig" }
-,
-{ "ligne" :  "R2:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromAssignment@POLYN586397.partitions" }
-,
-{ "ligne" :  "R3:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromAssignment@POLYN586397.logPrefix" }
-,
-{ "ligne" :  "R4:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromMetadata@POLYN587210.topics" }
-,
-{ "ligne" :  "R5:org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.addSubscribedTopicsFromMetadata@POLYN587210.logPrefix" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -765,13 +745,6 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAVSOLIDL"
  , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
  , "c4" : "2"
@@ -782,13 +755,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "39"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -817,13 +783,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "61"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "15"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2138,24 +2097,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00907"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#907"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00907] For method nodeGroups list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.util.Set&lt;java.lang.String&gt;&gt; makeNodeGroupsN527208"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00908"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#908"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00908] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.nodeGroups@POLYN527061 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00915"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#915"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00915] For method makeNodeGroups list of called methods Object monObjet|int putNodeGroupNameN527875"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2222,13 +2167,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00972"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#972"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00972] For method buildGlobalStateTopology list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; globalNodeGroupsN530292"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00973"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#973"
  , "c2" : "MAJOR"
@@ -2261,13 +2199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#996"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00996] For method build arguments Set&lt;String &gt;  nodeGroup"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00996"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#996"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00996] For method build list of called methods Object monObjet|org.apache.kafka.common.network.Send factory_buildN532558"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2369,13 +2300,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01045"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1045"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01045] For method buildSinkNode list of called methods Object monObjet|java.lang.String decorateTopicN535537"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01046"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1046"
  , "c2" : "CRITICAL"
@@ -2455,13 +2379,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01080"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1080"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01080] For method buildSourceNode list of called methods Object monObjet|java.lang.String decorateTopicN537115"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01080"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1080"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01080] The argument topicSourceMap is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2499,13 +2416,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1101"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01101] For method buildProcessorNode arguments Map&lt;String ,ProcessorNode&lt;? ,? ,? ,? &gt; &gt;  processorMap|Map&lt;String ,StateStore &gt;  stateStoreMap|ProcessorNodeFactory&lt;? ,? ,? ,? &gt;  factory|ProcessorNode&lt;Object ,Object ,Object ,Object &gt;  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01101"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1101"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01101] For method buildProcessorNode list of called methods Object monObjet|java.lang.String ProcessorStateManager_storeChangelogTopicN538996|org.apache.kafka.common.network.Send stateStoreFactory_buildN539322|java.lang.Object globalStateStores_getN539508"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2597,13 +2507,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1173"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[01173] Lock statement on synchronized method subtopologyToTopicsInfo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01173"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1173"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01173] For method subtopologyToTopicsInfo list of called methods Object monObjet|java.util.Map&lt;java.lang.Integer,java.util.Set&lt;java.lang.String&gt;&gt; makeNodeGroupsN541408|java.lang.Object nodeToSourceTopics_getN542246|java.lang.String decorateTopicN542690|org.apache.kafka.streams.processor.internals.RepartitionTopicConfig buildRepartitionTopicConfigN542783"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2821,13 +2724,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1258"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01258] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildRepartitionTopicConfig@POLYN545202 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01262"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1262"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01262] For method setRegexMatchedTopicsToSourceNodes list of called methods Object monObjet|java.util.List&lt;TxnOffsetCommitRequestTopic&gt; sourceNode_getTopicsN546091"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3076,13 +2972,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01426"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1426"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01426] For method initializeSubscription list of called methods Object monObjet|java.lang.String buildSourceTopicsPatternStringN554591|java.util.List&lt;java.lang.String&gt; maybeDecorateInternalSourceTopicsN554749"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01428"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1428"
  , "c2" : "MAJOR"
@@ -3094,13 +2983,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1431"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01431] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.initializeSubscription@POLYN554387 the MagicNumber/String  'No source topics using pattern subscription found, initializing consumer's subscription collection.' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01437"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1437"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01437] For method buildSourceTopicsPatternString list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; maybeDecorateInternalSourceTopicsN554990"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3139,13 +3021,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01465"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1465"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01465] For method fullSourceTopicNames list of called methods Object monObjet|java.util.List&lt;java.lang.String&gt; maybeDecorateInternalSourceTopicsN556254"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01466"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1466"
  , "c2" : "MAJOR"
@@ -3157,13 +3032,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1473"
  , "c2" : "INFO"
  , "c3" : "QC-JAV000019[01473] Lock statement on synchronized method sourceTopicPatternString"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01473"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1473"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01473] For method sourceTopicPatternString list of called methods Object monObjet|java.lang.String buildSourceTopicsPatternStringN556572"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3213,13 +3081,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1503"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01503] In method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.isGlobalSource@POLYN557327 the MagicNumber/String  false should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01506"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1506"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01506] For method describe list of called methods Object monObjet|boolean nodeGroupContainsGlobalSourceNodeN558500"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4280,13 +4141,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02159"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2159"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02159] For method addSubscribedTopicsFromAssignment list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; subscriptionUpdatesN586914"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02175"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#2175"
  , "c2" : "INFO"
@@ -4564,20 +4418,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#740"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00740] Public method validateCopartition is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSinkNode@POLYN534218"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01050"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopologyBuilder.java.html#1050"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01050] In the recursive method org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.buildSinkNode@POLYN534218 the MagicNumber/String 'unchecked' MUST BE CONVERTED to const"
 }} 
 ]
 , 

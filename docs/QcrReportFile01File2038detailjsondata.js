@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java 115 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java 103 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -248,13 +248,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -271,13 +264,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00076"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#76"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00076] For method init list of called methods Object monObjet|java.lang.String ProcessorContextUtils_changelogForN243097"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#83"
  , "c2" : "MINOR"
@@ -285,24 +271,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00083"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#83"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00083] For method init list of called methods Object monObjet|java.lang.String ProcessorContextUtils_changelogForN243577"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#89"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00089] For method initInternal arguments InternalProcessorContext&lt;? ,? &gt;  context|String  changelogTopic"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00089"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#89"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00089] For method initInternal list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId context_taskIdN244310"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,13 +296,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#104"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00104] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;? ,? &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#104"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00104] For method putAndMaybeForward list of called methods Object monObjet|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; WindowKeySchema_fromStoreBytesKeyN245028|byte[] entry_newValueN245414|byte[] context_recordContextN246738"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -418,13 +383,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00156"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#156"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00156] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes WindowKeySchema_toStoreKeyBinaryN247711"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#163"
  , "c2" : "MAJOR"
@@ -443,13 +401,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#179"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00179] For method fetch arguments Bytes  key|long  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00179"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#179"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00179] For method fetch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes WindowKeySchema_toStoreKeyBinaryN248727|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN248874"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -485,13 +436,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#196"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00196] For method fetch arguments Bytes  key|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00196"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#196"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00196] For method fetch list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN250695"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -537,13 +481,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00224"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#224"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00224] For method backwardFetch list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN252305"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#232"
  , "c2" : "MAJOR"
@@ -576,13 +513,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#252"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00252] For method fetch arguments Bytes  keyFrom|Bytes  keyTo|long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method fetch list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN254601"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -698,13 +628,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00297"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#297"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00297] For method backwardFetch list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN256939"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#301"
  , "c2" : "MAJOR"
@@ -810,13 +733,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00341"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#341"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00341] For method fetchAll list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN258050"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#348"
  , "c2" : "MAJOR"
@@ -849,13 +765,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#362"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00362] For method backwardFetchAll arguments long  timeFrom|long  timeTo"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00362"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingWindowStore.java.html#362"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00362] For method backwardFetchAll list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN259165"
 }} 
 ,
 { "ligne" : {"" : ""

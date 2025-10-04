@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 615 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java 607 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -548,13 +548,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "49"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "8"
-}}
  ] 
 ,
 "data13b" : [
@@ -584,13 +577,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#57"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00057] For method generate arguments MessageSpec  message"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00057"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#57"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00057] For method generate list of called methods Object monObjet|org.apache.kafka.message.Versions message_flexibleVersionsN426630"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -633,13 +619,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#77"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00077] For method generateClass arguments Optional&lt;MessageSpec &gt;  topLevelMessageSpec|String  className|StructSpec  struct|Versions  parentVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method generateClass list of called methods Object monObjet|boolean struct_hasKeysN427560|java.util.Iterator&lt;org.apache.kafka.message.StructSpec&gt; structRegistry_commonStructsN431120"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1646,13 +1625,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#408"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00408] For method generateClassReader list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN447566"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00408"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#408"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00408] The argument struct is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2043,13 +2015,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00561"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#561"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00561] For method generateVariableLengthReader list of called methods Object monObjet|boolean type_isArrayN455754"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#563"
  , "c2" : "CRITICAL"
@@ -2320,13 +2285,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#664"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00664] For method generateClassWriter arguments String  className|StructSpec  struct|Versions  parentVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00664"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#664"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00664] For method generateClassWriter list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN462499"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2848,13 +2806,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00870"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#870"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00870] For method generateVariableLengthWriter list of called methods Object monObjet|java.lang.String String_formatN475928|java.lang.String String_formatN476064|java.lang.String String_formatN476253|java.lang.String String_formatN476439|java.lang.String String_formatN478170"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00872"
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#872"
  , "c2" : "CRITICAL"
@@ -3041,13 +2992,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#978"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00978] For method generateClassMessageSize arguments String  className|StructSpec  struct|Versions  parentVersions"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00978"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#978"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00978] For method generateClassMessageSize list of called methods Object monObjet|org.apache.kafka.message.Versions parentVersions_intersectN480315"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4224,13 +4168,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1429"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01429] For method generateFieldDuplicate arguments Target  target"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01429"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/MessageDataGenerator.java.html#1429"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01429] For method generateFieldDuplicate list of called methods Object monObjet|org.apache.kafka.message.FieldSpec target_fieldN505192|java.lang.String String_formatN508812|java.lang.String field_concreteJavaTypeN508952"
 }} 
 ,
 { "ligne" : {"" : ""

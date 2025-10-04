@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 22 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/AclsDelta.java 21 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -176,13 +176,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -205,13 +198,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#69"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00069] For method replay arguments AccessControlEntryRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/AclsDelta.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.authorizer.StandardAclWithId StandardAclWithId_fromRecordN172524"
 }} 
 ,
 { "ligne" : {"" : ""

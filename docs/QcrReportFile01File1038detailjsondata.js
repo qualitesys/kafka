@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java 6 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java 3 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -182,13 +182,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -200,31 +193,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method serializeValue list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct valueStructN168871"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00078"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#78"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00078] For method serializeKey list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct keyStructN169301"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#86"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00086] For method deserializeRecord arguments ConsumerRecord&lt;byte[] ,byte[] &gt;  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00086"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#86"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00086] For method deserializeRecord list of called methods Object monObjet|org.apache.kafka.common.protocol.types.Struct KEY_SCHEMA_readN169812|java.lang.String keyStruct_getStringN169967|java.lang.Integer keyStruct_getIntN170063|org.apache.kafka.common.protocol.types.Struct VALUE_SCHEMA_readN170159|java.lang.Long valueStruct_getLongN170314|java.lang.Long valueStruct_getLongN170410"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java 22 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java 20 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -121,13 +121,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "6"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -136,13 +129,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00055] For method validateScopes arguments String  scopeClaimName|Collection&lt;String &gt;  scopes"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00055"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#55"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00055] For method validateScopes list of called methods Object monObjet|java.lang.String validateStringN184249"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -248,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#167"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00167] For method validateString arguments String  name|String  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00167"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/ClaimValidationUtils.java.html#167"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00167] For method validateString list of called methods Object monObjet|java.lang.String value_trimN188396"
 }} 
 ,
 { "ligne" : {"" : ""

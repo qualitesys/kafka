@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java 106 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java 104 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -475,13 +475,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "19"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -768,13 +761,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00360"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#360"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00360] For method writeCompressedRecordHeader list of called methods Object monObjet|long crc32N253807"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00360"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#360"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00360] The argument buffer is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -812,13 +798,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#419"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00419] For method write arguments DataOutputStream  out|byte  magic|long  timestamp|ByteBuffer  key|ByteBuffer  value|CompressionType  compressionType|TimestampType  timestampType"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00419"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/LegacyRecord.java.html#419"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00419] For method write list of called methods Object monObjet|byte computeAttributesN255878|long computeChecksumN256010"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html" 
- , "texte" : "File examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java 47 rule violations " 
+ , "texte" : "File examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java 49 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -108,6 +108,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -116,6 +123,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#78"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00078] For method main arguments String[]  args"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00078"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#78"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00078] For method main list of called methods Object monObjet|int Integer_parseIntN185667|int Integer_parseIntN185794|int Integer_parseIntN185921"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -291,6 +305,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#128"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00128] For method recreateTopics arguments int  numPartitions"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00128"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#128"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00128] For method recreateTopics list of called methods Object monObjet|Admin Admin_createN188434"
 }} 
 ,
 { "ligne" : {"" : ""

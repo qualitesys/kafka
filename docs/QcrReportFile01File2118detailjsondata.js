@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java 5 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java 4 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -117,13 +117,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -144,13 +137,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#54"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.streams.state.internals.RocksDbIterator.hasNext@POLYN163345 the MagicNumber/String  'RocksDB iterator for store %s has closed' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00060"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDbIterator.java.html#60"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00060] For method makeNext list of called methods Object monObjet|KeyValue&lt;Bytes,byte[]&gt; getKeyValueN163917"
 }} 
 ,
 { "ligne" : {"" : ""

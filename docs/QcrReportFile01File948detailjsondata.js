@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html" 
- , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 54 rule violations " 
+ , "texte" : "File connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java 51 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -160,13 +160,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "3"
-}}
  ] 
 ,
 "data13b" : [
@@ -252,13 +245,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00102] For method projectStruct arguments Schema  source|Struct  sourceStruct|Schema  target"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#102"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00102] For method projectStruct list of called methods Object monObjet|java.lang.String targetField_nameN188743|java.lang.Object source_fieldN188820|java.lang.Object sourceStruct_getN188989"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -460,13 +446,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00146"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#146"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00146] For method projectMap list of called methods Object monObjet|java.lang.Object projectN192604|java.lang.Object projectN192776"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#146"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00146] The argument source is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -511,13 +490,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#159"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00159] For method projectPrimitive arguments Schema  source|Object  record|Schema  target"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00159"
- , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/SchemaProjector.java.html#159"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00159] For method projectPrimitive list of called methods Object monObjet|byte numberRecord_byteValueN193749|short numberRecord_shortValueN193872"
 }} 
 ,
 { "ligne" : {"" : ""

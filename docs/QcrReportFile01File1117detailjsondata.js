@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html" 
- , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java 38 rule violations " 
+ , "texte" : "File connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -135,35 +135,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -186,13 +163,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "7"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -201,13 +171,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#77"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00077] For method createAndSetup arguments Map&lt;String ,Object &gt;  adminProps|ConnectorTaskId  id|SinkConnectorConfig  sinkConfig|Map&lt;String ,Object &gt;  producerProps|ErrorHandlingMetrics  errorHandlingMetrics"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method createAndSetup list of called methods Object monObjet|java.lang.String sinkConfig_dlqTopicNameN193524"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -313,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#161"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00161] For method populateContextHeaders arguments ProducerRecord&lt;byte[] ,byte[] &gt;  producerRecord|ProcessingContext  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00161"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#161"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00161] For method populateContextHeaders list of called methods Object monObjet|byte[] stacktraceN199982"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -432,34 +388,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#208"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.toBytes@POLYN201277 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200209"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00186] In the recursive method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200209 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00191"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#191"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00191] In the recursive method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200209 the MagicNumber/String 'Could not serialize stacktrace.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00193"
- , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/DeadLetterQueueReporter.java.html#193"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00193] In the recursive method org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter.stacktrace@POLYN200209 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

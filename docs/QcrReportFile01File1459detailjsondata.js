@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.ObjectInputStream.java.html" 
- , "texte" : "File secujava/java.io.ObjectInputStream.java 694 rule violations " 
+ , "texte" : "File secujava/java.io.ObjectInputStream.java 652 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -657,96 +657,6 @@ var maDataBlocs = {
  , "secu3" : "Ok"
  , "secu4" : "Ok"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1459Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1459&numSeq=3"
- , "c2" : "3"
- , "c3" : "3"
- , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN897539.b" , "java.io.InputStream.read@POLYN257278.b"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1459Seq4.html#seq4"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1459&numSeq=4"
- , "c2" : "4"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.b" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.b"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1459Seq5.html#seq5"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1459&numSeq=5"
- , "c2" : "5"
- , "c3" : "3"
- , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN897539.len" , "java.io.InputStream.read@POLYN257278.len"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1459Seq6.html#seq6"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1459&numSeq=6"
- , "c2" : "6"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.len" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.len"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1459Seq7.html#seq7"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1459&numSeq=7"
- , "c2" : "7"
- , "c3" : "3"
- , "c4" : "1"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN897539.off" , "java.io.InputStream.read@POLYN257278.off"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1459Seq8.html#seq8"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1459&numSeq=8"
- , "c2" : "8"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.off" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.off"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
 ]
 ,
 "data09b" : [
@@ -861,342 +771,6 @@ var maDataBlocs = {
 }}
 ]
 }}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[02943]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN897539.b" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.b"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[03037]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN884623" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.b"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.b" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.read@POLYN257278.b"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN884623[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "4" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.b" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN884623" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.b"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.b" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.read@POLYN257278.b"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN884623[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00917]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN816062.buf" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.b"]
- , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN816062[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "5" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[02943]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN897539.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.len"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[03037]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN884623" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.len"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.len" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.read@POLYN257278.len"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN884623[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "6" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.len" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN884623" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.len"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.len" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.read@POLYN257278.len"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN884623[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00917]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN816062.len" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.len"]
- , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN816062[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "7" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[02943]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN897539.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.off"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[03037]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN884623" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.off"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.off" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.read@POLYN257278.off"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN884623[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "8" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.off" , "---java.io.ObjectInputStream.PeekInputStream.read@POLYN884623" , "java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.off"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[02620]"
- , "c3" : ["java.io.ObjectInputStream.PeekInputStream.read@POLYN884623.off" , "---java.io.InputStream.read@POLYN257278" , "java.io.InputStream.read@POLYN257278.off"]
- , "c4" : "//QC-JAVCWZ099[02620] In java.io.ObjectInputStream.PeekInputStream.read@POLYN884623[02620] source data PATHtainted (java.io.InputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00917]"
- , "c3" : ["java.io.ObjectInputStream.read@POLYN816062.off" , "---java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024" , "java.io.ObjectInputStream.BlockDataInputStream.read@POLYN901024.off"]
- , "c4" : "//QC-JAVCWZ099[00917] In java.io.ObjectInputStream.read@POLYN816062[00917] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
 ]
 , 
 "data10" : [
@@ -1217,13 +791,6 @@ var maDataBlocs = {
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999993"
  , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
  , "c4" : "1"
@@ -1240,7 +807,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1282,7 +849,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "48"
+ , "c4" : "11"
 }}
  ] 
 ,
@@ -1521,13 +1088,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00672"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#672"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00672] For method resolveClass list of called methods Object monObjet|java.lang.String desc_getNameN807527"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00672"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#672"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00672] The argument desc is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1649,13 +1209,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#832"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00832] In method java.io.ObjectInputStream.enableResolveObject@POLYN813258 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00850"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#850"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00850] For method readStreamHeader list of called methods Object monObjet|short bin_readShortN814159|short bin_readShortN814236"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2030,13 +1583,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01483"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1483"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01483] For method readObject0 list of called methods Object monObjet|boolean bin_getBlockDataModeN836007|int bin_currentBlockRemainingN836133|byte bin_peekByteN836766"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01502"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1502"
  , "c2" : "MAJOR"
@@ -2177,13 +1723,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01642"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1642"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01642] For method readHandle list of called methods Object monObjet|int bin_readIntN842067"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01647"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1647"
  , "c2" : "MAJOR"
@@ -2236,7 +1775,7 @@ var maDataBlocs = {
  , "c1" : "01674"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1674"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01674] For method readClass list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN843370|int handles_assignN843549"
+ , "c3" : "QC-JAV000007[01674] For method readClass list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN843370"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2264,7 +1803,7 @@ var maDataBlocs = {
  , "c1" : "01697"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1697"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01697] For method readClassDesc list of called methods Object monObjet|byte bin_peekByteN844299|java.io.ObjectStreamClass readProxyDescN844771|java.io.ObjectStreamClass readNonProxyDescN844905"
+ , "c3" : "QC-JAV000007[01697] For method readClassDesc list of called methods Object monObjet|java.io.ObjectStreamClass readProxyDescN844771|java.io.ObjectStreamClass readNonProxyDescN844905"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2286,13 +1825,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1737"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01737] For method readProxyDesc arguments boolean  unshared"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01737"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1737"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01737] For method readProxyDesc list of called methods Object monObjet|int handles_assignN845988|int bin_readIntN846182|java.lang.String bin_readUTFN846545"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2383,7 +1915,7 @@ var maDataBlocs = {
  , "c1" : "01802"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1802"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01802] For method readNonProxyDesc list of called methods Object monObjet|int handles_assignN848830|boolean isCustomSubclassN849559"
+ , "c3" : "QC-JAV000007[01802] For method readNonProxyDesc list of called methods Object monObjet|boolean isCustomSubclassN849559"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2464,13 +1996,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01858"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1858"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01858] For method readString list of called methods Object monObjet|byte bin_readByteN850922|java.lang.String bin_readUTFN851076|java.lang.String bin_readLongUTFN851199|int handles_assignN851438"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01872"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1872"
  , "c2" : "MAJOR"
@@ -2488,7 +2013,7 @@ var maDataBlocs = {
  , "c1" : "01883"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1883"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01883] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN852010|int bin_readIntN852100|int handles_assignN852756|java.lang.Object readObject0N855673"
+ , "c3" : "QC-JAV000007[01883] For method readArray list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN852010|java.lang.Object readObject0N855673"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2642,7 +2167,7 @@ var maDataBlocs = {
  , "c1" : "01947"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1947"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01947] For method readEnum list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN856366|int handles_assignN856632|java.lang.String readStringN857020"
+ , "c3" : "QC-JAV000007[01947] For method readEnum list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN856366|java.lang.String readStringN857020"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2726,7 +2251,7 @@ var maDataBlocs = {
  , "c1" : "01993"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1993"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01993] For method readOrdinaryObject list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN858630|int handles_assignN859558|java.lang.Object cloneArrayN860699"
+ , "c3" : "QC-JAV000007[01993] For method readOrdinaryObject list of called methods Object monObjet|java.io.ObjectStreamClass readClassDescN858630|java.lang.Object cloneArrayN860699"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3199,13 +2724,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02346"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2346"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02346] For method get list of called methods Object monObjet|int getFieldOffsetN872898"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02348"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2348"
  , "c2" : "MAJOR"
@@ -3217,13 +2735,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2351"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02351] For method get arguments String  name|byte  val"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02351"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2351"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02351] For method get list of called methods Object monObjet|int getFieldOffsetN873312"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3241,13 +2752,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02356"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2356"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02356] For method get list of called methods Object monObjet|int getFieldOffsetN873694"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02358"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2358"
  , "c2" : "MAJOR"
@@ -3259,13 +2763,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2361"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02361] For method get arguments String  name|short  val"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02361"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2361"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02361] For method get list of called methods Object monObjet|int getFieldOffsetN874108"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3283,13 +2780,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02366"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02366] For method get list of called methods Object monObjet|int getFieldOffsetN874522"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02368"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2368"
  , "c2" : "MAJOR"
@@ -3301,13 +2791,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2371"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02371] For method get arguments String  name|float  val"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02371"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2371"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02371] For method get list of called methods Object monObjet|int getFieldOffsetN874936"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3325,13 +2808,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02376"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2376"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02376] For method get list of called methods Object monObjet|int getFieldOffsetN875350"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02378"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2378"
  , "c2" : "MAJOR"
@@ -3346,13 +2822,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02381"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2381"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02381] For method get list of called methods Object monObjet|int getFieldOffsetN875764"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02383"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2383"
  , "c2" : "MAJOR"
@@ -3364,13 +2833,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2386"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02386] For method get arguments String  name|Object  val"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02386"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2386"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02386] For method get list of called methods Object monObjet|int getFieldOffsetN876178"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3556,13 +3018,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02594"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2594"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02594] For method peek list of called methods Object monObjet|int in_readN883860"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02595"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2595"
  , "c2" : "MAJOR"
@@ -3588,13 +3043,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2599"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02599] In method java.io.ObjectInputStream.PeekInputStream.peek@POLYN883665 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02603"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2603"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02603] For method read list of called methods Object monObjet|int in_readN884408"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3637,13 +3085,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2615"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02615] For method read arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02615"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2615"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02615] For method read list of called methods Object monObjet|int in_readN884999|int in_readN885521"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3728,13 +3169,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2633"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02633] For method readFully arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02633"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2633"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02633] For method readFully list of called methods Object monObjet|int readN886215"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4116,13 +3550,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02914"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2914"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02914] For method peekByte list of called methods Object monObjet|int peekN896659"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02916"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2916"
  , "c2" : "MAJOR"
@@ -4172,13 +3599,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "02946"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2946"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02946] For method skip list of called methods Object monObjet|int in_readN898757"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "02961"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2961"
  , "c2" : "MAJOR"
@@ -4211,13 +3631,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2961"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[02961] In method java.io.ObjectInputStream.BlockDataInputStream.skip@POLYN897814 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02970"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#2970"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02970] For method available list of called methods Object monObjet|int readBlockHeaderN899397"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4340,13 +3753,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03016"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3016"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03016] For method read list of called methods Object monObjet|int in_readN902046"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03017"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3017"
  , "c2" : "MAJOR"
@@ -4438,13 +3844,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03057"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3057"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03057] For method readFully list of called methods Object monObjet|int readN903504"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03060"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3060"
  , "c2" : "MAJOR"
@@ -4466,13 +3865,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03074"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3074"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03074] For method readBoolean list of called methods Object monObjet|int readN904121"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03076"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3076"
  , "c2" : "MAJOR"
@@ -4487,24 +3879,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03082"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3082"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03082] For method readByte list of called methods Object monObjet|int readN904462"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03084"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3084"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[03084] In method java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN904373 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03090"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3090"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03090] For method readUnsignedByte list of called methods Object monObjet|int readN904776"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4774,13 +4152,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03199"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3199"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03199] For method readBooleans list of called methods Object monObjet|boolean din_readBooleanN910930"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03204"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3204"
  , "c2" : "MAJOR"
@@ -4806,13 +4177,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3220"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03220] For method readChars arguments char[]  v|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03220"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3220"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03220] For method readChars list of called methods Object monObjet|char din_readCharN912342"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4872,13 +4236,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03242"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3242"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03242] For method readShorts list of called methods Object monObjet|short din_readShortN913873"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03246"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3246"
  , "c2" : "MAJOR"
@@ -4932,13 +4289,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3264"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03264] For method readInts arguments int[]  v|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03264"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3264"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03264] For method readInts list of called methods Object monObjet|int din_readIntN915404"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4998,13 +4348,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03286"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3286"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03286] For method readFloats list of called methods Object monObjet|float din_readFloatN916856"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03290"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3290"
  , "c2" : "MAJOR"
@@ -5058,13 +4401,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3306"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03306] For method readLongs arguments long[]  v|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03306"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3306"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03306] For method readLongs list of called methods Object monObjet|long din_readLongN918391"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5124,13 +4460,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03328"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3328"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03328] For method readDoubles list of called methods Object monObjet|double din_readDoubleN919843"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03332"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3332"
  , "c2" : "MAJOR"
@@ -5184,13 +4513,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3362"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03362] For method readUTFBody arguments long  utflen"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03362"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3362"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03362] For method readUTFBody list of called methods Object monObjet|long readUTFSpanN921490|int readUTFCharN921665"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5518,13 +4840,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "03474"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3474"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03474] For method readUTFChar list of called methods Object monObjet|byte readByteN926878|byte readByteN927660|byte readByteN928538|byte readByteN928604"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03474"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3474"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[03474] The argument sbuf is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -5810,13 +5125,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03662"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3662"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03662] For method markException list of called methods Object monObjet|int dlist_sizeN934306"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03670"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#3670"
  , "c2" : "MAJOR"
@@ -6099,43 +5407,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.skipBytes@POLYN821716 ending with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN903873"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipBytes@POLYN821716"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN903873"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN903873 ending with method java.io.ObjectInputStream.skipBytes@POLYN821716"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.BlockDataInputStream.skipBytes@POLYN903873"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.ObjectInputStream.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipBytes@POLYN821716"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.skipBytes@POLYN821716"
 }} 
 ,
 { "ligne" : {"" : ""

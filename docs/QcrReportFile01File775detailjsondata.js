@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java 104 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java 99 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -217,13 +217,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -242,22 +235,8 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#85"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00085] For method configure list of called methods Object monObjet|java.lang.String getServiceNameN206528"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00085"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#85"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00085] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00100"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#100"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00100] For method login list of called methods Object monObjet|long currentElapsedTimeN206865|boolean val_equalsN207906|KerberosTicket getTGTN209052|long currentWallTimeN209121|long getRefreshTimeN209626"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -711,13 +690,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#288"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00288] For method getServiceName list of called methods Object monObjet|java.lang.String JaasContext_configEntryOptionN216158|java.lang.String String_formatN216620"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00288"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#288"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00288] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -856,13 +828,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00335"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#335"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00335] For method hasSufficientTimeElapsed list of called methods Object monObjet|long currentElapsedTimeN218960"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#338"
  , "c2" : "MAJOR"
@@ -888,13 +853,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#342"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.security.kerberos.KerberosLogin.hasSufficientTimeElapsed@POLYN218883 the MagicNumber/String  true should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/kerberos/KerberosLogin.java.html#349"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00349] For method reLogin list of called methods Object monObjet|long currentElapsedTimeN219978"
 }} 
 ,
 { "ligne" : {"" : ""

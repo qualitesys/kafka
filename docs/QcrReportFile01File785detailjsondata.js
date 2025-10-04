@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java 39 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java 38 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -162,13 +162,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -303,13 +296,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#111"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN186057 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method toBytes list of called methods Object monObjet|boolean authorizationId_isEmptyN186939|java.lang.String extensionsMessageN187164|java.lang.String String_formatN187387"
 }} 
 ,
 { "ligne" : {"" : ""

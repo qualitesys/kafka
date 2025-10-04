@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html" 
- , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java 37 rule violations " 
+ , "texte" : "File connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java 36 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -191,13 +191,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -353,13 +346,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#77"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00077] For method decodeTopicPartition arguments String  topicPartitionString"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00077"
- , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/MirrorUtils.java.html#77"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00077] For method decodeTopicPartition list of called methods Object monObjet|java.lang.String topicPartitionString_substringN171379|java.lang.String topicPartitionString_substringN171499|int Integer_parseIntN171619"
 }} 
 ,
 { "ligne" : {"" : ""

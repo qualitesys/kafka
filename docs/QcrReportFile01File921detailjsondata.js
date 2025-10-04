@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 293 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/utils/Utils.java 288 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -654,13 +654,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "60"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
 }}
  ] 
 ,
@@ -1583,13 +1576,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00564"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#564"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00564] For method formatBytes list of called methods Object monObjet|java.lang.String TWO_DIGIT_FORMAT_formatN443297"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00565"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#565"
  , "c2" : "MAJOR"
@@ -1643,13 +1629,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#636"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00636] For method parseMap arguments String  mapStr|String  keyValueSeparator|String  elementSeparator"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00636"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#636"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00636] For method parseMap list of called methods Object monObjet|java.lang.String[] mapStr_splitN446669|java.lang.String[] attrval_splitN446845"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2166,13 +2145,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01110] For method readFully list of called methods Object monObjet|int channel_readN466972"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1110"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01110] The argument channel is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2210,13 +2182,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1131"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01131] For method readFully arguments InputStream  inputStream|ByteBuffer  destinationBuffer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01131"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1131"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01131] For method readFully list of called methods Object monObjet|int inputStream_readN468119"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2560,13 +2525,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1369"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01369] For method getDateTime arguments String  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01369"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/Utils.java.html#1369"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01369] For method getDateTime list of called methods Object monObjet|java.lang.String[] timestamp_splitN481412"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java 70 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java 65 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -172,23 +172,9 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "8"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
-}}
  ] 
 ,
 "data13b" : [
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method retrieve list of called methods Object monObjet|java.lang.String formatAuthorizationHeaderN207089|java.lang.String formatRequestBodyN207199"
-}} 
-,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#160"
@@ -437,13 +423,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00275"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#275"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00275] For method copy list of called methods Object monObjet|int is_readN213947"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00275"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#275"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00275] The argument is is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -488,13 +467,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#283"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00283] For method parseAccessToken arguments String  responseBody"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00283"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#283"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00283] For method parseAccessToken list of called methods Object monObjet|int responseBody_lengthN214865|java.lang.String responseBody_substringN214942|java.lang.String String_formatN215059"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -558,13 +530,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#306"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00306] For method formatAuthorizationHeader arguments String  clientId|String  clientSecret"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00306"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#306"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00306] For method formatAuthorizationHeader list of called methods Object monObjet|java.lang.String sanitizeStringN215568|java.lang.String sanitizeStringN215677|java.lang.String String_formatN215789"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -635,13 +600,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#333"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00333] For method sanitizeString arguments String  name|String  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#333"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00333] For method sanitizeString list of called methods Object monObjet|java.lang.String value_trimN217662"
 }} 
 ,
 { "ligne" : {"" : ""

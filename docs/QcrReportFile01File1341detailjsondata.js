@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java 74 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java 73 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -421,13 +421,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "17"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -660,13 +653,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#294"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00294] For method replay arguments RemoveAccessControlEntryRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00312"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/MetadataDelta.java.html#312"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00312] For method apply list of called methods Object monObjet|org.apache.kafka.image.MetadataImage featuresDelta_applyN209737|org.apache.kafka.image.MetadataImage image_clusterN209918|org.apache.kafka.image.MetadataImage clusterDelta_applyN210011|org.apache.kafka.image.MetadataImage image_topicsN210192|org.apache.kafka.image.MetadataImage topicsDelta_applyN210285|org.apache.kafka.image.MetadataImage image_configsN210466|org.apache.kafka.image.MetadataImage configsDelta_applyN210559|org.apache.kafka.image.MetadataImage image_clientQuotasN210740|org.apache.kafka.image.MetadataImage clientQuotasDelta_applyN210833|org.apache.kafka.image.MetadataImage image_producerIdsN211014|org.apache.kafka.image.MetadataImage producerIdsDelta_applyN211107|org.apache.kafka.image.MetadataImage image_aclsN211288|org.apache.kafka.image.MetadataImage aclsDelta_applyN211381"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -129,13 +129,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -186,13 +179,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#98"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00098] For method getErrorResponse arguments int  throttleTimeMs|Throwable  throwable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#98"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00098] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN172989"
 }} 
 ,
 { "ligne" : {"" : ""

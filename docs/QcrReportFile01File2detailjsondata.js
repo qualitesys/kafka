@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ApiVersions.java 11 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ApiVersions.java 9 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -121,13 +121,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -153,13 +146,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#38"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00038] For method update list of called methods Object monObjet|byte computeMaxUsableProduceMagicN160499"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#38"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00038] The argument nodeApiVersions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -176,13 +162,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#43"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00043] For method remove arguments String  nodeId"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ApiVersions.java.html#43"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00043] For method remove list of called methods Object monObjet|byte computeMaxUsableProduceMagicN160724"
 }} 
 ,
 { "ligne" : {"" : ""

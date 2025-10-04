@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java 30 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java 25 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -117,30 +117,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000001"
@@ -160,13 +137,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -214,13 +184,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00069"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#69"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00069] For method stats list of called methods Object monObjet|double percentile_percentileN173631"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#75"
  , "c2" : "MAJOR"
@@ -232,13 +195,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#81"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00081] For method value arguments MetricConfig  config|long  now|double  quantile"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#81"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00081] For method value list of called methods Object monObjet|float[] sample_histogram_countsN174997"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -358,27 +314,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#140"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00140] For method reset arguments long  now"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN175806"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00116"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#116"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00116] In the recursive method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN175806 the MagicNumber/String 'Received value {} which is greater than max recordable value {}, will be pinned to the max value' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#120"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00120] In the recursive method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN175806 the MagicNumber/String 'Received value {} which is less than min recordable value {}, will be pinned to the min value' MUST BE CONVERTED to const"
 }} 
 ]
 , 

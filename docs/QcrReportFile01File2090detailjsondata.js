@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java 319 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java 308 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -254,13 +254,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "22"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "11"
-}}
  ] 
 ,
 "data13b" : [
@@ -288,13 +281,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00480"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#480"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00480] For method hash32 list of called methods Object monObjet|long Long_reverseBytesN244241|int mix32N244334|int mix32N244460"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#480"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00480] In method org.apache.kafka.streams.state.internals.Murmur3.hash32@POLYN244055 the MagicNumber/String  32 should be converted to const"
 }} 
@@ -304,13 +290,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#480"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00480] For method hash32 arguments long  l0|long  l1|int  seed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00480"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#480"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00480] For method hash32 list of called methods Object monObjet|long Long_reverseBytesN244959|long Long_reverseBytesN245060|int mix32N245153|int mix32N245279|int mix32N245451|int mix32N245599"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -381,13 +360,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method hash32 arguments byte[]  data|int  offset|int  length|int  seed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash32 list of called methods Object monObjet|int mix32N248429|int Integer_rotateLeftN249322"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -576,13 +548,6 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method mix32 list of called methods Object monObjet|int Integer_rotateLeftN249793"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method fmix32 arguments int  length|int  hash"
 }} 
 ,
@@ -646,21 +611,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long Long_reverseBytesN251252|long Long_rotateLeftN251464|long Long_rotateLeftN251687|long fmix64N251900"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method hash64 arguments int  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|int Integer_reverseBytesN252101|long Long_rotateLeftN252449|long fmix64N252726"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -682,13 +633,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method hash64 arguments short  data"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long Long_rotateLeftN253448|long fmix64N253733"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -745,13 +689,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method hash64 arguments byte[]  data|int  offset|int  length|int  seed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash64 list of called methods Object monObjet|long Long_rotateLeftN256545|long Long_rotateLeftN256768|long Long_rotateLeftN258928|long fmix64N259208"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1193,13 +1130,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method hash128 arguments byte[]  data|int  offset|int  length|int  seed"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method hash128 list of called methods Object monObjet|long Long_rotateLeftN263809|long Long_rotateLeftN264032|long Long_rotateLeftN264353|long Long_rotateLeftN264576|long Long_rotateLeftN266927|long Long_rotateLeftN269196|long fmix64N269638|long fmix64N269723"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2129,13 +2059,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method add list of called methods Object monObjet|int Integer_rotateLeftN273105|int Integer_rotateLeftN273328|int Integer_rotateLeftN274391|int Integer_rotateLeftN274614"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN270981 the MagicNumber/String  0 should be converted to const"
 }} 
@@ -2313,13 +2236,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00001] In method org.apache.kafka.streams.state.internals.Murmur3.IncrementalHash32.add@POLYN270981 the MagicNumber/String  0 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/Murmur3.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method end list of called methods Object monObjet|int Integer_rotateLeftN275838"
 }} 
 ,
 { "ligne" : {"" : ""

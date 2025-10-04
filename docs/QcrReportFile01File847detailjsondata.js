@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 179 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java 175 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -224,13 +224,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "19"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
  ] 
 ,
 "data13b" : [
@@ -344,13 +337,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#132"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00132] For method configure arguments Map&lt;String ,? &gt;  configs"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00132"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#132"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00132] For method configure list of called methods Object monObjet|java.security.SecureRandom createSecureRandomN249277|org.apache.kafka.common.config.SslClientAuth createSslClientAuthN249438|org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.SecurityStore createKeystoreN249859|org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.SecurityStore createTruststoreN250460|SSLContext createSSLContextN250885"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1026,13 +1012,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00388"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#388"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00388] For method modified list of called methods Object monObjet|java.lang.Long lastModifiedMsN262851"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00390"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#390"
  , "c2" : "MAJOR"
@@ -1250,13 +1229,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00485"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#485"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00485] For method certs list of called methods Object monObjet|List&lt;byte[]&gt; CERTIFICATE_PARSER_pemEntriesN268008"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#488"
  , "c2" : "MAJOR"
@@ -1282,13 +1254,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#498"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00498] For method privateKey arguments String  pem|char[]  keyPassword"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00498"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/DefaultSslEngineFactory.java.html#498"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00498] For method privateKey list of called methods Object monObjet|List&lt;byte[]&gt; PRIVATE_KEY_PARSER_pemEntriesN268940"
 }} 
 ,
 { "ligne" : {"" : ""

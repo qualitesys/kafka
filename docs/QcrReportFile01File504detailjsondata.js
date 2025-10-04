@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java 31 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java 30 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -201,13 +201,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "1"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -272,13 +265,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#92"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00092] For method readFrom arguments ScatteringByteChannel  channel"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00092"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/network/NetworkReceive.java.html#92"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00092] For method readFrom list of called methods Object monObjet|int channel_readN174521|java.nio.ByteBuffer memoryPool_tryAllocateN175745|int channel_readN176092"
 }} 
 ,
 { "ligne" : {"" : ""

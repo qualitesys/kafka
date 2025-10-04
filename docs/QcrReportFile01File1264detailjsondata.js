@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html" 
- , "texte" : "File generator/src/main/java/org/apache/kafka/message/StructRegistry.java 34 rule violations " 
+ , "texte" : "File generator/src/main/java/org/apache/kafka/message/StructRegistry.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -153,13 +153,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -210,13 +203,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#87"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00087] For method addStructSpecs arguments Versions  parentVersions|List&lt;FieldSpec &gt;  fields"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00087"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#87"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00087] For method addStructSpecs list of called methods Object monObjet|java.lang.String arrayType_elementNameN179666|java.lang.String structType_typeNameN179941"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -315,13 +301,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#126"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00126] For method findStruct arguments FieldSpec  field"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00126"
- , "c1link" : "./qc/generator/src/main/java/org/apache/kafka/message/StructRegistry.java.html#126"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00126] For method findStruct list of called methods Object monObjet|java.lang.String arrayType_elementNameN181541|java.lang.String structType_typeNameN181816"
 }} 
 ,
 { "ligne" : {"" : ""

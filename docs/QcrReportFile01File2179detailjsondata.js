@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java 116 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java 114 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -214,13 +214,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "12"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -250,13 +243,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#95"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00095] For method target arguments String  host|int  port"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#95"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00095] For method target list of called methods Object monObjet|java.lang.String String_formatN205067"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -579,13 +565,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#200"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00200] For method main arguments String[]  args"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00200"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/agent/AgentClient.java.html#200"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00200] For method main list of called methods Object monObjet|org.apache.kafka.trogdor.rest.UptimeResponse client_uptimeN213466|org.apache.kafka.trogdor.rest.AgentStatusResponse client_statusN214493"
 }} 
 ,
 { "ligne" : {"" : ""

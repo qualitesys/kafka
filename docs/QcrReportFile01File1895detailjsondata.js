@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java 65 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -252,13 +252,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "7"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -604,13 +597,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#304"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00304] For method schedule arguments Duration  interval|PunctuationType  type|Punctuator  callback"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00304"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/ProcessorContextImpl.java.html#304"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00304] For method schedule list of called methods Object monObjet|java.lang.String prepareMillisCheckFailMsgPrefixN214812|long validateMillisecondDurationN214929"
 }} 
 ,
 { "ligne" : {"" : ""

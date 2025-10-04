@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java 13 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java 11 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -127,13 +127,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "3"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -180,13 +173,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00082"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#82"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00082] For method filter list of called methods Object monObjet|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofEntityN171841|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofDefaultEntityN172045|org.apache.kafka.common.quota.ClientQuotaFilterComponent ClientQuotaFilterComponent_ofEntityTypeN172207"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#85"
  , "c2" : "MAJOR"
@@ -205,13 +191,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#114"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00114] For method getErrorResponse arguments int  throttleTimeMs|Throwable  e"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00114"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeClientQuotasRequest.java.html#114"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00114] For method getErrorResponse list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN172992"
 }} 
 ,
 { "ligne" : {"" : ""

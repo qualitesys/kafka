@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 905 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java 782 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -819,35 +819,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "62"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "123"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "12"
 }}
 ,
 { "ligne" : { "" : ""
@@ -876,13 +853,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "109"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "49"
 }}
 ,
 { "ligne" : { "" : ""
@@ -927,13 +897,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#446"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00446] For method generateClientId arguments AdminClientConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00446"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#446"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00446] For method generateClientId list of called methods Object monObjet|java.lang.String config_getStringN986336"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1025,13 +988,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#487"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00487] For method createInternal arguments AdminClientConfig  config|TimeoutProcessorFactory  timeoutProcessorFactory|HostResolver  hostResolver"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00487"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#487"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00487] For method createInternal list of called methods Object monObjet|java.lang.String generateClientIdN988200|org.apache.kafka.common.utils.LogContext createLogContextN988482"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1168,13 +1124,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00556"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#556"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00556] For method createInternal list of called methods Object monObjet|java.lang.String generateClientIdN992946"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00560"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#560"
  , "c2" : "MAJOR"
@@ -1277,13 +1226,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#615"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00615] For method configureDefaultApiTimeoutMs arguments AdminClientConfig  config"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00615"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#615"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00615] For method configureDefaultApiTimeoutMs list of called methods Object monObjet|int config_getIntN996337|int config_getIntN996441"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1774,13 +1716,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1037"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01037] For method timeoutCallsToSend arguments TimeoutProcessor  processor"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01037"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1037"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01037] For method timeoutCallsToSend list of called methods Object monObjet|int processor_handleTimeoutsN1012306"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2463,13 +2398,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "01368"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1368"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01368] For method processRequests list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call makeMetadataCallN1029996"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "01380"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1380"
  , "c2" : "MAJOR"
@@ -2752,13 +2680,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01564"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1564"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01564] For method createTopics list of called methods Object monObjet|long calcDeadlineMsN1038774|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1038909"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01564"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1564"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01564] The argument newTopics is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2796,13 +2717,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1589"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01589] For method getCreateTopicsCall arguments CreateTopicsOptions  options|Map&lt;String ,KafkaFutureImpl&lt;TopicMetadataAndConfig &gt; &gt;  futures|CreatableTopicCollection  topics|Map&lt;String ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01589"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1589"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01589] For method getCreateTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1043507|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreateTopicsCallN1043589"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2906,13 +2820,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01701"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1701"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01701] For method handleDeleteTopicsUsingNames list of called methods Object monObjet|long calcDeadlineMsN1047030|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1047165"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01701"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1701"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01701] The argument topicNames is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2955,13 +2862,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01726"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1726"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01726] For method handleDeleteTopicsUsingIds list of called methods Object monObjet|long calcDeadlineMsN1049072|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1049207"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01726"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1726"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01726] The argument topicIds is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -2999,13 +2899,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1751"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01751] For method getDeleteTopicsCall arguments DeleteTopicsOptions  options|Map&lt;String ,KafkaFutureImpl&lt;Void &gt; &gt;  futures|List&lt;String &gt;  topics|Map&lt;String ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01751"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1751"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01751] For method getDeleteTopicsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1052582|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsCallN1052664"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3062,13 +2955,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1823"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01823] For method getDeleteTopicsWithIdsCall arguments DeleteTopicsOptions  options|Map&lt;Uuid ,KafkaFutureImpl&lt;Void &gt; &gt;  futures|List&lt;Uuid &gt;  topicIds|Map&lt;Uuid ,ThrottlingQuotaExceededException &gt;  quotaExceededExceptions|long  now|long  deadline"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01823"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1823"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01823] For method getDeleteTopicsWithIdsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1056580|org.apache.kafka.clients.admin.KafkaAdminClient.Call getDeleteTopicsWithIdsCallN1056662"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3137,13 +3023,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "01897"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1897"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01897] For method listTopics list of called methods Object monObjet|java.lang.String topicMetadata_topicN1058490"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01897"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1897"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[01897] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3181,13 +3060,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1939"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01939] For method handleDescribeTopicsByNames arguments Collection&lt;String &gt;  topicNames|DescribeTopicsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01939"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1939"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[01939] For method handleDescribeTopicsByNames list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;org.apache.kafka.clients.admin.TopicDescription&gt;&gt; errors_getN1062775|org.apache.kafka.common.Uuid cluster_topicIdN1063343|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1063555"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3298,13 +3170,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02015"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2015"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02015] For method handleDescribeTopicsByIds list of called methods Object monObjet|java.lang.String cluster_topicNameN1067122|org.apache.kafka.clients.admin.TopicDescription getTopicDescriptionFromClusterN1067858"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02015"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2015"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02015] The argument topicIds is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3384,13 +3249,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2080"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02080] For method getTopicDescriptionFromCluster arguments Cluster  cluster|String  topicName|Uuid  topicId|Integer  authorizedOperations"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02080"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2080"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02080] For method getTopicDescriptionFromCluster list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.common.PartitionInfo&gt; cluster_partitionsForTopicN1068814"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3634,13 +3492,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2285"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02285] For method deleteAcls list of called methods Object monObjet|org.apache.kafka.common.acl.AclBinding DeleteAclsResponse_aclBindingN1083493"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02285"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2285"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02285] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3671,13 +3522,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2344"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02344] For method describeConfigs arguments Collection&lt;ConfigResource &gt;  configResources|DescribeConfigsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02344"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2344"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02344] For method describeConfigs list of called methods Object monObjet|java.lang.Integer nodeForN1084628"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3879,13 +3723,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02466"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2466"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02466] For method alterConfigs list of called methods Object monObjet|java.lang.Integer nodeForN1091710"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02466"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2466"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02466] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -3984,13 +3821,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2531"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02531] For method incrementalAlterConfigs list of called methods Object monObjet|java.lang.Integer nodeForN1096072"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02531"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2531"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02531] The argument configs is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -4021,13 +3851,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2553"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02553] For method incrementalAlterConfigs arguments Map&lt;ConfigResource ,Collection&lt;AlterConfigOp &gt; &gt;  configs|AlterConfigsOptions  options|Collection&lt;ConfigResource &gt;  resources|NodeProvider  nodeProvider"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02553"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2553"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02553] For method incrementalAlterConfigs list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.config.ConfigResource,org.apache.kafka.common.requests.ApiError&gt; IncrementalAlterConfigsResponse_fromResponseDataN1098340"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4063,13 +3886,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2593"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02593] For method alterReplicaLogDirs arguments Map&lt;TopicPartitionReplica ,String &gt;  replicaAssignment|AlterReplicaLogDirsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02593"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2593"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02593] For method alterReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult replica_brokerIdN1100295|org.apache.kafka.clients.admin.AlterReplicaLogDirsResult time_millisecondsN1101516"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4257,13 +4073,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02674"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2674"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02674] For method describeLogDirs list of called methods Object monObjet|java.util.Map&lt;java.lang.String,org.apache.kafka.clients.admin.LogDirDescription&gt; logDirDescriptionsN1105988"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02674"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2674"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02674] The argument brokers is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -4399,13 +4208,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2736"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02736] For method describeReplicaLogDirs arguments Collection&lt;TopicPartitionReplica &gt;  replicas|DescribeReplicaLogDirsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02736"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2736"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02736] For method describeReplicaLogDirs list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult time_millisecondsN1110131"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4663,13 +4465,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02831"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2831"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02831] For method createPartitions list of called methods Object monObjet|java.util.List&lt;java.util.List&lt;java.lang.Integer&gt;&gt; newPartition_assignmentsN1115307|org.apache.kafka.clients.admin.CreatePartitionsResult time_millisecondsN1116169|long calcDeadlineMsN1116251|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1116386"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02831"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2831"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02831] The argument newPartitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -4733,13 +4528,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "02859"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2859"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02859] For method getCreatePartitionsCall list of called methods Object monObjet|org.apache.kafka.clients.admin.KafkaAdminClient.Call time_millisecondsN1119875|org.apache.kafka.clients.admin.KafkaAdminClient.Call getCreatePartitionsCallN1119957"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02859"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2859"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[02859] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -4798,13 +4586,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2933"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[02933] For method deleteRecords arguments Map&lt;TopicPartition ,RecordsToDelete &gt;  recordsToDelete|DeleteRecordsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "02933"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#2933"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[02933] For method deleteRecords list of called methods Object monObjet|long calcDeadlineMsN1121642|org.apache.kafka.clients.admin.DeleteRecordsResult errors_getN1123077|org.apache.kafka.common.Node cluster_leaderForN1123411|org.apache.kafka.clients.admin.DeleteRecordsResult time_millisecondsN1124607"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -4969,13 +4750,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03211"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3211"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03211] For method describeConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.clients.admin.ConsumerGroupDescription&gt; DescribeConsumerGroupsHandler_newFutureN1135892"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03212"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3212"
  , "c2" : "CRITICAL"
@@ -5036,13 +4810,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3289"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03289] For method addError arguments Throwable  throwable|Node  node"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03289"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3289"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03289] For method addError list of called methods Object monObjet|org.apache.kafka.common.requests.ApiError ApiError_fromThrowableN1140034"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5132,13 +4899,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "03317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3317"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03317] For method listConsumerGroups list of called methods Object monObjet|long calcDeadlineMsN1141753|org.apache.kafka.clients.admin.ListConsumerGroupsResult time_millisecondsN1143048"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03317"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3317"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[03317] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -5193,13 +4953,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03403"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3403"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03403] For method listConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.consumer.OffsetAndMetadata&gt;&gt; ListConsumerGroupOffsetsHandler_newFutureN1146654"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03404"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3404"
  , "c2" : "CRITICAL"
@@ -5211,13 +4964,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3413"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03413] For method deleteConsumerGroups arguments Collection&lt;String &gt;  groupIds|DeleteConsumerGroupsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03413"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3413"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03413] For method deleteConsumerGroups list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.lang.Void&gt; DeleteConsumerGroupsHandler_newFutureN1147387"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5235,13 +4981,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03423"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3423"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03423] For method deleteConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;org.apache.kafka.common.TopicPartition,Errors&gt;&gt; DeleteConsumerGroupOffsetsHandler_newFutureN1148238"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03426"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3426"
  , "c2" : "CRITICAL"
@@ -5253,13 +4992,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3440"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03440] For method electLeaders arguments ElectionType  electionType|Set&lt;TopicPartition &gt;  topicPartitions|ElectLeadersOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03440"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3440"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03440] For method electLeaders list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.util.Optional&lt;java.lang.Throwable&gt;&gt; ElectLeadersResponse_electLeadersResultN1150065"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5281,13 +5013,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3479"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03479] For method alterPartitionReassignments arguments Map&lt;TopicPartition ,Optional&lt;NewPartitionReassignment &gt; &gt;  reassignments|AlterPartitionReassignmentsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03479"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3479"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03479] For method alterPartitionReassignments list of called methods Object monObjet|org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult time_millisecondsN1153155"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5496,13 +5221,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "03627"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3627"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03627] For method listPartitionReassignments list of called methods Object monObjet|java.lang.String tp_topicN1160460|int tp_partitionN1160537"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03627"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3627"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[03627] The argument partitions is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -5641,13 +5359,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03756"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3756"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03756] For method removeMembersFromConsumerGroup list of called methods Object monObjet|java.util.List&lt;MemberIdentity&gt; getMembersFromGroupN1167349|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;MemberIdentity,Errors&gt;&gt; RemoveMembersFromConsumerGroupHandler_newFutureN1167832"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03757"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3757"
  , "c2" : "CRITICAL"
@@ -5669,13 +5380,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "03778"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3778"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03778] For method alterConsumerGroupOffsets list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,java.util.Map&lt;org.apache.kafka.common.TopicPartition,Errors&gt;&gt; AlterConsumerGroupOffsetsHandler_newFutureN1168623"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "03781"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3781"
  , "c2" : "CRITICAL"
@@ -5687,13 +5391,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3791"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03791] For method listOffsets arguments Map&lt;TopicPartition ,OffsetSpec &gt;  topicPartitionOffsets|ListOffsetsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03791"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3791"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03791] For method listOffsets list of called methods Object monObjet|long calcDeadlineMsN1169970"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -5715,13 +5412,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3816"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[03816] For method getListOffsetsCalls arguments MetadataOperationContext&lt;ListOffsetsResultInfo ,ListOffsetsOptions &gt;  context|Map&lt;TopicPartition ,OffsetSpec &gt;  topicPartitionOffsets|Map&lt;TopicPartition ,KafkaFutureImpl&lt;ListOffsetsResultInfo &gt; &gt;  futures"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03816"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3816"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[03816] For method getListOffsetsCalls list of called methods Object monObjet|org.apache.kafka.common.Cluster mr_buildClusterN1171210|long getOffsetFromOffsetSpecN1171964|org.apache.kafka.common.Node clusterSnapshot_leaderForN1172189"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6133,13 +5823,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04013"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4013"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04013] For method describeUserScramCredentials list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult data_errorCodeN1184588"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04013"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4013"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04013] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6170,13 +5853,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4059"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04059] For method alterUserScramCredentials arguments List&lt;UserScramCredentialAlteration &gt;  alterations|AlterUserScramCredentialsOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04059"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4059"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04059] For method alterUserScramCredentials list of called methods Object monObjet|java.lang.String alteration_userN1186427|java.lang.String alteration_userN1187704"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6357,13 +6033,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4254"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04254] For method updateFeatures list of called methods Object monObjet|org.apache.kafka.clients.admin.UpdateFeaturesResult time_millisecondsN1199082"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04254"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4254"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04254] The argument featureUpdates is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6436,13 +6105,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4341"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04341] For method describeMetadataQuorum arguments DescribeMetadataQuorumOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04341"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4341"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04341] For method describeMetadataQuorum list of called methods Object monObjet|java.lang.String String_formatN1205483|java.lang.String String_formatN1206071|java.lang.String String_formatN1206491|java.lang.String String_formatN1207075"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6574,13 +6236,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04461"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4461"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04461] For method describeProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.common.TopicPartition,org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState&gt; DescribeProducersHandler_newFutureN1210194"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04461"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4461"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04461] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6595,13 +6250,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04470"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4470"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04470] For method describeTransactions list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.clients.admin.TransactionDescription&gt; DescribeTransactionsHandler_newFutureN1210793"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04470"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4470"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04470] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6611,13 +6259,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4479"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04479] For method abortTransaction arguments AbortTransactionSpec  spec|AbortTransactionOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04479"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4479"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04479] For method abortTransaction list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.common.TopicPartition,java.lang.Void&gt; AbortTransactionHandler_newFutureN1211349"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6644,13 +6285,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4488"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04488] For method listTransactions list of called methods Object monObjet|org.apache.kafka.clients.admin.internals.AllBrokersStrategy.AllBrokersFuture&lt;java.util.Collection&lt;org.apache.kafka.clients.admin.TransactionListing&gt;&gt; ListTransactionsHandler_newFutureN1211966"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04488"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4488"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04488] The argument options is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -6660,13 +6294,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4497"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04497] For method fenceProducers arguments Collection&lt;String &gt;  transactionalIds|FenceProducersOptions  options"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04497"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4497"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04497] For method fenceProducers list of called methods Object monObjet|AdminApiFuture.SimpleAdminApiFuture&lt;org.apache.kafka.clients.admin.internals.CoordinatorKey,org.apache.kafka.common.utils.ProducerIdAndEpoch&gt; FenceProducersHandler_newFutureN1212546"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -6709,524 +6336,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#4586"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04586] The argument subLevelErrors is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1011609"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012036"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1020597"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1033221"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1013492"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN993942"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1135140"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01104"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01104] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01105"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1105"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01105] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String 'Assigned {} to node {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01108"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1108"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01108] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01110"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1110"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01110] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String 'Unable to assign {} to a node.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01111"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1111"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01111] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01115"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1115"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01115] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String 'Unable to choose node for {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01117"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01117] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCall@POLYN1014559 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00795"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#795"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00795] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00797"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#797"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00797] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00809"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#809"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00809] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345 the MagicNumber/String '{} attempting protocol downgrade and then retry.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00817"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#817"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00817] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00824"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#824"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00824] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345 the MagicNumber/String '{} failed with non-retriable exception after {} attempt-s-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00836"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#836"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00836] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.Call.fail@POLYN1003345 the MagicNumber/String '{} failed: {}. Beginning retry #{}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01027"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1027"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01027] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1011609 the MagicNumber/String 'Timed out waiting for a node assignment.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01028"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1028"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01028] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1011609 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01029"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1029"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01029] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutPendingCalls@POLYN1011609 the MagicNumber/String 'Timed out {} pending calls.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01038"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1038"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01038] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012036 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01041"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1041"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01041] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012036 the MagicNumber/String 'Timed out waiting to send the call.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01043"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1043"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01043] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012036 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01044"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1044"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01044] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsToSend@POLYN1012036 the MagicNumber/String 'Timed out {} call-s- with assigned nodes.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01208"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1208"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01208] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1020597 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01213"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01213] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1020597 the MagicNumber/String 'Disconnecting from {} due to timeout while awaiting {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01221"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1221"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01221] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1020597 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01222"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1222"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01222] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.timeoutCallsInFlight@POLYN1020597 the MagicNumber/String 'Timed out {} call-s- in flight.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01473"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01473] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1033221 the MagicNumber/String 'The AdminClient is not accepting new calls. Timing out {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01475"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1475"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01475] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.call@POLYN1033221 the MagicNumber/String 'The AdminClient thread is not accepting new calls.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01438"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1438"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01438] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String 'Max retries {} for {} reached' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01440"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1440"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01440] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String ' tries.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01440"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1440"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01440] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String 'Exceeded maxRetries after ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01444"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1444"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01444] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String 'Queueing {} with a timeout {} ms from now.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01447"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1447"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01447] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01451"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1451"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01451] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01457"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1457"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01457] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String 'The AdminClient thread has exited. Timing out {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01459"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1459"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01459] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.enqueue@POLYN1031622 the MagicNumber/String 'The AdminClient thread has exited.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01081"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1081"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01081] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.maybeDrainPendingCalls@POLYN1013492 the MagicNumber/String 'Trying to choose nodes for {} at {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01138"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1138"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01138] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 'Still waiting for other calls to finish on node {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01144"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1144"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01144] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01146"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01146] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 'Disconnecting from {} and revoking {} node assignment-s- ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01147"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1147"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01147] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 'because the node is taking too long to become ready.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01161"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1161"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01161] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 'Client is not ready to send to {}. Must delay {} ms' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01168"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1168"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01168] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01174"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1174"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01174] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01182"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1182"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01182] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 'Internal error sending %s to %s.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01186] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01186"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1186"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01186] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "01187"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#1187"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[01187] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable.sendEligibleCalls@POLYN1015742 the MagicNumber/String 'Sending {} to {}. correlationId={}, timeoutMs={}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN993942 the MagicNumber/String '  MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00597"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#597"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00597] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN993942 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00598"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#598"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00598] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN993942 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00604"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#604"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00604] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.KafkaAdminClient@POLYN993942 the MagicNumber/String 'Kafka admin client initialized' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00636"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#636"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00636] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00637"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#637"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00637] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'The timeout cannot be negative.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00638"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#638"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00638] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 365 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00642"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#642"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00642] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00645"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#645"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00645] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'Initiating close operation.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00647"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#647"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00647] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'Moving hard shutdown time forward.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00654"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#654"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00654] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'Hard shutdown time is already earlier than requested.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00660"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#660"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00660] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00661"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#661"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00661] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'Waiting for the I/O thread to exit. Hard shutdown in {} ms.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00670"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#670"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00670] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'Kafka admin client closed.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00672"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#672"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00672] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.close@POLYN997143 the MagicNumber/String 'Interrupted while joining I/O thread' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "03203"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/KafkaAdminClient.java.html#3203"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[03203] In the recursive method org.apache.kafka.clients.admin.KafkaAdminClient.rescheduleMetadataTask@POLYN1135140 the MagicNumber/String 'Retrying to fetch metadata.' MUST BE CONVERTED to const"
 }} 
 ]
 , 

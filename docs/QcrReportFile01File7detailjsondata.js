@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java 89 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java 84 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -350,15 +350,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -375,13 +366,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -393,13 +377,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "31"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
 }}
  ] 
 ,
@@ -736,13 +713,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#342"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00342] For method resetReconnectBackoff list of called methods Object monObjet|long reconnectBackoff_backoffN250177"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00342"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#342"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00342] The argument nodeState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -766,13 +736,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#353"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00353] For method resetConnectionSetupTimeout arguments NodeConnectionState  nodeState"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#353"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method resetConnectionSetupTimeout list of called methods Object monObjet|long connectionSetupTimeout_backoffN250556"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -806,13 +769,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00366"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#366"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00366] For method updateReconnectBackoff list of called methods Object monObjet|long reconnectBackoff_backoffN250985"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00366"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#366"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00366] The argument nodeState is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -822,13 +778,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#378"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00378] For method updateConnectionSetupTimeout arguments NodeConnectionState  nodeState"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00378"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#378"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00378] For method updateConnectionSetupTimeout list of called methods Object monObjet|long connectionSetupTimeout_backoffN251495"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1018,13 +967,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#233"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00233] Public method pollDelayMs is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClusterConnectionStates.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.clients.ClusterConnectionStates.remove@POLYN251758"
 }} 
 ]
 , 

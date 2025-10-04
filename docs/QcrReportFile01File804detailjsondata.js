@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java 9 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java 8 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -85,13 +85,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "2"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -114,13 +107,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#52"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00052] For method create arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|Map&lt;String ,Object &gt;  jaasConfig"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00052"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenRetrieverFactory.java.html#52"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00052] For method create list of called methods Object monObjet|java.net.URL cu_validateUrlN165861|java.lang.String jou_validateStringN166338|java.lang.String jou_validateStringN166434|java.lang.String jou_validateStringN166530|SSLSocketFactory jou_createSSLSocketFactoryN166779"
 }} 
 ,
 { "ligne" : {"" : ""

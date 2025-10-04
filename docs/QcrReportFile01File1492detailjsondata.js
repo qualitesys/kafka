@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.net.Socket.java.html" 
- , "texte" : "File secujava/java.net.Socket.java 186 rule violations " 
+ , "texte" : "File secujava/java.net.Socket.java 172 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -655,15 +655,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -674,22 +665,8 @@ var maDataBlocs = {
 ,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "13"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
  , "c2" : "QC-JAVSOLIDL"
  , "c3" : "The class does not respect the SOLID principle Liskov Substitution"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
  , "c4" : "1"
 }}
 ,
@@ -1932,104 +1909,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVSOLIDL[00001] In the class Socket which implements the interface(s) java.io.Closeable, the method setPerformancePreferences is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedjava.io.Closeable"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.Socket.connect@POLYN484064"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00539"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#539"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00539] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00540"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#540"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00540] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 'connect: The address can't be null' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00542"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#542"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00542] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00543"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#543"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00543] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 'connect: timeout can't be negative' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00546"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#546"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00546] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 'Socket is closed' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00549"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#549"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00549] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 'already connected' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00552"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#552"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00552] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 'Unsupported address type' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00557"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#557"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00557] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00566"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#566"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00566] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00569"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#569"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00569] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 0 MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00576"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#576"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00576] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String 'SocketImpl.connect-addr, timeout-' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00577"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#577"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00577] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00582"
- , "c1link" : "./qc/secujava/java.net.Socket.java.html#582"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00582] In the recursive method java.net.Socket.connect@POLYN484064 the MagicNumber/String true MUST BE CONVERTED to const"
 }} 
 ]
 , 

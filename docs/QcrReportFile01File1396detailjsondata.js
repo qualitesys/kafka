@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java 28 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java 27 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -156,13 +156,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "5"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -241,13 +234,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#97"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.raft.FileBasedStateStore.readStateFromFile@POLYN180942 the MagicNumber/String  'Error while reading the Quorum status from the file %s' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00105"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/FileBasedStateStore.java.html#105"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00105] For method readElectionState list of called methods Object monObjet|QuorumStateData readStateFromFileN182832"
 }} 
 ,
 { "ligne" : {"" : ""

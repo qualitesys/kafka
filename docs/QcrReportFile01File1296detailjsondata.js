@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html" 
- , "texte" : "File log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java 66 rule violations " 
+ , "texte" : "File log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java 64 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -552,13 +552,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "26"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
  ] 
 ,
 "data13b" : [
@@ -721,13 +714,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#272"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00272] For method setSslEngineFactoryClass arguments String  sslEngineFactoryClass"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00277"
- , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#277"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00277] For method activateOptions list of called methods Object monObjet|Producer&lt;byte[],byte[]&gt; getKafkaProducerN210681"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -952,13 +938,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#349"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00349] For method append arguments LoggingEvent  event"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00349"
- , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#349"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00349] For method append list of called methods Object monObjet|java.lang.String subAppendN211241"
 }} 
 ,
 { "ligne" : {"" : ""

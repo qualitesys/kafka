@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java 76 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java 72 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -282,13 +282,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "15"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
-}}
  ] 
 ,
 "data13b" : [
@@ -304,13 +297,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#110"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00110] For method init arguments StateStoreContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00120"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#120"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00120] For method getPosition list of called methods Object monObjet|org.apache.kafka.streams.query.Position Position_emptyPositionN232456"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -400,13 +386,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#208"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00208] For method initInternal list of called methods Object monObjet|java.lang.String ThreadCache_nameSpaceFromTaskIdAndStoreN237020"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00208"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#208"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00208] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -416,13 +395,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#218"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00218] For method putAndMaybeForward arguments ThreadCache.DirtyEntry  entry|InternalProcessorContext&lt;? ,? &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00218"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#218"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00218] For method putAndMaybeForward list of called methods Object monObjet|byte[] entry_newValueN237694|byte[] context_recordContextN239054"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -577,13 +549,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#340"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00340] For method deleteInternal arguments Bytes  key"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00340"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/CachingKeyValueStore.java.html#340"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00340] For method deleteInternal list of called methods Object monObjet|byte[] getInternalN243138"
 }} 
 ,
 { "ligne" : {"" : ""

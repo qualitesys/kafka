@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java 129 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java 121 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -377,15 +377,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -395,24 +386,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "3"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -441,13 +418,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "27"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "4"
 }}
  ] 
 ,
@@ -810,13 +780,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00330"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#330"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00330] For method valuesWithPrefixAllOrNothing list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.Object&gt; originalsWithPrefixN302577"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#339"
  , "c2" : "MAJOR"
@@ -891,13 +854,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#372"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.common.config.AbstractConfig.logAll@POLYN304485 the MagicNumber/String  ' = ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00382"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#382"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00382] For method logUnused list of called methods Object monObjet|java.util.Set&lt;java.lang.String&gt; unusedN305687"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1013,13 +969,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00506"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#506"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00506] For method resolveConfigVariables list of called methods Object monObjet|java.util.Map&lt;java.lang.String,java.lang.String&gt; extractPotentialVariablesN312530|java.util.Map&lt;java.lang.String,java.lang.String&gt; extractPotentialVariablesN312928|java.util.Map&lt;java.lang.String,org.apache.kafka.common.config.provider.ConfigProvider&gt; instantiateConfigProvidersN313110"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00514"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#514"
  , "c2" : "MAJOR"
@@ -1066,13 +1015,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#556"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00556] For method instantiateConfigProviders arguments Map&lt;String ,String &gt;  indirectConfigs|Map&lt;String ,? &gt;  providerConfigProperties"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00556"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#556"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00556] For method instantiateConfigProviders list of called methods Object monObjet|java.lang.String providerClassPropertyN315979"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1325,34 +1267,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#382"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00382] Public method logUnused is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.common.config.AbstractConfig.equals@POLYN317772"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#595"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00595] In the recursive method org.apache.kafka.common.config.AbstractConfig.equals@POLYN317772 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.common.config.AbstractConfig.equals@POLYN317772 the MagicNumber/String false MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00596"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/config/AbstractConfig.java.html#596"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00596] In the recursive method org.apache.kafka.common.config.AbstractConfig.equals@POLYN317772 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

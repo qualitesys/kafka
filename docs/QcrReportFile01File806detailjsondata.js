@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html" 
- , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java 11 rule violations " 
+ , "texte" : "File clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java 10 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -103,13 +103,6 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "4"
 }}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
  ] 
 ,
 "data13b" : [
@@ -153,13 +146,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#51"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00051] For method create arguments Map&lt;String ,? &gt;  configs|String  saslMechanism|VerificationKeyResolver  verificationKeyResolver"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00051"
- , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/AccessTokenValidatorFactory.java.html#51"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00051] For method create list of called methods Object monObjet|java.lang.Integer cu_validateIntegerN163202|java.lang.String cu_validateStringN163322|java.lang.String cu_validateStringN163442|java.lang.String cu_validateStringN163538"
 }} 
 ,
 { "ligne" : {"" : ""

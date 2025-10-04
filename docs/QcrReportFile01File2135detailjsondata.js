@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 131 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java 116 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -318,13 +318,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "15"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -338,13 +331,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#91"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00091] For method enforceWrappedStore arguments WindowStore&lt;Bytes ,byte[] &gt;  underlying"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#91"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00091] For method enforceWrappedStore list of called methods Object monObjet|org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore getWrappedStoreN262616|boolean timeOrderedWindowStore_hasIndexN262850"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -399,13 +385,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00123"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00123] For method initInternal list of called methods Object monObjet|java.lang.String StreamsConfig_InternalConfig_getStringN264049|java.lang.String ProcessorStateManager_storeChangelogTopicN264322|org.apache.kafka.streams.processor.TaskId context_taskIdN264697"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#123"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00123] The argument context is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -422,13 +401,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00143] For method putAndMaybeForward arguments List&lt;DirtyEntry &gt;  entries|InternalProcessorContext&lt;? ,? &gt;  context"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00143"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#143"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00143] For method putAndMaybeForward list of called methods Object monObjet|boolean PrefixedWindowKeySchemas_isTimeFirstSchemaKeyN265516|org.apache.kafka.common.utils.Bytes indexKeyToBaseKeyN265711|org.apache.kafka.common.utils.Bytes baseKeyCacheFunction_cacheKeyN265970|org.apache.kafka.common.utils.Bytes Bytes_wrapN266622|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; TimeFirstWindowKeySchema_fromStoreBytesKeyN267167|org.apache.kafka.streams.kstream.Windowed&lt;org.apache.kafka.common.utils.Bytes&gt; KeyFirstWindowKeySchema_fromStoreBytesKeyN267301"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -499,13 +471,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00202] For method putAndMaybeForward arguments InternalProcessorContext&lt;? ,? &gt;  context|DirtyEntry  finalEntry|Bytes  binaryKey|long  windowStartTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00202"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#202"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00202] For method putAndMaybeForward list of called methods Object monObjet|byte[] finalEntry_newValueN267997|byte[] context_recordContextN269426"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -595,13 +560,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#252"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00252] For method indexKeyToBaseKey list of called methods Object monObjet|byte[] KeyFirstWindowKeySchema_extractStoreKeyBytesN270292|long KeyFirstWindowKeySchema_extractStoreTimestampN270413|int KeyFirstWindowKeySchema_extractStoreSequenceN270534"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00252"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#252"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00252] The argument indexKey is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -618,13 +576,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#260"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00260] For method put arguments Bytes  key|byte[]  value|long  windowStartTimestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00260"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#260"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00260] For method put list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN270962|org.apache.kafka.common.utils.Bytes KeyFirstWindowKeySchema_toStoreKeyBinaryN272019"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -674,13 +625,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#303"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00303] For method fetch arguments Bytes  key|long  timestamp"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00303"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#303"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00303] For method fetch list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes TimeFirstWindowKeySchema_toStoreKeyBinaryN273060|org.apache.kafka.common.utils.Bytes baseKeyCacheFunction_cacheKeyN273207"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -765,13 +709,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#353"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00353] For method fetchInternal arguments WindowStoreIterator&lt;byte[] &gt;  underlyingIterator|Bytes  key|long  timeFrom|long  timeTo|boolean  forward"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00353"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#353"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00353] For method fetchInternal list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN275768"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -915,13 +852,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00423"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#423"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00423] For method fetchKeyRange list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition keySchema_hasNextConditionN279601"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00454"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#454"
  , "c2" : "MINOR"
@@ -954,13 +884,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#471"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00471] For method fetchAllInternal arguments KeyValueIterator&lt;Windowed&lt;Bytes &gt; ,byte[] &gt;  underlyingIterator|long  timeFrom|long  timeTo|boolean  forward"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00471"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#471"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00471] For method fetchAllInternal list of called methods Object monObjet|org.apache.kafka.streams.state.internals.HasNextCondition baseKeySchema_hasNextConditionN282231"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1045,13 +968,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#531"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.close@POLYN284275 the MagicNumber/String  'Caught an exception while closing caching window store for store ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00595"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#595"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00595] For method hasNext list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes current_peekNextKeyN288180"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1181,31 +1097,10 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00641"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#641"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00641] For method peekNext list of called methods Object monObjet|org.apache.kafka.streams.KeyValue&lt;org.apache.kafka.common.utils.Bytes,org.apache.kafka.streams.state.internals.LRUCacheEntry&gt; current_peekNextN289938"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00653"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#653"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00653] For method next list of called methods Object monObjet|org.apache.kafka.streams.KeyValue&lt;org.apache.kafka.common.utils.Bytes,org.apache.kafka.streams.state.internals.LRUCacheEntry&gt; current_nextN290493"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00674"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#674"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper.currentSegmentLastTime@POLYN290919 the MagicNumber/String  1 should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00677"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#677"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00677] For method getNextSegmentIterator list of called methods Object monObjet|long cacheFunction_segmentIdN291276"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1227,13 +1122,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#710"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00710] For method setCacheKeyRange arguments long  lowerRangeEndTime|long  upperRangeEndTime"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00710"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimeOrderedCachingWindowStore.java.html#710"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00710] For method setCacheKeyRange list of called methods Object monObjet|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN292996|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN293172|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN293367|org.apache.kafka.common.utils.Bytes cacheFunction_cacheKeyN293543"
 }} 
 ,
 { "ligne" : {"" : ""

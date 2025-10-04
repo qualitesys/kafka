@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java 53 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java 38 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -116,35 +116,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "11"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "10"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -159,13 +136,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -236,13 +206,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#79"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00079] For method registerStateStores list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId stateMgr_taskIdN179457|boolean stateDirectory_directoryForTaskIsEmptyN179868"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00079"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#79"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00079] The argument log is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -301,13 +264,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#110"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00110] For method closeStateManager arguments Logger  log|String  logPrefix|boolean  closeClean|boolean  eosEnabled|ProcessorStateManager  stateMgr|StateDirectory  stateDirectory|TaskType  taskType"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00110"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#110"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00110] For method closeStateManager list of called methods Object monObjet|org.apache.kafka.streams.processor.TaskId stateMgr_taskIdN180685"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -448,97 +404,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#184"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.streams.processor.internals.StateManagerUtil.toTaskDirString@POLYN183553 the MagicNumber/String  '_' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.streams.processor.internals.StateManagerUtil.registerStateStores@POLYN179108"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00121"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#121"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00121] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String 'Closing state manager for {} task {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00123"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#123"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00123] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00129"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#129"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00129] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00133"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#133"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00133] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String 'Wiping state stores for {} task {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00146"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#146"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00146] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String '%sFatal error while trying to close the state manager for task %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00148"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#148"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00148] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00152"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#152"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00152] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.closeStateManager@POLYN180321 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00091"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#91"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00091] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.registerStateStores@POLYN179108 the MagicNumber/String '%sFailed to lock the state directory for task %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00093"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#93"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00093] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.registerStateStores@POLYN179108 the MagicNumber/String 'Acquired state directory lock' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00098"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#98"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00098] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.registerStateStores@POLYN179108 the MagicNumber/String 'Registered state stores' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00104"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/StateManagerUtil.java.html#104"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00104] In the recursive method org.apache.kafka.streams.processor.internals.StateManagerUtil.registerStateStores@POLYN179108 the MagicNumber/String 'Initialized state stores' MUST BE CONVERTED to const"
 }} 
 ]
 , 

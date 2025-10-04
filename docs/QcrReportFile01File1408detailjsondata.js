@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html" 
- , "texte" : "File raft/src/main/java/org/apache/kafka/raft/QuorumState.java 102 rule violations " 
+ , "texte" : "File raft/src/main/java/org/apache/kafka/raft/QuorumState.java 91 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -368,15 +368,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -386,24 +377,10 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -425,13 +402,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "8"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -630,13 +600,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#296"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00296] For method transitionToUnattached arguments int  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00296"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#296"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00296] For method transitionToUnattached list of called methods Object monObjet|int randomElectionTimeoutMsN233637"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -878,13 +841,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00406"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#406"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00406] For method transitionToCandidate list of called methods Object monObjet|boolean isCandidateN238180|int epochN238351|int randomElectionTimeoutMsN238444"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00408"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#408"
  , "c2" : "MAJOR"
@@ -1085,69 +1041,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#268"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000003[00268] Public method isObserver is dealing with none of the public properties of the class. Risk of useless strong coupling"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.transitionTo@POLYN239898"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.canGrantVote@POLYN240898"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN231710"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00468"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#468"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00468] In the recursive method org.apache.kafka.raft.QuorumState.transitionTo@POLYN239898 the MagicNumber/String null MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.raft.QuorumState.transitionTo@POLYN239898 the MagicNumber/String ' to ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00473"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#473"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00473] In the recursive method org.apache.kafka.raft.QuorumState.transitionTo@POLYN239898 the MagicNumber/String 'Failed to transition from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00479"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#479"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00479] In the recursive method org.apache.kafka.raft.QuorumState.transitionTo@POLYN239898 the MagicNumber/String 'Completed transition to {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00274"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#274"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00274] In the recursive method org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN231710 the MagicNumber/String 'Invalid transition to Resigned state from ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00289"
- , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/QuorumState.java.html#289"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00289] In the recursive method org.apache.kafka.raft.QuorumState.transitionToResigned@POLYN231710 the MagicNumber/String 'Completed transition to {}' MUST BE CONVERTED to const"
 }} 
 ]
 , 

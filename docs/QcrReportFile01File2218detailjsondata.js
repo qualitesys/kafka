@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html" 
- , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java 60 rule violations " 
+ , "texte" : "File trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java 51 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -98,35 +98,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "8"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -507,69 +484,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#284"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.trogdor.rest.JsonRestServer.HttpResponse.body@POLYN213006 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00090"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#90"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00090] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String 'Starting REST server' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00095"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#95"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00095] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String 'Registered resource {}' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00101"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#101"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00101] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String '/' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00102"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#102"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00102] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String '/*' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00107"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#107"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00107] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String ' %{ms}T' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00117"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#117"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00117] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String true MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00122"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#122"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00122] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String 'Unable to start REST server' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00124"
- , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/rest/JsonRestServer.java.html#124"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00124] In the recursive method org.apache.kafka.trogdor.rest.JsonRestServer.start@POLYN202724 the MagicNumber/String 'REST server listening at ' MUST BE CONVERTED to const"
 }} 
 ]
 , 

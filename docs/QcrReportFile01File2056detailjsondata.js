@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html" 
- , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java 66 rule violations " 
+ , "texte" : "File streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java 57 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -252,42 +252,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.this" }
-,
-{ "ligne" :  "R1:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putAll@POLYN194494.entries" }
-,
-{ "ligne" :  "R2:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN193408.key" }
-,
-{ "ligne" :  "R3:org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN193408.value" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999995"
- , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV000004"
  , "c3" : "You must segregate your interface"
  , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -319,13 +289,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -339,13 +302,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#70"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00070] For method init arguments ProcessorContext  context|StateStore  root"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00070"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#70"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00070] For method init list of called methods Object monObjet|boolean StreamsConfig_InternalConfig_getBooleanN191497"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -430,13 +386,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#145"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00145] For method putIfAbsent arguments Bytes  key|byte[]  value"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00145"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#145"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00145] For method putIfAbsent list of called methods Object monObjet|byte[] getN193773"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -745,55 +694,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#238"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAVSOLIDL[00238] In the class InMemoryKeyValueStore which implements the interface(s) KeyValueStore<Bytes,byte[]>, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<Bytes,byte[]>"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putInternal@POLYN194023 ending with method org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN193408"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putInternal@POLYN194023"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN193408"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN193408 ending with method org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putInternal@POLYN194023"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.put@POLYN193408"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#1"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999995[00001] +--+--org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putInternal@POLYN194023"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00155"
- , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#155"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00155] In the recursive method org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.putInternal@POLYN194023 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html" 
- , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java 77 rule violations " 
+ , "texte" : "File connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java 76 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -190,13 +190,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -217,13 +210,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#73"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00073] For method start arguments Map&lt;String ,String &gt;  props"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00073"
- , "c1link" : "./qc/connect/file/src/main/java/org/apache/kafka/connect/file/FileStreamSourceTask.java.html#73"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00073] For method start list of called methods Object monObjet|int Integer_parseIntN187217"
 }} 
 ,
 { "ligne" : {"" : ""

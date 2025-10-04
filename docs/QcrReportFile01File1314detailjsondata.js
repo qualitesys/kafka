@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html" 
- , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 77 rule violations " 
+ , "texte" : "File metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java 60 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -152,35 +152,12 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "BLOCKER"
- , "c2" : "QC-JAV999993"
- , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
- , "c4" : "9"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "9"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "3"
 }}
 ,
 { "ligne" : { "" : ""
@@ -202,13 +179,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "5"
 }}
  ] 
 ,
@@ -316,13 +286,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00150] For method updateFeature arguments String  featureName|short  newVersion|FeatureUpdate.UpgradeType  upgradeType|Map&lt;Integer ,Map&lt;String ,VersionRange &gt; &gt;  brokersAndFeatures|List&lt;ApiMessageAndVersion &gt;  records"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00150"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#150"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00150] For method updateFeature list of called methods Object monObjet|java.util.Optional&lt;java.lang.String&gt; quorumFeatures_reasonNotSupportedN208270"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -466,13 +429,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00212"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#212"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00212] For method invalidUpdateVersion list of called methods Object monObjet|java.lang.String String_formatN210626"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#213"
  , "c2" : "MAJOR"
@@ -484,13 +440,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#221"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00221] For method updateMetadataVersion arguments short  newVersionLevel|boolean  allowUnsafeDowngrade|Consumer&lt;ApiMessageAndVersion &gt;  recordConsumer"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00221"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#221"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00221] For method updateMetadataVersion list of called methods Object monObjet|org.apache.kafka.server.common.MetadataVersion metadataVersionN211158"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -557,13 +506,6 @@ var maDataBlocs = {
 }} 
 ,
 { "ligne" : {"" : ""
- , "c1" : "00257"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#257"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00257] For method invalidMetadataVersion list of called methods Object monObjet|java.lang.String String_formatN212753"
-}} 
-,
-{ "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#258"
  , "c2" : "MAJOR"
@@ -582,13 +524,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#279"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00279] For method replay arguments FeatureLevelRecord  record"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00279"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#279"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00279] For method replay list of called methods Object monObjet|org.apache.kafka.metadata.VersionRange quorumFeatures_localSupportedFeatureN214035"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -666,90 +601,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#333"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00333] For method iterator arguments long  epoch"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN212629"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN210477"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00258"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#258"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00258] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidMetadataVersion@POLYN212629 the MagicNumber/String 'Invalid metadata.version %d. %s' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00231"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#231"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00231] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'Unknown metadata.version.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00238"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#238"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00238] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'Downgrading metadata.version from {} to {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00240"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#240"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00240] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'Downgrading metadata.version unsafely from {} to {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00242"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#242"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00242] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'Refusing to perform the requested ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00243"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#243"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00243] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'downgrade because it might delete metadata information. Retry using ' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00244"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#244"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00244] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'UNSAFE_DOWNGRADE if you want to force the downgrade to proceed.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00247"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#247"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00247] In the recursive method org.apache.kafka.controller.FeatureControlManager.updateMetadataVersion@POLYN210988 the MagicNumber/String 'Upgrading metadata.version from {} to {}.' MUST BE CONVERTED to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/controller/FeatureControlManager.java.html#213"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAV999993[00213] In the recursive method org.apache.kafka.controller.FeatureControlManager.invalidUpdateVersion@POLYN210477 the MagicNumber/String 'Invalid update version %d for feature %s. %s' MUST BE CONVERTED to const"
 }} 
 ]
 , 
