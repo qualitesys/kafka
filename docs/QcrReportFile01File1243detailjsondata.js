@@ -311,7 +311,7 @@ var maDataBlocs = {
  , "c1" : "00128"
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/KafkaExactlyOnceDemo.java.html#128"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00128] For method recreateTopics list of called methods Object monObjet|Admin Admin_createN188434"
+ , "c3" : "QC-JAV000007[00128] For method recreateTopics list of called methods Object monObjet|org.apache.kafka.clients.admin.Admin Admin_createN188434"
 }} 
 ,
 { "ligne" : {"" : ""

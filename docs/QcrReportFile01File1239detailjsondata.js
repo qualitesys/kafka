@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html" 
- , "texte" : "File core/src/main/scala/kafka/tools/StreamsResetter.java 192 rule violations " 
+ , "texte" : "File core/src/main/scala/kafka/tools/StreamsResetter.java 194 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -291,7 +291,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "6"
+ , "c4" : "8"
 }}
  ] 
 ,
@@ -357,6 +357,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#187"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00187] For method maybeDeleteActiveConsumers arguments String  groupId|Admin  adminClient"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00187"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#187"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00187] For method maybeDeleteActiveConsumers list of called methods Object monObjet|org.apache.kafka.clients.admin.DescribeConsumerGroupsResult adminClient_describeConsumerGroupsN276868"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -986,7 +993,7 @@ var maDataBlocs = {
  , "c1" : "00437"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#437"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00437] For method maybeReset list of called methods Object monObjet|long Utils_getDateTimeN292594|Map&lt;TopicPartition,Long&gt; getTopicPartitionOffsetFromResetPlanN293363"
+ , "c3" : "QC-JAV000007[00437] For method maybeReset list of called methods Object monObjet|long Utils_getDateTimeN292594|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; getTopicPartitionOffsetFromResetPlanN293363"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1056,7 +1063,7 @@ var maDataBlocs = {
  , "c1" : "00475"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#475"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00475] For method resetOffsetsFromResetPlan list of called methods Object monObjet|Map&lt;TopicPartition,Long&gt; checkOffsetRangeN294555"
+ , "c3" : "QC-JAV000007[00475] For method resetOffsetsFromResetPlan list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; checkOffsetRangeN294555"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1077,7 +1084,7 @@ var maDataBlocs = {
  , "c1" : "00489"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#489"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00489] For method getTopicPartitionOffsetFromResetPlan list of called methods Object monObjet|String Utils_readFileAsStringN295041"
+ , "c3" : "QC-JAV000007[00489] For method getTopicPartitionOffsetFromResetPlan list of called methods Object monObjet|java.lang.String Utils_readFileAsStringN295041"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1147,7 +1154,7 @@ var maDataBlocs = {
  , "c1" : "00528"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#528"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00528] For method shiftOffsetsBy list of called methods Object monObjet|Map&lt;TopicPartition,Long&gt; checkOffsetRangeN298200"
+ , "c3" : "QC-JAV000007[00528] For method shiftOffsetsBy list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; checkOffsetRangeN298200"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1175,7 +1182,7 @@ var maDataBlocs = {
  , "c1" : "00550"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#550"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00550] For method resetOffsetsTo list of called methods Object monObjet|Map&lt;TopicPartition,Long&gt; checkOffsetRangeN299394"
+ , "c3" : "QC-JAV000007[00550] For method resetOffsetsTo list of called methods Object monObjet|java.util.Map&lt;org.apache.kafka.common.TopicPartition,java.lang.Long&gt; checkOffsetRangeN299394"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1203,7 +1210,7 @@ var maDataBlocs = {
  , "c1" : "00570"
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#570"
  , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00570] For method parseResetPlan list of called methods Object monObjet|int Integer_parseIntN300782|long Long_parseLongN300914"
+ , "c3" : "QC-JAV000007[00570] For method parseResetPlan list of called methods Object monObjet|java.lang.String[] resetPlanCsv_splitN300219|java.lang.String[] line_splitN300405|int Integer_parseIntN300782|long Long_parseLongN300914"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1442,6 +1449,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#656"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00656] For method doDelete arguments List&lt;String &gt;  topicsToDelete|Admin  adminClient"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00656"
+ , "c1link" : "./qc/core/src/main/scala/kafka/tools/StreamsResetter.java.html#656"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00656] For method doDelete list of called methods Object monObjet|org.apache.kafka.clients.admin.DeleteTopicsResult adminClient_deleteTopicsN305021|java.util.Map&lt;java.lang.String,org.apache.kafka.common.KafkaFuture&lt;java.lang.Void&gt;&gt; deleteTopicsResult_topicNameValuesN305180"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html" 
- , "texte" : "File examples/src/main/java/kafka/examples/Consumer.java 21 rule violations " 
+ , "texte" : "File examples/src/main/java/kafka/examples/Consumer.java 22 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -113,6 +113,13 @@ var maDataBlocs = {
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
  , "c4" : "20"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "1"
+}}
  ] 
 ,
 "data13b" : [
@@ -191,6 +198,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#59"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00059] In method kafka.examples.Consumer.Consumer@POLYN165155 the MagicNumber/String  'earliest' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00073"
+ , "c1link" : "./qc/examples/src/main/java/kafka/examples/Consumer.java.html#73"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00073] For method doWork list of called methods Object monObjet|java.util.List&lt;org.apache.kafka.clients.ClientResponse&gt; consumer_pollN167532"
 }} 
 ,
 { "ligne" : {"" : ""

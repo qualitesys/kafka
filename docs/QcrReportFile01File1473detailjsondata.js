@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Character.java.html" 
- , "texte" : "File secujava/java.lang.Character.java 216 rule violations " 
+ , "texte" : "File secujava/java.lang.Character.java 215 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -924,7 +924,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "2"
+ , "c4" : "1"
 }}
  ] 
 ,
@@ -1263,13 +1263,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04772] For method codePointBefore arguments CharSequence  seq|int  index"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04772"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04772] For method codePointBefore list of called methods Object monObjet|int seq_charAtN1346137"
 }} 
 ,
 { "ligne" : {"" : ""
