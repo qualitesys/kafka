@@ -18681,20 +18681,1339 @@ var datadependCallerContainsCla = { "lesdatas" : [
 ]
  , "lescycles" : [ 
 { "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.storage.SimpleHeaderConverter" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.SchemaAndValue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.ConfigurableProducerWorker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.ConfigurableProducerSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.timeline.SnapshotRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.BrokerHeartbeatManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StandbyTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record.LazyDownConversionRecordsSend" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.record.RecordConversionStats" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ConfigurationsDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.ConfigurationsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record.MemoryRecordsBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.record.MemoryRecords" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.FetchSessionHandler" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.requests.FetchMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ClientQuotasDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.ClientQuotasImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ClientQuotaDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.ClientQuotaImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.Heartbeat" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.TimestampedSegments" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.Metadata" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.resource.Resource" , "annotations" : "@InterfaceStability.Evolving "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.NamedCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.WorkerGroupMember" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.Metadata" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.AclsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.common.ProducerIdsBlock" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.BrokerRegistration" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors.LogReporter" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.RepartitionTopics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.TaskManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark" , "annotations" : "@State(Scope.Benchmark) @Fork(value=1) @Warmup(iterations=5) @Measurement(iterations=15) @BenchmarkMode(Mode.AverageTime) @OutputTimeUnit(TimeUnit.MILLISECONDS) "} ,
+{ "etape" : "org.apache.kafka.common.requests.RequestContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.network.ClientInformation" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.storage.KafkaStatusBackingStore" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.FeatureControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.controller.QuorumFeatures" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.metadata.VersionRange" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.DistributedHerder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.coordinator.TaskManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.KafkaStreams" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.WorkerCoordinator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.storage.ClusterConfigState" , "annotations" : ""} ,
 { "etape" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.TimeIntervalTransactionsGenerator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.QuorumFeatures" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.metadata.VersionRange" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.TopicImage" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.authenticator.SaslClientAuthenticator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.network.NetworkReceive" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.KafkaProducerMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ConfigurationImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.TransactionManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerMetricsGroup" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.shell.InteractiveShell" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.shell.MetadataNodeManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.queue.KafkaEventQueue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.ProducerBatch" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.record.MemoryRecordsBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.record.MemoryRecords" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.VersionConditional" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Struct" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.AbstractHerder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
 ] } ,
 { "uncycle" : [ 
 { "etape" : "org.apache.kafka.common.protocol.types.Struct" , "annotations" : ""} ,
 { "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.SchemaBuilder" , "annotations" : ""} ,
+{ "etape" : "java.lang.Boolean" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.requests.FetchMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.internals.Heartbeat" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensionsCallback" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.FieldSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.agent.Agent" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors.ProcessingContext" , "annotations" : ""} ,
+{ "etape" : "java.lang.Throwable" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.raft.QuorumState" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "kafka.server.builders.KafkaApisBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.TaskExecutor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.Tasks" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.ActiveTaskCreator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.PartitionGroup" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.KeyQueryMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ConfigurationValidator" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.MessageDataGenerator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.SchemaGenerator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ControllerRequestContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ProducerIdControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.controller.ClusterControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.raft.LeaderAndEpoch" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.RocksDBStore" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.metadata.MetadataRequestBenchmark" , "annotations" : "@State(Scope.Benchmark) @Fork(value=1) @Warmup(iterations=5) @Measurement(iterations=15) @BenchmarkMode(Mode.AverageTime) @OutputTimeUnit(TimeUnit.NANOSECONDS) "} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Time" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.token.delegation.DelegationToken" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.security.token.delegation.TokenInformation" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.coordinator.Coordinator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.RecordAccumulator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.producer.internals.BufferPool" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.ChangelogTopics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.InternalTopicManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.requests.RequestContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.network.ClientInformation" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorSourceConnector" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.acl.AclBindingFilter" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.acl.AccessControlEntryFilter" , "annotations" : "@InterfaceStability.Evolving "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.tools.PushHttpMetricsReporter" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.raft.internals.KafkaRaftMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record.LazyDownConversionRecords" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ConfigurationControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.controller.ConfigurationValidator" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.VersionRange" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.Target" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.FieldSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark" , "annotations" : "@State(Scope.Benchmark) @Fork(value=1) @Warmup(iterations=5) @Measurement(iterations=15) @BenchmarkMode(Mode.AverageTime) @OutputTimeUnit(TimeUnit.NANOSECONDS) "} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.authenticator.SaslServerAuthenticator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.network.NetworkReceive" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.InMemorySessionStore" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.Checkpoint" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.MockProcessorContext" , "annotations" : "@SuppressWarnings(\"deprecation\") "} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ProducerIdsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.ProduceBenchSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ClientQuotasImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.StreamsMetadata" , "annotations" : "@Deprecated "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.SchemaGenerator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.TopicsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.memory.SimpleMemoryPool" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.ProducerMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.producer.internals.SenderMetricsRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Date" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.authorizer.StandardAclWithId" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.internals.AbstractCoordinator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.Metadata" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.KeyValueSegments" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.ReauthenticationContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.network.NetworkReceive" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.RecordDeserializer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.HerderConnectorContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.AbstractHerder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.utils.BufferSupplier" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.BrokersToIsrs" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.SnapshotRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ClientQuotaImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.RoundTripWorkloadSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "kafka.server.builders.ReplicaManagerBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.shell.MetadataNodeManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.queue.KafkaEventQueue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StandbyTaskCreator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.util.SnapshotFileReader" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.metadata.MetadataRecordSerde" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslServer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.QuorumController" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Values" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.ProduceBenchWorker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.ProduceBenchSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.coordinator.NodeManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.storage.MemoryConfigBackingStore" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ClusterDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.ClusterImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Field" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.cli.ConnectDistributed" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.OptionalStringComparator" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.fault.Kibosh" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.NetworkClient" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark" , "annotations" : "@State(Scope.Benchmark) @Fork(value=1) @Warmup(iterations=5) @Measurement(iterations=15) @BenchmarkMode(Mode.AverageTime) @OutputTimeUnit(TimeUnit.MICROSECONDS) "} ,
+{ "etape" : "org.apache.kafka.clients.admin.KafkaAdminClient" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.clients.admin.internals.AdminMetadataManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "kafka.examples.Producer" , "annotations" : ""} ,
+{ "etape" : "java.lang.Boolean" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.resource.ResourcePatternFilter" , "annotations" : "@InterfaceStability.Evolving "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ReplicationControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.controller.BrokersToIsrs" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.SnapshotRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.IsNullConditional" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.acl.AccessControlEntryFilter" , "annotations" : "@InterfaceStability.Evolving "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.storage.ClusterConfigState" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.MessageSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.StructSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record.EndTransactionMarker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record.MemoryRecords" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "java.lang.Throwable" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.Selector" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Timestamp" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.KafkaConfigSchema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.metrics.QuotaViolationException" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.KafkaMetric" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.AclsDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.AclsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.ClientInformation" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.timeline.TimelineInteger" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.SnapshotRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.TopologyTestDriver" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.CooperativeStickyAssignor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.ConnectionStressWorker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ConfigurationsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "java.lang.Boolean" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.MetadataDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.AclsDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.AclsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.RoundTripWorker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.RoundTripWorkloadSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.server.PartitionCreationBench" , "annotations" : "@Warmup(iterations=5) @Measurement(iterations=5) @Fork(3) @BenchmarkMode(Mode.AverageTime) @State(value=Scope.Benchmark) "} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.ConnectMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.ConsumerGroupDescription" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.requests.ApiError" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamThread" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
 ] } ,
 { "uncycle" : [ 
 { "etape" : "org.apache.kafka.connect.runtime.WorkerSinkTaskContext" , "annotations" : ""} ,
 { "etape" : "org.apache.kafka.connect.runtime.WorkerSinkTask" , "annotations" : ""} ,
 ] } ,
 { "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ConfigurationDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.ConfigurationImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.header.ConnectHeader" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.SchemaAndValue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorMaker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.FeaturesImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.storage.KafkaConfigBackingStore" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.KafkaChannel" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.SchemaAndValue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StateDirectory" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.PartitionInfo" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamsPartitionAssignor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.TopicDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.TopicImage" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorSourceTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.DefaultStateUpdater" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "kafka.server.builders.LogManagerBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.storage.ClusterConfigState" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.AbstractWorkerSourceTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.storage.ClusterConfigState" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.Worker" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.authorizer.StandardAuthorizer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.metadata.authorizer.StandardAuthorizerData" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.KafkaAdminClient" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.clients.admin.internals.AdminMetadataManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.ThreadCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.record.RecordConversionStats" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.requests.FetchRequest" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.requests.FetchMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.InMemoryWindowStore" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.timeline.TimelineLong" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.SnapshotRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.FeaturesDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.FeaturesImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.DefaultChannelMetadataRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.network.ClientInformation" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.InternalTopicManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.file.FileStreamSourceTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.metrics.KafkaMetric" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.ProducerMetadata" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.RecordQueue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.shell.MetadataShell" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.metadata.util.SnapshotFileReader" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.metadata.MetadataRecordSerde" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.TopicPartitionInfo" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.ChannelState" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.basic.BasicPlatform" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.GlobalStateManagerImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamThread" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.SaslExtensions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.consumer.StickyAssignor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.FutureRecordMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamsProducer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.fetchsession.FetchSessionBenchmark" , "annotations" : "@State(Scope.Benchmark) @Fork(value=1) @Warmup(iterations=5) @Measurement(iterations=10) @BenchmarkMode(Mode.AverageTime) @OutputTimeUnit(TimeUnit.NANOSECONDS) "} ,
+{ "etape" : "org.apache.kafka.clients.FetchSessionHandler" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.requests.FetchMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.ActiveTaskCreator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.BufferPool" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.Tasks" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.ActiveTaskCreator" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.util.TopicCreation" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.PartitionChangeBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.token.delegation.TokenInformation" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ClusterControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.GlobalStreamThread" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.server.CheckpointBench" , "annotations" : "@Warmup(iterations=5) @Measurement(iterations=5) @Fork(3) @OutputTimeUnit(TimeUnit.MILLISECONDS) @State(value=Scope.Benchmark) "} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.protocol.types.RawTaggedFieldWriter" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.jmh.common.FetchRequestBenchmark" , "annotations" : "@State(Scope.Benchmark) @Fork(value=1) @Warmup(iterations=5) @Measurement(iterations=15) @BenchmarkMode(Mode.AverageTime) @OutputTimeUnit(TimeUnit.NANOSECONDS) "} ,
+{ "etape" : "org.apache.kafka.common.requests.FetchRequest" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.requests.FetchMetadata" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.utils.Timer" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.internals.AdminMetadataManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.message.StructSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.message.Versions" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.BufferSupplier" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.MetadataImage" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.AclsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.AbstractTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.streams.processor.internals.StateDirectory" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.acl.AclBindingFilter" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.acl.AccessControlEntryFilter" , "annotations" : "@InterfaceStability.Evolving "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.queue.KafkaEventQueue" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.agent.WorkerManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId" , "annotations" : "@InterfaceStability.Evolving "} ,
+{ "etape" : "org.apache.kafka.common.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.controller.ClientQuotaControlManager" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.SnapshotRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.timeline.Snapshot" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.TopicIdPartition" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.tools.TransactionsCommand" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.authorizer.AclCreateResult" , "annotations" : "@InterfaceStability.Evolving "} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.ProducerIdAndEpoch" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.kerberos.KerberosLogin" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.rest.Empty" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.ClusterImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.Metadata" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.MetadataCache" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Cluster" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Node" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.TopicDescription" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.SenderMetricsRegistry" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.producer.internals.Sender" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.clients.producer.internals.ProducerMetadata" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.authorizer.StandardAuthorizerData" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.security.auth.KafkaPrincipal" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.NetworkReceive" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.memory.MemoryPool" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
 { "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
 { "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StreamsRebalanceListener" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.network.SaslChannelBuilder" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredValidatorCallbackHandler" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.runtime.WorkerTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.clients.admin.TopicListing" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.Uuid" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.tools.SchemaSourceTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.utils.ProducerIdAndEpoch" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.data.ConnectSchema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.connect.data.Schema" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.StoreChangelogReader" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.trogdor.workload.ConfigurableProducerSpec" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.trogdor.workload.TopicsSpec" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.processor.internals.RecordCollectorImpl" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Sensor" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.metrics.Metrics" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.metadata.MetadataRecordSerde" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Time" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.common.errors.DisconnectException" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.image.TopicsDelta" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.image.TopicsImage" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.OffsetSync" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.Schema" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.protocol.types.BoundField" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask" , "annotations" : ""} ,
+{ "etape" : "org.apache.kafka.common.utils.Scheduler" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "org.apache.kafka.server.metrics.KafkaYammerMetrics" , "annotations" : ""} ,
 ] } ,
 ]
  , "lesclassesversclassecontenue" : [ 

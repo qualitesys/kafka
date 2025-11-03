@@ -18,7 +18,24 @@ var datadependCallerCalleePkg = { "lesdatas" : [
 ]
  , "lescycles" : [ 
 { "uncycle" : [ 
+{ "etape" : "kafka.tools" , "annotations" : ""} ,
 { "etape" : "java.lang" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "java.net" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "java.lang" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "java.lang.String" , "annotations" : ""} ,
+{ "etape" : "java.lang" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
+{ "etape" : "secujava" , "annotations" : ""} ,
+{ "etape" : "java.lang" , "annotations" : ""} ,
+] } ,
+{ "uncycle" : [ 
 { "etape" : "java.io" , "annotations" : ""} ,
 ] } ,
 ]
