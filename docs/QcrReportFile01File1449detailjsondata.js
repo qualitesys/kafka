@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedInputStream.java.html" 
- , "texte" : "File secujava/java.io.BufferedInputStream.java 61 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedInputStream.java 62 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -180,7 +180,26 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:java.io.BufferedInputStream.this" }
+,
+{ "ligne" :  "R1:java.io.BufferedInputStream.mark@POLYN259755.readlimit" }
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAVCWE481"
@@ -650,6 +669,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#482"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00482] In method java.io.BufferedInputStream.close@POLYN261510 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.BufferedInputStream.available@POLYN259132"
 }} 
 ]
 , 

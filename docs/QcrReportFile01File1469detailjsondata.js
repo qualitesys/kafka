@@ -151,9 +151,78 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1469Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1469&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.Reader.read@POLYN193964.return" , "java.io.Reader.read@POLYN193964.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00100]"
+ , "c3" : ["java.io.Reader.read@POLYN193964.return" , "---java.io.Reader.read@POLYN193964" , "java.io.Reader.read@POLYN192966.n"]
+ , "c4" : "//QC-JAVCWZ099[00100] In java.io.Reader.read@POLYN192966[00100] source data PATHtainted (java.io.Reader.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00102]"
+ , "c3" : ["java.io.Reader.read@POLYN192966.n" , "---java.io.Reader.read@POLYN192966.dummymethode_00102" , "java.io.Reader.read@POLYN192966.cibledummy_00102"]
+ , "c4" : "//QC-JAVCWZ099[00102] In java.io.Reader.read@POLYN192966[00102] source data PATHtainted (java.io.Reader.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00122]"
+ , "c3" : ["java.io.Reader.read@POLYN193964.-1" , "---java.io.Reader.read@POLYN193964.dummymethode_00122" , "java.io.Reader.read@POLYN193964.return"]
+ , "c4" : "//QC-JAVCWZ099[00122] In java.io.Reader.read@POLYN193964[00122] source data PATHtainted (java.io.Reader.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [

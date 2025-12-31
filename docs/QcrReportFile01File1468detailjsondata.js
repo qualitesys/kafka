@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PrintWriter.java.html" 
- , "texte" : "File secujava/java.io.PrintWriter.java 84 rule violations " 
+ , "texte" : "File secujava/java.io.PrintWriter.java 89 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -475,9 +475,70 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1468Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1468&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.print@POLYN359787.'null'" , "java.io.PrintWriter.print@POLYN359787.cibledummy_00603"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00601]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN359787.'null'" , "---java.io.PrintWriter.print@POLYN359787.dummymethode_00601" , "java.io.PrintWriter.print@POLYN359787.s"]
+ , "c4" : "//QC-JAVCWZ099[00601] In java.io.PrintWriter.print@POLYN359787[00601] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00603]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN359787.s" , "---java.io.PrintWriter.print@POLYN359787.dummymethode_00603" , "java.io.PrintWriter.print@POLYN359787.cibledummy_00603"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN359787[00603] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -486,7 +547,31 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:java.io.Writer.lock" }
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
@@ -1103,6 +1188,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#1062"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[01062] For method append arguments char  c"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintWriter.checkError@POLYN351722"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintWriter.write@POLYN355288"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00356"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#356"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00356] In the recursive method java.io.PrintWriter.checkError@POLYN351722 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00362"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#362"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00362] In the recursive method java.io.PrintWriter.checkError@POLYN351722 the MagicNumber/String null MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00473"
+ , "c1link" : "./qc/secujava/java.io.PrintWriter.java.html#473"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00473] In the recursive method java.io.PrintWriter.write@POLYN355288 the MagicNumber/String 0 MUST BE CONVERTED to const"
 }} 
 ]
 , 

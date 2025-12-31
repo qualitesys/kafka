@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.String.java.html" 
- , "texte" : "File secujava/java.lang.String.java 269 rule violations " 
+ , "texte" : "File secujava/java.lang.String.java 271 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -819,12 +819,28 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+]
+,
+"data12b" : [
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "16"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -2738,6 +2754,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method valueOf arguments double  d"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toLowerCase@POLYN904477"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.String.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.toUpperCase@POLYN912302"
 }} 
 ]
 , 

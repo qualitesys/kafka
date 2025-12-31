@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Throwable.java.html" 
- , "texte" : "File secujava/java.lang.Throwable.java 89 rule violations " 
+ , "texte" : "File secujava/java.lang.Throwable.java 93 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -277,9 +277,244 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1487Seq1.html#seq1"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1487&numSeq=1"
+ , "c2" : "1"
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["java.lang.Throwable.Throwable@POLYN372776.message" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1487Seq2.html#seq2"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1487&numSeq=2"
+ , "c2" : "2"
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["java.lang.Throwable.Throwable@POLYN373473.message" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1487Seq3.html#seq3"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1487&numSeq=3"
+ , "c2" : "3"
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["java.lang.Throwable.Throwable@POLYN375903.message" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
 ]
 ,
 "data09b" : [
+{ "sequence" : { 
+ "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00272]"
+ , "c3" : ["java.lang.Throwable.Throwable@POLYN372776.message" , "---java.lang.Throwable.Throwable@POLYN372776.dummymethode_00272" , "java.lang.Throwable.detailMessage"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00397]"
+ , "c3" : ["java.lang.Throwable.getMessage@POLYN376577.return" , "---java.lang.Throwable.getMessage@POLYN376577" , "java.lang.Throwable.getLocalizedMessage@POLYN376905.return"]
+ , "c4" : "//QC-JAVCWZ078[00397] In java.lang.Throwable.getLocalizedMessage@POLYN376905[00397] target data OSTainted (java.lang.Throwable.getMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00383]"
+ , "c3" : ["java.lang.Throwable.detailMessage" , "---java.lang.Throwable.getMessage@POLYN376577.dummymethode_00383" , "java.lang.Throwable.getMessage@POLYN376577.return"]
+ , "c4" : "//QC-JAVCWZ078[00383] In java.lang.Throwable.getMessage@POLYN376577[00383] target data OSTainted (java.lang.Throwable.getMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00496]"
+ , "c3" : ["java.lang.Throwable.getLocalizedMessage@POLYN376905.return" , "---java.lang.Throwable.getLocalizedMessage@POLYN376905" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c4" : "//QC-JAVCWZ078[00496] In java.lang.Throwable.toString@POLYN380143[00496] target data OSTainted (java.lang.Throwable.getLocalizedMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00294]"
+ , "c3" : ["java.lang.Throwable.Throwable@POLYN373473.message" , "---java.lang.Throwable.Throwable@POLYN373473.dummymethode_00294" , "java.lang.Throwable.detailMessage"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00397]"
+ , "c3" : ["java.lang.Throwable.getMessage@POLYN376577.return" , "---java.lang.Throwable.getMessage@POLYN376577" , "java.lang.Throwable.getLocalizedMessage@POLYN376905.return"]
+ , "c4" : "//QC-JAVCWZ078[00397] In java.lang.Throwable.getLocalizedMessage@POLYN376905[00397] target data OSTainted (java.lang.Throwable.getMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00383]"
+ , "c3" : ["java.lang.Throwable.detailMessage" , "---java.lang.Throwable.getMessage@POLYN376577.dummymethode_00383" , "java.lang.Throwable.getMessage@POLYN376577.return"]
+ , "c4" : "//QC-JAVCWZ078[00383] In java.lang.Throwable.getMessage@POLYN376577[00383] target data OSTainted (java.lang.Throwable.getMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00496]"
+ , "c3" : ["java.lang.Throwable.getLocalizedMessage@POLYN376905.return" , "---java.lang.Throwable.getLocalizedMessage@POLYN376905" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c4" : "//QC-JAVCWZ078[00496] In java.lang.Throwable.toString@POLYN380143[00496] target data OSTainted (java.lang.Throwable.getLocalizedMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "3" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00370]"
+ , "c3" : ["java.lang.Throwable.Throwable@POLYN375903.message" , "---java.lang.Throwable.Throwable@POLYN375903.dummymethode_00370" , "java.lang.Throwable.detailMessage"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00397]"
+ , "c3" : ["java.lang.Throwable.getMessage@POLYN376577.return" , "---java.lang.Throwable.getMessage@POLYN376577" , "java.lang.Throwable.getLocalizedMessage@POLYN376905.return"]
+ , "c4" : "//QC-JAVCWZ078[00397] In java.lang.Throwable.getLocalizedMessage@POLYN376905[00397] target data OSTainted (java.lang.Throwable.getMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00383]"
+ , "c3" : ["java.lang.Throwable.detailMessage" , "---java.lang.Throwable.getMessage@POLYN376577.dummymethode_00383" , "java.lang.Throwable.getMessage@POLYN376577.return"]
+ , "c4" : "//QC-JAVCWZ078[00383] In java.lang.Throwable.getMessage@POLYN376577[00383] target data OSTainted (java.lang.Throwable.getMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00496]"
+ , "c3" : ["java.lang.Throwable.getLocalizedMessage@POLYN376905.return" , "---java.lang.Throwable.getLocalizedMessage@POLYN376905" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c4" : "//QC-JAVCWZ078[00496] In java.lang.Throwable.toString@POLYN380143[00496] target data OSTainted (java.lang.Throwable.getLocalizedMessage) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -288,12 +523,55 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
+"data12a" : [
+{ "ligne" :  "R0:java.lang.Throwable.this" }
+,
+{ "ligne" :  "R1:java.lang.Throwable.writeObject@POLYN397822.s" }
+,
+{ "ligne" :  "R2:java.lang.Throwable.addSuppressed@POLYN399877.exception" }
+]
+,
+"data12b" : [
+{ "sequence" : { "noseq" : "0" , "pas" : [
+{ "ligne" : "S0:java.lang.Throwable.writeObject@POLYN397822 (R0 in line [01002],R1 in line [01002])" }
+,
+{ "ligne" : "S0:java.lang.Throwable.getOurStackTrace@POLYN391841 (R0 in line [00834])" }
+,
+{ "ligne" : "S0:java.lang.Throwable.getOurStackTrace@POLYN391841.dummymethode_00839" }
+ ]
+ } }
+,
+{ "sequence" : { "noseq" : "1" , "pas" : [
+{ "ligne" : "S1:java.lang.Throwable.addSuppressed@POLYN399877 (R0 in line [01070],R2 in line [01070])" }
+,
+{ "ligne" : "S1:java.lang.Throwable.addSuppressed@POLYN399877.dummymethode_01074" }
+ ]
+ } }
+]
+,
+"data12c" : [
+]
+, 
 "data13a" : [
+{ "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAVCWE833"
+ , "c3" : "Potential deadlock between at least two ressources"
+ , "c4" : "3"
+}}
+,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
  , "c4" : "3"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "CRITICAL"
+ , "c2" : "QC-JAV999994"
+ , "c3" : "Recursivity with depth  1 for method xx"
+ , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -954,6 +1232,34 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1104"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[01104] In method java.lang.Throwable.getSuppressed@POLYN401031 the MagicNumber/String  null should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : java.lang.Throwable.this"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : java.lang.Throwable.writeObject@POLYN397822.s"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : java.lang.Throwable.addSuppressed@POLYN399877.exception"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printStackTrace@POLYN388874"
 }} 
 ]
 , 
