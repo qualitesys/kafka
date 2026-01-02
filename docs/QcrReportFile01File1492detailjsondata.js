@@ -619,7 +619,7 @@ var maDataBlocs = {
  , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["null" , "java.net.Socket.getInputStream@POLYN494697.return"]
+ , "c5" : ["java.net.Socket.Socket@POLYN479635.address" , "java.net.Socket.connect@POLYN483414.cibledummy_00518"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -634,7 +634,7 @@ var maDataBlocs = {
  , "c2" : "4"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["0" , "java.net.Socket.getReceiveBufferSize@POLYN508350.return"]
+ , "c5" : ["java.net.Socket.connect@POLYN483414.0" , "java.net.Socket.connect@POLYN484064.cibledummy_00568"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -647,6 +647,81 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1492Seq5.html#seq5"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=5"
  , "c2" : "5"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.Socket@POLYN479635.stream" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1492Seq6.html#seq6"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=6"
+ , "c2" : "6"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.connect@POLYN484064.true" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1492Seq7.html#seq7"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=7"
+ , "c2" : "7"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.createImpl@POLYN480565.stream" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1492Seq8.html#seq8"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=8"
+ , "c2" : "8"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["null" , "java.net.Socket.getInputStream@POLYN494697.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1492Seq9.html#seq9"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=9"
+ , "c2" : "9"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["0" , "java.net.Socket.getReceiveBufferSize@POLYN508350.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1492Seq10.html#seq10"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1492&numSeq=10"
+ , "c2" : "10"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["true" , "java.net.Socket.isClosed@POLYN519021.return"]
@@ -776,6 +851,246 @@ var maDataBlocs = {
  "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
+ , "sourcenoligne" : "[00415]"
+ , "c3" : ["java.net.Socket.Socket@POLYN479635.address" , "---java.net.Socket.connect@POLYN483414" , "java.net.Socket.connect@POLYN483414.endpoint"]
+ , "c4" : "//QC-JAVCWZ099[00415] In java.net.Socket.Socket@POLYN479635[00415] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00518]"
+ , "c3" : ["java.net.Socket.connect@POLYN483414.endpoint" , "---java.net.Socket.connect@POLYN484064" , "java.net.Socket.connect@POLYN483414.cibledummy_00518"]
+ , "c4" : "//QC-JAVCWZ099[00518] In java.net.Socket.connect@POLYN483414[00518] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "4" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00518]"
+ , "c3" : ["java.net.Socket.connect@POLYN483414.0" , "---java.net.Socket.connect@POLYN484064" , "java.net.Socket.connect@POLYN484064.timeout"]
+ , "c4" : "//QC-JAVCWZ099[00518] In java.net.Socket.connect@POLYN483414[00518] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00568]"
+ , "c3" : ["java.net.Socket.connect@POLYN484064.timeout" , "---java.net.Socket.connect@POLYN484064.dummymethode_00568" , "java.net.Socket.connect@POLYN484064.cibledummy_00568"]
+ , "c4" : "//QC-JAVCWZ099[00568] In java.net.Socket.connect@POLYN484064[00568] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "5" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00411]"
+ , "c3" : ["java.net.Socket.Socket@POLYN479635.stream" , "---java.net.Socket.createImpl@POLYN480565" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c4" : "//QC-JAVCWZ099[00411] In java.net.Socket.Socket@POLYN479635[00411] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00434]"
+ , "c3" : ["java.net.Socket.createImpl@POLYN480565.stream" , "---java.net.Socket.createImpl@POLYN480565.dummymethode_00434" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN480565[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "6" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00566]"
+ , "c3" : ["java.net.Socket.connect@POLYN484064.true" , "---java.net.Socket.createImpl@POLYN480565" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c4" : "//QC-JAVCWZ099[00566] In java.net.Socket.connect@POLYN484064[00566] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00434]"
+ , "c3" : ["java.net.Socket.createImpl@POLYN480565.stream" , "---java.net.Socket.createImpl@POLYN480565.dummymethode_00434" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN480565[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "7" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00434]"
+ , "c3" : ["java.net.Socket.createImpl@POLYN480565.stream" , "---java.net.Socket.createImpl@POLYN480565.dummymethode_00434" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN480565[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00500]"
+ , "c3" : ["java.net.Socket.getImpl@POLYN482896.true" , "---java.net.Socket.createImpl@POLYN480565" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c4" : "//QC-JAVCWZ099[00500] In java.net.Socket.getImpl@POLYN482896[00500] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "8" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
  , "sourcenoligne" : "[00001]"
  , "c3" : ["null" , "---java.net.Socket.getInputStream@POLYN494697.dummymethode_00001" , "java.net.Socket.getInputStream@POLYN494697.is"]
  , "c4" : "//QC-JAVCWE099[00001] In java.net.Socket.getInputStream@POLYN494697[00001] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
@@ -821,7 +1136,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "4" , "contenu" : [ 
+ "seq" : "9" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
@@ -869,7 +1184,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "5" , "contenu" : [ 
+ "seq" : "10" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"

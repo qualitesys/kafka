@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Character.java.html" 
- , "texte" : "File secujava/java.lang.Character.java 219 rule violations " 
+ , "texte" : "File secujava/java.lang.Character.java 222 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -919,7 +919,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "4"
+ , "c4" : "6"
 }}
 ,
 { "ligne" : { "" : ""
@@ -940,7 +940,7 @@ var maDataBlocs = {
  , "c1" : "MINOR"
  , "c2" : "QC-JAV000007"
  , "c3" : "List of methods called in the body"
- , "c4" : "1"
+ , "c4" : "2"
 }}
  ] 
 ,
@@ -1279,6 +1279,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04772] For method codePointBefore arguments CharSequence  seq|int  index"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "04772"
+ , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[04772] For method codePointBefore list of called methods Object monObjet|int seq_charAtN1346137"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2448,6 +2455,20 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#7027"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[07027] In method java.lang.Character.getName@POLYN1426238 the MagicNumber/String  ' ' should be converted to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.isJavaIdentifierStart@POLYN1386254"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.isJavaIdentifierPart@POLYN1388394"
 }} 
 ,
 { "ligne" : {"" : ""

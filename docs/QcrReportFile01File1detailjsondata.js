@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/aa__all_files.java.html" 
- , "texte" : "File aa__all_files.java 168 rule violations " 
+ , "texte" : "File aa__all_files.java 313 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -47,9 +47,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=1"
  , "c2" : "1"
- , "c3" : "4"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedReader.nChars" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
+ , "c3" : "5"
+ , "c4" : "3"
+ , "c5" : ["java.io.ObjectInputStream.readArray@POLYN851753.false" , "java.io.ObjectInputStream.validateDescriptor@POLYN942447.cibledummy_03866"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -62,9 +62,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq2.html#seq2"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=2"
  , "c2" : "2"
- , "c3" : "4"
- , "c4" : "2"
- , "c5" : ["0" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
+ , "c3" : "5"
+ , "c4" : "3"
+ , "c5" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared" , "java.io.ObjectInputStream.validateDescriptor@POLYN942447.cibledummy_03866"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -78,8 +78,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=3"
  , "c2" : "3"
  , "c3" : "4"
- , "c4" : "3"
- , "c5" : ["java.io.BufferedInputStream.read@POLYN252602.-1" , "java.io.ObjectInputStream.read@POLYN815528.return"]
+ , "c4" : "2"
+ , "c5" : ["java.io.BufferedReader.nChars" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -93,8 +93,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=4"
  , "c2" : "4"
  , "c3" : "4"
- , "c4" : "4"
- , "c5" : ["java.io.ObjectInputStream.readNull@POLYN841427.null" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
+ , "c4" : "2"
+ , "c5" : ["0" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -108,8 +108,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=5"
  , "c2" : "5"
  , "c3" : "4"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.checkResolve@POLYN839446.obj" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
+ , "c4" : "3"
+ , "c5" : ["java.io.BufferedInputStream.read@POLYN252602.-1" , "java.io.ObjectInputStream.read@POLYN815528.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -123,8 +123,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=6"
  , "c2" : "6"
  , "c3" : "4"
- , "c4" : "3"
- , "c5" : ["java.lang.Throwable.Throwable@POLYN372776.message" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectInputStream.readNull@POLYN841427.null" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -138,8 +138,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=7"
  , "c2" : "7"
  , "c3" : "4"
- , "c4" : "3"
- , "c5" : ["java.lang.Throwable.Throwable@POLYN373473.message" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectInputStream.readHandle@POLYN841813.obj" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -153,8 +153,8 @@ var maDataBlocs = {
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=8"
  , "c2" : "8"
  , "c3" : "4"
- , "c4" : "3"
- , "c5" : ["java.lang.Throwable.Throwable@POLYN375903.message" , "java.lang.Throwable.toString@POLYN380143.message"]
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectInputStream.readClass@POLYN843113.cl" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -167,9 +167,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq9.html#seq9"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=9"
  , "c2" : "9"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.io.ObjectInputStream.readFields@POLYN803861.curDesc" , "java.io.ObjectInputStream.readFields@POLYN803861.return"]
+ , "c3" : "4"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.checkResolve@POLYN839446.obj" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -182,9 +182,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq10.html#seq10"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=10"
  , "c2" : "10"
- , "c3" : "3"
+ , "c3" : "4"
  , "c4" : "3"
- , "c5" : ["java.io.BufferedReader.readLine@POLYN249958.null" , "java.io.ObjectInputStream.readLine@POLYN822158.return"]
+ , "c5" : ["java.lang.Object.getClass@POLYN297531.return" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.cibledummy_01427"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -197,9 +197,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq11.html#seq11"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=11"
  , "c2" : "11"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN815099.desc" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN848497.cibledummy_01843"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.cl" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.cibledummy_01427"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -212,9 +212,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq12.html#seq12"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=12"
  , "c2" : "12"
- , "c3" : "3"
- , "c4" : "2"
- , "c5" : ["java.lang.Object.getClass@POLYN297531.return" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cibledummy_01174"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.obj" , "java.io.ObjectOutputStream.writeObject@POLYN569139.obj"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -227,9 +227,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq13.html#seq13"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=13"
  , "c2" : "13"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.cl" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cibledummy_01174"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.objs[i]" , "java.io.ObjectOutputStream.writeSerialData@POLYN612110.cibledummy_01496"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -242,9 +242,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq14.html#seq14"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=14"
  , "c2" : "14"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.io.PipedInputStream.receive@POLYN231811.len" , "java.io.PipedInputStream.receive@POLYN231811.cibledummy_00246"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.obj" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.obj"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -257,9 +257,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq15.html#seq15"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=15"
  , "c2" : "15"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.io.Reader.read@POLYN193964.return" , "java.io.Reader.read@POLYN193964.return"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.io.PipedInputStream.receive@POLYN231811.len" , "java.io.PipedInputStream.receive@POLYN231811.len"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -272,24 +272,24 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq16.html#seq16"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=16"
  , "c2" : "16"
- , "c3" : "3"
- , "c4" : "3"
- , "c5" : ["java.net.ServerSocket.accept@POLYN329104.(SocketImpl)null" , "java.net.ServerSocket.implAccept@POLYN330050.cibledummy_00501"]
+ , "c3" : "4"
+ , "c4" : "4"
+ , "c5" : ["java.io.PrintStream.print@POLYN376088.s" , "java.io.Writer.write@POLYN202163.cibledummy_00127"]
  , "c6" : ""
  , "c7" : ""
- , "secu1" : "Ko"
+ , "secu1" : "Ok"
  , "secu2" : "Ok"
- , "secu3" : "Ko"
- , "secu4" : "Ko"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "./QcrReportFile01File1Seq17.html#seq17"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=17"
  , "c2" : "17"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedReader.skipLF" , "java.io.BufferedReader.skipLF"]
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["java.lang.Throwable.Throwable@POLYN372776.message" , "java.lang.Throwable.toString@POLYN380143.message"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -302,9 +302,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq18.html#seq18"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=18"
  , "c2" : "18"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedReader.skipLF" , "java.io.BufferedReader.skipLF"]
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["java.lang.Throwable.Throwable@POLYN373473.message" , "java.lang.Throwable.toString@POLYN380143.message"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -317,9 +317,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq19.html#seq19"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=19"
  , "c2" : "19"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedWriter.write@POLYN193615.off" , "java.io.BufferedWriter.write@POLYN193615.cibledummy_00195"]
+ , "c3" : "4"
+ , "c4" : "3"
+ , "c5" : ["java.lang.Throwable.Throwable@POLYN375903.message" , "java.lang.Throwable.toString@POLYN380143.message"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -332,9 +332,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq20.html#seq20"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=20"
  , "c2" : "20"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedWriter.write@POLYN193615.b" , "java.io.BufferedWriter.write@POLYN193615.b"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.ObjectInputStream.readFields@POLYN803861.curDesc" , "java.io.ObjectInputStream.readFields@POLYN803861.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -347,9 +347,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq21.html#seq21"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=21"
  , "c2" : "21"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedWriter.write@POLYN195953.off" , "java.io.BufferedWriter.write@POLYN195953.cibledummy_00226"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.BufferedReader.readLine@POLYN249958.null" , "java.io.ObjectInputStream.readLine@POLYN822158.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -362,9 +362,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq22.html#seq22"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=22"
  , "c2" : "22"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedWriter.write@POLYN195953.b" , "java.io.BufferedWriter.write@POLYN195953.b"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.ObjectInputStream.readClassDescriptor@POLYN815099.desc" , "java.io.ObjectInputStream.readNonProxyDesc@POLYN848497.cibledummy_01843"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -377,9 +377,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq23.html#seq23"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=23"
  , "c2" : "23"
- , "c3" : "2"
+ , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.io.Reader.ready@POLYN197198.return" , "java.io.Reader.ready@POLYN197198.return"]
+ , "c5" : ["java.io.PrintStream.print@POLYN376552.'null'" , "java.io.PrintStream.write@POLYN371361.cibledummy_00525"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -392,9 +392,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq24.html#seq24"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=24"
  , "c2" : "24"
- , "c3" : "2"
+ , "c3" : "3"
  , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.cibledummy_01720"]
+ , "c5" : ["java.io.PrintStream.print@POLYN376552.s" , "java.io.PrintStream.write@POLYN371361.cibledummy_00525"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -407,9 +407,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq25.html#seq25"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=25"
  , "c2" : "25"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["null" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.PrintWriter.print@POLYN359323.s" , "java.io.PrintWriter.write@POLYN354296.cibledummy_00443"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -422,9 +422,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq26.html#seq26"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=26"
  , "c2" : "26"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readEnum@POLYN856109.en" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.PrintWriter.print@POLYN359787.'null'" , "java.io.PrintWriter.write@POLYN355288.cibledummy_00473"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -437,9 +437,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq27.html#seq27"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=27"
  , "c2" : "27"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readObjectOverride@POLYN799735.return" , "java.io.ObjectInputStream.readObjectOverride@POLYN799735.return"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.PrintWriter.print@POLYN359787.s" , "java.io.PrintWriter.write@POLYN355288.cibledummy_00473"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -452,9 +452,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq28.html#seq28"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=28"
  , "c2" : "28"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN845655.'null class'" , "java.io.ObjectInputStream.readProxyDesc@POLYN845655.cibledummy_01786"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.io.Reader.read@POLYN193964.return" , "java.io.Reader.read@POLYN193964.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -467,15 +467,15 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1Seq29.html#seq29"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=29"
  , "c2" : "29"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN845655.ex" , "java.io.ObjectInputStream.readProxyDesc@POLYN845655.cibledummy_01786"]
+ , "c3" : "3"
+ , "c4" : "3"
+ , "c5" : ["java.net.ServerSocket.accept@POLYN329104.(SocketImpl)null" , "java.net.ServerSocket.implAccept@POLYN330050.cibledummy_00501"]
  , "c6" : ""
  , "c7" : ""
- , "secu1" : "Ok"
+ , "secu1" : "Ko"
  , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
 }}
 ,
 { "ligne" : { "" : ""
@@ -484,7 +484,7 @@ var maDataBlocs = {
  , "c2" : "30"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["objs.length" , "java.io.ObjectOutputStream.writeArray@POLYN603710.cibledummy_01365"]
+ , "c5" : ["java.io.BufferedReader.skipLF" , "java.io.BufferedReader.skipLF"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -499,7 +499,7 @@ var maDataBlocs = {
  , "c2" : "31"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedInputStream.read@POLYN235270.-1" , "java.io.PipedInputStream.read@POLYN238285.c"]
+ , "c5" : ["java.io.BufferedReader.skipLF" , "java.io.BufferedReader.skipLF"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -514,7 +514,7 @@ var maDataBlocs = {
  , "c2" : "32"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedInputStream.read@POLYN235270.ret" , "java.io.PipedInputStream.read@POLYN238285.c"]
+ , "c5" : ["java.io.BufferedWriter.write@POLYN193615.off" , "java.io.BufferedWriter.write@POLYN193615.cibledummy_00195"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -529,7 +529,7 @@ var maDataBlocs = {
  , "c2" : "33"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedInputStream.read@POLYN238285.(buffer.length-out)" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c5" : ["java.io.BufferedWriter.write@POLYN193615.b" , "java.io.BufferedWriter.write@POLYN193615.b"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -544,7 +544,7 @@ var maDataBlocs = {
  , "c2" : "34"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedInputStream.read@POLYN238285.(in-out)" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c5" : ["java.io.BufferedWriter.write@POLYN195953.off" , "java.io.BufferedWriter.write@POLYN195953.cibledummy_00226"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -559,7 +559,7 @@ var maDataBlocs = {
  , "c2" : "35"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["buffer.length-out" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c5" : ["java.io.BufferedWriter.write@POLYN195953.b" , "java.io.BufferedWriter.write@POLYN195953.b"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -574,7 +574,7 @@ var maDataBlocs = {
  , "c2" : "36"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["len-1" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c5" : ["java.io.Reader.ready@POLYN197198.return" , "java.io.Reader.ready@POLYN197198.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -589,7 +589,7 @@ var maDataBlocs = {
  , "c2" : "37"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN213471.-1" , "java.io.PipedReader.read@POLYN216075.c"]
+ , "c5" : ["null" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -604,7 +604,7 @@ var maDataBlocs = {
  , "c2" : "38"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN213471.ret" , "java.io.PipedReader.read@POLYN216075.c"]
+ , "c5" : ["java.io.ObjectInputStream.readEnum@POLYN856109.en" , "java.io.ObjectInputStream.readEnum@POLYN856109.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -619,7 +619,7 @@ var maDataBlocs = {
  , "c2" : "39"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PrintStream.print@POLYN376552.'null'" , "java.io.PrintStream.print@POLYN376552.cibledummy_00669"]
+ , "c5" : ["java.io.ObjectInputStream.readObjectOverride@POLYN799735.return" , "java.io.ObjectInputStream.readObjectOverride@POLYN799735.return"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -634,7 +634,7 @@ var maDataBlocs = {
  , "c2" : "40"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.PrintWriter.print@POLYN359787.'null'" , "java.io.PrintWriter.print@POLYN359787.cibledummy_00603"]
+ , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN845655.'null class'" , "java.io.ObjectInputStream.readProxyDesc@POLYN845655.cibledummy_01786"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -649,7 +649,7 @@ var maDataBlocs = {
  , "c2" : "41"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.Writer.writeBuffer" , "java.io.Writer.write@POLYN203421.cibledummy_00191"]
+ , "c5" : ["java.io.ObjectInputStream.readProxyDesc@POLYN845655.ex" , "java.io.ObjectInputStream.readProxyDesc@POLYN845655.cibledummy_01786"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -664,6 +664,786 @@ var maDataBlocs = {
  , "c2" : "42"
  , "c3" : "2"
  , "c4" : "2"
+ , "c5" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN858373.obj" , "java.io.ObjectInputStream.readSerialData@POLYN863528.cibledummy_02136"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq43.html#seq43"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=43"
+ , "c2" : "43"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["objs.length" , "java.io.ObjectOutputStream.writeArray@POLYN603710.cibledummy_01365"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq44.html#seq44"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=44"
+ , "c2" : "44"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.reset@POLYN574441.TC_RESET" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq45.html#seq45"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=45"
+ , "c2" : "45"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.TC_ARRAY" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq46.html#seq46"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=46"
+ , "c2" : "46"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq47.html#seq47"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=47"
+ , "c2" : "47"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq48.html#seq48"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=48"
+ , "c2" : "48"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq49.html#seq49"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=49"
+ , "c2" : "49"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq50.html#seq50"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=50"
+ , "c2" : "50"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq51.html#seq51"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=51"
+ , "c2" : "51"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq52.html#seq52"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=52"
+ , "c2" : "52"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq53.html#seq53"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=53"
+ , "c2" : "53"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq54.html#seq54"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=54"
+ , "c2" : "54"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq55.html#seq55"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=55"
+ , "c2" : "55"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq56.html#seq56"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=56"
+ , "c2" : "56"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq57.html#seq57"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=57"
+ , "c2" : "57"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq58.html#seq58"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=58"
+ , "c2" : "58"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq59.html#seq59"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=59"
+ , "c2" : "59"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq60.html#seq60"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=60"
+ , "c2" : "60"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN646390.s" , "java.io.ObjectOutputStream.writeBytes@POLYN584853.cibledummy_00841"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq61.html#seq61"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=61"
+ , "c2" : "61"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeUTF@POLYN645403.s" , "java.io.ObjectOutputStream.writeBytes@POLYN584853.cibledummy_00841"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq62.html#seq62"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=62"
+ , "c2" : "62"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.false" , "java.io.ObjectOutputStream.writeProxyDesc@POLYN600177.unshared"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq63.html#seq63"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=63"
+ , "c2" : "63"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeClassDesc@POLYN599186.unshared" , "java.io.ObjectOutputStream.writeClassDesc@POLYN599186.unshared"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq64.html#seq64"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=64"
+ , "c2" : "64"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex" , "java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq65.html#seq65"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=65"
+ , "c2" : "65"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex" , "java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq66.html#seq66"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=66"
+ , "c2" : "66"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ia.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq67.html#seq67"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=67"
+ , "c2" : "67"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ba.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq68.html#seq68"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=68"
+ , "c2" : "68"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ja.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq69.html#seq69"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=69"
+ , "c2" : "69"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.fa.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq70.html#seq70"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=70"
+ , "c2" : "70"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.da.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq71.html#seq71"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=71"
+ , "c2" : "71"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.sa.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq72.html#seq72"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=72"
+ , "c2" : "72"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ca.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq73.html#seq73"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=73"
+ , "c2" : "73"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.za.length" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq74.html#seq74"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=74"
+ , "c2" : "74"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq75.html#seq75"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=75"
+ , "c2" : "75"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq76.html#seq76"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=76"
+ , "c2" : "76"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN646390.utflen" , "java.io.ObjectOutputStream.writeLong@POLYN584001.cibledummy_00808"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq77.html#seq77"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=77"
+ , "c2" : "77"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq78.html#seq78"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=78"
+ , "c2" : "78"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq79.html#seq79"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=79"
+ , "c2" : "79"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PipedInputStream.read@POLYN235270.-1" , "java.io.PipedInputStream.read@POLYN238285.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq80.html#seq80"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=80"
+ , "c2" : "80"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PipedInputStream.read@POLYN235270.ret" , "java.io.PipedInputStream.read@POLYN238285.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq81.html#seq81"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=81"
+ , "c2" : "81"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PipedInputStream.read@POLYN238285.(buffer.length-out)" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq82.html#seq82"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=82"
+ , "c2" : "82"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PipedInputStream.read@POLYN238285.(in-out)" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq83.html#seq83"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=83"
+ , "c2" : "83"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["buffer.length-out" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq84.html#seq84"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=84"
+ , "c2" : "84"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["len-1" , "java.io.PipedInputStream.read@POLYN238285.cibledummy_00397"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq85.html#seq85"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=85"
+ , "c2" : "85"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PipedReader.read@POLYN213471.-1" , "java.io.PipedReader.read@POLYN216075.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq86.html#seq86"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=86"
+ , "c2" : "86"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PipedReader.read@POLYN213471.ret" , "java.io.PipedReader.read@POLYN216075.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq87.html#seq87"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=87"
+ , "c2" : "87"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.print@POLYN356817.c" , "java.io.PrintWriter.print@POLYN356817.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq88.html#seq88"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=88"
+ , "c2" : "88"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.append@POLYN372963.'null'" , "java.io.Writer.write@POLYN201528.c"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq89.html#seq89"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=89"
+ , "c2" : "89"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.BufferedWriter.newLine@POLYN197070.lineSeparator" , "java.io.Writer.write@POLYN202828.cibledummy_00157"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq90.html#seq90"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=90"
+ , "c2" : "90"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.newLine@POLYN355480.lineSeparator" , "java.io.Writer.write@POLYN202828.cibledummy_00157"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq91.html#seq91"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=91"
+ , "c2" : "91"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.Writer.writeBuffer" , "java.io.Writer.write@POLYN203421.cibledummy_00191"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq92.html#seq92"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=92"
+ , "c2" : "92"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.write@POLYN354610.off" , "java.io.Writer.write@POLYN203421.cibledummy_00191"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq93.html#seq93"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=93"
+ , "c2" : "93"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.io.PrintWriter.write@POLYN354610.len" , "java.io.Writer.write@POLYN203421.cibledummy_00192"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ok"
+ , "secu2" : "Ok"
+ , "secu3" : "Ok"
+ , "secu4" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq94.html#seq94"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=94"
+ , "c2" : "94"
+ , "c3" : "2"
+ , "c4" : "2"
  , "c5" : ["50" , "java.net.ServerSocket.ServerSocket@POLYN320129.cibledummy_00220"]
  , "c6" : ""
  , "c7" : ""
@@ -674,12 +1454,87 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1Seq43.html#seq43"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=43"
- , "c2" : "43"
+ , "c1" : "./QcrReportFile01File1Seq95.html#seq95"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=95"
+ , "c2" : "95"
  , "c3" : "2"
  , "c4" : "2"
  , "c5" : ["java.net.ServerSocket.getImpl@POLYN321212.return" , "java.net.ServerSocket.getImpl@POLYN321212.return"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq96.html#seq96"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=96"
+ , "c2" : "96"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.Socket@POLYN479635.address" , "java.net.Socket.connect@POLYN483414.cibledummy_00518"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq97.html#seq97"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=97"
+ , "c2" : "97"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.connect@POLYN483414.0" , "java.net.Socket.connect@POLYN484064.cibledummy_00568"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq98.html#seq98"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=98"
+ , "c2" : "98"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.Socket@POLYN479635.stream" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq99.html#seq99"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=99"
+ , "c2" : "99"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.connect@POLYN484064.true" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c6" : ""
+ , "c7" : ""
+ , "secu1" : "Ko"
+ , "secu2" : "Ok"
+ , "secu3" : "Ko"
+ , "secu4" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "./QcrReportFile01File1Seq100.html#seq100"
+ , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1&numSeq=100"
+ , "c2" : "100"
+ , "c3" : "2"
+ , "c4" : "2"
+ , "c5" : ["java.net.Socket.createImpl@POLYN480565.stream" , "java.net.Socket.createImpl@POLYN480565.stream"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ko"
@@ -692,6 +1547,150 @@ var maDataBlocs = {
 "data09b" : [
 { "sequence" : { 
  "seq" : "1" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01908]"
+ , "c3" : ["java.io.ObjectInputStream.readArray@POLYN851753.false" , "---java.io.ObjectInputStream.readObject0@POLYN835896" , "java.io.ObjectInputStream.readObject0@POLYN835896.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01908] In java.io.ObjectInputStream.readArray@POLYN851753[01908] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01710]"
+ , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared" , "---java.io.ObjectInputStream.readProxyDesc@POLYN845655" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.descriptor"]
+ , "c4" : "//QC-JAVCWZ099[01710] In java.io.ObjectInputStream.readClassDesc@POLYN844188[01710] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01720]"
+ , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.descriptor" , "---java.io.ObjectInputStream.validateDescriptor@POLYN942447" , "java.io.ObjectInputStream.validateDescriptor@POLYN942447.descriptor"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01522]"
+ , "c3" : ["java.io.ObjectInputStream.readObject0@POLYN835896.unshared" , "---java.io.ObjectInputStream.readClassDesc@POLYN844188" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01522] In java.io.ObjectInputStream.readObject0@POLYN835896[01522] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[03866]"
+ , "c3" : ["java.io.ObjectInputStream.validateDescriptor@POLYN942447.descriptor" , "---java.io.ObjectInputStream.validateDescriptor@POLYN942447" , "java.io.ObjectInputStream.validateDescriptor@POLYN942447.cibledummy_03866"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "2" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01710]"
+ , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared" , "---java.io.ObjectInputStream.readProxyDesc@POLYN845655" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.descriptor"]
+ , "c4" : "//QC-JAVCWZ099[01710] In java.io.ObjectInputStream.readClassDesc@POLYN844188[01710] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01720]"
+ , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.descriptor" , "---java.io.ObjectInputStream.validateDescriptor@POLYN942447" , "java.io.ObjectInputStream.validateDescriptor@POLYN942447.descriptor"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01522]"
+ , "c3" : ["java.io.ObjectInputStream.readObject0@POLYN835896.unshared" , "---java.io.ObjectInputStream.readClassDesc@POLYN844188" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01522] In java.io.ObjectInputStream.readObject0@POLYN835896[01522] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[02211]"
+ , "c3" : ["java.io.ObjectInputStream.skipCustomData@POLYN866712.false" , "---java.io.ObjectInputStream.readObject0@POLYN835896" , "java.io.ObjectInputStream.readObject0@POLYN835896.unshared"]
+ , "c4" : "//QC-JAVCWZ099[02211] In java.io.ObjectInputStream.skipCustomData@POLYN866712[02211] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "5"
+ , "sourcenoligne" : "[03866]"
+ , "c3" : ["java.io.ObjectInputStream.validateDescriptor@POLYN942447.descriptor" , "---java.io.ObjectInputStream.validateDescriptor@POLYN942447" , "java.io.ObjectInputStream.validateDescriptor@POLYN942447.cibledummy_03866"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "3" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00106]"
@@ -755,7 +1754,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "2" , "contenu" : [ 
+ "seq" : "4" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00132]"
@@ -819,7 +1818,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "3" , "contenu" : [ 
+ "seq" : "5" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00267]"
@@ -883,7 +1882,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "4" , "contenu" : [ 
+ "seq" : "6" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01635]"
@@ -947,7 +1946,135 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "5" , "contenu" : [ 
+ "seq" : "7" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01665]"
+ , "c3" : ["java.io.ObjectInputStream.readHandle@POLYN841813.obj" , "---java.io.ObjectInputStream.readHandle@POLYN841813.dummymethode_01665" , "java.io.ObjectInputStream.readHandle@POLYN841813.return"]
+ , "c4" : "//QC-JAVCWZ099[01665] In java.io.ObjectInputStream.readHandle@POLYN841813[01665] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01515]"
+ , "c3" : ["java.io.ObjectInputStream.readHandle@POLYN841813.return" , "---java.io.ObjectInputStream.readHandle@POLYN841813" , "java.io.ObjectInputStream.readObject0@POLYN835896.return"]
+ , "c4" : "//QC-JAVCWZ099[01515] In java.io.ObjectInputStream.readObject0@POLYN835896[01515] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00512]"
+ , "c3" : ["java.io.ObjectInputStream.readObject0@POLYN835896.return" , "---java.io.ObjectInputStream.readObject0@POLYN835896" , "java.io.ObjectInputStream.readUnshared@POLYN801185.obj"]
+ , "c4" : "//QC-JAVCWZ099[00512] In java.io.ObjectInputStream.readUnshared@POLYN801185[00512] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00521]"
+ , "c3" : ["java.io.ObjectInputStream.readUnshared@POLYN801185.obj" , "---java.io.ObjectInputStream.readUnshared@POLYN801185.dummymethode_00521" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
+ , "c4" : "//QC-JAVCWZ099[00521] In java.io.ObjectInputStream.readUnshared@POLYN801185[00521] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "8" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01688]"
+ , "c3" : ["java.io.ObjectInputStream.readClass@POLYN843113.cl" , "---java.io.ObjectInputStream.readClass@POLYN843113.dummymethode_01688" , "java.io.ObjectInputStream.readClass@POLYN843113.return"]
+ , "c4" : "//QC-JAVCWZ099[01688] In java.io.ObjectInputStream.readClass@POLYN843113[01688] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01518]"
+ , "c3" : ["java.io.ObjectInputStream.readClass@POLYN843113.return" , "---java.io.ObjectInputStream.readClass@POLYN843113" , "java.io.ObjectInputStream.readObject0@POLYN835896.return"]
+ , "c4" : "//QC-JAVCWZ099[01518] In java.io.ObjectInputStream.readObject0@POLYN835896[01518] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00512]"
+ , "c3" : ["java.io.ObjectInputStream.readObject0@POLYN835896.return" , "---java.io.ObjectInputStream.readObject0@POLYN835896" , "java.io.ObjectInputStream.readUnshared@POLYN801185.obj"]
+ , "c4" : "//QC-JAVCWZ099[00512] In java.io.ObjectInputStream.readUnshared@POLYN801185[00512] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00521]"
+ , "c3" : ["java.io.ObjectInputStream.readUnshared@POLYN801185.obj" , "---java.io.ObjectInputStream.readUnshared@POLYN801185.dummymethode_00521" , "java.io.ObjectInputStream.readUnshared@POLYN801185.return"]
+ , "c4" : "//QC-JAVCWZ099[00521] In java.io.ObjectInputStream.readUnshared@POLYN801185[00521] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "9" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01581]"
@@ -1011,7 +2138,455 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "6" , "contenu" : [ 
+ "seq" : "10" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01129]"
+ , "c3" : ["java.lang.Object.getClass@POLYN297531.return" , "---java.lang.Object.getClass@POLYN297531" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cl"]
+ , "c4" : ""
+ , "c5" : "none"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01134]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.cl" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01134" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.desc"]
+ , "c4" : "//QC-JAVCWZ099[01134] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01134] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01178]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.desc" , "---java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.desc"]
+ , "c4" : "//QC-JAVCWZ099[01178] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01178] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01427]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.desc" , "---java.io.ObjectOutputStream.writeClassDesc@POLYN599186" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.cibledummy_01427"]
+ , "c4" : "//QC-JAVCWZ099[01427] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01427] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "11" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01134]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.cl" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01134" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.desc"]
+ , "c4" : "//QC-JAVCWZ099[01134] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01134] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01141]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.repCl" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01141" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cl"]
+ , "c4" : "//QC-JAVCWZ099[01141] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01141] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01178]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.desc" , "---java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.desc"]
+ , "c4" : "//QC-JAVCWZ099[01178] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01178] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01427]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.desc" , "---java.io.ObjectOutputStream.writeClassDesc@POLYN599186" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.cibledummy_01427"]
+ , "c4" : "//QC-JAVCWZ099[01427] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01427] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "12" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01178]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.obj" , "---java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.obj"]
+ , "c4" : "//QC-JAVCWZ099[01178] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01178] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00348]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject@POLYN569139.obj" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.obj"]
+ , "c4" : "//QC-JAVCWZ099[00348] In java.io.ObjectOutputStream.writeObject@POLYN569139[00348] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01432]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.obj" , "---java.io.ObjectOutputStream.writeSerialData@POLYN612110" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.cibledummy_01432"]
+ , "c4" : "//QC-JAVCWZ099[01432] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01432] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00465]"
+ , "c3" : ["java.lang.StringBuilder.writeObject@POLYN247731.value" , "---java.io.ObjectOutputStream.writeObject@POLYN569139" , "java.io.ObjectOutputStream.writeObject@POLYN569139.obj"]
+ , "c4" : "//QC-JAVCWZ099[00465] In java.lang.StringBuilder.writeObject@POLYN247731[00465] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "13" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01378]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.objs[i]" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.obj"]
+ , "c4" : "//QC-JAVCWZ099[01378] In java.io.ObjectOutputStream.writeArray@POLYN603710[01378] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01178]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.obj" , "---java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.obj"]
+ , "c4" : "//QC-JAVCWZ099[01178] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01178] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01432]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.obj" , "---java.io.ObjectOutputStream.writeSerialData@POLYN612110" , "java.io.ObjectOutputStream.writeSerialData@POLYN612110.obj"]
+ , "c4" : "//QC-JAVCWZ099[01432] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01432] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[01496]"
+ , "c3" : ["java.io.ObjectOutputStream.writeSerialData@POLYN612110.obj" , "---java.io.ObjectOutputStream.writeSerialData@POLYN612110.dummymethode_01496" , "java.io.ObjectOutputStream.writeSerialData@POLYN612110.cibledummy_01496"]
+ , "c4" : "//QC-JAVCWZ099[01496] In java.io.ObjectOutputStream.writeSerialData@POLYN612110[01496] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "14" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01178]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.obj" , "---java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474" , "java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.obj"]
+ , "c4" : "//QC-JAVCWZ099[01178] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01178] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01432]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.obj" , "---java.io.ObjectOutputStream.writeSerialData@POLYN612110" , "java.io.ObjectOutputStream.writeSerialData@POLYN612110.obj"]
+ , "c4" : "//QC-JAVCWZ099[01432] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01432] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[01496]"
+ , "c3" : ["java.io.ObjectOutputStream.writeSerialData@POLYN612110.obj" , "---java.io.ObjectOutputStream.writeSerialData@POLYN612110.dummymethode_01496" , "java.io.ObjectOutputStream.writeSerialData@POLYN612110.cibledummy_01496"]
+ , "c4" : "//QC-JAVCWZ099[01496] In java.io.ObjectOutputStream.writeSerialData@POLYN612110[01496] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00415]"
+ , "c3" : ["java.io.ObjectOutputStream.writeUnshared@POLYN571357.obj" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.obj"]
+ , "c4" : "//QC-JAVCWZ099[00415] In java.io.ObjectOutputStream.writeUnshared@POLYN571357[00415] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "15" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00228]"
+ , "c3" : ["java.io.PipedInputStream.receive@POLYN231811.len" , "---java.io.PipedInputStream.receive@POLYN231811.dummymethode_00228" , "java.io.PipedInputStream.receive@POLYN231811.bytesToTransfer"]
+ , "c4" : "//QC-JAVCWZ099[00228] In java.io.PipedInputStream.receive@POLYN231811[00228] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00244]"
+ , "c3" : ["java.io.PipedInputStream.receive@POLYN231811.bytesToTransfer" , "---java.io.PipedInputStream.receive@POLYN231811.dummymethode_00244" , "java.io.PipedInputStream.receive@POLYN231811.nextTransferAmount"]
+ , "c4" : "//QC-JAVCWZ099[00244] In java.io.PipedInputStream.receive@POLYN231811[00244] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00246]"
+ , "c3" : ["java.io.PipedInputStream.receive@POLYN231811.nextTransferAmount" , "---java.io.PipedInputStream.receive@POLYN231811.dummymethode_00246" , "java.io.PipedInputStream.receive@POLYN231811.cibledummy_00246"]
+ , "c4" : "//QC-JAVCWZ099[00246] In java.io.PipedInputStream.receive@POLYN231811[00246] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00149]"
+ , "c3" : ["java.io.PipedOutputStream.write@POLYN183671.len" , "---java.io.PipedInputStream.receive@POLYN231811" , "java.io.PipedInputStream.receive@POLYN231811.len"]
+ , "c4" : "//QC-JAVCWZ099[00149] In java.io.PipedOutputStream.write@POLYN183671[00149] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "16" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00653]"
+ , "c3" : ["java.io.PrintStream.print@POLYN376088.s" , "---java.io.PrintStream.write@POLYN370443" , "java.io.PrintStream.write@POLYN370443.buf"]
+ , "c4" : "//QC-JAVCWZ099[00653] In java.io.PrintStream.print@POLYN376088[00653] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00792]"
+ , "c3" : ["java.io.PrintStream.println@POLYN380543.x" , "---java.io.PrintStream.print@POLYN376088" , "java.io.PrintStream.print@POLYN376088.s"]
+ , "c4" : "//QC-JAVCWZ099[00792] In java.io.PrintStream.println@POLYN380543[00792] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00503]"
+ , "c3" : ["java.io.PrintStream.write@POLYN370443.buf" , "---java.io.Writer.write@POLYN202163" , "java.io.Writer.write@POLYN202163.cbuf"]
+ , "c4" : "//QC-JAVCWZ099[00503] In java.io.PrintStream.write@POLYN370443[00503] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "4"
+ , "sourcenoligne" : "[00127]"
+ , "c3" : ["java.io.Writer.write@POLYN202163.cbuf" , "---java.io.Writer.write@POLYN202163.dummymethode_00127" , "java.io.Writer.write@POLYN202163.cibledummy_00127"]
+ , "c4" : "//QC-JAVCWZ099[00127] In java.io.Writer.write@POLYN202163[00127] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "17" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00272]"
@@ -1075,7 +2650,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "7" , "contenu" : [ 
+ "seq" : "18" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00294]"
@@ -1139,7 +2714,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "8" , "contenu" : [ 
+ "seq" : "19" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00370]"
@@ -1203,7 +2778,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "9" , "contenu" : [ 
+ "seq" : "20" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00591]"
@@ -1259,7 +2834,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "10" , "contenu" : [ 
+ "seq" : "21" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00329]"
@@ -1315,7 +2890,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "11" , "contenu" : [ 
+ "seq" : "22" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00883]"
@@ -1371,32 +2946,32 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "12" , "contenu" : [ 
+ "seq" : "23" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[01129]"
- , "c3" : ["java.lang.Object.getClass@POLYN297531.return" , "---java.lang.Object.getClass@POLYN297531" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cl"]
+ , "sourcenoligne" : "[00667]"
+ , "c3" : ["java.io.PrintStream.print@POLYN376552.'null'" , "---java.io.PrintStream.print@POLYN376552.dummymethode_00667" , "java.io.PrintStream.print@POLYN376552.s"]
+ , "c4" : "//QC-JAVCWZ099[00667] In java.io.PrintStream.print@POLYN376552[00667] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00669]"
+ , "c3" : ["java.io.PrintStream.print@POLYN376552.s" , "---java.io.PrintStream.write@POLYN371361" , "java.io.PrintStream.write@POLYN371361.s"]
+ , "c4" : "//QC-JAVCWZ099[00669] In java.io.PrintStream.print@POLYN376552[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00525]"
+ , "c3" : ["java.io.PrintStream.write@POLYN371361.s" , "---java.io.Writer.write@POLYN202828" , "java.io.PrintStream.write@POLYN371361.cibledummy_00525"]
  , "c4" : ""
  , "c5" : "none"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01134]"
- , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.cl" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01134" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.desc"]
- , "c4" : "//QC-JAVCWZ099[01134] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01134] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
- , "c5" : "output"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[01174]"
- , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.desc" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01174" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cibledummy_01174"]
- , "c4" : "//QC-JAVCWZ099[01174] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01174] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
- , "c5" : "output"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "0"
  , "secuindice" : "1"
  , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
@@ -1427,29 +3002,29 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "13" , "contenu" : [ 
+ "seq" : "24" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[01134]"
- , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.cl" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01134" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.desc"]
- , "c4" : "//QC-JAVCWZ099[01134] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01134] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "sourcenoligne" : "[00669]"
+ , "c3" : ["java.io.PrintStream.print@POLYN376552.s" , "---java.io.PrintStream.write@POLYN371361" , "java.io.PrintStream.write@POLYN371361.s"]
+ , "c4" : "//QC-JAVCWZ099[00669] In java.io.PrintStream.print@POLYN376552[00669] target data PATHtainted (java.io.PrintStream.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[01141]"
- , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.repCl" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01141" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cl"]
- , "c4" : "//QC-JAVCWZ099[01141] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01141] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "sourcenoligne" : "[00806]"
+ , "c3" : ["java.io.PrintStream.println@POLYN381001.x" , "---java.io.PrintStream.print@POLYN376552" , "java.io.PrintStream.print@POLYN376552.s"]
+ , "c4" : "//QC-JAVCWZ099[00806] In java.io.PrintStream.println@POLYN381001[00806] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[01174]"
- , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.desc" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655.dummymethode_01174" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cibledummy_01174"]
- , "c4" : "//QC-JAVCWZ099[01174] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01174] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
- , "c5" : "output"
+ , "sourcenoligne" : "[00525]"
+ , "c3" : ["java.io.PrintStream.write@POLYN371361.s" , "---java.io.Writer.write@POLYN202828" , "java.io.PrintStream.write@POLYN371361.cibledummy_00525"]
+ , "c4" : ""
+ , "c5" : "none"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1483,29 +3058,29 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "14" , "contenu" : [ 
+ "seq" : "25" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00228]"
- , "c3" : ["java.io.PipedInputStream.receive@POLYN231811.len" , "---java.io.PipedInputStream.receive@POLYN231811.dummymethode_00228" , "java.io.PipedInputStream.receive@POLYN231811.bytesToTransfer"]
- , "c4" : "//QC-JAVCWZ099[00228] In java.io.PipedInputStream.receive@POLYN231811[00228] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
- , "c5" : "input"
+ , "sourcenoligne" : "[00587]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN359323.s" , "---java.io.PrintWriter.write@POLYN354296" , "java.io.PrintWriter.write@POLYN354296.buf"]
+ , "c4" : "//QC-JAVCWZ099[00587] In java.io.PrintWriter.print@POLYN359323[00587] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00244]"
- , "c3" : ["java.io.PipedInputStream.receive@POLYN231811.bytesToTransfer" , "---java.io.PipedInputStream.receive@POLYN231811.dummymethode_00244" , "java.io.PipedInputStream.receive@POLYN231811.nextTransferAmount"]
- , "c4" : "//QC-JAVCWZ099[00244] In java.io.PipedInputStream.receive@POLYN231811[00244] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
- , "c5" : "input"
+ , "sourcenoligne" : "[00725]"
+ , "c3" : ["java.io.PrintWriter.println@POLYN363847.x" , "---java.io.PrintWriter.print@POLYN359323" , "java.io.PrintWriter.print@POLYN359323.s"]
+ , "c4" : "//QC-JAVCWZ099[00725] In java.io.PrintWriter.println@POLYN363847[00725] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "3"
- , "sourcenoligne" : "[00246]"
- , "c3" : ["java.io.PipedInputStream.receive@POLYN231811.nextTransferAmount" , "---java.io.PipedInputStream.receive@POLYN231811.dummymethode_00246" , "java.io.PipedInputStream.receive@POLYN231811.cibledummy_00246"]
- , "c4" : "//QC-JAVCWZ099[00246] In java.io.PipedInputStream.receive@POLYN231811[00246] source data PATHtainted (java.io.PipedInputStream.receive) RiskOnInput"
- , "c5" : "input"
+ , "sourcenoligne" : "[00443]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN354296.buf" , "---java.io.PrintWriter.write@POLYN354296.dummymethode_00443" , "java.io.PrintWriter.write@POLYN354296.cibledummy_00443"]
+ , "c4" : "//QC-JAVCWZ099[00443] In java.io.PrintWriter.write@POLYN354296[00443] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1539,7 +3114,119 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "15" , "contenu" : [ 
+ "seq" : "26" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00601]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN359787.'null'" , "---java.io.PrintWriter.print@POLYN359787.dummymethode_00601" , "java.io.PrintWriter.print@POLYN359787.s"]
+ , "c4" : "//QC-JAVCWZ099[00601] In java.io.PrintWriter.print@POLYN359787[00601] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00603]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN359787.s" , "---java.io.PrintWriter.write@POLYN355288" , "java.io.PrintWriter.write@POLYN355288.s"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN359787[00603] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00473]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN355288.s" , "---java.io.PrintWriter.write@POLYN355288" , "java.io.PrintWriter.write@POLYN355288.cibledummy_00473"]
+ , "c4" : "//QC-JAVCWZ099[00473] In java.io.PrintWriter.write@POLYN355288[00473] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "27" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00603]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN359787.s" , "---java.io.PrintWriter.write@POLYN355288" , "java.io.PrintWriter.write@POLYN355288.s"]
+ , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN359787[00603] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00739]"
+ , "c3" : ["java.io.PrintWriter.println@POLYN364307.x" , "---java.io.PrintWriter.print@POLYN359787" , "java.io.PrintWriter.print@POLYN359787.s"]
+ , "c4" : "//QC-JAVCWZ099[00739] In java.io.PrintWriter.println@POLYN364307[00739] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "3"
+ , "sourcenoligne" : "[00473]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN355288.s" , "---java.io.PrintWriter.write@POLYN355288" , "java.io.PrintWriter.write@POLYN355288.cibledummy_00473"]
+ , "c4" : "//QC-JAVCWZ099[00473] In java.io.PrintWriter.write@POLYN355288[00473] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "28" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00100]"
@@ -1595,7 +3282,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "16" , "contenu" : [ 
+ "seq" : "29" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00468]"
@@ -1651,7 +3338,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "17" , "contenu" : [ 
+ "seq" : "30" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00215]"
@@ -1699,7 +3386,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "18" , "contenu" : [ 
+ "seq" : "31" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00215]"
@@ -1747,7 +3434,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "19" , "contenu" : [ 
+ "seq" : "32" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00192]"
@@ -1795,7 +3482,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "20" , "contenu" : [ 
+ "seq" : "33" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00195]"
@@ -1843,7 +3530,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "21" , "contenu" : [ 
+ "seq" : "34" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00223]"
@@ -1891,7 +3578,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "22" , "contenu" : [ 
+ "seq" : "35" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00226]"
@@ -1939,7 +3626,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "23" , "contenu" : [ 
+ "seq" : "36" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00195]"
@@ -1987,55 +3674,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "24" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[01710]"
- , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.unshared" , "---java.io.ObjectInputStream.readProxyDesc@POLYN845655" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.descriptor"]
- , "c4" : "//QC-JAVCWZ099[01710] In java.io.ObjectInputStream.readClassDesc@POLYN844188[01710] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[01720]"
- , "c3" : ["java.io.ObjectInputStream.readClassDesc@POLYN844188.descriptor" , "---java.io.ObjectInputStream.readClassDesc@POLYN844188.dummymethode_01720" , "java.io.ObjectInputStream.readClassDesc@POLYN844188.cibledummy_01720"]
- , "c4" : "//QC-JAVCWZ099[01720] In java.io.ObjectInputStream.readClassDesc@POLYN844188[01720] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "25" , "contenu" : [ 
+ "seq" : "37" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01964]"
@@ -2083,7 +3722,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "26" , "contenu" : [ 
+ "seq" : "38" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01970]"
@@ -2131,7 +3770,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "27" , "contenu" : [ 
+ "seq" : "39" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00416]"
@@ -2179,7 +3818,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "28" , "contenu" : [ 
+ "seq" : "40" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01759]"
@@ -2227,7 +3866,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "29" , "contenu" : [ 
+ "seq" : "41" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01775]"
@@ -2275,7 +3914,55 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "30" , "contenu" : [ 
+ "seq" : "42" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02027]"
+ , "c3" : ["java.io.ObjectInputStream.readOrdinaryObject@POLYN858373.obj" , "---java.io.ObjectInputStream.readSerialData@POLYN863528" , "java.io.ObjectInputStream.readSerialData@POLYN863528.obj"]
+ , "c4" : "//QC-JAVCWZ099[02027] In java.io.ObjectInputStream.readOrdinaryObject@POLYN858373[02027] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[02136]"
+ , "c3" : ["java.io.ObjectInputStream.readSerialData@POLYN863528.obj" , "---java.io.ObjectInputStream.readSerialData@POLYN863528.dummymethode_02136" , "java.io.ObjectInputStream.readSerialData@POLYN863528.cibledummy_02136"]
+ , "c4" : "//QC-JAVCWZ099[02136] In java.io.ObjectInputStream.readSerialData@POLYN863528[02136] source data PATHtainted (java.io.ObjectInputStream.read) RiskOnInput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "43" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[01364]"
@@ -2287,7 +3974,7 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[01365]"
- , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.len" , "---java.io.ObjectOutputStream.writeArray@POLYN603710.dummymethode_01365" , "java.io.ObjectOutputStream.writeArray@POLYN603710.cibledummy_01365"]
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.len" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeArray@POLYN603710.cibledummy_01365"]
  , "c4" : "//QC-JAVCWE099[01365] In java.io.ObjectOutputStream.writeArray@POLYN603710[01365] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
  , "c5" : "output"
 }}
@@ -2323,7 +4010,1687 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "31" , "contenu" : [ 
+ "seq" : "44" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00501]"
+ , "c3" : ["java.io.ObjectOutputStream.reset@POLYN574441.TC_RESET" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[00501] In java.io.ObjectOutputStream.reset@POLYN574441[00501] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "45" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01321]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.TC_ARRAY" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01321] In java.io.ObjectOutputStream.writeArray@POLYN603710[01321] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "46" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01212]"
+ , "c3" : ["java.io.ObjectOutputStream.writeClass@POLYN598686.TC_CLASS" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01212] In java.io.ObjectOutputStream.writeClass@POLYN598686[01212] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "47" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01401]"
+ , "c3" : ["java.io.ObjectOutputStream.writeEnum@POLYN608632.TC_ENUM" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01401] In java.io.ObjectOutputStream.writeEnum@POLYN608632[01401] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "48" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01461]"
+ , "c3" : ["java.io.ObjectOutputStream.writeExternalData@POLYN610914.TC_ENDBLOCKDATA" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01461] In java.io.ObjectOutputStream.writeExternalData@POLYN610914[01461] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "49" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01576]"
+ , "c3" : ["java.io.ObjectOutputStream.writeFatalException@POLYN616379.TC_EXCEPTION" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01576] In java.io.ObjectOutputStream.writeFatalException@POLYN616379[01576] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "50" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01204]"
+ , "c3" : ["java.io.ObjectOutputStream.writeHandle@POLYN598403.TC_REFERENCE" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01204] In java.io.ObjectOutputStream.writeHandle@POLYN598403[01204] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "51" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01275]"
+ , "c3" : ["java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683.TC_CLASSDESC" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01275] In java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683[01275] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "52" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01292]"
+ , "c3" : ["java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683.TC_ENDBLOCKDATA" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01292] In java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683[01292] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "53" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01197]"
+ , "c3" : ["java.io.ObjectOutputStream.writeNull@POLYN598238.TC_NULL" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01197] In java.io.ObjectOutputStream.writeNull@POLYN598238[01197] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "54" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01426]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.TC_OBJECT" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01426] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01426] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "55" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01247]"
+ , "c3" : ["java.io.ObjectOutputStream.writeProxyDesc@POLYN600177.TC_PROXYCLASSDESC" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01247] In java.io.ObjectOutputStream.writeProxyDesc@POLYN600177[01247] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "56" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01263]"
+ , "c3" : ["java.io.ObjectOutputStream.writeProxyDesc@POLYN600177.TC_ENDBLOCKDATA" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01263] In java.io.ObjectOutputStream.writeProxyDesc@POLYN600177[01263] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "57" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01498]"
+ , "c3" : ["java.io.ObjectOutputStream.writeSerialData@POLYN612110.TC_ENDBLOCKDATA" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01498] In java.io.ObjectOutputStream.writeSerialData@POLYN612110[01498] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "58" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01305]"
+ , "c3" : ["java.io.ObjectOutputStream.writeString@POLYN602933.TC_STRING" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01305] In java.io.ObjectOutputStream.writeString@POLYN602933[01305] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "59" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00764]"
+ , "c3" : ["java.io.ObjectOutputStream.writeByte@POLYN582881.val" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.cibledummy_00764"]
+ , "c4" : "//QC-JAVCWZ099[00764] In java.io.ObjectOutputStream.writeByte@POLYN582881[00764] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01308]"
+ , "c3" : ["java.io.ObjectOutputStream.writeString@POLYN602933.TC_LONGSTRING" , "---java.io.ObjectOutputStream.writeByte@POLYN582881" , "java.io.ObjectOutputStream.writeByte@POLYN582881.val"]
+ , "c4" : "//QC-JAVCWZ099[01308] In java.io.ObjectOutputStream.writeString@POLYN602933[01308] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "60" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02190]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN646390.s" , "---java.io.ObjectOutputStream.writeBytes@POLYN584853" , "java.io.ObjectOutputStream.writeBytes@POLYN584853.str"]
+ , "c4" : "//QC-JAVCWZ099[02190] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN646390[02190] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00841]"
+ , "c3" : ["java.io.ObjectOutputStream.writeBytes@POLYN584853.str" , "---java.io.ObjectOutputStream.writeBytes@POLYN584853" , "java.io.ObjectOutputStream.writeBytes@POLYN584853.cibledummy_00841"]
+ , "c4" : "//QC-JAVCWZ099[00841] In java.io.ObjectOutputStream.writeBytes@POLYN584853[00841] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "61" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02168]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeUTF@POLYN645403.s" , "---java.io.ObjectOutputStream.writeBytes@POLYN584853" , "java.io.ObjectOutputStream.writeBytes@POLYN584853.str"]
+ , "c4" : "//QC-JAVCWZ099[02168] In java.io.ObjectOutputStream.BlockDataOutputStream.writeUTF@POLYN645403[02168] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00841]"
+ , "c3" : ["java.io.ObjectOutputStream.writeBytes@POLYN584853.str" , "---java.io.ObjectOutputStream.writeBytes@POLYN584853" , "java.io.ObjectOutputStream.writeBytes@POLYN584853.cibledummy_00841"]
+ , "c4" : "//QC-JAVCWZ099[00841] In java.io.ObjectOutputStream.writeBytes@POLYN584853[00841] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "62" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01322]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.false" , "---java.io.ObjectOutputStream.writeClassDesc@POLYN599186" , "java.io.ObjectOutputStream.writeClassDesc@POLYN599186.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01322] In java.io.ObjectOutputStream.writeArray@POLYN603710[01322] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01229]"
+ , "c3" : ["java.io.ObjectOutputStream.writeClassDesc@POLYN599186.unshared" , "---java.io.ObjectOutputStream.writeProxyDesc@POLYN600177" , "java.io.ObjectOutputStream.writeProxyDesc@POLYN600177.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01229] In java.io.ObjectOutputStream.writeClassDesc@POLYN599186[01229] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "63" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01229]"
+ , "c3" : ["java.io.ObjectOutputStream.writeClassDesc@POLYN599186.unshared" , "---java.io.ObjectOutputStream.writeProxyDesc@POLYN600177" , "java.io.ObjectOutputStream.writeProxyDesc@POLYN600177.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01229] In java.io.ObjectOutputStream.writeClassDesc@POLYN599186[01229] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01427]"
+ , "c3" : ["java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474.false" , "---java.io.ObjectOutputStream.writeClassDesc@POLYN599186" , "java.io.ObjectOutputStream.writeClassDesc@POLYN599186.unshared"]
+ , "c4" : "//QC-JAVCWZ099[01427] In java.io.ObjectOutputStream.writeOrdinaryObject@POLYN609474[01427] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "64" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01577]"
+ , "c3" : ["java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex" , "---java.io.ObjectOutputStream.writeFatalException@POLYN616379.dummymethode_01577" , "java.io.ObjectOutputStream.writeFatalException@POLYN616379.cibledummy_01577"]
+ , "c4" : "//QC-JAVCWZ099[01577] In java.io.ObjectOutputStream.writeFatalException@POLYN616379[01577] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00351]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject@POLYN569139.ex" , "---java.io.ObjectOutputStream.writeFatalException@POLYN616379" , "java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex"]
+ , "c4" : "//QC-JAVCWZ099[00351] In java.io.ObjectOutputStream.writeObject@POLYN569139[00351] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "65" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01577]"
+ , "c3" : ["java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex" , "---java.io.ObjectOutputStream.writeFatalException@POLYN616379.dummymethode_01577" , "java.io.ObjectOutputStream.writeFatalException@POLYN616379.cibledummy_01577"]
+ , "c4" : "//QC-JAVCWZ099[01577] In java.io.ObjectOutputStream.writeFatalException@POLYN616379[01577] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00418]"
+ , "c3" : ["java.io.ObjectOutputStream.writeUnshared@POLYN571357.ex" , "---java.io.ObjectOutputStream.writeFatalException@POLYN616379" , "java.io.ObjectOutputStream.writeFatalException@POLYN616379.ex"]
+ , "c4" : "//QC-JAVCWZ099[00418] In java.io.ObjectOutputStream.writeUnshared@POLYN571357[00418] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "66" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01329]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ia.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01329] In java.io.ObjectOutputStream.writeArray@POLYN603710[01329] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "67" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01333]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ba.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01333] In java.io.ObjectOutputStream.writeArray@POLYN603710[01333] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "68" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01337]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ja.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01337] In java.io.ObjectOutputStream.writeArray@POLYN603710[01337] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "69" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01341]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.fa.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01341] In java.io.ObjectOutputStream.writeArray@POLYN603710[01341] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "70" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01345]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.da.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01345] In java.io.ObjectOutputStream.writeArray@POLYN603710[01345] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "71" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01349]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.sa.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01349] In java.io.ObjectOutputStream.writeArray@POLYN603710[01349] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "72" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01353]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.ca.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01353] In java.io.ObjectOutputStream.writeArray@POLYN603710[01353] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "73" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01357]"
+ , "c3" : ["java.io.ObjectOutputStream.writeArray@POLYN603710.za.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01357] In java.io.ObjectOutputStream.writeArray@POLYN603710[01357] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "74" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[01252]"
+ , "c3" : ["java.io.ObjectOutputStream.writeProxyDesc@POLYN600177.ifaces.length" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[01252] In java.io.ObjectOutputStream.writeProxyDesc@POLYN600177[01252] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "75" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00797]"
+ , "c3" : ["java.io.ObjectOutputStream.writeInt@POLYN583721.val" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.cibledummy_00797"]
+ , "c4" : "//QC-JAVCWZ099[00797] In java.io.ObjectOutputStream.writeInt@POLYN583721[00797] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00464]"
+ , "c3" : ["java.lang.StringBuilder.writeObject@POLYN247731.count" , "---java.io.ObjectOutputStream.writeInt@POLYN583721" , "java.io.ObjectOutputStream.writeInt@POLYN583721.val"]
+ , "c4" : "//QC-JAVCWZ099[00464] In java.lang.StringBuilder.writeObject@POLYN247731[00464] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "76" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[02188]"
+ , "c3" : ["java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN646390.utflen" , "---java.io.ObjectOutputStream.writeLong@POLYN584001" , "java.io.ObjectOutputStream.writeLong@POLYN584001.val"]
+ , "c4" : "//QC-JAVCWZ099[02188] In java.io.ObjectOutputStream.BlockDataOutputStream.writeLongUTF@POLYN646390[02188] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00808]"
+ , "c3" : ["java.io.ObjectOutputStream.writeLong@POLYN584001.val" , "---java.io.ObjectOutputStream.writeLong@POLYN584001" , "java.io.ObjectOutputStream.writeLong@POLYN584001.cibledummy_00808"]
+ , "c4" : "//QC-JAVCWZ099[00808] In java.io.ObjectOutputStream.writeLong@POLYN584001[00808] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "77" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01120]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared" , "---java.io.ObjectOutputStream.writeClass@POLYN598686" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cibledummy_01120"]
+ , "c4" : "//QC-JAVCWZ099[01120] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01120] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00348]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject@POLYN569139.false" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared"]
+ , "c4" : "//QC-JAVCWZ099[00348] In java.io.ObjectOutputStream.writeObject@POLYN569139[00348] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "78" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[01120]"
+ , "c3" : ["java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared" , "---java.io.ObjectOutputStream.writeClass@POLYN598686" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.cibledummy_01120"]
+ , "c4" : "//QC-JAVCWZ099[01120] In java.io.ObjectOutputStream.writeObject0@POLYN593655[01120] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00415]"
+ , "c3" : ["java.io.ObjectOutputStream.writeUnshared@POLYN571357.true" , "---java.io.ObjectOutputStream.writeObject0@POLYN593655" , "java.io.ObjectOutputStream.writeObject0@POLYN593655.unshared"]
+ , "c4" : "//QC-JAVCWZ099[00415] In java.io.ObjectOutputStream.writeUnshared@POLYN571357[00415] target data PATHtainted (java.io.ObjectOutputStream.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "79" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00318]"
@@ -2371,7 +5738,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "32" , "contenu" : [ 
+ "seq" : "80" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00340]"
@@ -2419,7 +5786,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "33" , "contenu" : [ 
+ "seq" : "81" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00388]"
@@ -2467,7 +5834,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "34" , "contenu" : [ 
+ "seq" : "82" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00388]"
@@ -2515,7 +5882,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "35" , "contenu" : [ 
+ "seq" : "83" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00390]"
@@ -2563,7 +5930,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "36" , "contenu" : [ 
+ "seq" : "84" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00395]"
@@ -2611,7 +5978,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "37" , "contenu" : [ 
+ "seq" : "85" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
@@ -2659,7 +6026,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "38" , "contenu" : [ 
+ "seq" : "86" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00001]"
@@ -2707,20 +6074,20 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "39" , "contenu" : [ 
+ "seq" : "87" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00667]"
- , "c3" : ["java.io.PrintStream.print@POLYN376552.'null'" , "---java.io.PrintStream.print@POLYN376552.dummymethode_00667" , "java.io.PrintStream.print@POLYN376552.s"]
- , "c4" : "//QC-JAVCWZ099[00667] In java.io.PrintStream.print@POLYN376552[00667] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+ , "sourcenoligne" : "[00517]"
+ , "c3" : ["java.io.PrintWriter.print@POLYN356817.c" , "---java.io.PrintWriter.print@POLYN356817.dummymethode_00517" , "java.io.PrintWriter.print@POLYN356817.cibledummy_00517"]
+ , "c4" : "//QC-JAVCWZ099[00517] In java.io.PrintWriter.print@POLYN356817[00517] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00669]"
- , "c3" : ["java.io.PrintStream.print@POLYN376552.s" , "---java.io.PrintStream.print@POLYN376552.dummymethode_00669" , "java.io.PrintStream.print@POLYN376552.cibledummy_00669"]
- , "c4" : "//QC-JAVCWZ099[00669] In java.io.PrintStream.print@POLYN376552[00669] target data PATHtainted (java.io.PrintStream.print) RiskOnOutput"
+ , "sourcenoligne" : "[00655]"
+ , "c3" : ["java.io.PrintWriter.println@POLYN361529.x" , "---java.io.PrintWriter.print@POLYN356817" , "java.io.PrintWriter.print@POLYN356817.c"]
+ , "c4" : "//QC-JAVCWZ099[00655] In java.io.PrintWriter.println@POLYN361529[00655] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
@@ -2755,20 +6122,20 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "40" , "contenu" : [ 
+ "seq" : "88" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00601]"
- , "c3" : ["java.io.PrintWriter.print@POLYN359787.'null'" , "---java.io.PrintWriter.print@POLYN359787.dummymethode_00601" , "java.io.PrintWriter.print@POLYN359787.s"]
- , "c4" : "//QC-JAVCWZ099[00601] In java.io.PrintWriter.print@POLYN359787[00601] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "sourcenoligne" : "[01002]"
+ , "c3" : ["java.io.PrintWriter.append@POLYN372963.'null'" , "---java.io.PrintWriter.write@POLYN352998" , "java.io.PrintWriter.write@POLYN352998.c"]
+ , "c4" : "//QC-JAVCWZ099[01002] In java.io.PrintWriter.append@POLYN372963[01002] target data PATHtainted (java.io.PrintWriter.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
- , "sourcenoligne" : "[00603]"
- , "c3" : ["java.io.PrintWriter.print@POLYN359787.s" , "---java.io.PrintWriter.print@POLYN359787.dummymethode_00603" , "java.io.PrintWriter.print@POLYN359787.cibledummy_00603"]
- , "c4" : "//QC-JAVCWZ099[00603] In java.io.PrintWriter.print@POLYN359787[00603] target data PATHtainted (java.io.PrintWriter.print) RiskOnOutput"
+ , "sourcenoligne" : "[00405]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN352998.c" , "---java.io.Writer.write@POLYN201528" , "java.io.Writer.write@POLYN201528.c"]
+ , "c4" : "//QC-JAVCWZ099[00405] In java.io.PrintWriter.write@POLYN352998[00405] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
@@ -2803,7 +6170,103 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "41" , "contenu" : [ 
+ "seq" : "89" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00243]"
+ , "c3" : ["java.io.BufferedWriter.newLine@POLYN197070.lineSeparator" , "---java.io.Writer.write@POLYN202828" , "java.io.Writer.write@POLYN202828.str"]
+ , "c4" : "//QC-JAVCWZ099[00243] In java.io.BufferedWriter.newLine@POLYN197070[00243] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00157]"
+ , "c3" : ["java.io.Writer.write@POLYN202828.str" , "---java.io.Writer.write@POLYN203421" , "java.io.Writer.write@POLYN202828.cibledummy_00157"]
+ , "c4" : "//QC-JAVCWZ099[00157] In java.io.Writer.write@POLYN202828[00157] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "90" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00480]"
+ , "c3" : ["java.io.PrintWriter.newLine@POLYN355480.lineSeparator" , "---java.io.Writer.write@POLYN202828" , "java.io.Writer.write@POLYN202828.str"]
+ , "c4" : "//QC-JAVCWZ099[00480] In java.io.PrintWriter.newLine@POLYN355480[00480] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00157]"
+ , "c3" : ["java.io.Writer.write@POLYN202828.str" , "---java.io.Writer.write@POLYN203421" , "java.io.Writer.write@POLYN202828.cibledummy_00157"]
+ , "c4" : "//QC-JAVCWZ099[00157] In java.io.Writer.write@POLYN202828[00157] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "91" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00187]"
@@ -2851,7 +6314,103 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "42" , "contenu" : [ 
+ "seq" : "92" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00456]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN354610.off" , "---java.io.Writer.write@POLYN203421" , "java.io.Writer.write@POLYN203421.off"]
+ , "c4" : "//QC-JAVCWZ099[00456] In java.io.PrintWriter.write@POLYN354610[00456] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00191]"
+ , "c3" : ["java.io.Writer.write@POLYN203421.off" , "---java.io.Writer.write@POLYN203421.dummymethode_00191" , "java.io.Writer.write@POLYN203421.cibledummy_00191"]
+ , "c4" : "//QC-JAVCWZ099[00191] In java.io.Writer.write@POLYN203421[00191] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "93" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00456]"
+ , "c3" : ["java.io.PrintWriter.write@POLYN354610.len" , "---java.io.Writer.write@POLYN203421" , "java.io.Writer.write@POLYN203421.len"]
+ , "c4" : "//QC-JAVCWZ099[00456] In java.io.PrintWriter.write@POLYN354610[00456] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00192]"
+ , "c3" : ["java.io.Writer.write@POLYN203421.len" , "---java.io.Writer.write@POLYN202587" , "java.io.Writer.write@POLYN203421.cibledummy_00192"]
+ , "c4" : "//QC-JAVCWZ099[00192] In java.io.Writer.write@POLYN203421[00192] target data PATHtainted (java.io.Writer.write) RiskOnOutput"
+ , "c5" : "output"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "94" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00218]"
@@ -2899,7 +6458,7 @@ var maDataBlocs = {
 }}
 ,
 { "sequence" : { 
- "seq" : "43" , "contenu" : [ 
+ "seq" : "95" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00356]"
@@ -2945,6 +6504,246 @@ var maDataBlocs = {
 }}
 ]
 }}
+,
+{ "sequence" : { 
+ "seq" : "96" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00415]"
+ , "c3" : ["java.net.Socket.Socket@POLYN479635.address" , "---java.net.Socket.connect@POLYN483414" , "java.net.Socket.connect@POLYN483414.endpoint"]
+ , "c4" : "//QC-JAVCWZ099[00415] In java.net.Socket.Socket@POLYN479635[00415] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00518]"
+ , "c3" : ["java.net.Socket.connect@POLYN483414.endpoint" , "---java.net.Socket.connect@POLYN484064" , "java.net.Socket.connect@POLYN483414.cibledummy_00518"]
+ , "c4" : "//QC-JAVCWZ099[00518] In java.net.Socket.connect@POLYN483414[00518] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "97" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00518]"
+ , "c3" : ["java.net.Socket.connect@POLYN483414.0" , "---java.net.Socket.connect@POLYN484064" , "java.net.Socket.connect@POLYN484064.timeout"]
+ , "c4" : "//QC-JAVCWZ099[00518] In java.net.Socket.connect@POLYN483414[00518] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00568]"
+ , "c3" : ["java.net.Socket.connect@POLYN484064.timeout" , "---java.net.Socket.connect@POLYN484064.dummymethode_00568" , "java.net.Socket.connect@POLYN484064.cibledummy_00568"]
+ , "c4" : "//QC-JAVCWZ099[00568] In java.net.Socket.connect@POLYN484064[00568] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "98" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00411]"
+ , "c3" : ["java.net.Socket.Socket@POLYN479635.stream" , "---java.net.Socket.createImpl@POLYN480565" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c4" : "//QC-JAVCWZ099[00411] In java.net.Socket.Socket@POLYN479635[00411] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00434]"
+ , "c3" : ["java.net.Socket.createImpl@POLYN480565.stream" , "---java.net.Socket.createImpl@POLYN480565.dummymethode_00434" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN480565[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "99" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00566]"
+ , "c3" : ["java.net.Socket.connect@POLYN484064.true" , "---java.net.Socket.createImpl@POLYN480565" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c4" : "//QC-JAVCWZ099[00566] In java.net.Socket.connect@POLYN484064[00566] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00434]"
+ , "c3" : ["java.net.Socket.createImpl@POLYN480565.stream" , "---java.net.Socket.createImpl@POLYN480565.dummymethode_00434" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN480565[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
+,
+{ "sequence" : { 
+ "seq" : "100" , "contenu" : [ 
+{ "ligne" : { "" : ""
+ , "c1" : "1"
+ , "sourcenoligne" : "[00434]"
+ , "c3" : ["java.net.Socket.createImpl@POLYN480565.stream" , "---java.net.Socket.createImpl@POLYN480565.dummymethode_00434" , "java.net.Socket.createImpl@POLYN480565.cibledummy_00434"]
+ , "c4" : "//QC-JAVCWZ099[00434] In java.net.Socket.createImpl@POLYN480565[00434] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "2"
+ , "sourcenoligne" : "[00500]"
+ , "c3" : ["java.net.Socket.getImpl@POLYN482896.true" , "---java.net.Socket.createImpl@POLYN480565" , "java.net.Socket.createImpl@POLYN480565.stream"]
+ , "c4" : "//QC-JAVCWZ099[00500] In java.net.Socket.getImpl@POLYN482896[00500] source or target data Sockettainted (java.net.Socket) RiskOnInput / RiskOnOutput"
+ , "c5" : "input"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "1"
+ , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "2"
+ , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
+ , "secuvaleur" : "Ok"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "3"
+ , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
+ , "secuvaleur" : "Ko"
+}}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "0"
+ , "secuindice" : "4"
+ , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
+ , "secuvaleur" : "Ko"
+}}
+]
+}}
 ]
 , 
 "data10" : [
@@ -2954,63 +6753,63 @@ var maDataBlocs = {
 ]
 , 
 "data12a" : [
-{ "ligne" :  "R0:java.net.ServerSocket.closeLock" }
+{ "ligne" :  "R0:java.io.File.this" }
 ,
-{ "ligne" :  "R1:java.net.ServerSocket.this" }
+{ "ligne" :  "R1:java.io.File.readObject@POLYN644532.s" }
 ,
-{ "ligne" :  "R2:java.net.Socket.this" }
+{ "ligne" :  "R2:java.net.ServerSocket.closeLock" }
 ,
-{ "ligne" :  "R3:java.io.PrintStream.this" }
+{ "ligne" :  "R3:java.net.ServerSocket.this" }
 ,
-{ "ligne" :  "R4:java.io.Writer.lock" }
+{ "ligne" :  "R4:java.net.Socket.this" }
 ,
 { "ligne" :  "R5:java.net.Socket.closeLock" }
 ,
-{ "ligne" :  "R6:java.io.BufferedOutputStream.this" }
+{ "ligne" :  "R6:java.io.PrintStream.this" }
 ,
-{ "ligne" :  "R7:java.io.BufferedOutputStream.write@POLYN171003.b" }
+{ "ligne" :  "R7:java.io.Writer.lock" }
 ,
-{ "ligne" :  "R8:java.io.BufferedOutputStream.write@POLYN171864.b" }
+{ "ligne" :  "R8:java.io.File.writeObject@POLYN644151.s" }
 ,
-{ "ligne" :  "R9:java.io.BufferedOutputStream.write@POLYN171864.off" }
+{ "ligne" :  "R9:java.lang.Throwable.this" }
 ,
-{ "ligne" :  "R10:java.io.BufferedOutputStream.write@POLYN171864.len" }
+{ "ligne" :  "R10:java.lang.Throwable.writeObject@POLYN397822.s" }
 ,
-{ "ligne" :  "R11:java.io.File.this" }
+{ "ligne" :  "R11:java.io.PipedOutputStream.this" }
 ,
-{ "ligne" :  "R12:java.io.File.writeObject@POLYN644151.s" }
+{ "ligne" :  "R12:java.io.PipedOutputStream.connect@POLYN181949.snk" }
 ,
-{ "ligne" :  "R13:java.io.File.readObject@POLYN644532.s" }
+{ "ligne" :  "R13:java.io.PipedInputStream.this" }
 ,
-{ "ligne" :  "R14:java.io.PipedInputStream.this" }
+{ "ligne" :  "R14:java.io.PipedInputStream.receive@POLYN230704.b" }
 ,
-{ "ligne" :  "R15:java.io.PipedInputStream.receive@POLYN230704.b" }
+{ "ligne" :  "R15:java.io.PipedInputStream.receive@POLYN231811.b" }
 ,
-{ "ligne" :  "R16:java.io.PipedInputStream.receive@POLYN231811.b" }
+{ "ligne" :  "R16:java.io.PipedInputStream.receive@POLYN231811.off" }
 ,
-{ "ligne" :  "R17:java.io.PipedInputStream.receive@POLYN231811.off" }
+{ "ligne" :  "R17:java.io.PipedInputStream.receive@POLYN231811.len" }
 ,
-{ "ligne" :  "R18:java.io.PipedInputStream.receive@POLYN231811.len" }
+{ "ligne" :  "R18:java.io.PipedWriter.this" }
 ,
-{ "ligne" :  "R19:java.io.PipedReader.this" }
+{ "ligne" :  "R19:java.io.PipedWriter.connect@POLYN181179.snk" }
 ,
-{ "ligne" :  "R20:java.lang.Throwable.this" }
+{ "ligne" :  "R20:java.io.BufferedOutputStream.this" }
 ,
-{ "ligne" :  "R21:java.lang.Throwable.writeObject@POLYN397822.s" }
+{ "ligne" :  "R21:java.io.BufferedOutputStream.write@POLYN171003.b" }
 ,
-{ "ligne" :  "R22:java.io.FileInputStream.closeLock" }
+{ "ligne" :  "R22:java.io.BufferedOutputStream.write@POLYN171864.b" }
 ,
-{ "ligne" :  "R23:java.io.FileOutputStream.closeLock" }
+{ "ligne" :  "R23:java.io.BufferedOutputStream.write@POLYN171864.off" }
 ,
-{ "ligne" :  "R24:java.io.BufferedInputStream.this" }
+{ "ligne" :  "R24:java.io.BufferedOutputStream.write@POLYN171864.len" }
 ,
-{ "ligne" :  "R25:java.io.BufferedInputStream.mark@POLYN259755.readlimit" }
+{ "ligne" :  "R25:java.io.PipedReader.this" }
 ,
-{ "ligne" :  "R26:java.io.PipedOutputStream.this" }
+{ "ligne" :  "R26:java.io.FileInputStream.closeLock" }
 ,
-{ "ligne" :  "R27:java.io.PipedOutputStream.connect@POLYN181949.snk" }
+{ "ligne" :  "R27:java.io.FileOutputStream.closeLock" }
 ,
-{ "ligne" :  "R28:java.io.PipedOutputStream.sink" }
+{ "ligne" :  "R28:java.io.BufferedInputStream.this" }
 ,
 { "ligne" :  "R29:java.io.PipedReader.receive@POLYN210743.c" }
 ,
@@ -3020,9 +6819,9 @@ var maDataBlocs = {
 ,
 { "ligne" :  "R32:java.io.PipedReader.receive@POLYN212421.len" }
 ,
-{ "ligne" :  "R33:java.io.PipedWriter.this" }
+{ "ligne" :  "R33:java.io.BufferedInputStream.mark@POLYN259755.readlimit" }
 ,
-{ "ligne" :  "R34:java.io.PipedWriter.connect@POLYN181179.snk" }
+{ "ligne" :  "R34:java.io.PipedOutputStream.sink" }
 ,
 { "ligne" :  "R35:java.io.PipedWriter.sink" }
 ,
@@ -3037,32 +6836,32 @@ var maDataBlocs = {
 { "sequence" : { "noseq" : "0" , "pas" : [
 { "ligne" : "S0:java.net.Socket.Socket@POLYN479635" }
 ,
-{ "ligne" : "S0:java.net.Socket.close@POLYN515244 (R2 in line [00001],R5 in line [00001])" }
+{ "ligne" : "S0:java.net.Socket.close@POLYN515244 (R4 in line [00001],R5 in line [00001])" }
 ,
-{ "ligne" : "S0:java.net.Socket.close@POLYN515244 (R2 in line [00001],R5 in line [00001])" }
+{ "ligne" : "S0:java.net.Socket.close@POLYN515244 (R4 in line [00001],R5 in line [00001])" }
 ,
 { "ligne" : "S0:java.net.Socket.close@POLYN515244.dummymethode_00001" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "1" , "pas" : [
-{ "ligne" : "S1:java.net.Socket.setSocketImplFactory@POLYN520442 (R2 in line [00001],R38 in line [00001])" }
+{ "ligne" : "S1:java.net.Socket.setSocketImplFactory@POLYN520442 (R4 in line [00001],R38 in line [00001])" }
 ,
 { "ligne" : "S1:java.net.Socket.setSocketImplFactory@POLYN520442.dummymethode_00001" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "2" , "pas" : [
-{ "ligne" : "S2:java.lang.Throwable.writeObject@POLYN397822 (R20 in line [01002],R21 in line [01002])" }
+{ "ligne" : "S2:java.lang.Throwable.writeObject@POLYN397822 (R9 in line [01002],R10 in line [01002])" }
 ,
-{ "ligne" : "S2:java.lang.Throwable.getOurStackTrace@POLYN391841 (R20 in line [00834])" }
+{ "ligne" : "S2:java.lang.Throwable.getOurStackTrace@POLYN391841 (R9 in line [00834])" }
 ,
 { "ligne" : "S2:java.lang.Throwable.getOurStackTrace@POLYN391841.dummymethode_00839" }
  ]
  } }
 ,
 { "sequence" : { "noseq" : "3" , "pas" : [
-{ "ligne" : "S3:java.lang.Throwable.addSuppressed@POLYN399877 (R20 in line [01070],R36 in line [01070])" }
+{ "ligne" : "S3:java.lang.Throwable.addSuppressed@POLYN399877 (R9 in line [01070],R36 in line [01070])" }
 ,
 { "ligne" : "S3:java.lang.Throwable.addSuppressed@POLYN399877.dummymethode_01074" }
  ]
@@ -3091,14 +6890,14 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAV999995"
  , "c3" : "Recursivity with depth over 1 between method xx and method yy"
- , "c4" : "6"
+ , "c4" : "130"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "107"
+ , "c4" : "128"
 }}
  ] 
 ,
@@ -3219,35 +7018,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : java.net.ServerSocket.closeLock"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R0 : java.io.File.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : java.net.ServerSocket.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R1 : java.io.File.readObject@POLYN644532.s"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : java.net.Socket.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R2 : java.net.ServerSocket.closeLock"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : java.io.PrintStream.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R3 : java.net.ServerSocket.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : java.io.Writer.lock"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R4 : java.net.Socket.this"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3261,161 +7060,161 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : java.io.BufferedOutputStream.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R6 : java.io.PrintStream.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : java.io.BufferedOutputStream.write@POLYN171003.b"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R7 : java.io.Writer.lock"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : java.io.BufferedOutputStream.write@POLYN171864.b"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R8 : java.io.File.writeObject@POLYN644151.s"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : java.io.BufferedOutputStream.write@POLYN171864.off"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R9 : java.lang.Throwable.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : java.io.BufferedOutputStream.write@POLYN171864.len"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R10 : java.lang.Throwable.writeObject@POLYN397822.s"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : java.io.File.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R11 : java.io.PipedOutputStream.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : java.io.File.writeObject@POLYN644151.s"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R12 : java.io.PipedOutputStream.connect@POLYN181949.snk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : java.io.File.readObject@POLYN644532.s"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R13 : java.io.PipedInputStream.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : java.io.PipedInputStream.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R14 : java.io.PipedInputStream.receive@POLYN230704.b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : java.io.PipedInputStream.receive@POLYN230704.b"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R15 : java.io.PipedInputStream.receive@POLYN231811.b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : java.io.PipedInputStream.receive@POLYN231811.b"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R16 : java.io.PipedInputStream.receive@POLYN231811.off"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : java.io.PipedInputStream.receive@POLYN231811.off"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R17 : java.io.PipedInputStream.receive@POLYN231811.len"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : java.io.PipedInputStream.receive@POLYN231811.len"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R18 : java.io.PipedWriter.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : java.io.PipedReader.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R19 : java.io.PipedWriter.connect@POLYN181179.snk"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : java.lang.Throwable.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R20 : java.io.BufferedOutputStream.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : java.lang.Throwable.writeObject@POLYN397822.s"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R21 : java.io.BufferedOutputStream.write@POLYN171003.b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : java.io.FileInputStream.closeLock"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R22 : java.io.BufferedOutputStream.write@POLYN171864.b"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : java.io.FileOutputStream.closeLock"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R23 : java.io.BufferedOutputStream.write@POLYN171864.off"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : java.io.BufferedInputStream.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R24 : java.io.BufferedOutputStream.write@POLYN171864.len"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : java.io.BufferedInputStream.mark@POLYN259755.readlimit"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R25 : java.io.PipedReader.this"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : java.io.PipedOutputStream.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R26 : java.io.FileInputStream.closeLock"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : java.io.PipedOutputStream.connect@POLYN181949.snk"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R27 : java.io.FileOutputStream.closeLock"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : java.io.PipedOutputStream.sink"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R28 : java.io.BufferedInputStream.this"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3450,14 +7249,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R33 : java.io.PipedWriter.this"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R33 : java.io.BufferedInputStream.mark@POLYN259755.readlimit"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R34 : java.io.PipedWriter.connect@POLYN181179.snk"
+ , "c3" : "QC-JAVCWE833[00001] Deadlock ressource definition of R34 : java.io.PipedOutputStream.sink"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3499,14 +7298,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readTypeString@POLYN840528"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readByte@POLYN818020"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readInt@POLYN819376"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3520,7 +7312,7 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readInt@POLYN819376"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readByte@POLYN818020"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3561,8 +7353,561 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readClassDesc@POLYN844188 ending with method java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.readClassDesc@POLYN844188 ending with method java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readFatalException@POLYN870060"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readClassDesc@POLYN844188 ending with method java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.readClassDesc@POLYN844188 ending with method java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.validateDescriptor@POLYN942447"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readObject0@POLYN835896 ending with method java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readObject0@POLYN835896 ending with method java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.readObject0@POLYN835896 ending with method java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.readObject0@POLYN835896 ending with method java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readClass@POLYN843113 ending with method java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readClass@POLYN843113 ending with method java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.skipCustomData@POLYN866712 ending with method java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.skipCustomData@POLYN866712 ending with method java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.skipCustomData@POLYN866712 ending with method java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.skipCustomData@POLYN866712 ending with method java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3576,7 +7921,252 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.flush@POLYN581793"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readChar@POLYN818563"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readProxyDesc@POLYN845655 ending with method java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.readProxyDesc@POLYN845655 ending with method java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readProxyDesc@POLYN845655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 5 starting with method java.io.ObjectInputStream.readNonProxyDesc@POLYN848497 ending with method java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readClass@POLYN843113"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 4 starting with method java.io.ObjectInputStream.readNonProxyDesc@POLYN848497 ending with method java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectInputStream.readNonProxyDesc@POLYN848497"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.skipCustomData@POLYN866712"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--java.io.ObjectInputStream.readObject0@POLYN835896"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--+--+--java.io.ObjectInputStream.readClassDesc@POLYN844188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeInt@POLYN583721"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.drain@POLYN582050"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeByte@POLYN582881"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeBytes@POLYN584853"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeClassDesc@POLYN599186 ending with method java.io.ObjectOutputStream.writeProxyDesc@POLYN600177"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectOutputStream.writeClassDesc@POLYN599186"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeProxyDesc@POLYN600177"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeClassDesc@POLYN599186 ending with method java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectOutputStream.writeClassDesc@POLYN599186"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeObject0@POLYN593655 ending with method java.io.ObjectOutputStream.writeArray@POLYN603710"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectOutputStream.writeObject0@POLYN593655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeArray@POLYN603710"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3598,6 +8188,41 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectInputStream.clear@POLYN835711"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeArray@POLYN603710 ending with method java.io.ObjectOutputStream.writeObject0@POLYN593655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectOutputStream.writeArray@POLYN603710"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeObject0@POLYN593655"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readTypeString@POLYN840528"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.flush@POLYN581793"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3631,8 +8256,57 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeProxyDesc@POLYN600177 ending with method java.io.ObjectOutputStream.writeClassDesc@POLYN599186"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectOutputStream.writeProxyDesc@POLYN600177"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeClassDesc@POLYN599186"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683 ending with method java.io.ObjectOutputStream.writeClassDesc@POLYN599186"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.io.ObjectOutputStream.writeNonProxyDesc@POLYN601683"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.io.ObjectOutputStream.writeClassDesc@POLYN599186"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.BlockDataInputStream.readByte@POLYN904373"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.parseShort@POLYN252098"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3647,6 +8321,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.ServerSocket.close@POLYN331971"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.parseByte@POLYN249538"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3681,7 +8362,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.drain@POLYN582050"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.Socket.close@POLYN515244"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintWriter.write@POLYN355288"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printEnclosedStackTrace@POLYN386306"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3744,14 +8439,35 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.hashCode@POLYN403437"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.valueOf@POLYN252580"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Short.parseShort@POLYN252098"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Double.hashCode@POLYN403437"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.accept@POLYN329104 ending with method java.net.ServerSocket.implAccept@POLYN330050"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.accept@POLYN329104"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.implAccept@POLYN330050"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3772,28 +8488,42 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.valueOf@POLYN252580"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeLong@POLYN584001"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Byte.parseByte@POLYN249538"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN245643"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.net.Socket.close@POLYN515244"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeShort@POLYN583161"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.readChar@POLYN818563"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] Recursive call with depth 2 starting with method java.net.ServerSocket.implAccept@POLYN330050 ending with method java.net.ServerSocket.accept@POLYN329104"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--java.net.ServerSocket.implAccept@POLYN330050"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999995[00001] +--+--java.net.ServerSocket.accept@POLYN329104"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3828,21 +8558,14 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.PrintWriter.write@POLYN355288"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.isJavaIdentifierStart@POLYN1386254"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.Writer.write@POLYN201528"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/aa__all_files.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.Writer.write@POLYN203421"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.isJavaIdentifierPart@POLYN1388394"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3856,7 +8579,21 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.StringBuilder.insert@POLYN245643"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Integer.getInteger@POLYN449188"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.indexOf@POLYN872517"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.String.lastIndexOf@POLYN876454"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3926,6 +8663,13 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectInputStream.skipBytes@POLYN821716"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.ReplaceTable.lookup@POLYN657257"
 }} 
 ,
@@ -3933,7 +8677,77 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/aa__all_files.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.write@POLYN580194"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeBoolean@POLYN582601"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeChar@POLYN583441"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeChars@POLYN585145"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeDouble@POLYN584561"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeFields@POLYN573709"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeFloat@POLYN584281"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.ObjectOutputStream.writeUTF@POLYN585665"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN188644"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN188975"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/aa__all_files.java.html#1"
+ , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.OutputStreamWriter.write@POLYN189397"
 }} 
 ,
 { "ligne" : {"" : ""

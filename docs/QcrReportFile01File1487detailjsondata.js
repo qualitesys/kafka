@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Throwable.java.html" 
- , "texte" : "File secujava/java.lang.Throwable.java 93 rule violations " 
+ , "texte" : "File secujava/java.lang.Throwable.java 108 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -561,6 +561,13 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
+ , "c1" : "BLOCKER"
+ , "c2" : "QC-JAV999993"
+ , "c3" : "In the recursive method xxx the Magic Number / String must be converted to const"
+ , "c4" : "14"
+}}
+,
+{ "ligne" : { "" : ""
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAVCWE476"
  , "c3" : "Null pointer reference"
@@ -571,7 +578,7 @@ var maDataBlocs = {
  , "c1" : "CRITICAL"
  , "c2" : "QC-JAV999994"
  , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -1259,7 +1266,112 @@ var maDataBlocs = {
  , "c1" : "00001"
  , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
  , "c2" : "CRITICAL"
+ , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printEnclosedStackTrace@POLYN386306"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#1"
+ , "c2" : "CRITICAL"
  , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Throwable.printStackTrace@POLYN388874"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00697"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#697"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00697] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String '[CIRCULAR REFERENCE: ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00697"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#697"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00697] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String ']' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00702"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#702"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00702] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00703"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#703"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00703] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00704"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#704"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00704] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00704"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#704"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00704] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00707"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#707"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00707] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 1 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00711"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#711"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00711] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00712"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#712"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00712] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String '\tat ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00713"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#713"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00713] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String 0 MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00714"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00714] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String ' more' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00714"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#714"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00714] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String '\t... ' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00719"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#719"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00719] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String '\t' MUST BE CONVERTED to const"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00723"
+ , "c1link" : "./qc/secujava/java.lang.Throwable.java.html#723"
+ , "c2" : "BLOCKER"
+ , "c3" : "QC-JAV999993[00723] In the recursive method java.lang.Throwable.printEnclosedStackTrace@POLYN386306 the MagicNumber/String null MUST BE CONVERTED to const"
 }} 
 ]
 , 
