@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedInputStream.java.html" 
- , "texte" : "File secujava/java.io.BufferedInputStream.java 62 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedInputStream.java 59 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -180,26 +180,7 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-{ "ligne" :  "R0:java.io.BufferedInputStream.this" }
-,
-{ "ligne" :  "R1:java.io.BufferedInputStream.mark@POLYN259755.readlimit" }
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
-{ "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "1"
-}}
-,
 { "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAVCWE481"
@@ -226,13 +207,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "4"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -284,13 +258,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#201"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00201] In method java.io.BufferedInputStream.BufferedInputStream@POLYN249367 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00213"
- , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#213"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00213] For method fill list of called methods Object monObjet|byte[] getBufIfOpenN250034"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -452,13 +419,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#333"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00333] For method read arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00333"
- , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#333"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00333] For method read list of called methods Object monObjet|int read1N256556"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -669,13 +629,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#482"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[00482] In method java.io.BufferedInputStream.close@POLYN261510 the MagicNumber/String  null should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.BufferedInputStream.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.io.BufferedInputStream.available@POLYN259132"
 }} 
 ]
 , 

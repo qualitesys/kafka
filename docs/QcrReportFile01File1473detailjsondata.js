@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.lang.Character.java.html" 
- , "texte" : "File secujava/java.lang.Character.java 222 rule violations " 
+ , "texte" : "File secujava/java.lang.Character.java 214 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -891,15 +891,6 @@ var maDataBlocs = {
 "data14" : [
 ]
 , 
-"data12a" : [
-]
-,
-"data12b" : [
-]
-,
-"data12c" : [
-]
-, 
 "data13a" : [
 { "ligne" : { "" : ""
  , "c1" : "BLOCKER"
@@ -916,13 +907,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "CRITICAL"
- , "c2" : "QC-JAV999994"
- , "c3" : "Recursivity with depth  1 for method xx"
- , "c4" : "6"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "MAJOR"
  , "c2" : "QC-JAV000010"
  , "c3" : "MagicNumber Strings and numbers should be converted to constants"
@@ -934,13 +918,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "93"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
 }}
  ] 
 ,
@@ -1284,13 +1261,6 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "04772"
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04772] For method codePointBefore list of called methods Object monObjet|int seq_charAtN1346137"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04772"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#4772"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[04772] The argument seq is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -1419,13 +1389,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#4986"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[04986] For method toSurrogates arguments int  codePoint|char[]  dst|int  index"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "04986"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#4986"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[04986] For method toSurrogates list of called methods Object monObjet|char lowSurrogateN1354799|char highSurrogateN1354913"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2455,48 +2418,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.lang.Character.java.html#7027"
  , "c2" : "MAJOR"
  , "c3" : "QC-JAV000010[07027] In method java.lang.Character.getName@POLYN1426238 the MagicNumber/String  ' ' should be converted to const"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.isJavaIdentifierStart@POLYN1386254"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.isJavaIdentifierPart@POLYN1388394"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.hashCode@POLYN1332932"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.toLowerCase@POLYN1396210"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.toTitleCase@POLYN1400108"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.lang.Character.java.html#1"
- , "c2" : "CRITICAL"
- , "c3" : "QC-JAV999994[00001] Recursive call with depth 1 for java.lang.Character.toUpperCase@POLYN1398192"
 }} 
 ]
 , 

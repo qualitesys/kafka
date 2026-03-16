@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.BufferedReader.java.html" 
- , "texte" : "File secujava/java.io.BufferedReader.java 89 rule violations " 
+ , "texte" : "File secujava/java.io.BufferedReader.java 86 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -191,39 +191,9 @@ var maDataBlocs = {
  , "c1" : "./QcrReportFile01File1451Seq1.html#seq1"
  , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1451&numSeq=1"
  , "c2" : "1"
- , "c3" : "4"
- , "c4" : "2"
- , "c5" : ["java.io.BufferedReader.nChars" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1451Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1451&numSeq=2"
- , "c2" : "2"
- , "c3" : "4"
- , "c4" : "2"
- , "c5" : ["0" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1451Seq3.html#seq3"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1451&numSeq=3"
- , "c2" : "3"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.BufferedReader.readLine@POLYN249958.null" , "java.io.BufferedReader.readLine@POLYN253159.return"]
+ , "c5" : ["nextChar" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -238,145 +208,17 @@ var maDataBlocs = {
  "seq" : "1" , "contenu" : [ 
 { "ligne" : { "" : ""
  , "c1" : "1"
- , "sourcenoligne" : "[00106]"
- , "c3" : ["java.io.BufferedReader.nChars" , "---java.io.BufferedReader.BufferedReader@POLYN240816.dummymethode_00106" , "java.io.BufferedReader.nextChar"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00164]"
- , "c3" : ["dst+n" , "---java.io.BufferedReader.fill@POLYN241817.dummymethode_00164" , "java.io.BufferedReader.nChars"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
  , "sourcenoligne" : "[00350]"
- , "c3" : ["java.io.BufferedReader.nextChar" , "---java.io.BufferedReader.readLine@POLYN249958.dummymethode_00350" , "java.io.BufferedReader.readLine@POLYN249958.startChar"]
+ , "c3" : ["nextChar" , "---java.io.BufferedReader.readLine@POLYN249958.dummymethode_00350" , "java.io.BufferedReader.readLine@POLYN249958.startChar"]
  , "c4" : "//QC-JAVCWE099[00350] In java.io.BufferedReader.readLine@POLYN249958[00350] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "4"
+ , "c1" : "2"
  , "sourcenoligne" : "[00358]"
  , "c3" : ["java.io.BufferedReader.readLine@POLYN249958.startChar" , "---java.io.BufferedReader.readLine@POLYN249958.dummymethode_00358" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
  , "c4" : "//QC-JAVCWE099[00358] In java.io.BufferedReader.readLine@POLYN249958[00358] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00132]"
- , "c3" : ["0" , "---java.io.BufferedReader.fill@POLYN241817.dummymethode_00132" , "java.io.BufferedReader.fill@POLYN241817.dst"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00165]"
- , "c3" : ["java.io.BufferedReader.fill@POLYN241817.dst" , "---java.io.BufferedReader.fill@POLYN241817.dummymethode_00165" , "java.io.BufferedReader.nextChar"]
- , "c4" : ""
- , "c5" : "none"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "3"
- , "sourcenoligne" : "[00350]"
- , "c3" : ["java.io.BufferedReader.nextChar" , "---java.io.BufferedReader.readLine@POLYN249958.dummymethode_00350" , "java.io.BufferedReader.readLine@POLYN249958.startChar"]
- , "c4" : "//QC-JAVCWE099[00350] In java.io.BufferedReader.readLine@POLYN249958[00350] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "4"
- , "sourcenoligne" : "[00358]"
- , "c3" : ["java.io.BufferedReader.readLine@POLYN249958.startChar" , "---java.io.BufferedReader.readLine@POLYN249958.dummymethode_00358" , "java.io.BufferedReader.readLine@POLYN249958.cibledummy_00358"]
- , "c4" : "//QC-JAVCWE099[00358] In java.io.BufferedReader.readLine@POLYN249958[00358] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "3" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00329]"
- , "c3" : ["java.io.BufferedReader.readLine@POLYN249958.null" , "---java.io.BufferedReader.readLine@POLYN249958.dummymethode_00329" , "java.io.BufferedReader.readLine@POLYN249958.return"]
- , "c4" : "//QC-JAVCWZ099[00329] In java.io.BufferedReader.readLine@POLYN249958[00329] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00389]"
- , "c3" : ["java.io.BufferedReader.readLine@POLYN249958.return" , "---java.io.BufferedReader.readLine@POLYN249958" , "java.io.BufferedReader.readLine@POLYN253159.return"]
- , "c4" : "//QC-JAVCWZ099[00389] In java.io.BufferedReader.readLine@POLYN253159[00389] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
  , "c5" : "input"
 }}
 ,
@@ -422,7 +264,7 @@ var maDataBlocs = {
  , "c1" : "BLOCKER"
  , "c2" : "QC-JAVCWE099"
  , "c3" : "Ressource injection"
- , "c4" : "4"
+ , "c4" : "2"
 }}
 ,
 { "ligne" : { "" : ""
@@ -451,13 +293,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -635,13 +470,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#276"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00276] For method read arguments char[]  cbuf|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00276"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#276"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00276] For method read list of called methods Object monObjet|int read1N248887|int read1N249245"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1062,20 +890,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#75"
  , "c2" : "BLOCKER"
  , "c3" : "QC-JAV000005[00075] Valued method nChars is empty or contains only a return."
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00358"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#358"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00358] In java.io.BufferedReader.readLine@POLYN249958[00358] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00350"
- , "c1link" : "./qc/secujava/java.io.BufferedReader.java.html#350"
- , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00350] In java.io.BufferedReader.readLine@POLYN249958[00350] source data PATHtainted (java.io.BufferedReader.read) RiskOnInput"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.PipedReader.java.html" 
- , "texte" : "File secujava/java.io.PipedReader.java 71 rule violations " 
+ , "texte" : "File secujava/java.io.PipedReader.java 70 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -160,133 +160,9 @@ var maDataBlocs = {
 ]
 , 
 "data09a" : [
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1465Seq1.html#seq1"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1465&numSeq=1"
- , "c2" : "1"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN213471.-1" , "java.io.PipedReader.read@POLYN216075.c"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "./QcrReportFile01File1465Seq2.html#seq2"
- , "c1bis" : "./QcrReportFile01File0Seq0.html?numFile=1465&numSeq=2"
- , "c2" : "2"
- , "c3" : "2"
- , "c4" : "2"
- , "c5" : ["java.io.PipedReader.read@POLYN213471.ret" , "java.io.PipedReader.read@POLYN216075.c"]
- , "c6" : ""
- , "c7" : ""
- , "secu1" : "Ok"
- , "secu2" : "Ok"
- , "secu3" : "Ok"
- , "secu4" : "Ok"
-}}
 ]
 ,
 "data09b" : [
-{ "sequence" : { 
- "seq" : "1" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN213471.-1" , "---java.io.PipedReader.read@POLYN213471.dummymethode_00001" , "java.io.PipedReader.read@POLYN213471.return"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN213471[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN213471.return" , "---java.io.PipedReader.read@POLYN213471" , "java.io.PipedReader.read@POLYN216075.c"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN216075[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
-,
-{ "sequence" : { 
- "seq" : "2" , "contenu" : [ 
-{ "ligne" : { "" : ""
- , "c1" : "1"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN213471.ret" , "---java.io.PipedReader.read@POLYN213471.dummymethode_00001" , "java.io.PipedReader.read@POLYN213471.return"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN213471[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "2"
- , "sourcenoligne" : "[00001]"
- , "c3" : ["java.io.PipedReader.read@POLYN213471.return" , "---java.io.PipedReader.read@POLYN213471" , "java.io.PipedReader.read@POLYN216075.c"]
- , "c4" : "//QC-JAVCWZ099[00001] In java.io.PipedReader.read@POLYN216075[00001] source data PATHtainted (java.io.PipedReader.read) RiskOnInput"
- , "c5" : "input"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "1"
- , "seculibelle" : " Secu1 (Si aucun input ou output : ok, si input seul : ok, si pas input et output : ok, si input et secure et ouput : input avant secure avant output alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "2"
- , "seculibelle" : " Secu2 ignore (Si au moins 1 input et output, toutes les variables inflow non constantes qui sont arg des methodes a risque output sont aussi arg des methodes secure alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "3"
- , "seculibelle" : " Secu3 ignore (Dataflow entre meth risk input et meth risk output est non disjoint alors Ok): "
- , "secuvaleur" : "Ok"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "0"
- , "secuindice" : "4"
- , "seculibelle" : " Synthese Secu4 (Synthese des 3 criteres : (non critere 3 et critere 1 et 2), ou (critere 3) alors Ok) : "
- , "secuvaleur" : "Ok"
-}}
-]
-}}
 ]
 , 
 "data10" : [
@@ -322,13 +198,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "5"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
 ,
 { "ligne" : { "" : ""
@@ -632,13 +501,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method read arguments char[]  cbuf|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00001"
- , "c1link" : "./qc/secujava/java.io.PipedReader.java.html#1"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00001] For method read list of called methods Object monObjet|int readN217424"
 }} 
 ,
 { "ligne" : {"" : ""

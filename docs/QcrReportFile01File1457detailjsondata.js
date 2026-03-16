@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/java.io.InputStream.java.html" 
- , "texte" : "File secujava/java.io.InputStream.java 34 rule violations " 
+ , "texte" : "File secujava/java.io.InputStream.java 32 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -172,13 +172,6 @@ var maDataBlocs = {
 }}
 ,
 { "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "2"
-}}
-,
-{ "ligne" : { "" : ""
  , "c1" : "INFO"
  , "c2" : "QC-JAV000019"
  , "c3" : "Lock statement"
@@ -206,13 +199,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#162"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00162] For method read arguments byte[]  b|int  off|int  len"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00162"
- , "c1link" : "./qc/secujava/java.io.InputStream.java.html#162"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00162] For method read list of called methods Object monObjet|int readN257926"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -290,13 +276,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/java.io.InputStream.java.html#211"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00211] For method skip arguments long  n"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00211"
- , "c1link" : "./qc/secujava/java.io.InputStream.java.html#211"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00211] For method skip list of called methods Object monObjet|int readN260175"
 }} 
 ,
 { "ligne" : {"" : ""
