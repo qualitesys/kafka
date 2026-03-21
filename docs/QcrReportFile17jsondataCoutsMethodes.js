@@ -11164,7 +11164,6 @@ var mesDatas = {
 { "methode" : "org.apache.kafka.queue.EventQueue.enqueue" , "couttotal": "0" } ,
 { "methode" : "org.apache.kafka.queue.EventQueue.prepend" , "couttotal": "0" } ,
 { "methode" : "org.apache.kafka.queue.EventQueue.scheduleDeferred" , "couttotal": "0" } ,
-{ "methode" : "org.apache.kafka.queue.KafkaEventQueue.EventHandler.run@POLYN207352" , "couttotal": "0" } ,
 { "methode" : "org.apache.kafka.queue.KafkaEventQueue.KafkaEventQueue@POLYN214936" , "couttotal": "0" } ,
 { "methode" : "org.apache.kafka.queue.KafkaEventQueue.beginShutdown@POLYN216529" , "couttotal": "0" } ,
 { "methode" : "org.apache.kafka.queue.KafkaEventQueue.cancelDeferred@POLYN216381" , "couttotal": "0" } ,

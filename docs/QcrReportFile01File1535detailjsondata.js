@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html" 
- , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 98 rule violations " 
+ , "texte" : "File shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java 97 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -144,13 +144,6 @@ var maDataBlocs = {
  , "c2" : "QC-JAV000006"
  , "c3" : "Argument list of the method"
  , "c4" : "12"
-}}
-,
-{ "ligne" : { "" : ""
- , "c1" : "MINOR"
- , "c2" : "QC-JAV000007"
- , "c3" : "List of methods called in the body"
- , "c4" : "1"
 }}
  ] 
 ,
@@ -531,13 +524,6 @@ var maDataBlocs = {
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#186"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00186] For method calculateColumnSchema arguments OptionalInt  screenWidth|List&lt;String &gt;  entries"
-}} 
-,
-{ "ligne" : {"" : ""
- , "c1" : "00186"
- , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/LsCommandHandler.java.html#186"
- , "c2" : "MINOR"
- , "c3" : "QC-JAV000007[00186] For method calculateColumnSchema list of called methods Object monObjet|boolean schemasN204563"
 }} 
 ,
 { "ligne" : {"" : ""
