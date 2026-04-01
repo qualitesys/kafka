@@ -2,7 +2,7 @@ console.log('leListeStr main01 start json de data maDataBlocs');
 var maDataBlocs = {
 "data00" : {
    "fic1"  : "./qc/secujava/javax.servlet.http.Cookie.java.html" 
- , "texte" : "File secujava/javax.servlet.http.Cookie.java 32 rule violations " 
+ , "texte" : "File secujava/javax.servlet.http.Cookie.java 34 rule violations " 
  , "fic3"  : "" 
 }
 , 
@@ -255,6 +255,13 @@ var maDataBlocs = {
  , "c3" : "Argument list of the method"
  , "c4" : "9"
 }}
+,
+{ "ligne" : { "" : ""
+ , "c1" : "MINOR"
+ , "c2" : "QC-JAV000007"
+ , "c3" : "List of methods called in the body"
+ , "c4" : "2"
+}}
  ] 
 ,
 "data13b" : [
@@ -380,6 +387,13 @@ var maDataBlocs = {
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00201] For method setDomain list of called methods Object monObjet|java.lang.String domain_toLowerCaseN231647"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00201"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#201"
  , "c2" : "CRITICAL"
  , "c3" : "QC-JAVCWE476[00201] The argument domain is a class instance but is not tested towards null, but referenced in attribute invocation in the method body, NPE potential risk"
 }} 
@@ -424,6 +438,13 @@ var maDataBlocs = {
  , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
  , "c2" : "MINOR"
  , "c3" : "QC-JAV000006[00001] For method isToken arguments String  value"
+}} 
+,
+{ "ligne" : {"" : ""
+ , "c1" : "00001"
+ , "c1link" : "./qc/secujava/javax.servlet.http.Cookie.java.html#1"
+ , "c2" : "MINOR"
+ , "c3" : "QC-JAV000007[00001] For method isToken list of called methods Object monObjet|int value_lengthN236690|char value_charAtN236928"
 }} 
 ,
 { "ligne" : {"" : ""
