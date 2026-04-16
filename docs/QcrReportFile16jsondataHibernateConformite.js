@@ -68,7 +68,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.io.BufferedOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.io.BufferedReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.BufferedReader | java.io.Reader | java.lang.Object"}
+, { "classe" : "java.io.BufferedReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Object | java.io.BufferedReader | java.io.Reader"}
 ]} 
 , { "classe" : "java.io.BufferedWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.BufferedWriter | java.io.Writer | java.lang.Object"}
 ]} 
@@ -88,7 +88,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.io.EOFException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.io.File", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.io.File | java.lang.String"}
+, { "classe" : "java.io.File", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | java.io.File"}
 ]} 
 , { "classe" : "java.io.FileDescriptor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -98,19 +98,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.io.FileOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.io.FileOutputStream"}
 ]} 
-, { "classe" : "java.io.FileReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.FileReader | java.io.InputStreamReader | java.io.Reader | java.lang.Object"}
+, { "classe" : "java.io.FileReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Object | java.io.FileReader | java.io.Reader | java.io.InputStreamReader"}
 ]} 
 , { "classe" : "java.io.IOException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.io.InputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.io.InputStream | java.lang.Object"}
+, { "classe" : "java.io.InputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | java.io.InputStream"}
 ]} 
-, { "classe" : "java.io.InputStreamReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.InputStreamReader | java.io.Reader | java.lang.Object"}
+, { "classe" : "java.io.InputStreamReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Object | java.io.Reader | java.io.InputStreamReader"}
 ]} 
 , { "classe" : "java.io.InterruptedIOException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "java.io.InvalidObjectException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.io.ObjectInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.ObjectInputStream | java.io.ObjectInputStream.ValidationList | java.io.ObjectInputStream.ValidationList.Callback"}
+, { "classe" : "java.io.ObjectInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.ObjectInputStream.ValidationList | java.io.ObjectInputStream.ValidationList.Callback | java.io.ObjectInputStream"}
 ]} 
 , { "classe" : "java.io.ObjectInputStream.BlockDataInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -156,15 +156,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.io.OutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.io.OutputStream | java.lang.Object"}
 ]} 
-, { "classe" : "java.io.OutputStreamWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.OutputStreamWriter | java.io.Writer | java.lang.Object"}
+, { "classe" : "java.io.OutputStreamWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.Writer | java.io.OutputStreamWriter | java.lang.Object"}
 ]} 
-, { "classe" : "java.io.PipedInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.PipedInputStream | java.io.InputStream | java.lang.Object"}
+, { "classe" : "java.io.PipedInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.PipedInputStream | java.lang.Object | java.io.InputStream"}
 ]} 
-, { "classe" : "java.io.PipedOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.PipedOutputStream | java.io.PipedInputStream | java.io.InputStream | java.lang.Object"}
+, { "classe" : "java.io.PipedOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.PipedInputStream | java.lang.Object | java.io.PipedOutputStream | java.io.InputStream"}
 ]} 
-, { "classe" : "java.io.PipedReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.PipedReader | java.io.Reader | java.lang.Object"}
+, { "classe" : "java.io.PipedReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.PipedReader | java.lang.Object | java.io.Reader"}
 ]} 
-, { "classe" : "java.io.PipedWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.PipedWriter | java.io.PipedReader | java.io.Reader | java.lang.Object"}
+, { "classe" : "java.io.PipedWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.PipedReader | java.lang.Object | java.io.Reader | java.io.PipedWriter"}
 ]} 
 , { "classe" : "java.io.PrintStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.io.PrintStream"}
 ]} 
@@ -172,7 +172,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.io.RandomAccessFile", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.io.Reader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.io.Reader | java.lang.Object"}
+, { "classe" : "java.io.Reader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | java.io.Reader"}
 ]} 
 , { "classe" : "java.io.SerialCallbackContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -190,15 +190,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.io.Writer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.io.Writer | java.lang.Object"}
 ]} 
-, { "classe" : "java.lang.Boolean", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "kafka.examples.Producer | java.lang.Boolean"}
+, { "classe" : "java.lang.Boolean", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "kafka.examples.Producer | java.lang.Boolean"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.lang.Boolean"}
 ]} 
-, { "classe" : "java.lang.Byte", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "java.lang.Byte"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Byte | java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Byte", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "java.lang.Byte"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Object | java.lang.Byte | java.lang.Number"}
 ]} 
 , { "classe" : "java.lang.Byte.ByteCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Character", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "java.lang.Character"}
+, { "classe" : "java.lang.Character", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "java.lang.Character"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.lang.Character"}
 ]} 
 , { "classe" : "java.lang.Character.CharacterCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -217,43 +217,43 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.lang.Comparable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Double", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime | java.lang.Double"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Double", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime | java.lang.Double"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Double | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "java.lang.Error", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Error | java.lang.Throwable"}
+, { "classe" : "java.lang.Error", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Throwable | java.lang.Error"}
 ]} 
-, { "classe" : "java.lang.Exception", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Exception | java.lang.Throwable"}
+, { "classe" : "java.lang.Exception", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Throwable | java.lang.Exception"}
 ]} 
-, { "classe" : "java.lang.Float", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.connect.converters.FloatConverter | java.lang.Float"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Float | java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Float", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "org.apache.kafka.connect.converters.FloatConverter | java.lang.Float"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Float | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "java.lang.Integer", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "kafka.examples.Producer | java.lang.Integer"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Integer", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "kafka.examples.Producer | java.lang.Integer"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Object | java.lang.Number | java.lang.Integer"}
 ]} 
 , { "classe" : "java.lang.Integer.IntegerCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Long", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "kafka.tools.StreamsResetter | java.lang.Long"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Long", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "java.lang.Long | kafka.tools.StreamsResetter"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "java.lang.Long.LongCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Number", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Number", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "java.lang.Object", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Short", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 6 depth", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager | org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore | org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile | org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "java.lang.Short", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 6 depth ", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataStore | org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache | org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManager | java.lang.Short | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "java.lang.Short.ShortCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.String", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "secujava.Cookie | java.lang.String"}
+, { "classe" : "java.lang.String", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "secujava.Cookie | java.lang.String"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.lang.String"}
 ]} 
 , { "classe" : "java.lang.String.CaseInsensitiveComparator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "java.lang.StringBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Throwable", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException | java.lang.Exception | java.lang.Throwable"}
+, { "classe" : "java.lang.Throwable", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth ", "commentaire" : "java.lang.Throwable | org.apache.kafka.server.log.remote.storage.RemoteStorageException | java.lang.Exception"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.lang.Throwable"}
 ]} 
 , { "classe" : "java.lang.Throwable.PrintStreamOrWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -264,7 +264,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.lang.Throwable.WrappedPrintWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "java.lang.Void", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "kafka.tools.StreamsResetter | java.lang.Void"}
+, { "classe" : "java.lang.Void", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "java.lang.Void | kafka.tools.StreamsResetter"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "java.lang.Void"}
 ]} 
 , { "classe" : "java.lang.annotation.Annotation", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -1027,13 +1027,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "kafka.server.builders.KafkaApisBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "kafka.server.builders.KafkaApisBuilder | org.apache.kafka.common.metrics.Metrics"}
 ]} 
-, { "classe" : "kafka.server.builders.LogManagerBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "kafka.server.builders.LogManagerBuilder | java.io.File | java.lang.String"}
+, { "classe" : "kafka.server.builders.LogManagerBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.File | kafka.server.builders.LogManagerBuilder | java.lang.String"}
 ]} 
 , { "classe" : "kafka.server.builders.ReplicaManagerBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "kafka.server.builders.ReplicaManagerBuilder | java.lang.String"}
 ]} 
 , { "classe" : "kafka.tools.StreamsResetter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "kafka.tools.StreamsResetter"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.ApiVersions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.ApiVersions | org.apache.kafka.clients.NodeApiVersions | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.ApiVersions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.ApiVersions | java.lang.String | org.apache.kafka.clients.NodeApiVersions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.ClientRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.ClientRequest | java.lang.String"}
 ]} 
@@ -1063,7 +1063,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.KafkaClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.ManualMetadataUpdater", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.ManualMetadataUpdater | org.apache.kafka.common.Node"}
+, { "classe" : "org.apache.kafka.clients.ManualMetadataUpdater", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.Node | org.apache.kafka.clients.ManualMetadataUpdater"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.Metadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.Metadata"}
 ]} 
@@ -1089,14 +1089,14 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.RequestCompletionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.StaleMetadataException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.StaleMetadataException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.clients.StaleMetadataException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.StaleMetadataException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AbortTransactionOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AbortTransactionOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AbortTransactionOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AbortTransactionOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AbortTransactionOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AbortTransactionResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AbortTransactionResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AbortTransactionResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.AbortTransactionResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AbortTransactionSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AbortTransactionSpec | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AbortTransactionSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | java.lang.String | org.apache.kafka.clients.admin.AbortTransactionSpec"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.AbstractOptions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1106,34 +1106,34 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.AdminClientConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AdminClientConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterClientQuotasOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterClientQuotasResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterClientQuotasResult | org.apache.kafka.common.quota.ClientQuotaEntity | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterClientQuotasResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.quota.ClientQuotaEntity | java.lang.String | org.apache.kafka.clients.admin.AlterClientQuotasResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterConfigOp", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterConfigOp | org.apache.kafka.clients.admin.ConfigEntry | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterConfigOp", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ConfigEntry | org.apache.kafka.clients.admin.AlterConfigOp | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterConfigsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AlterConfigsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterConfigsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AlterConfigsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterConfigsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterConfigsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterConfigsResult | org.apache.kafka.common.config.ConfigResource | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterConfigsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigResource | org.apache.kafka.clients.admin.AlterConfigsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterConsumerGroupOffsetsResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.AlterPartitionReassignmentsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsResult | org.apache.kafka.common.TopicPartitionReplica | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterReplicaLogDirsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartitionReplica | org.apache.kafka.clients.admin.AlterReplicaLogDirsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AlterUserScramCredentialsResult | java.lang.String"}
@@ -1146,157 +1146,157 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ConsumerGroupDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ConsumerGroupDescription | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ConsumerGroupListing", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ConsumerGroupListing | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.ConsumerGroupListing", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.clients.admin.ConsumerGroupListing"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.CreateAclsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.CreateAclsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.CreateAclsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.CreateAclsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreateAclsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.CreateAclsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreateAclsResult | org.apache.kafka.common.acl.AclBinding | org.apache.kafka.common.resource.ResourcePattern | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.CreateAclsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.resource.ResourcePattern | org.apache.kafka.clients.admin.CreateAclsResult | org.apache.kafka.common.acl.AclBinding | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreateDelegationTokenOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.CreateDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreateDelegationTokenResult | org.apache.kafka.common.security.token.delegation.DelegationToken | org.apache.kafka.common.security.token.delegation.TokenInformation | org.apache.kafka.common.security.auth.KafkaPrincipal | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.CreateDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.security.token.delegation.DelegationToken | org.apache.kafka.common.security.token.delegation.TokenInformation | org.apache.kafka.clients.admin.CreateDelegationTokenResult | org.apache.kafka.common.security.auth.KafkaPrincipal | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.CreatePartitionsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.CreatePartitionsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.CreatePartitionsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.CreatePartitionsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreatePartitionsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.CreatePartitionsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreatePartitionsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.CreateTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.CreateTopicsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.CreateTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.CreateTopicsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreateTopicsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.CreateTopicsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.CreateTopicsResult | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.CreateTopicsResult.TopicMetadataAndConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteAclsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DeleteAclsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteAclsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DeleteAclsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteAclsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteAclsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteAclsResult | org.apache.kafka.common.acl.AclBindingFilter | org.apache.kafka.common.resource.ResourcePatternFilter | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteAclsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.acl.AclBindingFilter | org.apache.kafka.clients.admin.DeleteAclsResult | java.lang.String | org.apache.kafka.common.resource.ResourcePatternFilter"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DeleteAclsResult.FilterResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DeleteAclsResult.FilterResults", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.DeleteConsumerGroupOffsetsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteConsumerGroupsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.clients.admin.DeleteConsumerGroupsResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteRecordsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DeleteRecordsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteRecordsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DeleteRecordsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteRecordsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteRecordsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteRecordsResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteRecordsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.DeleteRecordsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeleteTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DeleteTopicsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DeleteTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DeleteTopicsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteTopicsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DeleteTopicsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeleteTopicsResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DeletedRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DeletedRecords | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.DeletedRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.DeletedRecords"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeAclsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeAclsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeAclsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeAclsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeAclsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeAclsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeAclsResult | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeAclsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.DescribeAclsResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeClientQuotasOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeClientQuotasOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeClientQuotasOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeClientQuotasOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeClientQuotasOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeClientQuotasResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeClientQuotasResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeClusterOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeClusterOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeClusterOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeClusterOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeClusterOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeClusterResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeClusterResult | org.apache.kafka.common.Node"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeClusterResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.Node | org.apache.kafka.clients.admin.DescribeClusterResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeConfigsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeConfigsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeConfigsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeConfigsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeConfigsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeConfigsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeConfigsResult | org.apache.kafka.common.config.ConfigResource | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeConsumerGroupsResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeDelegationTokenOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeDelegationTokenResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeFeaturesOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeFeaturesOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeFeaturesOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeFeaturesOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeFeaturesOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeFeaturesResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeFeaturesResult | org.apache.kafka.clients.admin.FeatureMetadata | org.apache.kafka.common.feature.SupportedVersionRange | org.apache.kafka.common.feature.BaseVersionRange | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeFeaturesResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeFeaturesResult | org.apache.kafka.clients.admin.FeatureMetadata | org.apache.kafka.common.feature.BaseVersionRange | org.apache.kafka.common.feature.SupportedVersionRange | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeLogDirsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeLogDirsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeLogDirsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeLogDirsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeLogDirsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeLogDirsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeLogDirsResult | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeLogDirsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.clients.admin.DescribeLogDirsResult | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult | org.apache.kafka.clients.admin.QuorumInfo | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeMetadataQuorumResult | java.lang.Integer | org.apache.kafka.clients.admin.QuorumInfo | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeProducersOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeProducersOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeProducersOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeProducersOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeProducersOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeProducersResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeProducersResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeProducersResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | java.lang.String | org.apache.kafka.clients.admin.DescribeProducersResult"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeProducersResult.PartitionProducerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult | org.apache.kafka.common.TopicPartitionReplica | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeReplicaLogDirsResult.ReplicaLogDirInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeTopicsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeTopicsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeTopicsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeTopicsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeTopicsResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeTransactionsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.DescribeTransactionsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeTransactionsResult | org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.DescribeUserScramCredentialsResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ElectLeadersOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ElectLeadersOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ElectLeadersOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ElectLeadersOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ElectLeadersOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ElectLeadersResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ElectLeadersResult | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.ElectLeadersResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.ElectLeadersResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ExpireDelegationTokenOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ExpireDelegationTokenResult | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.FeatureMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.FeatureMetadata | org.apache.kafka.common.feature.SupportedVersionRange | org.apache.kafka.common.feature.BaseVersionRange | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.FeatureMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.FeatureMetadata | org.apache.kafka.common.feature.BaseVersionRange | org.apache.kafka.common.feature.SupportedVersionRange | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.FeatureUpdate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.FeatureUpdate | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.FenceProducersOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.FenceProducersOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.FenceProducersOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.FenceProducersOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.FenceProducersOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.FenceProducersResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.FenceProducersResult | org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.FinalizedVersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.FinalizedVersionRange | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.FinalizedVersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.FinalizedVersionRange"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.KafkaAdminClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.KafkaAdminClient | org.apache.kafka.clients.admin.AdminClient | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.KafkaAdminClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.AdminClient | java.lang.Object | org.apache.kafka.clients.admin.KafkaAdminClient"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.KafkaAdminClient.AdminClientRunnable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1318,51 +1318,51 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.KafkaAdminClient.TimeoutProcessorFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.ListConsumerGroupOffsetsOptions | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupOffsetsResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListConsumerGroupsResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark | org.apache.kafka.clients.admin.ListOffsetsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ListOffsetsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "org.apache.kafka.jmh.admin.GetListOffsetsCallsBenchmark | org.apache.kafka.clients.admin.ListOffsetsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListOffsetsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListOffsetsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListOffsetsResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.ListOffsetsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.ListOffsetsResult | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ListOffsetsResult.ListOffsetsResultInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListPartitionReassignmentsResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ListTopicsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ListTopicsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ListTopicsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListTopicsOptions"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ListTopicsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListTopicsResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListTransactionsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.ListTransactionsOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.ListTransactionsOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.ListTransactionsOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListTransactionsOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ListTransactionsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ListTransactionsResult | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.ListTransactionsResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.ListTransactionsResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.LogDirDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.LogDirDescription | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.LogDirDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.LogDirDescription | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.MemberAssignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.MemberAssignment | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.MemberAssignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.MemberAssignment | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.MemberDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.MemberDescription"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.MemberToRemove", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.MemberToRemove | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.NewPartitionReassignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.NewPartitionReassignment | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.NewPartitionReassignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.clients.admin.NewPartitionReassignment | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.NewPartitions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.NewPartitions | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.NewTopic", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.NewTopic | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.NewTopic", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.NewTopic | java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.OffsetSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.OffsetSpec | org.apache.kafka.clients.admin.OffsetSpec.EarliestSpec"}
 ]} 
@@ -1374,52 +1374,52 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.OffsetSpec.TimestampSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.PartitionReassignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.PartitionReassignment | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.PartitionReassignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | java.lang.Object | java.lang.Number | org.apache.kafka.clients.admin.PartitionReassignment"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ProducerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ProducerState"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.QuorumInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.QuorumInfo | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.QuorumInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.clients.admin.QuorumInfo | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.QuorumInfo.ReplicaState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.RecordsToDelete", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.RecordsToDelete | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult | org.apache.kafka.clients.admin.MemberToRemove | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.MemberToRemove | org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupResult | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.RenewDelegationTokenOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.RenewDelegationTokenResult | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.ReplicaInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ReplicaInfo | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.ScramCredentialInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ScramCredentialInfo | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.ScramCredentialInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.ScramCredentialInfo"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.SupportedVersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.SupportedVersionRange | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.admin.SupportedVersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.clients.admin.SupportedVersionRange"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.TopicDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.TopicDescription | org.apache.kafka.common.TopicPartitionInfo | org.apache.kafka.common.Node | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.TopicDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartitionInfo | org.apache.kafka.common.Node | org.apache.kafka.clients.admin.TopicDescription | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.TopicListing", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.TopicListing"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.TransactionDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.TransactionDescription | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.TransactionDescription", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | java.lang.String | org.apache.kafka.clients.admin.TransactionDescription"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.TransactionListing", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.TransactionListing | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.UnregisterBrokerOptions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UnregisterBrokerOptions | org.apache.kafka.clients.admin.UpdateFeaturesOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.UnregisterBrokerOptions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions | org.apache.kafka.clients.admin.UnregisterBrokerOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.UnregisterBrokerResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UnregisterBrokerResult | java.lang.Void"}
+, { "classe" : "org.apache.kafka.clients.admin.UnregisterBrokerResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Void | org.apache.kafka.clients.admin.UnregisterBrokerResult"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions"}
+, { "classe" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UpdateFeaturesOptions"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.UpdateFeaturesResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UpdateFeaturesResult | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.UpdateFeaturesResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.clients.admin.UpdateFeaturesResult"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.UserScramCredentialAlteration", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UserScramCredentialAlteration | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.UserScramCredentialDeletion", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UserScramCredentialDeletion | org.apache.kafka.clients.admin.UserScramCredentialAlteration | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.UserScramCredentialDeletion", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UserScramCredentialAlteration | org.apache.kafka.clients.admin.UserScramCredentialDeletion | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.UserScramCredentialUpsertion | org.apache.kafka.clients.admin.UserScramCredentialAlteration | java.lang.String"}
 ]} 
@@ -1459,17 +1459,17 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.internals.CoordinatorStrategy.LookupRequestScope", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler | org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String | org.apache.kafka.clients.admin.internals.DeleteConsumerGroupOffsetsHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.DeleteConsumerGroupsHandler"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler | org.apache.kafka.clients.admin.ConsumerGroupDescription | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.ConsumerGroupDescription | org.apache.kafka.clients.admin.internals.DescribeConsumerGroupsHandler | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.internals.DescribeProducersHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.DescribeProducersHandler | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.internals.DescribeProducersHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.admin.internals.DescribeProducersHandler | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler | org.apache.kafka.clients.admin.TransactionDescription | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.DescribeTransactionsHandler | org.apache.kafka.common.TopicPartition | java.lang.String | org.apache.kafka.clients.admin.TransactionDescription"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.admin.internals.FenceProducersHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.FenceProducersHandler | org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.admin.internals.FenceProducersHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String | org.apache.kafka.clients.admin.internals.FenceProducersHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.admin.internals.ListConsumerGroupOffsetsHandler | org.apache.kafka.clients.admin.internals.CoordinatorKey | java.lang.String"}
 ]} 
@@ -1485,7 +1485,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.admin.internals.StaticBrokerStrategy.SingleBrokerScope", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.CommitFailedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.CommitFailedException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.clients.consumer.CommitFailedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.clients.consumer.CommitFailedException"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.Consumer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1513,11 +1513,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.CooperativeStickyAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.CooperativeStickyAssignor"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.InvalidOffsetException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.InvalidOffsetException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.clients.consumer.InvalidOffsetException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.clients.consumer.InvalidOffsetException"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.KafkaConsumer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.LogTruncationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.LogTruncationException | org.apache.kafka.common.errors.OffsetOutOfRangeException | org.apache.kafka.common.errors.InvalidOffsetException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.clients.consumer.LogTruncationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.LogTruncationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidOffsetException | org.apache.kafka.common.errors.OffsetOutOfRangeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.MockConsumer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1525,15 +1525,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.OffsetAndMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.OffsetAndMetadata"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.OffsetAndTimestamp", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.OffsetAndTimestamp | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.consumer.OffsetAndTimestamp", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.OffsetAndTimestamp | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.OffsetCommitCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.OffsetOutOfRangeException | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.RangeAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.RangeAssignor"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.RetriableCommitFailedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.RetriableCommitFailedException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.clients.consumer.RetriableCommitFailedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.RetriableCommitFailedException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.RoundRobinAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.RoundRobinAssignor"}
 ]} 
@@ -1565,7 +1565,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor | org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor | org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo"}
+, { "classe" : "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor | org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor | org.apache.kafka.clients.consumer.internals.AbstractPartitionAssignor.MemberInfo"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.AbstractStickyAssignor.ConsumerGenerationPair", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1601,7 +1601,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.ConsumerMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.ConsumerMetadata"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.internals.ConsumerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.ConsumerMetrics | org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry | org.apache.kafka.common.MetricNameTemplate | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.consumer.internals.ConsumerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.FetcherMetricsRegistry | org.apache.kafka.clients.consumer.internals.ConsumerMetrics | org.apache.kafka.common.MetricNameTemplate | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.ConsumerNetworkClient | org.apache.kafka.common.Node"}
 ]} 
@@ -1635,11 +1635,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.KafkaConsumerMetrics"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.NoAvailableBrokersException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.NoOpConsumerRebalanceListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.NoOpConsumerRebalanceListener | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient | org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient | org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.consumer.internals.OffsetsForLeaderEpochClient.OffsetForEpochResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1683,19 +1683,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.Producer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.ProducerConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.producer.ProducerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.ProducerConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.clients.producer.ProducerConfig"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.ProducerInterceptor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.ProducerRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.RecordMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.producer.RecordMetadata | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.RecordMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.producer.RecordMetadata | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.RoundRobinPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.producer.RoundRobinPartitioner | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.UniformStickyPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.producer.UniformStickyPartitioner | org.apache.kafka.clients.producer.internals.StickyPartitionCache | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.producer.UniformStickyPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache | java.lang.Integer | java.lang.Object | java.lang.Number | org.apache.kafka.clients.producer.UniformStickyPartitioner"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.BufferPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.BufferPool | org.apache.kafka.common.metrics.Sensor"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.BufferPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.clients.producer.internals.BufferPool"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.BuiltInPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.BuiltInPartitioner"}
 ]} 
@@ -1703,13 +1703,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.BuiltInPartitioner.StickyPartitionInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner | org.apache.kafka.clients.producer.internals.StickyPartitionCache | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.DefaultPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache | java.lang.Integer | org.apache.kafka.clients.producer.internals.DefaultPartitioner | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.ErrorLoggingCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.clients.producer.internals.ErrorLoggingCallback"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.FutureRecordMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.FutureRecordMetadata | org.apache.kafka.clients.producer.internals.ProduceRequestResult | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.FutureRecordMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.producer.internals.ProduceRequestResult | org.apache.kafka.clients.producer.internals.FutureRecordMetadata | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.IncompleteBatches", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.IncompleteBatches | org.apache.kafka.clients.producer.internals.ProducerBatch"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.IncompleteBatches", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.clients.producer.internals.IncompleteBatches"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.KafkaProducerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.KafkaProducerMetrics | java.lang.String"}
 ]} 
@@ -1721,11 +1721,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.ProducerInterceptors", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.ProducerMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.ProducerMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.ProducerMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.ProducerMetadata | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.ProducerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.ProducerMetrics | org.apache.kafka.clients.producer.internals.SenderMetricsRegistry | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.ProducerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.SenderMetricsRegistry | org.apache.kafka.clients.producer.internals.ProducerMetrics | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.RecordAccumulator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.RecordAccumulator | org.apache.kafka.clients.producer.internals.TransactionManager | org.apache.kafka.clients.producer.internals.TxnPartitionMap | org.apache.kafka.clients.producer.internals.TxnPartitionEntry | org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.RecordAccumulator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.clients.producer.internals.TxnPartitionEntry | org.apache.kafka.clients.producer.internals.TxnPartitionMap | org.apache.kafka.clients.producer.internals.TransactionManager | java.lang.String | org.apache.kafka.clients.producer.internals.RecordAccumulator"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.RecordAccumulator.AppendCallbacks", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1745,9 +1745,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.SenderMetricsRegistry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.SenderMetricsRegistry"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.StickyPartitionCache | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.TransactionManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.TransactionManager | org.apache.kafka.clients.producer.internals.TxnPartitionMap | org.apache.kafka.clients.producer.internals.TxnPartitionEntry | org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.TransactionManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.clients.producer.internals.TxnPartitionEntry | org.apache.kafka.clients.producer.internals.TxnPartitionMap | org.apache.kafka.clients.producer.internals.TransactionManager | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1769,7 +1769,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.TxnPartitionEntry"}
 ]} 
-, { "classe" : "org.apache.kafka.clients.producer.internals.TxnPartitionMap", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.clients.producer.internals.TxnPartitionMap | org.apache.kafka.clients.producer.internals.TxnPartitionEntry | org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.clients.producer.internals.TxnPartitionMap", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.clients.producer.internals.ProducerBatch | org.apache.kafka.clients.producer.internals.TxnPartitionEntry | org.apache.kafka.clients.producer.internals.TxnPartitionMap | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.Cluster", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.Cluster"}
 ]} 
@@ -1781,7 +1781,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.Endpoint", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.Endpoint | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.InvalidRecordException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.InvalidRecordException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.InvalidRecordException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.InvalidRecordException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.KafkaException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1807,7 +1807,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.TopicCollection.TopicNameCollection", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.TopicIdPartition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.TopicIdPartition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.TopicIdPartition | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.TopicPartition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | java.lang.String"}
 ]} 
@@ -1817,11 +1817,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.Uuid", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.Uuid | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.acl.AccessControlEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.acl.AccessControlEntry | org.apache.kafka.common.acl.AccessControlEntryData | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.acl.AccessControlEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.acl.AccessControlEntryData | org.apache.kafka.common.acl.AccessControlEntry | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.acl.AccessControlEntryData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.acl.AccessControlEntryData | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.acl.AccessControlEntryFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.acl.AccessControlEntryFilter | org.apache.kafka.common.acl.AccessControlEntryData | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.acl.AccessControlEntryFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.acl.AccessControlEntryData | org.apache.kafka.common.acl.AccessControlEntryFilter | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.acl.AclBinding", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.acl.AclBinding"}
 ]} 
@@ -1841,15 +1841,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.cache.SynchronizedCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream | java.io.InputStream | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.compress.KafkaLZ4BlockInputStream | java.lang.Object | java.io.InputStream"}
 ]} 
-, { "classe" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream | java.io.OutputStream | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.OutputStream | java.lang.Object | org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream"}
 ]} 
 , { "classe" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.BD", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.compress.KafkaLZ4BlockOutputStream.FLG", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.compress.SnappyFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.compress.SnappyFactory | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.compress.SnappyFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.compress.SnappyFactory"}
 ]} 
 , { "classe" : "org.apache.kafka.common.compress.ZstdFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.compress.ZstdFactory | java.lang.Object"}
 ]} 
@@ -1859,11 +1859,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.config.AbstractConfig.ResolvingMap", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.Config", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.Config | org.apache.kafka.common.config.ConfigValue | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.config.Config", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigValue | org.apache.kafka.common.config.Config | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.config.ConfigChangeCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.ConfigData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigData | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.config.ConfigData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigData | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.common.config.ConfigDef", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigDef | java.lang.String"}
 ]} 
@@ -1893,11 +1893,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.config.ConfigDef.Validator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.ConfigException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.config.ConfigException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.config.ConfigException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.config.ConfigResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigResource | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.ConfigTransformerResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigTransformerResult | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.config.ConfigTransformerResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigTransformerResult | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.common.config.ConfigValue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigValue | java.lang.String"}
 ]} 
@@ -1907,13 +1907,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.config.SecurityConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.SecurityConfig | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.SslConfigs", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.SslConfigs | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.config.SslConfigs", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.config.SslConfigs"}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.TopicConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.TopicConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.config.TopicConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.config.TopicConfig"}
 ]} 
 , { "classe" : "org.apache.kafka.common.config.internals.BrokerSecurityConfigs", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.internals.BrokerSecurityConfigs | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.config.internals.QuotaConfigs", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.internals.QuotaConfigs | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.config.internals.QuotaConfigs", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.config.internals.QuotaConfigs"}
 ]} 
 , { "classe" : "org.apache.kafka.common.config.provider.ConfigProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -1923,249 +1923,249 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.config.types.Password", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.config.types.Password | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ApiException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ApiException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.AuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.AuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.AuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.AuthorizationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.AuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.AuthorizationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.AuthorizerNotReadyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.AuthorizerNotReadyException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.AuthorizerNotReadyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.AuthorizerNotReadyException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.BrokerIdNotRegisteredException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.BrokerIdNotRegisteredException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.BrokerIdNotRegisteredException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.BrokerIdNotRegisteredException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.BrokerNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.BrokerNotAvailableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.BrokerNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.BrokerNotAvailableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.ClusterAuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.ClusterAuthorizationException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ConcurrentTransactionsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.ConcurrentTransactionsException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ConcurrentTransactionsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ConcurrentTransactionsException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ControllerMovedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.ControllerMovedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ControllerMovedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ControllerMovedException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.CoordinatorLoadInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.CoordinatorLoadInProgressException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.CoordinatorLoadInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.CoordinatorLoadInProgressException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.CoordinatorNotAvailableException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.CorruptRecordException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.CorruptRecordException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.CorruptRecordException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.CorruptRecordException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.DelegationTokenAuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.DelegationTokenAuthorizationException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DelegationTokenDisabledException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DelegationTokenDisabledException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DelegationTokenDisabledException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.DelegationTokenDisabledException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DelegationTokenExpiredException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DelegationTokenExpiredException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DelegationTokenExpiredException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.DelegationTokenExpiredException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DelegationTokenNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DelegationTokenNotFoundException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DelegationTokenNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DelegationTokenNotFoundException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.DelegationTokenOwnerMismatchException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DisconnectException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.DisconnectException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DisconnectException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.DisconnectException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DuplicateBrokerRegistrationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DuplicateBrokerRegistrationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DuplicateBrokerRegistrationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DuplicateBrokerRegistrationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.DuplicateResourceException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.DuplicateResourceException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.DuplicateSequenceException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DuplicateSequenceException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.DuplicateSequenceException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.DuplicateSequenceException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ElectionNotNeededException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.ElectionNotNeededException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ElectionNotNeededException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ElectionNotNeededException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.EligibleLeadersNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.EligibleLeadersNotAvailableException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.FeatureUpdateFailedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.FeatureUpdateFailedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.FeatureUpdateFailedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.FeatureUpdateFailedException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.FencedInstanceIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.FencedInstanceIdException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.FencedInstanceIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.FencedInstanceIdException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.FencedLeaderEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.FencedLeaderEpochException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.FencedLeaderEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.FencedLeaderEpochException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.FetchSessionIdNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.FetchSessionIdNotFoundException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.FetchSessionTopicIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.FetchSessionTopicIdException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.FetchSessionTopicIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.FetchSessionTopicIdException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.GroupAuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupAuthorizationException | org.apache.kafka.common.errors.AuthorizationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.GroupAuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupAuthorizationException | org.apache.kafka.common.errors.AuthorizationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.GroupIdNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupIdNotFoundException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.GroupIdNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.GroupIdNotFoundException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.GroupMaxSizeReachedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupMaxSizeReachedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.GroupMaxSizeReachedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupMaxSizeReachedException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.GroupNotEmptyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupNotEmptyException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.GroupNotEmptyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.GroupNotEmptyException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.GroupSubscribedToTopicException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupSubscribedToTopicException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.GroupSubscribedToTopicException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.GroupSubscribedToTopicException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.IllegalGenerationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.IllegalGenerationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.IllegalGenerationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.IllegalGenerationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.IllegalSaslStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.IllegalSaslStateException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.IllegalSaslStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.IllegalSaslStateException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InconsistentClusterIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InconsistentClusterIdException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InconsistentClusterIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InconsistentClusterIdException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InconsistentGroupProtocolException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InconsistentGroupProtocolException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InconsistentGroupProtocolException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InconsistentGroupProtocolException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InconsistentTopicIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.InconsistentTopicIdException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InconsistentTopicIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InconsistentTopicIdException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InconsistentVoterSetException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InconsistentVoterSetException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InconsistentVoterSetException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InconsistentVoterSetException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.IneligibleReplicaException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.IneligibleReplicaException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.IneligibleReplicaException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.IneligibleReplicaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InterruptException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.errors.InterruptException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InterruptException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InterruptException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidCommitOffsetSizeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidCommitOffsetSizeException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidCommitOffsetSizeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidCommitOffsetSizeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidConfigurationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidConfigurationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidConfigurationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidConfigurationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidFetchSessionEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidFetchSessionEpochException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidFetchSessionEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidFetchSessionEpochException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidFetchSizeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidFetchSizeException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidFetchSizeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidFetchSizeException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidGroupIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidGroupIdException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidGroupIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidGroupIdException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidMetadataException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidMetadataException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidOffsetException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidOffsetException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidOffsetException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidOffsetException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidPartitionsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidPartitionsException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidPartitionsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidPartitionsException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidPidMappingException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidPidMappingException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidPidMappingException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidPidMappingException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidPrincipalTypeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidPrincipalTypeException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidPrincipalTypeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidPrincipalTypeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidProducerEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidProducerEpochException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidProducerEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidProducerEpochException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidReplicaAssignmentException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidReplicationFactorException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidReplicationFactorException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidReplicationFactorException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidReplicationFactorException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidRequestException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidRequestException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidRequestException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidRequestException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidRequiredAcksException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidRequiredAcksException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidRequiredAcksException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidRequiredAcksException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidSessionTimeoutException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidSessionTimeoutException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidSessionTimeoutException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidSessionTimeoutException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidTimestampException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidTimestampException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidTimestampException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidTimestampException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.InvalidTopicException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidTopicException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidTxnStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidTxnStateException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidTxnStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidTxnStateException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidTxnTimeoutException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidTxnTimeoutException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidTxnTimeoutException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidTxnTimeoutException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.InvalidUpdateVersionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.InvalidUpdateVersionException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.InvalidUpdateVersionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidUpdateVersionException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.KafkaStorageException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.KafkaStorageException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.KafkaStorageException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.KafkaStorageException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.LeaderNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.LeaderNotAvailableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.LeaderNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.LeaderNotAvailableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ListenerNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.ListenerNotFoundException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ListenerNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.ListenerNotFoundException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.LogDirNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.LogDirNotFoundException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.LogDirNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.LogDirNotFoundException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.MemberIdRequiredException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.MemberIdRequiredException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.MemberIdRequiredException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.MemberIdRequiredException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NetworkException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.NetworkException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NetworkException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.NetworkException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NewLeaderElectedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.NewLeaderElectedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NewLeaderElectedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.NewLeaderElectedException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NoReassignmentInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.NoReassignmentInProgressException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NoReassignmentInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.NoReassignmentInProgressException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NotControllerException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotControllerException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NotControllerException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotControllerException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NotCoordinatorException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotCoordinatorException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NotCoordinatorException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.NotCoordinatorException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.NotEnoughReplicasAfterAppendException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NotEnoughReplicasException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotEnoughReplicasException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NotEnoughReplicasException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.NotEnoughReplicasException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NotLeaderForPartitionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotLeaderForPartitionException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NotLeaderForPartitionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotLeaderForPartitionException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.NotLeaderOrFollowerException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotLeaderOrFollowerException | org.apache.kafka.common.errors.NotLeaderForPartitionException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.NotLeaderOrFollowerException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.common.errors.NotLeaderForPartitionException | org.apache.kafka.common.errors.NotLeaderOrFollowerException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.OffsetMetadataTooLarge", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.OffsetMetadataTooLarge | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.OffsetMetadataTooLarge", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.OffsetMetadataTooLarge | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.OffsetNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.OffsetNotAvailableException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.OffsetNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.OffsetNotAvailableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.OffsetOutOfRangeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.OffsetOutOfRangeException | org.apache.kafka.common.errors.InvalidOffsetException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.OffsetOutOfRangeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.InvalidOffsetException | org.apache.kafka.common.errors.OffsetOutOfRangeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.OperationNotAttemptedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.OperationNotAttemptedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.OperationNotAttemptedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.OperationNotAttemptedException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.OutOfOrderSequenceException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.OutOfOrderSequenceException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.OutOfOrderSequenceException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.OutOfOrderSequenceException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.PolicyViolationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.PolicyViolationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.PolicyViolationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.PolicyViolationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.PositionOutOfRangeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.PositionOutOfRangeException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.PositionOutOfRangeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.PositionOutOfRangeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.PreferredLeaderNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.PreferredLeaderNotAvailableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.PreferredLeaderNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.PreferredLeaderNotAvailableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.PrincipalDeserializationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.PrincipalDeserializationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.PrincipalDeserializationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.PrincipalDeserializationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ProducerFencedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.ProducerFencedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ProducerFencedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ProducerFencedException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ReassignmentInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.ReassignmentInProgressException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ReassignmentInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ReassignmentInProgressException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.RebalanceInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.RebalanceInProgressException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.RebalanceInProgressException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RebalanceInProgressException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.RecordBatchTooLargeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.RecordBatchTooLargeException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.RecordBatchTooLargeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RecordBatchTooLargeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.RecordDeserializationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.RecordDeserializationException | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.errors.RecordDeserializationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.errors.RecordDeserializationException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.RecordTooLargeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.RecordTooLargeException | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.errors.RecordTooLargeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | org.apache.kafka.common.errors.RecordTooLargeException | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ReplicaNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.ReplicaNotAvailableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ReplicaNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ReplicaNotAvailableException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.ResourceNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.ResourceNotFoundException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.RetriableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.RetriableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.SaslAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.SaslAuthenticationException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.SaslAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.SaslAuthenticationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.SecurityDisabledException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.SecurityDisabledException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.SecurityDisabledException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.SecurityDisabledException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.SerializationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.errors.SerializationException | org.apache.kafka.common.KafkaException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.SnapshotNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.SnapshotNotFoundException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.SnapshotNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.SnapshotNotFoundException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.SslAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.SslAuthenticationException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.SslAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.SslAuthenticationException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.StaleBrokerEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.StaleBrokerEpochException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.StaleBrokerEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.StaleBrokerEpochException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.ThrottlingQuotaExceededException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.TimeoutException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.TimeoutException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.TimeoutException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.TimeoutException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.TopicAuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.TopicAuthorizationException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.TopicDeletionDisabledException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.TopicDeletionDisabledException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.TopicDeletionDisabledException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.TopicDeletionDisabledException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.TopicExistsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.TopicExistsException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.TopicExistsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.TopicExistsException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.TransactionAbortedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.TransactionAbortedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.TransactionAbortedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.TransactionAbortedException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.TransactionCoordinatorFencedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.TransactionCoordinatorFencedException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.TransactionCoordinatorFencedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.TransactionCoordinatorFencedException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.TransactionalIdAuthorizationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.TransactionalIdAuthorizationException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.TransactionalIdNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.TransactionalIdNotFoundException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.TransactionalIdNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.TransactionalIdNotFoundException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnacceptableCredentialException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnacceptableCredentialException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnacceptableCredentialException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnacceptableCredentialException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnknownLeaderEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnknownLeaderEpochException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnknownLeaderEpochException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.UnknownLeaderEpochException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnknownMemberIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnknownMemberIdException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnknownMemberIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnknownMemberIdException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.UnknownProducerIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnknownProducerIdException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnknownServerException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnknownServerException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnknownServerException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnknownServerException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnknownTopicIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnknownTopicIdException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnknownTopicIdException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.UnknownTopicIdException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnknownTopicOrPartitionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnknownTopicOrPartitionException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnknownTopicOrPartitionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.InvalidMetadataException | org.apache.kafka.common.errors.UnknownTopicOrPartitionException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnstableOffsetCommitException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnstableOffsetCommitException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnstableOffsetCommitException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnstableOffsetCommitException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.RetriableException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnsupportedByAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnsupportedByAuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnsupportedByAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnsupportedByAuthenticationException | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnsupportedCompressionTypeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnsupportedCompressionTypeException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnsupportedCompressionTypeException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnsupportedCompressionTypeException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnsupportedForMessageFormatException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnsupportedForMessageFormatException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnsupportedForMessageFormatException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnsupportedForMessageFormatException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnsupportedSaslMechanismException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnsupportedSaslMechanismException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnsupportedSaslMechanismException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnsupportedSaslMechanismException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.errors.UnsupportedVersionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.errors.UnsupportedVersionException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.errors.UnsupportedVersionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.UnsupportedVersionException | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.errors.WakeupException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.errors.WakeupException | org.apache.kafka.common.KafkaException"}
 ]} 
@@ -2173,7 +2173,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.feature.Features", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.feature.SupportedVersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.feature.SupportedVersionRange | org.apache.kafka.common.feature.BaseVersionRange | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.feature.SupportedVersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.feature.BaseVersionRange | org.apache.kafka.common.feature.SupportedVersionRange | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.header.Header", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2187,7 +2187,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.internals.ClusterResourceListeners", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.internals.ClusterResourceListeners"}
 ]} 
-, { "classe" : "org.apache.kafka.common.internals.FatalExitError", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.internals.FatalExitError | java.lang.Error | java.lang.Throwable"}
+, { "classe" : "org.apache.kafka.common.internals.FatalExitError", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.internals.FatalExitError | java.lang.Throwable | java.lang.Error"}
 ]} 
 , { "classe" : "org.apache.kafka.common.internals.KafkaCompletableFuture", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2197,7 +2197,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.internals.Topic", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.internals.Topic"}
 ]} 
-, { "classe" : "org.apache.kafka.common.memory.GarbageCollectedMemoryPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.memory.GarbageCollectedMemoryPool | org.apache.kafka.common.memory.SimpleMemoryPool | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.common.memory.GarbageCollectedMemoryPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.memory.GarbageCollectedMemoryPool | org.apache.kafka.common.memory.SimpleMemoryPool | org.apache.kafka.common.metrics.Metrics"}
 ]} 
 , { "classe" : "org.apache.kafka.common.memory.GarbageCollectedMemoryPool.BufferMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2207,7 +2207,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.memory.MemoryPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.memory.SimpleMemoryPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.memory.SimpleMemoryPool | org.apache.kafka.common.metrics.Sensor"}
+, { "classe" : "org.apache.kafka.common.memory.SimpleMemoryPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.memory.SimpleMemoryPool"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.CompoundStat", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.CompoundStat | org.apache.kafka.common.metrics.CompoundStat.NamedMeasurable"}
 ]} 
@@ -2215,11 +2215,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.Gauge", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.JmxReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.JmxReporter | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.metrics.JmxReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.metrics.JmxReporter"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.JmxReporter.KafkaMbean", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.KafkaMetric", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.KafkaMetric | org.apache.kafka.common.MetricName | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.metrics.KafkaMetric", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.MetricName | org.apache.kafka.common.metrics.KafkaMetric | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.KafkaMetricsContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.KafkaMetricsContext | java.lang.String"}
 ]} 
@@ -2231,7 +2231,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.MetricValueProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.Metrics", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 7 depth", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.processor.internals.StreamTask | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.common.metrics.Metrics", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 7 depth ", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.processor.internals.StreamTask | org.apache.kafka.common.metrics.Metrics | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Metrics"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.Metrics.ExpireSensorTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -2242,9 +2242,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.Quota", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Quota | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.QuotaViolationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.QuotaViolationException | org.apache.kafka.common.metrics.KafkaMetric | org.apache.kafka.common.MetricName | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.metrics.QuotaViolationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.QuotaViolationException | org.apache.kafka.common.MetricName | org.apache.kafka.common.metrics.KafkaMetric | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.Sensor", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "kafka.server.builders.ReplicaManagerBuilder | org.apache.kafka.common.metrics.Metrics | org.apache.kafka.common.metrics.Sensor"}
+, { "classe" : "org.apache.kafka.common.metrics.Sensor", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.common.metrics.Sensor | kafka.server.builders.ReplicaManagerBuilder | org.apache.kafka.common.metrics.Metrics"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.Sensor.StatAndConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -2259,17 +2259,17 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.internals.MetricsUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.internals.MetricsUtils | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Avg", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Avg | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Avg", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.Avg | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.CumulativeCount", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.CumulativeCount | org.apache.kafka.common.metrics.stats.CumulativeSum | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.CumulativeCount", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.CumulativeSum | org.apache.kafka.common.metrics.stats.CumulativeCount | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.CumulativeSum", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.CumulativeSum | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Frequencies", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Frequencies | org.apache.kafka.common.metrics.stats.Frequency | org.apache.kafka.common.MetricName | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Frequencies", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Frequencies | org.apache.kafka.common.MetricName | java.lang.String | org.apache.kafka.common.metrics.stats.Frequency"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.Frequencies.HistogramSample", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Frequency", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Frequency | org.apache.kafka.common.MetricName | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Frequency", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.MetricName | java.lang.String | org.apache.kafka.common.metrics.stats.Frequency"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.Histogram", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Histogram | org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme"}
 ]} 
@@ -2279,33 +2279,33 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.Histogram.LinearBinScheme", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Max", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Max | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Max", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Max | org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.Meter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Meter"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Min", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Min | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Min", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.Min | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.Percentile", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Percentile | org.apache.kafka.common.MetricName | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Percentiles", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Percentiles | org.apache.kafka.common.metrics.stats.Percentile | org.apache.kafka.common.MetricName | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Percentiles", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Percentile | org.apache.kafka.common.MetricName | java.lang.String | org.apache.kafka.common.metrics.stats.Percentiles"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.Percentiles.HistogramSample", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Rate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Rate | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Rate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Rate | org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.SampledStat", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.SampledStat", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.SampledStat.Sample", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.SimpleRate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SimpleRate | org.apache.kafka.common.metrics.stats.Rate | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.SimpleRate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Rate | org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.SimpleRate | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
 , { "classe" : "org.apache.kafka.common.metrics.stats.TokenBucket", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.TokenBucket | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.Value", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Value | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.Value", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.metrics.stats.Value"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.WindowedCount", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.WindowedCount | org.apache.kafka.common.metrics.stats.WindowedSum | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.WindowedCount", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.WindowedCount | org.apache.kafka.common.metrics.stats.WindowedSum | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
-, { "classe" : "org.apache.kafka.common.metrics.stats.WindowedSum", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.WindowedSum | org.apache.kafka.common.metrics.stats.SampledStat | org.apache.kafka.common.metrics.stats.SampledStat.Sample"}
+, { "classe" : "org.apache.kafka.common.metrics.stats.WindowedSum", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.SampledStat.Sample | org.apache.kafka.common.metrics.stats.WindowedSum | org.apache.kafka.common.metrics.stats.SampledStat"}
 ]} 
 , { "classe" : "org.apache.kafka.common.network.Authenticator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2323,11 +2323,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.network.ClientInformation", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.network.ClientInformation | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.network.DefaultChannelMetadataRegistry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.DefaultChannelMetadataRegistry | org.apache.kafka.common.network.ClientInformation | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.network.DefaultChannelMetadataRegistry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.ClientInformation | java.lang.String | org.apache.kafka.common.network.DefaultChannelMetadataRegistry"}
 ]} 
-, { "classe" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.network.DelayedResponseAuthenticationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.network.DelayedResponseAuthenticationException | org.apache.kafka.common.errors.AuthenticationException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.network.InvalidReceiveException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.network.InvalidReceiveException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.network.InvalidReceiveException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.network.InvalidReceiveException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.network.KafkaChannel", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.network.KafkaChannel"}
 ]} 
@@ -2339,13 +2339,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.network.NetworkSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.network.NetworkSend | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.network.PlaintextChannelBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.PlaintextChannelBuilder | org.apache.kafka.common.network.ListenerName | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.network.PlaintextChannelBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.ListenerName | org.apache.kafka.common.network.PlaintextChannelBuilder | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.network.PlaintextChannelBuilder.PlaintextAuthenticator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.network.PlaintextTransportLayer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.network.PlaintextTransportLayer"}
 ]} 
-, { "classe" : "org.apache.kafka.common.network.ReauthenticationContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.ReauthenticationContext | org.apache.kafka.common.network.NetworkReceive | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.network.ReauthenticationContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.NetworkReceive | org.apache.kafka.common.network.ReauthenticationContext | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.network.Receive", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2365,7 +2365,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.network.Send", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.network.SslChannelBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.network.SslChannelBuilder | org.apache.kafka.common.security.ssl.SslPrincipalMapper | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.network.SslChannelBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.ssl.SslPrincipalMapper | org.apache.kafka.common.network.SslChannelBuilder | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.network.SslChannelBuilder.SslAuthenticator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2391,7 +2391,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.ObjectSerializationCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.ObjectSerializationCache | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.protocol.Protocol", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.Protocol | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.protocol.Protocol", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.protocol.Protocol"}
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.Readable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2401,7 +2401,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.types.ArrayOf", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.ArrayOf | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.protocol.types.BoundField", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.common.record.EndTransactionMarker | org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.protocol.types.BoundField"}
+, { "classe" : "org.apache.kafka.common.protocol.types.BoundField", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.record.EndTransactionMarker | org.apache.kafka.common.protocol.types.BoundField"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.BoundField"}
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.types.CompactArrayOf", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.CompactArrayOf | java.lang.String"}
@@ -2446,19 +2446,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.types.RawTaggedFieldWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.RawTaggedFieldWriter | org.apache.kafka.common.protocol.types.RawTaggedField | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.protocol.types.Schema", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.common.protocol.types.Struct | org.apache.kafka.common.protocol.types.Schema"}
+, { "classe" : "org.apache.kafka.common.protocol.types.Schema", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.protocol.types.Struct"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.Schema"}
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.types.Schema.Visitor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.protocol.types.SchemaException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.SchemaException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.protocol.types.SchemaException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.protocol.types.SchemaException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.protocol.types.Struct", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.common.record.EndTransactionMarker | org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.protocol.types.Struct"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.Struct | org.apache.kafka.common.protocol.types.Schema"}
+, { "classe" : "org.apache.kafka.common.protocol.types.Struct", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.record.EndTransactionMarker | org.apache.kafka.common.protocol.types.Struct"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.protocol.types.Struct"}
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.types.TaggedFields", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.TaggedFields"}
 ]} 
-, { "classe" : "org.apache.kafka.common.protocol.types.Type", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.Type | org.apache.kafka.common.protocol.types.Type.DocumentedType"}
+, { "classe" : "org.apache.kafka.common.protocol.types.Type", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.Type.DocumentedType | org.apache.kafka.common.protocol.types.Type"}
 ]} 
 , { "classe" : "org.apache.kafka.common.protocol.types.Type.DocumentedType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2468,7 +2468,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.quota.ClientQuotaEntity", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.quota.ClientQuotaEntity | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.quota.ClientQuotaFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.quota.ClientQuotaFilter | org.apache.kafka.common.quota.ClientQuotaFilterComponent | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.quota.ClientQuotaFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.quota.ClientQuotaFilterComponent | org.apache.kafka.common.quota.ClientQuotaFilter | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.quota.ClientQuotaFilterComponent", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.quota.ClientQuotaFilterComponent | java.lang.String"}
 ]} 
@@ -2500,7 +2500,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.record.DefaultRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.record.DefaultRecord"}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.DefaultRecordBatch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.record.DefaultRecordBatch | org.apache.kafka.common.record.AbstractRecordBatch | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.record.DefaultRecordBatch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.record.AbstractRecordBatch | org.apache.kafka.common.record.DefaultRecordBatch | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.DefaultRecordBatch.DefaultFileChannelRecordBatch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2510,13 +2510,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.record.DefaultRecordsSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.EndTransactionMarker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.record.EndTransactionMarker | org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.protocol.types.BoundField"}
+, { "classe" : "org.apache.kafka.common.record.EndTransactionMarker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.protocol.types.Schema | org.apache.kafka.common.record.EndTransactionMarker | org.apache.kafka.common.protocol.types.BoundField"}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.FileLogInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.FileLogInputStream | org.apache.kafka.common.record.FileRecords | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.record.FileLogInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.File | org.apache.kafka.common.record.FileLogInputStream | org.apache.kafka.common.record.FileRecords | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.FileLogInputStream.FileChannelRecordBatch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.FileRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.record.FileRecords | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.record.FileRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.File | org.apache.kafka.common.record.FileRecords | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.FileRecords.LogOffsetPosition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2526,9 +2526,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.record.LazyDownConversionRecords.Iterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.LazyDownConversionRecordsSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.LazyDownConversionRecordsSend | org.apache.kafka.common.record.LazyDownConversionRecords | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.record.LazyDownConversionRecordsSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.LazyDownConversionRecords | org.apache.kafka.common.TopicPartition | java.lang.String | org.apache.kafka.common.record.LazyDownConversionRecordsSend"}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.LegacyRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.LegacyRecord | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.record.LegacyRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.LegacyRecord | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.LogInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2542,15 +2542,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.record.MemoryRecords.RecordFilter.BatchRetentionResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.MemoryRecordsBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.MemoryRecordsBuilder | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.record.MemoryRecordsBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.record.MemoryRecordsBuilder | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.MemoryRecordsBuilder.RecordsInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.MultiRecordsSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.record.MultiRecordsSend | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.record.MultiRecordsSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.record.MultiRecordsSend | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.MutableRecordBatch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.PartialDefaultRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.record.PartialDefaultRecord | org.apache.kafka.common.record.DefaultRecord"}
+, { "classe" : "org.apache.kafka.common.record.PartialDefaultRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.record.DefaultRecord | org.apache.kafka.common.record.PartialDefaultRecord"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.Record", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.record.Record"}
 ]} 
@@ -2564,7 +2564,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.record.RecordsSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.record.RecordsUtil", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.record.RecordsUtil | org.apache.kafka.common.record.RecordsUtil.RecordBatchAndRecords"}
+, { "classe" : "org.apache.kafka.common.record.RecordsUtil", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.record.RecordsUtil.RecordBatchAndRecords | org.apache.kafka.common.record.RecordsUtil"}
 ]} 
 , { "classe" : "org.apache.kafka.common.record.RecordsUtil.RecordBatchAndRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2594,7 +2594,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.replica.ReplicaView.DefaultReplicaView", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AbstractControlRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractControlRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AbstractControlRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.AbstractControlRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AbstractControlRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2610,13 +2610,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AddOffsetsToTxnRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AddOffsetsToTxnResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AddOffsetsToTxnResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AddOffsetsToTxnResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.AddOffsetsToTxnResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AddPartitionsToTxnRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AddPartitionsToTxnRequest | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.requests.AddPartitionsToTxnRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.requests.AddPartitionsToTxnRequest | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AddPartitionsToTxnRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AddPartitionsToTxnResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AddPartitionsToTxnResponse | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.requests.AddPartitionsToTxnResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.requests.AddPartitionsToTxnResponse | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AllocateProducerIdsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AllocateProducerIdsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
@@ -2630,7 +2630,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterClientQuotasResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterClientQuotasResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterConfigsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterConfigsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterConfigsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.AlterConfigsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterConfigsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2638,27 +2638,27 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterConfigsRequest.ConfigEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterConfigsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterConfigsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterConfigsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.AlterConfigsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.AlterPartitionReassignmentsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterPartitionRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterPartitionRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterPartitionRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.AlterPartitionRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterPartitionRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterPartitionResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterPartitionResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterPartitionResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.AlterPartitionResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterReplicaLogDirsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterReplicaLogDirsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterReplicaLogDirsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterReplicaLogDirsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.AlterReplicaLogDirsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.AlterUserScramCredentialsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AlterUserScramCredentialsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.AlterUserScramCredentialsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.AlterUserScramCredentialsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.AlterUserScramCredentialsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2666,109 +2666,109 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ApiError", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.requests.ApiError | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ApiVersionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.ApiVersionsRequest | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ApiVersionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.ApiVersionsRequest | java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ApiVersionsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ApiVersionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ApiVersionsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ApiVersionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.ApiVersionsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.BeginQuorumEpochRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.BeginQuorumEpochRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.BeginQuorumEpochRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.BeginQuorumEpochResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.BeginQuorumEpochResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.BeginQuorumEpochResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.BeginQuorumEpochResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.BrokerHeartbeatRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.BrokerHeartbeatRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.BrokerHeartbeatResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.BrokerHeartbeatResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.BrokerHeartbeatResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.BrokerHeartbeatResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.BrokerRegistrationRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.BrokerRegistrationRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.BrokerRegistrationRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.BrokerRegistrationResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.BrokerRegistrationResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.BrokerRegistrationResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.BrokerRegistrationResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ControlledShutdownRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ControlledShutdownRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ControlledShutdownRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.ControlledShutdownRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ControlledShutdownRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ControlledShutdownResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ControlledShutdownResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ControlledShutdownResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.ControlledShutdownResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.CorrelationIdMismatchException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreateAclsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreateAclsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreateAclsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.CreateAclsRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.CreateAclsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreateAclsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreateAclsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreateAclsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.CreateAclsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.CreateDelegationTokenRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.CreateDelegationTokenRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreateDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreateDelegationTokenResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreateDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.CreateDelegationTokenResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreatePartitionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreatePartitionsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreatePartitionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.CreatePartitionsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.CreatePartitionsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreatePartitionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreatePartitionsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreatePartitionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.CreatePartitionsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.CreateTopicsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreateTopicsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.CreateTopicsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.CreateTopicsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.CreateTopicsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.CreateTopicsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.CreateTopicsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteAclsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteAclsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteAclsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DeleteAclsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteAclsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DeleteAclsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DeleteAclsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteGroupsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteGroupsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteGroupsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DeleteGroupsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteGroupsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DeleteGroupsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DeleteGroupsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DeleteRecordsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteRecordsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DeleteRecordsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DeleteRecordsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteRecordsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DeleteRecordsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteRecordsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DeleteRecordsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DeleteRecordsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteTopicsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteTopicsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DeleteTopicsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DeleteTopicsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DeleteTopicsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DeleteTopicsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DeleteTopicsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeAclsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeAclsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeAclsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.DescribeAclsRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeAclsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeAclsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeAclsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeAclsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DescribeAclsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeClientQuotasRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeClientQuotasRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeClientQuotasRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeClientQuotasRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeClientQuotasRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeClientQuotasResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeClientQuotasResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeClientQuotasResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DescribeClientQuotasResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeClusterRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeClusterRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeClusterRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeClusterResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeClusterResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeClusterResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DescribeClusterResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeConfigsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeConfigsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeConfigsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeConfigsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeConfigsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeConfigsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeConfigsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeConfigsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DescribeConfigsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeConfigsResponse.Config", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2776,23 +2776,23 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeConfigsResponse.ConfigSynonym", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeDelegationTokenRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeDelegationTokenRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeDelegationTokenRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeDelegationTokenResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeGroupsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeGroupsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeGroupsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeGroupsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeGroupsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeGroupsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeGroupsResponse"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeLogDirsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeLogDirsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeLogDirsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeLogDirsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeLogDirsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeLogDirsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeLogDirsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeLogDirsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.DescribeLogDirsResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeLogDirsResponse.LogDirInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2802,73 +2802,73 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeProducersRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeProducersResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeProducersResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeProducersResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DescribeProducersResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeQuorumRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeQuorumRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeQuorumRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeQuorumResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeQuorumResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeQuorumResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.DescribeQuorumResponse"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeTransactionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeTransactionsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeTransactionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeTransactionsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeTransactionsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeTransactionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeTransactionsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeTransactionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.DescribeTransactionsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.DescribeUserScramCredentialsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ElectLeadersRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ElectLeadersRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ElectLeadersRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.ElectLeadersRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ElectLeadersRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ElectLeadersResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ElectLeadersResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ElectLeadersResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.ElectLeadersResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.EndQuorumEpochRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.EndQuorumEpochRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.EndQuorumEpochRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.EndQuorumEpochRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.EndQuorumEpochRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.EndQuorumEpochResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.EndQuorumEpochResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.EndTxnRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.EndTxnRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.EndTxnRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.EndTxnRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.EndTxnRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.EndTxnResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.EndTxnResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.EndTxnResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.EndTxnResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.EnvelopeRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.EnvelopeRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.EnvelopeRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.EnvelopeRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.EnvelopeRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.EnvelopeResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.EnvelopeResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.EnvelopeResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.EnvelopeResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.ExpireDelegationTokenRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ExpireDelegationTokenRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ExpireDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ExpireDelegationTokenResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ExpireDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.ExpireDelegationTokenResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.FetchMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.requests.FetchMetadata"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.FetchRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.FetchRequest | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.requests.FetchRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.requests.FetchRequest | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.FetchRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.FetchRequest.PartitionData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.FetchResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.FetchResponse | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.requests.FetchResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.requests.FetchResponse | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.FetchSnapshotRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.FetchSnapshotRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.FetchSnapshotRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.FetchSnapshotRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.FetchSnapshotRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.FetchSnapshotResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.FetchSnapshotResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.FetchSnapshotResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.FetchSnapshotResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.FindCoordinatorRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.FindCoordinatorRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.FindCoordinatorRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.FindCoordinatorRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.FindCoordinatorRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2876,71 +2876,71 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.FindCoordinatorResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.FindCoordinatorResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.HeartbeatRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.HeartbeatRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.HeartbeatRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.HeartbeatRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.HeartbeatRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.HeartbeatResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.HeartbeatResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.HeartbeatResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.HeartbeatResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.IncrementalAlterConfigsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.IncrementalAlterConfigsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.IncrementalAlterConfigsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.IncrementalAlterConfigsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.IncrementalAlterConfigsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.IncrementalAlterConfigsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.IncrementalAlterConfigsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.IncrementalAlterConfigsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.IncrementalAlterConfigsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.InitProducerIdRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.InitProducerIdRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.InitProducerIdRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.InitProducerIdResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.InitProducerIdResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.InitProducerIdResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.InitProducerIdResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.JoinGroupRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.requests.JoinGroupRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.JoinGroupRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.JoinGroupResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.JoinGroupResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.JoinGroupResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.JoinGroupResponse"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.LeaderAndIsrRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.LeaderAndIsrRequest | org.apache.kafka.common.requests.AbstractControlRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.LeaderAndIsrRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.LeaderAndIsrRequest | org.apache.kafka.common.requests.AbstractControlRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.LeaderAndIsrRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.LeaderAndIsrResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.LeaderAndIsrResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.LeaderAndIsrResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.LeaderAndIsrResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.LeaveGroupRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.LeaveGroupRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.LeaveGroupRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.LeaveGroupResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.LeaveGroupResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.LeaveGroupResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.LeaveGroupResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ListGroupsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListGroupsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ListGroupsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.ListGroupsRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ListGroupsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ListGroupsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListGroupsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ListOffsetsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListOffsetsRequest | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.requests.ListOffsetsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.requests.ListOffsetsRequest | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ListOffsetsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ListOffsetsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListOffsetsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ListOffsetsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.ListOffsetsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.ListPartitionReassignmentsRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ListPartitionReassignmentsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ListPartitionReassignmentsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListPartitionReassignmentsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ListPartitionReassignmentsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.ListPartitionReassignmentsResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ListTransactionsRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListTransactionsRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ListTransactionsRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ListTransactionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ListTransactionsResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ListTransactionsResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.ListTransactionsResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.MetadataRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.MetadataRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.MetadataRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.MetadataRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.MetadataRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.MetadataResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.MetadataResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.MetadataResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.MetadataResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.MetadataResponse.Holder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -2954,11 +2954,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.OffsetCommitResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.OffsetCommitResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.OffsetDeleteRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.OffsetDeleteRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.OffsetDeleteRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.OffsetDeleteRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.OffsetDeleteRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.OffsetDeleteResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.OffsetDeleteResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.OffsetDeleteResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.OffsetDeleteResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.OffsetFetchRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.OffsetFetchRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
@@ -2970,27 +2970,27 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.OffsetFetchResponse.PartitionData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.OffsetsForLeaderEpochResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ProduceRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.requests.ProduceRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ProduceRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.ProduceResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.ProduceResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.ProduceResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | java.lang.Object | org.apache.kafka.common.requests.ProduceResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ProduceResponse.PartitionResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ProduceResponse.RecordError", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.RenewDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.RenewDelegationTokenRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.RenewDelegationTokenRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.RenewDelegationTokenRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.RenewDelegationTokenRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.RenewDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.RenewDelegationTokenResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.RenewDelegationTokenResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.RenewDelegationTokenResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.RequestAndSize", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.RequestAndSize | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
@@ -3002,7 +3002,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.ResponseHeader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.requests.ResponseHeader | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.SaslAuthenticateRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.SaslAuthenticateRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.SaslAuthenticateRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.SaslAuthenticateRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3012,19 +3012,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.SaslHandshakeRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.SaslHandshakeResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.SaslHandshakeResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.SaslHandshakeResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.SaslHandshakeResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.StopReplicaRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.StopReplicaRequest | org.apache.kafka.common.requests.AbstractControlRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.StopReplicaRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.StopReplicaRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.AbstractControlRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.StopReplicaRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.StopReplicaResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.StopReplicaResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.StopReplicaResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.StopReplicaResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.SyncGroupRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.SyncGroupRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.SyncGroupRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.SyncGroupRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.SyncGroupRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.SyncGroupResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.SyncGroupResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.SyncGroupResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.SyncGroupResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.TxnOffsetCommitRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.TxnOffsetCommitRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
@@ -3034,31 +3034,31 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.TxnOffsetCommitResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.TxnOffsetCommitResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.UnregisterBrokerRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.UnregisterBrokerRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.UnregisterBrokerRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.UnregisterBrokerRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.UnregisterBrokerRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.UnregisterBrokerResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.UnregisterBrokerResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.UnregisterBrokerResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.UnregisterBrokerResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.UpdateFeaturesRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.UpdateFeaturesRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.UpdateFeaturesRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | org.apache.kafka.common.requests.UpdateFeaturesRequest | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.UpdateFeaturesRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.UpdateFeaturesRequest.FeatureUpdateItem", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.UpdateFeaturesResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.UpdateFeaturesResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.UpdateFeaturesResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.UpdateFeaturesResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.UpdateMetadataRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.UpdateMetadataRequest | org.apache.kafka.common.requests.AbstractControlRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.UpdateMetadataRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.requests.UpdateMetadataRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.AbstractControlRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.UpdateMetadataRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.UpdateMetadataResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.UpdateMetadataResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.UpdateMetadataResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.UpdateMetadataResponse | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.VoteRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.VoteRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.VoteRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractRequest | java.lang.Object | org.apache.kafka.common.requests.VoteRequest"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.VoteRequest.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.VoteResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.VoteResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.VoteResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.VoteResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.WriteTxnMarkersRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.WriteTxnMarkersRequest | org.apache.kafka.common.requests.AbstractRequest | java.lang.Object"}
 ]} 
@@ -3066,13 +3066,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.requests.WriteTxnMarkersRequest.TxnMarkerEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.requests.WriteTxnMarkersResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.WriteTxnMarkersResponse | org.apache.kafka.common.requests.AbstractResponse | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.requests.WriteTxnMarkersResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.requests.AbstractResponse | org.apache.kafka.common.requests.WriteTxnMarkersResponse | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.common.resource.Resource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.resource.Resource | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.resource.ResourcePattern", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.resource.ResourcePattern | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.resource.ResourcePatternFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.resource.ResourcePatternFilter | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.resource.ResourcePatternFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.resource.ResourcePatternFilter"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.JaasConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.JaasConfig | java.lang.String"}
 ]} 
@@ -3118,7 +3118,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.authenticator.DefaultLogin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.authenticator.DefaultLogin | org.apache.kafka.common.security.authenticator.AbstractLogin | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.authenticator.LoginManager", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.common.network.SaslChannelBuilder | org.apache.kafka.common.security.authenticator.LoginManager"}
+, { "classe" : "org.apache.kafka.common.security.authenticator.LoginManager", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "org.apache.kafka.common.network.SaslChannelBuilder | org.apache.kafka.common.security.authenticator.LoginManager"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.authenticator.LoginManager"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.authenticator.LoginManager.LoginMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -3141,7 +3141,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.kerberos.KerberosClientCallbackHandler | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.kerberos.KerberosLogin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.kerberos.KerberosLogin | org.apache.kafka.common.security.authenticator.AbstractLogin | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.kerberos.KerberosLogin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.authenticator.AbstractLogin | org.apache.kafka.common.security.kerberos.KerberosLogin | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.kerberos.KerberosName", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.kerberos.KerberosName | java.lang.String"}
 ]} 
@@ -3153,17 +3153,17 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerExtensionsValidatorCallback"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule | org.apache.kafka.common.security.auth.SaslExtensions | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.auth.SaslExtensions | org.apache.kafka.common.security.oauthbearer.OAuthBearerLoginModule | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerToken", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerTokenCallback | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.security.oauthbearer.OAuthBearerValidatorCallback"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin | org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin | java.lang.String | org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerRefreshingLogin"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient | org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerSaslClient.OAuthBearerSaslClientFactory"}
 ]} 
@@ -3191,13 +3191,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.expiring.ExpiringCredentialRefreshingLogin.Refresher", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerConfigException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException | org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerValidationResult | org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerIllegalTokenException | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerScopeUtils"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredJws | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.internals.unsecured.OAuthBearerUnsecuredLoginCallbackHandler | java.lang.String"}
 ]} 
@@ -3213,7 +3213,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.security.oauthbearer.secured.AccessTokenValidatorFactory"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.BasicOAuthBearerToken"}
 ]} 
@@ -3233,19 +3233,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.security.oauthbearer.secured.LoginAccessTokenValidator"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerLoginCallbackHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerLoginCallbackHandler | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler | org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler.RefCountingVerificationKeyResolver"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler.RefCountingVerificationKeyResolver | org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler.RefCountingVerificationKeyResolver", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.OAuthBearerValidatorCallbackHandler.VerificationKeyResolverKey", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver | org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwks | java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.common.security.oauthbearer.secured.RefreshingHttpsJwksVerificationKeyResolver"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.Retry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3253,9 +3253,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.UnretryableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.UnretryableException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.UnretryableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.security.oauthbearer.secured.UnretryableException"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.ValidateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.ValidateException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.ValidateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.common.security.oauthbearer.secured.ValidateException"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.oauthbearer.secured.ValidatorAccessTokenValidator | java.lang.String"}
 ]} 
@@ -3289,7 +3289,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.scram.internals.ScramFormatter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.security.scram.internals.ScramFormatter"}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.scram.internals.ScramMessages", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.scram.internals.ScramMessages | org.apache.kafka.common.security.scram.internals.ScramMessages.AbstractScramMessage"}
+, { "classe" : "org.apache.kafka.common.security.scram.internals.ScramMessages", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.scram.internals.ScramMessages.AbstractScramMessage | org.apache.kafka.common.security.scram.internals.ScramMessages"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.scram.internals.ScramMessages.AbstractScramMessage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3327,7 +3327,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.security.ssl.DefaultSslEngineFactory.SecurityStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.security.ssl.SslFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.security.ssl.SslFactory | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.security.ssl.SslFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.security.ssl.SslFactory"}
 ]} 
 , { "classe" : "org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3367,7 +3367,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.serialization.FloatDeserializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.serialization.FloatDeserializer | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.serialization.FloatSerializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.serialization.FloatSerializer | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.serialization.FloatSerializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.serialization.FloatSerializer"}
 ]} 
 , { "classe" : "org.apache.kafka.common.serialization.IntegerDeserializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.serialization.IntegerDeserializer | java.lang.Object"}
 ]} 
@@ -3383,7 +3383,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.serialization.Serde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.serialization.Serdes", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.serialization.Serdes | org.apache.kafka.common.serialization.Serdes.ByteArraySerde"}
+, { "classe" : "org.apache.kafka.common.serialization.Serdes", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.serialization.Serdes.ByteArraySerde | org.apache.kafka.common.serialization.Serdes"}
 ]} 
 , { "classe" : "org.apache.kafka.common.serialization.Serdes.ByteArraySerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3431,7 +3431,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.AbstractIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.AppInfoParser", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.utils.AppInfoParser | java.lang.Exception | java.lang.Throwable"}
+, { "classe" : "org.apache.kafka.common.utils.AppInfoParser", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Throwable | org.apache.kafka.common.utils.AppInfoParser | java.lang.Exception"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.AppInfoParser.AppInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3439,15 +3439,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.AppInfoParser.ImmutableValue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.BufferSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.BufferSupplier | org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier"}
+, { "classe" : "org.apache.kafka.common.utils.BufferSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier | org.apache.kafka.common.utils.BufferSupplier"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.BufferSupplier.DefaultSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.BufferSupplier.GrowableBufferSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.ByteBufferInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.utils.ByteBufferInputStream | java.io.InputStream | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.utils.ByteBufferInputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.utils.ByteBufferInputStream | java.lang.Object | java.io.InputStream"}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.ByteBufferOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.utils.ByteBufferOutputStream | java.io.OutputStream | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.utils.ByteBufferOutputStream", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.OutputStream | java.lang.Object | org.apache.kafka.common.utils.ByteBufferOutputStream"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.ByteBufferUnmapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.common.utils.ByteBufferUnmapper"}
 ]} 
@@ -3471,7 +3471,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.CopyOnWriteMap", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.Crc32C", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.Crc32C | org.apache.kafka.common.utils.Crc32C.Java9ChecksumFactory"}
+, { "classe" : "org.apache.kafka.common.utils.Crc32C", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.Crc32C.Java9ChecksumFactory | org.apache.kafka.common.utils.Crc32C"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.Crc32C.ChecksumFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3519,7 +3519,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.LogContext.LocationIgnorantKafkaLogger", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.LoggingSignalHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.LoggingSignalHandler | java.lang.String"}
+, { "classe" : "org.apache.kafka.common.utils.LoggingSignalHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.common.utils.LoggingSignalHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.MappedIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3547,15 +3547,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.Shell.ShellTimeoutTimerTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.SystemScheduler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.SystemScheduler | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.utils.SystemScheduler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.utils.SystemScheduler"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.SystemTime", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.SystemTime | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.ThreadUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.ThreadUtils | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.utils.ThreadUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.utils.ThreadUtils"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.Time", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.common.utils.Timer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.Timer | java.lang.Object"}
+, { "classe" : "org.apache.kafka.common.utils.Timer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.common.utils.Timer"}
 ]} 
 , { "classe" : "org.apache.kafka.common.utils.Utils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.utils.Utils | java.lang.String"}
 ]} 
@@ -3577,7 +3577,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy | org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.connector.policy.AbstractConnectorClientConfigOverridePolicy | org.apache.kafka.connect.connector.policy.AllConnectorClientConfigOverridePolicy | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.connector.policy.ConnectorClientConfigOverridePolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3587,23 +3587,23 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.connector.policy.PrincipalConnectorClientConfigOverridePolicy"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.converters.ByteArrayConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.converters.ByteArrayConverter | org.apache.kafka.common.config.ConfigDef | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.converters.ByteArrayConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigDef | org.apache.kafka.connect.converters.ByteArrayConverter | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.converters.DoubleConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.DoubleConverter | java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.converters.DoubleConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Double | org.apache.kafka.connect.converters.DoubleConverter | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.converters.FloatConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.FloatConverter | java.lang.Float | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.converters.FloatConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.FloatConverter | java.lang.Float | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.converters.IntegerConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.IntegerConverter | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.converters.IntegerConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.IntegerConverter | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.converters.LongConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.LongConverter | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.converters.LongConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.LongConverter | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.converters.NumberConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.connect.converters.NumberConverterConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.NumberConverterConfig | org.apache.kafka.connect.storage.ConverterConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.converters.ShortConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.converters.ShortConverter | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.converters.ShortConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Short | java.lang.Object | java.lang.Number | org.apache.kafka.connect.converters.ShortConverter"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.data.ConnectSchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.data.ConnectSchema | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.data.ConnectSchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.connect.data.ConnectSchema | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.Date", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.data.Date | java.lang.String"}
 ]} 
@@ -3615,47 +3615,47 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.SchemaAndValue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.data.SchemaAndValue | org.apache.kafka.connect.data.Schema"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.data.SchemaBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.data.SchemaBuilder | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.data.SchemaBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | java.lang.Object | org.apache.kafka.connect.data.SchemaBuilder | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.SchemaProjector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.data.SchemaProjector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.data.Struct", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.data.Struct | org.apache.kafka.connect.data.Schema"}
+, { "classe" : "org.apache.kafka.connect.data.Struct", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.data.Schema | org.apache.kafka.connect.data.Struct"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.Time", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.data.Time | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.Timestamp", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.data.Timestamp | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.data.Values", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.data.Values | org.apache.kafka.connect.data.SchemaAndValue | org.apache.kafka.connect.data.Schema"}
+, { "classe" : "org.apache.kafka.connect.data.Values", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.data.SchemaAndValue | org.apache.kafka.connect.data.Schema | org.apache.kafka.connect.data.Values"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.Values.Parser", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.connect.data.Values.SchemaDetector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.AlreadyExistsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.AlreadyExistsException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.AlreadyExistsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.AlreadyExistsException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.ConnectException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.ConnectException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.DataException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.DataException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.DataException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.DataException | org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.IllegalWorkerStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.IllegalWorkerStateException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.IllegalWorkerStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.IllegalWorkerStateException | org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.NotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.NotFoundException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.NotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.NotFoundException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.RetriableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.errors.RetriableException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.RetriableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.RetriableException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.SchemaBuilderException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.errors.SchemaBuilderException | org.apache.kafka.connect.errors.DataException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.SchemaBuilderException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.errors.DataException | org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.SchemaBuilderException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.errors.SchemaProjectorException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.errors.SchemaProjectorException | org.apache.kafka.connect.errors.DataException | org.apache.kafka.connect.errors.ConnectException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.connect.errors.SchemaProjectorException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.errors.DataException | org.apache.kafka.common.KafkaException | org.apache.kafka.connect.errors.SchemaProjectorException | org.apache.kafka.connect.errors.ConnectException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.file.FileStreamSinkConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.file.FileStreamSinkConnector | org.apache.kafka.connect.sink.SinkConnector | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.file.FileStreamSinkConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.file.FileStreamSinkConnector | java.lang.String | org.apache.kafka.connect.sink.SinkConnector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.file.FileStreamSinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.file.FileStreamSinkTask | org.apache.kafka.connect.sink.SinkTask | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.file.FileStreamSinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.file.FileStreamSinkTask | java.lang.String | org.apache.kafka.connect.sink.SinkTask"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.file.FileStreamSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.file.FileStreamSourceConnector"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.file.FileStreamSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.file.FileStreamSourceTask"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.header.ConnectHeader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.header.ConnectHeader | org.apache.kafka.connect.data.SchemaAndValue | org.apache.kafka.connect.data.Schema"}
+, { "classe" : "org.apache.kafka.connect.header.ConnectHeader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.data.SchemaAndValue | org.apache.kafka.connect.header.ConnectHeader | org.apache.kafka.connect.data.Schema"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.header.ConnectHeaders", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.header.ConnectHeaders | org.apache.kafka.connect.header.ConnectHeaders.FilterByKeyIterator"}
 ]} 
@@ -3673,11 +3673,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.health.ConnectClusterState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.health.ConnectorHealth", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.health.ConnectorHealth | org.apache.kafka.connect.health.TaskState | org.apache.kafka.connect.health.AbstractState | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.health.ConnectorHealth", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.health.AbstractState | org.apache.kafka.connect.health.TaskState | org.apache.kafka.connect.health.ConnectorHealth | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.health.ConnectorState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.health.ConnectorState | org.apache.kafka.connect.health.AbstractState | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.health.ConnectorState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.health.AbstractState | java.lang.String | org.apache.kafka.connect.health.ConnectorState"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.health.TaskState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.health.TaskState | org.apache.kafka.connect.health.AbstractState | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.health.TaskState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.health.AbstractState | org.apache.kafka.connect.health.TaskState | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.json.JsonConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.json.JsonConverter"}
 ]} 
@@ -3695,7 +3695,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.json.JsonSerializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.json.JsonSerializer"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.Checkpoint", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.Checkpoint | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.Checkpoint", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.connect.mirror.Checkpoint | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.ConfigPropertyFilter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3719,7 +3719,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.IdentityReplicationPolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.IdentityReplicationPolicy | org.apache.kafka.connect.mirror.DefaultReplicationPolicy | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector | org.apache.kafka.connect.source.SourceConnector | org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext"}
+, { "classe" : "org.apache.kafka.connect.mirror.MirrorCheckpointConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext | org.apache.kafka.connect.mirror.MirrorCheckpointConnector | org.apache.kafka.connect.source.SourceConnector"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorCheckpointTask"}
 ]} 
@@ -3729,11 +3729,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector | org.apache.kafka.connect.mirror.MirrorConnectorConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.MirrorHeartbeatConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig | org.apache.kafka.common.config.AbstractConfig | org.apache.kafka.connect.mirror.MirrorHeartbeatConnector | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorHeartbeatTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorHeartbeatTask"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.MirrorMaker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorMaker | org.apache.kafka.connect.mirror.SourceAndTarget | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.MirrorMaker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.SourceAndTarget | org.apache.kafka.connect.mirror.MirrorMaker | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorMaker.ShutdownHook", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3745,19 +3745,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorMetrics.PartitionMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.MirrorSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorSourceConnector | org.apache.kafka.connect.source.SourceConnector | org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext"}
+, { "classe" : "org.apache.kafka.connect.mirror.MirrorSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.mirror.MirrorSourceConnector | org.apache.kafka.connect.connector.ConnectorContext | org.apache.kafka.connect.source.SourceConnector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.MirrorSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorSourceTask | org.apache.kafka.connect.source.SourceTask | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.MirrorSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.mirror.MirrorSourceTask | org.apache.kafka.connect.source.SourceTask"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorSourceTask.PartitionState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.MirrorTaskConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorTaskConfig | org.apache.kafka.connect.mirror.MirrorConnectorConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.MirrorTaskConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorConnectorConfig | org.apache.kafka.common.config.AbstractConfig | org.apache.kafka.connect.mirror.MirrorTaskConfig | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.MirrorUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.MirrorUtils | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.OffsetSync", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.OffsetSync | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.OffsetSync", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.connect.mirror.OffsetSync | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.mirror.OffsetSyncStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.OffsetSyncStore | org.apache.kafka.connect.mirror.OffsetSync | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.mirror.OffsetSyncStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.connect.mirror.OffsetSyncStore | org.apache.kafka.connect.mirror.OffsetSync | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.mirror.RemoteClusterUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.mirror.RemoteClusterUtils | java.lang.Object"}
 ]} 
@@ -3803,7 +3803,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.CloseableConnectorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.Connect", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.Connect | org.apache.kafka.connect.runtime.rest.RestServer | org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.Connect", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | org.apache.kafka.connect.runtime.rest.RestServer | org.apache.kafka.connect.runtime.Connect | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.Connect.ShutdownHook", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3817,7 +3817,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.ConnectMetricsRegistry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.ConnectMetricsRegistry | org.apache.kafka.common.MetricNameTemplate | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.ConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.ConnectorConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.ConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.runtime.ConnectorConfig"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.ConnectorConfig.EnrichablePlugin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3853,27 +3853,27 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.SessionKey", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SessionKey"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.SinkConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SinkConnectorConfig | org.apache.kafka.connect.runtime.ConnectorConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.SinkConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SinkConnectorConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.runtime.ConnectorConfig"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.SourceConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SourceConnectorConfig | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.runtime.SourceConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SourceConnectorConfig | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.SourceConnectorConfig.EnrichedSourceConnectorConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter | org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.connect.runtime.SourceTaskOffsetCommitter | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.StateTracker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.StateTracker | org.apache.kafka.connect.runtime.StateTracker.StateChange"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.StateTracker.StateChange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.SubmittedRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SubmittedRecords | org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets"}
+, { "classe" : "org.apache.kafka.connect.runtime.SubmittedRecords", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets | org.apache.kafka.connect.runtime.SubmittedRecords"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.SubmittedRecords.CommittableOffsets", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.SubmittedRecords.SubmittedRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.TaskConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.TaskConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.TaskConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.runtime.TaskConfig"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.TaskStatus", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.TaskStatus | org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.TaskStatus", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String | org.apache.kafka.connect.runtime.TaskStatus"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.TaskStatus.Listener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3883,7 +3883,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.TransformationChain", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.Worker", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.connect.storage.MemoryConfigBackingStore | org.apache.kafka.connect.runtime.WorkerConfigTransformer | org.apache.kafka.connect.runtime.Worker"}
+, { "classe" : "org.apache.kafka.connect.runtime.Worker", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.connect.runtime.Worker | org.apache.kafka.connect.storage.MemoryConfigBackingStore | org.apache.kafka.connect.runtime.WorkerConfigTransformer"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.Worker"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.Worker.ConnectorStatusMetricsGroup", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -3905,9 +3905,9 @@ var mesDatas = {
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerConfig.ResponseHttpHeadersValidator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.connect.runtime.Worker | org.apache.kafka.connect.runtime.WorkerConfigTransformer"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfigTransformer | org.apache.kafka.connect.runtime.Worker"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.Worker | org.apache.kafka.connect.runtime.WorkerConfigTransformer"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConnector | org.apache.kafka.connect.storage.ConnectorOffsetBackingStore | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.storage.ConnectorOffsetBackingStore | org.apache.kafka.connect.runtime.WorkerConnector | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerConnector.ConnectorMetricsGroup", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3917,16 +3917,16 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerConnector.WorkerSourceConnectorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerInfo | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.runtime.WorkerInfo"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerMetricsGroup", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerMetricsGroup | org.apache.kafka.common.metrics.Sensor"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerMetricsGroup", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.connect.runtime.WorkerMetricsGroup"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerMetricsGroup.ConnectorStatusListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerMetricsGroup.TaskStatusListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerSinkTask", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.connect.runtime.WorkerSinkTaskContext | org.apache.kafka.connect.runtime.WorkerSinkTask"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerSinkTask | org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerSinkTask", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.connect.runtime.WorkerSinkTask | org.apache.kafka.connect.runtime.WorkerSinkTaskContext"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.connect.runtime.WorkerSinkTask | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Metrics | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerSinkTask.HandleRebalance", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3937,13 +3937,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerSourceTask"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext | org.apache.kafka.connect.runtime.WorkerTransactionContext | org.apache.kafka.connect.source.SourceRecord"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerSourceTaskContext | org.apache.kafka.connect.source.SourceRecord | org.apache.kafka.connect.runtime.WorkerTransactionContext"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerTask | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.connect.runtime.WorkerTask | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Metrics | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.WorkerTransactionContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerTransactionContext | org.apache.kafka.connect.source.SourceRecord"}
+, { "classe" : "org.apache.kafka.connect.runtime.WorkerTransactionContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.source.SourceRecord | org.apache.kafka.connect.runtime.WorkerTransactionContext"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.ConnectAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -3953,7 +3953,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.ConnectProtocol.WorkerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig | org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.distributed.DistributedConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.runtime.distributed.DistributedConfig"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.DistributedHerder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.DistributedHerder"}
 ]} 
@@ -3969,9 +3969,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.EagerAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.EagerAssignor"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment | org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.distributed.ExtendedAssignment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String | org.apache.kafka.connect.runtime.distributed.ExtendedAssignment"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState | org.apache.kafka.connect.runtime.distributed.ExtendedAssignment | org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.util.ConnectorTaskId | org.apache.kafka.connect.runtime.distributed.ExtendedWorkerState | java.lang.String | org.apache.kafka.connect.runtime.distributed.ExtendedAssignment"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeAssignor | java.lang.String"}
 ]} 
@@ -3979,9 +3979,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.IncrementalCooperativeConnectProtocol"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.distributed.NotAssignedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.NotAssignedException | org.apache.kafka.connect.runtime.distributed.RequestTargetException | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.distributed.NotAssignedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.RequestTargetException | org.apache.kafka.connect.runtime.distributed.NotAssignedException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.distributed.NotLeaderException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.NotLeaderException | org.apache.kafka.connect.runtime.distributed.RequestTargetException | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.distributed.NotLeaderException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.RequestTargetException | org.apache.kafka.connect.runtime.distributed.NotLeaderException | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.distributed.RebalanceNeededException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.distributed.RebalanceNeededException"}
 ]} 
@@ -4007,7 +4007,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.errors.DeadLetterQueueReporter"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Sensor"}
+, { "classe" : "org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.errors.ErrorReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4015,15 +4015,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.errors.Operation", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.errors.ProcessingContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.errors.ProcessingContext | org.apache.kafka.connect.source.SourceRecord"}
+, { "classe" : "org.apache.kafka.connect.runtime.errors.ProcessingContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.source.SourceRecord | org.apache.kafka.connect.runtime.errors.ProcessingContext"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Metrics | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.connect.runtime.errors.ErrorHandlingMetrics | org.apache.kafka.common.metrics.Metrics | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.errors.WorkerErrantRecordReporter.ErrantRecordFuture", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.runtime.health.ConnectClusterDetailsImpl"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl"}
 ]} 
@@ -4039,11 +4039,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.isolation.PluginScanResult | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.isolation.PluginUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.isolation.PluginUtils | org.apache.kafka.connect.runtime.isolation.PluginUtils.DirectoryEntry"}
+, { "classe" : "org.apache.kafka.connect.runtime.isolation.PluginUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.isolation.PluginUtils.DirectoryEntry | org.apache.kafka.connect.runtime.isolation.PluginUtils"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.isolation.PluginUtils.DirectoryEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.isolation.Plugins", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.isolation.Plugins | org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.isolation.Plugins", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.isolation.DelegatingClassLoader | org.apache.kafka.connect.runtime.isolation.Plugins | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.ConnectRestConfigurable"}
 ]} 
@@ -4055,11 +4055,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.RestClient.HttpResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.RestServer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.RestServer | org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.RestServer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | org.apache.kafka.connect.runtime.rest.RestServer | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.entities.ActiveTopicsInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.ActiveTopicsInfo | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.entities.ConfigInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.ConfigInfo | org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.entities.ConfigInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.ConfigValueInfo | org.apache.kafka.connect.runtime.rest.entities.ConfigInfo | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.entities.ConfigInfos", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.ConfigInfos"}
 ]} 
@@ -4087,9 +4087,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.entities.ServerInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.ServerInfo | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.entities.TaskInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.TaskInfo | org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.entities.TaskInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String | org.apache.kafka.connect.runtime.rest.entities.TaskInfo"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException | org.apache.kafka.connect.runtime.rest.errors.ConnectRestException"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.errors.BadRequestException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.errors.ConnectRestException | org.apache.kafka.connect.runtime.rest.errors.BadRequestException"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper"}
 ]} 
@@ -4097,9 +4097,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource | org.apache.kafka.connect.runtime.rest.entities.PluginInfo | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.entities.PluginInfo | java.lang.String | org.apache.kafka.connect.runtime.rest.resources.ConnectorPluginsResource"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource | org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.CreatedConnectorInfoTranslator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4107,15 +4107,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.resources.ConnectorsResource.Translator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.LoggingResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.resources.LoggingResource | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.LoggingResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.runtime.rest.resources.LoggingResource"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.RootResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.resources.RootResource | org.apache.kafka.connect.runtime.Herder"}
+, { "classe" : "org.apache.kafka.connect.runtime.rest.resources.RootResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.Herder | org.apache.kafka.connect.runtime.rest.resources.RootResource"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.rest.util.SSLUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.rest.util.SSLUtils"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.standalone.StandaloneConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.standalone.StandaloneConfig | org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.standalone.StandaloneConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.WorkerConfig | org.apache.kafka.connect.runtime.standalone.StandaloneConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder | org.apache.kafka.connect.runtime.AbstractHerder | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.runtime.AbstractHerder | org.apache.kafka.connect.runtime.standalone.StandaloneHerder | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.runtime.standalone.StandaloneHerder.ConfigUpdateListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4127,21 +4127,21 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.sink.SinkConnectorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.sink.SinkRecord", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth", "commentaire" : "org.apache.kafka.connect.sink.SinkRecord"}
+, { "classe" : "org.apache.kafka.connect.sink.SinkRecord", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 1 depth ", "commentaire" : "org.apache.kafka.connect.sink.SinkRecord"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.sink.SinkRecord"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.sink.SinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.sink.SinkTask | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.sink.SinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.sink.SinkTask"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.sink.SinkTaskContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.source.SourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.source.SourceConnector | org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext"}
+, { "classe" : "org.apache.kafka.connect.source.SourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext | org.apache.kafka.connect.source.SourceConnector"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.source.SourceConnectorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.source.SourceRecord", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 7 depth", "commentaire" : "org.apache.kafka.connect.storage.MemoryConfigBackingStore | org.apache.kafka.connect.runtime.WorkerConfigTransformer | org.apache.kafka.connect.runtime.Worker | org.apache.kafka.connect.runtime.WorkerTask | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.errors.ProcessingContext | org.apache.kafka.connect.source.SourceRecord"}
+, { "classe" : "org.apache.kafka.connect.source.SourceRecord", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 7 depth ", "commentaire" : "org.apache.kafka.connect.runtime.Worker | org.apache.kafka.connect.runtime.WorkerTask | org.apache.kafka.connect.storage.MemoryConfigBackingStore | org.apache.kafka.connect.source.SourceRecord | org.apache.kafka.connect.runtime.errors.ProcessingContext | org.apache.kafka.connect.runtime.errors.RetryWithToleranceOperator | org.apache.kafka.connect.runtime.WorkerConfigTransformer"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.source.SourceRecord"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.source.SourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.source.SourceTask | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.source.SourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.source.SourceTask"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.source.SourceTaskContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4187,7 +4187,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.storage.OffsetBackingStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.storage.OffsetStorageReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.storage.OffsetStorageReader | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.storage.OffsetStorageReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.connect.storage.OffsetStorageReader"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.storage.OffsetStorageReaderImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.storage.OffsetStorageReaderImpl | java.lang.String"}
 ]} 
@@ -4197,41 +4197,41 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.storage.PrivilegedWriteException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.storage.PrivilegedWriteException"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.storage.SimpleHeaderConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.storage.SimpleHeaderConverter | org.apache.kafka.common.config.ConfigDef | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.storage.SimpleHeaderConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.ConfigDef | org.apache.kafka.connect.storage.SimpleHeaderConverter | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.storage.StatusBackingStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.storage.StringConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.storage.StringConverter | org.apache.kafka.common.serialization.StringSerializer | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.storage.StringConverter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.serialization.StringSerializer | java.lang.String | org.apache.kafka.connect.storage.StringConverter"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.storage.StringConverterConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.storage.StringConverterConfig | org.apache.kafka.connect.storage.ConverterConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.storage.StringConverterConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.storage.ConverterConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.storage.StringConverterConfig"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.MockConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockConnector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.MockSinkConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSinkConnector | org.apache.kafka.connect.sink.SinkConnector | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.tools.MockSinkConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSinkConnector | java.lang.String | org.apache.kafka.connect.sink.SinkConnector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.MockSinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSinkTask | org.apache.kafka.connect.sink.SinkTask | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.tools.MockSinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSinkTask | java.lang.String | org.apache.kafka.connect.sink.SinkTask"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.MockSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSourceConnector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.MockSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSourceTask | org.apache.kafka.connect.source.SourceTask | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.tools.MockSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.MockSourceTask | java.lang.String | org.apache.kafka.connect.source.SourceTask"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.PredicateDoc", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.tools.PredicateDoc | org.apache.kafka.connect.tools.PredicateDoc.DocInfo"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.PredicateDoc.DocInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.SchemaSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.tools.SchemaSourceConnector | org.apache.kafka.connect.source.SourceConnector | org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext"}
+, { "classe" : "org.apache.kafka.connect.tools.SchemaSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext | org.apache.kafka.connect.tools.SchemaSourceConnector | org.apache.kafka.connect.source.SourceConnector"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.SchemaSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.tools.SchemaSourceTask"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.TransformationDoc", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.tools.TransformationDoc | org.apache.kafka.connect.tools.TransformationDoc.DocInfo"}
+, { "classe" : "org.apache.kafka.connect.tools.TransformationDoc", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.tools.TransformationDoc.DocInfo | org.apache.kafka.connect.tools.TransformationDoc"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.TransformationDoc.DocInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.VerifiableSinkConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.VerifiableSinkConnector | org.apache.kafka.connect.sink.SinkConnector | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.tools.VerifiableSinkConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.VerifiableSinkConnector | java.lang.String | org.apache.kafka.connect.sink.SinkConnector"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.VerifiableSinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.tools.VerifiableSinkTask | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.tools.VerifiableSinkTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | java.lang.String | org.apache.kafka.connect.tools.VerifiableSinkTask"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.tools.VerifiableSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.tools.VerifiableSourceConnector | org.apache.kafka.connect.source.SourceConnector | org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext"}
+, { "classe" : "org.apache.kafka.connect.tools.VerifiableSourceConnector", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.connect.connector.Connector | org.apache.kafka.connect.connector.ConnectorContext | org.apache.kafka.connect.tools.VerifiableSourceConnector | org.apache.kafka.connect.source.SourceConnector"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.tools.VerifiableSourceTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.connect.tools.VerifiableSourceTask"}
 ]} 
@@ -4301,7 +4301,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.transforms.util.SchemaUtil", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.transforms.util.SchemaUtil | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.transforms.util.SimpleConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.transforms.util.SimpleConfig | org.apache.kafka.common.config.AbstractConfig | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.transforms.util.SimpleConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.config.AbstractConfig | java.lang.String | org.apache.kafka.connect.transforms.util.SimpleConfig"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.util.Callback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4309,7 +4309,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.util.ConnectorTaskId", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.util.ConnectorTaskId | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.connect.util.ConnectorUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.util.ConnectorUtils | java.lang.Object"}
+, { "classe" : "org.apache.kafka.connect.util.ConnectorUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.connect.util.ConnectorUtils"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.util.ConvertingFutureCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4339,11 +4339,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.connect.util.TopicAdmin.TopicCreationResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.connect.util.TopicCreation", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.util.TopicCreation | org.apache.kafka.connect.util.TopicCreationGroup | java.lang.String"}
+, { "classe" : "org.apache.kafka.connect.util.TopicCreation", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.connect.util.TopicCreationGroup | java.lang.String | org.apache.kafka.connect.util.TopicCreation"}
 ]} 
 , { "classe" : "org.apache.kafka.connect.util.TopicCreationGroup", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.connect.util.TopicCreationGroup | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.controller.AclControlManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.controller.AclControlManager | org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String"}
+, { "classe" : "org.apache.kafka.controller.AclControlManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAcl | org.apache.kafka.controller.AclControlManager | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.BootstrapMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.controller.BootstrapMetadata | java.lang.String"}
 ]} 
@@ -4351,7 +4351,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.controller.BrokerControlStates", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.controller.BrokerControlStates | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.controller.BrokerHeartbeatManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.BrokerHeartbeatManager | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.BrokerHeartbeatManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.BrokerHeartbeatManager | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.BrokerHeartbeatManager.BrokerHeartbeatState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4367,7 +4367,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.controller.BrokersToIsrs.PartitionsOnReplicaIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.ClientQuotaControlManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.controller.ClientQuotaControlManager | org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.ClientQuotaControlManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.controller.ClientQuotaControlManager"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.ClientQuotaControlManager.ClientQuotaControlIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4391,7 +4391,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.controller.ControllerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.ControllerPurgatory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.ControllerPurgatory | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.ControllerPurgatory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.controller.ControllerPurgatory"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.ControllerRequestContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.controller.ControllerRequestContext | org.apache.kafka.common.security.auth.KafkaPrincipal | java.lang.String"}
 ]} 
@@ -4407,13 +4407,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.controller.FeatureControlManager.FeatureControlIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.PartitionChangeBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.PartitionChangeBuilder | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.PartitionChangeBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.PartitionChangeBuilder | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.PartitionChangeBuilder.ElectionResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.PartitionReassignmentReplicas", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.PartitionReassignmentReplicas | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.PartitionReassignmentReplicas", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.controller.PartitionReassignmentReplicas | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.controller.PartitionReassignmentRevert", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.PartitionReassignmentRevert | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.PartitionReassignmentRevert", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | java.lang.Object | java.lang.Number | org.apache.kafka.controller.PartitionReassignmentRevert"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.ProducerIdControlManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.controller.ProducerIdControlManager"}
 ]} 
@@ -4435,9 +4435,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.controller.QuorumController.SnapshotGeneratorManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.QuorumControllerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.QuorumControllerMetrics | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.QuorumControllerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | java.lang.Object | org.apache.kafka.controller.QuorumControllerMetrics | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.controller.QuorumFeatures", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.QuorumFeatures | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.QuorumFeatures", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.controller.QuorumFeatures | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.ReplicationControlManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.controller.ReplicationControlManager"}
 ]} 
@@ -4453,47 +4453,47 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.controller.ResultOrError", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.SnapshotGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.controller.SnapshotGenerator | org.apache.kafka.controller.SnapshotGenerator.Section"}
+, { "classe" : "org.apache.kafka.controller.SnapshotGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.controller.SnapshotGenerator.Section | org.apache.kafka.controller.SnapshotGenerator"}
 ]} 
 , { "classe" : "org.apache.kafka.controller.SnapshotGenerator.Section", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.controller.TopicIdPartition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.controller.TopicIdPartition | org.apache.kafka.common.Uuid | java.lang.Object"}
+, { "classe" : "org.apache.kafka.controller.TopicIdPartition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.Uuid | org.apache.kafka.controller.TopicIdPartition | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.image.AclsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.AclsDelta | org.apache.kafka.image.AclsImage | org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String"}
+, { "classe" : "org.apache.kafka.image.AclsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.AclsDelta | org.apache.kafka.metadata.authorizer.StandardAcl | org.apache.kafka.image.AclsImage | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.image.AclsImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.image.AclsImage | org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String"}
+, { "classe" : "org.apache.kafka.image.AclsImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAcl | org.apache.kafka.image.AclsImage | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ClientQuotaDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.image.ClientQuotaDelta | org.apache.kafka.image.ClientQuotaImage | java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.ClientQuotaDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "java.lang.Double | org.apache.kafka.image.ClientQuotaImage | org.apache.kafka.image.ClientQuotaDelta | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ClientQuotaImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.ClientQuotaImage | java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.ClientQuotaImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Double | org.apache.kafka.image.ClientQuotaImage | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ClientQuotasDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.image.ClientQuotasDelta | org.apache.kafka.image.ClientQuotasImage | org.apache.kafka.image.ClientQuotaImage | java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.ClientQuotasDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "java.lang.Double | org.apache.kafka.image.ClientQuotasDelta | org.apache.kafka.image.ClientQuotaImage | java.lang.Object | java.lang.Number | org.apache.kafka.image.ClientQuotasImage"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ClientQuotasImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.image.ClientQuotasImage | org.apache.kafka.image.ClientQuotaImage | java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.ClientQuotasImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "java.lang.Double | org.apache.kafka.image.ClientQuotaImage | java.lang.Object | java.lang.Number | org.apache.kafka.image.ClientQuotasImage"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ClusterDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.ClusterDelta | org.apache.kafka.image.ClusterImage | org.apache.kafka.metadata.BrokerRegistration | java.lang.String"}
+, { "classe" : "org.apache.kafka.image.ClusterDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.ClusterDelta | org.apache.kafka.metadata.BrokerRegistration | java.lang.String | org.apache.kafka.image.ClusterImage"}
 ]} 
 , { "classe" : "org.apache.kafka.image.ClusterImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.image.ClusterImage"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ConfigurationDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.image.ConfigurationDelta | org.apache.kafka.image.ConfigurationImage | java.lang.String"}
+, { "classe" : "org.apache.kafka.image.ConfigurationDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.image.ConfigurationImage | java.lang.String | org.apache.kafka.image.ConfigurationDelta"}
 ]} 
 , { "classe" : "org.apache.kafka.image.ConfigurationImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.image.ConfigurationImage | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.image.ConfigurationsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.ConfigurationsDelta | org.apache.kafka.image.ConfigurationsImage | org.apache.kafka.image.ConfigurationImage | java.lang.String"}
+, { "classe" : "org.apache.kafka.image.ConfigurationsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.ConfigurationsImage | org.apache.kafka.image.ConfigurationImage | java.lang.String | org.apache.kafka.image.ConfigurationsDelta"}
 ]} 
 , { "classe" : "org.apache.kafka.image.ConfigurationsImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.image.ConfigurationsImage | org.apache.kafka.image.ConfigurationImage | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.image.FeaturesDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.image.FeaturesDelta | org.apache.kafka.image.FeaturesImage | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.FeaturesDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.image.FeaturesImage | java.lang.Short | java.lang.Object | java.lang.Number | org.apache.kafka.image.FeaturesDelta"}
 ]} 
-, { "classe" : "org.apache.kafka.image.FeaturesImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.FeaturesImage | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.FeaturesImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.FeaturesImage | java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.image.LocalReplicaChanges", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.image.LocalReplicaChanges | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.image.LocalReplicaChanges", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.image.LocalReplicaChanges | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.image.LocalReplicaChanges.PartitionInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.image.MetadataDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.image.MetadataDelta | org.apache.kafka.image.TopicsDelta | org.apache.kafka.image.TopicsImage | org.apache.kafka.image.TopicImage | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.MetadataDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.image.MetadataDelta | org.apache.kafka.image.TopicImage | java.lang.Integer | org.apache.kafka.image.TopicsDelta | org.apache.kafka.image.TopicsImage | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.image.MetadataImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.image.MetadataImage | org.apache.kafka.image.TopicsImage | org.apache.kafka.image.TopicImage | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.MetadataImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.image.TopicImage | java.lang.Integer | org.apache.kafka.image.TopicsImage | org.apache.kafka.image.MetadataImage | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.image.ProducerIdsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.image.ProducerIdsDelta | java.lang.Object"}
 ]} 
@@ -4501,11 +4501,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.image.TopicDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.image.TopicDelta"}
 ]} 
-, { "classe" : "org.apache.kafka.image.TopicImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.TopicImage | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.TopicImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.image.TopicImage | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.image.TopicsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.image.TopicsDelta | org.apache.kafka.image.TopicsImage | org.apache.kafka.image.TopicImage | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.TopicsDelta", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.image.TopicImage | java.lang.Integer | org.apache.kafka.image.TopicsDelta | org.apache.kafka.image.TopicsImage | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.image.TopicsImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.image.TopicsImage | org.apache.kafka.image.TopicImage | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.image.TopicsImage", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.image.TopicImage | java.lang.Integer | org.apache.kafka.image.TopicsImage | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark"}
 ]} 
@@ -4517,15 +4517,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.jmh.common.FetchResponseBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.jmh.common.FetchResponseBenchmark"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark | org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement"}
+, { "classe" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement | org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElement", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.common.ImplicitLinkedHashCollectionBenchmark.TestElementComparator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.common.ListOffsetRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.jmh.common.ListOffsetRequestBenchmark | org.apache.kafka.common.requests.ListOffsetsRequest | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.common.ListOffsetRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.requests.ListOffsetsRequest | org.apache.kafka.jmh.common.ListOffsetRequestBenchmark | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.common.ProduceRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.common.ProduceRequestBenchmark | org.apache.kafka.common.requests.ProduceRequest"}
+, { "classe" : "org.apache.kafka.jmh.common.ProduceRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.requests.ProduceRequest | org.apache.kafka.jmh.common.ProduceRequestBenchmark"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.common.TopicBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.common.TopicBenchmark | org.apache.kafka.jmh.common.TopicBenchmark.BenchState"}
 ]} 
@@ -4533,7 +4533,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.consumer.SubscriptionStateBenchmark | org.apache.kafka.clients.consumer.internals.SubscriptionState | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4543,29 +4543,29 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.jmh.metadata.MetadataRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.metadata.MetadataRequestBenchmark | org.apache.kafka.common.security.auth.KafkaPrincipal | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark.DelayedOperationsMock", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.producer.ProducerRecordBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.producer.ProducerRecordBenchmark | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark | org.apache.kafka.common.requests.ProduceRequest"}
+, { "classe" : "org.apache.kafka.jmh.producer.ProducerRequestBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.requests.ProduceRequest | org.apache.kafka.jmh.producer.ProducerRequestBenchmark"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.producer.ProducerResponseBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.jmh.producer.ProducerResponseBenchmark"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark | org.apache.kafka.jmh.record.BaseRecordBatchBenchmark | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark | org.apache.kafka.jmh.record.CompressedRecordBatchValidationBenchmark | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark | org.apache.kafka.jmh.record.BaseRecordBatchBenchmark | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.record.RecordBatchIterationBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark | org.apache.kafka.jmh.record.RecordBatchIterationBenchmark | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark | org.apache.kafka.jmh.record.BaseRecordBatchBenchmark | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.record.BaseRecordBatchBenchmark | org.apache.kafka.jmh.record.UncompressedRecordBatchValidationBenchmark | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.server.CheckpointBench", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.server.CheckpointBench | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.jmh.server.PartitionCreationBench", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.jmh.server.PartitionCreationBench | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.jmh.server.PartitionCreationBench", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.jmh.server.PartitionCreationBench | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.jmh.timeline.TimelineHashMapBenchmark | java.lang.Object"}
 ]} 
@@ -4581,7 +4581,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.message.CodeBuffer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.message.CodeBuffer | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.message.FieldSpec", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.message.Target | org.apache.kafka.message.FieldSpec"}
+, { "classe" : "org.apache.kafka.message.FieldSpec", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "org.apache.kafka.message.FieldSpec | org.apache.kafka.message.Target"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.message.FieldSpec"}
 ]} 
 , { "classe" : "org.apache.kafka.message.FieldType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.message.FieldType | java.lang.String"}
@@ -4616,13 +4616,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.message.HeaderGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.message.HeaderGenerator"}
 ]} 
-, { "classe" : "org.apache.kafka.message.IsNullConditional", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.IsNullConditional | org.apache.kafka.message.Versions | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.IsNullConditional", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.IsNullConditional | java.lang.String | org.apache.kafka.message.Versions"}
 ]} 
 , { "classe" : "org.apache.kafka.message.IsNullConditional.ConditionalGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.message.IsNullConditional.PrimitiveConditionalGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.message.JsonConverterGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.JsonConverterGenerator | org.apache.kafka.message.StructRegistry | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.JsonConverterGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.StructRegistry | org.apache.kafka.message.JsonConverterGenerator | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.message.MessageClassGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4630,13 +4630,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.message.MessageGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.message.MessageGenerator | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.message.MessageSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.message.MessageSpec | org.apache.kafka.message.StructSpec | org.apache.kafka.message.Versions | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.MessageSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.message.StructSpec | java.lang.String | org.apache.kafka.message.Versions | org.apache.kafka.message.MessageSpec"}
 ]} 
 , { "classe" : "org.apache.kafka.message.MetadataJsonConvertersGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.message.MetadataJsonConvertersGenerator"}
 ]} 
 , { "classe" : "org.apache.kafka.message.MetadataRecordTypeGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.message.MetadataRecordTypeGenerator"}
 ]} 
-, { "classe" : "org.apache.kafka.message.SchemaGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.SchemaGenerator | org.apache.kafka.message.StructRegistry | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.SchemaGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.StructRegistry | org.apache.kafka.message.SchemaGenerator | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.message.SchemaGenerator.MessageInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4644,15 +4644,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.message.StructRegistry.StructInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.message.StructSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.StructSpec | org.apache.kafka.message.Versions | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.StructSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.StructSpec | java.lang.String | org.apache.kafka.message.Versions"}
 ]} 
 , { "classe" : "org.apache.kafka.message.Target", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.message.Target | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.message.TypeClassGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.message.VersionConditional", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.VersionConditional | org.apache.kafka.message.Versions | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.VersionConditional", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.message.VersionConditional | java.lang.String | org.apache.kafka.message.Versions"}
 ]} 
-, { "classe" : "org.apache.kafka.message.Versions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.message.Versions | java.lang.String"}
+, { "classe" : "org.apache.kafka.message.Versions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.message.Versions"}
 ]} 
 , { "classe" : "org.apache.kafka.metadata.BrokerHeartbeatReply", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.metadata.BrokerHeartbeatReply | java.lang.Object"}
 ]} 
@@ -4664,7 +4664,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.metadata.FeatureLevelListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.metadata.FinalizedControllerFeatures", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.metadata.FinalizedControllerFeatures | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.metadata.FinalizedControllerFeatures", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.metadata.FinalizedControllerFeatures | java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.metadata.KafkaConfigSchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.metadata.KafkaConfigSchema"}
 ]} 
@@ -4678,7 +4678,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.metadata.Replicas", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.metadata.Replicas | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.metadata.VersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.metadata.VersionRange | java.lang.Object"}
+, { "classe" : "org.apache.kafka.metadata.VersionRange", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.metadata.VersionRange"}
 ]} 
 , { "classe" : "org.apache.kafka.metadata.authorizer.AclMutator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4686,11 +4686,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.metadata.authorizer.StandardAcl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.metadata.authorizer.StandardAclRecordIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAclRecordIterator | org.apache.kafka.metadata.authorizer.StandardAclWithId | org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String"}
+, { "classe" : "org.apache.kafka.metadata.authorizer.StandardAclRecordIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAcl | org.apache.kafka.metadata.authorizer.StandardAclRecordIterator | java.lang.String | org.apache.kafka.metadata.authorizer.StandardAclWithId"}
 ]} 
-, { "classe" : "org.apache.kafka.metadata.authorizer.StandardAclWithId", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAclWithId | org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String"}
+, { "classe" : "org.apache.kafka.metadata.authorizer.StandardAclWithId", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAcl | java.lang.String | org.apache.kafka.metadata.authorizer.StandardAclWithId"}
 ]} 
-, { "classe" : "org.apache.kafka.metadata.authorizer.StandardAuthorizer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAuthorizer | java.lang.Void"}
+, { "classe" : "org.apache.kafka.metadata.authorizer.StandardAuthorizer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Void | org.apache.kafka.metadata.authorizer.StandardAuthorizer"}
 ]} 
 , { "classe" : "org.apache.kafka.metadata.authorizer.StandardAuthorizerData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.metadata.authorizer.StandardAuthorizerData"}
 ]} 
@@ -4728,7 +4728,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.metadata.util.SnapshotFileWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.metadata.util.SnapshotFileWriter | org.apache.kafka.server.common.ApiMessageAndVersion"}
 ]} 
-, { "classe" : "org.apache.kafka.queue.EventQueue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.queue.EventQueue | org.apache.kafka.queue.EventQueue.Event"}
+, { "classe" : "org.apache.kafka.queue.EventQueue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.queue.EventQueue.Event | org.apache.kafka.queue.EventQueue"}
 ]} 
 , { "classe" : "org.apache.kafka.queue.EventQueue.DeadlineFunction", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4752,9 +4752,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.BatchReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.raft.CandidateState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.CandidateState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.CandidateState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.raft.CandidateState | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.ElectionState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.ElectionState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.ElectionState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.raft.ElectionState | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.EpochState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4762,7 +4762,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.FileBasedStateStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.FileBasedStateStore | java.io.File | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.FollowerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.FollowerState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.FollowerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.FollowerState | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.KafkaRaftClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4780,7 +4780,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.LogAppendInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.raft.LogAppendInfo | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.LogFetchInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.raft.LogFetchInfo | org.apache.kafka.common.record.Records"}
+, { "classe" : "org.apache.kafka.raft.LogFetchInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.record.Records | org.apache.kafka.raft.LogFetchInfo"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.LogOffsetMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.raft.LogOffsetMetadata"}
 ]} 
@@ -4790,13 +4790,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.OffsetMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.raft.QuorumState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.QuorumState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.QuorumState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.QuorumState | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.QuorumStateStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.raft.RaftClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.raft.RaftConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.RaftConfig | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.RaftConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.RaftConfig | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.RaftConfig.AddressSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4816,7 +4816,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.RaftRequest.Outbound", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.raft.RaftResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.raft.RaftResponse | org.apache.kafka.raft.RaftResponse.Inbound"}
+, { "classe" : "org.apache.kafka.raft.RaftResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.raft.RaftResponse.Inbound | org.apache.kafka.raft.RaftResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.RaftResponse.Inbound", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4824,23 +4824,23 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.RaftUtil", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.raft.RaftUtil | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.ReplicatedCounter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.ReplicatedCounter | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.ReplicatedCounter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.raft.ReplicatedCounter | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.ReplicatedLog", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.raft.RequestManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.RequestManager | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.RequestManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.raft.RequestManager | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.RequestManager.ConnectionState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.raft.ResignedState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.ResignedState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.ResignedState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | java.lang.Object | org.apache.kafka.raft.ResignedState | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.UnattachedState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.UnattachedState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.UnattachedState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.raft.UnattachedState | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.ValidOffsetAndEpoch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.ValidOffsetAndEpoch | org.apache.kafka.raft.OffsetAndEpoch | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.ValidOffsetAndEpoch", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.OffsetAndEpoch | java.lang.Object | org.apache.kafka.raft.ValidOffsetAndEpoch"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.VotedState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.raft.VotedState | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.raft.VotedState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.raft.VotedState | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.raft.errors.BufferAllocationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.errors.BufferAllocationException | org.apache.kafka.raft.errors.RaftException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.raft.errors.BufferAllocationException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.errors.RaftException | org.apache.kafka.raft.errors.BufferAllocationException | org.apache.kafka.common.KafkaException"}
 ]} 
 , { "classe" : "org.apache.kafka.raft.errors.NotLeaderException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.errors.NotLeaderException | org.apache.kafka.raft.errors.RaftException | org.apache.kafka.common.KafkaException"}
 ]} 
@@ -4872,13 +4872,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.raft.internals.ThresholdPurgatory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.server.authorizer.AclCreateResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.authorizer.AclCreateResult | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.server.authorizer.AclCreateResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.authorizer.AclCreateResult | org.apache.kafka.common.KafkaException | org.apache.kafka.common.errors.ApiException"}
 ]} 
-, { "classe" : "org.apache.kafka.server.authorizer.AclDeleteResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.authorizer.AclDeleteResult | org.apache.kafka.common.errors.ApiException | org.apache.kafka.common.KafkaException"}
+, { "classe" : "org.apache.kafka.server.authorizer.AclDeleteResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.KafkaException | org.apache.kafka.server.authorizer.AclDeleteResult | org.apache.kafka.common.errors.ApiException"}
 ]} 
 , { "classe" : "org.apache.kafka.server.authorizer.AclDeleteResult.AclBindingDeleteResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.server.authorizer.Action", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.authorizer.Action | org.apache.kafka.common.resource.ResourcePattern | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.authorizer.Action", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.resource.ResourcePattern | java.lang.String | org.apache.kafka.server.authorizer.Action"}
 ]} 
 , { "classe" : "org.apache.kafka.server.authorizer.AuthorizableRequestContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4896,7 +4896,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.server.common.serialization.AbstractApiMessageSerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.server.common.serialization.AbstractApiMessageSerde | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde | org.apache.kafka.server.common.serialization.AbstractApiMessageSerde | java.lang.Object"}
+, { "classe" : "org.apache.kafka.server.common.serialization.BytesApiMessageSerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.common.serialization.AbstractApiMessageSerde | org.apache.kafka.server.common.serialization.BytesApiMessageSerde | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.server.common.serialization.MetadataParseException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4908,25 +4908,25 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerManager"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask | org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.ConsumerTask | org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.FileBasedRemoteLogMetadataCache"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.ProducerManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.ProducerManager | org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.ProducerManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Object | java.lang.Number | org.apache.kafka.server.log.remote.metadata.storage.ProducerManager"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState | org.apache.kafka.common.TopicIdPartition | java.lang.String | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState.Action", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogLeaderEpochState | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataCache | org.apache.kafka.common.TopicIdPartition | java.lang.String | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile | org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataSnapshotFile.Snapshot", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogMetadataTopicPartitioner"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | org.apache.kafka.server.log.remote.metadata.storage.RemoteLogSegmentMetadataSnapshot | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.RemotePartitionMetadataEventHandler | java.lang.Object"}
 ]} 
@@ -4936,7 +4936,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManagerConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.TopicBasedRemoteLogMetadataManagerConfig"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataSerde | java.lang.Short | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.metadata.storage.serialization.RemoteLogMetadataTransform", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -4956,29 +4956,29 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteLogMetadataManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.TopicIdPartition | java.lang.String | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadata"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteLogSegmentMetadataUpdate | org.apache.kafka.common.TopicPartition | org.apache.kafka.common.TopicIdPartition | java.lang.String | org.apache.kafka.server.log.remote.storage.RemoteLogSegmentId"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.common.TopicIdPartition | org.apache.kafka.server.log.remote.storage.RemotePartitionDeleteMetadata | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException | org.apache.kafka.server.log.remote.storage.RemoteStorageException | java.lang.Exception | java.lang.Throwable"}
+, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Throwable | org.apache.kafka.server.log.remote.storage.RemoteStorageException | java.lang.Exception | org.apache.kafka.server.log.remote.storage.RemoteResourceNotFoundException"}
 ]} 
-, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException | java.lang.Exception | java.lang.Throwable"}
+, { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteStorageException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Throwable | org.apache.kafka.server.log.remote.storage.RemoteStorageException | java.lang.Exception"}
 ]} 
 , { "classe" : "org.apache.kafka.server.log.remote.storage.RemoteStorageManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.server.metrics.FilteringJmxReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.metrics.FilteringJmxReporter | org.apache.kafka.common.metrics.JmxReporter | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.metrics.FilteringJmxReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.server.metrics.FilteringJmxReporter | java.lang.String | org.apache.kafka.common.metrics.JmxReporter"}
 ]} 
-, { "classe" : "org.apache.kafka.server.metrics.KafkaYammerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.metrics.KafkaYammerMetrics | org.apache.kafka.server.metrics.FilteringJmxReporter | org.apache.kafka.common.metrics.JmxReporter | java.lang.String"}
+, { "classe" : "org.apache.kafka.server.metrics.KafkaYammerMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.server.metrics.FilteringJmxReporter | org.apache.kafka.server.metrics.KafkaYammerMetrics | java.lang.String | org.apache.kafka.common.metrics.JmxReporter"}
 ]} 
 , { "classe" : "org.apache.kafka.server.policy.AlterConfigPolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.server.policy.AlterConfigPolicy | org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata"}
 ]} 
 , { "classe" : "org.apache.kafka.server.policy.AlterConfigPolicy.RequestMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.server.policy.CreateTopicPolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.server.policy.CreateTopicPolicy | org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata"}
+, { "classe" : "org.apache.kafka.server.policy.CreateTopicPolicy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata | org.apache.kafka.server.policy.CreateTopicPolicy"}
 ]} 
 , { "classe" : "org.apache.kafka.server.policy.CreateTopicPolicy.RequestMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5026,11 +5026,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.shell.GlobVisitor.MetadataNodeInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.shell.HelpCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.HelpCommandHandler | org.apache.kafka.shell.HelpCommandHandler.HelpCommandType"}
+, { "classe" : "org.apache.kafka.shell.HelpCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.HelpCommandHandler.HelpCommandType | org.apache.kafka.shell.HelpCommandHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.shell.HelpCommandHandler.HelpCommandType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.shell.HistoryCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.HistoryCommandHandler | org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType"}
+, { "classe" : "org.apache.kafka.shell.HistoryCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType | org.apache.kafka.shell.HistoryCommandHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.shell.HistoryCommandHandler.HistoryCommandType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5048,7 +5048,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.shell.LsCommandHandler.TargetDirectory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.shell.ManCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.ManCommandHandler | java.lang.String"}
+, { "classe" : "org.apache.kafka.shell.ManCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.shell.ManCommandHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.shell.ManCommandHandler.ManCommandType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5074,13 +5074,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.shell.NotFileException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.shell.PwdCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.PwdCommandHandler | org.apache.kafka.shell.PwdCommandHandler.PwdCommandType"}
+, { "classe" : "org.apache.kafka.shell.PwdCommandHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.shell.PwdCommandHandler.PwdCommandType | org.apache.kafka.shell.PwdCommandHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.shell.PwdCommandHandler.PwdCommandType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.snapshot.FileRawSnapshotReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.snapshot.FileRawSnapshotReader | org.apache.kafka.common.record.FileRecords | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.snapshot.FileRawSnapshotReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.snapshot.FileRawSnapshotReader | java.io.File | org.apache.kafka.common.record.FileRecords | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.snapshot.FileRawSnapshotWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.snapshot.FileRawSnapshotWriter | org.apache.kafka.raft.OffsetAndEpoch | java.lang.Object"}
+, { "classe" : "org.apache.kafka.snapshot.FileRawSnapshotWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.OffsetAndEpoch | org.apache.kafka.snapshot.FileRawSnapshotWriter | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.snapshot.RawSnapshotReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5090,7 +5090,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.snapshot.RecordsSnapshotWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.snapshot.SnapshotPath", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.snapshot.SnapshotPath | org.apache.kafka.raft.OffsetAndEpoch | java.lang.Object"}
+, { "classe" : "org.apache.kafka.snapshot.SnapshotPath", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.raft.OffsetAndEpoch | org.apache.kafka.snapshot.SnapshotPath | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.snapshot.SnapshotReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5110,7 +5110,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.KafkaStreams.StreamStateListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.KeyQueryMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.KeyQueryMetadata | org.apache.kafka.streams.state.HostInfo | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.KeyQueryMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.HostInfo | org.apache.kafka.streams.KeyQueryMetadata | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.KeyValue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5118,7 +5118,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.StoreQueryParameters", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.StreamsBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.StreamsBuilder | org.apache.kafka.streams.Topology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder"}
+, { "classe" : "org.apache.kafka.streams.StreamsBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.StreamsBuilder | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.Topology"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.StreamsConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.StreamsConfig"}
 ]} 
@@ -5136,8 +5136,8 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.ThreadMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.Topology", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 4 depth", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.Topology"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.Topology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder"}
+, { "classe" : "org.apache.kafka.streams.Topology", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 4 depth", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.Topology"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.Topology"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.TopologyConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.TopologyConfig"}
 ]} 
@@ -5157,7 +5157,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.TopologyDescription.Subtopology", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.TopologyTestDriver", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.processor.internals.StreamTask | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.TopologyTestDriver", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.processor.internals.StreamTask | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.TopologyTestDriver.KeyValueStoreFacade", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5169,59 +5169,59 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.TopologyTestDriver.WindowStoreFacade", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.BrokerNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.BrokerNotFoundException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.BrokerNotFoundException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.BrokerNotFoundException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.errors.DefaultProductionExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.errors.DefaultProductionExceptionHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.errors.DeserializationExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.InvalidStateStoreException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.InvalidStateStoreException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.InvalidStateStorePartitionException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.InvalidStateStorePartitionException | org.apache.kafka.streams.errors.StreamsException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.LockException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.LockException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.LockException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.LockException | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.errors.LogAndContinueExceptionHandler"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.errors.LogAndFailExceptionHandler"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.MissingSourceTopicException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.MissingSourceTopicException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.MissingSourceTopicException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.MissingSourceTopicException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.ProcessorStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.ProcessorStateException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.ProcessorStateException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.ProcessorStateException | org.apache.kafka.streams.errors.StreamsException | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.errors.ProductionExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.StateStoreMigratedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.StateStoreMigratedException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.StateStoreMigratedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | java.lang.String | org.apache.kafka.streams.errors.StateStoreMigratedException | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.StateStoreNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.StateStoreNotAvailableException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.StateStoreNotAvailableException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.StateStoreNotAvailableException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.StreamsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.StreamsException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.StreamsNotStartedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.StreamsNotStartedException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.StreamsNotStartedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.StreamsNotStartedException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.StreamsRebalancingException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.StreamsRebalancingException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.StreamsRebalancingException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsRebalancingException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.StreamsStoppedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.StreamsStoppedException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.StreamsStoppedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.StreamsStoppedException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.errors.StreamsUncaughtExceptionHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.TaskAssignmentException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.TaskAssignmentException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.TaskAssignmentException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.TaskAssignmentException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.TaskCorruptedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.TaskCorruptedException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.TaskCorruptedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | java.lang.String | org.apache.kafka.streams.errors.TaskCorruptedException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.TaskIdFormatException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.TaskIdFormatException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.TaskIdFormatException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.TaskIdFormatException | org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.TaskMigratedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.TaskMigratedException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.TaskMigratedException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.TaskMigratedException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.TopologyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.TopologyException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.TopologyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.TopologyException | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.UnknownStateStoreException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.errors.UnknownStateStoreException | org.apache.kafka.streams.errors.InvalidStateStoreException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.UnknownStateStoreException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.errors.UnknownStateStoreException | java.lang.String | org.apache.kafka.streams.errors.InvalidStateStoreException"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.errors.UnknownTopologyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.errors.UnknownTopologyException | org.apache.kafka.streams.errors.StreamsException | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.errors.UnknownTopologyException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.errors.UnknownTopologyException | org.apache.kafka.streams.errors.StreamsException | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.examples.pageview.JsonTimestampExtractor | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo | org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.PageView"}
+, { "classe" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.PageView | org.apache.kafka.streams.examples.pageview.PageViewTypedDemo"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.examples.pageview.PageViewTypedDemo.JSONSerde", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5249,7 +5249,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.examples.wordcount.WordCountProcessorDemo.WordCountProcessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo | org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyProcessorSupplier"}
+, { "classe" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyProcessorSupplier | org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.examples.wordcount.WordCountTransformerDemo.MyProcessorSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5257,7 +5257,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.internals.StreamsConfigUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.internals.StreamsConfigUtils | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.internals.metrics.ClientMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.internals.metrics.ClientMetrics | java.lang.Exception | java.lang.Throwable"}
+, { "classe" : "org.apache.kafka.streams.internals.metrics.ClientMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.lang.Throwable | java.lang.Exception | org.apache.kafka.streams.internals.metrics.ClientMetrics"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.Aggregator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5281,7 +5281,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.Initializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.JoinWindows", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.JoinWindows | org.apache.kafka.streams.kstream.Window"}
+, { "classe" : "org.apache.kafka.streams.kstream.JoinWindows", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.JoinWindows"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.Joined", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5343,13 +5343,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.TimeWindowedSerializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.TimeWindows", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.TimeWindows | org.apache.kafka.streams.kstream.internals.TimeWindow | org.apache.kafka.streams.kstream.Window"}
+, { "classe" : "org.apache.kafka.streams.kstream.TimeWindows", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.TimeWindows | org.apache.kafka.streams.kstream.internals.TimeWindow"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.Transformer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.TransformerSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.UnlimitedWindows", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.UnlimitedWindows | org.apache.kafka.streams.kstream.internals.UnlimitedWindow | org.apache.kafka.streams.kstream.Window"}
+, { "classe" : "org.apache.kafka.streams.kstream.UnlimitedWindows", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.UnlimitedWindows | org.apache.kafka.streams.kstream.internals.UnlimitedWindow"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.ValueJoiner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5413,7 +5413,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder | org.apache.kafka.streams.kstream.internals.graph.GraphNode"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal | org.apache.kafka.streams.kstream.JoinWindows | org.apache.kafka.streams.kstream.Window | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.JoinWindowsInternal", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.internals.JoinWindowsInternal | org.apache.kafka.streams.kstream.JoinWindows | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.JoinedInternal", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5453,7 +5453,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.KStreamImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.KStreamImplJoin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.KStreamImplJoin | org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder | org.apache.kafka.streams.kstream.internals.graph.GraphNode"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.KStreamImplJoin", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder | org.apache.kafka.streams.kstream.internals.KStreamImplJoin | org.apache.kafka.streams.kstream.internals.graph.GraphNode"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.KStreamImplJoin.TimeTracker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5627,7 +5627,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.SessionCacheFlushListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.SessionWindow", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.SessionWindow | org.apache.kafka.streams.kstream.Window"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.SessionWindow", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.internals.SessionWindow"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.SessionWindowedCogroupedKStreamImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5641,7 +5641,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.TableJoinedInternal", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.TimeWindow", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.TimeWindow | org.apache.kafka.streams.kstream.Window"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.TimeWindow", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.internals.TimeWindow"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.TimeWindowedCogroupedKStreamImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5655,7 +5655,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.TransformerSupplierAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.UnlimitedWindow", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.UnlimitedWindow | org.apache.kafka.streams.kstream.Window"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.UnlimitedWindow", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.Window | org.apache.kafka.streams.kstream.internals.UnlimitedWindow"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.WindowedSerializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5667,11 +5667,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.WrappingNullableSerializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.WrappingNullableUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.WrappingNullableUtils | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.WrappingNullableUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.kstream.internals.WrappingNullableUtils"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowCloseStrategy | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.kstream.internals.emitstrategy.WindowUpdateStrategy"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.foreignkeyjoin.CombinedKey", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5705,9 +5705,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.graph.GlobalStoreNode", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.kstream.internals.graph.GraphGraceSearchUtil"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.graph.GraphNode", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.StreamsBuilder | org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder | org.apache.kafka.streams.kstream.internals.graph.GraphNode"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.graph.GraphNode", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth ", "commentaire" : "org.apache.kafka.streams.StreamsBuilder | org.apache.kafka.streams.kstream.internals.InternalStreamsBuilder | org.apache.kafka.streams.kstream.internals.graph.GraphNode"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.graph.GraphNode"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.graph.GroupedTableOperationRepartitionNode", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -5756,7 +5756,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.suppress.SuppressedInternal", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.kstream.internals.suppress.TimeDefinitions.RecordTimeDefinition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5788,7 +5788,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.Processor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.ProcessorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.ProcessorContext | org.apache.kafka.streams.processor.To | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.ProcessorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.To | org.apache.kafka.streams.processor.ProcessorContext | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.ProcessorSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5800,7 +5800,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.StateRestoreListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.StateStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.StateStore | org.apache.kafka.streams.query.PositionBound | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.StateStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | org.apache.kafka.streams.query.PositionBound | org.apache.kafka.streams.processor.StateStore | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.StateStoreContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5810,7 +5810,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.TaskMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskMetadata"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.ThreadMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.ThreadMetadata | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.ThreadMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.streams.processor.ThreadMetadata"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.TimestampExtractor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5834,7 +5834,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.api.FixedKeyRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.processor.api.InternalFixedKeyRecordFactory"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.api.MockProcessorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5866,7 +5866,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ChangelogReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper | org.apache.kafka.common.header.internals.RecordHeader | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.header.internals.RecordHeader | org.apache.kafka.streams.processor.internals.ChangelogRecordDeserializationHelper | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ChangelogRegister", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5888,7 +5888,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.DefaultStreamPartitioner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext | org.apache.kafka.streams.processor.ProcessorContext | org.apache.kafka.streams.processor.To | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.To | org.apache.kafka.streams.processor.ProcessorContext | java.lang.String | org.apache.kafka.streams.processor.internals.ForwardingDisabledProcessorContext"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.GlobalProcessorContextImpl"}
 ]} 
@@ -5912,9 +5912,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.InternalTopicManager.ValidationResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.InternalTopicProperties", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.InternalTopicProperties | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.InternalTopicProperties", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.InternalTopicProperties | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.Topology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.Topology"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.InternalTopologyBuilder.AbstractNode", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -5959,11 +5959,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl | org.apache.kafka.streams.processor.internals.StreamTask | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorContextImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamTask | java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.streams.processor.internals.ProcessorContextImpl"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorContextUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ProcessorContextUtils | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ProcessorMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | org.apache.kafka.streams.processor.internals.ProcessorMetadata | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ProcessorNode", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -5993,17 +5993,17 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.RecordCollectorImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.RecordCollectorImpl"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.RecordDeserializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.RecordDeserializer | org.apache.kafka.common.metrics.Sensor"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.RecordDeserializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.streams.processor.internals.RecordDeserializer"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.RecordQueue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.RecordQueue | org.apache.kafka.streams.processor.internals.RecordDeserializer | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.RecordQueue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.RecordQueue | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.streams.processor.internals.RecordDeserializer | org.apache.kafka.common.metrics.Metrics"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.RepartitionTopicConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.RepartitionTopicConfig | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.RepartitionTopics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.RepartitionTopics | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.RepartitionTopics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | org.apache.kafka.streams.processor.internals.RepartitionTopics | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.RestoringTasks", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.SerdeGetter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.SerdeGetter | org.apache.kafka.streams.processor.ProcessorContext | org.apache.kafka.streams.processor.To | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.SerdeGetter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.SerdeGetter | org.apache.kafka.streams.processor.To | org.apache.kafka.streams.processor.ProcessorContext | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.SinkNode", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6041,19 +6041,19 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StoreToProcessorContextAdapter"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.StreamTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamTask | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.StreamTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamTask | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.StreamTask.RecordQueueCreator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.StreamThread", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.StreamThread", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.StreamThread.InternalConsumerConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.StreamThread.StateListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime | java.lang.Double | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThreadTotalBlockedTime | java.lang.Double | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.StreamsMetadataState.SourceTopicsInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6077,13 +6077,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.TaskExecutionMetadata.NamedTopologyMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.TaskExecutor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TaskExecutor | org.apache.kafka.streams.processor.internals.Tasks | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.TaskExecutor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TopologyMetadata | org.apache.kafka.streams.processor.internals.Tasks | org.apache.kafka.streams.processor.internals.TaskExecutor | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.TaskManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TaskManager"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.TaskMetadataImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TaskMetadataImpl"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.Tasks", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.Tasks | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.Tasks", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TopologyMetadata | org.apache.kafka.streams.processor.internals.Tasks | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ThreadMetadataImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ThreadMetadataImpl | java.lang.String"}
 ]} 
@@ -6091,7 +6091,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.ToInternal", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ToInternal | org.apache.kafka.streams.processor.To | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata | org.apache.kafka.streams.processor.internals.ProcessorMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.TopicPartitionMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "java.lang.Long | org.apache.kafka.streams.processor.internals.ProcessorMetadata | java.lang.Object | java.lang.Number | org.apache.kafka.streams.processor.internals.TopicPartitionMetadata"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.TopologyMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.TopologyMetadata"}
 ]} 
@@ -6113,9 +6113,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.assignment.AssignorConfiguration.AssignmentListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.ClientState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.ClientState | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.ClientState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | org.apache.kafka.streams.processor.internals.assignment.ClientState | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.ClientStateTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.ClientStateTask | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.ClientStateTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | java.lang.String | org.apache.kafka.streams.processor.internals.assignment.ClientStateTask"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor | org.apache.kafka.streams.processor.internals.assignment.ClientTagAwareStandbyTaskAssignor.TagEntry"}
 ]} 
@@ -6135,7 +6135,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.ReferenceContainer"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignmentUtils"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.assignment.StandbyTaskAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6149,15 +6149,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.assignment.StreamsAssignmentProtocolVersions", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.StreamsAssignmentProtocolVersions | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | java.lang.Object | org.apache.kafka.streams.processor.internals.assignment.SubscriptionInfo | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.assignment.TaskAssignor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.TaskMovement", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.assignment.TaskMovement | org.apache.kafka.streams.processor.TaskId | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.assignment.TaskMovement", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.TaskId | org.apache.kafka.streams.processor.internals.assignment.TaskMovement | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.metrics.ProcessorNodeMetrics | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl.ImmutableMetricValue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -6168,18 +6168,18 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.metrics.TopicMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.metrics.TopicMetrics | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult | java.lang.Void"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Void | org.apache.kafka.streams.processor.internals.namedtopology.AddNamedTopologyResult"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.KafkaStreamsNamedTopologyWrapper | org.apache.kafka.streams.KafkaStreams"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.Topology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.Topology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 3 depth", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.Topology"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | org.apache.kafka.streams.Topology"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder | org.apache.kafka.streams.StreamsBuilder | org.apache.kafka.streams.Topology | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.StreamsBuilder | org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyBuilder | org.apache.kafka.streams.processor.internals.InternalTopologyBuilder | java.lang.String | org.apache.kafka.streams.Topology"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.NamedTopologyStoreQueryParameters", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult | java.lang.Void"}
+, { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Void | org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.processor.internals.namedtopology.RemoveNamedTopologyResult.ResetOffsetsFuture", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6187,7 +6187,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.query.Position", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.query.PositionBound", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.query.PositionBound | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.query.PositionBound", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | org.apache.kafka.streams.query.PositionBound | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.query.Query", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6259,7 +6259,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.Stores", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.Stores | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.StreamsMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.StreamsMetadata | org.apache.kafka.common.TopicPartition | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.StreamsMetadata", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.TopicPartition | org.apache.kafka.streams.state.StreamsMetadata | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.TimestampedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6281,7 +6281,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.AbstractRocksDBSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore.IndexToBaseStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6303,11 +6303,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.CachedStateStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.CachingKeyValueStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.CachingKeyValueStore | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.CachingKeyValueStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | java.lang.String | org.apache.kafka.streams.state.internals.CachingKeyValueStore"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.CachingKeyValueStore.CacheQueryHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.CachingSessionStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.CachingSessionStore | org.apache.kafka.streams.state.internals.SessionKeySchema | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.state.internals.CachingSessionStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.CachingSessionStore | java.lang.Object | org.apache.kafka.streams.state.internals.SessionKeySchema"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.CachingSessionStore.CacheIteratorWrapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6323,7 +6323,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedKeyValueBytesStore | org.apache.kafka.streams.state.internals.ChangeLoggingKeyValueBytesStore"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore | org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore"}
+, { "classe" : "org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore | org.apache.kafka.streams.state.internals.ChangeLoggingTimestampedWindowBytesStore"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.ChangeLoggingWindowBytesStore"}
 ]} 
@@ -6337,21 +6337,21 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.CompositeReadOnlyWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.ContextualRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.ContextualRecord | org.apache.kafka.streams.processor.internals.ProcessorRecordContext | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.ContextualRecord", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.ProcessorRecordContext | org.apache.kafka.streams.state.internals.ContextualRecord | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.DelegatingPeekingKeyValueIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.ExceptionUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.ExceptionUtils | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.state.internals.ExceptionUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.state.internals.ExceptionUtils"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator | org.apache.kafka.streams.state.internals.LRUCacheEntry | org.apache.kafka.streams.state.internals.ContextualRecord | org.apache.kafka.streams.processor.internals.ProcessorRecordContext | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.FilteredCacheIterator | org.apache.kafka.streams.state.internals.LRUCacheEntry | org.apache.kafka.streams.processor.internals.ProcessorRecordContext | org.apache.kafka.streams.state.internals.ContextualRecord | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider | org.apache.kafka.streams.processor.StateStore | org.apache.kafka.streams.query.PositionBound | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.GlobalStateStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | org.apache.kafka.streams.query.PositionBound | org.apache.kafka.streams.state.internals.GlobalStateStoreProvider | org.apache.kafka.streams.processor.StateStore | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.HasNextCondition", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueBytesStoreSupplier | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | org.apache.kafka.streams.state.internals.InMemoryKeyValueStore | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.InMemoryKeyValueStore.InMemoryKeyValueIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6365,7 +6365,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.InMemoryTimeOrderedKeyValueBuffer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.streams.state.internals.InMemoryWindowBytesStoreSupplier"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.InMemoryWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.InMemoryWindowStore"}
 ]} 
@@ -6385,9 +6385,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.KeyValueIterators.EmptyWindowStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.KeyValueSegment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.KeyValueSegment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.KeyValueSegments", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegments | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.KeyValueSegments", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegments | org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.KeyValueStoreBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6395,7 +6395,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.KeyValueToTimestampedKeyValueIteratorAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.LRUCacheEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.LRUCacheEntry | org.apache.kafka.streams.state.internals.ContextualRecord | org.apache.kafka.streams.processor.internals.ProcessorRecordContext | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.LRUCacheEntry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.LRUCacheEntry | org.apache.kafka.streams.processor.internals.ProcessorRecordContext | org.apache.kafka.streams.state.internals.ContextualRecord | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.LeftOrRightValue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6413,21 +6413,21 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.Maybe", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.MemoryLRUCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.MemoryLRUCache | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.MemoryLRUCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | org.apache.kafka.streams.state.internals.MemoryLRUCache | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.MemoryLRUCache.EldestEntryRemovalListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache | org.apache.kafka.streams.state.internals.MemoryLRUCache | org.apache.kafka.streams.query.Position | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.query.Position | org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache | org.apache.kafka.streams.state.internals.MemoryLRUCache | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.MemoryNavigableLRUCache.CacheIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheKeyValueBytesStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator | org.apache.kafka.streams.state.internals.SegmentedCacheFunction | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SegmentedCacheFunction | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema | org.apache.kafka.streams.state.internals.MergedSortedCacheSessionStoreIterator"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator | org.apache.kafka.streams.state.internals.SegmentedCacheFunction | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SegmentedCacheFunction | org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.MergedSortedCacheWindowStoreKeyValueIterator.StoreKeyToWindowKey", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6461,7 +6461,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.NextIteratorFunction", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.OffsetCheckpoint", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.OrderedBytes", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.OrderedBytes | java.lang.Object"}
 ]} 
@@ -6475,13 +6475,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.PrefixedSessionKeySchemas.TimeFirstSessionKeySchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas | org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema | org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.KeyFirstWindowKeySchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.PrefixedWindowKeySchemas.TimeFirstWindowKeySchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider | org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider | org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.QueryableStoreProvider | org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.ReadOnlyKeyValueStoreFacade", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6495,31 +6495,31 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBRangeIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBRangeIterator | org.apache.kafka.streams.state.internals.RocksDbIterator | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBSessionStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBSessionStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBSessionStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SegmentedBytesStore | org.apache.kafka.streams.state.internals.RocksDBSessionStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBStore.RocksDBAccessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore.SessionKeySchemaIndexToBaseStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 8 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 8 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionStore | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedSessionSegmentedBytesStore | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore.WindowKeySchemaIndexToBaseStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 8 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.KeyValueSegment | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 8 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.KeyValueSegment | java.io.File | org.apache.kafka.streams.state.internals.AbstractRocksDBTimeOrderedSegmentedBytesStore | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowStore | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | org.apache.kafka.streams.state.internals.RocksDBTimeOrderedWindowSegmentedBytesStore"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore | org.apache.kafka.streams.state.internals.TimestampedSegment | org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.TimestampedSegment | java.io.File | org.apache.kafka.streams.state.internals.RocksDBTimestampedSegmentedBytesStore | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.DualColumnFamilyAccessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6527,11 +6527,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore.RocksDBDualCFRangeIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore | org.apache.kafka.streams.state.internals.RocksDBWindowStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SegmentedBytesStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema | org.apache.kafka.streams.state.internals.RocksDBWindowStore | org.apache.kafka.streams.state.internals.RocksDBTimestampedWindowStore"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBWindowStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDBWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SegmentedBytesStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema | org.apache.kafka.streams.state.internals.RocksDBWindowStore"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.streams.state.internals.RocksDbIndexedTimeOrderedWindowBytesStoreSupplier"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.RocksDbIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDbIterator | java.lang.String"}
 ]} 
@@ -6555,17 +6555,17 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.Segments", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.SessionKeySchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SessionKeySchema | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.state.internals.SessionKeySchema", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.streams.state.internals.SessionKeySchema"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.SessionStoreBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.StateStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.StateStoreProvider | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.StateStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.streams.state.internals.StateStoreProvider"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.StoreQueryUtils", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.StoreQueryUtils"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.StoreQueryUtils.QueryHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider | org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.StreamsMetadataImpl", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.StreamsMetadataImpl"}
 ]} 
@@ -6577,7 +6577,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.ThreadCache.MemoryLRUCacheBytesIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore | org.apache.kafka.streams.state.internals.SegmentedCacheFunction | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
+, { "classe" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.SegmentedCacheFunction | org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore | org.apache.kafka.streams.state.internals.SegmentedBytesStore.KeySchema"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.TimeOrderedCachingWindowStore.CacheIteratorWrapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6599,9 +6599,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.TimestampedKeyValueStoreBuilder.InMemoryTimestampedKeyValueStoreMarker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.TimestampedSegment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.TimestampedSegment | org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.TimestampedSegment", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.TimestampedSegment | java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.TimestampedSegments", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.TimestampedSegments | org.apache.kafka.streams.state.internals.TimestampedSegment | org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint | java.io.File | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.TimestampedSegments", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.TimestampedSegments | org.apache.kafka.streams.state.internals.TimestampedSegment | java.io.File | java.lang.String | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.OffsetCheckpoint"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.TimestampedWindowStoreBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6617,21 +6617,21 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.WindowStoreBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper | org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper.WrappedKeyValueIterator"}
+, { "classe" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper.WrappedKeyValueIterator | org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper.WrappedKeyValueIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.WindowStoreIteratorWrapper.WrappedWindowStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter | org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.WindowToTimestampedWindowIteratorAdapter"}
+, { "classe" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.WindowToTimestampedWindowIteratorAdapter | org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.WindowToTimestampedWindowByteStoreAdapter.WindowToTimestampedWindowIteratorAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator | org.apache.kafka.common.utils.Bytes | org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator"}
+, { "classe" : "org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.utils.Bytes | org.apache.kafka.common.utils.Bytes.LexicographicByteArrayComparator | org.apache.kafka.streams.state.internals.WrappedSessionStoreIterator"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.WrappedStateStore", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.WrappingStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.WrappingStoreProvider | org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider | org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.streams.state.internals.WrappingStoreProvider", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 7 inclusions", "commentaire" : "org.apache.kafka.streams.processor.internals.StreamThread | org.apache.kafka.streams.processor.internals.TopologyMetadata | org.apache.kafka.streams.state.internals.WrappingStoreProvider | java.lang.Long | org.apache.kafka.streams.state.internals.StreamThreadStateStoreProvider | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.metrics.NamedCacheMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.NamedCacheMetrics | java.lang.String"}
 ]} 
@@ -6639,15 +6639,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetrics.RocksDBMetricContext", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 5 depth", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.processor.internals.StreamTask | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"}
+, { "classe" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 5 depth", "commentaire" : "org.apache.kafka.streams.TopologyTestDriver | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.processor.internals.StreamTask | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder"}
 ]} 
 , { "classe" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder.DbAndCacheAndStatistics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 7 depth", "commentaire" : "org.apache.kafka.streams.state.internals.TimestampedSegments | org.apache.kafka.streams.state.internals.TimestampedSegment | org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.RocksDBStore | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.common.metrics.Sensor | org.apache.kafka.common.metrics.Metrics"}
+, { "classe" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 7 depth ", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.streams.state.internals.RocksDBTimestampedStore | org.apache.kafka.streams.state.internals.TimestampedSegments | org.apache.kafka.streams.state.internals.TimestampedSegment | org.apache.kafka.streams.processor.internals.metrics.StreamsMetricsImpl | org.apache.kafka.streams.state.internals.RocksDBStore"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.common.metrics.Sensor | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecorder | org.apache.kafka.streams.state.internals.metrics.RocksDBMetricsRecordingTrigger | org.apache.kafka.common.metrics.Metrics"}
 ]} 
-, { "classe" : "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics | java.lang.String"}
+, { "classe" : "org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.streams.state.internals.metrics.StateStoreMetrics"}
 ]} 
 , { "classe" : "org.apache.kafka.timeline.BaseHashTable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6655,9 +6655,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.timeline.Revertable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.timeline.Snapshot", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.timeline.Snapshot | org.apache.kafka.timeline.Revertable"}
+, { "classe" : "org.apache.kafka.timeline.Snapshot", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.timeline.Revertable | org.apache.kafka.timeline.Snapshot"}
 ]} 
-, { "classe" : "org.apache.kafka.timeline.SnapshotRegistry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.timeline.SnapshotRegistry", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.timeline.SnapshotRegistry.ReverseSnapshotIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6689,17 +6689,17 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.timeline.TimelineHashSet.ValueIterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.timeline.TimelineInteger", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.timeline.TimelineInteger | org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.timeline.TimelineInteger", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | org.apache.kafka.timeline.TimelineInteger | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.timeline.TimelineInteger.IntegerContainer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.timeline.TimelineLong", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.timeline.TimelineLong | org.apache.kafka.timeline.SnapshotRegistry | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.timeline.TimelineLong", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.timeline.SnapshotRegistry | org.apache.kafka.timeline.TimelineLong | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.timeline.TimelineLong.LongContainer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.timeline.TimelineObject", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.tools.ClientCompatibilityTest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.ClientCompatibilityTest | org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer"}
+, { "classe" : "org.apache.kafka.tools.ClientCompatibilityTest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer | org.apache.kafka.tools.ClientCompatibilityTest"}
 ]} 
 , { "classe" : "org.apache.kafka.tools.ClientCompatibilityTest.ClientCompatibilityTestDeserializer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6711,7 +6711,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.tools.ClientCompatibilityTest.TestConfig", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.tools.OAuthCompatibilityTool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.OAuthCompatibilityTool | org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler"}
+, { "classe" : "org.apache.kafka.tools.OAuthCompatibilityTool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler | org.apache.kafka.tools.OAuthCompatibilityTool"}
 ]} 
 , { "classe" : "org.apache.kafka.tools.OAuthCompatibilityTool.ArgsHandler", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6719,13 +6719,13 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.tools.PrintVersionAndExitAction", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.PrintVersionAndExitAction | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.tools.ProducerPerformance", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.ProducerPerformance | org.apache.kafka.tools.ProducerPerformance.PerfCallback"}
+, { "classe" : "org.apache.kafka.tools.ProducerPerformance", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.ProducerPerformance.PerfCallback | org.apache.kafka.tools.ProducerPerformance"}
 ]} 
 , { "classe" : "org.apache.kafka.tools.ProducerPerformance.PerfCallback", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "org.apache.kafka.tools.ProducerPerformance.Stats", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.tools.PushHttpMetricsReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.tools.PushHttpMetricsReporter | org.apache.kafka.common.metrics.KafkaMetric | org.apache.kafka.common.MetricName | java.lang.String"}
+, { "classe" : "org.apache.kafka.tools.PushHttpMetricsReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.tools.PushHttpMetricsReporter | org.apache.kafka.common.MetricName | org.apache.kafka.common.metrics.KafkaMetric | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.tools.PushHttpMetricsReporter.HttpReporter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6743,7 +6743,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.tools.TransactionalMessageCopier", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.tools.TransactionalMessageCopier"}
 ]} 
-, { "classe" : "org.apache.kafka.tools.TransactionsCommand", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.TransactionsCommand | org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand"}
+, { "classe" : "org.apache.kafka.tools.TransactionsCommand", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand | org.apache.kafka.tools.TransactionsCommand"}
 ]} 
 , { "classe" : "org.apache.kafka.tools.TransactionsCommand.AbortTransactionCommand", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6785,7 +6785,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.tools.VerifiableLog4jAppender", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.tools.VerifiableLog4jAppender"}
 ]} 
-, { "classe" : "org.apache.kafka.tools.VerifiableProducer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.tools.VerifiableProducer | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.tools.VerifiableProducer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.tools.VerifiableProducer | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.tools.VerifiableProducer.FailedSend", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6801,15 +6801,15 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.tools.VerifiableProducer.ToolData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.agent.Agent", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.agent.Agent | org.apache.kafka.trogdor.agent.WorkerManager | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.agent.Agent", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.agent.Agent | java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.trogdor.agent.WorkerManager"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.agent.AgentClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.agent.AgentClient | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.agent.AgentClient", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.String | org.apache.kafka.trogdor.agent.AgentClient"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.agent.AgentClient.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.agent.AgentRestResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.trogdor.agent.AgentRestResource | org.apache.kafka.trogdor.agent.Agent | org.apache.kafka.trogdor.agent.WorkerManager | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.agent.AgentRestResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 6 inclusions", "commentaire" : "org.apache.kafka.trogdor.agent.Agent | org.apache.kafka.trogdor.agent.AgentRestResource | java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.trogdor.agent.WorkerManager"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.agent.WorkerManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.agent.WorkerManager | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.agent.WorkerManager", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Long | java.lang.Object | java.lang.Number | org.apache.kafka.trogdor.agent.WorkerManager"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.agent.WorkerManager.CompleteWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6837,7 +6837,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.basic.BasicNode", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.basic.BasicNode | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.basic.BasicPlatform", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.basic.BasicPlatform | org.apache.kafka.trogdor.basic.BasicTopology | org.apache.kafka.common.Node | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.basic.BasicPlatform", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.basic.BasicTopology | org.apache.kafka.trogdor.basic.BasicPlatform | org.apache.kafka.common.Node | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.basic.BasicPlatform.CommandRunner", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6851,7 +6851,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.common.Node.Util", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.common.Platform", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.common.Platform | org.apache.kafka.trogdor.common.Platform.Config"}
+, { "classe" : "org.apache.kafka.trogdor.common.Platform", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.common.Platform.Config | org.apache.kafka.trogdor.common.Platform"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.common.Platform.Config", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6859,7 +6859,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.common.StringFormatter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.common.StringFormatter | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.common.Topology", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.common.Topology | org.apache.kafka.trogdor.common.Topology.Util"}
+, { "classe" : "org.apache.kafka.trogdor.common.Topology", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.common.Topology.Util | org.apache.kafka.trogdor.common.Topology"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.common.Topology.Util", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6871,10 +6871,10 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.coordinator.CoordinatorClient.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.coordinator.CoordinatorRestResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.coordinator.CoordinatorRestResource | org.apache.kafka.trogdor.coordinator.Coordinator | org.apache.kafka.trogdor.coordinator.TaskManager | org.apache.kafka.trogdor.rest.WorkerState | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.coordinator.CoordinatorRestResource", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState | org.apache.kafka.trogdor.coordinator.Coordinator | org.apache.kafka.trogdor.coordinator.TaskManager | org.apache.kafka.trogdor.coordinator.CoordinatorRestResource | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.coordinator.NodeManager", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.trogdor.coordinator.TaskManager | org.apache.kafka.trogdor.coordinator.NodeManager"}
-,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.coordinator.NodeManager | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.coordinator.NodeManager", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.trogdor.coordinator.NodeManager | org.apache.kafka.trogdor.coordinator.TaskManager"}
+,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.coordinator.NodeManager | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.coordinator.NodeManager.CreateWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6886,7 +6886,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.coordinator.NodeManager.StopWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.coordinator.TaskManager", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth", "commentaire" : "org.apache.kafka.trogdor.coordinator.NodeManager | org.apache.kafka.trogdor.coordinator.TaskManager"}
+, { "classe" : "org.apache.kafka.trogdor.coordinator.TaskManager", "details" : [,{ "critere" : "Classe25CircularReferencesOfClasses", "valeur" : "NonConforme 2 depth ", "commentaire" : "org.apache.kafka.trogdor.coordinator.NodeManager | org.apache.kafka.trogdor.coordinator.TaskManager"}
 ,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.coordinator.TaskManager"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.coordinator.TaskManager.CancelTask", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -6931,7 +6931,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultController", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultController | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec | org.apache.kafka.trogdor.task.TaskSpec | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.task.TaskSpec | org.apache.kafka.trogdor.fault.NetworkPartitionFaultSpec | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.fault.NetworkPartitionFaultWorker | java.lang.String"}
 ]} 
@@ -6963,7 +6963,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.JsonRestServer.HttpResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.Message", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.Message | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.rest.Message", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "java.lang.Object | org.apache.kafka.trogdor.rest.Message"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.RequestConflictException", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -6973,7 +6973,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.StopWorkerRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.StopWorkerRequest"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.TaskDone", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.TaskDone | org.apache.kafka.trogdor.rest.TaskState | org.apache.kafka.trogdor.task.TaskSpec | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.rest.TaskDone", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.TaskState | org.apache.kafka.trogdor.task.TaskSpec | org.apache.kafka.trogdor.rest.TaskDone | java.lang.Object"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.TaskPending", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.TaskPending"}
 ]} 
@@ -6987,27 +6987,27 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.TasksRequest", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.TasksRequest | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.TasksResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.TasksResponse | org.apache.kafka.trogdor.rest.TaskState | org.apache.kafka.trogdor.task.TaskSpec | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.rest.TasksResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.TaskState | org.apache.kafka.trogdor.task.TaskSpec | java.lang.Object | org.apache.kafka.trogdor.rest.TasksResponse"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.UptimeResponse", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.UptimeResponse"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.WorkerDone", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerDone | org.apache.kafka.trogdor.rest.WorkerState | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.rest.WorkerDone", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState | java.lang.String | org.apache.kafka.trogdor.rest.WorkerDone"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.WorkerReceiving", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerReceiving | org.apache.kafka.trogdor.rest.WorkerState | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.rest.WorkerReceiving", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState | org.apache.kafka.trogdor.rest.WorkerReceiving | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.WorkerRunning", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerRunning | org.apache.kafka.trogdor.rest.WorkerState | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.rest.WorkerRunning", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState | org.apache.kafka.trogdor.rest.WorkerRunning | java.lang.String"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.WorkerStarting", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerStarting | org.apache.kafka.trogdor.rest.WorkerState | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.rest.WorkerStarting", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState | org.apache.kafka.trogdor.rest.WorkerStarting | java.lang.String"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.rest.WorkerState", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.rest.WorkerStopping", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerStopping | org.apache.kafka.trogdor.rest.WorkerState | java.lang.String"}
+, { "classe" : "org.apache.kafka.trogdor.rest.WorkerStopping", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.rest.WorkerState | java.lang.String | org.apache.kafka.trogdor.rest.WorkerStopping"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.task.AgentWorkerStatusTracker"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.task.NoOpTaskController", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.task.NoOpTaskController"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.task.NoOpTaskSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.task.NoOpTaskSpec | org.apache.kafka.trogdor.task.TaskSpec | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.task.NoOpTaskSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.task.TaskSpec | java.lang.Object | org.apache.kafka.trogdor.task.NoOpTaskSpec"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.task.NoOpTaskWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.task.NoOpTaskWorker | java.lang.String"}
 ]} 
@@ -7075,9 +7075,9 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.ConsumeBenchWorker.ThreadSafeConsumer", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.workload.ExternalCommandWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.ExternalCommandWorker | org.apache.kafka.trogdor.workload.ExternalCommandSpec | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.workload.ExternalCommandWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.ExternalCommandSpec | org.apache.kafka.trogdor.workload.ExternalCommandWorker | java.lang.Integer | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.ExternalCommandWorker.ExitMonitor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -7107,7 +7107,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.NullPayloadGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.NullPayloadGenerator | java.lang.Object"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.workload.PartitionsSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.PartitionsSpec | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.workload.PartitionsSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.trogdor.workload.PartitionsSpec | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.PayloadGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -7135,7 +7135,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.RecordProcessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.workload.RoundTripWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.RoundTripWorker | java.lang.Long | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.workload.RoundTripWorker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.RoundTripWorker | java.lang.Long | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.RoundTripWorker.ConsumerRunnable", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -7187,11 +7187,11 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.TimestampRandomPayloadGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.TimestampRandomPayloadGenerator"}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor | org.apache.kafka.common.metrics.stats.Histogram | org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme"}
+, { "classe" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.common.metrics.stats.Histogram | org.apache.kafka.common.metrics.stats.Histogram.ConstantBinScheme | org.apache.kafka.trogdor.workload.TimestampRecordProcessor"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.TimestampRecordProcessor.StatusData", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.trogdor.workload.TopicsSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "org.apache.kafka.trogdor.workload.TopicsSpec | org.apache.kafka.trogdor.workload.PartitionsSpec | java.lang.Integer | java.lang.Number | java.lang.Object"}
+, { "classe" : "org.apache.kafka.trogdor.workload.TopicsSpec", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 5 inclusions", "commentaire" : "java.lang.Integer | org.apache.kafka.trogdor.workload.TopicsSpec | org.apache.kafka.trogdor.workload.PartitionsSpec | java.lang.Object | java.lang.Number"}
 ]} 
 , { "classe" : "org.apache.kafka.trogdor.workload.TransactionGenerator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
