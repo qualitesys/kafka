@@ -301,6 +301,8 @@ var mesDatas = {
 ]} 
 , { "classe" : "java.lang.ref.WeakReference", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
+, { "classe" : "java.lang.reflect.AccessFlag", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
+]} 
 , { "classe" : "java.lang.reflect.AnnotatedElement", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "java.lang.reflect.AnnotatedType", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -1000,6 +1002,8 @@ var mesDatas = {
 , { "classe" : "jdk.internal.module.Resources", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "jdk.internal.reflect.CallerSensitive", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
+]} 
+, { "classe" : "jdk.internal.reflect.CallerSensitiveAdapter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "jdk.internal.reflect.ConstantPool", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -7412,6 +7416,7 @@ var mesDatas = {
 { "classe" : "java.lang.ref.ReferenceQueue", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "java.lang.ref.SoftReference", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "java.lang.ref.WeakReference", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
+{ "classe" : "java.lang.reflect.AccessFlag", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "java.lang.reflect.AnnotatedElement", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "java.lang.reflect.AnnotatedType", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "java.lang.reflect.Array", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
@@ -7762,6 +7767,7 @@ var mesDatas = {
 { "classe" : "jdk.internal.misc.Unsafe", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "jdk.internal.module.Resources", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "jdk.internal.reflect.CallerSensitive", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
+{ "classe" : "jdk.internal.reflect.CallerSensitiveAdapter", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "jdk.internal.reflect.ConstantPool", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "jdk.internal.reflect.Reflection", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "jdk.internal.reflect.ReflectionFactory", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},

@@ -122,12 +122,6 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "java.lang.invoke.MethodType.methodType" , "callers" : [
    {"caller" : "org.apache.kafka.common.utils.ByteBufferUnmapper"} ,
    ]},
-   { "undefinedclass" : "java.lang.reflect.AccessFlag" , "callers" : [
-   {"caller" : "java.lang.Class"} ,
-   {"caller" : "java.lang.Class.AnnotationData"} ,
-   {"caller" : "java.lang.Class.Atomic"} ,
-   {"caller" : "java.lang.Class.EnclosingMethodInfo"} ,
-   ]},
    { "undefinedclass" : "java.nio.charset.StandardCharsets.UTF_8" , "callers" : [
    {"caller" : "org.apache.kafka.streams.processor.internals.ProcessorRecordContext"} ,
    ]},
@@ -511,12 +505,6 @@ var datadependUndefined = { "lesdatas" : [
    { "undefinedclass" : "javax.ws.rs.ext.ExceptionMapper" , "callers" : [
    {"caller" : "org.apache.kafka.connect.runtime.rest.errors.ConnectExceptionMapper"} ,
    {"caller" : "org.apache.kafka.trogdor.rest.RestExceptionMapper"} ,
-   ]},
-   { "undefinedclass" : "jdk.internal.reflect.CallerSensitiveAdapter" , "callers" : [
-   {"caller" : "java.lang.Class"} ,
-   {"caller" : "java.lang.Class.AnnotationData"} ,
-   {"caller" : "java.lang.Class.Atomic"} ,
-   {"caller" : "java.lang.Class.EnclosingMethodInfo"} ,
    ]},
    { "undefinedclass" : "joptsimple.OptionException" , "callers" : [
    {"caller" : "kafka.tools.StreamsResetter"} ,

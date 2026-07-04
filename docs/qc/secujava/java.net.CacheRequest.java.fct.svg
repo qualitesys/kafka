@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="86px" preserveAspectRatio="none" style="width:161px;height:86px;background:#FFFFFF;" version="1.1" viewBox="0 0 161 86" width="161px" zoomAndPan="magnify"><defs/><g><path d="M54,10 L54,18.5664 L34,22.5664 L54,26.5664 L54,35.1328 A0,0 0 0 0 54,35.1328 L149,35.1328 A0,0 0 0 0 149,35.1328 L149,20 L139,10 L54,10 A0,0 0 0 0 54,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M139,10 L139,20 L149,20 L139,10 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="74" x="60" y="27.0669">void abort()</text><ellipse cx="24" cy="22.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1.0;"/><ellipse cx="24" cy="65.1328" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="17.8128" x2="30.1872" y1="58.9456" y2="71.32"/><line style="stroke:#222222;stroke-width:2.5;" x1="30.1872" x2="17.8128" y1="58.9456" y2="71.32"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="24" y1="32.5664" y2="55.1328"/><polygon fill="#181818" points="20,45.1328,24,55.1328,28,45.1328,24,49.1328" style="stroke:#181818;stroke-width:1.0;"/><!--MD5=[eb16eb621e3f9e19b045d157c7d17eb5]
-@startuml
-!pragma layout smetana
-start
-note right
-void abort()
-end note
-end
-@enduml
-
-PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
-(GPL source distribution)
-Java Runtime: OpenJDK Runtime Environment
-JVM: OpenJDK 64-Bit Server VM
-Default Encoding: UTF-8
-Language: en
-Country: null
---></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" data-diagram-type="ACTIVITY" height="100px" preserveAspectRatio="none" style="width:177px;height:100px;background:#FFFFFF;" version="1.1" viewBox="0 0 177 100" width="177px" zoomAndPan="magnify"><?plantuml 1.2026.6?><defs/><g><path d="M59,15 L59,23.5664 L39,27.5664 L59,31.5664 L59,40.1328 A0,0 0 0 0 59,40.1328 L156.4004,40.1328 A0,0 0 0 0 156.4004,40.1328 L156.4004,25 L146.4004,15 L59,15 A0,0 0 0 0 59,15" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M146.4004,15 L146.4004,25 L156.4004,25 L146.4004,15" fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="76.4004" x="65" y="32.0669">void abort()</text><ellipse cx="29" cy="27.5664" fill="#222222" rx="10" ry="10" style="stroke:#222222;stroke-width:1;"/><ellipse cx="29" cy="70.1328" fill="none" rx="10" ry="10" style="stroke:#222222;stroke-width:1.5;"/><line style="stroke:#222222;stroke-width:2.5;" x1="22.8128" x2="35.1872" y1="63.9456" y2="76.32"/><line style="stroke:#222222;stroke-width:2.5;" x1="35.1872" x2="22.8128" y1="63.9456" y2="76.32"/><line style="stroke:#181818;stroke-width:1;" x1="29" x2="29" y1="37.5664" y2="60.1328"/><polygon fill="#181818" points="25,50.1328,29,60.1328,33,50.1328,29,54.1328" style="stroke:#181818;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:10;"/><?plantuml-src 5Sb12e0m30J0UruHR_gibOPQi4b9Ly7VIsy3iur4xT0RNppKsOrmo2IIua7JRFMYlD6AuepaVeXvqNKBFm00?></g></svg>
