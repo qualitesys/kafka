@@ -830,14 +830,14 @@ var maDataBlocs = {
  , "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00353] Valued method close is empty or contains only a return. Interface segregation for PeekingKeyValueIterator<Bytes,LRUCacheEntry>"
+ , "c3" : "QC-JAV000004[00353] Valued method close is empty or contains only a return. Interface segregation for PeekingKeyValueIterator&lt;Bytes,LRUCacheEntry&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ThreadCache.java.html#353"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00353] In the class MemoryLRUCacheBytesIterator which implements the interface(s) PeekingKeyValueIterator<Bytes,LRUCacheEntry>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPeekingKeyValueIterator<Bytes,LRUCacheEntry>"
+ , "c3" : "QC-JAVSOLIDL[00353] In the class MemoryLRUCacheBytesIterator which implements the interface(s) PeekingKeyValueIterator&lt;Bytes,LRUCacheEntry&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPeekingKeyValueIterator&lt;Bytes,LRUCacheEntry&gt;"
 }} 
 ,
 { "ligne" : {"" : ""

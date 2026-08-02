@@ -211,14 +211,14 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00057] Valued method close is empty or contains only a return. Interface segregation for Predicate<R>"
+ , "c3" : "QC-JAV000004[00057] Valued method close is empty or contains only a return. Interface segregation for Predicate&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/TopicNameMatches.java.html#57"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00057] In the class TopicNameMatches which implements the interface(s) Predicate<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate<R>"
+ , "c3" : "QC-JAVSOLIDL[00057] In the class TopicNameMatches which implements the interface(s) Predicate&lt;R&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate&lt;R&gt;"
 }} 
 ]
 , 

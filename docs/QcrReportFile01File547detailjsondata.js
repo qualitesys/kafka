@@ -797,14 +797,14 @@ var maDataBlocs = {
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00414] Valued method close is empty or contains only a return. Interface segregation for CloseableIterator<Record>"
+ , "c3" : "QC-JAV000004[00414] Valued method close is empty or contains only a return. Interface segregation for CloseableIterator&lt;Record&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/AbstractLegacyRecordBatch.java.html#414"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00414] In the class DeepRecordsIterator which implements the interface(s) CloseableIterator<Record>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseableIterator<Record>"
+ , "c3" : "QC-JAVSOLIDL[00414] In the class DeepRecordsIterator which implements the interface(s) CloseableIterator&lt;Record&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseableIterator&lt;Record&gt;"
 }} 
 ,
 { "ligne" : {"" : ""

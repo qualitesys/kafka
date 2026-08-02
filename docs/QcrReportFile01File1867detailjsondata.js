@@ -206,28 +206,28 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00131] Valued method put is empty or contains only a return. Interface segregation for KeyValueStore<K,V>"
+ , "c3" : "QC-JAV000004[00131] Valued method put is empty or contains only a return. Interface segregation for KeyValueStore&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#131"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00131] In the class KeyValueStoreReadOnlyDecorator which implements the interface(s) KeyValueStore<K,V>, the method put is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<K,V>"
+ , "c3" : "QC-JAVSOLIDL[00131] In the class KeyValueStoreReadOnlyDecorator which implements the interface(s) KeyValueStore&lt;K,V&gt;, the method put is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00143] Valued method putAll is empty or contains only a return. Interface segregation for KeyValueStore<K,V>"
+ , "c3" : "QC-JAV000004[00143] Valued method putAll is empty or contains only a return. Interface segregation for KeyValueStore&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00143"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#143"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00143] In the class KeyValueStoreReadOnlyDecorator which implements the interface(s) KeyValueStore<K,V>, the method putAll is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<K,V>"
+ , "c3" : "QC-JAVSOLIDL[00143] In the class KeyValueStoreReadOnlyDecorator which implements the interface(s) KeyValueStore&lt;K,V&gt;, the method putAll is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -290,14 +290,14 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00171] Valued method put is empty or contains only a return. Interface segregation for WindowStore<K,V>"
+ , "c3" : "QC-JAV000004[00171] Valued method put is empty or contains only a return. Interface segregation for WindowStore&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#171"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00171] In the class WindowStoreReadOnlyDecorator which implements the interface(s) WindowStore<K,V>, the method put is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedWindowStore<K,V>"
+ , "c3" : "QC-JAVSOLIDL[00171] In the class WindowStoreReadOnlyDecorator which implements the interface(s) WindowStore&lt;K,V&gt;, the method put is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedWindowStore&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,28 +353,28 @@ var maDataBlocs = {
  , "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00272] Valued method remove is empty or contains only a return. Interface segregation for SessionStore<K,AGG>"
+ , "c3" : "QC-JAV000004[00272] Valued method remove is empty or contains only a return. Interface segregation for SessionStore&lt;K,AGG&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00272"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#272"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00272] In the class SessionStoreReadOnlyDecorator which implements the interface(s) SessionStore<K,AGG>, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSessionStore<K,AGG>"
+ , "c3" : "QC-JAVSOLIDL[00272] In the class SessionStoreReadOnlyDecorator which implements the interface(s) SessionStore&lt;K,AGG&gt;, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSessionStore&lt;K,AGG&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00277] Valued method put is empty or contains only a return. Interface segregation for SessionStore<K,AGG>"
+ , "c3" : "QC-JAV000004[00277] Valued method put is empty or contains only a return. Interface segregation for SessionStore&lt;K,AGG&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/AbstractReadOnlyDecorator.java.html#277"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00277] In the class SessionStoreReadOnlyDecorator which implements the interface(s) SessionStore<K,AGG>, the method put is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSessionStore<K,AGG>"
+ , "c3" : "QC-JAVSOLIDL[00277] In the class SessionStoreReadOnlyDecorator which implements the interface(s) SessionStore&lt;K,AGG&gt;, the method put is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSessionStore&lt;K,AGG&gt;"
 }} 
 ]
 , 

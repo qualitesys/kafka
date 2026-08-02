@@ -334,14 +334,14 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00073] Valued method close is empty or contains only a return. Interface segregation for Transformation<R>"
+ , "c3" : "QC-JAV000004[00073] Valued method close is empty or contains only a return. Interface segregation for Transformation&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/ExtractField.java.html#73"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00073] In the class ExtractField which implements the interface(s) Transformation<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
+ , "c3" : "QC-JAVSOLIDL[00073] In the class ExtractField which implements the interface(s) Transformation&lt;R&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation&lt;R&gt;"
 }} 
 ]
 , 

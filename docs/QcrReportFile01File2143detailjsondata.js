@@ -252,14 +252,14 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00045] Valued method deleteRange is empty or contains only a return. Interface segregation for Comparable<TimestampedSegment>,Segment"
+ , "c3" : "QC-JAV000004[00045] Valued method deleteRange is empty or contains only a return. Interface segregation for Comparable&lt;TimestampedSegment&gt;,Segment"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00045"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/TimestampedSegment.java.html#45"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00045] In the class TimestampedSegment which implements the interface(s) Comparable<TimestampedSegment>,Segment, the method deleteRange is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedComparable<TimestampedSegment>,Segment"
+ , "c3" : "QC-JAVSOLIDL[00045] In the class TimestampedSegment which implements the interface(s) Comparable&lt;TimestampedSegment&gt;,Segment, the method deleteRange is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedComparable&lt;TimestampedSegment&gt;,Segment"
 }} 
 ]
 , 

@@ -672,28 +672,28 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00271] Valued method close is empty or contains only a return. Interface segregation for KeyValueIterator<Bytes,byte[]>"
+ , "c3" : "QC-JAV000004[00271] Valued method close is empty or contains only a return. Interface segregation for KeyValueIterator&lt;Bytes,byte[]&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00271"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#271"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00271] In the class InMemoryKeyValueIterator which implements the interface(s) KeyValueIterator<Bytes,byte[]>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueIterator<Bytes,byte[]>"
+ , "c3" : "QC-JAVSOLIDL[00271] In the class InMemoryKeyValueIterator which implements the interface(s) KeyValueIterator&lt;Bytes,byte[]&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueIterator&lt;Bytes,byte[]&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00238] Valued method flush is empty or contains only a return. Interface segregation for KeyValueStore<Bytes,byte[]>"
+ , "c3" : "QC-JAV000004[00238] Valued method flush is empty or contains only a return. Interface segregation for KeyValueStore&lt;Bytes,byte[]&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00238"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemoryKeyValueStore.java.html#238"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00238] In the class InMemoryKeyValueStore which implements the interface(s) KeyValueStore<Bytes,byte[]>, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<Bytes,byte[]>"
+ , "c3" : "QC-JAVSOLIDL[00238] In the class InMemoryKeyValueStore which implements the interface(s) KeyValueStore&lt;Bytes,byte[]&gt;, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore&lt;Bytes,byte[]&gt;"
 }} 
 ]
 , 

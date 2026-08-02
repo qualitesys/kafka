@@ -146,14 +146,14 @@ var maDataBlocs = {
  , "c1" : "00067"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00067] Valued method close is empty or contains only a return. Interface segregation for Transformation<R>"
+ , "c3" : "QC-JAV000004[00067] Valued method close is empty or contains only a return. Interface segregation for Transformation&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/InsertHeader.java.html#67"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00067] In the class InsertHeader which implements the interface(s) Transformation<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
+ , "c3" : "QC-JAVSOLIDL[00067] In the class InsertHeader which implements the interface(s) Transformation&lt;R&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation&lt;R&gt;"
 }} 
 ]
 , 

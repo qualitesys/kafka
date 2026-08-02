@@ -347,14 +347,14 @@ var maDataBlocs = {
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00094] Valued method putAll is empty or contains only a return. Interface segregation for KeyValueStore<Bytes,byte[]>"
+ , "c3" : "QC-JAV000004[00094] Valued method putAll is empty or contains only a return. Interface segregation for KeyValueStore&lt;Bytes,byte[]&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/ListValueStore.java.html#94"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00094] In the class ListValueStore which implements the interface(s) KeyValueStore<Bytes,byte[]>, the method putAll is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore<Bytes,byte[]>"
+ , "c3" : "QC-JAVSOLIDL[00094] In the class ListValueStore which implements the interface(s) KeyValueStore&lt;Bytes,byte[]&gt;, the method putAll is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueStore&lt;Bytes,byte[]&gt;"
 }} 
 ]
 , 

@@ -89,14 +89,14 @@ var maDataBlocs = {
  , "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00031] Valued method close is empty or contains only a return. Interface segregation for KeyValueIterator<K,V>"
+ , "c3" : "QC-JAV000004[00031] Valued method close is empty or contains only a return. Interface segregation for KeyValueIterator&lt;K,V&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00031"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/KeyValueIterators.java.html#31"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00031] In the class EmptyKeyValueIterator which implements the interface(s) KeyValueIterator<K,V>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueIterator<K,V>"
+ , "c3" : "QC-JAVSOLIDL[00031] In the class EmptyKeyValueIterator which implements the interface(s) KeyValueIterator&lt;K,V&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKeyValueIterator&lt;K,V&gt;"
 }} 
 ]
 , 

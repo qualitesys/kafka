@@ -185,14 +185,14 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00044] Valued method remove is empty or contains only a return. Interface segregation for Iterator<byte[]>"
+ , "c3" : "QC-JAV000004[00044] Valued method remove is empty or contains only a return. Interface segregation for Iterator&lt;byte[]&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/PayloadIterator.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00044] In the class PayloadIterator which implements the interface(s) Iterator<byte[]>, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedIterator<byte[]>"
+ , "c3" : "QC-JAVSOLIDL[00044] In the class PayloadIterator which implements the interface(s) Iterator&lt;byte[]&gt;, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedIterator&lt;byte[]&gt;"
 }} 
 ]
 , 

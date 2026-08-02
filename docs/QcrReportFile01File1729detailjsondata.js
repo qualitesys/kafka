@@ -960,14 +960,14 @@ var maDataBlocs = {
  , "c1" : "00498"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00498] Valued method close is empty or contains only a return. Interface segregation for KTableValueGetter<Windowed<KIn>,VAgg>"
+ , "c3" : "QC-JAV000004[00498] Valued method close is empty or contains only a return. Interface segregation for KTableValueGetter&lt;Windowed&lt;KIn&gt;,VAgg&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00498"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/kstream/internals/KStreamSlidingWindowAggregate.java.html#498"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00498] In the class KStreamWindowAggregateValueGetter which implements the interface(s) KTableValueGetter<Windowed<KIn>,VAgg>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKTableValueGetter<Windowed<KIn>,VAgg>"
+ , "c3" : "QC-JAVSOLIDL[00498] In the class KStreamWindowAggregateValueGetter which implements the interface(s) KTableValueGetter&lt;Windowed&lt;KIn&gt;,VAgg&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedKTableValueGetter&lt;Windowed&lt;KIn&gt;,VAgg&gt;"
 }} 
 ]
 , 

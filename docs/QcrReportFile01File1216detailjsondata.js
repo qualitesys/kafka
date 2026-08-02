@@ -698,14 +698,14 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00082] Valued method close is empty or contains only a return. Interface segregation for Transformation<R>"
+ , "c3" : "QC-JAV000004[00082] Valued method close is empty or contains only a return. Interface segregation for Transformation&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/Flatten.java.html#82"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00082] In the class Flatten which implements the interface(s) Transformation<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
+ , "c3" : "QC-JAVSOLIDL[00082] In the class Flatten which implements the interface(s) Transformation&lt;R&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation&lt;R&gt;"
 }} 
 ]
 , 

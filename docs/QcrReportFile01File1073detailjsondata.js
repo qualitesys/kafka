@@ -234,14 +234,14 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00048] Valued method configure is empty or contains only a return. Interface segregation for Transformation<R>"
+ , "c3" : "QC-JAV000004[00048] Valued method configure is empty or contains only a return. Interface segregation for Transformation&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/PredicatedTransformation.java.html#48"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00048] In the class PredicatedTransformation which implements the interface(s) Transformation<R>, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation<R>"
+ , "c3" : "QC-JAVSOLIDL[00048] In the class PredicatedTransformation which implements the interface(s) Transformation&lt;R&gt;, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedTransformation&lt;R&gt;"
 }} 
 ]
 , 

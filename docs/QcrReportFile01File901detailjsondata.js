@@ -508,28 +508,28 @@ var maDataBlocs = {
  , "c1" : "00226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#226"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00226] Valued method set is empty or contains only a return. Interface segregation for ListIterator<E>"
+ , "c3" : "QC-JAV000004[00226] Valued method set is empty or contains only a return. Interface segregation for ListIterator&lt;E&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#226"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00226] In the class ImplicitLinkedHashCollectionIterator which implements the interface(s) ListIterator<E>, the method set is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedListIterator<E>"
+ , "c3" : "QC-JAVSOLIDL[00226] In the class ImplicitLinkedHashCollectionIterator which implements the interface(s) ListIterator&lt;E&gt;, the method set is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedListIterator&lt;E&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00231] Valued method add is empty or contains only a return. Interface segregation for ListIterator<E>"
+ , "c3" : "QC-JAV000004[00231] Valued method add is empty or contains only a return. Interface segregation for ListIterator&lt;E&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/ImplicitLinkedHashCollection.java.html#231"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00231] In the class ImplicitLinkedHashCollectionIterator which implements the interface(s) ListIterator<E>, the method add is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedListIterator<E>"
+ , "c3" : "QC-JAVSOLIDL[00231] In the class ImplicitLinkedHashCollectionIterator which implements the interface(s) ListIterator&lt;E&gt;, the method add is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedListIterator&lt;E&gt;"
 }} 
 ,
 { "ligne" : {"" : ""

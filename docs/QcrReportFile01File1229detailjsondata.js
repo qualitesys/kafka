@@ -176,28 +176,28 @@ var maDataBlocs = {
  , "c1" : "00044"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00044] Valued method close is empty or contains only a return. Interface segregation for Predicate<R>"
+ , "c3" : "QC-JAV000004[00044] Valued method close is empty or contains only a return. Interface segregation for Predicate&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#44"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00044] In the class RecordIsTombstone which implements the interface(s) Predicate<R>, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate<R>"
+ , "c3" : "QC-JAVSOLIDL[00044] In the class RecordIsTombstone which implements the interface(s) Predicate&lt;R&gt;, the method close is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00049] Valued method configure is empty or contains only a return. Interface segregation for Predicate<R>"
+ , "c3" : "QC-JAV000004[00049] Valued method configure is empty or contains only a return. Interface segregation for Predicate&lt;R&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00049"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/predicates/RecordIsTombstone.java.html#49"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00049] In the class RecordIsTombstone which implements the interface(s) Predicate<R>, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate<R>"
+ , "c3" : "QC-JAVSOLIDL[00049] In the class RecordIsTombstone which implements the interface(s) Predicate&lt;R&gt;, the method configure is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedPredicate&lt;R&gt;"
 }} 
 ]
 , 

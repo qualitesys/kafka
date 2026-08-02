@@ -968,14 +968,14 @@ var maDataBlocs = {
  , "c1" : "00368"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00368] Valued method flush is empty or contains only a return. Interface segregation for SessionStore<Bytes,byte[]>"
+ , "c3" : "QC-JAV000004[00368] Valued method flush is empty or contains only a return. Interface segregation for SessionStore&lt;Bytes,byte[]&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00368"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/InMemorySessionStore.java.html#368"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00368] In the class InMemorySessionStore which implements the interface(s) SessionStore<Bytes,byte[]>, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSessionStore<Bytes,byte[]>"
+ , "c3" : "QC-JAVSOLIDL[00368] In the class InMemorySessionStore which implements the interface(s) SessionStore&lt;Bytes,byte[]&gt;, the method flush is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedSessionStore&lt;Bytes,byte[]&gt;"
 }} 
 ]
 , 

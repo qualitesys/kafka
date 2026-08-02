@@ -164,14 +164,14 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00103] Valued method remove is empty or contains only a return. Interface segregation for Iterator<T>"
+ , "c3" : "QC-JAV000004[00103] Valued method remove is empty or contains only a return. Interface segregation for Iterator&lt;T&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/CircularIterator.java.html#103"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00103] In the class CircularIterator which implements the interface(s) Iterator<T>, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedIterator<T>"
+ , "c3" : "QC-JAVSOLIDL[00103] In the class CircularIterator which implements the interface(s) Iterator&lt;T&gt;, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedIterator&lt;T&gt;"
 }} 
 ]
 , 

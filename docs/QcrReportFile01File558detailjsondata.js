@@ -1151,14 +1151,14 @@ var maDataBlocs = {
  , "c1" : "00619"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAV000004[00619] Valued method remove is empty or contains only a return. Interface segregation for CloseableIterator<Record>"
+ , "c3" : "QC-JAV000004[00619] Valued method remove is empty or contains only a return. Interface segregation for CloseableIterator&lt;Record&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00619"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/record/DefaultRecordBatch.java.html#619"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVSOLIDL[00619] In the class RecordIterator which implements the interface(s) CloseableIterator<Record>, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseableIterator<Record>"
+ , "c3" : "QC-JAVSOLIDL[00619] In the class RecordIterator which implements the interface(s) CloseableIterator&lt;Record&gt;, the method remove is empty or contains only a return or triggers an exception. The SOLID Liskov Segregation principle is not respectedCloseableIterator&lt;Record&gt;"
 }} 
 ,
 { "ligne" : {"" : ""
