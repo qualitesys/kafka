@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c1" : "00035"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#35"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.policyName@POLYN155816 the MagicNumber/String  'None' should be converted to const"
+ , "c3" : "QC-JAV000010[00035] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.policyName@POLYN146376 the MagicNumber/String  'None' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -116,7 +116,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.isAllowed@POLYN155918 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.isAllowed@POLYN146478 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -130,7 +130,7 @@ var maDataBlocs = {
  , "c1" : "00045"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/connector/policy/NoneConnectorClientConfigOverridePolicy.java.html#45"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN156034 the MagicNumber/String  'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' should be converted to const"
+ , "c3" : "QC-JAV000010[00045] In method org.apache.kafka.connect.connector.policy.NoneConnectorClientConfigOverridePolicy.configure@POLYN146594 the MagicNumber/String  'Setting up None Policy for ConnectorClientConfigOverride. This will disallow any client configuration to be overridden' should be converted to const"
 }} 
 ]
 , 

@@ -143,7 +143,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/ListGroupsResponse.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ListGroupsResponse.shouldClientThrottle@POLYN157835 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.requests.ListGroupsResponse.shouldClientThrottle@POLYN148395 the MagicNumber/String  2 should be converted to const"
 }} 
 ]
 , 

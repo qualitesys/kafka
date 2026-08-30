@@ -180,28 +180,28 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN173617 the MagicNumber/String  'Counter is not currently writable' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN164177 the MagicNumber/String  'Counter is not currently writable' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN173617 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN164177 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN173617 the MagicNumber/String  'Scheduled append of record {} with epoch {} at offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN164177 the MagicNumber/String  'Scheduled append of record {} with epoch {} at offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN173617 the MagicNumber/String  'Appending failed, transition to resigned' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.raft.ReplicatedCounter.increment@POLYN164177 the MagicNumber/String  'Appending failed, transition to resigned' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -243,63 +243,63 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  'Handle commit of batch with records {} at base offset {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  'Handle commit of batch with records {} at base offset {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00091"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  'Expected next committed value to be %d, but instead found %d on node %d' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  'Expected next committed value to be %d, but instead found %d on node %d' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  'Counter incremented from {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  'Counter incremented from {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN174486 the MagicNumber/String  'Generating new snapshot with committed offset {} and epoch {} since the previoud snapshot includes {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.raft.ReplicatedCounter.handleCommit@POLYN165046 the MagicNumber/String  'Generating new snapshot with committed offset {} and epoch {} since the previoud snapshot includes {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -341,42 +341,42 @@ var maDataBlocs = {
  , "c1" : "00141"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#141"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN176964 the MagicNumber/String  'Loading snapshot {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00141] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN167524 the MagicNumber/String  'Loading snapshot {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00144"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN176964 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN167524 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN176964 the MagicNumber/String  'Expected the snapshot at %s to only contain one record %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN167524 the MagicNumber/String  'Expected the snapshot at %s to only contain one record %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN176964 the MagicNumber/String  'Setting value: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN167524 the MagicNumber/String  'Setting value: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN176964 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN167524 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN176964 the MagicNumber/String  'Finished loading snapshot. Set value: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.raft.ReplicatedCounter.handleSnapshot@POLYN167524 the MagicNumber/String  'Finished loading snapshot. Set value: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,28 +404,28 @@ var maDataBlocs = {
  , "c1" : "00171"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN178257 the MagicNumber/String  'Counter uncommitted value initialized to {} after claiming leadership in epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN168817 the MagicNumber/String  'Counter uncommitted value initialized to {} after claiming leadership in epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN178257 the MagicNumber/String  'Counter uncommitted value reset after resigning leadership' should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN168817 the MagicNumber/String  'Counter uncommitted value reset after resigning leadership' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN178257 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN168817 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00180"
  , "c1link" : "./qc/raft/src/main/java/org/apache/kafka/raft/ReplicatedCounter.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN178257 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.raft.ReplicatedCounter.handleLeaderChange@POLYN168817 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

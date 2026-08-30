@@ -278,7 +278,7 @@ var maDataBlocs = {
  , "c1" : "00072"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method java.lang.Short.toString@POLYN250515 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method java.lang.Short.toString@POLYN241075 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -292,14 +292,14 @@ var maDataBlocs = {
  , "c1" : "00120"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method java.lang.Short.parseShort@POLYN252098 the MagicNumber/String  'Value out of range. Value:\'' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method java.lang.Short.parseShort@POLYN242658 the MagicNumber/String  'Value out of range. Value:\'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method java.lang.Short.parseShort@POLYN252098 the MagicNumber/String  '\' Radix:' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method java.lang.Short.parseShort@POLYN242658 the MagicNumber/String  '\' Radix:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -313,7 +313,7 @@ var maDataBlocs = {
  , "c1" : "00143"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#143"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00143] In method java.lang.Short.parseShort@POLYN253279 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00143] In method java.lang.Short.parseShort@POLYN243839 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "00199"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#199"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00199] In method java.lang.Short.valueOf@POLYN255143 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00199] In method java.lang.Short.valueOf@POLYN245703 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -348,21 +348,21 @@ var maDataBlocs = {
  , "c1" : "00230"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#230"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00230] In method java.lang.Short.valueOf@POLYN256411 the MagicNumber/String  128 should be converted to const"
+ , "c3" : "QC-JAV000010[00230] In method java.lang.Short.valueOf@POLYN246971 the MagicNumber/String  128 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method java.lang.Short.valueOf@POLYN256411 the MagicNumber/String  128 should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method java.lang.Short.valueOf@POLYN246971 the MagicNumber/String  128 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method java.lang.Short.valueOf@POLYN256411 the MagicNumber/String  127 should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method java.lang.Short.valueOf@POLYN246971 the MagicNumber/String  127 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -376,21 +376,21 @@ var maDataBlocs = {
  , "c1" : "00284"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method java.lang.Short.decode@POLYN258570 the MagicNumber/String  'Value ' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method java.lang.Short.decode@POLYN249130 the MagicNumber/String  'Value ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method java.lang.Short.decode@POLYN258570 the MagicNumber/String  ' out of range from input ' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method java.lang.Short.decode@POLYN249130 the MagicNumber/String  ' out of range from input ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method java.lang.Short.Short@POLYN259880 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method java.lang.Short.Short@POLYN250440 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,7 +404,7 @@ var maDataBlocs = {
  , "c1" : "00409"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#409"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00409] In method java.lang.Short.equals@POLYN262184 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00409] In method java.lang.Short.equals@POLYN252744 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -439,21 +439,21 @@ var maDataBlocs = {
  , "c1" : "00463"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN264108 the MagicNumber/String  0xFF00 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN254668 the MagicNumber/String  0xFF00 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00463"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN264108 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN254668 the MagicNumber/String  8 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00463"
  , "c1link" : "./qc/secujava/java.lang.Short.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN264108 the MagicNumber/String  8 should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method java.lang.Short.reverseBytes@POLYN254668 the MagicNumber/String  8 should be converted to const"
 }} 
 ]
 , 

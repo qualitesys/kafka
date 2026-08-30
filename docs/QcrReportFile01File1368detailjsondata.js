@@ -118,21 +118,21 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN158285 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN148845 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN158285 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN148845 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/metadata/authorizer/StandardAclRecordIterator.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN158285 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.metadata.authorizer.StandardAclRecordIterator.next@POLYN148845 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

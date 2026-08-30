@@ -248,63 +248,63 @@ var maDataBlocs = {
  , "c1" : "00086"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  'stream-thread [%s] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  'stream-thread [%s] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  'dummy' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  'dummy' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  'dummy' should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  'dummy' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00092"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  2L should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  2L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00098"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  'Configs:' should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  'Configs:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  '\t{} = {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  '\t{} = {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00100"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  '\t{} = {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  '\t{} = {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN281545 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.InternalTopicManager@POLYN272105 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -367,42 +367,42 @@ var maDataBlocs = {
  , "c1" : "00148"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#148"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String  'Starting to validate internal topics {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00148] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN275662 the MagicNumber/String  'Starting to validate internal topics {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String  'Could not validate internal topics within %d milliseconds. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN275662 the MagicNumber/String  'Could not validate internal topics within %d milliseconds. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String  'This can happen if the Kafka cluster is temporarily not available.' should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN275662 the MagicNumber/String  'This can happen if the Kafka cluster is temporarily not available.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00201"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN275662 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String  'validated' should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN275662 the MagicNumber/String  'validated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN285102 the MagicNumber/String  'Completed validation of internal topics {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validate@POLYN275662 the MagicNumber/String  'Completed validation of internal topics {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -577,49 +577,49 @@ var maDataBlocs = {
  , "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  'No partition count is specified for internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  'No partition count is specified for internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  '. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  '. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  'Internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  'Internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  ' requires ' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  ' requires ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00269"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#269"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  ' partitions, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00269] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  ' partitions, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  'but the existing topic on the broker has ' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  'but the existing topic on the broker has ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN291300 the MagicNumber/String  ' partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validatePartitionCount@POLYN281860 the MagicNumber/String  ' partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -640,14 +640,14 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicy@POLYN292195 the MagicNumber/String  'Internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicy@POLYN282755 the MagicNumber/String  'Internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicy@POLYN292195 the MagicNumber/String  ' has unknown type.' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicy@POLYN282755 the MagicNumber/String  ' has unknown type.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -675,28 +675,28 @@ var maDataBlocs = {
  , "c1" : "00297"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN292994 the MagicNumber/String  'Cleanup policy (' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN283554 the MagicNumber/String  'Cleanup policy (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN292994 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN283554 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00298"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN292994 the MagicNumber/String  ' should not contain \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN283554 the MagicNumber/String  ' should not contain \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN292994 the MagicNumber/String  '\'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForUnwindowedChangelogs@POLYN283554 the MagicNumber/String  '\'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -724,63 +724,63 @@ var maDataBlocs = {
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  'Retention time (' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  'Retention time (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00318"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  ' is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  ' is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  ' but should be ' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  ' but should be ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  ' or larger.' should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  ' or larger.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  'Retention byte (' should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  'Retention byte (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00328"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#328"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN293691 the MagicNumber/String  ' is set but it should be unset.' should be converted to const"
+ , "c3" : "QC-JAV000010[00328] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForWindowedChangelogs@POLYN284251 the MagicNumber/String  ' is set but it should be unset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -808,91 +808,91 @@ var maDataBlocs = {
  , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  'Cleanup policy (' should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  'Cleanup policy (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ' should not contain \'' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ' should not contain \'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  '\'.' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  '\'.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  'Retention time (' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  'Retention time (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ' is ' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ' is ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ' but should be -1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ' but should be -1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00357"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00360"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  'Retention byte (' should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  'Retention byte (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00360"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ') of existing internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00361"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#361"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN295408 the MagicNumber/String  ' is set but it should be unset.' should be converted to const"
+ , "c3" : "QC-JAV000010[00361] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateCleanupPolicyForRepartitionTopic@POLYN285968 the MagicNumber/String  ' is set but it should be unset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -913,35 +913,35 @@ var maDataBlocs = {
  , "c1" : "00371"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#371"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN297135 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00371] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN287695 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN297135 the MagicNumber/String  'The config ' should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN287695 the MagicNumber/String  'The config ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN297135 the MagicNumber/String  ' for topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN287695 the MagicNumber/String  ' for topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00373"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN297135 the MagicNumber/String  ' could not be ' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN287695 the MagicNumber/String  ' could not be ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00373"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN297135 the MagicNumber/String  'retrieved from the brokers. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getBrokerSideConfigValue@POLYN287695 the MagicNumber/String  'retrieved from the brokers. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1144,126 +1144,126 @@ var maDataBlocs = {
  , "c1" : "00389"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#389"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Starting to validate internal topics {} in partition assignor.' should be converted to const"
+ , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Starting to validate internal topics {} in partition assignor.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Going to create topic {} with {} partitions and config {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Going to create topic {} with {} partitions and config {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00448"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#448"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Could not create topic {}. Topic is probably marked for deletion (number of partitions is unknown).\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00448] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Could not create topic {}. Topic is probably marked for deletion (number of partitions is unknown).\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00450"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Will retry to create this topic in {} ms (to let broker finish async delete operation first).\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00450] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Will retry to create this topic in {} ms (to let broker finish async delete operation first).\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00452"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00455"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#455"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Unexpected error during topic creation for {}.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00455] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Unexpected error during topic creation for {}.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00456"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00461"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#461"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Creating topics with default partitions/replication factor are only supported in CreateTopicRequest version 4+' should be converted to const"
+ , "c3" : "QC-JAV000010[00461] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Creating topics with default partitions/replication factor are only supported in CreateTopicRequest version 4+' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00464"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#464"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Could not create topic %s, because brokers don't support configuration replication.factor=-1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00464] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Could not create topic %s, because brokers don't support configuration replication.factor=-1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00465"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#465"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  ' You can change the replication.factor config or upgrade your brokers to version 2.4 or newer to avoid this error.' should be converted to const"
+ , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  ' You can change the replication.factor config or upgrade your brokers to version 2.4 or newer to avoid this error.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00471"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#471"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Could not create topic %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00471] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Could not create topic %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00477"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Creating topic {} timed out.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Creating topic {} timed out.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00478"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00488"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Could not create topics within %d milliseconds. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Could not create topics within %d milliseconds. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'This can happen if the Kafka cluster is temporarily not available.' should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'This can happen if the Kafka cluster is temporarily not available.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00494"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#494"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Topics {} could not be made ready. Will retry in {} milliseconds. Remaining time in milliseconds: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00494] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Topics {} could not be made ready. Will retry in {} milliseconds. Remaining time in milliseconds: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00502"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#502"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN297991 the MagicNumber/String  'Completed validating internal topics and created {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00502] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.makeReady@POLYN288551 the MagicNumber/String  'Completed validating internal topics and created {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1340,70 +1340,70 @@ var maDataBlocs = {
  , "c1" : "00515"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Trying to check if topics {} have been created with expected number of partitions.' should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Trying to check if topics {} have been created with expected number of partitions.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Topic {} is unknown or not found, hence not existed yet.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Topic {} is unknown or not found, hence not existed yet.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00539"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#539"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'The leader of topic {} is not available.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00539] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'The leader of topic {} is not available.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00540"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#540"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00540] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00542"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#542"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Unexpected error during topic description for {}.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00542] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Unexpected error during topic description for {}.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00543"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#543"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00543] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00544"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Could not create topic %s.' should be converted to const"
+ , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Could not create topic %s.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00548"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#548"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Describing topic {} (to get number of partitions) timed out.\n' should be converted to const"
+ , "c3" : "QC-JAV000010[00548] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Describing topic {} (to get number of partitions) timed out.\n' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00549"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#549"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN303535 the MagicNumber/String  'Error message was: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00549] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.getNumPartitions@POLYN294095 the MagicNumber/String  'Error message was: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1438,63 +1438,63 @@ var maDataBlocs = {
  , "c1" : "00563"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  'The topics map ' should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  'The topics map ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  ' does not contain all the topics ' should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  ' does not contain all the topics ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00564"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#564"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  ' trying to validate.' should be converted to const"
+ , "c3" : "QC-JAV000010[00564] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  ' trying to validate.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00573"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#573"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  'Found undefined number of partitions for topic {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00573] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  'Found undefined number of partitions for topic {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00574"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#574"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  'Topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  'Topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00574"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#574"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  ' number of partitions not defined' should be converted to const"
+ , "c3" : "QC-JAV000010[00574] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  ' number of partitions not defined' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00578"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#578"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  'Existing internal topic %s has invalid partitions: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00578] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  'Existing internal topic %s has invalid partitions: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00579"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#579"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  'expected: %d; actual: %d. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00579] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  'expected: %d; actual: %d. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00580"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#580"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN306364 the MagicNumber/String  'Use 'kafka.tools.StreamsResetter' tool to clean up invalid topics before processing.' should be converted to const"
+ , "c3" : "QC-JAV000010[00580] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.validateTopics@POLYN296924 the MagicNumber/String  'Use 'kafka.tools.StreamsResetter' tool to clean up invalid topics before processing.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1529,28 +1529,28 @@ var maDataBlocs = {
  , "c1" : "00601"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#601"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String  'Starting to setup internal topics {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN299131 the MagicNumber/String  'Starting to setup internal topics {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00622"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#622"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String  'Going to create internal topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00622] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN299131 the MagicNumber/String  'Going to create internal topics: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00627"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#627"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String  'created' should be converted to const"
+ , "c3" : "QC-JAV000010[00627] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN299131 the MagicNumber/String  'created' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00630"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#630"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN308571 the MagicNumber/String  'Completed setup of internal topics {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.setup@POLYN299131 the MagicNumber/String  'Completed setup of internal topics {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1676,56 +1676,56 @@ var maDataBlocs = {
  , "c1" : "00643"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#643"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00643] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  'Create topic results do not contain internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00643] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  'Create topic results do not contain internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00644"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#644"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  ' to setup. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00644] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  ' to setup. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00656"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  'Internal topic {} already exists. Topic is probably marked for deletion. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00656] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  'Internal topic {} already exists. Topic is probably marked for deletion. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00657"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#657"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  'Will retry to create this topic later (to let broker complete async delete operation first)' should be converted to const"
+ , "c3" : "QC-JAV000010[00657] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  'Will retry to create this topic later (to let broker complete async delete operation first)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00661"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#661"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  'Creating internal topic {} timed out.' should be converted to const"
+ , "c3" : "QC-JAV000010[00661] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  'Creating internal topic {} timed out.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00664"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  'Unexpected error during creation of internal topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  'Unexpected error during creation of internal topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00666"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#666"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  'Could not create internal topic %s for the following reason: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00666] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  'Could not create internal topic %s for the following reason: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN310749 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.processCreateTopicResults@POLYN301309 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1914,112 +1914,112 @@ var maDataBlocs = {
  , "c1" : "00692"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#692"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00692] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Starting to clean up internal topics {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00692] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Starting to clean up internal topics {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00699"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#699"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Going to cleanup internal topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00699] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Going to cleanup internal topics: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00705"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#705"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Delete topic results do not contain internal topic ' should be converted to const"
+ , "c3" : "QC-JAV000010[00705] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Delete topic results do not contain internal topic ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00706"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#706"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00706] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  ' to clean up. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00706] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  ' to clean up. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00716"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#716"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00716] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Internal topic {} to clean up is missing' should be converted to const"
+ , "c3" : "QC-JAV000010[00716] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Internal topic {} to clean up is missing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00718"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#718"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'The leader of internal topic {} to clean up is not available.' should be converted to const"
+ , "c3" : "QC-JAV000010[00718] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'The leader of internal topic {} to clean up is not available.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00720"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#720"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Cleaning up internal topic {} timed out.' should be converted to const"
+ , "c3" : "QC-JAV000010[00720] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Cleaning up internal topic {} timed out.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00722"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#722"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Unexpected error during cleanup of internal topics: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00722] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Unexpected error during cleanup of internal topics: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00724"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#724"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Could not clean up internal topics %s, because during the cleanup ' should be converted to const"
+ , "c3" : "QC-JAV000010[00724] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Could not clean up internal topics %s, because during the cleanup ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00725"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#725"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00725] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'of topic %s the following error occurred: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00725] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'of topic %s the following error occurred: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00741"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#741"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Could not cleanup internal topics within %d milliseconds. This can happen if the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00741] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Could not cleanup internal topics within %d milliseconds. This can happen if the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00742"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#742"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00742] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Kafka cluster is temporarily not available or the broker did not complete topic creation ' should be converted to const"
+ , "c3" : "QC-JAV000010[00742] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Kafka cluster is temporarily not available or the broker did not complete topic creation ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00743"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#743"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'before the cleanup. The following internal topics could not be cleaned up: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'before the cleanup. The following internal topics could not be cleaned up: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00748"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#748"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  100 should be converted to const"
+ , "c3" : "QC-JAV000010[00748] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  100 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00755"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#755"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'validated' should be converted to const"
+ , "c3" : "QC-JAV000010[00755] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'validated' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00759"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#759"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN313613 the MagicNumber/String  'Completed cleanup of internal topics {}.' should be converted to const"
+ , "c3" : "QC-JAV000010[00759] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.cleanUpCreatedTopics@POLYN304173 the MagicNumber/String  'Completed cleanup of internal topics {}.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2054,21 +2054,21 @@ var maDataBlocs = {
  , "c1" : "00782"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#782"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00782] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutExceptionDuringSetup@POLYN317733 the MagicNumber/String  'Could not create internal topics within %d milliseconds. This can happen if the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00782] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutExceptionDuringSetup@POLYN308293 the MagicNumber/String  'Could not create internal topics within %d milliseconds. This can happen if the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00783"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutExceptionDuringSetup@POLYN317733 the MagicNumber/String  'Kafka cluster is temporarily not available or a topic is marked for deletion and the broker ' should be converted to const"
+ , "c3" : "QC-JAV000010[00783] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutExceptionDuringSetup@POLYN308293 the MagicNumber/String  'Kafka cluster is temporarily not available or a topic is marked for deletion and the broker ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00784"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutExceptionDuringSetup@POLYN317733 the MagicNumber/String  'did not complete its deletion within the timeout. The last errors seen per topic are: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeThrowTimeoutExceptionDuringSetup@POLYN308293 the MagicNumber/String  'did not complete its deletion within the timeout. The last errors seen per topic are: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2089,7 +2089,7 @@ var maDataBlocs = {
  , "c1" : "00798"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/processor/internals/InternalTopicManager.java.html#798"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeSleep@POLYN318684 the MagicNumber/String  'Internal topics {} could not be {}. Will retry in {} milliseconds. Remaining time in milliseconds: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00798] In method org.apache.kafka.streams.processor.internals.InternalTopicManager.maybeSleep@POLYN309244 the MagicNumber/String  'Internal topics {} could not be {}. Will retry in {} milliseconds. Remaining time in milliseconds: {}' should be converted to const"
 }} 
 ]
 , 

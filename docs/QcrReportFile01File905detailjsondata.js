@@ -110,21 +110,21 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.LogContext.LogContext@POLYN261023 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.LogContext.LogContext@POLYN251583 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.LogContext.LogContext@POLYN261023 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.common.utils.LogContext.LogContext@POLYN251583 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.utils.LogContext.LogContext@POLYN261256 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.utils.LogContext.LogContext@POLYN251816 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -187,21 +187,21 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN254823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN254823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264263 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN254823 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -215,14 +215,14 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN255137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264577 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN255137 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -236,14 +236,14 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN255522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN264962 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN255522 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -257,14 +257,14 @@ var maDataBlocs = {
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN265398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN255958 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN265398 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN255958 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -278,14 +278,14 @@ var maDataBlocs = {
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN265738 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN256298 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN265738 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN256298 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -299,14 +299,14 @@ var maDataBlocs = {
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN266075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN256635 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN266075 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN256635 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -320,7 +320,7 @@ var maDataBlocs = {
  , "c1" : "00180"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#180"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN266412 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00180] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN256972 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -334,7 +334,7 @@ var maDataBlocs = {
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN266820 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN257380 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -348,7 +348,7 @@ var maDataBlocs = {
  , "c1" : "00194"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#194"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN267279 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00194] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN257839 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -362,7 +362,7 @@ var maDataBlocs = {
  , "c1" : "00201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN267642 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00201] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.trace@POLYN258202 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -376,21 +376,21 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN258562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN258562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN258562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -404,14 +404,14 @@ var maDataBlocs = {
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268316 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN258876 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268316 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN258876 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -425,14 +425,14 @@ var maDataBlocs = {
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268701 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN259261 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00222"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN268701 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN259261 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -446,14 +446,14 @@ var maDataBlocs = {
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN269137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN259697 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN269137 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN259697 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -467,14 +467,14 @@ var maDataBlocs = {
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN269477 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN260037 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN269477 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN260037 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -488,14 +488,14 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN269814 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN260374 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00243"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN269814 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN260374 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -509,7 +509,7 @@ var maDataBlocs = {
  , "c1" : "00250"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN270151 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN260711 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -523,7 +523,7 @@ var maDataBlocs = {
  , "c1" : "00257"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN270559 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN261119 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -537,7 +537,7 @@ var maDataBlocs = {
  , "c1" : "00264"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN271018 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN261578 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -551,7 +551,7 @@ var maDataBlocs = {
  , "c1" : "00271"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN271381 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00271] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.debug@POLYN261941 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -565,21 +565,21 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN271741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262301 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN271741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262301 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00277"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN271741 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262301 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -593,14 +593,14 @@ var maDataBlocs = {
  , "c1" : "00282"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN271983 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262543 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00282"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#282"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN271983 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00282] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262543 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -614,14 +614,14 @@ var maDataBlocs = {
  , "c1" : "00287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN272296 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262856 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN272296 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN262856 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -635,14 +635,14 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN272660 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN263220 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00292"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN272660 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN263220 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -656,14 +656,14 @@ var maDataBlocs = {
  , "c1" : "00297"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN272928 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN263488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN272928 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN263488 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -677,14 +677,14 @@ var maDataBlocs = {
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN273193 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN263753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN273193 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN263753 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -698,7 +698,7 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN273458 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN264018 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -712,7 +712,7 @@ var maDataBlocs = {
  , "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN273794 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN264354 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -726,7 +726,7 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN274181 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN264741 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -740,7 +740,7 @@ var maDataBlocs = {
  , "c1" : "00322"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN274472 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.warn@POLYN265032 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -754,21 +754,21 @@ var maDataBlocs = {
  , "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN274760 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265320 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN274760 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265320 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN274760 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265320 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -782,14 +782,14 @@ var maDataBlocs = {
  , "c1" : "00332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275002 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265562 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -803,14 +803,14 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275315 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275315 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN265875 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -824,14 +824,14 @@ var maDataBlocs = {
  , "c1" : "00342"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275679 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN266239 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00342"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#342"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275679 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00342] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN266239 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -845,14 +845,14 @@ var maDataBlocs = {
  , "c1" : "00347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275947 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN266507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00347"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#347"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN275947 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00347] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN266507 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -866,14 +866,14 @@ var maDataBlocs = {
  , "c1" : "00352"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN276212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN266772 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN276212 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN266772 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -887,7 +887,7 @@ var maDataBlocs = {
  , "c1" : "00357"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#357"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN276477 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00357] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN267037 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -901,7 +901,7 @@ var maDataBlocs = {
  , "c1" : "00362"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#362"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN276813 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00362] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN267373 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -915,7 +915,7 @@ var maDataBlocs = {
  , "c1" : "00367"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN277200 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN267760 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -929,7 +929,7 @@ var maDataBlocs = {
  , "c1" : "00372"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN277491 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.error@POLYN268051 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -943,21 +943,21 @@ var maDataBlocs = {
  , "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN277779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268339 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN277779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268339 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00377"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#377"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN277779 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00377] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268339 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -971,14 +971,14 @@ var maDataBlocs = {
  , "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278021 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268581 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278021 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268581 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -992,14 +992,14 @@ var maDataBlocs = {
  , "c1" : "00387"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268894 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN268894 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1013,14 +1013,14 @@ var maDataBlocs = {
  , "c1" : "00392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278698 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN269258 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00392"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278698 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN269258 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1034,14 +1034,14 @@ var maDataBlocs = {
  , "c1" : "00397"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278966 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN269526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00397"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#397"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN278966 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00397] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN269526 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1055,14 +1055,14 @@ var maDataBlocs = {
  , "c1" : "00402"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN279231 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN269791 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00402"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#402"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN279231 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00402] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN269791 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1076,7 +1076,7 @@ var maDataBlocs = {
  , "c1" : "00407"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#407"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN279496 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00407] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN270056 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1090,7 +1090,7 @@ var maDataBlocs = {
  , "c1" : "00412"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN279832 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN270392 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1104,7 +1104,7 @@ var maDataBlocs = {
  , "c1" : "00417"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN280219 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN270779 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1118,7 +1118,7 @@ var maDataBlocs = {
  , "c1" : "00422"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN280510 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.info@POLYN271070 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1132,35 +1132,35 @@ var maDataBlocs = {
  , "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN280784 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN271344 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00427"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#427"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN280784 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00427] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN271344 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN280784 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN271344 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN280784 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN271344 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00434"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/LogContext.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN280784 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.common.utils.LogContext.LocationAwareKafkaLogger.writeLog@POLYN271344 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

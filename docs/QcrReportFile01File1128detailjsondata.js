@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectors@POLYN167853 the MagicNumber/String  'Failed to retrieve list of connectors' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectors@POLYN158413 the MagicNumber/String  'Failed to retrieve list of connectors' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "00091"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/health/ConnectClusterStateImpl.java.html#91"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectorConfig@POLYN169250 the MagicNumber/String  'Failed to retrieve configuration for connector '%s'' should be converted to const"
+ , "c3" : "QC-JAV000010[00091] In method org.apache.kafka.connect.runtime.health.ConnectClusterStateImpl.connectorConfig@POLYN159810 the MagicNumber/String  'Failed to retrieve configuration for connector '%s'' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

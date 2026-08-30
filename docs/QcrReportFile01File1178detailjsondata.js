@@ -107,7 +107,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.OffsetStorageReaderImpl@POLYN175143 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.OffsetStorageReaderImpl@POLYN165703 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -352,21 +352,21 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.close@POLYN180389 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.close@POLYN170949 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.close@POLYN180389 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.close@POLYN170949 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageReaderImpl.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.close@POLYN180389 the MagicNumber/String  'Failed to cancel offset read future' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.storage.OffsetStorageReaderImpl.close@POLYN170949 the MagicNumber/String  'Failed to cancel offset read future' should be converted to const"
 }} 
 ]
 , 

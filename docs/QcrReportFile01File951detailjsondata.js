@@ -108,7 +108,7 @@ var maDataBlocs = {
  , "c1" : "00038"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.html#38"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.data.Timestamp.builder@POLYN159394 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00038] In method org.apache.kafka.connect.data.Timestamp.builder@POLYN149954 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -136,7 +136,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.data.Timestamp.fromLogical@POLYN159806 the MagicNumber/String  'Requested conversion of Timestamp object but the schema does not match.' should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.data.Timestamp.fromLogical@POLYN150366 the MagicNumber/String  'Requested conversion of Timestamp object but the schema does not match.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -157,7 +157,7 @@ var maDataBlocs = {
  , "c1" : "00056"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/data/Timestamp.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.data.Timestamp.toLogical@POLYN160193 the MagicNumber/String  'Requested conversion of Timestamp object but the schema does not match.' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.connect.data.Timestamp.toLogical@POLYN150753 the MagicNumber/String  'Requested conversion of Timestamp object but the schema does not match.' should be converted to const"
 }} 
 ]
 , 

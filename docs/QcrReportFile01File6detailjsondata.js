@@ -233,84 +233,84 @@ var maDataBlocs = {
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00058"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#58"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00058] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  'Invalid url in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  'Invalid url in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  'Couldn't resolve server {} from {} as DNS resolution of the canonical hostname {} failed for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  'Couldn't resolve server {} from {} as DNS resolution of the canonical hostname {} failed for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  'Couldn't resolve server {} from {} as DNS resolution failed for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  'Couldn't resolve server {} from {} as DNS resolution failed for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  'Invalid port in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  'Invalid port in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  'Unknown host in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  'Unknown host in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN175625 the MagicNumber/String  'No resolvable bootstrap urls given in ' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.clients.ClientUtils.parseAndValidateAddresses@POLYN166185 the MagicNumber/String  'No resolvable bootstrap urls given in ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -331,14 +331,14 @@ var maDataBlocs = {
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN178485 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN169045 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN178485 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.clients.ClientUtils.createChannelBuilder@POLYN169045 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -359,14 +359,14 @@ var maDataBlocs = {
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.ClientUtils.resolve@POLYN179124 the MagicNumber/String  'Resolved host {} as {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.ClientUtils.resolve@POLYN169684 the MagicNumber/String  'Resolved host {} as {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.ClientUtils.resolve@POLYN179124 the MagicNumber/String  ',' should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.clients.ClientUtils.resolve@POLYN169684 the MagicNumber/String  ',' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -380,14 +380,14 @@ var maDataBlocs = {
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.ClientUtils.filterPreferredAddresses@POLYN180033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.clients.ClientUtils.filterPreferredAddresses@POLYN170593 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00128"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/ClientUtils.java.html#128"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.ClientUtils.filterPreferredAddresses@POLYN180033 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00128] In method org.apache.kafka.clients.ClientUtils.filterPreferredAddresses@POLYN170593 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

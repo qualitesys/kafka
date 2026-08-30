@@ -212,7 +212,7 @@ var maDataBlocs = {
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/OffsetCommitResponse.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.requests.OffsetCommitResponse.shouldClientThrottle@POLYN170378 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.requests.OffsetCommitResponse.shouldClientThrottle@POLYN160938 the MagicNumber/String  4 should be converted to const"
 }} 
 ]
 , 

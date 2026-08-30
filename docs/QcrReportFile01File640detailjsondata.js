@@ -143,7 +143,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteTopicsResponse.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DeleteTopicsResponse.shouldClientThrottle@POLYN160402 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DeleteTopicsResponse.shouldClientThrottle@POLYN150962 the MagicNumber/String  2 should be converted to const"
 }} 
 ]
 , 

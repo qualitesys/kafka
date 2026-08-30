@@ -704,28 +704,28 @@ var maDataBlocs = {
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN238525 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN229085 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00084"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#84"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN238525 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00084] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN229085 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00085"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN238525 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN229085 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN238525 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.clients.consumer.MockConsumer.MockConsumer@POLYN229085 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -942,42 +942,42 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN233842 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00182"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN233842 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN233842 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN233842 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00207"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#207"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00207] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN233842 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN243282 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.clients.consumer.MockConsumer.poll@POLYN233842 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1005,7 +1005,7 @@ var maDataBlocs = {
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.clients.consumer.MockConsumer.addRecord@POLYN246973 the MagicNumber/String  'Cannot add records for a partition that is not assigned to the consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.clients.consumer.MockConsumer.addRecord@POLYN237533 the MagicNumber/String  'Cannot add records for a partition that is not assigned to the consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1075,14 +1075,14 @@ var maDataBlocs = {
  , "c1" : "00258"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN238893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN248333 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN238893 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1103,7 +1103,7 @@ var maDataBlocs = {
  , "c1" : "00265"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN248949 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.clients.consumer.MockConsumer.commitSync@POLYN239509 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1117,7 +1117,7 @@ var maDataBlocs = {
  , "c1" : "00270"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN249155 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.clients.consumer.MockConsumer.commitAsync@POLYN239715 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1236,7 +1236,7 @@ var maDataBlocs = {
  , "c1" : "00325"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.clients.consumer.MockConsumer.committed@POLYN251045 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.clients.consumer.MockConsumer.committed@POLYN241605 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1271,14 +1271,14 @@ var maDataBlocs = {
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.consumer.MockConsumer.position@POLYN251874 the MagicNumber/String  'You can only check the position for partitions assigned to this consumer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.consumer.MockConsumer.position@POLYN242434 the MagicNumber/String  'You can only check the position for partitions assigned to this consumer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00339"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#339"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.clients.consumer.MockConsumer.position@POLYN251874 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00339] In method org.apache.kafka.clients.consumer.MockConsumer.position@POLYN242434 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1446,7 +1446,7 @@ var maDataBlocs = {
  , "c1" : "00412"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#412"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.clients.consumer.MockConsumer.offsetsForTimes@POLYN255255 the MagicNumber/String  'Not implemented yet.' should be converted to const"
+ , "c3" : "QC-JAV000010[00412] In method org.apache.kafka.clients.consumer.MockConsumer.offsetsForTimes@POLYN245815 the MagicNumber/String  'Not implemented yet.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1474,35 +1474,35 @@ var maDataBlocs = {
  , "c1" : "00417"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN255496 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN246056 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN255496 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN246056 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00425"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#425"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN255496 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00425] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN246056 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN255496 the MagicNumber/String  'The partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN246056 the MagicNumber/String  'The partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN255496 the MagicNumber/String  ' does not have a beginning offset.' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.clients.consumer.MockConsumer.beginningOffsets@POLYN246056 the MagicNumber/String  ' does not have a beginning offset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1530,35 +1530,35 @@ var maDataBlocs = {
  , "c1" : "00434"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN256489 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN247049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00436"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#436"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN256489 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00436] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN247049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN256489 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00442] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN247049 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN256489 the MagicNumber/String  'The partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN247049 the MagicNumber/String  'The partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00443"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#443"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN256489 the MagicNumber/String  ' does not have an end offset.' should be converted to const"
+ , "c3" : "QC-JAV000010[00443] In method org.apache.kafka.clients.consumer.MockConsumer.endOffsets@POLYN247049 the MagicNumber/String  ' does not have an end offset.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1579,7 +1579,7 @@ var maDataBlocs = {
  , "c1" : "00456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.clients.consumer.MockConsumer.close@POLYN257594 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00456] In method org.apache.kafka.clients.consumer.MockConsumer.close@POLYN248154 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1600,7 +1600,7 @@ var maDataBlocs = {
  , "c1" : "00465"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#465"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.clients.consumer.MockConsumer.wakeup@POLYN257843 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00465] In method org.apache.kafka.clients.consumer.MockConsumer.wakeup@POLYN248403 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1642,7 +1642,7 @@ var maDataBlocs = {
  , "c1" : "00489"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN258669 the MagicNumber/String  'This consumer has already been closed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.clients.consumer.MockConsumer.ensureNotClosed@POLYN249229 the MagicNumber/String  'This consumer has already been closed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1663,28 +1663,28 @@ var maDataBlocs = {
  , "c1" : "00508"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#508"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN259446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00508] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN250006 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00509"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#509"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN259446 the MagicNumber/String  'MockConsumer didn't have beginning offset specified, but tried to seek to beginning' should be converted to const"
+ , "c3" : "QC-JAV000010[00509] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN250006 the MagicNumber/String  'MockConsumer didn't have beginning offset specified, but tried to seek to beginning' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00512"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#512"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN259446 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00512] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN250006 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN259446 the MagicNumber/String  'MockConsumer didn't have end offset specified, but tried to seek to end' should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.clients.consumer.MockConsumer.resetOffsetPosition@POLYN250006 the MagicNumber/String  'MockConsumer didn't have end offset specified, but tried to seek to end' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1733,35 +1733,35 @@ var maDataBlocs = {
  , "c1" : "00552"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#552"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.clients.consumer.MockConsumer.currentLag@POLYN261557 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00552] In method org.apache.kafka.clients.consumer.MockConsumer.currentLag@POLYN252117 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00558"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.MockConsumer.groupMetadata@POLYN261994 the MagicNumber/String  'dummy.group.id' should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.MockConsumer.groupMetadata@POLYN252554 the MagicNumber/String  'dummy.group.id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00558"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.MockConsumer.groupMetadata@POLYN261994 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.MockConsumer.groupMetadata@POLYN252554 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00558"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#558"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.MockConsumer.groupMetadata@POLYN261994 the MagicNumber/String  '1' should be converted to const"
+ , "c3" : "QC-JAV000010[00558] In method org.apache.kafka.clients.consumer.MockConsumer.groupMetadata@POLYN252554 the MagicNumber/String  '1' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00563"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#563"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.consumer.MockConsumer.enforceRebalance@POLYN262216 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00563] In method org.apache.kafka.clients.consumer.MockConsumer.enforceRebalance@POLYN252776 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1775,14 +1775,14 @@ var maDataBlocs = {
  , "c1" : "00568"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#568"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.clients.consumer.MockConsumer.enforceRebalance@POLYN262336 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00568] In method org.apache.kafka.clients.consumer.MockConsumer.enforceRebalance@POLYN252896 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00576"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/consumer/MockConsumer.java.html#576"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.clients.consumer.MockConsumer.resetShouldRebalance@POLYN262544 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00576] In method org.apache.kafka.clients.consumer.MockConsumer.resetShouldRebalance@POLYN253104 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

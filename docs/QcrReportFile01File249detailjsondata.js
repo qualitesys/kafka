@@ -899,21 +899,21 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.producer.internals.TransactionManager.TransactionManager@POLYN377524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.clients.producer.internals.TransactionManager.TransactionManager@POLYN368084 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.clients.producer.internals.TransactionManager.TransactionManager@POLYN377524 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.clients.producer.internals.TransactionManager.TransactionManager@POLYN368084 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.clients.producer.internals.TransactionManager.TransactionManager@POLYN377524 the MagicNumber/String  10 should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.clients.producer.internals.TransactionManager.TransactionManager@POLYN368084 the MagicNumber/String  10 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -948,21 +948,21 @@ var maDataBlocs = {
  , "c1" : "00234"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#234"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.clients.producer.internals.TransactionManager.initializeTransactions@POLYN379287 the MagicNumber/String  'Invoking InitProducerId for the first time in order to acquire a producer ID' should be converted to const"
+ , "c3" : "QC-JAV000010[00234] In method org.apache.kafka.clients.producer.internals.TransactionManager.initializeTransactions@POLYN369847 the MagicNumber/String  'Invoking InitProducerId for the first time in order to acquire a producer ID' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.clients.producer.internals.TransactionManager.initializeTransactions@POLYN379287 the MagicNumber/String  'Invoking InitProducerId with current producer ID and epoch {} in order to bump the epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00236] In method org.apache.kafka.clients.producer.internals.TransactionManager.initializeTransactions@POLYN369847 the MagicNumber/String  'Invoking InitProducerId with current producer ID and epoch {} in order to bump the epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00247"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#247"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.clients.producer.internals.TransactionManager.initializeTransactions@POLYN379287 the MagicNumber/String  'initTransactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00247] In method org.apache.kafka.clients.producer.internals.TransactionManager.initializeTransactions@POLYN369847 the MagicNumber/String  'initTransactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -976,7 +976,7 @@ var maDataBlocs = {
  , "c1" : "00252"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.clients.producer.internals.TransactionManager.beginTransaction@POLYN380462 the MagicNumber/String  'beginTransaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.clients.producer.internals.TransactionManager.beginTransaction@POLYN371022 the MagicNumber/String  'beginTransaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -990,7 +990,7 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.clients.producer.internals.TransactionManager.beginCommit@POLYN380740 the MagicNumber/String  'commitTransaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.clients.producer.internals.TransactionManager.beginCommit@POLYN371300 the MagicNumber/String  'commitTransaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1004,7 +1004,7 @@ var maDataBlocs = {
  , "c1" : "00274"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.clients.producer.internals.TransactionManager.beginAbort@POLYN381123 the MagicNumber/String  'abortTransaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.clients.producer.internals.TransactionManager.beginAbort@POLYN371683 the MagicNumber/String  'abortTransaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1046,35 +1046,35 @@ var maDataBlocs = {
  , "c1" : "00305"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String  'sendOffsetsToTransaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN373138 the MagicNumber/String  'sendOffsetsToTransaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String  'Cannot send offsets if a transaction is not in progress ' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN373138 the MagicNumber/String  'Cannot send offsets if a transaction is not in progress ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String  '(currentState= ' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN373138 the MagicNumber/String  '(currentState= ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN373138 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN382578 the MagicNumber/String  'Begin adding offsets {} for consumer group {} to transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.clients.producer.internals.TransactionManager.sendOffsetsToTransaction@POLYN373138 the MagicNumber/String  'Begin adding offsets {} for consumer group {} to transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1095,42 +1095,42 @@ var maDataBlocs = {
  , "c1" : "00329"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN383778 the MagicNumber/String  'send' should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN374338 the MagicNumber/String  'send' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN383778 the MagicNumber/String  'Cannot add partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN374338 the MagicNumber/String  'Cannot add partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00334"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN383778 the MagicNumber/String  ' to transaction before completing a call to initTransactions' should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN374338 the MagicNumber/String  ' to transaction before completing a call to initTransactions' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00336"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#336"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN383778 the MagicNumber/String  'Cannot add partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00336] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN374338 the MagicNumber/String  'Cannot add partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN383778 the MagicNumber/String  ' to transaction while in state  ' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN374338 the MagicNumber/String  ' to transaction while in state  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN383778 the MagicNumber/String  'Begin adding new partition {} to transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeAddPartition@POLYN374338 the MagicNumber/String  'Begin adding new partition {} to transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1151,14 +1151,14 @@ var maDataBlocs = {
  , "c1" : "00354"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#354"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.producer.internals.TransactionManager.isSendToPartitionAllowed@POLYN384918 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00354] In method org.apache.kafka.clients.producer.internals.TransactionManager.isSendToPartitionAllowed@POLYN375478 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.clients.producer.internals.TransactionManager.isTransactional@POLYN385381 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.clients.producer.internals.TransactionManager.isTransactional@POLYN375941 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1214,21 +1214,21 @@ var maDataBlocs = {
  , "c1" : "00388"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#388"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN386101 the MagicNumber/String  'Skipping transition to abortable error state since the transaction is already being ' should be converted to const"
+ , "c3" : "QC-JAV000010[00388] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN376661 the MagicNumber/String  'Skipping transition to abortable error state since the transaction is already being ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00389"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#389"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN386101 the MagicNumber/String  'aborted. Underlying exception: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00389] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN376661 the MagicNumber/String  'aborted. Underlying exception: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN386101 the MagicNumber/String  'Transiting to abortable error state due to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToAbortableError@POLYN376661 the MagicNumber/String  'Transiting to abortable error state due to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1256,14 +1256,14 @@ var maDataBlocs = {
  , "c1" : "00398"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#398"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToFatalError@POLYN386587 the MagicNumber/String  'Transiting to fatal error state due to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00398] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToFatalError@POLYN377147 the MagicNumber/String  'Transiting to fatal error state due to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToFatalError@POLYN386587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionToFatalError@POLYN377147 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1312,7 +1312,7 @@ var maDataBlocs = {
  , "c1" : "00431"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#431"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN387597 the MagicNumber/String  'ProducerId of partition {} set to {} with epoch {}. Reinitialize sequence at beginning.' should be converted to const"
+ , "c3" : "QC-JAV000010[00431] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeUpdateProducerIdAndEpoch@POLYN378157 the MagicNumber/String  'ProducerId of partition {} set to {} with epoch {}. Reinitialize sequence at beginning.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1333,28 +1333,28 @@ var maDataBlocs = {
  , "c1" : "00440"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#440"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.clients.producer.internals.TransactionManager.setProducerIdAndEpoch@POLYN388107 the MagicNumber/String  'ProducerId set to {} with epoch {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00440] In method org.apache.kafka.clients.producer.internals.TransactionManager.setProducerIdAndEpoch@POLYN378667 the MagicNumber/String  'ProducerId set to {} with epoch {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00451"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.clients.producer.internals.TransactionManager.resetIdempotentProducerId@POLYN388525 the MagicNumber/String  'Cannot reset producer state for a transactional producer. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00451] In method org.apache.kafka.clients.producer.internals.TransactionManager.resetIdempotentProducerId@POLYN379085 the MagicNumber/String  'Cannot reset producer state for a transactional producer. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00452"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.producer.internals.TransactionManager.resetIdempotentProducerId@POLYN388525 the MagicNumber/String  'You must either abort the ongoing transaction or reinitialize the transactional producer instead' should be converted to const"
+ , "c3" : "QC-JAV000010[00452] In method org.apache.kafka.clients.producer.internals.TransactionManager.resetIdempotentProducerId@POLYN379085 the MagicNumber/String  'You must either abort the ongoing transaction or reinitialize the transactional producer instead' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00453"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#453"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.clients.producer.internals.TransactionManager.resetIdempotentProducerId@POLYN388525 the MagicNumber/String  'Resetting idempotent producer ID. ID and epoch before reset are {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00453] In method org.apache.kafka.clients.producer.internals.TransactionManager.resetIdempotentProducerId@POLYN379085 the MagicNumber/String  'Resetting idempotent producer ID. ID and epoch before reset are {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1382,28 +1382,28 @@ var maDataBlocs = {
  , "c1" : "00469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN389334 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00469] In method org.apache.kafka.clients.producer.internals.TransactionManager.requestEpochBumpForPartition@POLYN379894 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN389534 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN380094 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN389534 the MagicNumber/String  'Incremented producer epoch, current producer ID and epoch are now {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN380094 the MagicNumber/String  'Incremented producer epoch, current producer ID and epoch are now {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN389534 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentProducerEpoch@POLYN380094 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1417,14 +1417,14 @@ var maDataBlocs = {
  , "c1" : "00499"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#499"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentEpochAndResetIdIfNeeded@POLYN390478 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00499] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentEpochAndResetIdIfNeeded@POLYN381038 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00501"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#501"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentEpochAndResetIdIfNeeded@POLYN390478 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00501] In method org.apache.kafka.clients.producer.internals.TransactionManager.bumpIdempotentEpochAndResetIdIfNeeded@POLYN381038 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1494,14 +1494,14 @@ var maDataBlocs = {
  , "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN392105 the MagicNumber/String  'Can't track batch for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN382665 the MagicNumber/String  'Can't track batch for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN392105 the MagicNumber/String  ' when sequence is not set.' should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.clients.producer.internals.TransactionManager.addInFlightBatch@POLYN382665 the MagicNumber/String  ' when sequence is not set.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1536,7 +1536,7 @@ var maDataBlocs = {
  , "c1" : "00554"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#554"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextBatchBySequence@POLYN393217 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00554] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextBatchBySequence@POLYN383777 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1620,14 +1620,14 @@ var maDataBlocs = {
  , "c1" : "00584"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#584"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00584] In method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN394582 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00584] In method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN385142 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00595"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#595"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN394582 the MagicNumber/String  'Partition {} keeps lastOffset at {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00595] In method org.apache.kafka.clients.producer.internals.TransactionManager.updateLastAckedOffset@POLYN385142 the MagicNumber/String  'Partition {} keeps lastOffset at {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1655,7 +1655,7 @@ var maDataBlocs = {
  , "c1" : "00601"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#601"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN395565 the MagicNumber/String  'ProducerId: {}; Set last ack'd sequence number for topic-partition {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00601] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCompletedBatch@POLYN386125 the MagicNumber/String  'ProducerId: {}; Set last ack'd sequence number for topic-partition {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1676,7 +1676,7 @@ var maDataBlocs = {
  , "c1" : "00618"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#618"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN396119 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00618] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTransitionToErrorState@POLYN386679 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1704,21 +1704,21 @@ var maDataBlocs = {
  , "c1" : "00629"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#629"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN396714 the MagicNumber/String  'Ignoring batch {} with producer id {}, epoch {}, and sequence number {} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00629] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN387274 the MagicNumber/String  'Ignoring batch {} with producer id {}, epoch {}, and sequence number {} ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00630"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#630"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN396714 the MagicNumber/String  'since the producer is already in fatal error state' should be converted to const"
+ , "c3" : "QC-JAV000010[00630] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN387274 the MagicNumber/String  'since the producer is already in fatal error state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00636"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#636"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN396714 the MagicNumber/String  'The broker returned {} for topic-partition {} with producerId {}, epoch {}, and sequence number {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00636] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleFailedBatch@POLYN387274 the MagicNumber/String  'The broker returned {} for topic-partition {} with producerId {}, epoch {}, and sequence number {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1739,56 +1739,56 @@ var maDataBlocs = {
  , "c1" : "00670"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#670"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  'producerId: {}, send to partition {} failed fatally. Reducing future sequence numbers by {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00670] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  'producerId: {}, send to partition {} failed fatally. Reducing future sequence numbers by {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00674"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#674"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00674] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  'Sequence number for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  'Sequence number for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00675"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#675"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  ' is going to become negative: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00675] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  ' is going to become negative: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00684"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#684"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00684] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00685"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#685"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  'Sequence number for batch with sequence ' should be converted to const"
+ , "c3" : "QC-JAV000010[00685] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  'Sequence number for batch with sequence ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  ' for partition ' should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  ' for partition ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00686"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#686"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN398164 the MagicNumber/String  ' is going to become negative: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00686] In method org.apache.kafka.clients.producer.internals.TransactionManager.adjustSequencesDueToFailedBatch@POLYN388724 the MagicNumber/String  ' is going to become negative: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1865,21 +1865,21 @@ var maDataBlocs = {
  , "c1" : "00709"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#709"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00709] In method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN400481 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00709] In method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN391041 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00711"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#711"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00711] In method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN400481 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00711] In method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN391041 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00712"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#712"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN400481 the MagicNumber/String  'Marking partition {} unresolved with next sequence number {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00712] In method org.apache.kafka.clients.producer.internals.TransactionManager.markSequenceUnresolved@POLYN391041 the MagicNumber/String  'Marking partition {} unresolved with next sequence number {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1921,56 +1921,56 @@ var maDataBlocs = {
  , "c1" : "00732"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#732"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'The client hasn't received acknowledgment for some previously ' should be converted to const"
+ , "c3" : "QC-JAV000010[00732] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'The client hasn't received acknowledgment for some previously ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00733"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#733"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'sent messages and can no longer retry them. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00733] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'sent messages and can no longer retry them. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00735"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#735"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00735] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00736"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#736"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00736] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'It is safe to abort ' should be converted to const"
+ , "c3" : "QC-JAV000010[00736] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'It is safe to abort ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00737"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#737"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00737] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'the transaction and continue.' should be converted to const"
+ , "c3" : "QC-JAV000010[00737] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'the transaction and continue.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00740"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#740"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00740] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'It isn't safe to continue.' should be converted to const"
+ , "c3" : "QC-JAV000010[00740] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'It isn't safe to continue.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00745"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#745"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'No inflight batches remaining for {}, last ack'd sequence for partition is {}, next sequence is {}. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00745] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'No inflight batches remaining for {}, last ack'd sequence for partition is {}, next sequence is {}. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00746"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#746"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN401089 the MagicNumber/String  'Going to bump epoch and reset sequence numbers.' should be converted to const"
+ , "c3" : "QC-JAV000010[00746] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeResolveSequences@POLYN391649 the MagicNumber/String  'Going to bump epoch and reset sequence numbers.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1984,7 +1984,7 @@ var maDataBlocs = {
  , "c1" : "00758"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#758"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00758] In method org.apache.kafka.clients.producer.internals.TransactionManager.isNextSequence@POLYN402777 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00758] In method org.apache.kafka.clients.producer.internals.TransactionManager.isNextSequence@POLYN393337 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2019,63 +2019,63 @@ var maDataBlocs = {
  , "c1" : "00775"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#775"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00775] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00776"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#776"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00776] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00780"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#780"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00780] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00780] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00784"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#784"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  'Not sending transactional request {} because we are in an error state' should be converted to const"
+ , "c3" : "QC-JAV000010[00784] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  'Not sending transactional request {} because we are in an error state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00786"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#786"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00786] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00792"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#792"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  'Not sending EndTxn for completed transaction since no partitions ' should be converted to const"
+ , "c3" : "QC-JAV000010[00792] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  'Not sending EndTxn for completed transaction since no partitions ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00793"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#793"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  'or offsets were successfully added' should be converted to const"
+ , "c3" : "QC-JAV000010[00793] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  'or offsets were successfully added' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00799"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#799"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00799] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00800"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#800"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN403482 the MagicNumber/String  'Request {} dequeued for sending' should be converted to const"
+ , "c3" : "QC-JAV000010[00800] In method org.apache.kafka.clients.producer.internals.TransactionManager.nextRequest@POLYN394042 the MagicNumber/String  'Request {} dequeued for sending' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2124,14 +2124,14 @@ var maDataBlocs = {
  , "c1" : "00816"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#816"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00816] In method org.apache.kafka.clients.producer.internals.TransactionManager.close@POLYN405290 the MagicNumber/String  'The producer closed forcefully' should be converted to const"
+ , "c3" : "QC-JAV000010[00816] In method org.apache.kafka.clients.producer.internals.TransactionManager.close@POLYN395850 the MagicNumber/String  'The producer closed forcefully' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00819"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#819"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.clients.producer.internals.TransactionManager.close@POLYN405290 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00819] In method org.apache.kafka.clients.producer.internals.TransactionManager.close@POLYN395850 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2145,7 +2145,7 @@ var maDataBlocs = {
  , "c1" : "00831"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#831"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00831] In method org.apache.kafka.clients.producer.internals.TransactionManager.coordinator@POLYN405722 the MagicNumber/String  'Received an invalid coordinator type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00831] In method org.apache.kafka.clients.producer.internals.TransactionManager.coordinator@POLYN396282 the MagicNumber/String  'Received an invalid coordinator type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2236,49 +2236,49 @@ var maDataBlocs = {
  , "c1" : "00891"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#891"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00891] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00891] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00893"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#893"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00893] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00893] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00905"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#905"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00905] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00918"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#918"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00918] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00918] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00925"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#925"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00925] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00925] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00932"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#932"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00932] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00932] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00942"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#942"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN407374 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00942] In method org.apache.kafka.clients.producer.internals.TransactionManager.canRetry@POLYN397934 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2292,42 +2292,42 @@ var maDataBlocs = {
  , "c1" : "00956"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#956"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN409475 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00956] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN400035 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00958"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#958"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00958] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN409475 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00958] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN400035 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00959"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#959"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00959] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN409475 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00959] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN400035 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00961"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#961"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN409475 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00961] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN400035 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00962"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#962"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN409475 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00962] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN400035 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00963"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#963"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00963] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN409475 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00963] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCoordinatorReady@POLYN400035 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2341,7 +2341,7 @@ var maDataBlocs = {
  , "c1" : "00967"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#967"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00967] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410030 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00967] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400590 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2362,154 +2362,154 @@ var maDataBlocs = {
  , "c1" : "00972"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00972"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00972"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  'TransactionalId ' should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  'TransactionalId ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00972"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#972"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  ': ' should be converted to const"
+ , "c3" : "QC-JAV000010[00972] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  ': ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00973"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#973"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  'Invalid transition attempted from state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00973] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  'Invalid transition attempted from state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00974"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#974"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00974] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  ' to state ' should be converted to const"
+ , "c3" : "QC-JAV000010[00974] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  ' to state ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00978"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#978"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00978] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00978] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00979"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#979"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00979] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  'Cannot transition to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00979] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  'Cannot transition to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00979"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#979"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00979] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  ' with a null exception' should be converted to const"
+ , "c3" : "QC-JAV000010[00979] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  ' with a null exception' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00982"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#982"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00982] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00985"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#985"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00985] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00985] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00986"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#986"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00986] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  'Transition from state {} to error state {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00986] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  'Transition from state {} to error state {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00988"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#988"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00988] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN410180 the MagicNumber/String  'Transition from state {} to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00988] In method org.apache.kafka.clients.producer.internals.TransactionManager.transitionTo@POLYN400740 the MagicNumber/String  'Transition from state {} to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00995"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#995"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.clients.producer.internals.TransactionManager.ensureTransactional@POLYN411655 the MagicNumber/String  'Transactional method invoked on a non-transactional producer.' should be converted to const"
+ , "c3" : "QC-JAV000010[00995] In method org.apache.kafka.clients.producer.internals.TransactionManager.ensureTransactional@POLYN402215 the MagicNumber/String  'Transactional method invoked on a non-transactional producer.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01003"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1003"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  'Producer with transactionalId '' should be converted to const"
+ , "c3" : "QC-JAV000010[01003] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  'Producer with transactionalId '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01004"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1004"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  '' and ' should be converted to const"
+ , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  '' and ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01004"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1004"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  ' has been fenced by another producer ' should be converted to const"
+ , "c3" : "QC-JAV000010[01004] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  ' has been fenced by another producer ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01005"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1005"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  'with the same transactionalId' should be converted to const"
+ , "c3" : "QC-JAV000010[01005] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  'with the same transactionalId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01007"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1007"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  'Producer with transactionalId '' should be converted to const"
+ , "c3" : "QC-JAV000010[01007] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  'Producer with transactionalId '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1008"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  '' and ' should be converted to const"
+ , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  '' and ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01008"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1008"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  ' attempted to produce with an old epoch' should be converted to const"
+ , "c3" : "QC-JAV000010[01008] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  ' attempted to produce with an old epoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01010"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1010"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN411824 the MagicNumber/String  'Cannot execute transactional method because we are in an error state' should be converted to const"
+ , "c3" : "QC-JAV000010[01010] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeFailWithError@POLYN402384 the MagicNumber/String  'Cannot execute transactional method because we are in an error state' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2530,21 +2530,21 @@ var maDataBlocs = {
  , "c1" : "01019"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1019"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01019] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTerminateRequestWithError@POLYN412538 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01019] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTerminateRequestWithError@POLYN403098 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01022"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1022"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTerminateRequestWithError@POLYN412538 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01022] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTerminateRequestWithError@POLYN403098 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1024"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01024] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTerminateRequestWithError@POLYN412538 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01024] In method org.apache.kafka.clients.producer.internals.TransactionManager.maybeTerminateRequestWithError@POLYN403098 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2565,7 +2565,7 @@ var maDataBlocs = {
  , "c1" : "01028"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1028"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.clients.producer.internals.TransactionManager.enqueueRequest@POLYN412929 the MagicNumber/String  'Enqueuing transactional request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01028] In method org.apache.kafka.clients.producer.internals.TransactionManager.enqueueRequest@POLYN403489 the MagicNumber/String  'Enqueuing transactional request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2586,21 +2586,21 @@ var maDataBlocs = {
  , "c1" : "01035"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1035"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN413178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01035] In method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN403738 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01038"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1038"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN413178 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01038] In method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN403738 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01041"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1041"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN413178 the MagicNumber/String  'Invalid coordinator type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01041] In method org.apache.kafka.clients.producer.internals.TransactionManager.lookupCoordinator@POLYN403738 the MagicNumber/String  'Invalid coordinator type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2649,49 +2649,49 @@ var maDataBlocs = {
  , "c1" : "01086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1086"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01086] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01086] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1088"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01088] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01088] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1090"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  'Cannot attempt operation  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  'Cannot attempt operation  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1090"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01090] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1091"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  'because the previous call to  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  'because the previous call to  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01091"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1091"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01091] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1092"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01092] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN415667 the MagicNumber/String  'timed out and must be retried' should be converted to const"
+ , "c3" : "QC-JAV000010[01092] In method org.apache.kafka.clients.producer.internals.TransactionManager.throwIfPendingState@POLYN406227 the MagicNumber/String  'timed out and must be retried' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2712,77 +2712,77 @@ var maDataBlocs = {
  , "c1" : "01104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01104] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01106"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01106] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  'Cannot attempt operation  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  'Cannot attempt operation  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01108] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  'because the previous call to  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  'because the previous call to  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  '  ' should be converted to const"
+ , "c3" : "QC-JAV000010[01109] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  '  ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01110"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01110] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN416190 the MagicNumber/String  'timed out and must be retried' should be converted to const"
+ , "c3" : "QC-JAV000010[01110] In method org.apache.kafka.clients.producer.internals.TransactionManager.handleCachedTransactionRequestResult@POLYN406750 the MagicNumber/String  'timed out and must be retried' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.clients.producer.internals.TransactionManager.canBumpEpoch@POLYN417193 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01124] In method org.apache.kafka.clients.producer.internals.TransactionManager.canBumpEpoch@POLYN407753 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01136"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1136"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.producer.internals.TransactionManager.completeTransaction@POLYN417379 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01136] In method org.apache.kafka.clients.producer.internals.TransactionManager.completeTransaction@POLYN407939 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01137"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1137"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01137] In method org.apache.kafka.clients.producer.internals.TransactionManager.completeTransaction@POLYN417379 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01137] In method org.apache.kafka.clients.producer.internals.TransactionManager.completeTransaction@POLYN407939 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01138"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.clients.producer.internals.TransactionManager.completeTransaction@POLYN417379 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01138] In method org.apache.kafka.clients.producer.internals.TransactionManager.completeTransaction@POLYN407939 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2810,7 +2810,7 @@ var maDataBlocs = {
  , "c1" : "01168"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01168] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.abortableErrorIfPossible@POLYN418764 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01168] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.abortableErrorIfPossible@POLYN409324 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2831,7 +2831,7 @@ var maDataBlocs = {
  , "c1" : "01181"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.reenqueue@POLYN419216 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01181] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.reenqueue@POLYN409776 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2859,56 +2859,56 @@ var maDataBlocs = {
  , "c1" : "01193"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1193"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN419537 the MagicNumber/String  'Detected more than one in-flight transactional request.' should be converted to const"
+ , "c3" : "QC-JAV000010[01193] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN410097 the MagicNumber/String  'Detected more than one in-flight transactional request.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN419537 the MagicNumber/String  'Disconnected from {}. Will retry.' should be converted to const"
+ , "c3" : "QC-JAV000010[01197] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN410097 the MagicNumber/String  'Disconnected from {}. Will retry.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01201"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1201"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN419537 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01201] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN410097 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01204] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN419537 the MagicNumber/String  'Received transactional response {} for request {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01204] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN410097 the MagicNumber/String  'Received transactional response {} for request {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01210"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01210] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN419537 the MagicNumber/String  'Could not execute transactional request for unknown reasons' should be converted to const"
+ , "c3" : "QC-JAV000010[01210] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.onComplete@POLYN410097 the MagicNumber/String  'Could not execute transactional request for unknown reasons' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01216"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.needsCoordinator@POLYN420944 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01216] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.needsCoordinator@POLYN411504 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01228"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01228] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.setRetry@POLYN421239 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01228] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.setRetry@POLYN411799 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01236"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1236"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01236] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.isEndTxn@POLYN421430 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01236] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnRequestHandler.isEndTxn@POLYN411990 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2922,14 +2922,14 @@ var maDataBlocs = {
  , "c1" : "01251"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01251] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.InitProducerIdHandler@POLYN421819 the MagicNumber/String  'InitProducerId' should be converted to const"
+ , "c3" : "QC-JAV000010[01251] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.InitProducerIdHandler@POLYN412379 the MagicNumber/String  'InitProducerId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01271"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1271"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01271] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.coordinatorType@POLYN422399 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01271] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.coordinatorType@POLYN412959 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2943,21 +2943,21 @@ var maDataBlocs = {
  , "c1" : "01285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01285] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.handleResponse@POLYN422625 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01285] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.handleResponse@POLYN413185 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01303] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.handleResponse@POLYN422625 the MagicNumber/String  'Unexpected error in InitProducerIdResponse; ' should be converted to const"
+ , "c3" : "QC-JAV000010[01303] In method org.apache.kafka.clients.producer.internals.TransactionManager.InitProducerIdHandler.handleResponse@POLYN413185 the MagicNumber/String  'Unexpected error in InitProducerIdResponse; ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01313"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01313] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.AddPartitionsToTxnHandler@POLYN424658 the MagicNumber/String  'AddPartitionsToTxn' should be converted to const"
+ , "c3" : "QC-JAV000010[01313] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.AddPartitionsToTxnHandler@POLYN415218 the MagicNumber/String  'AddPartitionsToTxn' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2985,84 +2985,84 @@ var maDataBlocs = {
  , "c1" : "01332"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01332] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01332] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01367"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01367] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  'Did not attempt to add partition {} to transaction because other partitions in the ' should be converted to const"
+ , "c3" : "QC-JAV000010[01367] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  'Did not attempt to add partition {} to transaction because other partitions in the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01368"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1368"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  'batch had errors.' should be converted to const"
+ , "c3" : "QC-JAV000010[01368] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  'batch had errors.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01369"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01369] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01374"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01374] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  'Could not add partition {} due to unexpected error {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01374] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  'Could not add partition {} due to unexpected error {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01375"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01375] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01375] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01391"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1391"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01391] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  'Could not add partitions to transaction due to errors: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01391] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  'Could not add partitions to transaction due to errors: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01393"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01393] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  'Successfully added partitions {} to transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[01393] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  'Successfully added partitions {} to transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01395"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN425162 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01395] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddPartitionsToTxnHandler.handleResponse@POLYN415722 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01421"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01421] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.FindCoordinatorHandler@POLYN429448 the MagicNumber/String  'FindCoordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[01421] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.FindCoordinatorHandler@POLYN420008 the MagicNumber/String  'FindCoordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01437"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1437"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.coordinatorType@POLYN429877 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01437] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.coordinatorType@POLYN420437 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01442"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1442"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01442] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.coordinatorKey@POLYN429974 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01442] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.coordinatorKey@POLYN420534 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3083,56 +3083,56 @@ var maDataBlocs = {
  , "c1" : "01450"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1450"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01450] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[01450] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01451"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1451"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01451] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[01451] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01452"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1452"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01452] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
+ , "c3" : "QC-JAV000010[01452] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  'Group coordinator lookup failed: Invalid response containing more than a single coordinator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01454"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1454"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[01454] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01456"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1456"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01456] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[01456] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01469"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  'Discovered {} coordinator {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  'Discovered {} coordinator {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01477"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01477] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  'Could not find a coordinator with type %s with key %s due to ' should be converted to const"
+ , "c3" : "QC-JAV000010[01477] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  'Could not find a coordinator with type %s with key %s due to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01478"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01478] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN430068 the MagicNumber/String  'unexpected error: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[01478] In method org.apache.kafka.clients.producer.internals.TransactionManager.FindCoordinatorHandler.handleResponse@POLYN420628 the MagicNumber/String  'unexpected error: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3146,21 +3146,21 @@ var maDataBlocs = {
  , "c1" : "01488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.EndTxnHandler@POLYN432690 the MagicNumber/String  'EndTxn(' should be converted to const"
+ , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.EndTxnHandler@POLYN423250 the MagicNumber/String  'EndTxn(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01488"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.EndTxnHandler@POLYN432690 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[01488] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.EndTxnHandler@POLYN423250 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01504"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1504"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.isEndTxn@POLYN433185 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01504] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.isEndTxn@POLYN423745 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3174,14 +3174,14 @@ var maDataBlocs = {
  , "c1" : "01531"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01531] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.handleResponse@POLYN433279 the MagicNumber/String  'Unhandled error in EndTxnResponse: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01531] In method org.apache.kafka.clients.producer.internals.TransactionManager.EndTxnHandler.handleResponse@POLYN423839 the MagicNumber/String  'Unhandled error in EndTxnResponse: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01544"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01544] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.AddOffsetsToTxnHandler@POLYN435274 the MagicNumber/String  'AddOffsetsToTxn' should be converted to const"
+ , "c3" : "QC-JAV000010[01544] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.AddOffsetsToTxnHandler@POLYN425834 the MagicNumber/String  'AddOffsetsToTxn' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3195,21 +3195,21 @@ var maDataBlocs = {
  , "c1" : "01566"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1566"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01566] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN435907 the MagicNumber/String  'Successfully added partition for consumer group {} to transaction' should be converted to const"
+ , "c3" : "QC-JAV000010[01566] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN426467 the MagicNumber/String  'Successfully added partition for consumer group {} to transaction' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01571"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1571"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN435907 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01571] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN426467 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01588"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1588"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01588] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN435907 the MagicNumber/String  'Unexpected error in AddOffsetsToTxnResponse: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01588] In method org.apache.kafka.clients.producer.internals.TransactionManager.AddOffsetsToTxnHandler.handleResponse@POLYN426467 the MagicNumber/String  'Unexpected error in AddOffsetsToTxnResponse: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3237,42 +3237,42 @@ var maDataBlocs = {
  , "c1" : "01625"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1625"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01625] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN438793 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[01625] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN429353 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01628"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1628"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01628] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN438793 the MagicNumber/String  'Received TxnOffsetCommit response for consumer group {}: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[01628] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN429353 the MagicNumber/String  'Received TxnOffsetCommit response for consumer group {}: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01640"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1640"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01640] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN438793 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[01640] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN429353 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01655"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1655"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01655] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN438793 the MagicNumber/String  'Transaction offset Commit failed ' should be converted to const"
+ , "c3" : "QC-JAV000010[01655] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN429353 the MagicNumber/String  'Transaction offset Commit failed ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01656"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1656"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01656] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN438793 the MagicNumber/String  'due to consumer group metadata mismatch: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01656] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN429353 the MagicNumber/String  'due to consumer group metadata mismatch: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "01662"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/internals/TransactionManager.java.html#1662"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01662] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN438793 the MagicNumber/String  'Unexpected error in TxnOffsetCommitResponse: ' should be converted to const"
+ , "c3" : "QC-JAV000010[01662] In method org.apache.kafka.clients.producer.internals.TransactionManager.TxnOffsetCommitHandler.handleResponse@POLYN429353 the MagicNumber/String  'Unexpected error in TxnOffsetCommitResponse: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

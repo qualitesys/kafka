@@ -102,7 +102,7 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.init@POLYN171794 the MagicNumber/String  'Starting creation of new VerificationKeyResolver from {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.init@POLYN162354 the MagicNumber/String  'Starting creation of new VerificationKeyResolver from {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -116,14 +116,14 @@ var maDataBlocs = {
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.resolveKey@POLYN172474 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.resolveKey@POLYN163034 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00112"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/JwksFileVerificationKeyResolver.java.html#112"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.resolveKey@POLYN172474 the MagicNumber/String  'VerificationKeyResolver delegate is null; please call init() first' should be converted to const"
+ , "c3" : "QC-JAV000010[00112] In method org.apache.kafka.common.security.oauthbearer.secured.JwksFileVerificationKeyResolver.resolveKey@POLYN163034 the MagicNumber/String  'VerificationKeyResolver delegate is null; please call init() first' should be converted to const"
 }} 
 ]
 , 

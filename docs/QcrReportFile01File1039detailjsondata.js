@@ -166,7 +166,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.mirror.OffsetSyncStore.OffsetSyncStore@POLYN164033 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.mirror.OffsetSyncStore.OffsetSyncStore@POLYN154593 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -180,7 +180,7 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.OffsetSyncStore.translateDownstream@POLYN164806 the MagicNumber/String  1L should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.connect.mirror.OffsetSyncStore.translateDownstream@POLYN155366 the MagicNumber/String  1L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -215,7 +215,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSyncStore.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN165855 the MagicNumber/String  'offset sync store consumer' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.mirror.OffsetSyncStore.close@POLYN156415 the MagicNumber/String  'offset sync store consumer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

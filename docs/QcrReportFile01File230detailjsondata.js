@@ -182,7 +182,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.RecordMetadata.RecordMetadata@POLYN168993 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.clients.producer.RecordMetadata.RecordMetadata@POLYN159553 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -196,14 +196,14 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN170169 the MagicNumber/String  'batchIndex is larger than Integer.MAX_VALUE: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.clients.producer.RecordMetadata.batchIndexToInt@POLYN160729 the MagicNumber/String  'batchIndex is larger than Integer.MAX_VALUE: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00140"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/producer/RecordMetadata.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.RecordMetadata.toString@POLYN172061 the MagicNumber/String  '@' should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method org.apache.kafka.clients.producer.RecordMetadata.toString@POLYN162621 the MagicNumber/String  '@' should be converted to const"
 }} 
 ]
 , 

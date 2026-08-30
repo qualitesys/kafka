@@ -157,21 +157,21 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN171698 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN162258 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN171698 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN162258 the MagicNumber/String  'Version 0 only supports literal resource pattern types' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DescribeAclsRequest.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN171698 the MagicNumber/String  'DescribeAclsRequest contains UNKNOWN elements: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.DescribeAclsRequest.normalizeAndValidate@POLYN162258 the MagicNumber/String  'DescribeAclsRequest contains UNKNOWN elements: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

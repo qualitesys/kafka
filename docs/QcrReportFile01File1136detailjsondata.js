@@ -447,63 +447,63 @@ var maDataBlocs = {
  , "c1" : "00211"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  'Connector' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  'Connector' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  'Failed to find any class that implements Connector and which name matches ' should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  'Failed to find any class that implements Connector and which name matches ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  ', available connectors are: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  ', available connectors are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00221"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#221"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00221] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  'More than one connector matches alias ' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  'More than one connector matches alias ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00228"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#228"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  '. Please use full package and class name instead. Classes found: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00228] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  '. Please use full package and class name instead. Classes found: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  ', ' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  ', ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN231903 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.connect.runtime.isolation.Plugins.connectorClass@POLYN222463 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -531,77 +531,77 @@ var maDataBlocs = {
  , "c1" : "00255"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00258"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#258"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00258] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  'Failed to find any class that implements Converter and which name matches ' should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  'Failed to find any class that implements Converter and which name matches ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  ', available converters are: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  ', available converters are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00281"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  'Unable to initialize the Converter specified in '' should be converted to const"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  'Unable to initialize the Converter specified in '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00281"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#281"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00281] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  'Configuring the {} converter with configuration keys:{}{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  'Configuring the {} converter with configuration keys:{}{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  'key' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  'key' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00291"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#291"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN234385 the MagicNumber/String  'value' should be converted to const"
+ , "c3" : "QC-JAV000010[00291] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConverter@POLYN224945 the MagicNumber/String  'value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -615,7 +615,7 @@ var maDataBlocs = {
  , "c1" : "00318"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.isolation.Plugins.newInternalConverter@POLYN237155 the MagicNumber/String  'Failed to load internal converter class ' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.connect.runtime.isolation.Plugins.newInternalConverter@POLYN227715 the MagicNumber/String  'Failed to load internal converter class ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -636,63 +636,63 @@ var maDataBlocs = {
  , "c1" : "00343"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00367"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#367"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  'Failed to find any class that implements HeaderConverter and which name matches ' should be converted to const"
+ , "c3" : "QC-JAV000010[00367] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  'Failed to find any class that implements HeaderConverter and which name matches ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00369"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#369"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  ', available header converters are: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00369] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  ', available header converters are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00374"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#374"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00374] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  'Unable to initialize the HeaderConverter specified in '' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  'Unable to initialize the HeaderConverter specified in '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00375"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#375"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00375] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00378"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#378"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  '.' should be converted to const"
+ , "c3" : "QC-JAV000010[00378] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  '.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00381"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#381"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN238527 the MagicNumber/String  'Configuring the header converter with configuration keys:{}{}' should be converted to const"
+ , "c3" : "QC-JAV000010[00381] In method org.apache.kafka.connect.runtime.isolation.Plugins.newHeaderConverter@POLYN229087 the MagicNumber/String  'Configuring the header converter with configuration keys:{}{}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -713,63 +713,63 @@ var maDataBlocs = {
  , "c1" : "00395"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#395"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  '.class' should be converted to const"
+ , "c3" : "QC-JAV000010[00395] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  '.class' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00399"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#399"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00399] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00401"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#401"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00401] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00414"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#414"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  'Failed to find any class that implements ConfigProvider and which name matches ' should be converted to const"
+ , "c3" : "QC-JAV000010[00414] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  'Failed to find any class that implements ConfigProvider and which name matches ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00415"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#415"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  ', available ConfigProviders are: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00415] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  ', available ConfigProviders are: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00421"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#421"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00421] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  'Unable to initialize the ConfigProvider specified in '' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  'Unable to initialize the ConfigProvider specified in '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00422"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#422"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  ''' should be converted to const"
+ , "c3" : "QC-JAV000010[00422] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  ''' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00426"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/isolation/Plugins.java.html#426"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN240843 the MagicNumber/String  '.param.' should be converted to const"
+ , "c3" : "QC-JAV000010[00426] In method org.apache.kafka.connect.runtime.isolation.Plugins.newConfigProvider@POLYN231403 the MagicNumber/String  '.param.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

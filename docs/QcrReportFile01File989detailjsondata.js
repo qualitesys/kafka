@@ -95,7 +95,7 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/storage/ConverterConfig.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.ConverterConfig.ConverterConfig@POLYN160244 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.connect.storage.ConverterConfig.ConverterConfig@POLYN150804 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

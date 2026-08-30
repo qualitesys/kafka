@@ -125,133 +125,133 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  '--help' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  '--help' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Usage: ConnectStandalone worker.properties connector1.properties [connector2.properties ...]' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Usage: ConnectStandalone worker.properties connector1.properties [connector2.properties ...]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Kafka Connect standalone worker initializing ...' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Kafka Connect standalone worker initializing ...' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00073"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Scanning for plugin classes. This might take a moment ...' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Scanning for plugin classes. This might take a moment ...' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Kafka cluster ID: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Kafka cluster ID: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  ':' should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  ':' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Kafka Connect standalone worker initialization took {}ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Kafka Connect standalone worker initialization took {}ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Failed to create job for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Failed to create job for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Created connector {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Created connector {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00117"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#117"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Stopping after connector error' should be converted to const"
+ , "c3" : "QC-JAV000010[00117] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Stopping after connector error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  'Stopping due to error' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  'Stopping due to error' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/cli/ConnectStandalone.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN175892 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.connect.cli.ConnectStandalone.main@POLYN166452 the MagicNumber/String  2 should be converted to const"
 }} 
 ]
 , 

@@ -217,35 +217,35 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN166941 the MagicNumber/String  'localhost' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN157501 the MagicNumber/String  'localhost' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN166941 the MagicNumber/String  'hostname' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN157501 the MagicNumber/String  'hostname' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN166941 the MagicNumber/String  'tags' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN157501 the MagicNumber/String  'tags' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN166941 the MagicNumber/String  'Expected the 'tags' field to be an ' should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN157501 the MagicNumber/String  'Expected the 'tags' field to be an ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN166941 the MagicNumber/String  'array of strings.' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.trogdor.basic.BasicNode.BasicNode@POLYN157501 the MagicNumber/String  'array of strings.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -273,21 +273,21 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN169755 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN160315 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN169755 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN160315 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/basic/BasicNode.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN169755 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.trogdor.basic.BasicNode.equals@POLYN160315 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

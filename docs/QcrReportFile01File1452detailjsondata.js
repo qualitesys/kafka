@@ -148,7 +148,7 @@ var maDataBlocs = {
  , "c2" : "1"
  , "c3" : "2"
  , "c4" : "2"
- , "c5" : ["java.io.BufferedWriter.write@POLYN193615.b" , "java.io.BufferedWriter.write@POLYN193615.b"]
+ , "c5" : ["java.io.BufferedWriter.write@POLYN184175.b" , "java.io.BufferedWriter.write@POLYN184175.b"]
  , "c6" : ""
  , "c7" : ""
  , "secu1" : "Ok"
@@ -164,16 +164,16 @@ var maDataBlocs = {
 { "ligne" : { "" : ""
  , "c1" : "1"
  , "sourcenoligne" : "[00195]"
- , "c3" : ["java.io.BufferedWriter.write@POLYN193615.b" , "---java.io.BufferedWriter.write@POLYN193615.dummymethode_00195" , "java.io.BufferedWriter.write@POLYN193615.cibledummy_00195"]
- , "c4" : "//QC-JAVCWE099[00195] In java.io.BufferedWriter.write@POLYN193615[00195] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
+ , "c3" : ["java.io.BufferedWriter.write@POLYN184175.b" , "---java.io.BufferedWriter.write@POLYN184175.dummymethode_00195" , "java.io.BufferedWriter.write@POLYN184175.cibledummy_00195"]
+ , "c4" : "//QC-JAVCWE099[00195] In java.io.BufferedWriter.write@POLYN184175[00195] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
 { "ligne" : { "" : ""
  , "c1" : "2"
  , "sourcenoligne" : "[00196]"
- , "c3" : ["d" , "---java.io.BufferedWriter.write@POLYN193615.dummymethode_00196" , "java.io.BufferedWriter.write@POLYN193615.b"]
- , "c4" : "//QC-JAVCWE099[00196] In java.io.BufferedWriter.write@POLYN193615[00196] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
+ , "c3" : ["d" , "---java.io.BufferedWriter.write@POLYN184175.dummymethode_00196" , "java.io.BufferedWriter.write@POLYN184175.b"]
+ , "c4" : "//QC-JAVCWE099[00196] In java.io.BufferedWriter.write@POLYN184175[00196] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
  , "c5" : "output"
 }}
 ,
@@ -256,42 +256,42 @@ var maDataBlocs = {
  , "c1" : "00102"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method java.io.BufferedWriter.BufferedWriter@POLYN190948 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method java.io.BufferedWriter.BufferedWriter@POLYN181508 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method java.io.BufferedWriter.BufferedWriter@POLYN190948 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method java.io.BufferedWriter.BufferedWriter@POLYN181508 the MagicNumber/String  'Buffer size &amp;lt;= 0' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method java.io.BufferedWriter.BufferedWriter@POLYN190948 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method java.io.BufferedWriter.BufferedWriter@POLYN181508 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method java.io.BufferedWriter.BufferedWriter@POLYN190948 the MagicNumber/String  'line.separator' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method java.io.BufferedWriter.BufferedWriter@POLYN181508 the MagicNumber/String  'line.separator' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method java.io.BufferedWriter.ensureOpen@POLYN191665 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method java.io.BufferedWriter.ensureOpen@POLYN182225 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00116"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method java.io.BufferedWriter.ensureOpen@POLYN191665 the MagicNumber/String  'Stream closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method java.io.BufferedWriter.ensureOpen@POLYN182225 the MagicNumber/String  'Stream closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -305,21 +305,21 @@ var maDataBlocs = {
  , "c1" : "00127"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method java.io.BufferedWriter.flushBuffer@POLYN191972 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method java.io.BufferedWriter.flushBuffer@POLYN182532 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method java.io.BufferedWriter.flushBuffer@POLYN191972 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method java.io.BufferedWriter.flushBuffer@POLYN182532 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00130"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#130"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00130] In method java.io.BufferedWriter.flushBuffer@POLYN191972 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00130] In method java.io.BufferedWriter.flushBuffer@POLYN182532 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -361,28 +361,28 @@ var maDataBlocs = {
  , "c1" : "00176"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method java.io.BufferedWriter.write@POLYN193615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method java.io.BufferedWriter.write@POLYN184175 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00176"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#176"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00176] In method java.io.BufferedWriter.write@POLYN193615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00176] In method java.io.BufferedWriter.write@POLYN184175 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method java.io.BufferedWriter.write@POLYN193615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method java.io.BufferedWriter.write@POLYN184175 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method java.io.BufferedWriter.write@POLYN193615 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method java.io.BufferedWriter.write@POLYN184175 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,21 +417,21 @@ var maDataBlocs = {
  , "c1" : "00261"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method java.io.BufferedWriter.close@POLYN197502 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method java.io.BufferedWriter.close@POLYN188062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00267"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#267"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00267] In method java.io.BufferedWriter.close@POLYN197502 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00267] In method java.io.BufferedWriter.close@POLYN188062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00268"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#268"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00268] In method java.io.BufferedWriter.close@POLYN197502 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00268] In method java.io.BufferedWriter.close@POLYN188062 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -445,14 +445,14 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#196"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00196] In java.io.BufferedWriter.write@POLYN193615[00196] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00196] In java.io.BufferedWriter.write@POLYN184175[00196] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00195"
  , "c1link" : "./qc/secujava/java.io.BufferedWriter.java.html#195"
  , "c2" : "BLOCKER"
- , "c3" : "QC-JAVCWE099[00195] In java.io.BufferedWriter.write@POLYN193615[00195] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
+ , "c3" : "QC-JAVCWE099[00195] In java.io.BufferedWriter.write@POLYN184175[00195] target data PATHtainted (java.io.BufferedWriter.write) RiskOnOutput"
 }} 
 ]
 , 

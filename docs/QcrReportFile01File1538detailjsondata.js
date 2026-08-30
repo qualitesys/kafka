@@ -228,28 +228,28 @@ var maDataBlocs = {
  , "c1" : "00095"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN214479 the MagicNumber/String  'handleCommits ' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN205039 the MagicNumber/String  'handleCommits ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN214479 the MagicNumber/String  ' at offset ' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN205039 the MagicNumber/String  ' at offset ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00096"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN214479 the MagicNumber/String  'metadataQuorum' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN205039 the MagicNumber/String  'metadataQuorum' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN214479 the MagicNumber/String  'offset' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleCommit@POLYN205039 the MagicNumber/String  'offset' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -298,91 +298,91 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN215989 the MagicNumber/String  'handleNewLeader' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN206549 the MagicNumber/String  'handleNewLeader' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN215989 the MagicNumber/String  'handleNewLeader ' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN206549 the MagicNumber/String  'handleNewLeader ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN215989 the MagicNumber/String  'metadataQuorum' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN206549 the MagicNumber/String  'metadataQuorum' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN215989 the MagicNumber/String  'leader' should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN206549 the MagicNumber/String  'leader' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00127"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#127"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN215989 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00127] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.handleLeaderChange@POLYN206549 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.beginShutdown@POLYN216530 the MagicNumber/String  'Metadata log listener sent beginShutdown' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.shell.MetadataNodeManager.LogListener.beginShutdown@POLYN207090 the MagicNumber/String  'Metadata log listener sent beginShutdown' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.MetadataNodeManager.MetadataNodeManager@POLYN216914 the MagicNumber/String  '[node-manager-event-queue] ' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.MetadataNodeManager.MetadataNodeManager@POLYN207474 the MagicNumber/String  '[node-manager-event-queue] ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00145"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.MetadataNodeManager.MetadataNodeManager@POLYN216914 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.shell.MetadataNodeManager.MetadataNodeManager@POLYN207474 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00150"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#150"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN217334 the MagicNumber/String  'createShellNodes' should be converted to const"
+ , "c3" : "QC-JAV000010[00150] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN207894 the MagicNumber/String  'createShellNodes' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN217334 the MagicNumber/String  'local' should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN207894 the MagicNumber/String  'local' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00152"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN217334 the MagicNumber/String  'version' should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN207894 the MagicNumber/String  'version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00153"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#153"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN217334 the MagicNumber/String  'commitId' should be converted to const"
+ , "c3" : "QC-JAV000010[00153] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN207894 the MagicNumber/String  'commitId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN217334 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.shell.MetadataNodeManager.setup@POLYN207894 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -403,14 +403,14 @@ var maDataBlocs = {
  , "c1" : "00175"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#175"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.shell.MetadataNodeManager.visit@POLYN218416 the MagicNumber/String  'visit' should be converted to const"
+ , "c3" : "QC-JAV000010[00175] In method org.apache.kafka.shell.MetadataNodeManager.visit@POLYN208976 the MagicNumber/String  'visit' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.shell.MetadataNodeManager.visit@POLYN218416 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.shell.MetadataNodeManager.visit@POLYN208976 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -438,14 +438,14 @@ var maDataBlocs = {
  , "c1" : "00191"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#191"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.shell.MetadataNodeManager.appendEvent@POLYN218944 the MagicNumber/String  'Unexpected error while handling event ' should be converted to const"
+ , "c3" : "QC-JAV000010[00191] In method org.apache.kafka.shell.MetadataNodeManager.appendEvent@POLYN209504 the MagicNumber/String  'Unexpected error while handling event ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00192"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#192"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.shell.MetadataNodeManager.appendEvent@POLYN218944 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00192] In method org.apache.kafka.shell.MetadataNodeManager.appendEvent@POLYN209504 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -466,7 +466,7 @@ var maDataBlocs = {
  , "c1" : "00205"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#205"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.shell.MetadataNodeManager.handleMessage@POLYN219635 the MagicNumber/String  'Error processing record of type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00205] In method org.apache.kafka.shell.MetadataNodeManager.handleMessage@POLYN210195 the MagicNumber/String  'Error processing record of type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -480,294 +480,294 @@ var maDataBlocs = {
  , "c1" : "00213"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'brokers' should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'brokers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'registration' should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'registration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'isFenced' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'isFenced' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00219"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#219"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00219] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00224"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#224"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'brokers' should be converted to const"
+ , "c3" : "QC-JAV000010[00224] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'brokers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00231"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#231"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'id' should be converted to const"
+ , "c3" : "QC-JAV000010[00231] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00233"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#233"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00233] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00240"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00245"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#245"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'data' should be converted to const"
+ , "c3" : "QC-JAV000010[00245] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00250"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00253"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'broker' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'broker' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topic' should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topic' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00259"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#259"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'Error processing CONFIG_RECORD: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00259] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'Error processing CONFIG_RECORD: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00260"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'Can't handle ConfigResource.Type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'Can't handle ConfigResource.Type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'configs' should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'configs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00264"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#264"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00264] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00273"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#273"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00273] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00274"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#274"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'data' should be converted to const"
+ , "c3" : "QC-JAV000010[00274] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00278"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#278"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00278] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00288"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#288"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00288] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'brokers' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'brokers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'isFenced' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'isFenced' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'true' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'true' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00301"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#301"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'brokers' should be converted to const"
+ , "c3" : "QC-JAV000010[00301] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'brokers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'isFenced' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'isFenced' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'false' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'false' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00309"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'name' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'name' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topics' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topics' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00311"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#311"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'topicIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00311] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'topicIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'producerIds' should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'producerIds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'lastBlockBrokerId' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'lastBlockBrokerId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'lastBlockBrokerEpoch' should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'lastBlockBrokerEpoch' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00331"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#331"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00331] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'nextBlockStartId' should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'nextBlockStartId' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00337"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#337"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN220104 the MagicNumber/String  'Unhandled metadata record type' should be converted to const"
+ , "c3" : "QC-JAV000010[00337] In method org.apache.kafka.shell.MetadataNodeManager.handleCommitImpl@POLYN210664 the MagicNumber/String  'Unhandled metadata record type' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -788,21 +788,21 @@ var maDataBlocs = {
  , "c1" : "00343"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.shell.MetadataNodeManager.clientQuotaRecordDirectories@POLYN228867 the MagicNumber/String  'client-quotas' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.shell.MetadataNodeManager.clientQuotaRecordDirectories@POLYN219427 the MagicNumber/String  'client-quotas' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00348"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#348"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.shell.MetadataNodeManager.clientQuotaRecordDirectories@POLYN228867 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00348] In method org.apache.kafka.shell.MetadataNodeManager.clientQuotaRecordDirectories@POLYN219427 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00349"
  , "c1link" : "./qc/shell/src/main/java/org/apache/kafka/shell/MetadataNodeManager.java.html#349"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.shell.MetadataNodeManager.clientQuotaRecordDirectories@POLYN228867 the MagicNumber/String  '&amp;lt;default&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00349] In method org.apache.kafka.shell.MetadataNodeManager.clientQuotaRecordDirectories@POLYN219427 the MagicNumber/String  '&amp;lt;default&amp;gt;' should be converted to const"
 }} 
 ]
 , 

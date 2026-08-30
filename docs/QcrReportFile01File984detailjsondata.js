@@ -199,56 +199,56 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN176635 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN167195 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00050"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN176635 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN167195 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN177097 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN167657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN177097 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN167657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN177097 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN167657 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN177536 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN168096 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN178021 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN168581 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN178553 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.connect.source.SourceRecord.SourceRecord@POLYN169113 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -283,98 +283,98 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN181145 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN171705 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN181145 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN171705 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN181145 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN171705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00113"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#113"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN181145 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00113] In method org.apache.kafka.connect.source.SourceRecord.equals@POLYN171705 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN181876 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN172436 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN181876 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN172436 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN181876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN172436 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN181876 the MagicNumber/String  31 should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN172436 the MagicNumber/String  31 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN181876 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN172436 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN181876 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.connect.source.SourceRecord.hashCode@POLYN172436 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00131"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN182475 the MagicNumber/String  'SourceRecord{' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN173035 the MagicNumber/String  'SourceRecord{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00132"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#132"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN182475 the MagicNumber/String  'sourcePartition=' should be converted to const"
+ , "c3" : "QC-JAV000010[00132] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN173035 the MagicNumber/String  'sourcePartition=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00133"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#133"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN182475 the MagicNumber/String  ', sourceOffset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00133] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN173035 the MagicNumber/String  ', sourceOffset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00134"
  , "c1link" : "./qc/connect/api/src/main/java/org/apache/kafka/connect/source/SourceRecord.java.html#134"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN182475 the MagicNumber/String  '} ' should be converted to const"
+ , "c3" : "QC-JAV000010[00134] In method org.apache.kafka.connect.source.SourceRecord.toString@POLYN173035 the MagicNumber/String  '} ' should be converted to const"
 }} 
 ]
 , 

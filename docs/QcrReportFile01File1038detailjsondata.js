@@ -189,7 +189,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/OffsetSync.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN168606 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.connect.mirror.OffsetSync.toString@POLYN159166 the MagicNumber/String  'OffsetSync{topicPartition=%s, upstreamOffset=%d, downstreamOffset=%d}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

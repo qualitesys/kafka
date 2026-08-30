@@ -129,7 +129,7 @@ var maDataBlocs = {
  , "c1" : "00050"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#50"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.errorCounts@POLYN158042 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00050] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.errorCounts@POLYN148602 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -150,7 +150,7 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/BrokerHeartbeatResponse.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.shouldClientThrottle@POLYN158693 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.requests.BrokerHeartbeatResponse.shouldClientThrottle@POLYN149253 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

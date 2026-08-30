@@ -140,63 +140,63 @@ var maDataBlocs = {
  , "c1" : "00057"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isSuccess@POLYN165357 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isSuccess@POLYN155917 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00066"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isFailure@POLYN165570 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.isFailure@POLYN156130 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00076"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#76"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureReason@POLYN165762 the MagicNumber/String  'Cannot get failure reason because this query did not fail.' should be converted to const"
+ , "c3" : "QC-JAV000010[00076] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureReason@POLYN156322 the MagicNumber/String  'Cannot get failure reason because this query did not fail.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00087"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureMessage@POLYN165995 the MagicNumber/String  'Cannot get failure message because this query did not fail.' should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.getFailureMessage@POLYN156555 the MagicNumber/String  'Cannot get failure message because this query did not fail.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN166517 the MagicNumber/String  'SucceededQueryResult{' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN157077 the MagicNumber/String  'SucceededQueryResult{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00106"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#106"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN166517 the MagicNumber/String  'result=' should be converted to const"
+ , "c3" : "QC-JAV000010[00106] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN157077 the MagicNumber/String  'result=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN166517 the MagicNumber/String  ', executionInfo=' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN157077 the MagicNumber/String  ', executionInfo=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN166517 the MagicNumber/String  ', position=' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN157077 the MagicNumber/String  ', position=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/query/internals/SucceededQueryResult.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN166517 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.streams.query.internals.SucceededQueryResult.toString@POLYN157077 the MagicNumber/String  '}' should be converted to const"
 }} 
 ]
 , 

@@ -137,7 +137,7 @@ var maDataBlocs = {
  , "c1" : "00073"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/runtime/errors/LogReporter.java.html#73"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.errors.LogReporter.message@POLYN161381 the MagicNumber/String  'Error encountered in task %s. %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00073] In method org.apache.kafka.connect.runtime.errors.LogReporter.message@POLYN151941 the MagicNumber/String  'Error encountered in task %s. %s' should be converted to const"
 }} 
 ]
 , 

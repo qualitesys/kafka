@@ -181,7 +181,7 @@ var maDataBlocs = {
  , "c1" : "00098"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#98"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.storage.OffsetStorageWriter.flushing@POLYN191129 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00098] In method org.apache.kafka.connect.storage.OffsetStorageWriter.flushing@POLYN181689 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -195,35 +195,35 @@ var maDataBlocs = {
  , "c1" : "00109"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN191405 the MagicNumber/String  'Invalid call to OffsetStorageWriter flush() while already flushing, the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN181965 the MagicNumber/String  'Invalid call to OffsetStorageWriter flush() while already flushing, the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00110"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#110"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN191405 the MagicNumber/String  'framework should not allow this' should be converted to const"
+ , "c3" : "QC-JAV000010[00110] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN181965 the MagicNumber/String  'framework should not allow this' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN191405 the MagicNumber/String  'OffsetStorageWriter is already flushing' should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN181965 the MagicNumber/String  'OffsetStorageWriter is already flushing' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00115"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#115"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN191405 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00115] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN181965 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00119"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN191405 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.connect.storage.OffsetStorageWriter.beginFlush@POLYN181965 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -265,98 +265,98 @@ var maDataBlocs = {
  , "c1" : "00154"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00156"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00163"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#163"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  'CRITICAL: Failed to serialize offset data, making it impossible to commit ' should be converted to const"
+ , "c3" : "QC-JAV000010[00163] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  'CRITICAL: Failed to serialize offset data, making it impossible to commit ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00164"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#164"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  'offsets under namespace {}. This likely won't recover unless the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00164] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  'offsets under namespace {}. This likely won't recover unless the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  'unserializable partition or offset information is overwritten.' should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  'unserializable partition or offset information is overwritten.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  'Cause of serialization failure:' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  'Cause of serialization failure:' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  'Submitting {} entries to backing store. The offsets are: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  'Submitting {} entries to backing store. The offsets are: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN192428 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.connect.storage.OffsetStorageWriter.doFlush@POLYN182988 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -370,7 +370,7 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.storage.OffsetStorageWriter.cancelFlush@POLYN195306 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.connect.storage.OffsetStorageWriter.cancelFlush@POLYN185866 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -391,28 +391,28 @@ var maDataBlocs = {
  , "c1" : "00208"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#208"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN195764 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00208] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN186324 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00210"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#210"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN195764 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00210] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN186324 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN195764 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN186324 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00216"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/OffsetStorageWriter.java.html#216"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN195764 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00216] In method org.apache.kafka.connect.storage.OffsetStorageWriter.handleFinishWrite@POLYN186324 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

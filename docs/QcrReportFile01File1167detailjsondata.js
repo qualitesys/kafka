@@ -284,7 +284,7 @@ var maDataBlocs = {
  , "c1" : "00082"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.storage.ClusterConfigState.ClusterConfigState@POLYN206882 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.connect.storage.ClusterConfigState.ClusterConfigState@POLYN197442 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -305,7 +305,7 @@ var maDataBlocs = {
  , "c1" : "00152"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#152"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.storage.ClusterConfigState.connectorConfig@POLYN210330 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00152] In method org.apache.kafka.connect.storage.ClusterConfigState.connectorConfig@POLYN200890 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -340,7 +340,7 @@ var maDataBlocs = {
  , "c1" : "00181"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.storage.ClusterConfigState.taskConfig@POLYN211473 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method org.apache.kafka.connect.storage.ClusterConfigState.taskConfig@POLYN202033 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -368,7 +368,7 @@ var maDataBlocs = {
  , "c1" : "00204"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.storage.ClusterConfigState.allTaskConfigs@POLYN212424 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.connect.storage.ClusterConfigState.allTaskConfigs@POLYN202984 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -382,14 +382,14 @@ var maDataBlocs = {
  , "c1" : "00220"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.storage.ClusterConfigState.taskCount@POLYN213676 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.storage.ClusterConfigState.taskCount@POLYN204236 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.storage.ClusterConfigState.taskCount@POLYN213676 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.connect.storage.ClusterConfigState.taskCount@POLYN204236 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -417,14 +417,14 @@ var maDataBlocs = {
  , "c1" : "00243"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#243"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.storage.ClusterConfigState.tasks@POLYN214377 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00243] In method org.apache.kafka.connect.storage.ClusterConfigState.tasks@POLYN204937 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00248"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#248"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.connect.storage.ClusterConfigState.tasks@POLYN214377 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00248] In method org.apache.kafka.connect.storage.ClusterConfigState.tasks@POLYN204937 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -445,77 +445,77 @@ var maDataBlocs = {
  , "c1" : "00292"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#292"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  'ClusterConfigState{' should be converted to const"
+ , "c3" : "QC-JAV000010[00292] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  'ClusterConfigState{' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00293"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#293"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  'offset=' should be converted to const"
+ , "c3" : "QC-JAV000010[00293] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  'offset=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  ', sessionKey=' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  ', sessionKey=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  '[hidden]' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  '[hidden]' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00294"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#294"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  'null' should be converted to const"
+ , "c3" : "QC-JAV000010[00294] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  'null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00295"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#295"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  ', connectorTaskCounts=' should be converted to const"
+ , "c3" : "QC-JAV000010[00295] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  ', connectorTaskCounts=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  ', connectorConfigs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  ', connectorConfigs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  ', taskConfigs=' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  ', taskConfigs=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00298"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  ', inconsistentConnectors=' should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  ', inconsistentConnectors=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00299"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#299"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN216527 the MagicNumber/String  '}' should be converted to const"
+ , "c3" : "QC-JAV000010[00299] In method org.apache.kafka.connect.storage.ClusterConfigState.toString@POLYN207087 the MagicNumber/String  '}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -536,21 +536,21 @@ var maDataBlocs = {
  , "c1" : "00304"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#304"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN217101 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00304] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN207661 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN217101 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN207661 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00305"
  , "c1link" : "./qc/connect/runtime/src/main/java/org/apache/kafka/connect/storage/ClusterConfigState.java.html#305"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN217101 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00305] In method org.apache.kafka.connect.storage.ClusterConfigState.equals@POLYN207661 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

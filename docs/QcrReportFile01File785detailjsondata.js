@@ -169,161 +169,161 @@ var maDataBlocs = {
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'Invalid OAUTHBEARER client first message' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'Invalid OAUTHBEARER client first message' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'authzid' should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'authzid' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00055"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'kvpairs' should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'kvpairs' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00057"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#57"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00057] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00059"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#59"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00059] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'Invalid OAUTHBEARER client first message: 'auth' not specified' should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'Invalid OAUTHBEARER client first message: 'auth' not specified' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'Invalid OAUTHBEARER client first message: invalid 'auth' format' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'Invalid OAUTHBEARER client first message: invalid 'auth' format' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'bearer' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'bearer' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'scheme' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'scheme' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'Invalid scheme in OAUTHBEARER client first message: %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'Invalid scheme in OAUTHBEARER client first message: %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'scheme' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'scheme' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00074"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#74"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN183122 the MagicNumber/String  'token' should be converted to const"
+ , "c3" : "QC-JAV000010[00074] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN173682 the MagicNumber/String  'token' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN185600 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN176160 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN186057 the MagicNumber/String  'token value must not be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN176617 the MagicNumber/String  'token value must not be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN186057 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN176617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN186057 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN176617 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00111"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#111"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN186057 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00111] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.OAuthBearerClientInitialResponse@POLYN176617 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN186862 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN177422 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN186862 the MagicNumber/String  'a=' should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN177422 the MagicNumber/String  'a=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00126"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#126"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN186862 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00126] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN177422 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00129"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#129"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN186862 the MagicNumber/String  'n,%s,%sauth=Bearer %s%s%s%s' should be converted to const"
+ , "c3" : "QC-JAV000010[00129] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.toBytes@POLYN177422 the MagicNumber/String  'n,%s,%sauth=Bearer %s%s%s%s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -351,77 +351,77 @@ var maDataBlocs = {
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  'Extension name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  'Extension name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00170"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#170"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  ' is invalid' should be converted to const"
+ , "c3" : "QC-JAV000010[00170] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  ' is invalid' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  'Extension name ' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  'Extension name ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  ' is invalid' should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  ' is invalid' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  'Extension value (' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  'Extension value (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  ') for extension ' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  ') for extension ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00179"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#179"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN188343 the MagicNumber/String  ' is invalid' should be converted to const"
+ , "c3" : "QC-JAV000010[00179] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.validateExtensions@POLYN178903 the MagicNumber/String  ' is invalid' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.extensionsMessage@POLYN189580 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.extensionsMessage@POLYN180140 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.extensionsMessage@POLYN189580 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.extensionsMessage@POLYN180140 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/internals/OAuthBearerClientInitialResponse.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.extensionsMessage@POLYN189580 the MagicNumber/String  '=' should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.common.security.oauthbearer.internals.OAuthBearerClientInitialResponse.extensionsMessage@POLYN180140 the MagicNumber/String  '=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

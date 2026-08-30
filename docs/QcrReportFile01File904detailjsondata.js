@@ -127,7 +127,7 @@ var maDataBlocs = {
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN156524 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.utils.KafkaThread.daemon@POLYN147084 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -141,7 +141,7 @@ var maDataBlocs = {
  , "c1" : "00034"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#34"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN156749 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00034] In method org.apache.kafka.common.utils.KafkaThread.nonDaemon@POLYN147309 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -155,7 +155,7 @@ var maDataBlocs = {
  , "c1" : "00049"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/KafkaThread.java.html#49"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN157476 the MagicNumber/String  'Uncaught exception in thread '{}':' should be converted to const"
+ , "c3" : "QC-JAV000010[00049] In method org.apache.kafka.common.utils.KafkaThread.configureThread@POLYN148036 the MagicNumber/String  'Uncaught exception in thread '{}':' should be converted to const"
 }} 
 ]
 , 

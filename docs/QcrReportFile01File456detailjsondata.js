@@ -159,7 +159,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.KafkaMetric.KafkaMetric@POLYN161153 the MagicNumber/String  'Unsupported metric value provider of class ' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.metrics.KafkaMetric.KafkaMetric@POLYN151713 the MagicNumber/String  'Unsupported metric value provider of class ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -173,14 +173,14 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.KafkaMetric.metricValue@POLYN162144 the MagicNumber/String  'Not a valid metric: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.KafkaMetric.metricValue@POLYN152704 the MagicNumber/String  'Not a valid metric: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.metrics.KafkaMetric.measurable@POLYN162860 the MagicNumber/String  'Not a measurable: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.metrics.KafkaMetric.measurable@POLYN153420 the MagicNumber/String  'Not a measurable: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -201,7 +201,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/KafkaMetric.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.metrics.KafkaMetric.measurableValue@POLYN163146 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.metrics.KafkaMetric.measurableValue@POLYN153706 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

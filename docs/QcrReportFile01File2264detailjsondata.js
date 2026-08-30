@@ -142,7 +142,7 @@ var maDataBlocs = {
  , "c1" : "00037"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.Histogram.Histogram@POLYN178341 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.trogdor.workload.Histogram.Histogram@POLYN168901 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -163,28 +163,28 @@ var maDataBlocs = {
  , "c1" : "00047"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN178689 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN169249 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00048"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN178689 the MagicNumber/String  'invalid negative value.' should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN169249 the MagicNumber/String  'invalid negative value.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN178689 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN169249 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00056"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#56"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN178689 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00056] In method org.apache.kafka.trogdor.workload.Histogram.add@POLYN169249 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -198,7 +198,7 @@ var maDataBlocs = {
  , "c1" : "00145"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#145"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181760 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00145] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172320 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -219,98 +219,98 @@ var maDataBlocs = {
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00154"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#154"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0f should be converted to const"
+ , "c3" : "QC-JAV000010[00154] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00155"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#155"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00155] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00157"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#157"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  'Invalid percentiles fraction array.  Bad element ' should be converted to const"
+ , "c3" : "QC-JAV000010[00157] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  'Invalid percentiles fraction array.  Bad element ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00158"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#158"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  '.  The array must be sorted and non-negative.' should be converted to const"
+ , "c3" : "QC-JAV000010[00158] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  '.  The array must be sorted and non-negative.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  1.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  1.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  'Invalid percentiles fraction array.  Bad element ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  'Invalid percentiles fraction array.  Bad element ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  '.  Elements must be less than or equal to 1.' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  '.  Elements must be less than or equal to 1.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0f should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00168"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#168"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00168] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN181915 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.trogdor.workload.Histogram.summarize@POLYN172475 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,49 +324,49 @@ var maDataBlocs = {
  , "c1" : "00182"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#182"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00182] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00187"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#187"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00187] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00188"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#188"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00188] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00189"
  , "c1link" : "./qc/trogdor/src/main/java/org/apache/kafka/trogdor/workload/Histogram.java.html#189"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN184109 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00189] In method org.apache.kafka.trogdor.workload.Histogram.summarizePercentiles@POLYN174669 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

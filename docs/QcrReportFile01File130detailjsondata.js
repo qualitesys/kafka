@@ -143,7 +143,7 @@ var maDataBlocs = {
  , "c1" : "00040"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/RemoveMembersFromConsumerGroupOptions.java.html#40"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions.RemoveMembersFromConsumerGroupOptions@POLYN158047 the MagicNumber/String  'Invalid empty members has been provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00040] In method org.apache.kafka.clients.admin.RemoveMembersFromConsumerGroupOptions.RemoveMembersFromConsumerGroupOptions@POLYN148607 the MagicNumber/String  'Invalid empty members has been provided' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

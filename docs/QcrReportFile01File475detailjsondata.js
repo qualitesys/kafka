@@ -103,28 +103,28 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN158084 the MagicNumber/String  'Frequency(' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN148644 the MagicNumber/String  'Frequency(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN158084 the MagicNumber/String  'name=' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN148644 the MagicNumber/String  'name=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN158084 the MagicNumber/String  ', centerValue=' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN148644 the MagicNumber/String  ', centerValue=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Frequency.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN158084 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.stats.Frequency.toString@POLYN148644 the MagicNumber/String  ')' should be converted to const"
 }} 
 ]
 , 

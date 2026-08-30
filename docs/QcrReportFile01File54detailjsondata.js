@@ -94,7 +94,7 @@ var maDataBlocs = {
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/CreatePartitionsResult.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.CreatePartitionsResult.all@POLYN157690 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.clients.admin.CreatePartitionsResult.all@POLYN148250 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

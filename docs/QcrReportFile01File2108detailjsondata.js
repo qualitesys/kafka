@@ -409,7 +409,7 @@ var maDataBlocs = {
  , "c1" : "00144"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#144"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.RocksDBStore.init@POLYN260315 the MagicNumber/String  'Use RocksDBStore#init(StateStoreContext, StateStore) instead.' should be converted to const"
+ , "c3" : "QC-JAV000010[00144] In method org.apache.kafka.streams.state.internals.RocksDBStore.init@POLYN250875 the MagicNumber/String  'Use RocksDBStore#init(StateStoreContext, StateStore) instead.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -430,14 +430,14 @@ var maDataBlocs = {
  , "c1" : "00156"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#156"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.internals.RocksDBStore.init@POLYN260687 the MagicNumber/String  '.position' should be converted to const"
+ , "c3" : "QC-JAV000010[00156] In method org.apache.kafka.streams.state.internals.RocksDBStore.init@POLYN251247 the MagicNumber/String  '.position' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00171"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#171"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.RocksDBStore.init@POLYN260687 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00171] In method org.apache.kafka.streams.state.internals.RocksDBStore.init@POLYN251247 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -458,49 +458,49 @@ var maDataBlocs = {
  , "c1" : "00196"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#196"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00196] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00197"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00209"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#209"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00209] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00212"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#212"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00212] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00217"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#217"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00217] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00235"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#235"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN261936 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00235] In method org.apache.kafka.streams.state.internals.RocksDBStore.openDB@POLYN252496 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -521,56 +521,56 @@ var maDataBlocs = {
  , "c1" : "00241"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#241"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.streams.state.internals.RocksDBStore.maybeSetUpStatistics@POLYN265140 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00241] In method org.apache.kafka.streams.state.internals.RocksDBStore.maybeSetUpStatistics@POLYN255700 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.state.internals.RocksDBStore.maybeSetUpStatistics@POLYN265140 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.streams.state.internals.RocksDBStore.maybeSetUpStatistics@POLYN255700 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00255"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#255"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN265757 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00255] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN256317 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00260"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#260"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN265757 the MagicNumber/String  'The used block-based table format configuration does not expose the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00260] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN256317 the MagicNumber/String  'The used block-based table format configuration does not expose the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN265757 the MagicNumber/String  'block cache. Use the BlockBasedTableConfig instance provided by Options#tableFormatConfig() to configure ' should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN256317 the MagicNumber/String  'block cache. Use the BlockBasedTableConfig instance provided by Options#tableFormatConfig() to configure ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00262"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN265757 the MagicNumber/String  'the block-based table format of RocksDB. Do not provide a new instance of BlockBasedTableConfig to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN256317 the MagicNumber/String  'the block-based table format of RocksDB. Do not provide a new instance of BlockBasedTableConfig to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00263"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#263"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN265757 the MagicNumber/String  'the RocksDB options.' should be converted to const"
+ , "c3" : "QC-JAV000010[00263] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN256317 the MagicNumber/String  'the RocksDB options.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00265"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#265"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN265757 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00265] In method org.apache.kafka.streams.state.internals.RocksDBStore.addValueProvidersToMetricsRecorder@POLYN256317 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -584,42 +584,42 @@ var maDataBlocs = {
  , "c1" : "00277"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#277"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.state.internals.RocksDBStore.openRocksDB@POLYN266699 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00277] In method org.apache.kafka.streams.state.internals.RocksDBStore.openRocksDB@POLYN257259 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.RocksDBStore.openRocksDB@POLYN266699 the MagicNumber/String  'Error opening store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.RocksDBStore.openRocksDB@POLYN257259 the MagicNumber/String  'Error opening store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.RocksDBStore.openRocksDB@POLYN266699 the MagicNumber/String  ' at location ' should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.streams.state.internals.RocksDBStore.openRocksDB@POLYN257259 the MagicNumber/String  ' at location ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00290"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#290"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.state.internals.RocksDBStore.persistent@POLYN267822 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00290] In method org.apache.kafka.streams.state.internals.RocksDBStore.persistent@POLYN258382 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.state.internals.RocksDBStore.validateStoreOpen@POLYN268002 the MagicNumber/String  'Store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.state.internals.RocksDBStore.validateStoreOpen@POLYN258562 the MagicNumber/String  'Store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.state.internals.RocksDBStore.validateStoreOpen@POLYN268002 the MagicNumber/String  ' is currently closed' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.streams.state.internals.RocksDBStore.validateStoreOpen@POLYN258562 the MagicNumber/String  ' is currently closed' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -647,7 +647,7 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN268242 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.streams.state.internals.RocksDBStore.put@POLYN258802 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -668,14 +668,14 @@ var maDataBlocs = {
  , "c1" : "00317"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.state.internals.RocksDBStore.putIfAbsent@POLYN268720 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.streams.state.internals.RocksDBStore.putIfAbsent@POLYN259280 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00319"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#319"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.state.internals.RocksDBStore.putIfAbsent@POLYN268720 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00319] In method org.apache.kafka.streams.state.internals.RocksDBStore.putIfAbsent@POLYN259280 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -689,7 +689,7 @@ var maDataBlocs = {
  , "c1" : "00332"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#332"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.state.internals.RocksDBStore.putAll@POLYN269226 the MagicNumber/String  'Error while batch writing to store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00332] In method org.apache.kafka.streams.state.internals.RocksDBStore.putAll@POLYN259786 the MagicNumber/String  'Error while batch writing to store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -745,7 +745,7 @@ var maDataBlocs = {
  , "c1" : "00373"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#373"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.state.internals.RocksDBStore.get@POLYN271160 the MagicNumber/String  'Error while getting value for key from store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00373] In method org.apache.kafka.streams.state.internals.RocksDBStore.get@POLYN261720 the MagicNumber/String  'Error while getting value for key from store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -773,21 +773,21 @@ var maDataBlocs = {
  , "c1" : "00379"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.state.internals.RocksDBStore.delete@POLYN271587 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.streams.state.internals.RocksDBStore.delete@POLYN262147 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00385"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#385"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.state.internals.RocksDBStore.delete@POLYN271587 the MagicNumber/String  'Error while getting value for key from store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00385] In method org.apache.kafka.streams.state.internals.RocksDBStore.delete@POLYN262147 the MagicNumber/String  'Error while getting value for key from store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00387"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#387"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.streams.state.internals.RocksDBStore.delete@POLYN271587 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00387] In method org.apache.kafka.streams.state.internals.RocksDBStore.delete@POLYN262147 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -808,14 +808,14 @@ var maDataBlocs = {
  , "c1" : "00392"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#392"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.state.internals.RocksDBStore.deleteRange@POLYN272210 the MagicNumber/String  'keyFrom cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00392] In method org.apache.kafka.streams.state.internals.RocksDBStore.deleteRange@POLYN262770 the MagicNumber/String  'keyFrom cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00393"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#393"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.state.internals.RocksDBStore.deleteRange@POLYN272210 the MagicNumber/String  'keyTo cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00393] In method org.apache.kafka.streams.state.internals.RocksDBStore.deleteRange@POLYN262770 the MagicNumber/String  'keyTo cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -836,7 +836,7 @@ var maDataBlocs = {
  , "c1" : "00404"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#404"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN272780 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00404] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN263340 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -857,7 +857,7 @@ var maDataBlocs = {
  , "c1" : "00410"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#410"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.state.internals.RocksDBStore.reverseRange@POLYN273058 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00410] In method org.apache.kafka.streams.state.internals.RocksDBStore.reverseRange@POLYN263618 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -885,35 +885,35 @@ var maDataBlocs = {
  , "c1" : "00416"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN273312 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN263872 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00417"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#417"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN273312 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00417] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN263872 the MagicNumber/String  'Returning empty iterator for fetch with invalid key range: from &amp;gt; to. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00418"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#418"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN273312 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00418] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN263872 the MagicNumber/String  'This may be due to range arguments set in the wrong order, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00419"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#419"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN273312 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
+ , "c3" : "QC-JAV000010[00419] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN263872 the MagicNumber/String  'or serdes that don't preserve ordering when lexicographically comparing the serialized bytes. ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00420"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#420"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN273312 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
+ , "c3" : "QC-JAV000010[00420] In method org.apache.kafka.streams.state.internals.RocksDBStore.range@POLYN263872 the MagicNumber/String  'Note that the built-in numerical serdes do not follow this for negative numbers' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -927,14 +927,14 @@ var maDataBlocs = {
  , "c1" : "00434"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#434"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.streams.state.internals.RocksDBStore.all@POLYN274279 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00434] In method org.apache.kafka.streams.state.internals.RocksDBStore.all@POLYN264839 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00439"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#439"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.streams.state.internals.RocksDBStore.reverseAll@POLYN274455 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00439] In method org.apache.kafka.streams.state.internals.RocksDBStore.reverseAll@POLYN265015 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -948,7 +948,7 @@ var maDataBlocs = {
  , "c1" : "00467"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#467"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.streams.state.internals.RocksDBStore.approximateNumEntries@POLYN275388 the MagicNumber/String  'Error fetching property from store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00467] In method org.apache.kafka.streams.state.internals.RocksDBStore.approximateNumEntries@POLYN265948 the MagicNumber/String  'Error fetching property from store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -962,7 +962,7 @@ var maDataBlocs = {
  , "c1" : "00478"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#478"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.streams.state.internals.RocksDBStore.isOverflowing@POLYN275940 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00478] In method org.apache.kafka.streams.state.internals.RocksDBStore.isOverflowing@POLYN266500 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -976,14 +976,14 @@ var maDataBlocs = {
  , "c1" : "00483"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#483"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.streams.state.internals.RocksDBStore.flush@POLYN276086 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00483] In method org.apache.kafka.streams.state.internals.RocksDBStore.flush@POLYN266646 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00489"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#489"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.state.internals.RocksDBStore.flush@POLYN276086 the MagicNumber/String  'Error while executing flush from store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00489] In method org.apache.kafka.streams.state.internals.RocksDBStore.flush@POLYN266646 the MagicNumber/String  'Error while executing flush from store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1018,70 +1018,70 @@ var maDataBlocs = {
  , "c1" : "00510"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#510"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00510] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00513] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00515"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#515"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00515] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00530"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#530"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00530] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00531"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#531"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00531] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00532"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#532"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00532] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00533"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#533"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00533] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00534"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#534"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00534] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00535"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#535"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00535] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00536"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#536"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN276961 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00536] In method org.apache.kafka.streams.state.internals.RocksDBStore.close@POLYN267521 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1095,14 +1095,14 @@ var maDataBlocs = {
  , "c1" : "00544"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#544"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00544] In method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN268789 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00545"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#545"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN278229 the MagicNumber/String  'Closing {} open iterators for store {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00545] In method org.apache.kafka.streams.state.internals.RocksDBStore.closeOpenIterators@POLYN268789 the MagicNumber/String  'Closing {} open iterators for store {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1123,21 +1123,21 @@ var maDataBlocs = {
  , "c1" : "00607"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#607"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.put@POLYN280738 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00607] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.put@POLYN271298 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00612"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#612"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.put@POLYN280738 the MagicNumber/String  'Error while removing key from store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00612] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.put@POLYN271298 the MagicNumber/String  'Error while removing key from store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00619"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#619"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.put@POLYN280738 the MagicNumber/String  'Error while putting key/value into store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00619] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.put@POLYN271298 the MagicNumber/String  'Error while putting key/value into store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1151,7 +1151,7 @@ var maDataBlocs = {
  , "c1" : "00628"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#628"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00628] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.prepareBatch@POLYN281581 the MagicNumber/String  'key cannot be null' should be converted to const"
+ , "c3" : "QC-JAV000010[00628] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.prepareBatch@POLYN272141 the MagicNumber/String  'key cannot be null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1179,7 +1179,7 @@ var maDataBlocs = {
  , "c1" : "00654"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#654"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.range@POLYN282605 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00654] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.range@POLYN273165 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1193,7 +1193,7 @@ var maDataBlocs = {
  , "c1" : "00664"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#664"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.deleteRange@POLYN282989 the MagicNumber/String  'Error while removing key from store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00664] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.deleteRange@POLYN273549 the MagicNumber/String  'Error while removing key from store ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1214,21 +1214,21 @@ var maDataBlocs = {
  , "c1" : "00688"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#688"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.prefixScan@POLYN284033 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00688] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.prefixScan@POLYN274593 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00689"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#689"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00689] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.prefixScan@POLYN284033 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00689] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.prefixScan@POLYN274593 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00695"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#695"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.approximateNumEntries@POLYN284472 the MagicNumber/String  'rocksdb.estimate-num-keys' should be converted to const"
+ , "c3" : "QC-JAV000010[00695] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.approximateNumEntries@POLYN275032 the MagicNumber/String  'rocksdb.estimate-num-keys' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1256,7 +1256,7 @@ var maDataBlocs = {
  , "c1" : "00715"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#715"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.addToBatch@POLYN285241 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00715] In method org.apache.kafka.streams.state.internals.RocksDBStore.SingleColumnFamilyAccessor.addToBatch@POLYN275801 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -1270,7 +1270,7 @@ var maDataBlocs = {
  , "c1" : "00743"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBStore.java.html#743"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.streams.state.internals.RocksDBStore.restoreBatch@POLYN285795 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
+ , "c3" : "QC-JAV000010[00743] In method org.apache.kafka.streams.state.internals.RocksDBStore.restoreBatch@POLYN276355 the MagicNumber/String  'Error restoring batch to store ' should be converted to const"
 }} 
 ]
 , 

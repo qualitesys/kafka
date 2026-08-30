@@ -179,21 +179,21 @@ var maDataBlocs = {
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.retrieve@POLYN207000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.retrieve@POLYN197560 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.retrieve@POLYN207000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.retrieve@POLYN197560 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.retrieve@POLYN207000 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.retrieve@POLYN197560 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -221,112 +221,112 @@ var maDataBlocs = {
  , "c1" : "00202"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#202"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'handleInput - starting post for {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00202] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'handleInput - starting post for {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00203"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#203"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'POST' should be converted to const"
+ , "c3" : "QC-JAV000010[00203] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'POST' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'Accept' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'Accept' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'application/json' should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'application/json' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00206"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#206"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00206] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'Cache-Control' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'Cache-Control' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00211"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#211"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'no-cache' should be converted to const"
+ , "c3" : "QC-JAV000010[00211] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'no-cache' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00213"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#213"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00213] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00214"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#214"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'Content-Length' should be converted to const"
+ , "c3" : "QC-JAV000010[00214] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'Content-Length' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00218"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#218"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00218] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00220"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#220"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00220] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00223"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#223"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00223] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00226"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#226"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'handleInput - preparing to connect to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00226] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'handleInput - preparing to connect to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00229"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#229"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00229] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00232"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN209339 the MagicNumber/String  'handleInput - preparing to write request body to {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleInput@POLYN199899 the MagicNumber/String  'handleInput - preparing to write request body to {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -347,70 +347,70 @@ var maDataBlocs = {
  , "c1" : "00240"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#240"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'handleOutput - responseCode: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00240] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'handleOutput - responseCode: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00246"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#246"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'handleOutput - preparing to read response body from {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00246] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'handleOutput - preparing to read response body from {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00250"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#250"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'handleOutput - error retrieving data' should be converted to const"
+ , "c3" : "QC-JAV000010[00250] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'handleOutput - error retrieving data' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00254"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#254"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'handleOutput - responseCode: {}, response: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00254] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'handleOutput - responseCode: {}, response: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00256"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#256"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00256] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00257"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#257"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'The token endpoint response was unexpectedly empty despite response code %s from %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00257] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'The token endpoint response was unexpectedly empty despite response code %s from %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00261"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#261"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'handleOutput - error response code: {}, error response body: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00261] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'handleOutput - error response code: {}, error response body: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00266"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#266"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'The response code %s was encountered reading the token endpoint response; will not attempt further retries' should be converted to const"
+ , "c3" : "QC-JAV000010[00266] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'The response code %s was encountered reading the token endpoint response; will not attempt further retries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00270"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#270"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN211600 the MagicNumber/String  'The unexpected response code %s was encountered reading the token endpoint response' should be converted to const"
+ , "c3" : "QC-JAV000010[00270] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.handleOutput@POLYN202160 the MagicNumber/String  'The unexpected response code %s was encountered reading the token endpoint response' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -445,21 +445,21 @@ var maDataBlocs = {
  , "c1" : "00276"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#276"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.copy@POLYN213661 the MagicNumber/String  4096 should be converted to const"
+ , "c3" : "QC-JAV000010[00276] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.copy@POLYN204221 the MagicNumber/String  4096 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00279"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#279"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.copy@POLYN213661 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00279] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.copy@POLYN204221 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00280"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.copy@POLYN213661 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.copy@POLYN204221 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -480,49 +480,49 @@ var maDataBlocs = {
  , "c1" : "00284"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  'parseAccessToken - responseBody: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  'parseAccessToken - responseBody: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00287"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#287"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  '/access_token' should be converted to const"
+ , "c3" : "QC-JAV000010[00287] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  '/access_token' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00289"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#289"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00289] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00297"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#297"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  '%s (trimmed to first %s characters out of %s total)' should be converted to const"
+ , "c3" : "QC-JAV000010[00297] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  '%s (trimmed to first %s characters out of %s total)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00300"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#300"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  'The token endpoint response did not contain an access_token value. Response: (%s)' should be converted to const"
+ , "c3" : "QC-JAV000010[00300] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  'The token endpoint response did not contain an access_token value. Response: (%s)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN214168 the MagicNumber/String  'the token endpoint response's access_token JSON attribute' should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.parseAccessToken@POLYN204728 the MagicNumber/String  'the token endpoint response's access_token JSON attribute' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -536,28 +536,28 @@ var maDataBlocs = {
  , "c1" : "00307"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#307"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN215447 the MagicNumber/String  'the token endpoint request client ID parameter' should be converted to const"
+ , "c3" : "QC-JAV000010[00307] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN206007 the MagicNumber/String  'the token endpoint request client ID parameter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN215447 the MagicNumber/String  'the token endpoint request client secret parameter' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN206007 the MagicNumber/String  'the token endpoint request client secret parameter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00310"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#310"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN215447 the MagicNumber/String  '%s:%s' should be converted to const"
+ , "c3" : "QC-JAV000010[00310] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN206007 the MagicNumber/String  '%s:%s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN215447 the MagicNumber/String  'Basic %s' should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatAuthorizationHeader@POLYN206007 the MagicNumber/String  'Basic %s' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -571,28 +571,28 @@ var maDataBlocs = {
  , "c1" : "00318"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#318"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN216158 the MagicNumber/String  'grant_type=client_credentials' should be converted to const"
+ , "c3" : "QC-JAV000010[00318] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN206718 the MagicNumber/String  'grant_type=client_credentials' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN216158 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN206718 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00323"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#323"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN216158 the MagicNumber/String  '&amp;scope=' should be converted to const"
+ , "c3" : "QC-JAV000010[00323] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN206718 the MagicNumber/String  '&amp;scope=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00329"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#329"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN216158 the MagicNumber/String  'Encoding %s not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00329] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.formatRequestBody@POLYN206718 the MagicNumber/String  'Encoding %s not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -606,28 +606,28 @@ var maDataBlocs = {
  , "c1" : "00334"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#334"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN217161 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00334] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN207721 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00335"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#335"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN217161 the MagicNumber/String  'The value for %s must be non-null' should be converted to const"
+ , "c3" : "QC-JAV000010[00335] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN207721 the MagicNumber/String  'The value for %s must be non-null' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00338"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#338"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN217161 the MagicNumber/String  'The value for %s must be non-empty' should be converted to const"
+ , "c3" : "QC-JAV000010[00338] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN207721 the MagicNumber/String  'The value for %s must be non-empty' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00343"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/HttpAccessTokenRetriever.java.html#343"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN217161 the MagicNumber/String  'The value for %s must not contain only whitespace' should be converted to const"
+ , "c3" : "QC-JAV000010[00343] In method org.apache.kafka.common.security.oauthbearer.secured.HttpAccessTokenRetriever.sanitizeString@POLYN207721 the MagicNumber/String  'The value for %s must not contain only whitespace' should be converted to const"
 }} 
 ]
 , 

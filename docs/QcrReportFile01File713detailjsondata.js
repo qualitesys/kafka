@@ -170,7 +170,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/RenewDelegationTokenResponse.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.RenewDelegationTokenResponse.shouldClientThrottle@POLYN159235 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.RenewDelegationTokenResponse.shouldClientThrottle@POLYN149795 the MagicNumber/String  1 should be converted to const"
 }} 
 ]
 , 

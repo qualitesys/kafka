@@ -251,28 +251,28 @@ var maDataBlocs = {
  , "c1" : "00085"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#85"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.image.ConfigurationsDelta.apply@POLYN169063 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00085] In method org.apache.kafka.image.ConfigurationsDelta.apply@POLYN159623 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00107"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#107"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.image.ConfigurationsDelta.toString@POLYN170655 the MagicNumber/String  'ConfigurationsDelta(' should be converted to const"
+ , "c3" : "QC-JAV000010[00107] In method org.apache.kafka.image.ConfigurationsDelta.toString@POLYN161215 the MagicNumber/String  'ConfigurationsDelta(' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00108"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#108"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.image.ConfigurationsDelta.toString@POLYN170655 the MagicNumber/String  'changes=' should be converted to const"
+ , "c3" : "QC-JAV000010[00108] In method org.apache.kafka.image.ConfigurationsDelta.toString@POLYN161215 the MagicNumber/String  'changes=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00109"
  , "c1link" : "./qc/metadata/src/main/java/org/apache/kafka/image/ConfigurationsDelta.java.html#109"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.image.ConfigurationsDelta.toString@POLYN170655 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00109] In method org.apache.kafka.image.ConfigurationsDelta.toString@POLYN161215 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

@@ -91,28 +91,28 @@ var maDataBlocs = {
  , "c1" : "00023"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#23"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN154812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00023] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN145372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00024"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#24"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN154812 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00024] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN145372 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00030"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#30"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN154812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00030] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN145372 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/serialization/ByteBufferSerializer.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN154812 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.serialization.ByteBufferSerializer.serialize@POLYN145372 the MagicNumber/String  0 should be converted to const"
 }} 
 ]
 , 

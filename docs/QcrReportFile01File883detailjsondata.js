@@ -179,14 +179,14 @@ var maDataBlocs = {
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN172743 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN163303 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00068"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#68"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN172743 the MagicNumber/String  'Error registering AppInfo mbean' should be converted to const"
+ , "c3" : "QC-JAV000010[00068] In method org.apache.kafka.common.utils.AppInfoParser.registerAppInfo@POLYN163303 the MagicNumber/String  'Error registering AppInfo mbean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -207,21 +207,21 @@ var maDataBlocs = {
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN173527 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN164087 the MagicNumber/String  ':type=app-info,id=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN173527 the MagicNumber/String  'Error unregistering AppInfo mbean' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN164087 the MagicNumber/String  'Error unregistering AppInfo mbean' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN173527 the MagicNumber/String  'App info {} for {} unregistered' should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.utils.AppInfoParser.unregisterAppInfo@POLYN164087 the MagicNumber/String  'App info {} for {} unregistered' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -242,14 +242,14 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN174410 the MagicNumber/String  'app-info' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN164970 the MagicNumber/String  'app-info' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN174410 the MagicNumber/String  'Metric indicating ' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.utils.AppInfoParser.metricName@POLYN164970 the MagicNumber/String  'Metric indicating ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -270,28 +270,28 @@ var maDataBlocs = {
  , "c1" : "00092"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#92"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN174649 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00092] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN165209 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN174649 the MagicNumber/String  'version' should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN165209 the MagicNumber/String  'version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN174649 the MagicNumber/String  'commit-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN165209 the MagicNumber/String  'commit-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00095"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#95"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN174649 the MagicNumber/String  'start-time-ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00095] In method org.apache.kafka.common.utils.AppInfoParser.registerMetrics@POLYN165209 the MagicNumber/String  'start-time-ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -305,28 +305,28 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN175466 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN166026 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN175466 the MagicNumber/String  'version' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN166026 the MagicNumber/String  'version' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN175466 the MagicNumber/String  'commit-id' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN166026 the MagicNumber/String  'commit-id' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN175466 the MagicNumber/String  'start-time-ms' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.utils.AppInfoParser.unregisterMetrics@POLYN166026 the MagicNumber/String  'start-time-ms' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -340,21 +340,21 @@ var maDataBlocs = {
  , "c1" : "00119"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#119"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN176232 the MagicNumber/String  'Kafka version: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00119] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN166792 the MagicNumber/String  'Kafka version: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN176232 the MagicNumber/String  'Kafka commitId: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN166792 the MagicNumber/String  'Kafka commitId: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/utils/AppInfoParser.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN176232 the MagicNumber/String  'Kafka startTimeMs: {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method org.apache.kafka.common.utils.AppInfoParser.AppInfo.AppInfo@POLYN166792 the MagicNumber/String  'Kafka startTimeMs: {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

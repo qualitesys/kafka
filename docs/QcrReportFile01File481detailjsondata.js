@@ -145,49 +145,49 @@ var maDataBlocs = {
  , "c1" : "00048"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#48"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN171804 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00048] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN162364 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN172089 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN162649 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00054"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#54"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN172089 the MagicNumber/String  4 should be converted to const"
+ , "c3" : "QC-JAV000010[00054] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN162649 the MagicNumber/String  4 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN172089 the MagicNumber/String  0.0d should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN162649 the MagicNumber/String  0.0d should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN172089 the MagicNumber/String  'Linear bucket sizing requires min to be 0.0.' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN162649 the MagicNumber/String  'Linear bucket sizing requires min to be 0.0.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN172089 the MagicNumber/String  'Unknown bucket type: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.metrics.stats.Percentiles.Percentiles@POLYN162649 the MagicNumber/String  'Unknown bucket type: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00075"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#75"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.metrics.stats.Percentiles.stats@POLYN173317 the MagicNumber/String  100.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00075] In method org.apache.kafka.common.metrics.stats.Percentiles.stats@POLYN163877 the MagicNumber/String  100.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -236,28 +236,28 @@ var maDataBlocs = {
  , "c1" : "00083"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#83"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN174012 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00083] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN164572 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00086"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#86"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN174012 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00086] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN164572 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN174012 the MagicNumber/String  0.0f should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN164572 the MagicNumber/String  0.0f should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00090"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#90"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN174012 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00090] In method org.apache.kafka.common.metrics.stats.Percentiles.value@POLYN164572 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -271,7 +271,7 @@ var maDataBlocs = {
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.metrics.stats.Percentiles.combine@POLYN175352 the MagicNumber/String  0.5 should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.metrics.stats.Percentiles.combine@POLYN165912 the MagicNumber/String  0.5 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -292,21 +292,21 @@ var maDataBlocs = {
  , "c1" : "00116"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#116"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN175806 the MagicNumber/String  'Received value {} which is greater than max recordable value {}, will be pinned to the max value' should be converted to const"
+ , "c3" : "QC-JAV000010[00116] In method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN166366 the MagicNumber/String  'Received value {} which is greater than max recordable value {}, will be pinned to the max value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN175806 the MagicNumber/String  'Received value {} which is less than min recordable value {}, will be pinned to the min value' should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method org.apache.kafka.common.metrics.stats.Percentiles.update@POLYN166366 the MagicNumber/String  'Received value {} which is less than min recordable value {}, will be pinned to the min value' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/metrics/stats/Percentiles.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.metrics.stats.Percentiles.HistogramSample.HistogramSample@POLYN176796 the MagicNumber/String  0.0 should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.metrics.stats.Percentiles.HistogramSample.HistogramSample@POLYN167356 the MagicNumber/String  0.0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

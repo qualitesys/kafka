@@ -139,7 +139,7 @@ var maDataBlocs = {
  , "c1" : "00055"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultConfigPropertyFilter.java.html#55"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter.excluded@POLYN161378 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00055] In method org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter.excluded@POLYN151938 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -153,7 +153,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/connect/mirror/src/main/java/org/apache/kafka/connect/mirror/DefaultConfigPropertyFilter.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter.ConfigPropertyFilterConfig.ConfigPropertyFilterConfig@POLYN162209 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.mirror.DefaultConfigPropertyFilter.ConfigPropertyFilterConfig.ConfigPropertyFilterConfig@POLYN152769 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

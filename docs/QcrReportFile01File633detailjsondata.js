@@ -175,28 +175,28 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN176276 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN166836 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00081"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#81"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN176276 the MagicNumber/String  'Version 0 does not support pattern type ' should be converted to const"
+ , "c3" : "QC-JAV000010[00081] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN166836 the MagicNumber/String  'Version 0 does not support pattern type ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00082"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#82"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN176276 the MagicNumber/String  ' (only LITERAL and ANY are supported)' should be converted to const"
+ , "c3" : "QC-JAV000010[00082] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN166836 the MagicNumber/String  ' (only LITERAL and ANY are supported)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/DeleteAclsRequest.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN176276 the MagicNumber/String  'Filters contain UNKNOWN elements, filters: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.requests.DeleteAclsRequest.normalizeAndValidate@POLYN166836 the MagicNumber/String  'Filters contain UNKNOWN elements, filters: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

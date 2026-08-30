@@ -261,7 +261,7 @@ var maDataBlocs = {
  , "c1" : "00066"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#66"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.AbstractResponse.errorCounts@POLYN196121 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00066] In method org.apache.kafka.common.requests.AbstractResponse.errorCounts@POLYN186681 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -282,7 +282,7 @@ var maDataBlocs = {
  , "c1" : "00070"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#70"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.AbstractResponse.errorCounts@POLYN196329 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00070] In method org.apache.kafka.common.requests.AbstractResponse.errorCounts@POLYN186889 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -324,14 +324,14 @@ var maDataBlocs = {
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.AbstractResponse.updateErrorCounts@POLYN197559 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.requests.AbstractResponse.updateErrorCounts@POLYN188119 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00089"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#89"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.AbstractResponse.updateErrorCounts@POLYN197559 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00089] In method org.apache.kafka.common.requests.AbstractResponse.updateErrorCounts@POLYN188119 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -352,21 +352,21 @@ var maDataBlocs = {
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN198044 the MagicNumber/String  'Correlation id for response (' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN188604 the MagicNumber/String  'Correlation id for response (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00104"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#104"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN198044 the MagicNumber/String  ') does not match request (' should be converted to const"
+ , "c3" : "QC-JAV000010[00104] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN188604 the MagicNumber/String  ') does not match request (' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00105"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#105"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN198044 the MagicNumber/String  '), request header: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00105] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN188604 the MagicNumber/String  '), request header: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -380,14 +380,14 @@ var maDataBlocs = {
  , "c1" : "00251"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#251"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN199001 the MagicNumber/String  'ApiKey %s is not currently handled in  parseResponse , the ' should be converted to const"
+ , "c3" : "QC-JAV000010[00251] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN189561 the MagicNumber/String  'ApiKey %s is not currently handled in  parseResponse , the ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00252"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#252"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN199001 the MagicNumber/String  'code should be updated to do so.' should be converted to const"
+ , "c3" : "QC-JAV000010[00252] In method org.apache.kafka.common.requests.AbstractResponse.parseResponse@POLYN189561 the MagicNumber/String  'code should be updated to do so.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -401,7 +401,7 @@ var maDataBlocs = {
  , "c1" : "00262"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/AbstractResponse.java.html#262"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.common.requests.AbstractResponse.shouldClientThrottle@POLYN208297 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00262] In method org.apache.kafka.common.requests.AbstractResponse.shouldClientThrottle@POLYN198857 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 

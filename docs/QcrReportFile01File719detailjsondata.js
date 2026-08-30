@@ -118,7 +118,7 @@ var maDataBlocs = {
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/SaslAuthenticateRequest.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN161489 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.requests.SaslAuthenticateRequest.Builder.toString@POLYN152049 the MagicNumber/String  '(type=SaslAuthenticateRequest)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

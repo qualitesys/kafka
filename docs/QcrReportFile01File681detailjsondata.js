@@ -152,7 +152,7 @@ var maDataBlocs = {
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/requests/HeartbeatResponse.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.HeartbeatResponse.shouldClientThrottle@POLYN159597 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.requests.HeartbeatResponse.shouldClientThrottle@POLYN150157 the MagicNumber/String  2 should be converted to const"
 }} 
 ]
 , 

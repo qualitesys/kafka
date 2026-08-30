@@ -720,210 +720,210 @@ var maDataBlocs = {
  , "c1" : "00280"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#280"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00280] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00283"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#283"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'The bootstrap servers property should be specified' should be converted to const"
+ , "c3" : "QC-JAV000010[00283] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'The bootstrap servers property should be specified' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00284"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#284"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00284] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00285"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'Topic must be specified by the Kafka log4j appender' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'Topic must be specified by the Kafka log4j appender' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00286"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#286"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00286] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00296"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#296"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00296] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00298"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#298"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00298] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'SSL' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'SSL' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00302"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#302"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'SASL' should be converted to const"
+ , "c3" : "QC-JAV000010[00302] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'SASL' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00303"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#303"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00303] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'SSL' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'SSL' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00308"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00313"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#313"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00313] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'SASL' should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'SASL' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00320"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#320"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00320] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00322"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'java.security.auth.login.config' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'java.security.auth.login.config' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00324"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#324"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00324] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00325"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#325"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'java.security.krb5.conf' should be converted to const"
+ , "c3" : "QC-JAV000010[00325] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'java.security.krb5.conf' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00327"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#327"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00327] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00330"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#330"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00330] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00333"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00340"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#340"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'Kafka producer connected to ' should be converted to const"
+ , "c3" : "QC-JAV000010[00340] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'Kafka producer connected to ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00341"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#341"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN206597 the MagicNumber/String  'Logging for topic: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00341] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.activateOptions@POLYN197157 the MagicNumber/String  'Logging for topic: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -951,21 +951,21 @@ var maDataBlocs = {
  , "c1" : "00351"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.append@POLYN211146 the MagicNumber/String  '[' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.append@POLYN201706 the MagicNumber/String  '[' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00351"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#351"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.append@POLYN211146 the MagicNumber/String  ']' should be converted to const"
+ , "c3" : "QC-JAV000010[00351] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.append@POLYN201706 the MagicNumber/String  ']' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00360"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#360"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.append@POLYN211146 the MagicNumber/String  'Exception while getting response' should be converted to const"
+ , "c3" : "QC-JAV000010[00360] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.append@POLYN201706 the MagicNumber/String  'Exception while getting response' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -986,21 +986,21 @@ var maDataBlocs = {
  , "c1" : "00366"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#366"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.subAppend@POLYN212131 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00366] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.subAppend@POLYN202691 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00372"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#372"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.close@POLYN212414 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00372] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.close@POLYN202974 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00379"
  , "c1link" : "./qc/log4j-appender/src/main/java/org/apache/kafka/log4jappender/KafkaLog4jAppender.java.html#379"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.requiresLayout@POLYN212666 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00379] In method org.apache.kafka.log4jappender.KafkaLog4jAppender.requiresLayout@POLYN203226 the MagicNumber/String  true should be converted to const"
 }} 
 ]
 , 

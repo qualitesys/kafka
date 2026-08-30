@@ -173,7 +173,7 @@ var maDataBlocs = {
  , "c1" : "00079"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.initializeConfiguration@POLYN174113 the MagicNumber/String  'Failed to retrieve JAAS configuration' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.initializeConfiguration@POLYN164673 the MagicNumber/String  'Failed to retrieve JAAS configuration' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -194,14 +194,14 @@ var maDataBlocs = {
  , "c1" : "00097"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN174871 the MagicNumber/String  'Registering JAAS basic auth filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN165431 the MagicNumber/String  'Registering JAAS basic auth filter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00099"
  , "c1link" : "./qc/connect/basic-auth-extension/src/main/java/org/apache/kafka/connect/rest/basic/auth/extension/BasicAuthSecurityRestExtension.java.html#99"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN174871 the MagicNumber/String  'Finished registering JAAS basic auth filter' should be converted to const"
+ , "c3" : "QC-JAV000010[00099] In method org.apache.kafka.connect.rest.basic.auth.extension.BasicAuthSecurityRestExtension.register@POLYN165431 the MagicNumber/String  'Finished registering JAAS basic auth filter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

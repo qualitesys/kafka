@@ -252,14 +252,14 @@ var maDataBlocs = {
  , "c1" : "00096"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#96"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN180399 the MagicNumber/String  'Checkpoint{consumerGroupId=%s, topicPartition=%s, ' should be converted to const"
+ , "c3" : "QC-JAV000010[00096] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN170959 the MagicNumber/String  'Checkpoint{consumerGroupId=%s, topicPartition=%s, ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00097"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#97"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN180399 the MagicNumber/String  'upstreamOffset=%d, downstreamOffset=%d, metatadata=%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00097] In method org.apache.kafka.connect.mirror.Checkpoint.toString@POLYN170959 the MagicNumber/String  'upstreamOffset=%d, downstreamOffset=%d, metatadata=%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -294,7 +294,7 @@ var maDataBlocs = {
  , "c1" : "00138"
  , "c1link" : "./qc/connect/mirror-client/src/main/java/org/apache/kafka/connect/mirror/Checkpoint.java.html#138"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.mirror.Checkpoint.valueSchema@POLYN183467 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00138] In method org.apache.kafka.connect.mirror.Checkpoint.valueSchema@POLYN174027 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

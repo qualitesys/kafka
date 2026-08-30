@@ -227,14 +227,14 @@ var maDataBlocs = {
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.ssl.SslFactory.SslFactory@POLYN231828 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.ssl.SslFactory.SslFactory@POLYN222388 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.ssl.SslFactory.SslFactory@POLYN231828 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.common.security.ssl.SslFactory.SslFactory@POLYN222388 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -255,35 +255,35 @@ var maDataBlocs = {
  , "c1" : "00087"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#87"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN232584 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00087] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN223144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00088"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#88"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN232584 the MagicNumber/String  'SslFactory was already configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00088] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN223144 the MagicNumber/String  'SslFactory was already configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00094"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#94"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN232584 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00094] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN223144 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN232584 the MagicNumber/String  'A client SSLEngine created with the provided settings ' should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN223144 the MagicNumber/String  'A client SSLEngine created with the provided settings ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00103"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#103"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN232584 the MagicNumber/String  'can't connect to a server SSLEngine created with those settings.' should be converted to const"
+ , "c3" : "QC-JAV000010[00103] In method org.apache.kafka.common.security.ssl.SslFactory.configure@POLYN223144 the MagicNumber/String  'can't connect to a server SSLEngine created with those settings.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -304,14 +304,14 @@ var maDataBlocs = {
  , "c1" : "00123"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#123"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.ssl.SslFactory.reconfigure@POLYN234106 the MagicNumber/String  'close stale ssl engine factory' should be converted to const"
+ , "c3" : "QC-JAV000010[00123] In method org.apache.kafka.common.security.ssl.SslFactory.reconfigure@POLYN224666 the MagicNumber/String  'close stale ssl engine factory' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00125"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#125"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.security.ssl.SslFactory.reconfigure@POLYN234106 the MagicNumber/String  'Created new {} SSL engine builder with keystore {} truststore {}' should be converted to const"
+ , "c3" : "QC-JAV000010[00125] In method org.apache.kafka.common.security.ssl.SslFactory.reconfigure@POLYN224666 the MagicNumber/String  'Created new {} SSL engine builder with keystore {} truststore {}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -332,14 +332,14 @@ var maDataBlocs = {
  , "c1" : "00131"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#131"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.security.ssl.SslFactory.instantiateSslEngineFactory@POLYN234740 the MagicNumber/String  'unchecked' should be converted to const"
+ , "c3" : "QC-JAV000010[00131] In method org.apache.kafka.common.security.ssl.SslFactory.instantiateSslEngineFactory@POLYN225300 the MagicNumber/String  'unchecked' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00135"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#135"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.security.ssl.SslFactory.instantiateSslEngineFactory@POLYN234740 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00135] In method org.apache.kafka.common.security.ssl.SslFactory.instantiateSslEngineFactory@POLYN225300 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -353,126 +353,126 @@ var maDataBlocs = {
  , "c1" : "00146"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#146"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00146] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00147"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#147"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'SslFactory has not been configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00147] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'SslFactory has not been configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00151"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#151"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00151] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00159"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#159"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00159] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00160"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#160"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00160] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00161"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#161"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'Cannot add SSL keystore to an existing listener for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00161] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'Cannot add SSL keystore to an existing listener for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00162"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#162"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'which no keystore was configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00162] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'which no keystore was configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00165"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#165"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00165] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00166"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#166"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'Cannot remove the SSL keystore from an existing listener for ' should be converted to const"
+ , "c3" : "QC-JAV000010[00166] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'Cannot remove the SSL keystore from an existing listener for ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00167"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#167"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'which a keystore was configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00167] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'which a keystore was configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00172"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#172"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00172] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00173"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#173"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'Cannot add SSL truststore to an existing listener for which no ' should be converted to const"
+ , "c3" : "QC-JAV000010[00173] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'Cannot add SSL truststore to an existing listener for which no ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00174"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#174"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'truststore was configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00174] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'truststore was configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00177"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00183"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#183"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'Validation of dynamic config update of SSLFactory failed.' should be converted to const"
+ , "c3" : "QC-JAV000010[00183] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'Validation of dynamic config update of SSLFactory failed.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN235534 the MagicNumber/String  'Validation of dynamic config update of SSLFactory failed: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method org.apache.kafka.common.security.ssl.SslFactory.createNewSslEngineFactory@POLYN226094 the MagicNumber/String  'Validation of dynamic config update of SSLFactory failed: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -500,14 +500,14 @@ var maDataBlocs = {
  , "c1" : "00197"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#197"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.security.ssl.SslFactory.createSslEngine@POLYN238258 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00197] In method org.apache.kafka.common.security.ssl.SslFactory.createSslEngine@POLYN228818 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00198"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#198"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.security.ssl.SslFactory.createSslEngine@POLYN238258 the MagicNumber/String  'SslFactory has not been configured.' should be converted to const"
+ , "c3" : "QC-JAV000010[00198] In method org.apache.kafka.common.security.ssl.SslFactory.createSslEngine@POLYN228818 the MagicNumber/String  'SslFactory has not been configured.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -528,7 +528,7 @@ var maDataBlocs = {
  , "c1" : "00242"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#242"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.security.ssl.SslFactory.peerHost@POLYN240110 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00242] In method org.apache.kafka.common.security.ssl.SslFactory.peerHost@POLYN230670 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -549,7 +549,7 @@ var maDataBlocs = {
  , "c1" : "00285"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#285"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.security.ssl.SslFactory.close@POLYN241767 the MagicNumber/String  'close engine factory' should be converted to const"
+ , "c3" : "QC-JAV000010[00285] In method org.apache.kafka.common.security.ssl.SslFactory.close@POLYN232327 the MagicNumber/String  'close engine factory' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -619,42 +619,42 @@ var maDataBlocs = {
  , "c1" : "00309"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#309"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN242897 the MagicNumber/String  'Keystore entries do not match, existing store contains %d entries, new store contains %d entries' should be converted to const"
+ , "c3" : "QC-JAV000010[00309] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN233457 the MagicNumber/String  'Keystore entries do not match, existing store contains %d entries, new store contains %d entries' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00312"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#312"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN242897 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00312] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN233457 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00316"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#316"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN242897 the MagicNumber/String  'Keystore DistinguishedName does not match: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00316] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN233457 the MagicNumber/String  'Keystore DistinguishedName does not match: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00317"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#317"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN242897 the MagicNumber/String  ' existing={alias=%s, DN=%s}, new={alias=%s, DN=%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00317] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN233457 the MagicNumber/String  ' existing={alias=%s, DN=%s}, new={alias=%s, DN=%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00321"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#321"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN242897 the MagicNumber/String  'Keystore SubjectAltNames do not match: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00321] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN233457 the MagicNumber/String  'Keystore SubjectAltNames do not match: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00322"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#322"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN242897 the MagicNumber/String  ' existing={alias=%s, SAN=%s}, new={alias=%s, SAN=%s}' should be converted to const"
+ , "c3" : "QC-JAV000010[00322] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.ensureCompatible@POLYN233457 the MagicNumber/String  ' existing={alias=%s, SAN=%s}, new={alias=%s, SAN=%s}' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -668,7 +668,7 @@ var maDataBlocs = {
  , "c1" : "00333"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#333"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.CertificateEntries@POLYN244675 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00333] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.CertificateEntries@POLYN235235 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -682,21 +682,21 @@ var maDataBlocs = {
  , "c1" : "00344"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#344"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.equals@POLYN245419 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00344] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.equals@POLYN235979 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00352"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#352"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.toString@POLYN245893 the MagicNumber/String  'subjectPrincipal=' should be converted to const"
+ , "c3" : "QC-JAV000010[00352] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.toString@POLYN236453 the MagicNumber/String  'subjectPrincipal=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00353"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#353"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.toString@POLYN245893 the MagicNumber/String  ', subjectAltNames=' should be converted to const"
+ , "c3" : "QC-JAV000010[00353] In method org.apache.kafka.common.security.ssl.SslFactory.CertificateEntries.toString@POLYN236453 the MagicNumber/String  ', subjectAltNames=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -724,35 +724,35 @@ var maDataBlocs = {
  , "c1" : "00380"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN247027 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN237587 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00380"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#380"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN247027 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00380] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN237587 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN247027 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN237587 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN247027 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN237587 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00382"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#382"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN247027 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00382] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.createSslEngineForValidation@POLYN237587 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -787,49 +787,49 @@ var maDataBlocs = {
  , "c1" : "00413"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#413"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00413] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00416"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#416"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00416] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00429"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#429"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  'Unexpected handshake status: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00429] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  'Unexpected handshake status: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00433"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#433"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00433] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00449"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#449"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  'Unexpected handshake status: ' should be converted to const"
+ , "c3" : "QC-JAV000010[00449] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  'Unexpected handshake status: ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00460"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#460"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  'Did not finish handshake' should be converted to const"
+ , "c3" : "QC-JAV000010[00460] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  'Did not finish handshake' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00463"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/ssl/SslFactory.java.html#463"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN248733 the MagicNumber/String  'Unexpected handshake status ' should be converted to const"
+ , "c3" : "QC-JAV000010[00463] In method org.apache.kafka.common.security.ssl.SslFactory.SslEngineValidator.handshake@POLYN239293 the MagicNumber/String  'Unexpected handshake status ' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

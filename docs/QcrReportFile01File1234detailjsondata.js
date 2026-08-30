@@ -134,7 +134,7 @@ var maDataBlocs = {
  , "c1" : "00042"
  , "c1link" : "./qc/connect/transforms/src/main/java/org/apache/kafka/connect/transforms/util/SchemaUtil.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN156797 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.connect.transforms.util.SchemaUtil.copySchemaBasics@POLYN147357 the MagicNumber/String  null should be converted to const"
 }} 
 ]
 , 

@@ -135,84 +135,84 @@ var maDataBlocs = {
  , "c1" : "00036"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#36"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00036] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00037"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#37"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  '' should be converted to const"
+ , "c3" : "QC-JAV000010[00037] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  '' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  'Empty JWT provided; expected three sections (header, payload, and signature)' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  'Empty JWT provided; expected three sections (header, payload, and signature)' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00044"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#44"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  '\\.' should be converted to const"
+ , "c3" : "QC-JAV000010[00044] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  '\\.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00046"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#46"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  3 should be converted to const"
+ , "c3" : "QC-JAV000010[00046] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  3 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00047"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#47"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  'Malformed JWT provided (%s); expected three sections (header, payload, and signature), but %s sections provided' should be converted to const"
+ , "c3" : "QC-JAV000010[00047] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  'Malformed JWT provided (%s); expected three sections (header, payload, and signature), but %s sections provided' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00051"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#51"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  'header' should be converted to const"
+ , "c3" : "QC-JAV000010[00051] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  'header' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00052"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#52"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  'payload' should be converted to const"
+ , "c3" : "QC-JAV000010[00052] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  'payload' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  2 should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  2 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00053"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#53"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN162183 the MagicNumber/String  'signature' should be converted to const"
+ , "c3" : "QC-JAV000010[00053] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.SerializedJwt@POLYN152743 the MagicNumber/String  'signature' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -233,7 +233,7 @@ var maDataBlocs = {
  , "c1" : "00101"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/security/oauthbearer/secured/SerializedJwt.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.validateSection@POLYN164162 the MagicNumber/String  'Malformed JWT provided; expected at least three sections (header, payload, and signature), but %s section missing' should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method org.apache.kafka.common.security.oauthbearer.secured.SerializedJwt.validateSection@POLYN154722 the MagicNumber/String  'Malformed JWT provided; expected at least three sections (header, payload, and signature), but %s section missing' should be converted to const"
 }} 
 ]
 , 

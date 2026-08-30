@@ -135,21 +135,21 @@ var maDataBlocs = {
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN159172 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN149732 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00039"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#39"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN159172 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00039] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN149732 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00042"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#42"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN159172 the MagicNumber/String  'Expected 1 &amp;lt;= minVersion &amp;lt;= maxVersion but received minVersion:%d, maxVersion:%d.' should be converted to const"
+ , "c3" : "QC-JAV000010[00042] In method org.apache.kafka.clients.admin.SupportedVersionRange.SupportedVersionRange@POLYN149732 the MagicNumber/String  'Expected 1 &amp;lt;= minVersion &amp;lt;= maxVersion but received minVersion:%d, maxVersion:%d.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -170,28 +170,28 @@ var maDataBlocs = {
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN159910 the MagicNumber/String  true should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN150470 the MagicNumber/String  true should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00064"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#64"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN159910 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00064] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN150470 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN159910 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.clients.admin.SupportedVersionRange.equals@POLYN150470 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/clients/admin/SupportedVersionRange.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.SupportedVersionRange.toString@POLYN160670 the MagicNumber/String  'SupportedVersionRange[min_version:%d, max_version:%d]' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.clients.admin.SupportedVersionRange.toString@POLYN151230 the MagicNumber/String  'SupportedVersionRange[min_version:%d, max_version:%d]' should be converted to const"
 }} 
 ]
 , 

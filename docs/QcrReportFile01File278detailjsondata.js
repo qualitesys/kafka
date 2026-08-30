@@ -171,63 +171,63 @@ var maDataBlocs = {
  , "c1" : "00060"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#60"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00060] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00061"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#61"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  'Principal is NULL' should be converted to const"
+ , "c3" : "QC-JAV000010[00061] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  'Principal is NULL' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00062"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#62"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00062] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00063"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#63"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  'Host is NULL' should be converted to const"
+ , "c3" : "QC-JAV000010[00063] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  'Host is NULL' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00065"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#65"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  'Operation is ANY' should be converted to const"
+ , "c3" : "QC-JAV000010[00065] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  'Operation is ANY' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00067"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#67"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  'Operation is UNKNOWN' should be converted to const"
+ , "c3" : "QC-JAV000010[00067] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  'Operation is UNKNOWN' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00069"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#69"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  'Permission type is ANY' should be converted to const"
+ , "c3" : "QC-JAV000010[00069] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  'Permission type is ANY' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00071"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#71"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  'Permission type is UNKNOWN' should be converted to const"
+ , "c3" : "QC-JAV000010[00071] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  'Permission type is UNKNOWN' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00072"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#72"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN163403 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00072] In method org.apache.kafka.common.acl.AccessControlEntryData.findIndefiniteField@POLYN153963 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -241,63 +241,63 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  '(principal=' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  '(principal=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00077"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  '&amp;lt;any&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  '&amp;lt;any&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  ', host=' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  ', host=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00078"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#78"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  '&amp;lt;any&amp;gt;' should be converted to const"
+ , "c3" : "QC-JAV000010[00078] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  '&amp;lt;any&amp;gt;' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00079"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#79"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  ', operation=' should be converted to const"
+ , "c3" : "QC-JAV000010[00079] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  ', operation=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  ', permissionType=' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  ', permissionType=' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00080"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#80"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN164159 the MagicNumber/String  ')' should be converted to const"
+ , "c3" : "QC-JAV000010[00080] In method org.apache.kafka.common.acl.AccessControlEntryData.toString@POLYN154719 the MagicNumber/String  ')' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -311,7 +311,7 @@ var maDataBlocs = {
  , "c1" : "00093"
  , "c1link" : "./qc/clients/src/main/java/org/apache/kafka/common/acl/AccessControlEntryData.java.html#93"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.acl.AccessControlEntryData.equals@POLYN164897 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00093] In method org.apache.kafka.common.acl.AccessControlEntryData.equals@POLYN155457 the MagicNumber/String  false should be converted to const"
 }} 
 ]
 , 
