@@ -211,7 +211,7 @@ var maDataBlocs = {
  , "c1" : "00077"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#77"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00077] In method java.io.Reader.Reader@POLYN182844 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00077] In method java.io.Reader.Reader@POLYN190028 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -232,63 +232,63 @@ var maDataBlocs = {
  , "c1" : "00100"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#100"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00100] In method java.io.Reader.read@POLYN183526 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00100] In method java.io.Reader.read@POLYN190710 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00101"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#101"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00101] In method java.io.Reader.read@POLYN183526 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00101] In method java.io.Reader.read@POLYN190710 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00102"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#102"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00102] In method java.io.Reader.read@POLYN183526 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00102] In method java.io.Reader.read@POLYN190710 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00120"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#120"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00120] In method java.io.Reader.read@POLYN184524 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00120] In method java.io.Reader.read@POLYN191708 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN184524 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN191708 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN184524 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN191708 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00121"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#121"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN184524 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00121] In method java.io.Reader.read@POLYN191708 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00122"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#122"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00122] In method java.io.Reader.read@POLYN184524 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00122] In method java.io.Reader.read@POLYN191708 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00124"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#124"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00124] In method java.io.Reader.read@POLYN184524 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00124] In method java.io.Reader.read@POLYN191708 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -302,7 +302,7 @@ var maDataBlocs = {
  , "c1" : "00140"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#140"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00140] In method java.io.Reader.read@POLYN185220 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00140] In method java.io.Reader.read@POLYN192404 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -330,56 +330,56 @@ var maDataBlocs = {
  , "c1" : "00177"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#177"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00177] In method java.io.Reader.skip@POLYN186356 the MagicNumber/String  0L should be converted to const"
+ , "c3" : "QC-JAV000010[00177] In method java.io.Reader.skip@POLYN193540 the MagicNumber/String  0L should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00178"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#178"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00178] In method java.io.Reader.skip@POLYN186356 the MagicNumber/String  'skip value is negative' should be converted to const"
+ , "c3" : "QC-JAV000010[00178] In method java.io.Reader.skip@POLYN193540 the MagicNumber/String  'skip value is negative' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00181"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#181"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00181] In method java.io.Reader.skip@POLYN186356 the MagicNumber/String  null should be converted to const"
+ , "c3" : "QC-JAV000010[00181] In method java.io.Reader.skip@POLYN193540 the MagicNumber/String  null should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00184"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#184"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00184] In method java.io.Reader.skip@POLYN186356 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00184] In method java.io.Reader.skip@POLYN193540 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00185"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#185"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00185] In method java.io.Reader.skip@POLYN186356 the MagicNumber/String  0 should be converted to const"
+ , "c3" : "QC-JAV000010[00185] In method java.io.Reader.skip@POLYN193540 the MagicNumber/String  0 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00186"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#186"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00186] In method java.io.Reader.skip@POLYN186356 the MagicNumber/String  1 should be converted to const"
+ , "c3" : "QC-JAV000010[00186] In method java.io.Reader.skip@POLYN193540 the MagicNumber/String  1 should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00204"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#204"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00204] In method java.io.Reader.ready@POLYN187758 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00204] In method java.io.Reader.ready@POLYN194942 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00215"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#215"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00215] In method java.io.Reader.markSupported@POLYN188016 the MagicNumber/String  false should be converted to const"
+ , "c3" : "QC-JAV000010[00215] In method java.io.Reader.markSupported@POLYN195200 the MagicNumber/String  false should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -393,14 +393,14 @@ var maDataBlocs = {
  , "c1" : "00232"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#232"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00232] In method java.io.Reader.mark@POLYN188452 the MagicNumber/String  'mark() not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00232] In method java.io.Reader.mark@POLYN195636 the MagicNumber/String  'mark() not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
  , "c1" : "00249"
  , "c1link" : "./qc/secujava/java.io.Reader.java.html#249"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00249] In method java.io.Reader.reset@POLYN189028 the MagicNumber/String  'reset() not supported' should be converted to const"
+ , "c3" : "QC-JAV000010[00249] In method java.io.Reader.reset@POLYN196212 the MagicNumber/String  'reset() not supported' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""

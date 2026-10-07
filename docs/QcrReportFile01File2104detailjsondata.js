@@ -2927,7 +2927,7 @@ var maDataBlocs = {
  , "c1" : "00222"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#222"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.paranoidChecks@POLYN308936 the MagicNumber/String  'Config for paranoid checks for RockDB and ColumnFamilies should be the same.' should be converted to const"
+ , "c3" : "QC-JAV000010[00222] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.paranoidChecks@POLYN335048 the MagicNumber/String  'Config for paranoid checks for RockDB and ColumnFamilies should be the same.' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2955,7 +2955,7 @@ var maDataBlocs = {
  , "c1" : "00253"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#253"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setMaxTotalWalSize@POLYN310027 the MagicNumber/String  'maxTotalWalSize' should be converted to const"
+ , "c3" : "QC-JAV000010[00253] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setMaxTotalWalSize@POLYN336139 the MagicNumber/String  'maxTotalWalSize' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -2997,7 +2997,7 @@ var maDataBlocs = {
  , "c1" : "00308"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#308"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalDir@POLYN311633 the MagicNumber/String  'walDir' should be converted to const"
+ , "c3" : "QC-JAV000010[00308] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalDir@POLYN337745 the MagicNumber/String  'walDir' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3109,7 +3109,7 @@ var maDataBlocs = {
  , "c1" : "00477"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#477"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalTtlSeconds@POLYN316364 the MagicNumber/String  'walTtlSeconds' should be converted to const"
+ , "c3" : "QC-JAV000010[00477] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalTtlSeconds@POLYN342476 the MagicNumber/String  'walTtlSeconds' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3123,7 +3123,7 @@ var maDataBlocs = {
  , "c1" : "00488"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#488"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalSizeLimitMB@POLYN316672 the MagicNumber/String  'walSizeLimitMB' should be converted to const"
+ , "c3" : "QC-JAV000010[00488] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalSizeLimitMB@POLYN342784 the MagicNumber/String  'walSizeLimitMB' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3256,7 +3256,7 @@ var maDataBlocs = {
  , "c1" : "00681"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#681"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalBytesPerSync@POLYN322198 the MagicNumber/String  'walBytesPerSync' should be converted to const"
+ , "c3" : "QC-JAV000010[00681] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalBytesPerSync@POLYN348310 the MagicNumber/String  'walBytesPerSync' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3319,7 +3319,7 @@ var maDataBlocs = {
  , "c1" : "00769"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#769"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[00769] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalRecoveryMode@POLYN324704 the MagicNumber/String  'walRecoveryMode' should be converted to const"
+ , "c3" : "QC-JAV000010[00769] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalRecoveryMode@POLYN350816 the MagicNumber/String  'walRecoveryMode' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3781,7 +3781,7 @@ var maDataBlocs = {
  , "c1" : "01469"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1469"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalFilter@POLYN344962 the MagicNumber/String  'walFilter' should be converted to const"
+ , "c3" : "QC-JAV000010[01469] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setWalFilter@POLYN371074 the MagicNumber/String  'walFilter' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3816,7 +3816,7 @@ var maDataBlocs = {
  , "c1" : "01513"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1513"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01513] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setManualWalFlush@POLYN346212 the MagicNumber/String  'manualWalFlush' should be converted to const"
+ , "c3" : "QC-JAV000010[01513] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.setManualWalFlush@POLYN372324 the MagicNumber/String  'manualWalFlush' should be converted to const"
 }} 
 ,
 { "ligne" : {"" : ""
@@ -3991,7 +3991,7 @@ var maDataBlocs = {
  , "c1" : "01783"
  , "c1link" : "./qc/streams/src/main/java/org/apache/kafka/streams/state/internals/RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.java.html#1783"
  , "c2" : "MAJOR"
- , "c3" : "QC-JAV000010[01783] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.logIgnoreWalOption@POLYN353815 the MagicNumber/String  'WAL is explicitly disabled by Streams in RocksDB. Setting option '{}' will be ignored' should be converted to const"
+ , "c3" : "QC-JAV000010[01783] In method org.apache.kafka.streams.state.internals.RocksDBGenericOptionsToDbOptionsColumnFamilyOptionsAdapter.logIgnoreWalOption@POLYN379927 the MagicNumber/String  'WAL is explicitly disabled by Streams in RocksDB. Setting option '{}' will be ignored' should be converted to const"
 }} 
 ]
 , 

@@ -4716,10 +4716,6 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.metadata.placement.UsableBroker", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.placement.UsableBroker | java.lang.String | java.io.ObjectStreamField"}
 ]} 
-, { "classe" : "org.apache.kafka.metadata.util.SnapshotFileReader", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.util.SnapshotFileReader | java.lang.String | java.io.ObjectStreamField"}
-]} 
-, { "classe" : "org.apache.kafka.metadata.util.SnapshotFileWriter", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 3 inclusions", "commentaire" : "org.apache.kafka.metadata.util.SnapshotFileWriter | org.apache.kafka.server.common.ApiMessageAndVersion | org.apache.kafka.common.protocol.ApiMessage"}
-]} 
 , { "classe" : "org.apache.kafka.queue.EventQueue", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 2 inclusions", "commentaire" : "org.apache.kafka.queue.EventQueue | org.apache.kafka.queue.EventQueue.Event"}
 ]} 
 , { "classe" : "org.apache.kafka.queue.EventQueue.DeadlineFunction", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
@@ -5057,7 +5053,7 @@ var mesDatas = {
 ]} 
 , { "classe" : "org.apache.kafka.shell.MetadataNodeManager.LogListener", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
-, { "classe" : "org.apache.kafka.shell.MetadataShell", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.shell.MetadataShell | org.apache.kafka.metadata.util.SnapshotFileReader | java.lang.String | java.io.ObjectStreamField"}
+, { "classe" : "org.apache.kafka.shell.MetadataShell", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "NonConforme 4 inclusions", "commentaire" : "org.apache.kafka.shell.MetadataShell | org.apache.kafka.shell.MetadataNodeManager | org.apache.kafka.queue.KafkaEventQueue | org.apache.kafka.queue.KafkaEventQueue.EventContext"}
 ]} 
 , { "classe" : "org.apache.kafka.shell.MetadataShell.Builder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
@@ -7272,6 +7268,14 @@ var mesDatas = {
 , { "classe" : "org.springframework.http.ResponseEntity.DefaultBuilder", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 0 inclusions", "commentaire" : ""}
 ]} 
 , { "classe" : "phproot.phproot", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "phproot.phproot"}
+]} 
+, { "classe" : "scala.Option", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "scala.Option"}
+]} 
+, { "classe" : "scala.collection.Iterator", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "scala.collection.Iterator"}
+]} 
+, { "classe" : "scala.collection.JavaConverters", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "scala.collection.JavaConverters"}
+]} 
+, { "classe" : "scala.collection.Map", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "scala.collection.Map"}
 ]} 
 , { "classe" : "secujava.Connection", "details" : [,{ "critere" : "ClasseRegleClasse04ExcessiveClassInclusionsDepthIsOver3", "valeur" : "Conforme 1 inclusions", "commentaire" : "secujava.Connection"}
 ]} 
@@ -9636,8 +9640,6 @@ var mesDatas = {
 { "classe" : "org.apache.kafka.metadata.placement.StripedReplicaPlacer.Rack", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "org.apache.kafka.metadata.placement.StripedReplicaPlacer.RackList", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "org.apache.kafka.metadata.placement.UsableBroker", "nbconforme" : "0", "nbnonconforme" : "1", "tauxconformite" : "0"},
-{ "classe" : "org.apache.kafka.metadata.util.SnapshotFileReader", "nbconforme" : "0", "nbnonconforme" : "1", "tauxconformite" : "0"},
-{ "classe" : "org.apache.kafka.metadata.util.SnapshotFileWriter", "nbconforme" : "0", "nbnonconforme" : "1", "tauxconformite" : "0"},
 { "classe" : "org.apache.kafka.queue.EventQueue", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "org.apache.kafka.queue.EventQueue.DeadlineFunction", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "org.apache.kafka.queue.EventQueue.EarliestDeadlineFunction", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
@@ -10887,6 +10889,10 @@ var mesDatas = {
 { "classe" : "org.springframework.http.ResponseEntity.BodyBuilder", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "org.springframework.http.ResponseEntity.DefaultBuilder", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "phproot.phproot", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
+{ "classe" : "scala.Option", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
+{ "classe" : "scala.collection.Iterator", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
+{ "classe" : "scala.collection.JavaConverters", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
+{ "classe" : "scala.collection.Map", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "secujava.Connection", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},
 { "classe" : "secujava.Cookie", "nbconforme" : "0", "nbnonconforme" : "1", "tauxconformite" : "0"},
 { "classe" : "sun.invoke.util.Wrapper", "nbconforme" : "1", "nbnonconforme" : "0", "tauxconformite" : "100"},

@@ -3287,7 +3287,6 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.common.record.MemoryRecords.RecordFilter.BatchRetentionResult"} ,
    {"caller" : "org.apache.kafka.common.record.MemoryRecordsBuilder"} ,
    {"caller" : "org.apache.kafka.common.record.MemoryRecordsBuilder.RecordsInfo"} ,
-   {"caller" : "org.apache.kafka.metadata.util.SnapshotFileReader"} ,
    {"caller" : "org.apache.kafka.raft.LeaderState"} ,
    {"caller" : "org.apache.kafka.raft.LeaderState.ReplicaState"} ,
    {"caller" : "org.apache.kafka.raft.internals.BatchAccumulator"} ,
@@ -4595,8 +4594,15 @@ var datadependUndefined = { "lesdatas" : [
    {"caller" : "org.apache.kafka.connect.runtime.WorkerTask"} ,
    {"caller" : "org.apache.kafka.connect.runtime.WorkerTask.TaskMetricsGroup"} ,
    ]},
-   { "undefinedclass" : "org.apache.kafka.raft.KafkaRaftClient.MAX_BATCH_SIZE_BYTES" , "callers" : [
-   {"caller" : "org.apache.kafka.metadata.util.SnapshotFileWriter"} ,
+   { "undefinedclass" : "org.apache.kafka.metadata.util.SnapshotFileReader" , "callers" : [
+   {"caller" : "org.apache.kafka.controller.BootstrapMetadata"} ,
+   {"caller" : "org.apache.kafka.controller.BootstrapMetadata.BootstrapListener"} ,
+   {"caller" : "org.apache.kafka.shell.MetadataShell"} ,
+   {"caller" : "org.apache.kafka.shell.MetadataShell.Builder"} ,
+   ]},
+   { "undefinedclass" : "org.apache.kafka.metadata.util.SnapshotFileWriter" , "callers" : [
+   {"caller" : "org.apache.kafka.controller.BootstrapMetadata"} ,
+   {"caller" : "org.apache.kafka.controller.BootstrapMetadata.BootstrapListener"} ,
    ]},
    { "undefinedclass" : "org.apache.kafka.raft.generated.QuorumStateData.Voter" , "callers" : [
    {"caller" : "org.apache.kafka.raft.FileBasedStateStore"} ,
@@ -5819,34 +5825,6 @@ var datadependUndefined = { "lesdatas" : [
    ]},
    { "undefinedclass" : "org.xerial.snappy.SnappyOutputStream" , "callers" : [
    {"caller" : "org.apache.kafka.common.compress.SnappyFactory"} ,
-   ]},
-   { "undefinedclass" : "scala.Option" , "callers" : [
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock"} ,
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread"} ,
-   {"caller" : "org.apache.kafka.jmh.metadata.MetadataRequestBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.partition.PartitionMakeFollowerBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.partition.UpdateFollowerFetchStateBenchmark.DelayedOperationsMock"} ,
-   {"caller" : "org.apache.kafka.jmh.server.CheckpointBench"} ,
-   {"caller" : "org.apache.kafka.jmh.server.PartitionCreationBench"} ,
-   ]},
-   { "undefinedclass" : "scala.collection.Iterator" , "callers" : [
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock"} ,
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread"} ,
-   ]},
-   { "undefinedclass" : "scala.collection.JavaConverters" , "callers" : [
-   {"caller" : "kafka.server.builders.LogManagerBuilder"} ,
-   {"caller" : "kafka.tools.StreamsResetter"} ,
-   {"caller" : "org.apache.kafka.jmh.acl.AclAuthorizerBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.server.CheckpointBench"} ,
-   {"caller" : "org.apache.kafka.jmh.server.PartitionCreationBench"} ,
-   ]},
-   { "undefinedclass" : "scala.collection.Map" , "callers" : [
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark"} ,
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.DelayedOperationsMock"} ,
-   {"caller" : "org.apache.kafka.jmh.fetcher.ReplicaFetcherThreadBenchmark.ReplicaFetcherBenchThread"} ,
    ]},
    { "undefinedclass" : "scala.compat.java8.OptionConverters" , "callers" : [
    {"caller" : "kafka.server.builders.KafkaApisBuilder"} ,
